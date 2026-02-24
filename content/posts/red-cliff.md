@@ -1,11 +1,15 @@
 ---
-title: "前赤壁賦"
-date: 2026-02-09T14:00:00+08:00
+title: 前赤壁賦
+date: 2026-02-09T06:00:00.000Z
 draft: false
-tags: ["古文", "蘇軾", "文學"]
-categories: ["The Observatory"]
-description: "蘇軾的前赤壁賦 — 壬戌之秋，七月既望，泛舟遊於赤壁之下。"
-author: "蘇軾"
+categories:
+  - The Observatory
+tags:
+  - 古文
+  - 蘇軾
+  - 文學
+description: 蘇軾的前赤壁賦 — 壬戌之秋，七月既望，泛舟遊於赤壁之下。
+author: 蘇軾
 ShowReadingTime: true
 ---
 

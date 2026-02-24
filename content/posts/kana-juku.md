@@ -1,9 +1,10 @@
 ---
 title: 假名私塾
 date: 2026-02-17T02:10:00.000Z
-draft: false
+draft: true
 categories:
   - The Workshop
+  - The Observatory
 tags:
   - iOS App
   - 日語學習
