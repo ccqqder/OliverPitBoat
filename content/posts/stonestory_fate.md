@@ -40,7 +40,7 @@ ShowReadingTime: true
 
 APP: [Link](https://apps.apple.com/tw/app/%E7%B4%85%E6%A8%93%E5%A4%A2%E6%A8%A1%E6%93%AC%E5%99%A8/id6759855416)
 
-![](/images/1024x1024bb.png)
+![紅樓夢模擬器](/OliverPitBoat/images/1024x1024bb.png)
 
 > 人生三大恨事： 一恨鰣魚多刺，二恨海棠無香，三恨《紅樓夢》未完。
 
