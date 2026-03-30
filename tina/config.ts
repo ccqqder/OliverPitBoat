@@ -62,16 +62,6 @@ export default defineConfig({
             label: "描述",
           },
           {
-            type: "string",
-            name: "author",
-            label: "作者",
-          },
-          {
-            type: "boolean",
-            name: "ShowReadingTime",
-            label: "顯示閱讀時間",
-          },
-          {
             type: "rich-text",
             name: "body",
             label: "內文",
@@ -111,12 +101,6 @@ export default defineConfig({
             label: "標題",
             isTitle: true,
             required: true,
-          },
-          {
-            type: "string",
-            name: "layout",
-            label: "Layout",
-            ui: { component: null },
           },
           {
             type: "string",
@@ -170,12 +154,6 @@ export default defineConfig({
             label: "標題",
             isTitle: true,
             required: true,
-          },
-          {
-            type: "string",
-            name: "layout",
-            label: "Layout",
-            ui: { component: null },
           },
           {
             type: "string",
