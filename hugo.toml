@@ -3,6 +3,7 @@ title = '核舟'
 theme = 'PaperMod'
 defaultContentLanguage = 'zh-tw'
 defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
 
 [pagination]
 pagerSize = 5
