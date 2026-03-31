@@ -10,10 +10,25 @@ tags:
   - udemy
   - claude
   - claude code
-  - 'gemini '
+  - gemini
   - gemini cli
   - swiftUI
   - UIKit
+keywords:
+  - AI代理
+  - AI agent
+  - claude code
+  - gemini cli
+  - iOS開發
+  - 獨立開發者
+  - 假名私塾
+  - kana juku
+  - 日語學習
+  - swiftUI
+  - On-Device AI
+  - opus
+  - 聊天機器人
+  - chatbot
 description: 分享我開發第一個app 假名私塾的經驗，正好也涵蓋我從聊天機器人改用ai agent的過程
 ---
 
@@ -41,7 +56,7 @@ description: 分享我開發第一個app 假名私塾的經驗，正好也涵蓋
 
 假名私塾: [URL](https://apps.apple.com/us/app/%E5%81%87%E5%90%8D%E7%A7%81%E5%A1%BE/id6756785942)
 
-![](/OliverPitBoat/images/IMG_2433.JPG)
+![](/images/IMG_2433.JPG)
 
 ***
 

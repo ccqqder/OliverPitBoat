@@ -8,6 +8,23 @@ tags:
   - Thermodynamics
   - 熱力學
   - 紅樓夢
+  - LLM
+  - 規則引擎
+keywords:
+  - 熱力學
+  - thermodynamics
+  - 紅樓夢
+  - 紅樓夢模擬器
+  - LLM
+  - 大語言模型
+  - 規則引擎
+  - 曹雪芹
+  - 結構化分析
+  - 文學預測
+  - 十二金釵
+  - 判詞
+  - 藝術選擇
+  - 模擬引擎
 description: 跟以前在於生產力突然變高很多 紅樓夢模擬器要做的是在這種生產力的協助下 用傳統結構化的方式，用極少的人力快速產出及累積成果
 ---
 
@@ -167,7 +184,7 @@ LLM(大語言模型)雖然本質只是文字接龍
 
 那就是將推論的引擎的層次主要分為客觀條件以及藝術選擇兩個部分。
 
-![](</OliverPitBoat/images/Simulator Screenshot - iPhone 17 - 2026-03-30 at 22.45.27.png>)![](</OliverPitBoat/images/Simulator Screenshot - iPhone 17 - 2026-03-30 at 22.45.20.png>)
+![](</images/Simulator Screenshot - iPhone 17 - 2026-03-30 at 22.45.27.png>)![](</images/Simulator Screenshot - iPhone 17 - 2026-03-30 at 22.45.20.png>)
 
 #### 客觀條件
 
