@@ -24,8 +24,8 @@ summary: 私のAppプロダクトポートフォリオ
 | English Title | Kana Juku                                                                               | English N + 1                                                            | Gantt Planet                                                                            |
 | プロダクトライン      | オフライン成長                                                                                 | オフライン成長                                                                   | オフライン成長                                                                                 |
 | カテゴリ          | 語学学習                                                                                    | 語学学習                                                                     | 内省・沈思                                                                                   |
-| App Store URL | [Link](https://apps.apple.com/tw/app/%E5%81%87%E5%90%8D%E7%A7%81%E5%A1%BE/id6756785942) | [Link](https://apps.apple.com/tw/app/%E8%8B%B1%E8%AA%9En-1/id6757358263) | [Link](https://apps.apple.com/tw/app/%E7%94%98%E7%89%B9%E6%98%9F%E7%90%83/id6757654373) |
-| 関連記事          | [開発ノート（一）](/ja/posts/kana_juku_dev_1/)                                     |                                                                          |                                                                                         |
+| App Store URL | [Link](https://apps.apple.com/app/id6756785942) | [Link](https://apps.apple.com/app/id6757358263) | [Link](https://apps.apple.com/app/id6757654373) |
+| 関連記事          | [開発ノート（一）](/ja/posts/kana_juku_dev_1/)                                     |                                                                          | [紹介](/ja/posts/gantt-planet-intro/)                                                    |
 
 ## リリース済み（続き）
 
@@ -35,7 +35,7 @@ summary: 私のAppプロダクトポートフォリオ
 | English Title | Python Dimensions                                                                     | Auditory Companion                                                                      | Atomic Presence                                                                         |
 | プロダクトライン      | オフライン成長                                                                               | オフライン成長                                                                                 | デジタル市民                                                                                  |
 | カテゴリ          | 語学学習                                                                                  | 内省・沈思                                                                                   | 民主EDC                                                                                   |
-| App Store URL | [Link](https://apps.apple.com/tw/app/python-%E9%BB%9E%E7%B7%9A%E9%9D%A2/id6759192089) | [Link](https://apps.apple.com/tw/app/%E8%81%BD%E8%A6%BA%E6%97%85%E4%BC%B4/id6759191303) | [Link](https://apps.apple.com/tw/app/%E5%8E%9F%E5%AD%90%E5%9C%A8%E5%A0%B4/id6759192866) |
+| App Store URL | [Link](https://apps.apple.com/app/id6759192089) | [Link](https://apps.apple.com/app/id6759191303) | [Link](https://apps.apple.com/app/id6759192866) |
 |               |                                                                                       |                                                                                         |                                                                                         |
 
 ***
@@ -48,7 +48,8 @@ summary: 私のAppプロダクトポートフォリオ
 | English Title | Sown Echoes                                                                             | （英語版なし）                                                                                                   |
 | プロダクトライン      | デジタル市民                                                                                  | オフライン成長                                                                                                   |
 | カテゴリ          | 民主EDC                                                                                   | 内省・沈思                                                                                                     |
-| App Store URL | [Link](https://apps.apple.com/tw/app/%E5%9B%9E%E8%81%B2%E7%A8%AE%E5%AD%90/id6759969494) | [Link](https://apps.apple.com/tw/app/%E7%B4%85%E6%A8%93%E5%A4%A2%E6%A8%A1%E6%93%AC%E5%99%A8/id6759855416) |
+| App Store URL | [Link](https://apps.apple.com/app/id6759969494) | [Link](https://apps.apple.com/app/id6759855416) |
+| 関連記事          |                                                                         | [運命と社会科学](/ja/posts/stonestory_fate/), [熱力学](/ja/posts/stonestory_thermodynamics/) |
 
 ***
 

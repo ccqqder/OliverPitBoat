@@ -53,7 +53,7 @@
 {{- end -}}
 
 {{- $disableImageOptimizationMD := .Page.Site.Params.disableImageOptimizationMD | default false -}}
-{{- $urlStr := .Destination | safeURL -}}
+{{- $urlStr := printf "%s" .Destination -}}
 {{- $url := urls.Parse $urlStr -}}
 {{- $altText := .Text -}}
 {{- $caption := .Title -}}
@@ -64,6 +64,9 @@
   {{- $resource = or ($.Page.Resources.GetMatch $urlStr) (resources.Get $urlStr) -}}
 {{- end -}}
 
+{{/* Hugo's relURL does not prepend baseURL path for "/"-prefixed URLs.
+     Strip the leading "/" so relURL correctly produces /baseURL/path. */}}
+{{- $fallbackSrc := strings.TrimPrefix "/" $urlStr | relURL -}}
 
 <figure
   {{- range $k, $v := .Attributes -}}
@@ -86,7 +89,7 @@
       {{- end -}}
     {{- end -}}
   {{- else -}}
-    {{- template "RenderImageSimple" (dict "imgObj" "" "src" ($urlStr | relURL) "alt" $altText) -}}
+    {{- template "RenderImageSimple" (dict "imgObj" "" "src" $fallbackSrc "alt" $altText) -}}
   {{- end -}}
 
   {{- template "RenderImageCaption" (dict "caption" $caption) -}}

@@ -26,7 +26,7 @@ summary: 我的 App 產品組合
 | 產品線           | 離線成長                                                                                    | 離線成長                                                                     | 離線成長                                                                                    |
 | 類別            | 語言學習                                                                                    | 語言學習                                                                     | 自省沉澱                                                                                    |
 | app store url | [Link](https://apps.apple.com/tw/app/%E5%81%87%E5%90%8D%E7%A7%81%E5%A1%BE/id6756785942) | [Link](https://apps.apple.com/tw/app/%E8%8B%B1%E8%AA%9En-1/id6757358263) | [Link](https://apps.apple.com/tw/app/%E7%94%98%E7%89%B9%E6%98%9F%E7%90%83/id6757654373) |
-| 相關文章          | [開發筆記(一)](/posts/kana_juku_dev_1/)                                        |                                                                          |                                                                                         |
+| 相關文章          | [開發筆記(一)](/posts/kana_juku_dev_1/)                                        |                                                                          | [介紹](/posts/gantt-planet-intro/)                                                       |
 
 ## 已上架(續)
 
@@ -50,6 +50,7 @@ summary: 我的 App 產品組合
 | 產品線           | 數位公民                                                                                    | 離線成長                                                                                                      |
 | 類別            | 民主EDC                                                                                   | 自省沉澱                                                                                                      |
 | app store url | [Link](https://apps.apple.com/tw/app/%E5%9B%9E%E8%81%B2%E7%A8%AE%E5%AD%90/id6759969494) | [Link](https://apps.apple.com/tw/app/%E7%B4%85%E6%A8%93%E5%A4%A2%E6%A8%A1%E6%93%AC%E5%99%A8/id6759855416) |
+| 相關文章          |                                                                         | [詩讖與社會科學](/posts/stonestory_fate/), [熱力學](/posts/stonestory_thermodynamics/) |
 
 ***
 
