@@ -1,0 +1,19 @@
+[[main]]
+  name = "ホーム"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "アプリ"
+  pageRef = "apps"
+  weight = 20
+
+[[main]]
+  name = "ブログ"
+  pageRef = "posts"
+  weight = 30
+
+[[main]]
+  name = "概要"
+  pageRef = "about"
+  weight = 40
