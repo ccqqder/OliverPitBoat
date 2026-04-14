@@ -1,7 +1,7 @@
 ---
 title: 甘特星球 — 以終為始，不被打擾的小宇宙。
 date: 2026-02-17T02:00:00.000Z
-draft: true
+draft: false
 categories:
   - The Workshop
 tags:
@@ -10,6 +10,14 @@ tags:
   - 3D 視覺化
   - On-Device AI
   - 重要不緊急
+keywords:
+  - 甘特星球
+  - Gantt Planet
+  - 人生甘特圖
+  - iOS App
+  - 3D 視覺化
+  - 自我管理
+summary: 甘特星球是一款人生甘特圖 App，把重要不緊急的人生項目視覺化，幫助你以終為始地安排時間與注意力。
 description: 甘特星球是一款視覺化心智鞏固 App，圖表跟3D 星球都是一種視覺隱喻，不斷強化使用者面對自己最珍貴的終極目標。
 ---
 
