@@ -98,6 +98,9 @@ And if you consider the span of an entire lifetime, every item is potentially re
 
 This solved the cramped UI problem while expressing a set of values I found genuinely meaningful.
 
+![Timeline main view](/images/screenshots/gantt-planet/timeline-en.png)
+*The actual timeline view: all life items converge on the calendar centerline — see everything that matters today at a glance*
+
 ## Completeness
 
 One of the App Store review guidelines is that your app can't just replicate what a plain text webpage could do.
@@ -119,6 +122,9 @@ So I built a 3D version of the Gantt chart, using a mine shaft and gemstones as 
 An even more radical approach would have been to keep only the planet version, but considering usability, review difficulty, and how intuitive it would be to understand, I decided to keep both views.
 
 ![](/images/gantt-planet-3d.png)
+
+![3D Planet View](/images/screenshots/gantt-planet/geo-view-en.png)
+*The 3D planet Gantt chart — mine shafts and gemstones as visual representations of life goals*
 
 ## Still Missing a Desk
 

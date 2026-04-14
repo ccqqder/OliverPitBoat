@@ -35,6 +35,21 @@ description: 甘特星球是一款視覺化心智鞏固 App，圖表跟3D 星球
 
 總之，這裡會講的比較直白，不是app store上面官方的寫法。
 
+![時間軸主畫面](/images/screenshots/gantt-planet/timeline-zh.png)
+*時間軸主畫面：以日曆為軸心，每天需要關注的人生項目一目瞭然*
+
+![時間軸篩選](/images/screenshots/gantt-planet/timeline-scrolled-zh.png)
+*往下捲動可看到更多項目與頻率篩選器，從每日到每年的目標都能追蹤*
+
+![3D 星球](/images/screenshots/gantt-planet/geo-view-zh.png)
+*3D 星球：習慣化身為螢幕上的小世界，隨著完成度不斷成長*
+
+![樹洞 AI](/images/screenshots/gantt-planet/tree-hole-zh.png)
+*AI 樹洞：內建離線 AI 模型，隨時聆聽你的心事*
+
+![藝術圖鑑](/images/screenshots/gantt-planet/art-collection-zh.png)
+*藝術圖鑑收集系統：超過 2,500 張插畫，完成任務即可解鎖*
+
 ## 發想
 
 原本只是因為市面上堪用的甘特圖都要收費(因為是生財工具，企業願意付錢)，想說自己寫一個。
