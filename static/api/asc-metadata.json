@@ -1,0 +1,141 @@
+{
+  "exported_at": "2026-03-05",
+  "source": "App Store Connect via asc CLI",
+  "apps": [
+    {
+      "id": "6759192866",
+      "bundleId": "com.qqder339.AtomicPresence",
+      "name": "Atomic Presence",
+      "state": "READY_FOR_SALE",
+      "version": "1.0",
+      "localizations": {
+        "en-US": {
+          "description": "Atomic Presence: Your Fortress of Digital Truth\n\nIn an age dominated by deepfakes and sophisticated video manipulation, how do you prove your recorded words are truly yours? Atomic Presence is a cutting-edge technical defense tool designed for interviewees, journalists, and legal professionals. It empowers you with the ability to technically self-verify.",
+          "keywords": "Deepfake,Evidence,Verify,Signature,Crypto,Video,Truth,Integrity,Audit,Security,Privacy,Proof,Trust",
+          "promoText": "Defend your truth in the age of AI deception. Atomic Presence utilizes cryptographic hash chains and digital signatures to provide non-repudiable proof of integrity."
+        },
+        "zh-Hant": {
+          "description": "「原子受訪」：您的數位真相堡壘\n\n在這個 Deepfake（深偽）與惡意剪輯盛行的時代，如何證明一段影片或音頻未經竄改？「原子受訪」是一款專為受訪者、記者及法律保全需求設計的技術防禦工具，賦予您「技術性自證」的能力。\n\n核心功能：\n\n密碼學雜湊鏈 (Hash Chain)： 即時產生 SHA-256 雜湊序列並轉換為動態 QR Code，錄製進影片中。任何秒級的刪減或插入都會破壞數學連貫性。\n\n數位簽章與存證： 使用 Curve25519 演算法對錄製檔案進行裝置端簽名，確保來源的不可否認性。\n\n音頻浮水印 (Audio Watermarking)： 在錄音中嵌入近超音波 (FSK) 訊號，即使影片被螢幕錄製或轉錄，浮水印仍可驗證。",
+          "keywords": "防深偽,防偽,錄音,存證,錄影,浮水印,密碼學,雜湊鏈,資安,反剪輯,證人,吹哨者,法律保全,數位簽章,影像驗證,防竄改,真實性,證據,AI防護,安全錄音,非法剪輯,原子,驗證",
+          "promoText": "在 AI 偽造盛行的時代，捍衛你的真實聲音。原子在場透過密碼學雜湊鏈與數位簽章技術，為你的錄音與影片提供不可否認的完整性證明，讓惡意剪輯與深偽技術無所遁形。"
+        }
+      }
+    },
+    {
+      "id": "6759969494",
+      "bundleId": "com.qqder339.MemeLives",
+      "name": "Meme Lives",
+      "state": "PREPARE_FOR_SUBMISSION",
+      "version": "1.0",
+      "localizations": {
+        "zh-Hant": {
+          "description": "Meme Lives（模因永生）讓你主動記錄思想、價值觀與人生經歷，化為結構化資料，創造一份訓練未來 AI 的數位遺產。\n\n你的模因將永遠活著\n你記錄的每一個想法、表達的每一個價值觀、述說的每一個故事，都會成為活的數位遺產。你獨特的視角將透過開放 AI 訓練資料，匯入人類的集體智慧。\n\n主要功能\n\n• 密碼學身份 — BIP-39 助記詞產生你的專屬 Meme ID，無需帳號、密碼或伺服器。\n• 語音與文字記錄 — 透過打字或語音輸入，搭配裝置端 Whisper 語音轉文字。\n• 引導式問卷 — 涵蓋人生敘事、價值觀、信念、人際關係、經歷、志向、情緒圖譜、知識專長八大類別。",
+          "keywords": "AI,數位遺產,日記,語音日記,價值觀,數位分身,開放資料,隱私,人生故事,回憶錄,智慧,模因,永生",
+          "promoText": "將你的思想、價值觀與人生經歷永久保存，成為 AI 的訓練素材。全程裝置端處理，不收集任何使用者資料。"
+        },
+        "en-US": {
+          "description": "Meme Lives lets you actively capture your thoughts, values, and life experiences as structured data — creating a digital legacy that trains future AI models to think like you.\n\nYOUR MEMES LIVE FOREVER\nEvery thought you record, every value you express, every story you tell becomes part of a living digital legacy.",
+          "keywords": "AI,digital legacy,journal,voice diary,values,digital twin,open data,privacy,life story,memoir,wisdom",
+          "promoText": "Preserve your thoughts, values, and life experiences for AI training. All processing on-device. No data collected."
+        }
+      }
+    },
+    {
+      "id": "6759192089",
+      "bundleId": "com.qqder339.PythonDimensions",
+      "name": "Python Dimensions",
+      "state": "READY_FOR_SALE",
+      "version": "1.01",
+      "localizations": {
+        "en-US": {
+          "description": "\"Points are vocabulary. Lines are syntax. Planes are logic. Construct your coding literacy in three dimensions.\"\n\nWhether you are a liberal arts student starting from scratch, a university student preparing for TQC+, or a CS major aiming for CPE, Python Dimensions helps you build a solid programming foundation.",
+          "keywords": "Python,coding,programming,compiler,AI,learn,PCEP,exam,TQC,CPE,offline,IDE,quiz,tutor",
+          "promoText": "Master Python with On-Device AI! Feature-packed with a local Python 3.13 runtime, AI Tutor, and 3-dimensional practice modes. Ace PCEP, TQC+, and CPE exams with offline.",
+          "whatsNew": "1. fix crashing while python execution failed\n2. other minor bug\n3. chinese screenshot"
+        },
+        "zh-Hant": {
+          "description": "「點是單字，線是語法，面是邏輯。三維度建構你的程式閱讀力。」\n\n無論你是零基礎的文科生、準備考取 TQC+ 的大學生，還是正在衝刺 CPE 的資工生，Python 點線面 (Python Dimensions) 都能透過系統化的題型與極致的隱私保護，幫助你建立扎實的程式基礎！\n\n本應用程式採用獨特的日系和紙文具風格（Japanese Stationery Design）打造，在充滿溫度的介面中，結合最先進的「端側 AI 技術」與「內建編譯環境」，讓你隨時隨地沉浸於 Python 的學習之中。",
+          "keywords": "Python,程式設計,AI,TQC,CPE,PCEP,檢定,題庫,編譯器,自學,寫程式,入門,教學,離線,刷題",
+          "promoText": "全新上線！「Python 點線面」內建端側 AI 助教與 Python 3.13 執行環境。無需連網，AI 隨時提供解題提示與詳解！結合「點選、填空、重組」三維度題型，內建 10 種實用程式碼模板與錯題雷達圖，提供簡單/一般雙難度切換，助你精準打擊弱點，無痛考取 PCEP、TQC+ 與 CPE 認證！",
+          "whatsNew": "1. 修正python 執行錯誤導致app閃退\n2. 其他小型錯誤\n3. 新增中文商店擷圖"
+        }
+      }
+    },
+    {
+      "id": "6759855416",
+      "bundleId": "com.qqder339.StoneStory",
+      "name": "StoneStory",
+      "state": "PREPARE_FOR_SUBMISSION",
+      "version": "1.0",
+      "localizations": {
+        "zh-Hant": {
+          "description": "",
+          "keywords": "",
+          "promoText": ""
+        }
+      }
+    },
+    {
+      "id": "6759191303",
+      "bundleId": "com.qqder339.AuditoryCompanion",
+      "name": "AuditoryCompanion",
+      "state": "READY_FOR_SALE",
+      "version": "1.0",
+      "localizations": {
+        "zh-Hant": {
+          "description": "聽覺旅伴：你的專屬聽覺避風港\n\n聽覺旅伴不僅僅是一個白噪音 App，它是專為專注、放鬆與沉浸式閱讀打造的精密音訊引擎。透過結合即時 DSP 訊號合成、108 種採樣混音台以及 AI 語音朗讀，為您創造隨心所欲的動態聲景。",
+          "keywords": "白噪音,環境音,睡眠,專注,放鬆,閱讀,朗讀,助眠,冥想,雨聲,讀書,學習,工作,失眠,聽書",
+          "promoText": "體驗 DSP 即時合成噪音、百種高傳真環境音效，以及沉浸式 TTS 閱讀器的完美結合。獨家「自動閃避 (Auto-Ducking)」技術，讓朗讀人聲與背景雨聲、柴火聲自然融合——全程裝置端運算，確保絕對隱私。"
+        },
+        "en-US": {
+          "description": "AuditoryCompanion: Your Personal Auditory Sanctuary\n\nAuditoryCompanion is not just a noise machine; it is a sophisticated audio engine designed for focus, relaxation, and immersive reading. By combining real-time DSP synthesis, a 108-sample mixing console, and an AI-powered reader, it creates a dynamic soundscape.",
+          "keywords": "white noise,ambient,sleep,focus,study,reading,tts,nature,relax,calm,rain,meditation,book,sound",
+          "promoText": "Experience the perfect harmony of synthesized noise, over 100 high-fidelity ambient scenes, and an immersive TTS reader."
+        }
+      }
+    },
+    {
+      "id": "6757654373",
+      "bundleId": "com.qqder339.life-harmony",
+      "name": "甘特星球",
+      "state": "READY_FOR_SALE",
+      "version": "1.0",
+      "localizations": {
+        "zh-Hant": {
+          "description": "歡迎來到甘特星球 —— 讓你的生活目標，成為星空下最美的風景。\n\n厭倦了單調枯燥的待辦清單嗎？在《甘特星球》裡，養成習慣不再是壓力，而是一段療癒的星際旅程。我們將時間管理遊戲化，讓你化身為星球的守護者，透過完成生活目標來開採寶石、豐富你的星球生態。\n\n【核心特色】\n\n沉浸式 3D 星球體驗 告別死板的文字列表！你的每一個習慣都會化身為螺旋軌道上的寶石。隨著日夜交替與真實天氣變化（晴雨風雪），你的星球將呈現出不同的迷人風貌。看著礦車在軌道上勤奮穿梭，聽著療癒的白噪音，感受成長的軌跡。\n\nAI 樹洞：專屬於你的情感避風港 心裡有話想說？內建強大的離線 AI 模型（On-device LLM），提供私密的對話空間。",
+          "keywords": "習慣養成,目標管理,日記,療癒,待辦事項,AI樹洞,打卡,時間軸,專注,計畫表,自我成長,手帳,habit,todo,journal,planner,focus,3D,可愛,心理,情緒,行事曆,自律",
+          "promoText": "把自律變成一場奇幻星際冒險！《甘特星球》結合 3D 視覺化習慣養成與 AI 樹洞暖心陪伴。將枯燥的待辦事項轉化為礦業開採，完成目標即可解鎖 2500+ 張精美藝術貼紙。在這個專屬於你的星球上，每一次堅持都會開出花朵。資料 100% 本地端運行，給予你最私密、安全的成長空間。"
+        }
+      }
+    },
+    {
+      "id": "6756785942",
+      "bundleId": "qqder339.kana-juku",
+      "name": "假名私塾",
+      "state": "READY_FOR_SALE",
+      "version": "1.1",
+      "localizations": {
+        "zh-Hant": {
+          "description": "【專為中文母語者打造，開啟 AI 時代的日語自學新篇章】\n\n還在用羅馬拼音死記硬背五十音嗎？是時候改變學習方式了！\n本 App 專為中文使用者設計，透過直觀的「字形記憶」與「輸入訓練」，助你快速跨越日語學習的第一道門檻。\n打通所有關節：只要你能熟練記憶並「輸出」假名，就能利用 AI 及網路拓展學習邊界。",
+          "keywords": "日文,日語,五十音,平假名,片假名,手寫,字典,翻譯,自學,單字,學習,鍵盤,kana,japanese,hiragana,katakana,ai,jlpt",
+          "promoText": "專為中文母語者設計的五十音學習教材，不會羅馬拼音也可以掌握假名發音及字型。\nApp內建客製化鍵盤，不需安裝系統日文鍵盤，與五十音佈局相仿，直觀好記憶！\n搭載本地大模型輔助學習，讓你體驗最新的on device AI技術，不需聯網，完全隱私。",
+          "whatsNew": "1.增加 ios18 支援\n2.改善本地大模型存儲路徑"
+        }
+      }
+    },
+    {
+      "id": "6757358263",
+      "bundleId": "com.qqder339.EnglishPlusOne",
+      "name": "英語N+1",
+      "state": "READY_FOR_SALE",
+      "version": "1.0",
+      "localizations": {
+        "zh-Hant": {
+          "description": "【為什麼選擇 英語 N+1？】\n我們相信最好的學習是在「理解」與「挑戰」之間找到平衡，在你的舒適圈內加上剛好的挑戰!。\n採用CEFR 等級測驗並提供常見檢定等級對照\n透過最新最熱門的地端人工智慧技術，我們為您打造了一個完全私密、流暢且智慧的英語環境。",
+          "keywords": "英語,學習,AI對話,口說,離線,翻譯,字典,多益,托福,雅思,全民英檢,單字,Llama,Qwen,在地化AI,English,Learn,Tutor,Privacy",
+          "promoText": "「您的私人 AI 外教，完全離線執行。」 擺脫網路依賴與隱私疑慮！\n「英語 N+1」採用先進的 On-Device AI 技術，將 Llama 3.2 與 Qwen 2.5 模型裝入您的口袋。\n無論在飛機上還是地鐵裡，隨時隨地開啟真人口感對話，並生成專屬於您的學習文章。"
+        }
+      }
+    }
+  ]
+}
