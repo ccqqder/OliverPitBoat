@@ -17,3 +17,13 @@
   name = "About"
   pageRef = "about"
   weight = 40
+
+[[footer]]
+  name = "Support"
+  pageRef = "support"
+  weight = 10
+
+[[footer]]
+  name = "Privacy"
+  pageRef = "privacy"
+  weight = 20

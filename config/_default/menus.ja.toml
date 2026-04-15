@@ -17,3 +17,13 @@
   name = "概要"
   pageRef = "about"
   weight = 40
+
+[[footer]]
+  name = "サポート"
+  pageRef = "support"
+  weight = 10
+
+[[footer]]
+  name = "プライバシー"
+  pageRef = "privacy"
+  weight = 20

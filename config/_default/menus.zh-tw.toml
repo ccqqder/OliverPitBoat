@@ -4,7 +4,7 @@
   weight = 10
 
 [[main]]
-  name = "App 矩陣"
+  name = "Apps"
   pageRef = "apps"
   weight = 20
 
@@ -17,3 +17,13 @@
   name = "關於"
   pageRef = "about"
   weight = 40
+
+[[footer]]
+  name = "支援"
+  pageRef = "support"
+  weight = 10
+
+[[footer]]
+  name = "隱私政策"
+  pageRef = "privacy"
+  weight = 20

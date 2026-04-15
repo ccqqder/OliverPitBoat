@@ -1,5 +1,7 @@
 - slug: python-dimensions
   shipped: true
+  line: offline-growth
+  category: language-learning
   asset_slug: python-dimensions
   name: Python Dimensions
   name_zh: Python 點線面
@@ -35,6 +37,8 @@
 
 - slug: kana-juku
   shipped: true
+  line: offline-growth
+  category: language-learning
   asset_slug: kana-juku
   name: Kana Juku
   name_zh: 假名私塾
@@ -59,6 +63,8 @@
 
 - slug: english-n-plus-1
   shipped: true
+  line: offline-growth
+  category: language-learning
   asset_slug: english-plus-one
   name: English N+1
   name_zh: 英語N+1
@@ -94,6 +100,8 @@
 
 - slug: gantt-planet
   shipped: true
+  line: offline-growth
+  category: self-reflection
   asset_slug: gantt-planet
   name: Gantt Planet
   name_zh: 甘特星球
@@ -133,6 +141,8 @@
 
 - slug: auditory-companion
   shipped: true
+  line: offline-growth
+  category: self-reflection
   asset_slug: auditory-companion
   name: AuditoryCompanion
   name_zh: 聽覺旅伴
@@ -167,6 +177,8 @@
 
 - slug: atomic-presence
   shipped: true
+  line: digital-citizen
+  category: democracy-edc
   asset_slug: atomic-presence
   name: Atomic Presence
   name_zh: 原子受訪
@@ -201,6 +213,8 @@
 
 - slug: sown-echoes
   shipped: true
+  line: digital-citizen
+  category: democracy-edc
   asset_slug: meme-lives
   name: Sown Echoes
   name_zh: 回聲種子
@@ -223,6 +237,8 @@
 
 - slug: stonestory
   shipped: true
+  line: offline-growth
+  category: self-reflection
   asset_slug: stone-story
   name: StoneStory
   name_zh: 紅樓夢模擬器

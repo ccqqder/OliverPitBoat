@@ -5,6 +5,7 @@ defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 hasCJKLanguage = true
 enableEmoji = true
+canonifyURLs = true
 summaryLength = 0
 
 [pagination]
