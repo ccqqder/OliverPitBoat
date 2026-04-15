@@ -13,26 +13,50 @@
   terms_url: null
   legacy_legal_source: /Users/Drops/Data/qqder339/qqder339-legal/python-dimensions/privacy.html
   tagline: 三維度 Python 學習工具，內建端側 AI 助教與 Python 3.13 執行環境。
+  tagline_en: A three-dimensional Python learning tool with an on-device AI tutor and a built-in Python 3.13 runtime.
+  tagline_ja: 三次元構成の Python 学習ツール。端末内 AI チューターと Python 3.13 実行環境を内蔵。
   description: 無論你是零基礎初學者、準備考取 TQC+ 的大學生，還是正在衝刺 CPE 的資工生，Python 點線面都能幫助你建立扎實的程式基礎。
+  description_en: Whether you're starting from zero, preparing for TQC+, or heading toward CPE, Python Dimensions helps you build a solid programming foundation.
+  description_ja: 完全な初心者でも、TQC+ を目指す大学生でも、CPE に挑む情報系の学生でも、Python 点線面はしっかりしたプログラミング基礎を築く助けになります。
   features:
     - 三維度題型訓練：選擇題、克漏字、程式碼排列一次打通。
     - 端側 AI 助教：離線 LLM 搭配 RAG，根據錯題提供提示。
     - 內建 Python 3.13 執行環境：可以直接練習與驗證程式碼。
     - 300+ 題庫與雷達圖能力分析：支援 PCEP、TQC+、CPE 準備。
     - 多模型本地學習環境：可依裝置能力選擇適合的 AI 組態。
+  features_en:
+    - Three question types — multiple choice, cloze, and code-ordering — covering syntax, local logic, and full program flow.
+    - On-device AI tutor — an offline LLM with RAG gives hints based on your incorrect answers.
+    - Built-in Python 3.13 runtime — run and verify code directly inside the app.
+    - 300+ questions with radar-chart analytics — supports PCEP, TQC+, and CPE preparation.
+    - Device-adaptive model loading — select the AI configuration that fits your device.
+  features_ja:
+    - 三種類の問題形式：選択問題・穴埋め・コード並べ替えで構文から全体像まで一気通貫。
+    - オンデバイスの AI チューター：オフライン LLM と RAG を組み合わせ、誤答に合わせてヒントを提示。
+    - 内蔵 Python 3.13 ランタイム：アプリ内で直接コードを実行し動作を確認できる。
+    - 300問以上の問題とレーダーチャート分析：PCEP、TQC+、CPE に対応。
+    - 端末適応型のモデル選択：デバイス性能に応じた AI 構成を選べる。
   screenshots:
-    - src: /images/screenshots/python-dimensions/practice.png
+    - src: /images/screenshots/python-dimensions/practice-zh.png
       alt: Python 點線面練習模式
       caption: 三種練習維度，循序漸進建立語法與邏輯感。
-    - src: /images/screenshots/python-dimensions/cloze.png
+      caption_en: Three practice dimensions for building syntax and logic step by step.
+      caption_ja: 三つの練習次元で、構文と論理を段階的に身につける。
+    - src: /images/screenshots/python-dimensions/cloze-zh.png
       alt: Python 點線面填空題
       caption: 從下拉選單補全語法，練熟常用方法與關鍵字。
-    - src: /images/screenshots/python-dimensions/parsons.png
+      caption_en: Fill in syntax from drop-downs to internalise common methods and keywords.
+      caption_ja: ドロップダウンから構文を補完し、よく使うメソッドやキーワードを定着させる。
+    - src: /images/screenshots/python-dimensions/parsons-zh.png
       alt: Python 點線面程式碼排序
       caption: 以拖曳方式重建正確程式流程，訓練完整邏輯。
-    - src: /images/screenshots/python-dimensions/playground.png
+      caption_en: Drag to reconstruct the correct program flow and practise end-to-end logic.
+      caption_ja: ドラッグで正しいコードフローを組み立て、全体の論理を練習する。
+    - src: /images/screenshots/python-dimensions/playground-zh.png
       alt: Python 點線面遊樂場
       caption: 內建遊樂場可直接執行 Python 程式碼並查看輸出。
+      caption_en: The built-in playground runs Python directly and shows live output.
+      caption_ja: 内蔵プレイグラウンドで Python コードをその場で実行して出力を確認できる。
   article_links: []
 
 - slug: kana-juku
@@ -50,12 +74,26 @@
   terms_url: null
   legacy_legal_source: /Users/Drops/Data/qqder339/qqder339-legal/kana-juku/privacy.html
   tagline: 專為中文母語者設計的五十音學習工具，內建客製化鍵盤與端側 AI。
+  tagline_en: A kana-learning tool built for Chinese native speakers, with a custom keyboard and on-device AI.
+  tagline_ja: 中国語母語話者のために設計された五十音学習ツール。カスタムキーボードと端末内 AI を搭載。
   description: 假名私塾把假名字形、筆順、輸入與 AI 輔助結合成一個適合中文使用者的日語入門系統。
+  description_en: Kana Juku brings glyph shapes, stroke order, typing practice, and AI assistance together into a Japanese starter system tailored to Chinese learners.
+  description_ja: 仮名の字形、筆順、入力練習、AI サポートを一つにまとめ、中国語圏の学習者に向いた日本語入門システムに仕上げています。
   features:
     - 客製化五十音鍵盤：不依賴系統日文鍵盤，所見即所得。
     - 手寫辨識與影像辨識：用最直覺的方式記住字形。
     - 語音辨識與 AI 輔助：拿來練習發音與理解都很合適。
     - 離線 AI 中樞：本地執行，保留隱私與學習節奏。
+  features_en:
+    - Custom kana keyboard — works without relying on the system Japanese keyboard; what you see is what you type.
+    - Handwriting and image recognition — memorise glyph shapes in the most intuitive way.
+    - Speech recognition and AI support — useful for both pronunciation practice and comprehension.
+    - Offline AI core — everything runs locally, protecting your privacy and learning rhythm.
+  features_ja:
+    - カスタム五十音キーボード：システムの日本語キーボードに依存せず、見たままを入力できる。
+    - 手書き認識と画像認識：最も直感的な方法で字形を覚えられる。
+    - 音声認識と AI 補助：発音練習にも理解のサポートにも使える。
+    - オフライン AI コア：端末内で動作し、プライバシーと学習のリズムを守る。
   screenshots: []
   article_links:
     - title: 開發筆記（一）
@@ -76,26 +114,50 @@
   terms_url: null
   legacy_legal_source: /Users/Drops/Data/qqder339/qqder339-legal/english-n-plus-1/privacy.html
   tagline: 離線 AI 英語外教，依你的 CEFR 程度動態生成剛好多一點挑戰的內容。
+  tagline_en: An offline AI English tutor that generates material just slightly above your CEFR level.
+  tagline_ja: オフライン AI 英語チューターが、CEFR レベルに合わせて「もう少しだけ挑戦的」な教材を生成します。
   description: 英語 N+1 以 Krashen 的 i+1 理論為核心，結合裝置端 AI 與 CEFR 分級，提供真正貼近目前程度的閱讀與複習材料。
+  description_en: Built on Krashen's i+1 theory, English N+1 combines on-device AI with CEFR grading to deliver reading and review material that truly fits your current level.
+  description_ja: Krashen の i+1 理論を核に、端末内 AI と CEFR レベル判定を組み合わせて、今のレベルに寄り添った読解・復習教材を届けます。
   features:
     - CEFR 分級測驗：用 10 題快速定位 A1 到 C2 的大致程度。
     - AI 生成文章：依主題與難度即時生成可閱讀內容。
     - 單字收藏、分級字庫與閃卡複習：把新詞自動排進復習節奏。
     - 硬體自適應模型選擇：根據設備能力推薦最佳本地模型。
     - 完全離線學習：不需網路即可閱讀、生成與複習。
+  features_en:
+    - CEFR placement test — 10 questions to quickly locate your level from A1 to C2.
+    - AI-generated articles — reading material produced on demand by topic and difficulty.
+    - Vocabulary collection, graded lexicon, and flashcard review — new words slot into your review cadence automatically.
+    - Hardware-adaptive model selection — recommends the best local model for your device.
+    - Fully offline learning — read, generate, and review without a network connection.
+  features_ja:
+    - CEFR レベル判定：10 問で A1〜C2 のおおよそのレベルを素早く把握。
+    - AI 生成記事：トピックと難易度に応じて読める文章をその場で生成。
+    - 単語コレクション・レベル別語彙・フラッシュカード復習：新しい語を自動的に復習リズムへ。
+    - ハードウェア適応型モデル選択：端末性能に応じて最適なローカルモデルを提案。
+    - 完全オフライン学習：ネットワーク不要で読解・生成・復習が完結。
   screenshots:
     - src: /images/screenshots/english-plus-one/home-zh.png
       alt: 英語N+1 首頁
       caption: 首頁會顯示目前程度，並可直接挑選主題生成文章。
+      caption_en: The home screen shows your current level and lets you pick a topic to generate an article.
+      caption_ja: ホーム画面で現在のレベルが表示され、そのままトピックを選んで記事を生成できる。
     - src: /images/screenshots/english-plus-one/placement-test-zh.png
       alt: 英語N+1 分級測驗
       caption: 用少量題目快速估計 CEFR 等級，避免不必要的挫折。
+      caption_en: A short placement test estimates your CEFR range quickly without unnecessary friction.
+      caption_ja: 少ない問題数で CEFR レベルをすばやく推定し、無駄なつまずきを避ける。
     - src: /images/screenshots/english-plus-one/flashcard-review-zh.png
       alt: 英語N+1 單字複習
       caption: 收藏過的單字會進入閃卡式複習流程。
+      caption_en: Saved words feed directly into a flashcard-style review cycle.
+      caption_ja: 保存した単語はそのままフラッシュカード式の復習フローに流れ込む。
     - src: /images/screenshots/english-plus-one/model-load-zh.png
       alt: 英語N+1 模型選擇
       caption: 根據記憶體與裝置能力載入合適的本地模型。
+      caption_en: Local models are loaded according to device memory and capability.
+      caption_ja: 端末のメモリや性能に応じて、適切なローカルモデルをロードする。
   article_links: []
 
 - slug: gantt-planet
@@ -113,28 +175,52 @@
   terms_url: null
   legacy_legal_source: /Users/Drops/Data/qqder339/qqder339-legal/gantt-planet/privacy.html
   tagline: 3D 視覺化習慣養成加上 AI 樹洞，把自律變成一場安靜的星際冒險。
+  tagline_en: 3D habit visualisation paired with an AI tree hole — turning self-discipline into a quiet interstellar journey.
+  tagline_ja: 3D で可視化する習慣化と AI の樹洞で、自己管理を静かな星間の旅に変える。
   description: 甘特星球把目標管理、情緒沉澱與藝術收集系統綁成一個不靠伺服器也能長期陪伴你的個人宇宙。
+  description_en: Gantt Planet binds goal tracking, emotional reflection, and an artwork collection system into a personal universe that can keep you company long-term without any server.
+  description_ja: 目標管理、感情の整理、アートコレクションをまとめ、サーバーに頼らず長期間寄り添える個人宇宙を作り上げます。
   features:
     - 多維度時間軸：把重要但不緊急的人生項目排進可長期追蹤的節奏。
     - 3D 星球視圖：以寶石、軌道與礦坑視覺化你的成長進度。
     - AI 樹洞：本地模型提供私密對話與反思陪伴。
     - 藝術圖鑑收集：完成目標後逐步解鎖插畫作品與收藏回饋。
+  features_en:
+    - Multi-dimensional timeline — place important-but-not-urgent life items into a cadence you can track long-term.
+    - 3D planet view — visualise progress as gems, orbits, and mines.
+    - AI tree hole — a local model offers private conversation and reflective companionship.
+    - Artwork collection — completing goals gradually unlocks illustrations and collectible rewards.
+  features_ja:
+    - 多次元タイムライン：重要だが緊急ではない人生項目を、長期で追えるリズムに配置。
+    - 3D 惑星ビュー：宝石、軌道、鉱山で成長の進み具合を可視化。
+    - AI 樹洞：ローカルモデルが、プライベートな対話と内省の伴走を提供。
+    - アート図鑑コレクション：目標を達成するたびに、イラスト作品やコレクション報酬が解放。
   screenshots:
     - src: /images/screenshots/gantt-planet/timeline-zh.png
       alt: 甘特星球時間軸主畫面
       caption: 以日曆中線統整今天需要關注的所有項目。
+      caption_en: The central calendar line groups everything worth paying attention to today.
+      caption_ja: カレンダーの中線上に、今日気にかけたい項目をまとめて表示する。
     - src: /images/screenshots/gantt-planet/timeline-scrolled-zh.png
       alt: 甘特星球時間軸篩選畫面
       caption: 從每日到每年的頻率都能放進同一條時間軸裡查看。
+      caption_en: Daily, weekly, and yearly cadences all fit on the same timeline.
+      caption_ja: 日次から年次までの頻度を、同じタイムライン上で一覧できる。
     - src: /images/screenshots/gantt-planet/geo-view-zh.png
       alt: 甘特星球 3D 星球畫面
       caption: 3D 星球視圖讓習慣養成變成可感知的地景。
+      caption_en: The 3D planet view turns habit-building into a tangible landscape.
+      caption_ja: 3D 惑星ビューで、習慣化を目に見える地形として眺められる。
     - src: /images/screenshots/gantt-planet/tree-hole-zh.png
       alt: 甘特星球 AI 樹洞
       caption: 在完全離線的前提下與樹洞對話、整理心事。
+      caption_en: Talk through what's on your mind in the tree hole — entirely offline.
+      caption_ja: 完全オフラインで「樹洞」と会話し、心の中を整理できる。
     - src: /images/screenshots/gantt-planet/art-collection-zh.png
       alt: 甘特星球藝術圖鑑
       caption: 完成任務即可解鎖藝術圖鑑與更多收藏。
+      caption_en: Completing tasks unlocks artwork and additional items in the collection.
+      caption_ja: タスクを達成するとアートワークや新たなコレクションがアンロックされる。
   article_links:
     - title: 開發者考量與生態位
       url: /posts/gantt-planet-intro/
@@ -154,25 +240,47 @@
   terms_url: null
   legacy_legal_source: /Users/Drops/Data/qqder339/qqder339-legal/auditory-companion/privacy.html
   tagline: DSP 即時合成噪音、108 種環境音，外加沉浸式 TTS 朗讀，全部裝置端運算。
+  tagline_en: Real-time DSP-synthesized noise, 108 ambient sounds, and immersive TTS reading — all computed on-device.
+  tagline_ja: DSP によるリアルタイム合成ノイズ、108 種類の環境音、没入型 TTS 読み上げ。すべて端末内処理で完結。
   description: 聽覺旅伴把白噪音、環境音混音和朗讀功能收進同一個精密音訊引擎，專注與放鬆都能用。
+  description_en: AuditoryCompanion packs white noise, ambient mixing, and text reading into one precise audio engine — equally suited to focus sessions and relaxation.
+  description_ja: ホワイトノイズ、環境音ミキシング、読み上げ機能を一つの精密な音声エンジンにまとめ、集中にもリラックスにも使えます。
   features:
     - 噪音合成器：即時 DSP 合成白、粉紅、棕、藍四種噪音色彩。
     - 場景混音台：用 108 個音頻樣本打造自己的聲景配方。
     - 沉浸式 READER：支援本地 TTS 朗讀與背景音自動閃避。
     - 完全離線音訊處理：不需上傳文本即可朗讀、混音與播放。
+  features_en:
+    - Noise synthesizer — real-time DSP synthesis of white, pink, brown, and blue noise colours.
+    - Scene mixer — build your own soundscape recipe from 108 audio samples.
+    - Immersive READER — local TTS reading with automatic background-audio ducking.
+    - Fully offline audio processing — read, mix, and play without uploading any text.
+  features_ja:
+    - ノイズシンセサイザー：ホワイト・ピンク・ブラウン・ブルーの 4 色ノイズをリアルタイム DSP 合成。
+    - シーンミキサー：108 種類の音声サンプルで自分だけのサウンドレシピを構築。
+    - 没入型 READER：ローカル TTS 読み上げに対応し、背景音は自動でダッキング。
+    - 完全オフライン音声処理：テキストをアップロードせずに読み上げ・ミックス・再生が可能。
   screenshots:
-    - src: /images/screenshots/auditory-companion/synthesis.png
+    - src: /images/screenshots/auditory-companion/synthesis-zh.png
       alt: 聽覺旅伴噪音合成器
       caption: 可微調色彩、亮度與深度的 DSP 噪音合成器。
-    - src: /images/screenshots/auditory-companion/scenes.png
+      caption_en: A DSP noise synthesizer with adjustable colour, brightness, and depth.
+      caption_ja: カラー・明度・深さを微調整できる DSP ノイズシンセサイザー。
+    - src: /images/screenshots/auditory-companion/scenes-zh.png
       alt: 聽覺旅伴場景混音
       caption: 把循環聲與事件聲堆疊成自己的環境音場。
-    - src: /images/screenshots/auditory-companion/reader.png
+      caption_en: Layer looping and event sounds into a custom ambient soundscape.
+      caption_ja: ループ音とイベント音を重ねて、自分だけの環境サウンドを構築する。
+    - src: /images/screenshots/auditory-companion/reader-zh.png
       alt: 聽覺旅伴閱讀模式
       caption: 在閱讀模式中直接用本地 TTS 朗讀文本。
-    - src: /images/screenshots/auditory-companion/focus-player.png
+      caption_en: Reader mode speaks text aloud with on-device TTS.
+      caption_ja: リーダーモードでは端末内 TTS がそのままテキストを読み上げる。
+    - src: /images/screenshots/auditory-companion/focus-player-zh.png
       alt: 聽覺旅伴專注播放器
       caption: 全螢幕播放器將專注聲景與朗讀整合成一個介面。
+      caption_en: A full-screen player unifies the focus soundscape and text reading in one view.
+      caption_ja: フルスクリーンプレーヤーで、集中用サウンドと読み上げを一つの画面にまとめる。
   article_links: []
 
 - slug: atomic-presence
@@ -190,25 +298,47 @@
   terms_url: null
   legacy_legal_source: /Users/Drops/Data/qqder339/qqder339-legal/atomic-presence/privacy.html
   tagline: 面對 Deepfake 與惡意剪輯，以密碼學雜湊鏈與數位簽章捍衛你的真實性。
+  tagline_en: In the face of deepfakes and malicious edits, defend your authenticity with a cryptographic hash chain and digital signatures.
+  tagline_ja: ディープフェイクや悪意ある編集に対し、暗号学的ハッシュチェーンとデジタル署名で真正性を守る。
   description: 原子受訪是為受訪者、記者與法律存證情境設計的技術防禦工具，核心是讓錄影與錄音具有可驗證的完整性。
+  description_en: Atomic Presence is a technical defense tool for interviewees, journalists, and legal evidence scenarios, centred on giving video and audio verifiable integrity.
+  description_ja: インタビュー対象者、記者、法的証拠シーンのために設計された技術的防衛ツール。録画・録音に検証可能な完全性を持たせることを中心に据えています。
   features:
     - Hash Chain：即時將雜湊序列編碼成動態 QR。
     - 數位簽章：用裝置端金鑰對錄製內容簽名。
     - 音訊浮水印：在錄音中嵌入可驗證的近超音波訊號。
     - 內建驗證器：回頭逐幀比對、驗證完整性。
+  features_en:
+    - Hash chain — real-time encoding of the hash sequence into a dynamic QR code.
+    - Digital signature — recordings are signed with an on-device key.
+    - Audio watermark — a verifiable near-ultrasonic signal embedded in the recording.
+    - Built-in verifier — replay frame-by-frame to check integrity.
+  features_ja:
+    - ハッシュチェーン：ハッシュ列をリアルタイムに動的 QR コードへエンコード。
+    - デジタル署名：端末内の鍵で録画・録音内容に署名。
+    - 音声ウォーターマーク：近超音波帯域に検証可能な信号を録音へ埋め込み。
+    - 内蔵検証ツール：後からフレーム単位で照合し、完全性を確認。
   screenshots:
     - src: /images/screenshots/atomic-presence/info-zh.png
       alt: 原子受訪資訊頁
       caption: 快速理解不同防護等級與驗證思路。
+      caption_en: Get oriented on the protection levels and verification approach at a glance.
+      caption_ja: 保護レベルと検証の考え方をひと目で把握できる。
     - src: /images/screenshots/atomic-presence/level-selector-zh.png
       alt: 原子受訪等級選擇
       caption: 依風險情境切換不同保護強度。
+      caption_en: Switch between protection strengths according to the risk scenario.
+      caption_ja: リスクシナリオに応じて保護強度を切り替えられる。
     - src: /images/screenshots/atomic-presence/running-zh.png
       alt: 原子受訪運行畫面
       caption: 錄影時即時輸出可供事後驗證的視覺訊號。
+      caption_en: While recording, the app emits live visual signals for later verification.
+      caption_ja: 録画中にリアルタイムで、後から検証に使える視覚信号を出力する。
     - src: /images/screenshots/atomic-presence/verification-zh.png
       alt: 原子受訪驗證畫面
       caption: 回頭檢驗素材是否遭到刪改或重組。
+      caption_en: Replay the footage afterwards to verify it hasn't been edited or rearranged.
+      caption_ja: 後から素材を再生し、改ざんや再編集がないかを検証する。
   article_links: []
 
 - slug: sown-echoes
@@ -226,12 +356,26 @@
   terms_url: /legal/sown-echoes/terms/
   legacy_legal_source: /Users/Drops/Data/qqder339/qqder339-legal/sown-echoes/privacy.html
   tagline: 把思想、價值觀與人生經歷留下來，做成可被未來 AI 理解的數位遺產。
+  tagline_en: Preserve your thoughts, values, and life experiences as a digital legacy that future AI can understand.
+  tagline_ja: 思想、価値観、人生経験を残し、将来の AI にも理解される形のデジタルレガシーとして保存する。
   description: 回聲種子把記錄、分析與對話整合成一套個人知識與人格保存工具，核心仍然是裝置端優先與隱私保留。
+  description_en: Sown Echoes integrates recording, analysis, and dialogue into a personal knowledge and identity preservation tool, with on-device-first and privacy-preserving defaults throughout.
+  description_ja: 記録・分析・対話を一つの個人知識＆人格保存ツールにまとめ、端末内優先とプライバシー保護を一貫した原則としています。
   features:
     - 密碼學身份：用助記詞建立自己的 Meme ID。
     - 語音與文字記錄：搭配裝置端 Whisper 轉寫。
     - AI 鏡像與數位分身：整理價值觀與人生敘事後再與之對話。
     - 雙軌分享：內容可私有保存，也可選擇性公開貢獻。
+  features_en:
+    - Cryptographic identity — build your own Meme ID with a mnemonic phrase.
+    - Voice and text records — paired with on-device Whisper transcription.
+    - AI mirror and digital double — organise values and life narratives, then converse with them.
+    - Dual-track sharing — keep content private, or selectively contribute it publicly.
+  features_ja:
+    - 暗号学的アイデンティティ：ニモニックで自分の Meme ID を作成。
+    - 音声とテキストの記録：端末内 Whisper による書き起こしと連携。
+    - AI ミラーとデジタル分身：価値観と人生の語りを整理したうえで、それと対話。
+    - デュアルトラック共有：非公開で保存するか、選択的に公開貢献するかを選べる。
   screenshots: []
   article_links: []
 
@@ -250,15 +394,40 @@
   terms_url: null
   legacy_legal_source: /Users/Drops/Data/qqder339/qqder339-legal/stonestory/privacy.html
   tagline: 把《紅樓夢》做成可互動的 AI 敘事模擬，讓文學不再只是靜態閱讀。
+  tagline_en: Turn Dream of the Red Chamber into an interactive AI narrative simulation, so literature becomes more than static reading.
+  tagline_ja: 『紅楼夢』をインタラクティブな AI 物語シミュレーションに仕立て、文学を静的な読書の枠から解き放つ。
   description: 紅樓夢模擬器把角色、場景與事件抽成可運作的敘事系統，讓你不只是在看經典，而是在和經典一起運轉。
+  description_en: StoneStory abstracts characters, scenes, and events into a runnable narrative system, letting you move alongside the classic rather than merely read it.
+  description_ja: 登場人物、場面、出来事を稼働する物語システムとして抽出し、古典を「読む」だけでなく「共に動かす」体験に変えます。
   features:
     - 768 個原著場景：把故事推進拆成可回放、可探索的事件流。
     - 角色性格與關係網：讓人物反應不只是台詞，而是有內在驅動。
     - 端側 AI 詮釋：在裝置上分析角色內心與場景張力。
     - 詩詞與物件圖鑑：把閱讀延伸成可查詢、可沉浸的收藏體驗。
+  features_en:
+    - 768 original scenes — the narrative is broken into a replayable, explorable event stream.
+    - Character personalities and relationship graph — reactions are driven by inner motivation, not just dialogue.
+    - On-device AI interpretation — analyse character psychology and scene tension locally.
+    - Poetry and object archive — reading extends into a searchable, immersive collection.
+  features_ja:
+    - 原作 768 場面：物語の進行を、再生・探索可能なイベントストリームに分解。
+    - 人物の性格と関係ネットワーク：登場人物の反応はセリフだけでなく内面の動機に駆動される。
+    - 端末内 AI の解釈：キャラクターの心理や場面の緊張を端末上で分析。
+    - 詩詞とオブジェクト図鑑：読書体験を、検索可能で没入感のあるコレクションへと拡張。
   screenshots: []
   article_links:
     - title: 社會科學的聖杯，大語言讖判詞
       url: /posts/stonestory_fate/
     - title: 熱力學與藝術選擇
       url: /posts/stonestory_thermodynamics/
+
+- slug: instant-vote
+  shipped: false
+  line: digital-citizen
+  category: democracy-edc
+  name: Instant Vote
+  name_zh: 即時投票
+  progress: 60
+  tagline: 民主 EDC 系列的投票工具，強調在離線環境下也能清楚記錄與彙整集體意見。
+  tagline_en: A voting tool in the Democracy EDC line, designed to capture and aggregate collective opinion clearly even offline.
+  tagline_ja: 民主 EDC シリーズの投票ツール。オフラインでも集団の意見を明確に記録・集約できることを目指しています。

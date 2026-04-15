@@ -1,8 +1,13 @@
 ---
 title: Apps
 summary: The current catalog of released and maintained apps
+aliases:
+  - /en/posts/app-matrix/
 ---
 
-This is the main entry point for the apps that are currently released and actively maintained.
+This is the entry page for all apps currently released and actively maintained. The portfolio is organised into two product lines:
 
-If you already know which product you want, jump straight into the cards below. If you want the broader product-line overview first, read the [App Matrix](/en/posts/app-matrix/) article in the blog.
+* **Offline Growth** — tools for long-term learning, reflection, and personal growth. Covers two sub-categories: Language Learning and Self-Reflection.
+* **Digital Citizen** — apps focused on authenticity, memory, and personal digital agency. The current entry point is Democracy EDC (EveryDay Carry).
+
+Jump straight into any product from the cards below. Every entry includes its App Store link, support page, and privacy policy.

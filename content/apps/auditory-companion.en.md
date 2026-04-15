@@ -7,28 +7,28 @@ showDate: false
 showReadingTime: false
 ---
 
-## Pulling sound back from background accessory to designable space
+## Sound as something you design, not just play in the background
 
-Most white noise apps eventually arrive at the same conclusion: you can play rain, waves, wind, and hope it helps you focus or sleep. Auditory Companion goes further. It doesn't just put a few ambient sound samples on your phone — it treats "how sound constitutes an inhabitable space" as the product's core.
+Most white noise apps eventually converge on the same conclusion: play rain, waves, or wind, and hope it helps you focus or sleep. Auditory Companion aims further. Rather than just bundling a handful of ambient samples, it treats "how sound forms an inhabitable space" as the product's core.
 
-So what you see isn't a simple playlist, but three distinct systems: a noise synthesizer, a scene mixer, and a reader. This means you can adjust your acoustic environment from different angles: sometimes you need a stable, emotionally neutral spectrum; sometimes you need the layered sense of space that comes from a rainy night, fireplace, or café; sometimes you need reading and background sound to coexist in the same frame.
+So what you see is three distinct systems rather than a playlist: a noise synthesizer, a scene mixer, and a reader. You can shape your acoustic environment from several directions — a stable, emotionally flat spectrum when you need it; the layered spatial feel of a rainy night, a fireplace, or a café at other times; a frame that lets reading voice and background sound coexist when the task calls for it.
 
 ## When it's most valuable
 
-If you need to read, write, or work for long stretches, "play some nature sounds" is usually insufficient — what you actually need is an adjustable soundscape. Auditory Companion suits this use case. You can layer noise with SYNTH, add event sounds and loops with SCENES, then let READER speak the text. This reaches your current state more precisely than just opening a Spotify playlist.
+For long stretches of reading, writing, or deep work, "play some nature sounds" usually falls short — what's actually useful is an adjustable soundscape. Auditory Companion fits here. Lay down a noise floor with SYNTH, layer in event sounds and loops with SCENES, then let READER read the text aloud. The fit to your current state is much closer than simply opening a Spotify playlist.
 
-Another typical scenario: relaxation and pre-sleep. Many people don't need complete silence — they need sound that won't disturb them but will mask the outside world. That's where adjustable noise and scene mixing make a real difference, because you're not stuck choosing between a handful of presets.
+Relaxation and pre-sleep are another common scenario. Many people want silence that isn't actually silent — a sound that masks the outside world without demanding attention. That's where adjustable noise and scene mixing earn their place: you're not forced to pick between a handful of canned presets.
 
-## This isn't feature density — it's genuinely finer sound control
+## The real story is sound-control granularity
 
-Think of it as a small personal sound workstation. The synthesizer handles spectrum and texture; the scene mixer handles atmosphere and spatial feel; the reader handles content input. Each module works on its own; together they become a comprehensive focus system.
+Think of it as a small personal sound workstation. The synthesizer handles spectrum and texture; the scene mixer handles atmosphere and spatial feel; the reader handles content input. Each module stands on its own; together they form a complete focus system.
 
-That's also why it appeals strongly to "people who need background sound." You're not passively accepting someone else's audio field — you can gradually find the sound configuration you can actually sustain.
+That's also why it resonates with "people who need background sound." You get to find the configuration you can actually sit with for hours, rather than accepting whatever soundfield someone else prepared.
 
-If you care about control at a detailed level, the differences become even more apparent. SYNTH isn't just an on/off switch — it hands you four noise colors (white, pink, brown, blue) and multiple parameters. SCENES isn't single-track playback — it lets you layer hundreds of audio samples into scenes. READER packages on-device TTS, background audio auto-ducking, and a full-screen player all into one path.
+The detail work shows up clearly: SYNTH puts four noise colors (white, pink, brown, blue) and multiple parameters directly in your hands, going well past an on/off switch. SCENES lets you layer hundreds of audio samples into stackable scenes instead of playing one file. READER wraps on-device TTS, automatic background-audio ducking, and a full-screen player into a single flow.
 
 ## Keeping sound and reading data on-device is practically significant
 
-What you read, listen to, and paste in is often quite private. Especially when an app supports clipboard reading or local TTS — if that content gets uploaded, the experience immediately sours. Auditory Companion keeps synthesis, mixing, and reading on-device: this isn't just principle, it's what determines whether you'll comfortably use it as a daily tool.
+What you read, listen to, and paste in tends to be private — especially when an app supports clipboard reading or local TTS. If that content travels to a server, the experience sours immediately. Auditory Companion keeps synthesis, mixing, and reading on-device, and that shapes whether you'll comfortably use it as a daily tool, not just whether you'll try it once.
 
-If what you're looking for isn't "how many ambient sounds does it have" but a genuine sound engine to accompany work, reading, relaxation, and immersive listening — this app is worth trying firsthand.
+If you're looking for a sound engine that can keep you company through work, reading, downtime, and immersive listening — rather than an app measured by "how many ambient tracks" — it's worth trying this one firsthand.

@@ -7,26 +7,26 @@ showDate: false
 showReadingTime: false
 ---
 
-## Not digitizing classical literature — turning it back into a working world
+## Turning a classical novel back into a world that runs
 
-What most literary apps do is put the original text into a prettier reader. StoneStory takes a different path. It disassembles the characters, scenes, relationships, and events of *Dream of the Red Chamber* into a running narrative system — so what you see isn't just passages, but how characters pull each other, how they reveal personality within situations, and how a classical novel operates like a small society.
+Most literary apps put the original text into a prettier reader. StoneStory takes a different path. It disassembles the characters, scenes, relationships, and events of *Dream of the Red Chamber* into a running narrative system. What you see is more than passages — you see how characters pull at each other, how they reveal personality inside situations, and how a classical novel operates like a small society.
 
-That's why it's called a simulator, not a reader. It's not just trying to let you re-read the text — it's letting you enter the structure beneath the text.
+That's why it's called a simulator rather than a reader. The goal is to take you into the structure beneath the text, not to serve up the same words in a nicer shell.
 
 ## Who actually needs a product like this
 
-If you already love *Dream of the Red Chamber*, what you'll get from this app isn't simple nostalgia — it's a new way in. Characters are no longer just memorizable reference points, but entities that can be compared, observed, and reinterpreted. You'll more easily see who truly made choices in which scenes, how emotions accumulated, which details actually foreshadowed what came later.
+If you already love *Dream of the Red Chamber*, what you'll get here is a new way in rather than simple nostalgia. Characters become entities you can compare, observe, and reinterpret, rather than reference points to memorise. You'll see more easily who truly made choices in which scenes, how emotions accumulated, and which details were already foreshadowing what came later.
 
-If classical literature has always felt distant to you, this product may actually be more approachable. Because it doesn't demand that you first swallow the thick original before you're qualified to engage — it breaks a complex work into a system you can approach slowly, understand incrementally.
+If classical literature has always felt distant, the app may actually be easier to approach. It doesn't demand that you first swallow the thick original to qualify — it breaks a complex work into a system you can approach slowly and understand incrementally.
 
 ## AI here opens the door to understanding
 
-StoneStory doesn't use AI to randomly generate plot — it uses it to handle the work of comprehension: character inner life, emotional tension, modern-perspective interpretation, structural connections between events. For the user, this amounts to an extra layer of guided commentary — but not dogmatic commentary, rather an interactive interpretation that shifts with each scene.
+StoneStory uses AI for the work of comprehension, not plot generation: character inner life, emotional tension, modern-perspective interpretation, structural connections between events. For the user, this adds a layer of guided commentary — an interactive interpretation that shifts with each scene, rather than a dogmatic gloss.
 
-This design is especially suited to *Dream of the Red Chamber*'s particular character: many characters, complex relationships, extremely high detail density. You don't have to rebuild the structure from zero every time — you can let the system open the door, then decide how deep to go.
+The design suits *Dream of the Red Chamber*'s particular shape: many characters, complex relationships, extremely high detail density. You can let the system open the door, then decide how deep to go, instead of rebuilding the structure from scratch every time.
 
 ## Why on-device AI still matters here
 
-Because this kind of product is easy to build as a cloud demo — but once content comprehension, reading history, and interaction all depend on external services, the whole experience becomes fragile, and it stops feeling like something that can accompany you long-term. StoneStory pushes its core experience back to the device, not as a technical showcase, but to let immersive reading and exploration genuinely exist as everyday tools.
+This kind of product is easy to ship as a cloud demo. The moment content comprehension, reading history, and interaction all depend on external services, though, the experience becomes fragile, and it stops feeling like something that can accompany you long-term. StoneStory pushes the core experience back to the device — so immersive reading and exploration can actually exist as everyday tools, not as a technical showcase.
 
-If you want to understand the deeper technical and methodological thinking behind this, the related reading below goes there. If you'd rather start with the experience, the App Store is the most direct entry point.
+If you want the deeper technical and methodological thinking behind this, the related reading below goes there. If you'd rather start with the experience, the App Store is the most direct entry.

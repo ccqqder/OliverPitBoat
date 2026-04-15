@@ -24,9 +24,11 @@
   {{ $storeLabel := "App Store" }}
   {{ $supportLabel := cond $isEn "Support" (cond $isJa "サポート" "支援") }}
   {{ $privacyLabel := cond $isEn "Privacy" (cond $isJa "プライバシー" "隱私") }}
-  {{ $matrixLabel := cond $isEn "Read the App Matrix article" (cond $isJa "App マトリックス記事を読む" "閱讀 App 矩陣文章") }}
   {{ $supportIndexLabel := cond $isEn "Support Index" (cond $isJa "サポート一覧" "支援總覽") }}
   {{ $privacyIndexLabel := cond $isEn "Privacy Index" (cond $isJa "プライバシー一覧" "隱私總覽") }}
+  {{ $inDevTitle := cond $isEn "In Development" (cond $isJa "開発中" "製作中") }}
+  {{ $inDevDesc := cond $isEn "Products currently under active development. Progress numbers reflect internal build status." (cond $isJa "現在開発中のプロダクト。進捗は社内のビルド状況に基づきます。" "目前還在開發階段的產品，下方進度對應內部建置狀態。") }}
+  {{ $progressLabel := cond $isEn "Progress" (cond $isJa "進捗" "進度") }}
 
   <article class="pp-container">
     {{ if .Params.showBreadcrumbs | default (.Site.Params.list.showBreadcrumbs | default false) }}
@@ -97,13 +99,47 @@
       {{ end }}
     {{ end }}
 
+    {{ $inDevApps := where site.Data.app_url_matrix "shipped" false }}
+    {{ if gt (len $inDevApps) 0 }}
+      <section class="pp-section">
+        <div class="pp-section__header">
+          <h2 class="pp-section__title">{{ $inDevTitle }}</h2>
+          <p class="pp-section__desc">{{ $inDevDesc }}</p>
+        </div>
+        <div class="pp-apps-grid">
+          {{ range $app := $inDevApps }}
+            {{ $name := $app.name_zh }}
+            {{ if $isEn }}{{ $name = or $app.name $app.name_zh }}{{ end }}
+            {{ if $isJa }}{{ $name = or $app.name_zh $app.name }}{{ end }}
+            {{ $tagline := $app.tagline }}
+            {{ if and $isEn $app.tagline_en }}{{ $tagline = $app.tagline_en }}{{ end }}
+            {{ if and $isJa $app.tagline_ja }}{{ $tagline = $app.tagline_ja }}{{ end }}
+            <article class="pp-app-item">
+              <div class="pp-app-item__media">
+                <div class="pp-app-item__body">
+                  <div class="pp-app-item__head">
+                    <h3 class="pp-app-item__title">{{ $name }}</h3>
+                    {{ with $app.progress }}
+                      <span class="pp-tag">{{ $progressLabel }} {{ . }}%</span>
+                    {{ end }}
+                  </div>
+                  {{ with $tagline }}
+                    <p class="pp-app-item__summary">{{ . }}</p>
+                  {{ end }}
+                </div>
+              </div>
+            </article>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+
     <section class="pp-panel">
       <h2 class="pp-panel__title">{{ cond $isEn "Further Navigation" (cond $isJa "補助ナビゲーション" "延伸導覽") }}</h2>
       <p class="pp-panel__desc">
-        {{ cond $isEn "For the broader portfolio view, support index, and privacy index, use the links below." (cond $isJa "プロダクト全体の整理や、サポート・プライバシー一覧は以下から辿れます。" "如果你想從整體產品線、支援總覽或隱私總覽的角度瀏覽，可以從下面進入。") }}
+        {{ cond $isEn "Use the links below for the support and privacy indexes across all apps." (cond $isJa "全アプリ横断のサポート・プライバシー一覧は以下から辿れます。" "想看跨 App 的支援總覽與隱私總覽，可以從下面進入。") }}
       </p>
       <div class="pp-actions">
-        <a href="{{ "posts/app-matrix/" | relLangURL }}" class="pp-btn pp-btn--ghost">{{ $matrixLabel }}</a>
         <a href="{{ "support/" | relLangURL }}" class="pp-btn pp-btn--ghost">{{ $supportIndexLabel }}</a>
         <a href="{{ "privacy/" | relLangURL }}" class="pp-btn pp-btn--ghost">{{ $privacyIndexLabel }}</a>
       </div>

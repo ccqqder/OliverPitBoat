@@ -7,28 +7,28 @@ showDate: false
 showReadingTime: false
 ---
 
-## This isn't another to-do list — it's a place to anchor long-term life projects
+## A place to anchor long-term life projects
 
-Most task management tools are good at handling what to do today, this week, this month — but not so good at handling the important-but-not-urgent life projects. Reading, exercise, learning a language, processing emotions, maintaining certain relationships: these things are rarely unimportant; they just get crowded out by noisier, more immediate demands. Gantt Planet was designed for exactly those things.
+Most task management tools handle today, this week, and this month well enough. They struggle with the important-but-not-urgent projects — reading, exercise, language learning, processing emotions, keeping up certain relationships. These aren't unimportant; they just get crowded out by noisier, more immediate demands. Gantt Planet is designed for exactly those projects.
 
-It's not trying to make you busier — it's trying to help you see what was already worth your time. The timeline, 3D planet, AI companion, and art collection all look different on the surface, but they're all serving the same goal: making self-discipline not just willpower, but something visual, tangible, and worth returning to.
+The goal isn't to make you busier — it's to help you see what was already worth your time. Timeline, 3D planet, AI tree hole, art collection: these surface as different modules, but all serve the same outcome — making self-discipline feel like a rhythm you can visualise, sense, and return to, rather than a willpower grind.
 
-## Why it's more likely to stay on your phone than a typical productivity tool
+## Why it tends to stay on your phone longer than a typical productivity tool
 
-Traditional to-do tools think in list logic: done means check off, not done means accumulating pressure. Gantt Planet is more like tending a small universe. You're not eliminating items — you're letting a planet slowly grow its own terrain and memories. That visual language makes it harder to abandon your long-term goals, because they're no longer just cold rows of text.
+Traditional to-do tools think in list logic: done means check off, undone means accumulating pressure. Gantt Planet is closer to tending a small universe. What you're doing is letting a planet grow its own terrain and memories — not wiping items off a list. That visual language makes long-term goals harder to abandon, because they're no longer just cold rows of text.
 
-The timeline view is for seeing what today needs; the 3D planet is for feeling overall progress. The former brings you back to reality; the latter reminds you why you started. Together, they keep "today" and "a lifetime" in the same frame.
+The timeline view shows what today deserves attention; the 3D planet view shows the shape of overall progress. The former pulls you back to reality; the latter reminds you why you started. Together they keep "today" and "a lifetime" in the same frame.
 
-And unlike enterprise project management tools shrunk down to personal use, this one was built from the personal "important but not urgent" direction up. You can track daily, weekly, monthly, and longer rhythms on the same timeline, then convert completion into 3D planet terrain and collection records.
+Its starting point is the personal "important but not urgent," not an enterprise project manager shrunk down. You can track daily, weekly, monthly, or longer cadences on the same timeline, then turn completion into 3D planet terrain and collection entries. That's where it diverges most from productivity software that mostly helps you pack tasks in more tightly.
 
-## The AI companion and art collection aren't decorations — they're the reason to come back
+## The tree hole and the art collection — the reason to come back
 
-Long-term habit building isn't purely a planning problem — there's a significant emotional component. You might not not know what to do; you might just be tired, annoyed, distracted, or simply not want to look at productivity tools that don't respond. Gantt Planet includes an on-device AI companion to address this layer. When you just need to talk through something and reorient yourself, it doesn't demand you be productive.
+Long-term habit building isn't just a planning problem; a lot of it is emotional. The issue is often not that you don't know what to do — you're tired, annoyed, distracted, or simply sick of productivity tools that never respond. Gantt Planet's AI tree hole exists to sit with that layer. When you just want to talk something out and reorient yourself, it doesn't demand productivity from you.
 
-The collection system transforms "completing things" from obligation into something accumulated and collected. Not everyone needs this — but for many people who get beaten down by dullness, it's precisely how to rebuild patience. When completing a task gradually unlocks illustrations and collectibles, the feedback isn't KPI-style pressure; it's more like leaving traces in the long engineering project of your life.
+The collection system turns "finishing things" from obligation into something that accumulates. Not everyone needs this, but for people who get worn down by monotony, it's exactly how patience gets rebuilt. Completing tasks gradually unlocks illustrations and collectibles — closer to leaving marks on a long-running life project than to KPI pressure.
 
-## Privacy and offline matter more in this kind of app
+## Privacy and offline matter more here than usual
 
-Goals, journals, emotions, conversations — this content is more personal than what goes into a typical productivity app. Part of Gantt Planet's value is that you don't need to hand that data to an external service to get the companion and visualization experience. For many people, they'll only write down inner content when the data genuinely stays on their own device.
+Goals, journal entries, emotions, conversations — this content is more personal than what goes into a typical productivity app. Part of Gantt Planet's value is that you don't have to hand this data to an external service to get the companionship and visualisation. For many people, inner content only gets written down when the data genuinely stays on their own device.
 
-If what you're looking for isn't a louder, KPI-dashboard productivity tool, but a long-term system that can slowly accompany you into your own version of yourself — Gantt Planet is worth trying for a while.
+If you're looking for a long-term system that can grow into your own version of yourself — rather than a louder, KPI-dashboard productivity tool — Gantt Planet is worth living with for a while.

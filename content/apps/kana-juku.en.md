@@ -7,26 +7,26 @@ showDate: false
 showReadingTime: false
 ---
 
-## Not memorizing romaji — learning to feel kana in your hands
+## Learning kana straight into your hands
 
-Most beginner Japanese materials quietly assume one thing: you're willing to endure a long "romaji transition period." But for native Chinese speakers, this isn't usually the most natural path. You already have a strong sense of character form and stroke order, and you're used to learning visually and through writing. Kana Juku starts from that premise and designs around it.
+Most beginner Japanese materials quietly assume you're willing to sit through a long "romaji transition period." For native Chinese speakers, that's usually the less natural path. You already have a strong sense of character form and stroke order, and you're used to learning visually and through writing. Kana Juku starts from that premise and designs around it.
 
-It doesn't make the hiragana/katakana chart prettier — it genuinely connects "seeing the form, writing the form, typing the form, recognizing the form" into one coherent loop. The benefit: you stop relying on romaji as a crutch and reach the point of direct kana recognition sooner.
+Rather than prettifying the hiragana/katakana chart, it connects "seeing the form, writing the form, typing the form, recognising the form" into a single loop. The payoff: you reach direct kana recognition sooner and rely on romaji as a crutch for less time.
 
 ## Why this approach suits Chinese speakers in particular
 
-Chinese speakers' advantage isn't in pronunciation — it's in our typically strong sensitivity to character structure and visual form. Kana Juku amplifies that advantage: you use handwriting, image recognition, a custom keyboard, and shape association to memorize kana, rather than pure repetition. Learning feels more like becoming familiar with a new script than grinding mechanical memory.
+A Chinese speaker's real advantage lies in a strong sensitivity to character structure and visual form — less so in pronunciation. Kana Juku amplifies that advantage. You memorise kana through handwriting, image recognition, a custom keyboard, and shape association, which makes learning feel like picking up a new script rather than grinding through rote repetition.
 
-If you've quit halfway before, it probably wasn't because you didn't try hard enough — it was because the tool's approach didn't fit you. Kana Juku's job is to correct that angle.
+People who've quit halfway often did so because the tool's angle didn't match them, not because they didn't try hard. Kana Juku's job is to correct that angle.
 
-## Not just memorization — a real doorway forward
+## A real doorway forward, not just a memorisation drill
 
-Memorizing kana is only the beginning. The real challenge is slowly turning it into input, recognition, and comprehension ability. That's why the app goes beyond static drills: it includes handwriting recognition, a custom keyboard, and AI assistance. You're not just doing static tests — you're building muscle memory closer to how kana actually gets used.
+Memorising kana is only the starting line. The real challenge is turning it into input, recognition, and comprehension ability. That's why the app goes beyond static drills and includes handwriting recognition, a custom keyboard, and AI assistance. What you're building is muscle memory closer to how kana actually gets used.
 
-This design is especially suited for two kinds of people: those starting Japanese and wanting a low-pressure entry point, and those who learned before, forgot, and now want to rebuild familiarity. The former needs to skip detours; the latter needs to re-establish recognition. This app works for both.
+The design suits two kinds of learners especially: people starting Japanese who want a low-pressure entry point, and people who learned before, forgot, and now want familiarity back. The first group needs to skip detours; the second needs to rebuild recognition. The app works for both.
 
-## Privacy and offline aren't buzzwords here
+## Privacy and offline have practical weight here
 
-Language learning tools often drift toward content platforms over time, where you think you're learning but you're actually being passively shuffled between recommendations. Kana Juku is more restrained. The focus stays on real input and recognition training, and local AI and data processing happen on-device. You don't have to hand over your usage habits just to get a little learning convenience.
+Language learning tools tend to drift toward content-platform behaviour over time. You feel like you're learning, but you're really being shuffled between recommendations. Kana Juku stays restrained — the focus sits on real input and recognition training, and both the local AI and data processing run on-device. You don't have to trade your usage habits for a little learning convenience.
 
-If you're looking for a kana tool genuinely designed for Chinese speakers — stable, usable on commutes and in spare moments — this page is its product home.
+If you want a kana tool genuinely designed around how Chinese speakers learn, stable enough for commutes and spare moments, this page is its product home.

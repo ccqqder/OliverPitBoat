@@ -7,26 +7,28 @@ showDate: false
 showReadingTime: false
 ---
 
-## The most common problem isn't effort — it's poorly fitted material
+## The usual problem is poorly-fitted material, not lack of effort
 
-The most frustrating part of learning English usually isn't vocabulary size — it's opening an article and not knowing if it'll be just hard enough to challenge you, or hard enough to make you quit. Material that's too easy produces no growth; material that's too hard just erodes patience. English N+1 was built specifically for that gap.
+The hardest part of learning English is rarely vocabulary size. It's opening an article and having no idea whether it'll be comfortably challenging or discouragingly hard. Material that's too easy gives no sense of progress; material that's too hard simply erodes patience. English N+1 was built for that specific gap.
 
-It turns Krashen's i+1 theory into a practical product: first estimate your level, then have AI generate content that's slightly above your current ability. This isn't bolting AI onto a learning app — it's genuinely automating the process of making study material fit you.
+It turns Krashen's i+1 theory into a working product: estimate your level first, then have AI generate content just above your current ability. The point isn't "bolt AI onto a study app" — it's automating the work of making material fit the person.
 
 ## How you'd actually use it
 
-The most common pattern: use the placement test to establish your rough CEFR range, then pick a topic you're actually interested in and let the app generate an article at your current level. When you hit an unfamiliar word, save it, and it enters your review cycle. The whole flow doesn't require finding articles elsewhere, looking up dictionaries, taking notes, and then organizing flashcards — because it was designed around that habit from the start.
+A common flow: take the placement test to locate your rough CEFR range, pick a topic you're genuinely interested in, and let the app generate an article at your level. Save unfamiliar words as you go, and they enter a review cadence automatically. You don't need to separately hunt for articles, run dictionary lookups, take notes, and then wire up flashcards — the app was designed around that whole habit from the start.
 
-This matters especially for people who are anxious about English. It doesn't open by asking you to prove how good you are — it lets you slowly expand your boundaries while still understanding most of the content. That "just slightly harder than where you are" margin is the zone where most people can actually sustain progress.
+This matters especially for people anxious about English. Instead of opening by asking you to prove what you know, it lets you expand your boundaries while still understanding most of what's in front of you. That "only slightly harder than where I am now" margin is where most people can actually sustain practice.
 
 ## AI here is an engine, not a performance
 
-Many AI English products emphasize how natural the conversation is, but what actually keeps users around long-term is whether content generation quality is consistent and whether the review rhythm flows well. English N+1 is more like a curriculum engine that adjusts to your level — integrating text difficulty, vocabulary density, and topic interest so you don't have to gamble on "maybe this article fits" every time.
+Plenty of AI English products highlight how natural their chat is. What actually keeps learners around is whether content generation quality is consistent and whether the review rhythm flows. English N+1 behaves like a curriculum engine that tracks your level — balancing text difficulty, vocabulary density, and topic interest so you don't gamble on "maybe this one fits" every session.
 
-And it runs the model on-device, which matters. Learning records, level information, and reading preferences are private data — especially when you're confronting your own weaknesses. Keeping this local makes long-term use far more comfortable than a cloud service.
+Running the model on-device matters too. Learning records, level information, and reading preferences are private, and especially sensitive when you're looking at your own weaknesses. Keeping this data local makes long-term use much more comfortable than a cloud service.
+
+Model selection isn't pushed in your face either. The placement test establishes your rough CEFR range, and a local model takes over generation based on your device's capability and memory state. What you experience is "open the app and start reading" rather than being blocked by setup. Hardware-adaptive under the hood, simple on the surface — more useful than showcasing AI for its own sake.
 
 ## Who should download it
 
-If you're worn out by flashy English apps that never quite fit, this one is different. It earns retention not through streaks or gamification, but through being genuinely useful every time you open it. Students, self-learners, people returning to English, or anyone who just wants to read a bit of solid English during the commute — this is more structured than hunting for random material online.
+If flashy English apps that never quite fit have left you worn out, this one works differently. It earns retention by being genuinely useful every time you open it, not through streaks or gamified loops. Students, self-learners, people returning to English, or anyone who wants a steady dose of reading during the commute will find this more structured than scraping the web for material.
 
-If what you want is a tool that truly controls difficulty and keeps your data off the cloud, the App Store link below is the most direct next step.
+If you want a tool that controls difficulty for you and keeps your data off the cloud, the App Store link on this page is the fastest next step.

@@ -31,6 +31,16 @@
   {{ else }}
     {{ $app := index $matches 0 }}
     {{ $displayName := cond $isEn $app.name (cond $isJa $app.name_zh $app.name_zh) }}
+    {{ $tagline := $app.tagline }}
+    {{ if and $isEn $app.tagline_en }}{{ $tagline = $app.tagline_en }}{{ end }}
+    {{ if and $isJa $app.tagline_ja }}{{ $tagline = $app.tagline_ja }}{{ end }}
+    {{ $description := $app.description }}
+    {{ if and $isEn $app.description_en }}{{ $description = $app.description_en }}{{ end }}
+    {{ if and $isJa $app.description_ja }}{{ $description = $app.description_ja }}{{ end }}
+    {{ $features := $app.features }}
+    {{ if and $isEn $app.features_en }}{{ $features = $app.features_en }}{{ end }}
+    {{ if and $isJa $app.features_ja }}{{ $features = $app.features_ja }}{{ end }}
+    {{ $shotSuffix := cond $isEn "-en." (cond $isJa "-ja." "-zh.") }}
     <header class="pp-detail-header">
       <div class="pp-detail-header__main">
         {{ with $app.icon }}
@@ -38,7 +48,7 @@
         {{ end }}
         <div>
           <h1 class="pp-detail-header__title">{{ $displayName }}</h1>
-          <p class="pp-detail-header__tagline">{{ $app.tagline }}</p>
+          <p class="pp-detail-header__tagline">{{ $tagline }}</p>
         </div>
       </div>
       <div class="pp-actions">
@@ -52,7 +62,7 @@
     </header>
 
     <section class="pp-intro prose dark:prose-invert">
-      <p>{{ $app.description }}</p>
+      <p>{{ $description }}</p>
       {{ .Content }}
     </section>
 
@@ -69,7 +79,7 @@
       </div>
     </section>
 
-    {{ with $app.features }}
+    {{ with $features }}
       <section class="pp-section">
         <h2 class="pp-section__title">{{ $featuresTitle }}</h2>
         <div class="pp-features">
@@ -85,9 +95,13 @@
         <h2 class="pp-section__title">{{ $shotsTitle }}</h2>
         <div class="pp-shots">
           {{ range . }}
+            {{ $src := replace .src "-zh." $shotSuffix }}
+            {{ $caption := .caption }}
+            {{ if and $isEn .caption_en }}{{ $caption = .caption_en }}{{ end }}
+            {{ if and $isJa .caption_ja }}{{ $caption = .caption_ja }}{{ end }}
             <figure class="pp-shot">
-              <img src="{{ strings.TrimPrefix "/" .src | relURL }}" alt="{{ .alt }}" />
-              <figcaption>{{ .caption }}</figcaption>
+              <img src="{{ strings.TrimPrefix "/" $src | relURL }}" alt="{{ .alt }}" />
+              <figcaption>{{ $caption }}</figcaption>
             </figure>
           {{ end }}
         </div>

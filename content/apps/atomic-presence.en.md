@@ -7,26 +7,26 @@ showDate: false
 showReadingTime: false
 ---
 
-## In the deepfake era, what most people lack isn't a camera — it's verifiable authenticity
+## In the deepfake era, verifiable authenticity is what's actually scarce
 
-Lowering the barrier to video and audio production is generally good; but when the cost of fabrication, re-editing, and taking things out of context also drops, "I recorded it" no longer equals "I can prove this is how it really happened." Atomic Presence steps into exactly that gap. It's not a conventional recording app — it's a tool for beginning to build an evidence chain at the moment of recording.
+Lowering the barrier to video and audio production is mostly a good thing. The problem is that fabrication, re-editing, and context-stripping get cheaper at the same time — so "I recorded it" has drifted away from "I can prove this is how it really happened." Atomic Presence steps into that gap: it lets you start building a verifiable evidence chain the moment you hit record.
 
-This means its target scenarios aren't casual everyday captures, but more sensitive situations: interviews, witness accounts, whistleblowing, contested scenes, or any moment when you're worried that the material might later be questioned, cut, or forged.
+The situations it's designed for are the ones where you'd worry about the footage being challenged later: interviews, witness accounts, whistleblowing, contested scenes, any context where a recording might get disputed, re-cut, or forged. Casual everyday capture sits outside its target.
 
 ## How it differs from ordinary recording tools
 
-Most tools think about recording the file well first, then about preservation. Atomic Presence instead builds hash chains, dynamic QR codes, and digital signatures into the recording process as it happens. In other words, it doesn't reinforce after the fact — it treats "can this be verified" as the product's core from the beginning.
+Most recording tools think "record the file first, worry about preservation later." Atomic Presence weaves hash chains, dynamic QR codes, and digital signatures into the capture flow while it's happening. "Can this be verified later" is the core of the product from the start, not a patch bolted on afterwards.
 
-This makes it more like a technical defense tool for risk scenarios. You may not use it every day, but when you need it, you'll want it to already be on your phone, with a clear enough process that you're not scrambling to cobble together tools in the moment.
+That makes it feel more like a technical defense tool for risk scenarios. You may not reach for it every day, but when you do need it, you'll want it already installed, with a workflow you already know, rather than scrambling to assemble tools in the moment.
 
-## The four protection levels address different risks
+## Why four protection levels — different risks, different costs
 
-The different protection levels in the product aren't about looking impressive — they exist because different use cases need different costs and intensities. Some situations only need to signal "this is being recorded"; others require near-evidence-grade integrity verification. This gradation prevents the tool from operating in only a crude "fully on" or "fully off" mode, and lets it actually fit into real-world workflows.
+The protection levels correspond to real scenario differences. Sometimes you only need to signal "this is being recorded" to the other party; sometimes you need something closer to evidence-grade integrity verification. Having intermediate steps lets the tool sit inside actual workflows instead of offering only a crude on/off switch.
 
-For journalists, legal professionals, citizen journalists, or anyone who regularly needs to leave a clear record of conversations — this is valuable. Because what they want isn't a camera with more filters; it's a recording tool with fewer ambiguous zones.
+For journalists, legal professionals, citizen journalists, and anyone who regularly needs a clean record of a conversation, this is valuable. What helps them is a recording tool with fewer ambiguous zones — more filters and beauty modes won't.
 
-## Privacy and offline aren't add-ons — they're part of credibility
+## Privacy and offline are part of credibility
 
-If a tool that claims to stand for authenticity relies heavily on external servers for its core data processing, the credibility itself becomes complicated. Atomic Presence keeps critical computation on-device — not just to protect privacy, but to reduce external dependencies in the evidence chain. The less your material passes through third parties, the easier it is to explain later what it went through.
+A tool that claims to stand for authenticity loses credibility if its core data handling depends heavily on external servers. Atomic Presence keeps the critical computation on-device — partly for privacy, and partly to reduce external dependencies inside the evidence chain itself. The fewer third parties your material passes through, the easier it is to explain later what did and didn't happen to it.
 
-If what you need isn't more convenient filming, but a recording tool with a better chance of convincing others when disputes arise — it's worth getting familiar with Atomic Presence in advance.
+If you want a recording tool that has a better chance of convincing others when a dispute breaks out, Atomic Presence is worth getting familiar with before you need it.
