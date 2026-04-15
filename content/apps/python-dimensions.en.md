@@ -15,13 +15,13 @@ The core idea is less "do lots of questions" and more "break learning into three
 
 ## What situations it's most useful for
 
-If you're preparing for PCEP, TQC+, or CPE, the app is well suited to daily maintenance. You don't need to open a laptop to get started — in 10 to 20 minute windows you can run through multiple-choice questions, fill in a few blanks, or re-sequence a program flow. That low friction matters more over the long run than intense burst study.
+If you're preparing for PCEP, TQC+, or CPE, the app is well suited to daily maintenance. You don't need to open a laptop to get started; in 10 to 20 minute windows you can run through multiple-choice questions, fill in a few blanks, or re-sequence a program flow. That low friction matters more over the long run than intense burst study.
 
 For self-taught beginners, the app also doesn't behave like a machine that only reports right and wrong. You can use the question types to sketch the basic outline, then move into the playground to actually run code and understand why one variant works and another doesn't. Knowledge stops living purely in memory and starts becoming your own judgement.
 
 ## On-device AI here isn't a gimmick
 
-"AI tutor" often triggers the question, "is this about to upload my content to the cloud?" Python Dimensions places AI in a genuinely useful role that doesn't compromise privacy. When you answer incorrectly, it can hint based on the question's context. When you want to confirm a syntax idea, you can just ask, instead of bouncing between search engines and forums.
+"AI tutor" often triggers the question, "is this about to upload my content to the cloud?" Python Dimensions places AI in a useful role that doesn't compromise privacy. When you answer incorrectly, it can hint based on the question's context. When you want to confirm a syntax idea, you can just ask, instead of bouncing between search engines and forums.
 
 Just as importantly, none of this requires handing your learning history to an external server. For students, that lowers the barrier to use. For teachers, parents, or anyone wary of data leakage, it turns the app into something closer to a long-term learning tool rather than a casual demo.
 

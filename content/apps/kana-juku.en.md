@@ -15,7 +15,7 @@ Rather than prettifying the hiragana/katakana chart, it connects "seeing the for
 
 ## Why this approach suits Chinese speakers in particular
 
-A Chinese speaker's real advantage lies in a strong sensitivity to character structure and visual form — less so in pronunciation. Kana Juku amplifies that advantage. You memorise kana through handwriting, image recognition, a custom keyboard, and shape association, which makes learning feel like picking up a new script rather than grinding through rote repetition.
+A Chinese speaker's real advantage lies in a strong sensitivity to character structure and visual form, less so in pronunciation. Kana Juku amplifies that advantage. You memorise kana through handwriting, image recognition, a custom keyboard, and shape association, which makes learning feel like picking up a new script rather than grinding through rote repetition.
 
 People who've quit halfway often did so because the tool's angle didn't match them, not because they didn't try hard. Kana Juku's job is to correct that angle.
 
@@ -27,6 +27,6 @@ The design suits two kinds of learners especially: people starting Japanese who 
 
 ## Privacy and offline have practical weight here
 
-Language learning tools tend to drift toward content-platform behaviour over time. You feel like you're learning, but you're really being shuffled between recommendations. Kana Juku stays restrained — the focus sits on real input and recognition training, and both the local AI and data processing run on-device. You don't have to trade your usage habits for a little learning convenience.
+Language learning tools tend to drift toward content-platform behaviour over time. You feel like you're learning, but you're really being shuffled between recommendations. Kana Juku stays restrained. The focus sits on real input and recognition training, and both the local AI and data processing run on-device. You don't have to trade your usage habits for a little learning convenience.
 
-If you want a kana tool genuinely designed around how Chinese speakers learn, stable enough for commutes and spare moments, this page is its product home.
+If you want a kana tool actually designed around how Chinese speakers learn, stable enough for commutes and spare moments, this page is its product home.

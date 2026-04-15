@@ -9,13 +9,13 @@ showReadingTime: false
 
 ## Leaving a person behind, not just a diary
 
-Most recording tools deal with what happened today. Sown Echoes addresses a different scale of question — if a person's values, experiences, preferences, tone, and ways of making judgments are worth preserving, how do you keep them? And how do you keep them as a structure that can be understood and conversed with again in the future, rather than as a pile of scattered notes?
+Most recording tools deal with what happened today. Sown Echoes addresses a different scale of question. If a person's values, experiences, preferences, tone, and ways of making judgments are worth preserving, how do you keep them? And how do you keep them as a structure that can be understood and conversed with again in the future, rather than as a pile of scattered notes?
 
 So the app is part journal, part personal knowledge base, and carries a trace of digital legacy system. What you leave here goes beyond events: it includes how you see events, how you explain yourself, what you care about, and what you don't. That's the material Sown Echoes is really collecting.
 
 ## Why it deserves to exist separately from notes or voice journals
 
-The reason it warrants its own category: it helps you progressively organise content into an analysable structure, rather than only storing it. Text, voice, questionnaires, persona summaries, values radar charts, digital-twin conversation — these modules form a complete chain. First record, then organise, then understand, then eventually converse.
+The reason it warrants its own category: it helps you progressively organise content into an analysable structure, rather than only storing it. Text, voice, questionnaires, persona summaries, values radar charts, digital-twin conversation. These modules form a complete chain. First record, then organise, then understand, then eventually converse.
 
 This suits people who feel a strong urge to record, but also know pure notes tend to pile up into chaos. It's a container designed for organising life material, not just another blank page that only handles input.
 
@@ -27,6 +27,6 @@ This dual-track choice is the product's philosophy, not an add-on. Some parts of
 
 ## On-device AI makes this feel less like surrendering yourself
 
-When a product's core is your thoughts, values, and life experience, privacy stops being a feature and becomes the precondition for the product to work at all. Sown Echoes keeps analysis and conversation as on-device as it can — so you don't have to hand yourself over wholesale just to get a tool that understands you.
+When a product's core is your thoughts, values, and life experience, privacy stops being a feature and becomes the precondition for the product to work at all. Sown Echoes keeps analysis and conversation as on-device as it can, so you don't have to hand yourself over wholesale just to get a tool that understands you.
 
 If you're looking for an app that preserves personal history, organises your self-narrative, and leaves behind a version of yourself that can be understood later, Sown Echoes is worth trying slowly.
