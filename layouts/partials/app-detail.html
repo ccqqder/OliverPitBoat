@@ -1,0 +1,108 @@
+{{ $lang := site.Language.Lang }}
+{{ $isEn := eq $lang "en" }}
+{{ $isJa := eq $lang "ja" }}
+{{ $slug := .Params.app_slug | default .File.ContentBaseName }}
+{{ $matches := where site.Data.app_url_matrix "slug" $slug }}
+
+{{ $storeLabel := "App Store" }}
+{{ $supportLabel := cond $isEn "Support" (cond $isJa "サポート" "支援") }}
+{{ $privacyLabel := cond $isEn "Privacy" (cond $isJa "プライバシー" "隱私") }}
+{{ $termsLabel := cond $isEn "Terms" (cond $isJa "利用規約" "服務條款") }}
+{{ $featuresTitle := cond $isEn "Core Features" (cond $isJa "コア機能" "核心特色") }}
+{{ $shotsTitle := cond $isEn "Screenshots" (cond $isJa "画面プレビュー" "畫面預覽") }}
+{{ $linksTitle := cond $isEn "Further Reading" (cond $isJa "関連記事" "延伸閱讀") }}
+{{ $startTitle := cond $isEn "Quick Links" (cond $isJa "クイックリンク" "快速入口") }}
+{{ $startDesc := cond $isEn "Head straight to the store, or read the support and privacy pages first." (cond $isJa "ストアに直接進むか、先にサポートとプライバシーを確認してから始められます。" "你可以直接進 App Store，也可以先看支援頁與隱私政策。") }}
+{{ $downloadLabel := cond $isEn "Download on the App Store" (cond $isJa "App Store でダウンロード" "到 App Store 下載") }}
+
+<article class="pp-container pp-container--narrow">
+  {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
+    {{ partial "breadcrumbs.html" . }}
+  {{ end }}
+
+  {{ if eq (len $matches) 0 }}
+    <header class="pp-header">
+      <h1 class="pp-header__title">{{ .Title | emojify }}</h1>
+    </header>
+    <section class="pp-intro prose dark:prose-invert">
+      <p>找不到這個 app 的資料映射，請檢查 <code>data/app_url_matrix.yaml</code>。</p>
+      {{ .Content }}
+    </section>
+  {{ else }}
+    {{ $app := index $matches 0 }}
+    {{ $displayName := cond $isEn $app.name (cond $isJa $app.name_zh $app.name_zh) }}
+    <header class="pp-detail-header">
+      <div class="pp-detail-header__main">
+        {{ with $app.icon }}
+          <img src="{{ strings.TrimPrefix "/" . | relURL }}" alt="{{ $displayName }} icon" class="pp-detail-header__icon" />
+        {{ end }}
+        <div>
+          <h1 class="pp-detail-header__title">{{ $displayName }}</h1>
+          <p class="pp-detail-header__tagline">{{ $app.tagline }}</p>
+        </div>
+      </div>
+      <div class="pp-actions">
+        <a href="{{ $app.store_url }}" class="pp-btn pp-btn--primary">{{ $storeLabel }}</a>
+        <a href="{{ strings.TrimPrefix "/" $app.support_url | relURL }}" class="pp-btn pp-btn--ghost">{{ $supportLabel }}</a>
+        <a href="{{ strings.TrimPrefix "/" $app.privacy_url | relURL }}" class="pp-btn pp-btn--ghost">{{ $privacyLabel }}</a>
+        {{ with $app.terms_url }}
+          <a href="{{ strings.TrimPrefix "/" . | relURL }}" class="pp-btn pp-btn--ghost">{{ $termsLabel }}</a>
+        {{ end }}
+      </div>
+    </header>
+
+    <section class="pp-intro prose dark:prose-invert">
+      <p>{{ $app.description }}</p>
+      {{ .Content }}
+    </section>
+
+    <section class="pp-panel">
+      <h2 class="pp-panel__title">{{ $startTitle }}</h2>
+      <p class="pp-panel__desc">{{ $startDesc }}</p>
+      <div class="pp-actions">
+        <a href="{{ $app.store_url }}" class="pp-btn pp-btn--primary">{{ $downloadLabel }}</a>
+        <a href="{{ strings.TrimPrefix "/" $app.support_url | relURL }}" class="pp-btn pp-btn--ghost">{{ $supportLabel }}</a>
+        <a href="{{ strings.TrimPrefix "/" $app.privacy_url | relURL }}" class="pp-btn pp-btn--ghost">{{ $privacyLabel }}</a>
+        {{ with $app.terms_url }}
+          <a href="{{ strings.TrimPrefix "/" . | relURL }}" class="pp-btn pp-btn--ghost">{{ $termsLabel }}</a>
+        {{ end }}
+      </div>
+    </section>
+
+    {{ with $app.features }}
+      <section class="pp-section">
+        <h2 class="pp-section__title">{{ $featuresTitle }}</h2>
+        <div class="pp-features">
+          {{ range . }}
+            <div class="pp-feature">{{ . }}</div>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+
+    {{ with $app.screenshots }}
+      <section class="pp-section">
+        <h2 class="pp-section__title">{{ $shotsTitle }}</h2>
+        <div class="pp-shots">
+          {{ range . }}
+            <figure class="pp-shot">
+              <img src="{{ strings.TrimPrefix "/" .src | relURL }}" alt="{{ .alt }}" />
+              <figcaption>{{ .caption }}</figcaption>
+            </figure>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+
+    {{ with $app.article_links }}
+      <section class="pp-section">
+        <h2 class="pp-section__title">{{ $linksTitle }}</h2>
+        <ul class="pp-panel__list">
+          {{ range . }}
+            <li><a href="{{ strings.TrimPrefix "/" .url | relURL }}">{{ .title }}</a></li>
+          {{ end }}
+        </ul>
+      </section>
+    {{ end }}
+  {{ end }}
+</article>

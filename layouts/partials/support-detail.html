@@ -1,0 +1,103 @@
+{{ $lang := site.Language.Lang }}
+{{ $isEn := eq $lang "en" }}
+{{ $isJa := eq $lang "ja" }}
+{{ $slug := .Params.app_slug | default .File.ContentBaseName }}
+{{ $matches := where site.Data.app_url_matrix "slug" $slug }}
+
+{{ $supportTitleSuffix := cond $isEn "Support" (cond $isJa "サポート" "支援") }}
+{{ $introText := cond $isEn "Use this page for bug reports, usage questions, and privacy requests." (cond $isJa "不具合報告・利用上の質問・プライバシー関連のお問い合わせは、このページから入口を辿ってください。" "問題回報、使用疑問與隱私相關詢問都可以從這裡找到對應入口。") }}
+{{ $entryTitle := cond $isEn "Official URLs" (cond $isJa "公式URL" "對外網址") }}
+{{ $entryDesc := cond $isEn "Use these canonical URLs when referencing the app from App Store Connect or other channels." (cond $isJa "App Store Connect などから参照する際は、以下の正規URLをご利用ください。" "從 App Store Connect 或其他頁面轉貼時，可以直接使用這些網址。") }}
+{{ $contactTitle := cond $isEn "Contact" (cond $isJa "お問い合わせ" "聯絡方式") }}
+{{ $reportTitle := cond $isEn "When Reporting a Bug, Please Include" (cond $isJa "不具合報告時にお知らせいただきたい情報" "回報問題時建議附上") }}
+{{ $relatedTitle := cond $isEn "Related Links" (cond $isJa "関連リンク" "相關連結") }}
+{{ $storeLabel := "App Store" }}
+{{ $supportLabel := cond $isEn "Support Page" (cond $isJa "サポートページ" "支援頁") }}
+{{ $productLabel := cond $isEn "Product Page" (cond $isJa "プロダクトページ" "產品頁") }}
+{{ $privacyLabel := cond $isEn "Privacy Policy" (cond $isJa "プライバシーポリシー" "隱私權政策") }}
+{{ $termsLabel := cond $isEn "Terms of Service" (cond $isJa "利用規約" "服務條款") }}
+{{ $report := slice
+  (cond $isEn "Device model and iOS version" (cond $isJa "端末モデルとiOSのバージョン" "裝置型號與 iOS 版本"))
+  (cond $isEn "App version" (cond $isJa "アプリのバージョン" "App 版本號"))
+  (cond $isEn "Steps to reproduce and expected behaviour" (cond $isJa "再現手順と期待する動作" "問題發生步驟與預期行為"))
+  (cond $isEn "Screenshot or screen recording if possible" (cond $isJa "可能であればスクリーンショットや録画" "若方便，附上螢幕截圖或錄影"))
+}}
+
+<article class="pp-container pp-container--narrow">
+  {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
+    {{ partial "breadcrumbs.html" . }}
+  {{ end }}
+
+  {{ if eq (len $matches) 0 }}
+    <header class="pp-header">
+      <h1 class="pp-header__title">{{ .Title | emojify }}</h1>
+    </header>
+    <section class="pp-intro prose dark:prose-invert">
+      <p>找不到這個 app 的支援資料映射，請檢查 <code>data/app_url_matrix.yaml</code>。</p>
+      {{ .Content }}
+    </section>
+  {{ else }}
+    {{ $app := index $matches 0 }}
+    {{ $baseURL := strings.TrimSuffix "/" site.BaseURL }}
+    {{ $supportURL := strings.TrimPrefix "/" $app.support_url | relURL }}
+    {{ $privacyURL := strings.TrimPrefix "/" $app.privacy_url | relURL }}
+    {{ $marketingURL := strings.TrimPrefix "/" $app.marketing_url | relURL }}
+    {{ $supportAbs := printf "%s/%s" $baseURL (strings.TrimPrefix "/" $app.support_url) }}
+    {{ $privacyAbs := printf "%s/%s" $baseURL (strings.TrimPrefix "/" $app.privacy_url) }}
+    {{ $marketingAbs := printf "%s/%s" $baseURL (strings.TrimPrefix "/" $app.marketing_url) }}
+    {{ $displayName := cond $isEn $app.name $app.name_zh }}
+
+    <header class="pp-header">
+      <h1 class="pp-header__title">{{ $displayName }} {{ $supportTitleSuffix }}</h1>
+      <p class="pp-header__summary">{{ $introText }}</p>
+    </header>
+
+    <section class="pp-intro prose dark:prose-invert">
+      {{ .Content }}
+    </section>
+
+    <section class="pp-panel">
+      <h2 class="pp-panel__title">{{ $entryTitle }}</h2>
+      <p class="pp-panel__desc">{{ $entryDesc }}</p>
+      <ul class="pp-panel__list">
+        <li><a href="{{ $app.store_url }}">App Store：{{ $app.store_url }}</a></li>
+        <li><a href="{{ $supportURL }}">{{ $supportLabel }}：{{ $supportAbs }}</a></li>
+        <li><a href="{{ $marketingURL }}">{{ $productLabel }}：{{ $marketingAbs }}</a></li>
+        <li><a href="{{ $privacyURL }}">{{ $privacyLabel }}：{{ $privacyAbs }}</a></li>
+        {{ with $app.terms_url }}
+          {{ $termsAbs := printf "%s/%s" $baseURL (strings.TrimPrefix "/" .) }}
+          <li><a href="{{ strings.TrimPrefix "/" . | relURL }}">{{ $termsLabel }}：{{ $termsAbs }}</a></li>
+        {{ end }}
+      </ul>
+    </section>
+
+    <section class="pp-panel-grid">
+      <div class="pp-panel pp-panel--sub">
+        <h2 class="pp-panel__title">{{ $contactTitle }}</h2>
+        <p class="pp-panel__desc" style="margin-bottom:0;">
+          Email:
+          <a href="mailto:qqder339@gmail.com?subject=[{{ $displayName }}]%20Support%20Request">qqder339@gmail.com</a>
+        </p>
+      </div>
+
+      <div class="pp-panel pp-panel--sub">
+        <h2 class="pp-panel__title">{{ $reportTitle }}</h2>
+        <ul class="pp-panel__list">
+          {{ range $report }}<li>{{ . }}</li>{{ end }}
+        </ul>
+      </div>
+
+      <div class="pp-panel pp-panel--sub">
+        <h2 class="pp-panel__title">{{ $relatedTitle }}</h2>
+        <ul class="pp-panel__list">
+          <li><a href="{{ $app.store_url }}">{{ $storeLabel }}</a></li>
+          <li><a href="{{ $marketingURL }}">{{ $productLabel }}</a></li>
+          <li><a href="{{ $privacyURL }}">{{ $privacyLabel }}</a></li>
+          {{ with $app.terms_url }}
+            <li><a href="{{ strings.TrimPrefix "/" . | relURL }}">{{ $termsLabel }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    </section>
+  {{ end }}
+</article>
