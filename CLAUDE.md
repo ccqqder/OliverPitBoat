@@ -4,23 +4,25 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**核舟 (Project Ark)** — A Hugo static site on GitHub Pages serving as:
+**核舟 (The Miniature Boat)** — A Hugo static site on GitHub Pages serving as:
 - Personal brand / "Digital Ark" for an indie iOS developer
-- App showcase matrix (cross-promotion via `static/api/apps.json`)
+- App showcase matrix with individual app landing pages + support/legal pages
 - Dual-track blog: "The Workshop" (dev logs) + "The Observatory" (humanities/tech essays)
 
 ## Tech Stack
 
 - **Generator:** Hugo Extended (v0.155.2 pinned in CI, `TZ: Asia/Taipei`)
-- **Theme:** PaperMod via git submodule (`themes/PaperMod/`) — never edit directly, override in root `layouts/`
+- **Theme:** Blowfish (`themes/blowfish/`) — never edit directly, override in root `layouts/` or `assets/`
 - **Hosting:** GitHub Pages via `actions/deploy-pages` (NOT gh-pages branch push)
-- **Comments:** Giscus planned (not yet configured in `hugo.toml`)
-- **Language:** Multilingual — Traditional Chinese (zh-tw) primary, English (en) prepared
+- **CMS:** TinaCMS (local-only, no cloud; `clientId: null, token: null`)
+- **Language:** Trilingual — zh-tw (primary), en, ja
+
+> Note: `themes/PaperMod/` is also present as a submodule but is NOT the active theme.
 
 ## Common Commands
 
 ```bash
-# Dev server with TinaCMS (preferred — CMS admin at /admin/)
+# Dev server with TinaCMS (CMS admin at /admin/)
 npm run dev
 
 # Dev server without CMS (Hugo only, with drafts)
@@ -38,26 +40,93 @@ hugo new posts/my-post.md
 
 ## Architecture
 
+### Config Directory (`config/_default/`)
+Config is split across multiple files — not a single root `hugo.toml`:
+- `hugo.toml` — baseURL, theme, language defaults, taxonomies, output formats
+- `params.toml` — Blowfish theme params (colorScheme, appearance, homepage layout, article display)
+- `languages.zh-tw.toml`, `languages.en.toml`, `languages.ja.toml` — per-language title, description, author, links
+- `menus.zh-tw.toml`, `menus.en.toml`, `menus.ja.toml` — nav menu items per language
+- `markup.toml` — Goldmark parser settings, syntax highlighting, TOC levels
+
+### Content Structure
 ```
 content/
-├── posts/         # Blog articles (categories: "The Workshop" or "The Observatory")
-├── apps/          # App showcase (uses app-card shortcode)
-│   └── _index.md  # List page with app-card shortcodes
-└── about.md       # Manifesto / About page
-static/api/
-└── apps.json      # Shared contract — iOS apps fetch this for cross-promotion
-layouts/shortcodes/
-└── app-card.html  # Renders app cards (see shortcode params below)
+├── posts/          # Blog articles (categories: "The Workshop" or "The Observatory")
+│   ├── my-post.md           # zh-tw (default)
+│   ├── my-post.en.md        # English translation
+│   └── my-post.ja.md        # Japanese translation
+├── apps/           # App showcase
+│   ├── _index.md            # Matrix table of all apps (markdown table format)
+│   └── app-name.md          # Individual app landing page (layout: simple)
+├── privacy/        # Per-app privacy policy pages (all trilingual)
+│   ├── _index.md            # Privacy policies index (zh-tw/en/ja)
+│   └── app-slug.md          # Individual privacy policy (layout: simple, url: /privacy/app-slug/)
+├── support/        # Per-app support pages (all trilingual)
+│   ├── _index.md            # Support index (zh-tw/en/ja)
+│   └── app-slug.md          # Individual support page (layout: simple, url: /support/app-slug/)
+└── about.md        # About page (zh-tw); about.en.md, about.ja.md for translations
+
+All content sections (posts, apps, privacy, support) follow the filename-suffix multilingual pattern.
+Every `page.md` has a corresponding `page.en.md` and `page.ja.md`.
 ```
 
-### app-card Shortcode
+### Static Assets
 ```
-{{< app-card name="Display Name" icon="🪐" desc="Short description" url="https://..." >}}
+static/api/
+├── apps.json           # Shared runtime contract — iOS apps fetch this for cross-promotion
+└── asc-metadata.json   # App Store Connect metadata export
+static/images/
+└── screenshots/        # Per-app screenshots organized by app slug
 ```
-- `icon` — emoji (not image), displayed at 3em
-- `url` — set to `"#"` to hide the App Store button; any other value renders a blue link button
+
+### Custom Assets (override Blowfish)
+```
+assets/
+├── css/custom.css              # Global custom CSS overrides
+├── css/schemes/braun.css       # Custom "braun" color scheme
+└── img/author.gif              # Author avatar
+```
+
+### Layouts
+```
+layouts/
+├── shortcodes/app-card.html    # App card component (icon, name, desc, optional store link)
+├── partials/favicons.html      # Favicon override
+├── _default/_markup/render-image.html  # Custom image rendering
+├── apps/                       # Custom layouts for apps section
+└── support/                    # Custom layouts for support pages
+```
 
 ## Key Conventions
+
+### Content Front Matter (Posts)
+Always use YAML (not TOML) for consistency with existing content:
+```yaml
+---
+title: "Post Title"
+date: 2026-02-09T14:00:00+08:00
+draft: false
+tags: ["iOS Dev", "App Store"]
+categories: ["The Workshop"]  # or "The Observatory"
+description: "Short summary"
+---
+```
+- Categories must be one of: `"The Workshop"` (dev/tech) or `"The Observatory"` (humanities/essays)
+- Dates use `+08:00` (Asia/Taipei) timezone offset
+- The default archetype uses TOML (`+++`) — always convert to YAML when creating manually
+
+### App Landing Page Front Matter
+```yaml
+---
+title: App Display Name
+layout: simple
+url: /apps/app-slug/
+summary: One-line tagline
+app_slug: app-slug
+showDate: false
+showReadingTime: false
+---
+```
 
 ### apps.json Schema (shared contract — keep stable)
 ```json
@@ -74,61 +143,43 @@ layouts/shortcodes/
 ```
 iOS apps consume this JSON at runtime. Schema changes require coordinating with app releases.
 
-### Content Front Matter
-Posts use YAML front matter (between `---`). The default archetype (`archetypes/default.md`) uses TOML (`+++`) — when creating content manually, always use YAML instead for consistency with existing content.
-
-```yaml
----
-title: "Post Title"
-date: 2026-02-09T14:00:00+08:00
-draft: false
-tags: ["iOS Dev", "App Store"]
-categories: ["The Workshop"]  # or "The Observatory"
-description: "Short summary"
-author: "Author Name"
-ShowReadingTime: true
----
+### app-card Shortcode
 ```
-- Categories must be one of: `"The Workshop"` (dev/tech) or `"The Observatory"` (humanities/essays)
-- Dates use `+08:00` (Asia/Taipei) timezone offset
-
-### Design Decisions
-- **Dark Mode First** — `defaultTheme = "auto"` follows system preference
-- **No tracking/cookies** — no analytics, no cookie banners
-- **Design aesthetic:** Terminal Chic / Neo-Brutalism — minimal, fast (<1s load), no popups
-- **Output formats:** HTML + RSS + JSON (JSON enables PaperMod search)
-- **baseURL:** `https://ccqqder.github.io/PeachPitBoat/` — all absolute URLs use this prefix
+{{< app-card name="Display Name" icon="🪐" desc="Short description" url="https://..." >}}
+```
+- `icon` — emoji (not image), displayed at 3em
+- `url` — set to `"#"` to hide the App Store button
 
 ## i18n / Multilingual
 
 Uses Hugo's **filename-suffix** mode (`defaultContentLanguageInSubdir = false`):
 - `content/posts/my-post.md` → zh-tw (default, served at root `/posts/my-post/`)
 - `content/posts/my-post.en.md` → English (served at `/en/posts/my-post/`)
+- `content/posts/my-post.ja.md` → Japanese (served at `/ja/posts/my-post/`)
 
-To add an English translation, create a `.en.md` file alongside the zh-tw original. Hugo auto-links them as translation pairs by filename stem.
+Hugo auto-links translation pairs by filename stem. Language switcher is built into Blowfish.
 
-PaperMod's built-in `i18n/zh-tw.yaml` handles UI strings (目錄、複製、上一頁 etc.). Override by creating `i18n/zh-tw.yaml` in project root if needed.
+Menu items and author info are defined per-language in `config/_default/languages.*.toml` and `config/_default/menus.*.toml`.
 
-Menu items and `homeInfoParams` are defined per-language in `hugo.toml` under `[languages.zh-tw]` and `[languages.en]`.
+## Design Decisions
+
+- **Color scheme:** `braun` (custom Dieter Rams-inspired palette, defined in `assets/css/schemes/braun.css`)
+- **Dark mode first:** `defaultAppearance = "dark"`, `autoSwitchAppearance = true` in `params.toml`
+- **No tracking/cookies** — no analytics, no cookie banners
+- **Output formats:** HTML + RSS + JSON (JSON enables search)
+- **baseURL:** `https://ccqqder.github.io/PeachPitBoat/` — all absolute URLs use this prefix
+- **Goldmark unsafe mode enabled** — allows raw HTML in Markdown
 
 ## CMS (TinaCMS)
 
-Local-only WYSIWYG editor (`clientId: null, token: null` — no cloud connection).
-
-- Config: `tina/config.ts` — defines collections, fields, rich-text toolbar
-- Build output: `static/admin/` (generated by TinaCMS build)
-- Media uploads go to `static/images/` (configured in `tina/config.ts` → `mediaRoot`)
-- Collections: posts (folder), apps page (file), about page (file)
-- Does NOT auto-commit — use git manually after editing
-
-## Hugo Config Notes
-
-- Pagination: 5 posts per page (`hugo.toml` → `[pagination] pagerSize = 5`)
-- `ShowShareButtons = false` — sharing buttons intentionally disabled
+- Config: `tina/config.ts` — defines collections (posts, apps page, about page), fields, rich-text toolbar
+- Build output: `static/admin/` (generated by TinaCMS build, not committed)
+- Media uploads go to `static/images/`
+- Does NOT auto-commit — use git manually after editing via CMS
 
 ## Deployment
 
-Push to `main` triggers GitHub Actions → Hugo build → `actions/deploy-pages`. The workflow uses `actions/configure-pages` to set the baseURL dynamically.
+Push to `main` triggers GitHub Actions → Hugo Extended build → `actions/deploy-pages`. The workflow uses `actions/configure-pages` to set the baseURL dynamically. No TinaCMS step in CI — Hugo builds directly.
 
 ## Git History Rewriting Safety
 
@@ -145,7 +196,7 @@ git checkout temp-backup -- path/to/files
 git branch -D temp-backup
 ```
 
-Also: **never run `gc --prune=now` immediately after history rewriting** — keep dangling objects around as a safety net until you've verified everything is correct.
+**Never run `gc --prune=now` immediately after history rewriting** — keep dangling objects as a safety net until verified.
 
 ## Related Docs
 
