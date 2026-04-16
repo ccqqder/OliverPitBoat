@@ -25,10 +25,10 @@ For self-taught beginners, the app also doesn't behave like a machine that only 
 
 Just as importantly, none of this requires handing your learning history to an external server. For students, that lowers the barrier to use. For teachers, parents, or anyone wary of data leakage, it turns the app into something closer to a long-term learning tool rather than a casual demo.
 
-The AI layer also goes beyond "a chat model stuffed in for show." The question bank, error context, RAG retrieval, and a directly executable Python 3.13 playground operate inside the same loop. You answer, ask, then run code to verify; when needed, capability analytics let you see whether you're stuck at syntax, concepts, or program flow.
+The AI layer also goes beyond "a chat model stuffed in for show." The question bank, error context, context-aware retrieval, and a directly executable Python playground operate inside the same loop. You answer, ask, then run code to verify; when needed, capability analytics let you see whether you're stuck at syntax, concepts, or program flow.
 
 ## Why this app deserves a permanent place on your phone
 
 The learning tools people actually keep opening are the ones that sense when you're about to give up, more than the ones packed with features. Python Dimensions gathers question training, AI hints, and an executable environment onto a single device. The point is to let you push forward a little, even in the moments you'd otherwise scroll away.
 
-If you want a Python learning tool that opens daily, compounds quietly, and doesn't demand privacy trade-offs, the App Store link on this page is the most direct next step.
+What actually moves the needle isn't the rush of fifty problems in one sitting. It's the three minutes you're willing to open the app each day. Python Dimensions is built around those three minutes.

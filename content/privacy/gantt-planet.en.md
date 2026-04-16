@@ -11,7 +11,7 @@ showReadingTime: false
 
 ## 1. Overview
 
-Gantt Planet, developed by ChengChe Lee, is a life goal management app combining 3D visual habit tracking with an on-device AI companion.
+Gantt Planet, developed by QQder339, is a life goal management app combining 3D visual habit tracking with an on-device AI companion.
 
 **In short: We do NOT collect, store, or transmit any of your personal data to external servers. Your habits, journals, and conversations belong only to you.**
 

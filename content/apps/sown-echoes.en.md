@@ -29,4 +29,4 @@ This dual-track choice is the product's philosophy, not an add-on. Some parts of
 
 When a product's core is your thoughts, values, and life experience, privacy stops being a feature and becomes the precondition for the product to work at all. Sown Echoes keeps analysis and conversation as on-device as it can, so you don't have to hand yourself over wholesale just to get a tool that understands you.
 
-If you're looking for an app that preserves personal history, organises your self-narrative, and leaves behind a version of yourself that can be understood later, Sown Echoes is worth trying slowly.
+One day you'll try to recall a chapter of your life and find you can't quite put it into words anymore. Sown Echoes exists to push that day as far into the future as you can.

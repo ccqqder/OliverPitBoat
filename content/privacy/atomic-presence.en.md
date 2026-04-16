@@ -11,7 +11,7 @@ showReadingTime: false
 
 ## 1. Overview
 
-Atomic Presence, developed by ChengChe Lee, is an anti-deepfake tool that uses cryptographic hash chains, digital signatures, and audio watermarking to help users self-verify the integrity of their recordings.
+Atomic Presence, developed by QQder339, is an anti-deepfake tool that uses cryptographic hash chains, digital signatures, and audio watermarking to help users self-verify the integrity of their recordings.
 
 **In short: We do NOT collect, store, or transmit any of your personal data to external servers. All cryptographic operations and verification are performed on-device.**
 

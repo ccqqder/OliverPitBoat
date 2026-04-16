@@ -31,4 +31,4 @@ The collection system turns "finishing things" from obligation into something th
 
 Goals, journal entries, emotions, conversations: this content is more personal than what goes into a typical productivity app. Part of Gantt Planet's value is that you don't have to hand this data to an external service to get the companionship and visualisation. For many people, inner content only gets written down when the data really stays on their own device.
 
-If you're looking for a long-term system that can grow into your own version of yourself, rather than a louder KPI-dashboard productivity tool, Gantt Planet is worth living with for a while.
+Gantt Planet won't fill your calendar for you, and it won't flash red when you fall behind. What it's good at is letting the things you don't want to abandon accumulate, quietly, into a planet you can actually see.

@@ -11,7 +11,7 @@ showReadingTime: false
 
 ## 1. Overview
 
-Sown Echoes, developed by ChengChe Lee, is an app that lets you actively capture your thoughts, values, and life experiences, building a digital legacy through a BIP-39 cryptographic identity.
+Sown Echoes, developed by QQder339, is an app that lets you actively capture your thoughts, values, and life experiences, building a digital legacy through a BIP-39 cryptographic identity.
 
 **In short: We do NOT collect, store, or transmit any of your personal data to external servers. Your thoughts and records belong only to you.**
 

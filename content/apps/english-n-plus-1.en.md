@@ -31,4 +31,4 @@ Model selection isn't pushed in your face either. The placement test establishes
 
 If flashy English apps that never quite fit have left you worn out, this one works differently. It earns retention by being useful every time you open it, not through streaks or gamified loops. Students, self-learners, people returning to English, or anyone who wants a steady dose of reading during the commute will find this more structured than scraping the web for material.
 
-If you want a tool that controls difficulty for you and keeps your data off the cloud, the App Store link on this page is the fastest next step.
+People usually give up on English not from lack of effort, but because the material doesn't fit. English N+1 only tries to fix that one thing — so the next time you open an article, you don't have to guess whether it's about to break your patience.

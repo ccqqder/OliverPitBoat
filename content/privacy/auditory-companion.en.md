@@ -11,7 +11,7 @@ showReadingTime: false
 
 ## 1. Overview
 
-Auditory Companion, developed by ChengChe Lee, is a sophisticated audio engine combining real-time DSP noise synthesis, 108 ambient sound samples, and AI-powered text-to-speech reading.
+Auditory Companion, developed by QQder339, is a sophisticated audio engine combining real-time DSP noise synthesis, 108 ambient sound samples, and AI-powered text-to-speech reading.
 
 **In short: We do NOT collect, store, or transmit any of your personal data to external servers.**
 
@@ -47,7 +47,7 @@ This app does **NOT** use any third-party analytics or advertising frameworks (N
 
 Core features (noise synthesis, scene mixing, iOS built-in TTS reading) operate **fully offline**. Network access occurs only when you explicitly trigger it:
 
-- **Downloading the MeloTTS model** (Optional): When you choose to download the on-device TTS model in Settings, the app fetches the model files from a public HuggingFace source and stores them in the App Group
+- **Downloading the MeloTTS model** (Optional): When you choose to download the on-device TTS model in Settings, the app fetches the model files from a public source and caches them locally
 - **External Links**: Opens the system browser when tapping relevant links
 
 These requests transmit only the URL of the file you chose to download; no personally identifiable information is attached.

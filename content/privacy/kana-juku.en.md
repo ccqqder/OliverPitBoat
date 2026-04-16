@@ -11,7 +11,7 @@ showReadingTime: false
 
 ## 1. Overview
 
-Kana Juku, developed by ChengChe Lee, is a Japanese kana learning app designed for native Chinese speakers.
+Kana Juku, developed by QQder339, is a Japanese kana learning app designed for native Chinese speakers.
 
 **In short: We do NOT collect, store, or transmit any of your personal data to external servers.**
 
@@ -31,13 +31,13 @@ The following data is stored strictly on your device and never transmitted exter
 - **Learning Progress**: Tracks your kana learning status
 - **User Settings**: Saves your preferences
 - **Handwriting Input**: Processed in real-time memory and discarded immediately; no files are saved
-- **Widget Data**: Uses iOS App Groups shared container to display kana on home screen widgets (local only)
+- **Widget Data**: Uses iOS shared container mechanism to display kana on home screen widgets (local only)
 
 ## 4. Offline AI Features
 
 All AI features operate completely offline:
 
-- **Handwriting Recognition**: Uses on-device Core ML models; all processing is local
+- **Handwriting Recognition**: Uses on-device machine learning models; all processing is local
 - **Text-to-Speech**: Uses pre-downloaded audio assets
 - **AI Assistance**: Uses local Large Language Models (LLM); inference is performed on-device without data upload
 

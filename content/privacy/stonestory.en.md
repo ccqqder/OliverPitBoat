@@ -11,7 +11,7 @@ showReadingTime: false
 
 ## 1. Overview
 
-StoneStory, developed by ChengChe Lee, is an immersive reading and character simulation app based on the classic novel "Dream of the Red Chamber."
+StoneStory, developed by QQder339, is an immersive reading and character simulation app based on the classic novel "Dream of the Red Chamber."
 
 **In short: We do NOT collect, store, or transmit any of your personal data to external servers.**
 

@@ -11,7 +11,7 @@ showReadingTime: false
 
 ## 1. Overview
 
-English N+1, developed by ChengChe Lee, is an English learning app featuring CEFR-level assessment and on-device AI conversation technology.
+English N+1, developed by QQder339, is an English learning app featuring CEFR-level assessment and on-device AI conversation technology.
 
 **In short: We do NOT collect, store, or transmit any of your personal data to external servers.**
 

@@ -11,7 +11,7 @@ showReadingTime: false
 
 ## 1. Overview
 
-Python Dimensions, developed by ChengChe Lee, is a Python programming learning app featuring a built-in Python 3.13 runtime environment and on-device AI tutor.
+Python Dimensions, developed by QQder339, is a Python programming learning app featuring a built-in Python runtime environment and on-device AI tutor.
 
 **In short: We do NOT collect, store, or transmit any of your personal data to external servers.**
 
@@ -38,7 +38,7 @@ The following data is stored strictly on your device and never transmitted exter
 All AI features run entirely on-device without network connection:
 
 - **AI Tutor**: Uses local Large Language Models (LLM) to provide hints and explanations; all inference runs on-device
-- **Python Runtime**: The built-in Python 3.13 interpreter runs entirely on-device; your code is never sent to any server
+- **Python Runtime**: The built-in Python interpreter runs entirely on-device; your code is never sent to any server
 
 AI models require a one-time download before first use (user-initiated); all features work offline after download.
 

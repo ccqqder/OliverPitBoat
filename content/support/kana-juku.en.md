@@ -23,7 +23,7 @@ A: When you first use an AI feature, the app will prompt you to download the mod
 A: The built-in keyboard in Kana Juku is for in-app use only and is not a system-level keyboard extension. To type Japanese in other apps, please use the iOS system Japanese keyboard.
 
 **Q: The home screen widget isn't updating kana?**  
-A: Make sure the app is allowed to use App Groups in iOS Settings. Try removing and re-adding the widget on the home screen, or restart your device.
+A: Try long-pressing to remove the widget from the home screen, then re-adding it. If it still doesn't update, force-quit and relaunch the app, or restart your device.
 
 **Q: My learning progress has disappeared?**  
 A: Progress is stored locally on your device. Uninstalling the app will erase all data. iCloud backup is not currently supported. If progress disappears without uninstalling, please email us with details.

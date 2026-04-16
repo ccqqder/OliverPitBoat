@@ -29,4 +29,4 @@ The design suits two kinds of learners especially: people starting Japanese who 
 
 Language learning tools tend to drift toward content-platform behaviour over time. You feel like you're learning, but you're really being shuffled between recommendations. Kana Juku stays restrained. The focus sits on real input and recognition training, and both the local AI and data processing run on-device. You don't have to trade your usage habits for a little learning convenience.
 
-If you want a kana tool actually designed around how Chinese speakers learn, stable enough for commutes and spare moments, this page is its product home.
+You don't have to let romaji lead you through kana. Kana Juku shows you that entering through the shapes works too — and often gets you there faster.

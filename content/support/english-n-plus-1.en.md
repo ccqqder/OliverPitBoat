@@ -20,7 +20,7 @@ A: The initial test is a quick vocabulary-based assessment and may not perfectly
 A: Based on your device's performance, the app recommends an appropriate model (Llama 3.2 or Qwen 2.5). Model size is approximately 1–4 GB. After downloading, conversations work **completely offline** — no internet required.
 
 **Q: AI conversation responses are very slow or frozen?**  
-A: On-device AI inference speed depends on your device's performance. Older devices (chips below A14) will be noticeably slower. Try selecting a smaller model in Settings.
+A: On-device AI inference speed depends on your device's performance. Older iPhones will be noticeably slower. Try selecting a smaller model in Settings.
 
 **Q: The generated articles are too difficult to understand?**  
 A: Articles are generated based on your CEFR level. If they feel too hard, lower your level setting in Settings, or manually select a lower difficulty when generating articles.
