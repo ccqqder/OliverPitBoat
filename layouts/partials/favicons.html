@@ -1,2 +1,5 @@
-<link rel="icon" type="image/gif" href="{{ "img/author_hu_d657f85462694c1.gif" | relURL }}">
-<link rel="apple-touch-icon" href="{{ "img/author_hu_d657f85462694c1.gif" | relURL }}">
+{{ $icon := resources.Get "img/author.png" }}
+{{ with $icon }}
+  <link rel="icon" type="image/png" href="{{ .RelPermalink }}">
+  <link rel="apple-touch-icon" href="{{ .RelPermalink }}">
+{{ end }}

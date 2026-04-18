@@ -1,3 +1,95 @@
+/* ============================================================
+   BEGIN: Scoped Custom Fonts
+   ------------------------------------------------------------
+   Scope (keeps the eye fresh — fonts only where they matter):
+     • Article title  → Instrument Serif + LXGW WenKai TC   (literary, display)
+     • Article body   → Bricolage Grotesque + 台北黑體        (modern, readable)
+     • Code in post   → Geist Mono                          (modern mono)
+     • Everything else (nav, TOC, footer, sidebar) → default
+   ROLLBACK: delete everything between BEGIN and END markers.
+   ============================================================ */
+@font-face {
+  font-family: "LXGW WenKai TC";
+  src: url("/fonts/LXGWWenKaiTC-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Instrument Serif";
+  src: url("/fonts/InstrumentSerif-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Taipei Sans TC Beta";
+  src: url("/fonts/TaipeiSansTCBeta-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Taipei Sans TC Beta";
+  src: url("/fonts/TaipeiSansTCBeta-Bold.ttf") format("truetype");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Bricolage Grotesque";
+  src: url("/fonts/BricolageGrotesque-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Bricolage Grotesque";
+  src: url("/fonts/BricolageGrotesque-Bold.ttf") format("truetype");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Geist Mono";
+  src: url("/fonts/GeistMono-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Geist Mono";
+  src: url("/fonts/GeistMono-Bold.ttf") format("truetype");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+
+/* Article title — literary display */
+#single_header h1 {
+  font-family:
+    "Instrument Serif",
+    "LXGW WenKai TC",
+    ui-serif, Georgia, serif;
+  letter-spacing: 0.01em;
+}
+
+/* Article body content — modern, low-fatigue */
+.article-content,
+.article-content p,
+.article-content li,
+.article-content blockquote,
+.article-content h2,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6 {
+  font-family:
+    "Bricolage Grotesque",
+    "Taipei Sans TC Beta",
+    ui-sans-serif, system-ui,
+    "PingFang TC", "Hiragino Sans CNS",
+    "Microsoft JhengHei", sans-serif;
+}
+
+/* Code inside the article — modern mono */
+.article-content code,
+.article-content pre,
+.article-content kbd,
+.article-content samp {
+  font-family:
+    "Geist Mono",
+    ui-monospace, "SF Mono", Menlo, Monaco,
+    "Cascadia Mono", Consolas, monospace;
+}
+/* ============================================================
+   END: Scoped Custom Fonts
+   ============================================================ */
+
 /* Braun Industrial Minimalism - Custom Overrides
    ================================================
    Skeuomorphic precision instruments inspired by
@@ -1413,4 +1505,51 @@ html.dark .pp-shot img { border-color: rgba(var(--color-neutral-700), 1); }
   font-size: 0.85rem;
   line-height: 1.5;
   opacity: 0.75;
+}
+
+/* ============================================================
+   Author Card — Washi Paper Background
+   ============================================================ */
+.author-card-washi {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+.author-card-washi::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: -1;
+  pointer-events: none;
+}
+html.light .author-card-washi::before {
+  background: rgba(255, 255, 255, 0.35);
+}
+.author-card-washi > * {
+  position: relative;
+}
+
+
+/* ============================================================
+   TOC — Letterpress Paper Background
+   ============================================================ */
+.toc-bg-letterpress {
+  position: relative;
+  isolation: isolate;
+}
+.toc-bg-letterpress::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: inherit;
+  z-index: -1;
+  pointer-events: none;
+}
+html.light .toc-bg-letterpress::before {
+  background: rgba(255, 255, 255, 0.4);
+}
+.toc-bg-letterpress > * {
+  position: relative;
 }

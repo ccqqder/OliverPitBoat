@@ -84,7 +84,7 @@ static/images/
 assets/
 ├── css/custom.css              # Global custom CSS overrides
 ├── css/schemes/braun.css       # Custom "braun" color scheme
-└── img/author.gif              # Author avatar
+└── img/author.png              # Author avatar / site icon
 ```
 
 ### Layouts

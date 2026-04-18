@@ -12,7 +12,7 @@ title = "核舟"
 
 [params.author]
   name = "QQder"
-  image = "img/author.gif"
+  image = "img/author.png"
   headline = "核舟 — デジタル骨董"
   bio = "AIの計算資源は独占されるのか？AI能力は突破し続けるのか？答えがどうであれ、早く使い始めるに越したことはない。文系出身のSysadminがAIの力を借りてiOSアプリを開発する記録。"
   links = [
