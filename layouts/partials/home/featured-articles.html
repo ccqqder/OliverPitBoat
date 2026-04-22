@@ -1,0 +1,13 @@
+{{ with site.Params.homepage.featuredPosts }}
+<section class="mt-8">
+  <h2 class="mb-6 text-2xl font-extrabold">{{ i18n "homepage_featured" }}</h2>
+  <div class="space-y-10 w-full">
+    {{ range . }}
+      {{ $page := site.GetPage (printf "posts/%s" .) }}
+      {{ with $page }}
+        {{ partial "article-link/simple.html" . }}
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}

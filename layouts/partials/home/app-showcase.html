@@ -1,0 +1,33 @@
+{{ $apps := where (where site.RegularPages "Type" "apps") "Params.app_slug" "!=" nil }}
+{{ with $apps }}
+<section class="mt-10">
+  <div class="flex items-baseline justify-between mb-6">
+    <h2 class="text-2xl font-extrabold">{{ i18n "homepage_apps" }}</h2>
+    <a href="{{ "/apps/" | relLangURL }}"
+       class="text-sm font-medium text-primary-600 dark:text-primary-400 hover:underline">
+      {{ i18n "homepage_apps_more" }} →
+    </a>
+  </div>
+  <div class="not-prose grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+    {{ range . }}
+      {{ $iconURL := printf "/images/apps/%s.png" .Params.app_slug | absURL }}
+      <a href="{{ .RelPermalink }}"
+         class="group flex flex-col items-center text-center p-3 rounded-xl
+                hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors">
+        <img src="{{ $iconURL }}"
+             alt="{{ .Title }}"
+             loading="lazy"
+             class="w-16 h-16 rounded-2xl mb-2 shadow-sm">
+        <span class="text-sm font-semibold text-neutral-800 dark:text-neutral leading-tight">
+          {{ .Title }}
+        </span>
+        {{ with .Params.summary }}
+          <span class="text-xs text-neutral-500 dark:text-neutral-400 mt-1 line-clamp-2 leading-snug">
+            {{ . }}
+          </span>
+        {{ end }}
+      </a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

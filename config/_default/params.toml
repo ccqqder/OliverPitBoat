@@ -1,3 +1,4 @@
+mainSections = ["posts"]
 colorScheme = "braun"
 defaultAppearance = "dark"
 autoSwitchAppearance = true
@@ -21,6 +22,7 @@ enableCodeCopy = true
   showMoreLink = true
   showMoreLinkDest = "/posts/"
   cardView = false
+  featuredPosts = ["stonestory_thermodynamics", "gantt-planet-intro"]
 
 [article]
   showDate = true
