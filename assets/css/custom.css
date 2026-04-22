@@ -1450,6 +1450,54 @@ html.dark .pp-detail-header__icon { border-color: rgba(var(--color-neutral-700),
   opacity: 0.85;
 }
 
+/* Offline-capability badge (appears next to the app tagline) */
+.pp-offline-badge {
+  margin-top: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.625rem;
+  border-radius: 999px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  border: 1px solid rgba(var(--color-neutral-400), 0.45);
+  background: rgba(var(--color-neutral-200), 0.25);
+  color: rgba(var(--color-neutral-700), 1);
+  cursor: help;
+}
+.dark .pp-offline-badge {
+  border-color: rgba(var(--color-neutral-500), 0.45);
+  background: rgba(var(--color-neutral-700), 0.35);
+  color: rgba(var(--color-neutral-100), 0.92);
+}
+.pp-offline-badge__icon {
+  font-size: 0.95rem;
+  line-height: 1;
+}
+.pp-offline-badge--is-fully {
+  border-color: rgba(var(--color-primary-500), 0.55);
+  background: rgba(var(--color-primary-500), 0.08);
+  color: rgba(var(--color-primary-700), 1);
+}
+.dark .pp-offline-badge--is-fully {
+  background: rgba(var(--color-primary-500), 0.15);
+  color: rgba(var(--color-primary-200), 1);
+}
+.pp-offline-badge--is-after-setup {
+  border-color: rgba(var(--color-primary-400), 0.4);
+  background: rgba(var(--color-primary-400), 0.06);
+  color: rgba(var(--color-primary-700), 0.9);
+}
+.dark .pp-offline-badge--is-after-setup {
+  background: rgba(var(--color-primary-500), 0.1);
+  color: rgba(var(--color-primary-200), 0.9);
+}
+.pp-offline-badge--is-network {
+  /* deliberately muted: not a selling point */
+  opacity: 0.7;
+}
+
 /* Features grid */
 .pp-features {
   display: grid;

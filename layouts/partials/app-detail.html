@@ -50,6 +50,34 @@
         <div>
           <h1 class="pp-detail-header__title">{{ $displayName }}</h1>
           <p class="pp-detail-header__tagline">{{ $tagline }}</p>
+          {{ with $app.offline_status }}
+            {{ $label := "" }}
+            {{ $aria := "" }}
+            {{ $mod := "" }}
+            {{ $icon := "" }}
+            {{ if eq . "fully_offline" }}
+              {{ $label = i18n "offline_badge_fully" }}
+              {{ $aria = i18n "offline_badge_aria_fully" }}
+              {{ $mod = "is-fully" }}
+              {{ $icon = "✈︎" }}
+            {{ else if eq . "offline_after_setup" }}
+              {{ $label = i18n "offline_badge_after_setup" }}
+              {{ $aria = i18n "offline_badge_aria_after_setup" }}
+              {{ $mod = "is-after-setup" }}
+              {{ $icon = "✈︎" }}
+            {{ else if eq . "needs_network" }}
+              {{ $label = i18n "offline_badge_needs_network" }}
+              {{ $aria = i18n "offline_badge_aria_needs_network" }}
+              {{ $mod = "is-network" }}
+              {{ $icon = "◉" }}
+            {{ end }}
+            {{ with $label }}
+              <p class="pp-offline-badge pp-offline-badge--{{ $mod }}" title="{{ $aria }}" aria-label="{{ $aria }}">
+                <span class="pp-offline-badge__icon" aria-hidden="true">{{ $icon }}</span>
+                <span class="pp-offline-badge__label">{{ . }}</span>
+              </p>
+            {{ end }}
+          {{ end }}
         </div>
       </div>
       <div class="pp-actions">

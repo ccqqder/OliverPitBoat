@@ -1,5 +1,6 @@
 - slug: python-dimensions
   shipped: true
+  offline_status: offline_after_setup
   line: offline-growth
   category: language-learning
   asset_slug: python-dimensions
@@ -62,6 +63,7 @@
 
 - slug: kana-juku
   shipped: true
+  offline_status: fully_offline
   line: offline-growth
   category: language-learning
   asset_slug: kana-juku
@@ -123,6 +125,7 @@
 
 - slug: english-n-plus-1
   shipped: true
+  offline_status: offline_after_setup
   line: offline-growth
   category: language-learning
   asset_slug: english-plus-one
@@ -185,6 +188,7 @@
 
 - slug: gantt-planet
   shipped: true
+  offline_status: fully_offline
   line: offline-growth
   category: self-reflection
   asset_slug: gantt-planet
@@ -251,6 +255,7 @@
 
 - slug: auditory-companion
   shipped: true
+  offline_status: fully_offline
   line: offline-growth
   category: self-reflection
   asset_slug: auditory-companion
@@ -310,6 +315,7 @@
 
 - slug: atomic-presence
   shipped: true
+  offline_status: fully_offline
   line: digital-citizen
   category: democracy-edc
   asset_slug: atomic-presence
@@ -369,6 +375,7 @@
 
 - slug: sown-echoes
   shipped: true
+  offline_status: offline_after_setup
   line: digital-citizen
   category: democracy-edc
   asset_slug: meme-lives
@@ -433,6 +440,7 @@
 
 - slug: stonestory
   shipped: true
+  offline_status: offline_after_setup
   line: offline-growth
   category: self-reflection
   asset_slug: stone-story
@@ -506,6 +514,7 @@
 
 - slug: instant-vote
   shipped: false
+  offline_status: needs_network
   line: digital-citizen
   category: democracy-edc
   name: Instant Vote

@@ -4,3 +4,15 @@ homepage_apps:
   other: 應用程式
 homepage_apps_more:
   other: 查看全部
+offline_badge_fully:
+  other: 可離線使用
+offline_badge_after_setup:
+  other: 首次設定後可離線
+offline_badge_needs_network:
+  other: 需要網路連線
+offline_badge_aria_fully:
+  other: 這個 app 從安裝起就可完全離線使用
+offline_badge_aria_after_setup:
+  other: 首次完成一次性資源下載後即可完全離線使用
+offline_badge_aria_needs_network:
+  other: 這個 app 需要持續的網路連線

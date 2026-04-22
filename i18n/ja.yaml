@@ -4,3 +4,15 @@ homepage_apps:
   other: アプリ
 homepage_apps_more:
   other: すべて見る
+offline_badge_fully:
+  other: オフライン対応
+offline_badge_after_setup:
+  other: 初回設定後オフライン
+offline_badge_needs_network:
+  other: ネット接続が必要
+offline_badge_aria_fully:
+  other: インストール直後から完全オフラインで動作するアプリです
+offline_badge_aria_after_setup:
+  other: 初回の一度きりのリソースダウンロード後は完全オフラインで使えます
+offline_badge_aria_needs_network:
+  other: このアプリは継続的なネット接続が必要です

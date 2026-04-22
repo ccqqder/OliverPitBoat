@@ -4,3 +4,15 @@ homepage_apps:
   other: Apps
 homepage_apps_more:
   other: View all
+offline_badge_fully:
+  other: Works offline
+offline_badge_after_setup:
+  other: Offline after setup
+offline_badge_needs_network:
+  other: Needs internet
+offline_badge_aria_fully:
+  other: Fully offline from install — no Wi-Fi, no data, no servers
+offline_badge_aria_after_setup:
+  other: Fully offline after the one-time on-device model or data download
+offline_badge_aria_needs_network:
+  other: This app requires a continuous internet connection

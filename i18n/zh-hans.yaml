@@ -1,0 +1,18 @@
+homepage_featured:
+  other: 精选文章
+homepage_apps:
+  other: 应用程序
+homepage_apps_more:
+  other: 查看全部
+offline_badge_fully:
+  other: 可离线使用
+offline_badge_after_setup:
+  other: 首次设置后可离线
+offline_badge_needs_network:
+  other: 需要网络连接
+offline_badge_aria_fully:
+  other: 此 app 从安装起就可完全离线使用
+offline_badge_aria_after_setup:
+  other: 首次完成一次性资源下载后即可完全离线使用
+offline_badge_aria_needs_network:
+  other: 此 app 需要持续的网络连接
