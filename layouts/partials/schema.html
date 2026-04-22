@@ -1,0 +1,133 @@
+{{- /*
+  Project override of themes/blowfish/layouts/partials/schema.html.
+  Adds a SoftwareApplication (MobileApplication) branch for pages in the
+  `apps` section so App Store rich results can surface. Everything else
+  delegates to Blowfish's original WebSite / Article schemas verbatim.
+*/ -}}
+{{- $isAppPage := and (eq .Section "apps") .File (not (hasPrefix .File.ContentBaseName "_")) -}}
+{{- if $isAppPage -}}
+  {{- $slug := .Params.app_slug | default .File.ContentBaseName -}}
+  {{- $matches := where site.Data.app_url_matrix "slug" $slug -}}
+  {{- if gt (len $matches) 0 -}}
+    {{- $app := index $matches 0 -}}
+    {{- $lang := site.Language.Lang -}}
+    {{- $isEn := eq $lang "en" -}}
+    {{- $isJa := eq $lang "ja" -}}
+    {{- $displayName := $app.name_zh -}}
+    {{- if $isEn }}{{ $displayName = or $app.name $app.name_zh }}{{ end -}}
+    {{- if $isJa }}{{ $displayName = or $app.name_zh $app.name }}{{ end -}}
+    {{- $altName := $app.name -}}
+    {{- if $isEn }}{{ $altName = $app.name_zh }}{{ end -}}
+    {{- if $isJa }}{{ $altName = $app.name }}{{ end -}}
+    {{- $description := $app.description -}}
+    {{- if and $isEn $app.description_en }}{{ $description = $app.description_en }}{{ end -}}
+    {{- if and $isJa $app.description_ja }}{{ $description = $app.description_ja }}{{ end -}}
+    {{- $categoryMap := dict
+        "language-learning" "EducationalApplication"
+        "self-reflection"   "LifestyleApplication"
+        "democracy-edc"     "UtilitiesApplication" -}}
+    {{- $schemaCategory := index $categoryMap $app.category | default "MobileApplication" -}}
+    {{- $iconURL := "" -}}
+    {{- with $app.icon }}{{ $iconURL = strings.TrimPrefix "/" . | absURL }}{{ end }}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "{{ $displayName | safeJS }}",
+      {{ with $altName }}"alternateName": "{{ . | safeJS }}",{{ end }}
+      "operatingSystem": "iOS",
+      "applicationCategory": "{{ $schemaCategory }}",
+      {{ with $description }}"description": "{{ . | safeJS }}",{{ end }}
+      {{ with $iconURL }}"image": "{{ . }}",{{ end }}
+      "url": {{ .Permalink }},
+      "installUrl": "{{ $app.store_url }}",
+      "downloadUrl": "{{ $app.store_url }}",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "{{ .Site.Params.Author.name | safeJS }}"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "{{ .Site.Params.Author.name | safeJS }}"
+      }
+    }
+    </script>
+  {{- end -}}
+{{- else if .IsHome -}}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": {{ site.Home.Permalink | safeURL }},
+    "name": "{{ .Site.Title | safeJS }}",
+    {{ with .Site.Params.description }}"description": "{{ . | safeJS }}",{{ end }}
+    {{ with .Site.LanguageCode }}"inLanguage": "{{ . }}",{{ end }}
+    "url": {{ site.Home.Permalink | safeURL }},
+    {{ with .Site.Params.keywords }}"keywords": {{ . }},{{ end }}
+    "publisher" : {
+      "@type": "Person",
+      "name": "{{ .Site.Params.Author.name | safeJS }}"
+    }
+  }
+  </script>
+{{- else -}}
+  {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "{{ (site.GetPage .Section).Title | safeJS }}",
+    "name": "{{ .Title | safeJS }}",
+    "headline": "{{ .Title | safeJS }}",
+    {{ with .Description }}"description": "{{ . | safeJS }}",{{ end }}
+    {{ with .Site.LanguageCode }}"inLanguage": "{{ . }}",{{ end }}
+    "url" : {{ .Permalink }},
+    "author" : {
+      "@type": "Person",
+      "name": "{{ .Site.Params.Author.name | safeJS }}"
+    },
+    {{ with .PublishDate }}"copyrightYear": "{{ .Format "2006" }}",{{ end }}
+    {{ with .Date }}"dateCreated": "{{ .Format $iso8601 }}",{{ end }}
+    {{ with .PublishDate }}"datePublished": "{{ .Format $iso8601 }}",{{ end }}
+    {{ with .ExpiryDate }}"expires": "{{ .Format $iso8601 }}",{{ end }}
+    {{ with .Lastmod }}"dateModified": "{{ .Format $iso8601 }}",{{ end }}
+    {{ if .Keywords }}
+    {{ with .Keywords }}"keywords": {{ . }},{{ end }}
+    {{ else }}
+    {{ with .Params.tags }}"keywords": {{ . }},{{ end }}
+    {{ end }}
+    "mainEntityOfPage": "true",
+    "wordCount": "{{ .WordCount }}"
+  }{{ if site.Params.enableStructuredBreadcrumbs | default false }},
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{- $position := 0 -}}
+      {{- range .Ancestors -}}
+        {{- if not .IsHome -}}
+          {{- $position = add $position 1 -}}
+          {
+            "@type": "ListItem",
+            "position": {{ $position }},
+            "name": "{{ .Title }}",
+            "item": {{ .Permalink }}
+          },
+        {{- end -}}
+      {{- end -}}
+      {{- $position = add $position 1 -}}
+      {
+        "@type": "ListItem",
+        "position": {{ $position }},
+        "name": "{{ .Title }}",
+        "item": {{ .Permalink }}
+      }
+    ]
+  }{{ end }}]
+  </script>
+{{- end -}}
