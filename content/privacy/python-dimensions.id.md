@@ -1,62 +1,61 @@
 ---
-isStub: true
-title: Python Dimensions — Privacy Policy
+title: Python Dimensions — Kebijakan Privasi
 layout: simple
 showDate: false
 showReadingTime: false
 ---
 
-**Last Updated: 2026-04-15**
+**Terakhir diperbarui: 2026-04-15**
 
 ---
 
-## 1. Overview
+## 1. Ikhtisar
 
-Python Dimensions, developed by QQder339, is a Python programming learning app featuring a built-in Python runtime environment and on-device AI tutor.
+Python Dimensions, dikembangkan oleh QQder339, adalah aplikasi belajar pemrograman Python yang dilengkapi lingkungan runtime Python bawaan dan tutor AI di perangkat.
 
-**In short: We do NOT collect, store, or transmit any of your personal data to external servers.**
+**Singkatnya: Kami TIDAK mengumpulkan, menyimpan, atau mengirimkan data pribadi Anda ke server eksternal.**
 
-## 2. Data We Do NOT Collect
+## 2. Data yang TIDAK kami kumpulkan
 
-This app does not collect:
+Aplikasi ini tidak mengumpulkan:
 
-- Personally Identifiable Information (name, email, phone number)
-- Location data
-- Device identifiers
-- Usage analytics or tracking data
+- Informasi identitas pribadi (nama, email, nomor telepon)
+- Data lokasi
+- Pengenal perangkat
+- Data analitik penggunaan atau pelacakan
 
-## 3. Locally Stored Data
+## 3. Data yang disimpan secara lokal
 
-The following data is stored strictly on your device and never transmitted externally:
+Data berikut disimpan sepenuhnya di perangkat Anda dan tidak pernah ditransmisikan ke luar:
 
-- **Learning Progress**: Answer records and error tracking across all question types (MCQ, fill-in-the-blank, Parsons)
-- **Code**: Programs written in the built-in IDE
-- **AI Conversation Logs**: Conversations with the AI tutor stored locally
-- **User Settings**: Difficulty preferences, interface settings, etc.
+- **Progres Belajar**: Catatan jawaban dan pelacakan error di semua jenis soal (pilihan ganda, isi bagian kosong, Parsons)
+- **Kode**: Program yang ditulis di IDE bawaan
+- **Log Percakapan AI**: Percakapan dengan tutor AI yang disimpan secara lokal
+- **Pengaturan Pengguna**: Preferensi kesulitan, pengaturan antarmuka, dll.
 
-## 4. Offline AI Features
+## 4. Fitur AI Offline
 
-All AI features run entirely on-device without network connection:
+Semua fitur AI berjalan sepenuhnya di perangkat tanpa koneksi jaringan:
 
-- **AI Tutor**: Uses local Large Language Models (LLM) to provide hints and explanations; all inference runs on-device
-- **Python Runtime**: The built-in Python interpreter runs entirely on-device; your code is never sent to any server
+- **Tutor AI**: Menggunakan Model Bahasa Besar (LLM) lokal untuk memberikan petunjuk dan penjelasan; semua inferensi berjalan di perangkat
+- **Runtime Python**: Interpreter Python bawaan berjalan sepenuhnya di perangkat; kode Anda tidak pernah dikirim ke server mana pun
 
-AI models require a one-time download before first use (user-initiated); all features work offline after download.
+Model AI memerlukan unduhan satu kali sebelum penggunaan pertama (diprakarsai pengguna); semua fitur berfungsi offline setelah diunduh.
 
-## 5. Third-Party Services
+## 5. Layanan Pihak Ketiga
 
-This app does **NOT** use any third-party analytics or advertising frameworks (No Google Analytics, No Facebook SDK, No Ads).
+Aplikasi ini **TIDAK** menggunakan framework analitik atau iklan pihak ketiga (No Google Analytics, No Facebook SDK, No Ads).
 
-## 6. Network Access
+## 6. Akses Jaringan
 
-Network access is restricted to:
+Akses jaringan dibatasi untuk:
 
-- **Downloading AI Models** (Optional, one-time): Only connects when you explicitly choose to download LLM model resources
-- **External Links**: Opens browser when tapping relevant links
+- **Mengunduh Model AI** (Opsional, satu kali): Hanya terhubung saat Anda secara eksplisit memilih mengunduh sumber daya model LLM
+- **Tautan Eksternal**: Membuka browser saat mengetuk tautan terkait
 
-Other than the above, the app does not initiate network connections. Code execution runs entirely in the local Python environment.
+Selain hal di atas, aplikasi tidak menginisiasi koneksi jaringan. Eksekusi kode berjalan sepenuhnya di lingkungan Python lokal.
 
-## 7. Contact Us
+## 7. Hubungi Kami
 
 📧 **qqder339@gmail.com**  
-Subject: Python Dimensions Privacy Policy Inquiry
+Subjek: Pertanyaan Kebijakan Privasi Python Dimensions

@@ -1,8 +1,7 @@
 ---
-isStub: true
-title: Sown Echoes Support
+title: Sown Echoes — Assistance
 layout: simple
-summary: Support and contact for Sown Echoes
+summary: Assistance et contact pour Sown Echoes
 app_slug: sown-echoes
 showDate: false
 showReadingTime: false
@@ -13,39 +12,39 @@ showReadingTime: false
 
 ## FAQ
 
-**Q: I forgot my BIP-39 mnemonic (Meme ID). Can I recover it?**  
-A: **No.** The mnemonic is only shown once when first generated, and is stored only on your device. We have no backup mechanism and no access to your mnemonic. **Strongly recommended: write it down or screenshot it immediately and keep it in a safe place.** If lost, your identity cannot be restored on another device.
+**Q : J'ai oublié ma phrase mnémotechnique BIP-39 (Meme ID). Puis-je la récupérer ?**  
+R : **Non.** La phrase mnémotechnique n'est affichée qu'une seule fois lors de sa première génération, et n'est stockée que sur votre appareil. Nous n'avons aucun mécanisme de sauvegarde et aucun accès à votre phrase mnémotechnique. **Fortement recommandé : notez-la ou prenez-en une capture d'écran immédiatement et conservez-la en lieu sûr.** Si elle est perdue, votre identité ne pourra pas être restaurée sur un autre appareil.
 
-**Q: Does voice recognition (Whisper) require internet?**  
-A: No. Voice recognition uses a local on-device Whisper model. All recognition is processed completely offline. A one-time model download (~200 MB–1 GB) is required on first use, after which it works fully offline.
+**Q : La reconnaissance vocale (Whisper) nécessite-t-elle internet ?**  
+R : Non. La reconnaissance vocale utilise un modèle Whisper local sur l'appareil. Toute la reconnaissance est traitée entièrement hors ligne. Un téléchargement unique du modèle (~200 Mo–1 Go) est requis à la première utilisation, après quoi il fonctionne entièrement hors ligne.
 
-**Q: Where are my records? Can I export them?**  
-A: All records are stored locally on your device. You can export your records (JSON format) from the Data Management section in the app. Export is a **user-initiated action** — the app never automatically uploads anything.
+**Q : Où sont mes enregistrements ? Puis-je les exporter ?**  
+R : Tous les enregistrements sont stockés localement sur votre appareil. Vous pouvez exporter vos enregistrements (format JSON) depuis la section Gestion des données dans l'application. L'exportation est une **action initiée par l'utilisateur** — l'application ne télécharge jamais rien automatiquement.
 
-**Q: Voice input recognition accuracy is low?**  
-A: Recognition accuracy depends on: background noise, clarity of speech, and language selection. Use in a quiet environment and ensure the app has microphone permission. If accuracy is particularly poor for a specific language, please email us.
+**Q : La précision de la reconnaissance vocale est faible ?**  
+R : La précision de la reconnaissance dépend de : le bruit de fond, la clarté de la parole et la sélection de la langue. Utilisez l'application dans un environnement calme et assurez-vous que l'application dispose de la permission d'accès au microphone. Si la précision est particulièrement mauvaise pour une langue spécifique, envoyez-nous un e-mail.
 
-**Q: Records disappeared after an update?**  
-A: Normal updates should not erase data. If data has disappeared, it may be due to accidental deletion or abnormal storage behavior. Please email us immediately with your app version information so we can help diagnose.
-
----
-
-## Troubleshooting
-
-1. **Voice recognition fails**: Ensure microphone permission is enabled (iOS Settings > Privacy > Microphone)
-2. **Model download fails**: Ensure stable Wi-Fi and sufficient device storage
-3. **Force quit and relaunch the app**
-4. **Check iOS version** ≥ 17.0
+**Q : Les enregistrements ont disparu après une mise à jour ?**  
+R : Les mises à jour normales ne devraient pas effacer les données. Si des données ont disparu, cela peut être dû à une suppression accidentelle ou à un comportement de stockage anormal. Envoyez-nous un e-mail immédiatement avec les informations de votre version d'application afin que nous puissions aider à diagnostiquer le problème.
 
 ---
 
-## Contact Support
+## Dépannage
+
+1. **Échec de la reconnaissance vocale** : Assurez-vous que la permission du microphone est activée (Réglages iOS > Confidentialité > Microphone)
+2. **Échec du téléchargement du modèle** : Assurez-vous d'avoir un Wi-Fi stable et un stockage suffisant sur l'appareil
+3. **Forcer la fermeture et relancer l'application**
+4. **Vérifiez la version iOS** ≥ 17.0
+
+---
+
+## Contacter l'assistance
 
 📧 **qqder339@gmail.com**  
-Subject: `[Sown Echoes] Issue Description`
+Objet : `[Sown Echoes] Description du problème`
 
-Please include: device model, iOS version, app version, issue description.
+Veuillez inclure : modèle de l'appareil, version iOS, version de l'application, description du problème.
 
-> ⚠️ **Important: Please keep your mnemonic (Meme ID) safe. It cannot be recovered if lost.**
+> ⚠️ **Important : Conservez précieusement votre phrase mnémotechnique (Meme ID). Elle ne peut pas être récupérée si elle est perdue.**
 
-> This app collects no user data. All content is processed entirely on-device.
+> Cette application ne collecte aucune donnée utilisateur. Tout le contenu est traité entièrement sur l'appareil.

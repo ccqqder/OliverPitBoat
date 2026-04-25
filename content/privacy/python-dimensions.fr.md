@@ -1,62 +1,61 @@
 ---
-isStub: true
-title: Python Dimensions — Privacy Policy
+title: Python Dimensions — Politique de confidentialité
 layout: simple
 showDate: false
 showReadingTime: false
 ---
 
-**Last Updated: 2026-04-15**
+**Dernière mise à jour : 2026-04-15**
 
 ---
 
-## 1. Overview
+## 1. Vue d'ensemble
 
-Python Dimensions, developed by QQder339, is a Python programming learning app featuring a built-in Python runtime environment and on-device AI tutor.
+Python Dimensions, développé par QQder339, est une application d'apprentissage de la programmation Python dotée d'un environnement d'exécution Python intégré et d'un tuteur IA sur l'appareil.
 
-**In short: We do NOT collect, store, or transmit any of your personal data to external servers.**
+**En bref : nous ne collectons, ne stockons ni ne transmettons AUCUNE de vos données personnelles vers des serveurs externes.**
 
-## 2. Data We Do NOT Collect
+## 2. Données que nous ne collectons PAS
 
-This app does not collect:
+Cette application ne collecte pas :
 
-- Personally Identifiable Information (name, email, phone number)
-- Location data
-- Device identifiers
-- Usage analytics or tracking data
+- Données personnellement identifiables (nom, e-mail, numéro de téléphone)
+- Données de localisation
+- Identifiants d'appareil
+- Données d'analyse d'usage ou de suivi
 
-## 3. Locally Stored Data
+## 3. Données stockées localement
 
-The following data is stored strictly on your device and never transmitted externally:
+Les données suivantes sont stockées strictement sur votre appareil et ne sont jamais transmises à l'extérieur :
 
-- **Learning Progress**: Answer records and error tracking across all question types (MCQ, fill-in-the-blank, Parsons)
-- **Code**: Programs written in the built-in IDE
-- **AI Conversation Logs**: Conversations with the AI tutor stored locally
-- **User Settings**: Difficulty preferences, interface settings, etc.
+- **Progression d'apprentissage** : enregistrements de réponses et suivi des erreurs pour tous les types de questions (QCM, texte à trous, Parsons)
+- **Code** : programmes écrits dans l'IDE intégré
+- **Journaux de conversation IA** : conversations avec le tuteur IA stockées localement
+- **Réglages utilisateur** : préférences de difficulté, réglages d'interface, etc.
 
-## 4. Offline AI Features
+## 4. Fonctionnalités IA hors ligne
 
-All AI features run entirely on-device without network connection:
+Toutes les fonctionnalités IA s'exécutent entièrement sur l'appareil sans connexion réseau :
 
-- **AI Tutor**: Uses local Large Language Models (LLM) to provide hints and explanations; all inference runs on-device
-- **Python Runtime**: The built-in Python interpreter runs entirely on-device; your code is never sent to any server
+- **Tuteur IA** : utilise des modèles de langage large locaux (LLM) pour fournir des indices et des explications ; toute l'inférence s'exécute sur l'appareil
+- **Runtime Python** : l'interpréteur Python intégré s'exécute entièrement sur l'appareil ; votre code n'est jamais envoyé à un serveur
 
-AI models require a one-time download before first use (user-initiated); all features work offline after download.
+Les modèles IA nécessitent un téléchargement unique avant la première utilisation (initié par l'utilisateur) ; toutes les fonctionnalités fonctionnent hors ligne après le téléchargement.
 
-## 5. Third-Party Services
+## 5. Services tiers
 
-This app does **NOT** use any third-party analytics or advertising frameworks (No Google Analytics, No Facebook SDK, No Ads).
+Cette application n'utilise **AUCUN** framework d'analyse ou de publicité tiers (No Google Analytics, No Facebook SDK, No Ads).
 
-## 6. Network Access
+## 6. Accès réseau
 
-Network access is restricted to:
+L'accès réseau est limité à :
 
-- **Downloading AI Models** (Optional, one-time): Only connects when you explicitly choose to download LLM model resources
-- **External Links**: Opens browser when tapping relevant links
+- **Téléchargement des modèles IA** (optionnel, unique) : se connecte uniquement lorsque vous choisissez explicitement de télécharger les ressources du modèle LLM
+- **Liens externes** : ouvre le navigateur lors de l'appui sur des liens pertinents
 
-Other than the above, the app does not initiate network connections. Code execution runs entirely in the local Python environment.
+En dehors de ce qui précède, l'application n'initie pas de connexions réseau. L'exécution du code s'effectue entièrement dans l'environnement Python local.
 
-## 7. Contact Us
+## 7. Nous contacter
 
 📧 **qqder339@gmail.com**  
-Subject: Python Dimensions Privacy Policy Inquiry
+Objet : Demande relative à la politique de confidentialité de Python Dimensions

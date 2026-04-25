@@ -1,50 +1,50 @@
 ---
-isStub: true
-title: Auditory Companion Support
+title: Auditory Companion 지원
 layout: simple
-summary: Support and contact for Auditory Companion
+summary: Auditory Companion 지원 및 문의
 app_slug: auditory-companion
 showDate: false
 showReadingTime: false
 ---
 
+[App Store](https://apps.apple.com/app/id6759191303) · [개인정보 처리방침](/privacy/auditory-companion/)
 
 ---
 
-## FAQ
+## 자주 묻는 질문
 
-**Q: There's static or crackling during audio playback?**  
-A: Some noise may come from Bluetooth headphone connection issues. Try switching to wired headphones to test. If the issue persists with wired headphones, try adjusting the sample rate in Settings or restarting the audio engine.
+**Q: 오디오 재생 중 잡음이나 튀는 소리가 나나요?**  
+A: 일부 잡음은 Bluetooth 이어폰 연결 문제에서 발생할 수 있습니다. 유선 이어폰으로 전환하여 테스트해 보세요. 유선 이어폰에서도 문제가 지속되면 설정에서 샘플 레이트를 조정하거나 오디오 엔진을 재시작해 보세요.
 
-**Q: The TTS reading sounds very unnatural?**  
-A: The app uses iOS's built-in TTS engine. You can switch between different voice packs and speech rates in Settings. TTS quality for some languages (like Traditional Chinese) depends on your iOS version — updating to the latest iOS typically improves quality.
+**Q: TTS 읽기 소리가 매우 부자연스럽나요?**  
+A: 이 앱은 iOS 내장 TTS 엔진을 사용합니다. 설정에서 다른 음성 팩과 말하기 속도로 전환할 수 있습니다. 일부 언어(예: 번체 중국어)의 TTS 품질은 iOS 버전에 따라 다릅니다. 최신 iOS로 업데이트하면 품질이 향상되는 경우가 많습니다.
 
-**Q: Auto-Ducking sometimes doesn't work?**  
-A: Auto-Ducking requires both background sound and TTS reading to be playing simultaneously. If only one audio source is active, ducking won't trigger. Make sure both sources are playing and that Auto-Ducking is enabled in Settings.
+**Q: Auto-Ducking이 가끔 작동하지 않나요?**  
+A: Auto-Ducking은 배경음과 TTS 읽기가 동시에 재생되어야 합니다. 오디오 소스가 하나만 활성화된 경우 ducking이 작동하지 않습니다. 두 소스가 모두 재생 중인지 확인하고 설정에서 Auto-Ducking이 활성화되어 있는지 확인하세요.
 
-**Q: Saved soundscape settings disappear on next launch?**  
-A: This may happen if the app was force-closed before settings were saved. After adjusting settings, confirm the save before exiting the app.
+**Q: 저장된 사운드스케이프 설정이 다음 실행 시 사라지나요?**  
+A: 설정이 저장되기 전에 앱이 강제 종료된 경우 발생할 수 있습니다. 설정 조정 후 앱을 종료하기 전에 저장을 확인하세요.
 
-**Q: Can playback continue after the screen locks?**  
-A: Yes. The app supports background audio playback and continues after screen lock. If playback stops automatically, check the app's background refresh permission in iOS Settings.
-
----
-
-## Troubleshooting
-
-1. **Check that volume is not muted** (physical mute switch + media volume)
-2. **Try switching the audio output device** (wired vs. Bluetooth)
-3. **Force quit and relaunch the app**
-4. **Restart your device** to clear potential audio routing conflicts
-5. **Check iOS version** ≥ 17.0
+**Q: 화면 잠금 후에도 재생이 계속되나요?**  
+A: 네. 이 앱은 백그라운드 오디오 재생을 지원하며 화면 잠금 후에도 계속 재생됩니다. 재생이 자동으로 멈추면 iOS 설정에서 앱의 백그라운드 앱 새로 고침 권한을 확인하세요.
 
 ---
 
-## Contact Support
+## 문제 해결
+
+1. **볼륨이 음소거 상태인지 확인** (물리적 음소거 스위치 + 미디어 볼륨)
+2. **오디오 출력 장치 전환 시도** (유선 vs. Bluetooth)
+3. **앱을 강제 종료 후 다시 실행**
+4. **기기를 재시작**하여 오디오 라우팅 충돌 해소
+5. **iOS 버전 확인** ≥ 17.0
+
+---
+
+## 지원 문의
 
 📧 **qqder339@gmail.com**  
-Subject: `[Auditory Companion] Issue Description`
+제목: `[Auditory Companion] Issue Description`
 
-Please include: device model, iOS version, app version, headphone/speaker model, steps to reproduce.
+포함해 주세요: 기기 모델, iOS 버전, 앱 버전, 이어폰/스피커 모델, 재현 단계.
 
-> This app collects no user data. All audio processing is performed entirely on-device.
+> 이 앱은 사용자 데이터를 수집하지 않습니다. 모든 오디오 처리는 전적으로 기기 내에서 수행됩니다. [개인정보 처리방침 보기 →](/privacy/auditory-companion/)

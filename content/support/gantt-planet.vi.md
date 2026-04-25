@@ -1,8 +1,7 @@
 ---
-isStub: true
-title: Gantt Planet Support
+title: Hỗ trợ Gantt Planet
 layout: simple
-summary: Support and contact for Gantt Planet
+summary: Hỗ trợ và liên hệ cho Gantt Planet
 app_slug: gantt-planet
 showDate: false
 showReadingTime: false
@@ -11,39 +10,39 @@ showReadingTime: false
 
 ---
 
-## FAQ
+## Câu hỏi thường gặp
 
-**Q: Does the AI companion chat require an internet connection?**  
-A: No. The AI companion uses an on-device local model. All conversations are processed completely offline and are never sent to any server. A one-time model download (~1–4 GB) is required on first use, after which everything works offline.
+**H: Trò chuyện với AI đồng hành có cần kết nối internet không?**  
+Đ: Không. AI đồng hành sử dụng mô hình cục bộ trên thiết bị. Mọi cuộc hội thoại đều được xử lý hoàn toàn ngoại tuyến và không bao giờ được gửi tới bất kỳ máy chủ nào. Lần đầu sử dụng cần tải mô hình một lần (~1–4 GB), sau đó mọi thứ hoạt động ngoại tuyến.
 
-**Q: The 3D planet is laggy?**  
-A: The 3D planet requires some GPU performance. If it's lagging on an older device, try lowering the render quality or disabling particle effects in Settings. Recommended device: iPhone 12 or newer.
+**H: Hành tinh 3D bị giật lag?**  
+Đ: Hành tinh 3D yêu cầu một số hiệu năng GPU. Nếu bị giật trên thiết bị cũ, hãy thử giảm chất lượng kết xuất hoặc tắt hiệu ứng hạt trong Cài đặt. Thiết bị đề xuất: iPhone 12 trở lên.
 
-**Q: Habit items on the timeline have disappeared?**  
-A: All data is stored locally on your device. If data disappears unexpectedly, check if items were accidentally deleted (they may be restorable from the recycle bin). If not, please email us with your app version.
+**H: Các mục thói quen trên dòng thời gian đã biến mất?**  
+Đ: Tất cả dữ liệu được lưu cục bộ trên thiết bị của bạn. Nếu dữ liệu biến mất đột ngột, hãy kiểm tra xem các mục có bị xóa nhầm không (có thể khôi phục từ thùng rác). Nếu không, vui lòng gửi email cho chúng tôi kèm phiên bản ứng dụng của bạn.
 
-**Q: The weather feature shows incorrect information?**  
-A: The weather feature requires location permission. Please ensure this app is allowed location access in iOS Settings > Privacy > Location Services. If already allowed but still incorrect, try toggling the weather feature off and on again.
+**H: Tính năng thời tiết hiển thị thông tin không chính xác?**  
+Đ: Tính năng thời tiết yêu cầu quyền vị trí. Vui lòng đảm bảo ứng dụng này được phép truy cập vị trí trong Cài đặt iOS > Quyền riêng tư > Dịch vụ vị trí. Nếu đã cho phép nhưng vẫn không chính xác, hãy thử tắt rồi bật lại tính năng thời tiết.
 
-**Q: Unlocked art stickers have disappeared?**  
-A: Sticker unlock records are stored locally and will be erased if the app is uninstalled. If data disappears without uninstalling, please email us with details.
-
----
-
-## Troubleshooting
-
-1. **Force quit and relaunch the app**
-2. **Check available storage** (AI model + 3D assets need 2+ GB)
-3. **Check iOS version** ≥ 17.0
-4. If 3D rendering is abnormal, try resetting the planet display settings in Settings
+**H: Nhãn dán nghệ thuật đã mở khóa đã biến mất?**  
+Đ: Hồ sơ mở khóa nhãn dán được lưu cục bộ và sẽ bị xóa nếu gỡ cài đặt ứng dụng. Nếu dữ liệu biến mất mà không gỡ cài đặt, vui lòng gửi email cho chúng tôi kèm thông tin chi tiết.
 
 ---
 
-## Contact Support
+## Khắc phục sự cố
+
+1. **Buộc đóng và mở lại ứng dụng**
+2. **Kiểm tra dung lượng trống** (mô hình AI + tài nguyên 3D cần 2+ GB)
+3. **Kiểm tra phiên bản iOS** ≥ 17.0
+4. Nếu kết xuất 3D bất thường, hãy thử đặt lại cài đặt hiển thị hành tinh trong Cài đặt
+
+---
+
+## Liên hệ hỗ trợ
 
 📧 **qqder339@gmail.com**  
-Subject: `[Gantt Planet] Issue Description`
+Tiêu đề: `[Gantt Planet] Issue Description`
 
-Please include: device model, iOS version, app version, steps to reproduce (screenshots preferred).
+Vui lòng gửi kèm: mẫu thiết bị, phiên bản iOS, phiên bản ứng dụng, các bước tái hiện lỗi (ưu tiên ảnh chụp màn hình).
 
-> This app collects no user data. All AI conversations and habit records are processed entirely on-device.
+> Ứng dụng này không thu thập dữ liệu người dùng. Mọi hội thoại AI và hồ sơ thói quen đều được xử lý hoàn toàn trên thiết bị.

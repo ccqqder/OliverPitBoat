@@ -1,8 +1,7 @@
 ---
-isStub: true
 title: Gantt Planet
 layout: simple
-description: "3D habit visualisation paired with an AI tree hole — turning self-discipline into a quiet interstellar journey."
+description: "Visualisasi kebiasaan 3D dipadu AI tree hole — mengubah disiplin diri menjadi perjalanan antariksa yang tenang."
 images:
   - images/og/gantt-planet.png
 app_slug: gantt-planet
@@ -10,28 +9,28 @@ showDate: false
 showReadingTime: false
 ---
 
-## A place to anchor long-term life projects
+## Tempat untuk menambatkan proyek hidup jangka panjang
 
-Most task management tools handle today, this week, and this month well enough. They struggle with the important-but-not-urgent projects: reading, exercise, language learning, processing emotions, keeping up certain relationships. These aren't unimportant. They just get crowded out by noisier, more immediate demands. Gantt Planet is designed for exactly those projects.
+Sebagian besar alat manajemen tugas cukup baik menangani hari ini, minggu ini, dan bulan ini. Mereka kesulitan dengan proyek yang penting-tapi-tidak-mendesak: membaca, berolahraga, belajar bahasa, memproses emosi, menjaga hubungan tertentu. Ini bukan tidak penting. Mereka hanya terpinggirkan oleh tuntutan yang lebih berisik dan lebih mendesak. Gantt Planet dirancang untuk proyek-proyek tersebut.
 
-The goal isn't to make you busier. It's to help you see what was already worth your time. Timeline, 3D planet, AI tree hole, art collection: these surface as different modules, but all serve the same outcome. Self-discipline becomes a rhythm you can visualise, sense, and return to, rather than a willpower grind.
+Tujuannya bukan membuat Anda lebih sibuk. Tujuannya adalah membantu Anda melihat apa yang sudah layak mendapat waktu Anda. Timeline, planet 3D, AI tree hole, koleksi seni: ini muncul sebagai modul yang berbeda, tetapi semuanya melayani hasil yang sama. Disiplin diri menjadi ritme yang bisa Anda visualisasikan, rasakan, dan kembali lagi, bukan perjuangan kemauan semata.
 
-## Why it tends to stay on your phone longer than a typical productivity tool
+## Mengapa cenderung bertahan lebih lama di ponsel Anda daripada alat produktivitas biasa
 
-Traditional to-do tools think in list logic: done means check off, undone means accumulating pressure. Gantt Planet is closer to tending a small universe. You're letting a planet grow its own terrain and memories, not wiping items off a list. That visual language makes long-term goals harder to abandon, because they're no longer just cold rows of text.
+Alat to-do tradisional berpikir dalam logika daftar: selesai berarti dicentang, belum selesai berarti tekanan yang menumpuk. Gantt Planet lebih seperti merawat semesta kecil. Anda membiarkan sebuah planet menumbuhkan medan dan kenangannya sendiri, bukan menghapus item dari daftar. Bahasa visual itu membuat tujuan jangka panjang lebih sulit ditinggalkan, karena tidak lagi sekadar baris teks yang dingin.
 
-The timeline view shows what today deserves attention; the 3D planet view shows the shape of overall progress. The former pulls you back to reality; the latter reminds you why you started. Together they keep "today" and "a lifetime" in the same frame.
+Tampilan timeline menampilkan apa yang perlu mendapat perhatian hari ini; tampilan planet 3D menampilkan bentuk kemajuan keseluruhan. Yang pertama menarik Anda kembali ke realita; yang kedua mengingatkan mengapa Anda mulai. Bersama-sama mereka menjaga "hari ini" dan "seumur hidup" dalam satu bingkai.
 
-Its starting point is the personal "important but not urgent," not an enterprise project manager shrunk down. You can track daily, weekly, monthly, or longer cadences on the same timeline, then turn completion into 3D planet terrain and collection entries. That's where it diverges most from productivity software that mostly helps you pack tasks in more tightly.
+Titik awalnya adalah "penting tapi tidak mendesak" yang personal, bukan manajer proyek perusahaan yang dikecilkan. Anda bisa melacak kadans harian, mingguan, bulanan, atau lebih lama di timeline yang sama, lalu mengubah penyelesaian menjadi medan planet 3D dan entri koleksi. Di situlah paling banyak berbeda dari perangkat lunak produktivitas yang sebagian besar membantu Anda memadatkan tugas lebih banyak.
 
-## The tree hole and the art collection: the reason to come back
+## Tree hole dan koleksi seni: alasan untuk kembali
 
-Long-term habit building isn't just a planning problem; a lot of it is emotional. The issue is often not that you don't know what to do. You're tired, annoyed, distracted, or simply sick of productivity tools that never respond. Gantt Planet's AI tree hole exists to sit with that layer. When you just want to talk something out and reorient yourself, it doesn't demand productivity from you.
+Membangun kebiasaan jangka panjang bukan hanya masalah perencanaan; banyak di antaranya bersifat emosional. Masalahnya sering bukan karena Anda tidak tahu apa yang harus dilakukan. Anda lelah, kesal, terganggu, atau sekadar bosan dengan alat produktivitas yang tidak pernah merespons. AI tree hole Gantt Planet ada untuk duduk bersama lapisan itu. Saat Anda hanya ingin membicarakan sesuatu dan mengorientasikan kembali diri, itu tidak menuntut produktivitas dari Anda.
 
-The collection system turns "finishing things" from obligation into something that accumulates. Not everyone needs this, but for people who get worn down by monotony, it's exactly how patience gets rebuilt. Completing tasks gradually unlocks illustrations and collectibles, closer to leaving marks on a long-running life project than to KPI pressure.
+Sistem koleksi mengubah "menyelesaikan sesuatu" dari kewajiban menjadi sesuatu yang terakumulasi. Tidak semua orang membutuhkan ini, tetapi bagi orang yang terkikis oleh kejenuhan, inilah cara kesabaran dibangun kembali. Menyelesaikan tugas secara bertahap membuka ilustrasi dan kolektibel, lebih dekat dengan meninggalkan jejak pada proyek hidup yang berlangsung lama daripada tekanan KPI.
 
-## Privacy and offline matter more here than usual
+## Privasi dan offline lebih penting di sini dari biasanya
 
-Goals, journal entries, emotions, conversations: this content is more personal than what goes into a typical productivity app. Part of Gantt Planet's value is that you don't have to hand this data to an external service to get the companionship and visualisation. For many people, inner content only gets written down when the data really stays on their own device.
+Tujuan, entri jurnal, emosi, percakapan: konten ini lebih personal dari apa yang masuk ke aplikasi produktivitas biasa. Sebagian nilai Gantt Planet adalah Anda tidak harus menyerahkan data ini ke layanan eksternal untuk mendapatkan pendampingan dan visualisasi. Bagi banyak orang, konten batin hanya ditulis saat data benar-benar tersimpan di perangkat mereka sendiri.
 
-Gantt Planet won't fill your calendar for you, and it won't flash red when you fall behind. What it's good at is letting the things you don't want to abandon accumulate, quietly, into a planet you can actually see.
+Gantt Planet tidak akan mengisi kalender Anda, dan tidak akan berkedip merah saat Anda tertinggal. Yang dikuasainya adalah membiarkan hal-hal yang tidak ingin Anda tinggalkan terakumulasi, secara diam-diam, menjadi planet yang benar-benar bisa Anda lihat.

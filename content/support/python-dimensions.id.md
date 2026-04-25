@@ -1,8 +1,7 @@
 ---
-isStub: true
-title: Python Dimensions Support
+title: Dukungan Python Dimensions
 layout: simple
-summary: Support and contact for Python Dimensions
+summary: Dukungan dan kontak untuk Python Dimensions
 app_slug: python-dimensions
 showDate: false
 showReadingTime: false
@@ -11,39 +10,39 @@ showReadingTime: false
 
 ---
 
-## FAQ
+## Pertanyaan Umum
 
-**Q: The built-in Python runtime throws an error or crashes the app?**  
-A: Complex code (infinite loops, excessive memory usage) may cause timeouts or crashes. Make sure your code has no infinite loops and avoids allocating very large amounts of memory. If a specific code snippet causes a crash, please email us with that code.
+**T: Runtime Python bawaan memunculkan error atau membuat aplikasi crash?**  
+J: Kode yang kompleks (loop tak terbatas, penggunaan memori berlebihan) dapat menyebabkan timeout atau crash. Pastikan kode Anda tidak memiliki loop tak terbatas dan menghindari alokasi memori yang sangat besar. Jika potongan kode tertentu menyebabkan crash, silakan kirimkan kode tersebut melalui email kepada kami.
 
-**Q: Does the AI tutor need to download a model? How large?**  
-A: Yes. The first time you use the AI tutor, you'll need to download a local model (~1–4 GB). After downloading, it works **completely offline** — all Q&A and explanations run on-device without internet.
+**T: Apakah tutor AI perlu mengunduh model? Seberapa besar?**  
+J: Ya. Pertama kali menggunakan tutor AI, Anda perlu mengunduh model lokal (~1–4 GB). Setelah diunduh, berfungsi **sepenuhnya offline** — semua tanya jawab dan penjelasan berjalan di perangkat tanpa internet.
 
-**Q: I think there's an error in the question bank?**  
-A: If you find an incorrect question or answer, please email us with: the question content, your proposed correct answer, and your reasoning. We'll verify and update the question bank as soon as possible.
+**T: Saya rasa ada kesalahan di bank soal?**  
+J: Jika Anda menemukan pertanyaan atau jawaban yang salah, silakan kirim email kepada kami dengan: isi pertanyaan, jawaban yang benar menurut Anda, dan alasannya. Kami akan memverifikasi dan memperbarui bank soal sesegera mungkin.
 
-**Q: The error radar chart isn't showing?**  
-A: The radar chart requires a minimum number of answer records to generate. Please complete at least 20 questions first.
+**T: Diagram radar error tidak muncul?**  
+J: Diagram radar memerlukan jumlah minimum catatan jawaban untuk dibuat. Harap selesaikan setidaknya 20 pertanyaan terlebih dahulu.
 
-**Q: How do I use the code templates?**  
-A: In the built-in IDE screen, tap the "Templates" button in the upper right, select the category you need (loops, functions, classes, etc.), and the code will be automatically inserted into the editor.
-
----
-
-## Troubleshooting
-
-1. **Python runtime crashes**: Ensure no infinite loops in your code; ensure the device has sufficient available memory
-2. **AI model fails to load**: Ensure 3+ GB free storage; retry downloading on Wi-Fi
-3. **Force quit and relaunch the app**
-4. **Check iOS version** ≥ 17.0
+**T: Bagaimana cara menggunakan template kode?**  
+J: Di layar IDE bawaan, ketuk tombol "Templates" di pojok kanan atas, pilih kategori yang Anda butuhkan (loop, fungsi, kelas, dll.), dan kode akan otomatis disisipkan ke editor.
 
 ---
 
-## Contact Support
+## Pemecahan Masalah
+
+1. **Runtime Python crash**: Pastikan tidak ada loop tak terbatas dalam kode Anda; pastikan perangkat memiliki memori yang cukup
+2. **Model AI gagal dimuat**: Pastikan 3+ GB penyimpanan kosong tersedia; coba unduh ulang melalui Wi-Fi
+3. **Paksa tutup lalu buka kembali aplikasi**
+4. **Periksa versi iOS** ≥ 17.0
+
+---
+
+## Hubungi Dukungan
 
 📧 **qqder339@gmail.com**  
-Subject: `[Python Dimensions] Issue Description`
+Subjek: `[Python Dimensions] Issue Description`
 
-Please include: device model, iOS version, app version, steps to reproduce (include code if it's a code-related issue).
+Mohon sertakan: model perangkat, versi iOS, versi aplikasi, langkah reproduksi (sertakan kode jika masalah berkaitan dengan kode).
 
-> This app collects no user data. Python execution and AI inference run entirely on-device.
+> Aplikasi ini tidak mengumpulkan data pengguna. Eksekusi Python dan inferensi AI berjalan sepenuhnya di perangkat.

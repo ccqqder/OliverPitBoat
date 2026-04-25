@@ -1,8 +1,7 @@
 ---
-isStub: true
-title: Kana Juku Support
+title: Hỗ trợ Kana Juku
 layout: simple
-summary: Support and contact for Kana Juku
+summary: Hỗ trợ và liên hệ cho Kana Juku
 app_slug: kana-juku
 showDate: false
 showReadingTime: false
@@ -11,39 +10,39 @@ showReadingTime: false
 
 ---
 
-## FAQ
+## Câu hỏi thường gặp
 
-**Q: Handwriting recognition keeps making mistakes. What should I do?**  
-A: Make sure you're not writing too fast — pause briefly after each stroke before lifting the pen. The recognition model needs complete stroke information. If the problem persists, try resetting the recognition calibration in Settings.
+**H: Nhận dạng chữ viết tay liên tục nhận sai. Tôi phải làm gì?**  
+Đ: Hãy đảm bảo bạn không viết quá nhanh — dừng ngắn sau mỗi nét trước khi nhấc bút. Mô hình nhận dạng cần thông tin nét hoàn chỉnh. Nếu vẫn gặp lỗi, hãy thử đặt lại hiệu chỉnh nhận dạng trong Cài đặt.
 
-**Q: How do I download the local AI model? Do I still need internet after downloading?**  
-A: When you first use an AI feature, the app will prompt you to download the model (a few hundred MB). Once downloaded, all AI features work **fully offline** — no internet connection required.
+**H: Làm thế nào để tải mô hình AI cục bộ? Sau khi tải có còn cần internet không?**  
+Đ: Khi bạn sử dụng tính năng AI lần đầu tiên, ứng dụng sẽ nhắc bạn tải mô hình (vài trăm MB). Sau khi tải, tất cả tính năng AI hoạt động **hoàn toàn ngoại tuyến** — không cần kết nối internet.
 
-**Q: The custom keyboard doesn't appear in other apps?**  
-A: The built-in keyboard in Kana Juku is for in-app use only and is not a system-level keyboard extension. To type Japanese in other apps, please use the iOS system Japanese keyboard.
+**H: Bàn phím tùy chỉnh không xuất hiện trong các ứng dụng khác?**  
+Đ: Bàn phím tích hợp trong Kana Juku chỉ dành cho sử dụng trong ứng dụng và không phải là tiện ích mở rộng bàn phím cấp hệ thống. Để gõ tiếng Nhật trong các ứng dụng khác, vui lòng sử dụng bàn phím tiếng Nhật hệ thống iOS.
 
-**Q: The home screen widget isn't updating kana?**  
-A: Try long-pressing to remove the widget from the home screen, then re-adding it. If it still doesn't update, force-quit and relaunch the app, or restart your device.
+**H: Widget màn hình chính không cập nhật kana?**  
+Đ: Hãy thử nhấn giữ để xóa widget khỏi màn hình chính, rồi thêm lại. Nếu vẫn không cập nhật, hãy buộc đóng và mở lại ứng dụng, hoặc khởi động lại thiết bị.
 
-**Q: My learning progress has disappeared?**  
-A: Progress is stored locally on your device. Uninstalling the app will erase all data. iCloud backup is not currently supported. If progress disappears without uninstalling, please email us with details.
-
----
-
-## Troubleshooting
-
-1. **Force quit and relaunch the app** (swipe up on the app in the app switcher)
-2. **Check iOS version** ≥ 17.0
-3. **Check available storage** (AI models require ~1–2 GB)
-4. If none of the above works, **uninstall and reinstall** (note: progress data will be erased)
+**H: Tiến trình học tập của tôi đã biến mất?**  
+Đ: Tiến trình được lưu cục bộ trên thiết bị của bạn. Gỡ cài đặt ứng dụng sẽ xóa toàn bộ dữ liệu. Hiện chưa hỗ trợ sao lưu iCloud. Nếu tiến trình biến mất mà không gỡ cài đặt, vui lòng gửi email cho chúng tôi kèm thông tin chi tiết.
 
 ---
 
-## Contact Support
+## Khắc phục sự cố
+
+1. **Buộc đóng và mở lại ứng dụng** (vuốt lên ứng dụng trong bộ chuyển đổi ứng dụng)
+2. **Kiểm tra phiên bản iOS** ≥ 17.0
+3. **Kiểm tra dung lượng trống** (mô hình AI cần ~1–2 GB)
+4. Nếu các bước trên không hiệu quả, **gỡ cài đặt và cài lại** (lưu ý: dữ liệu tiến trình sẽ bị xóa)
+
+---
+
+## Liên hệ hỗ trợ
 
 📧 **qqder339@gmail.com**  
-Subject: `[Kana Juku] Issue Description`
+Tiêu đề: `[Kana Juku] Issue Description`
 
-Please include: device model, iOS version, app version, steps to reproduce (screenshots welcome).
+Vui lòng gửi kèm: mẫu thiết bị, phiên bản iOS, phiên bản ứng dụng, các bước tái hiện lỗi (ảnh chụp màn hình được hoan nghênh).
 
-> This app collects no user data. All data is stored locally on your device.
+> Ứng dụng này không thu thập dữ liệu người dùng. Mọi dữ liệu đều được lưu cục bộ trên thiết bị của bạn.

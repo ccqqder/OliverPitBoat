@@ -1,49 +1,49 @@
 ---
-isStub: true
-title: English N+1 Support
+title: English N+1 지원
 layout: simple
-summary: Support and contact for English N+1
+summary: English N+1 지원 및 문의
 app_slug: english-n-plus-1
 showDate: false
 showReadingTime: false
 ---
 
+[App Store](https://apps.apple.com/app/id6757358263) · [개인정보 처리방침](/privacy/english-n-plus-1/)
 
 ---
 
-## FAQ
+## 자주 묻는 질문
 
-**Q: After the CEFR level test, the difficulty feels off. What can I do?**  
-A: The initial test is a quick vocabulary-based assessment and may not perfectly match your actual level. You can manually adjust the difficulty in Settings, or retake the test. After using the app for a while, it will automatically adapt based on your answer history.
+**Q: CEFR 레벨 테스트 후 난이도가 맞지 않는 것 같습니다. 어떻게 하면 되나요?**  
+A: 초기 테스트는 어휘 기반의 간단한 평가로, 실제 실력과 완벽하게 일치하지 않을 수 있습니다. 설정에서 수동으로 난이도를 조정하거나 테스트를 다시 시도할 수 있습니다. 앱을 사용하면서 답변 기록을 바탕으로 자동으로 조정됩니다.
 
-**Q: What model does the AI conversation feature need? How large is it?**  
-A: Based on your device's performance, the app recommends an appropriate model (Llama 3.2 or Qwen 2.5). Model size is approximately 1–4 GB. After downloading, conversations work **completely offline** — no internet required.
+**Q: AI 대화 기능에 어떤 모델이 필요한가요? 크기는 얼마나 되나요?**  
+A: 기기 성능에 따라 앱이 적절한 모델(Llama 3.2 또는 Qwen 2.5)을 추천합니다. 모델 크기는 약 1~4GB입니다. 다운로드 후 대화는 **완전 오프라인**으로 작동하며 인터넷이 필요하지 않습니다.
 
-**Q: AI conversation responses are very slow or frozen?**  
-A: On-device AI inference speed depends on your device's performance. Older iPhones will be noticeably slower. Try selecting a smaller model in Settings.
+**Q: AI 대화 응답이 매우 느리거나 멈추나요?**  
+A: 기기 내 AI 추론 속도는 기기 성능에 따라 다릅니다. 구형 iPhone에서는 눈에 띄게 느릴 수 있습니다. 설정에서 더 작은 모델을 선택해 보세요.
 
-**Q: The generated articles are too difficult to understand?**  
-A: Articles are generated based on your CEFR level. If they feel too hard, lower your level setting in Settings, or manually select a lower difficulty when generating articles.
+**Q: 생성된 기사가 이해하기 너무 어렵나요?**  
+A: 기사는 CEFR 레벨에 맞게 생성됩니다. 너무 어렵게 느껴지면 설정에서 레벨을 낮추거나, 기사 생성 시 더 낮은 난이도를 수동으로 선택하세요.
 
-**Q: Will my study records and saved vocabulary be backed up?**  
-A: All data is currently stored locally on your device only. iCloud backup is not supported. Uninstalling the app will erase all records.
-
----
-
-## Troubleshooting
-
-1. **AI model fails to load**: Ensure at least 3 GB of free storage, and check that the download wasn't interrupted
-2. **App crashes during AI conversation**: Try switching to a smaller model in Settings
-3. **Force quit and relaunch the app**
-4. **Check iOS version** ≥ 17.0
+**Q: 학습 기록과 저장한 단어가 백업되나요?**  
+A: 현재 모든 데이터는 기기 로컬에만 저장됩니다. iCloud 백업은 지원되지 않습니다. 앱을 삭제하면 모든 기록이 지워집니다.
 
 ---
 
-## Contact Support
+## 문제 해결
+
+1. **AI 모델 로드 실패**: 최소 3GB의 여유 저장 공간을 확보하고 다운로드가 중단되지 않았는지 확인
+2. **AI 대화 중 앱 크래시**: 설정에서 더 작은 모델로 전환 시도
+3. **앱을 강제 종료 후 다시 실행**
+4. **iOS 버전 확인** ≥ 17.0
+
+---
+
+## 지원 문의
 
 📧 **qqder339@gmail.com**  
-Subject: `[English N+1] Issue Description`
+제목: `[English N+1] Issue Description`
 
-Please include: device model, iOS version, app version, steps to reproduce.
+포함해 주세요: 기기 모델, iOS 버전, 앱 버전, 재현 단계.
 
-> This app collects no user data. All AI conversations are processed entirely on-device.
+> 이 앱은 사용자 데이터를 수집하지 않습니다. 모든 AI 대화는 전적으로 기기 내에서 처리됩니다. [개인정보 처리방침 보기 →](/privacy/english-n-plus-1/)

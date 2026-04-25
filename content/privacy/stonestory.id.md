@@ -1,54 +1,53 @@
 ---
-isStub: true
-title: StoneStory — Privacy Policy
+title: StoneStory — Kebijakan Privasi
 layout: simple
 showDate: false
 showReadingTime: false
 ---
 
-**Last Updated: 2026-04-15**
+**Terakhir diperbarui: 2026-04-15**
 
 ---
 
-## 1. Overview
+## 1. Ikhtisar
 
-StoneStory, developed by QQder339, is an immersive reading and character simulation app based on the classic novel "Dream of the Red Chamber."
+StoneStory, dikembangkan oleh QQder339, adalah aplikasi membaca dan simulasi karakter yang imersif berdasarkan novel klasik "Dream of the Red Chamber."
 
-**In short: We do NOT collect, store, or transmit any of your personal data to external servers.**
+**Singkatnya: Kami TIDAK mengumpulkan, menyimpan, atau mengirimkan data pribadi Anda ke server eksternal.**
 
-## 2. Data We Do NOT Collect
+## 2. Data yang TIDAK kami kumpulkan
 
-This app does not collect:
+Aplikasi ini tidak mengumpulkan:
 
-- Personally Identifiable Information (name, email, phone number)
-- Location data
-- Device identifiers
-- Usage analytics or tracking data
+- Informasi identitas pribadi (nama, email, nomor telepon)
+- Data lokasi
+- Pengenal perangkat
+- Data analitik penggunaan atau pelacakan
 
-## 3. Locally Stored Data
+## 3. Data yang disimpan secara lokal
 
-The following data is stored strictly on your device and never transmitted externally:
+Data berikut disimpan sepenuhnya di perangkat Anda dan tidak pernah ditransmisikan ke luar:
 
-- **Traveler Profile**: The name, personality traits, speech style, background, and optional avatar image you configure in Traveler Mode
-- **Interface Preferences**: Your selected display language (Traditional Chinese / English / Japanese) and chosen offline AI model
-- **Downloaded Content**: Character portraits and scene images cached after you view them in the app
-- **Offline AI Model**: The Qwen 2.5 model file you've chosen to download (stored in an App Group container for in-app use only)
+- **Profil Traveler**: Nama, ciri kepribadian, gaya bicara, latar belakang, dan gambar avatar opsional yang Anda konfigurasi dalam Mode Traveler
+- **Preferensi Antarmuka**: Bahasa tampilan yang Anda pilih (Mandarin Tradisional / Inggris / Jepang) dan model AI offline yang dipilih
+- **Konten yang Diunduh**: Potret karakter dan gambar adegan yang di-cache setelah Anda melihatnya di aplikasi
+- **Model AI Offline**: File model Qwen 2.5 yang Anda pilih untuk diunduh (disimpan dalam container App Group hanya untuk penggunaan dalam aplikasi)
 
-## 4. Third-Party Services
+## 4. Layanan Pihak Ketiga
 
-This app does **NOT** use any third-party analytics or advertising frameworks (No Google Analytics, No Facebook SDK, No Ads).
+Aplikasi ini **TIDAK** menggunakan framework analitik atau iklan pihak ketiga (No Google Analytics, No Facebook SDK, No Ads).
 
-## 5. Network Access
+## 5. Akses Jaringan
 
-Core reading and simulation features work **fully offline** and require no network connection. The following features initiate network requests only when you explicitly trigger them:
+Fitur membaca dan simulasi inti berfungsi **sepenuhnya offline** dan tidak memerlukan koneksi jaringan. Fitur berikut menginisiasi permintaan jaringan hanya saat Anda secara eksplisit memicunya:
 
-- **Downloading Character Portraits / Scene Images**: The first time you view a character or scene, the app fetches the corresponding image from a public CDN and caches it locally
-- **Downloading the Offline AI Model**: When you choose to download the Qwen2.5 model in Settings, the app fetches the file from the model's public release source
-- **External Links**: Opens the system browser when you tap relevant links
+- **Mengunduh Potret Karakter / Gambar Adegan**: Pertama kali Anda melihat karakter atau adegan, aplikasi mengambil gambar yang sesuai dari CDN publik dan menyimpannya secara lokal
+- **Mengunduh Model AI Offline**: Saat Anda memilih mengunduh model Qwen2.5 di Pengaturan, aplikasi mengambil file dari sumber rilis publik model tersebut
+- **Tautan Eksternal**: Membuka browser sistem saat Anda mengetuk tautan terkait
 
-These network requests transmit only the URL of the file you've chosen. No personally identifiable information is attached, and no data is collected in return.
+Permintaan jaringan ini hanya mengirimkan URL file yang telah Anda pilih. Tidak ada informasi identitas pribadi yang dilampirkan, dan tidak ada data yang dikumpulkan sebagai balasannya.
 
-## 6. Contact Us
+## 6. Hubungi Kami
 
 📧 **qqder339@gmail.com**  
-Subject: StoneStory Privacy Policy Inquiry
+Subjek: Pertanyaan Kebijakan Privasi StoneStory

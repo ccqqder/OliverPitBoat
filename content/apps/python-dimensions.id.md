@@ -1,8 +1,7 @@
 ---
-isStub: true
 title: Python Dimensions
 layout: simple
-description: "A three-dimensional Python learning tool with an on-device AI tutor and a built-in Python 3.13 runtime."
+description: "Alat belajar Python tiga dimensi dengan tutor AI di perangkat dan runtime Python 3.13 bawaan."
 images:
   - images/og/python-dimensions.png
 app_slug: python-dimensions
@@ -10,28 +9,28 @@ showDate: false
 showReadingTime: false
 ---
 
-## What matters is getting the learning rhythm right
+## Yang penting adalah mendapatkan ritme belajar yang tepat
 
-Most Python learning tools get stuck at two extremes. One side gives you fragmented questions; answering them still leaves you in the dark about where you're actually weak. The other side drops you into a full IDE that tends to scare beginners off. Python Dimensions bridges those extremes, helping you first build reading ability, grammatical sense, and logical sense before pushing toward more complete coding capability.
+Sebagian besar alat belajar Python terjebak di dua ekstrem. Satu sisi memberikan soal-soal terfragmentasi; menjawabnya tetap membuat Anda tidak tahu di mana sebenarnya kelemahan Anda. Sisi lain langsung melempar Anda ke IDE penuh yang cenderung menakut-nakuti pemula. Python Dimensions menjembatani kedua ekstrem itu, membantu Anda terlebih dahulu membangun kemampuan membaca, rasa tata bahasa, dan rasa logika sebelum mendorong menuju kemampuan coding yang lebih lengkap.
 
-The core idea is less "do lots of questions" and more "break learning into three layers." Points are vocabulary and concept recognition; Lines are syntax and local structure; Surfaces are complete program flow. This layering works for complete beginners and also for people who already know where they're stuck and want an efficient way to patch gaps.
+Ide intinya bukan "kerjakan banyak soal" melainkan "pecah pembelajaran menjadi tiga lapisan." Point adalah pengenalan kosakata dan konsep; Lines adalah sintaks dan struktur lokal; Surfaces adalah alur program yang lengkap. Pelapisan ini bekerja untuk pemula total dan juga untuk orang yang sudah tahu di mana mereka terjebak dan menginginkan cara efisien untuk menambal celah.
 
-## What situations it's most useful for
+## Situasi apa yang paling berguna
 
-If you're preparing for PCEP, TQC+, or CPE, the app is well suited to daily maintenance. You don't need to open a laptop to get started; in 10 to 20 minute windows you can run through multiple-choice questions, fill in a few blanks, or re-sequence a program flow. That low friction matters more over the long run than intense burst study.
+Jika Anda mempersiapkan PCEP, TQC+, atau CPE, aplikasi ini sangat cocok untuk pemeliharaan harian. Anda tidak perlu membuka laptop untuk memulai; dalam jendela 10 hingga 20 menit Anda bisa menjawab soal pilihan ganda, mengisi beberapa bagian kosong, atau mengurutkan kembali alur program. Gesekan rendah itu lebih penting dalam jangka panjang daripada studi intensif yang meledak-ledak.
 
-For self-taught beginners, the app also doesn't behave like a machine that only reports right and wrong. You can use the question types to sketch the basic outline, then move into the playground to actually run code and understand why one variant works and another doesn't. Knowledge stops living purely in memory and starts becoming your own judgement.
+Untuk pemula otodidak, aplikasi ini juga tidak berperilaku seperti mesin yang hanya melaporkan benar dan salah. Anda bisa menggunakan jenis soal untuk menguraikan garis besar dasar, lalu pindah ke playground untuk benar-benar menjalankan kode dan memahami mengapa satu varian berhasil dan yang lain tidak. Pengetahuan berhenti hidup murni dalam memori dan mulai menjadi penilaian Anda sendiri.
 
-## On-device AI here isn't a gimmick
+## AI di perangkat di sini bukan gimmick
 
-"AI tutor" often triggers the question, "is this about to upload my content to the cloud?" Python Dimensions places AI in a useful role that doesn't compromise privacy. When you answer incorrectly, it can hint based on the question's context. When you want to confirm a syntax idea, you can just ask, instead of bouncing between search engines and forums.
+"Tutor AI" sering memicu pertanyaan, "apakah ini akan mengunggah konten saya ke cloud?" Python Dimensions menempatkan AI dalam peran yang berguna tanpa mengorbankan privasi. Saat Anda menjawab salah, ia bisa memberikan petunjuk berdasarkan konteks soal. Saat Anda ingin mengkonfirmasi ide sintaks, Anda bisa langsung bertanya, alih-alih berpindah antara mesin pencari dan forum.
 
-Just as importantly, none of this requires handing your learning history to an external server. For students, that lowers the barrier to use. For teachers, parents, or anyone wary of data leakage, it turns the app into something closer to a long-term learning tool rather than a casual demo.
+Yang sama pentingnya, tidak ada dari ini yang mengharuskan Anda menyerahkan riwayat belajar ke server eksternal. Bagi pelajar, itu menurunkan hambatan penggunaan. Bagi guru, orang tua, atau siapa pun yang waspada terhadap kebocoran data, itu mengubah aplikasi menjadi sesuatu yang lebih mendekati alat belajar jangka panjang daripada demo kasual.
 
-The AI layer also goes beyond "a chat model stuffed in for show." The question bank, error context, context-aware retrieval, and a directly executable Python playground operate inside the same loop. You answer, ask, then run code to verify; when needed, capability analytics let you see whether you're stuck at syntax, concepts, or program flow.
+Lapisan AI juga melampaui "model chat yang dijejalkan untuk pertunjukan." Bank soal, konteks error, pengambilan konteks-sadar, dan playground Python yang dapat dieksekusi langsung beroperasi di dalam lingkaran yang sama. Anda menjawab, bertanya, lalu menjalankan kode untuk memverifikasi; bila diperlukan, analitik kemampuan memungkinkan Anda melihat apakah Anda terjebak pada sintaks, konsep, atau alur program.
 
-## Why this app deserves a permanent place on your phone
+## Mengapa aplikasi ini layak mendapat tempat permanen di ponsel Anda
 
-The learning tools people actually keep opening are the ones that sense when you're about to give up, more than the ones packed with features. Python Dimensions gathers question training, AI hints, and an executable environment onto a single device. The point is to let you push forward a little, even in the moments you'd otherwise scroll away.
+Alat belajar yang benar-benar terus dibuka orang adalah yang merasakan saat Anda akan menyerah, lebih dari yang penuh fitur. Python Dimensions mengumpulkan pelatihan soal, petunjuk AI, dan lingkungan yang dapat dieksekusi ke satu perangkat. Tujuannya adalah membiarkan Anda maju sedikit, bahkan di momen-momen di mana Anda biasanya akan menggulir pergi.
 
-What actually moves the needle isn't the rush of fifty problems in one sitting. It's the three minutes you're willing to open the app each day. Python Dimensions is built around those three minutes.
+Yang benar-benar menggerakkan jarum bukanlah mengerjakan lima puluh soal dalam satu sesi. Itu adalah tiga menit yang Anda bersedia membuka aplikasi setiap hari. Python Dimensions dibangun di sekitar tiga menit itu.

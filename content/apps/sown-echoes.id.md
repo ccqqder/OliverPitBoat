@@ -1,8 +1,7 @@
 ---
-isStub: true
 title: Sown Echoes
 layout: simple
-description: "Preserve your thoughts, values, and life experiences as a digital legacy that future AI can understand."
+description: "Lestarikan pikiran, nilai, dan pengalaman hidup Anda sebagai warisan digital yang dapat dipahami AI di masa depan."
 images:
   - images/og/sown-echoes.png
 app_slug: sown-echoes
@@ -10,26 +9,26 @@ showDate: false
 showReadingTime: false
 ---
 
-## Leaving a person behind, not just a diary
+## Meninggalkan seseorang, bukan sekadar buku harian
 
-Most recording tools deal with what happened today. Sown Echoes addresses a different scale of question. If a person's values, experiences, preferences, tone, and ways of making judgments are worth preserving, how do you keep them? And how do you keep them as a structure that can be understood and conversed with again in the future, rather than as a pile of scattered notes?
+Sebagian besar alat perekaman menangani apa yang terjadi hari ini. Sown Echoes membahas pertanyaan dengan skala yang berbeda. Jika nilai, pengalaman, preferensi, nada, dan cara membuat penilaian seseorang layak dilestarikan, bagaimana Anda menjaganya? Dan bagaimana Anda menjaganya sebagai struktur yang bisa dipahami dan diajak bercakap lagi di masa depan, bukan sebagai tumpukan catatan yang tersebar?
 
-So the app is part journal, part personal knowledge base, and carries a trace of digital legacy system. What you leave here goes beyond events: it includes how you see events, how you explain yourself, what you care about, and what you don't. That's the material Sown Echoes is really collecting.
+Jadi aplikasi ini sebagian jurnal, sebagian basis pengetahuan pribadi, dan membawa jejak sistem warisan digital. Apa yang Anda tinggalkan di sini melampaui peristiwa: termasuk bagaimana Anda melihat peristiwa, bagaimana Anda menjelaskan diri Anda, apa yang Anda pedulikan, dan apa yang tidak. Itulah materi yang benar-benar dikumpulkan Sown Echoes.
 
-## Why it deserves to exist separately from notes or voice journals
+## Mengapa ia layak ada secara terpisah dari catatan atau jurnal suara
 
-The reason it warrants its own category: it helps you progressively organise content into an analysable structure, rather than only storing it. Text, voice, questionnaires, persona summaries, values radar charts, digital-twin conversation. These modules form a complete chain. First record, then organise, then understand, then eventually converse.
+Alasan ia memerlukan kategorinya sendiri: ia membantu Anda secara progresif mengatur konten menjadi struktur yang dapat dianalisis, bukan hanya menyimpannya. Teks, suara, kuesioner, ringkasan persona, diagram radar nilai, percakapan digital-twin. Modul-modul ini membentuk rantai yang lengkap. Pertama rekam, kemudian atur, kemudian pahami, kemudian akhirnya bercakap.
 
-This suits people who feel a strong urge to record, but also know pure notes tend to pile up into chaos. It's a container designed for organising life material, not just another blank page that only handles input.
+Ini cocok untuk orang yang merasakan dorongan kuat untuk merekam, tetapi juga tahu catatan murni cenderung menumpuk menjadi kekacauan. Ini adalah wadah yang dirancang untuk mengatur materi kehidupan, bukan sekadar halaman kosong lain yang hanya menangani input.
 
-## Keeping both private and public tracks matters
+## Menjaga jalur privat dan publik keduanya penting
 
-Many products force you to choose between "fully private" and "fully social." Sown Echoes takes the more mature position that both needs are legitimate. You can keep everything entirely on your own device and iCloud, or contribute selected content under an open licence as part of the broader Human Wisdom Library.
+Banyak produk memaksa Anda memilih antara "sepenuhnya privat" dan "sepenuhnya sosial." Sown Echoes mengambil posisi yang lebih dewasa bahwa kedua kebutuhan itu sah. Anda bisa menjaga segalanya sepenuhnya di perangkat Anda sendiri dan iCloud, atau berkontribusi konten terpilih di bawah lisensi terbuka sebagai bagian dari Human Wisdom Library yang lebih luas.
 
-This dual-track choice is the product's philosophy, not an add-on. Some parts of your life belong only to you; others might be worth entering public knowledge. Whether to share should be yours to decide.
+Pilihan jalur ganda ini adalah filosofi produk, bukan tambahan. Beberapa bagian hidup Anda hanya milik Anda; yang lain mungkin layak masuk ke pengetahuan publik. Apakah akan berbagi seharusnya menjadi keputusan Anda.
 
-## On-device AI makes this feel less like surrendering yourself
+## AI di perangkat membuat ini terasa kurang seperti menyerahkan diri
 
-When a product's core is your thoughts, values, and life experience, privacy stops being a feature and becomes the precondition for the product to work at all. Sown Echoes keeps analysis and conversation as on-device as it can, so you don't have to hand yourself over wholesale just to get a tool that understands you.
+Saat inti produk adalah pikiran, nilai, dan pengalaman hidup Anda, privasi berhenti menjadi fitur dan menjadi prasyarat agar produk bisa berfungsi sama sekali. Sown Echoes menjaga analisis dan percakapan sebisa mungkin di perangkat, sehingga Anda tidak harus menyerahkan diri sepenuhnya hanya untuk mendapatkan alat yang memahami Anda.
 
-One day you'll try to recall a chapter of your life and find you can't quite put it into words anymore. Sown Echoes exists to push that day as far into the future as you can.
+Suatu hari Anda akan mencoba mengingat kembali suatu bab kehidupan Anda dan menemukan Anda tidak bisa lagi mengungkapkannya dengan kata-kata. Sown Echoes ada untuk mendorong hari itu sejauh mungkin ke masa depan.

@@ -1,8 +1,7 @@
 ---
-isStub: true
 title: StoneStory
 layout: simple
-description: "Turn Dream of the Red Chamber into an interactive AI narrative simulation, so literature becomes more than static reading."
+description: "Ubah Dream of the Red Chamber menjadi simulasi narasi AI interaktif, sehingga sastra menjadi lebih dari sekadar bacaan statis."
 images:
   - images/og/stonestory.png
 app_slug: stonestory
@@ -10,26 +9,26 @@ showDate: false
 showReadingTime: false
 ---
 
-## Turning a classical novel back into a world that runs
+## Mengubah novel klasik kembali menjadi dunia yang berjalan
 
-Most literary apps put the original text into a prettier reader. StoneStory takes a different path. It disassembles the characters, scenes, relationships, and events of *Dream of the Red Chamber* into a running narrative system. What you see is more than passages. You see how characters pull at each other, how they reveal personality inside situations, and how a classical novel operates like a small society.
+Sebagian besar aplikasi sastra memasukkan teks asli ke dalam reader yang lebih indah. StoneStory mengambil jalur yang berbeda. Ia membongkar karakter, adegan, hubungan, dan peristiwa dalam *Dream of the Red Chamber* menjadi sistem narasi yang berjalan. Yang Anda lihat lebih dari sekadar kutipan. Anda melihat bagaimana karakter saling menarik, bagaimana mereka mengungkapkan kepribadian dalam situasi, dan bagaimana novel klasik beroperasi seperti masyarakat kecil.
 
-That's why it's called a simulator rather than a reader. The goal is to take you into the structure beneath the text, not to serve up the same words in a nicer shell.
+Itulah mengapa ia disebut simulator daripada reader. Tujuannya adalah membawa Anda ke dalam struktur di bawah teks, bukan menyajikan kata-kata yang sama dalam tampilan yang lebih bagus.
 
-## Who actually needs a product like this
+## Siapa yang benar-benar membutuhkan produk seperti ini
 
-If you already love *Dream of the Red Chamber*, what you'll get here is a new way in rather than simple nostalgia. Characters become entities you can compare, observe, and reinterpret, rather than reference points to memorise. You'll see more easily who truly made choices in which scenes, how emotions accumulated, and which details were already foreshadowing what came later.
+Jika Anda sudah menyukai *Dream of the Red Chamber*, yang akan Anda dapatkan di sini adalah cara masuk baru, bukan sekadar nostalgia. Karakter menjadi entitas yang bisa Anda bandingkan, amati, dan interpretasikan ulang, bukan titik referensi yang harus dihafal. Anda akan lebih mudah melihat siapa yang benar-benar membuat pilihan di adegan mana, bagaimana emosi terakumulasi, dan detail apa yang sudah meramalkan apa yang akan datang kemudian.
 
-If classical literature has always felt distant, the app may actually be easier to approach. It doesn't demand that you first swallow the thick original to qualify; it breaks a complex work into a system you can approach slowly and understand incrementally.
+Jika sastra klasik selalu terasa jauh, aplikasi ini mungkin sebenarnya lebih mudah didekati. Ia tidak menuntut Anda terlebih dahulu menelan aslinya yang tebal untuk memenuhi syarat; ia memecah karya yang kompleks menjadi sistem yang bisa Anda dekati perlahan-lahan dan pahami secara bertahap.
 
-## AI here opens the door to understanding
+## AI di sini membuka pintu menuju pemahaman
 
-StoneStory uses AI for the work of comprehension, not plot generation: character inner life, emotional tension, modern-perspective interpretation, structural connections between events. For the user, this adds a layer of guided commentary: an interactive interpretation that shifts with each scene, rather than a dogmatic gloss.
+StoneStory menggunakan AI untuk pekerjaan pemahaman, bukan pembuatan alur cerita: kehidupan batin karakter, ketegangan emosional, interpretasi perspektif modern, koneksi struktural antar peristiwa. Bagi pengguna, ini menambahkan lapisan komentar terpandu: interpretasi interaktif yang berubah dengan setiap adegan, bukan ulasan dogmatis.
 
-The design suits *Dream of the Red Chamber*'s particular shape: many characters, complex relationships, extremely high detail density. You can let the system open the door, then decide how deep to go, instead of rebuilding the structure from scratch every time.
+Desainnya cocok dengan bentuk khusus *Dream of the Red Chamber*: banyak karakter, hubungan yang kompleks, kepadatan detail yang sangat tinggi. Anda bisa membiarkan sistem membuka pintunya, lalu memutuskan seberapa dalam untuk masuk, alih-alih membangun kembali strukturnya dari awal setiap saat.
 
-## Why on-device AI still matters here
+## Mengapa AI di perangkat masih penting di sini
 
-This kind of product is easy to ship as a cloud demo. The moment content comprehension, reading history, and interaction all depend on external services, though, the experience becomes fragile, and it stops feeling like something that can accompany you long-term. StoneStory pushes the core experience back to the device, so immersive reading and exploration can actually exist as everyday tools, not as a technical showcase.
+Produk semacam ini mudah dikirimkan sebagai demo cloud. Namun saat pemahaman konten, riwayat membaca, dan interaksi semuanya bergantung pada layanan eksternal, pengalaman menjadi rapuh, dan berhenti terasa seperti sesuatu yang bisa menemani Anda dalam jangka panjang. StoneStory mendorong pengalaman inti kembali ke perangkat, sehingga membaca imersif dan eksplorasi benar-benar bisa ada sebagai alat sehari-hari, bukan sebagai pameran teknologi.
 
-If you want the deeper technical and methodological thinking behind this, the related reading below goes there. If you'd rather start with the experience, the App Store is the most direct entry.
+Jika Anda ingin pemikiran teknis dan metodologis yang lebih dalam di balik ini, bacaan terkait di bawah ini menuju ke sana. Jika Anda lebih suka memulai dengan pengalaman, App Store adalah pintu masuk paling langsung.

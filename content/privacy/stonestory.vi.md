@@ -1,54 +1,53 @@
 ---
-isStub: true
-title: StoneStory — Privacy Policy
+title: StoneStory — Chính sách quyền riêng tư
 layout: simple
 showDate: false
 showReadingTime: false
 ---
 
-**Last Updated: 2026-04-15**
+**Cập nhật lần cuối: 2026-04-15**
 
 ---
 
-## 1. Overview
+## 1. Tổng quan
 
-StoneStory, developed by QQder339, is an immersive reading and character simulation app based on the classic novel "Dream of the Red Chamber."
+StoneStory, được phát triển bởi QQder339, là ứng dụng đọc sách nhập vai và mô phỏng nhân vật dựa trên tiểu thuyết cổ điển "Hồng lâu mộng."
 
-**In short: We do NOT collect, store, or transmit any of your personal data to external servers.**
+**Tóm tắt: Chúng tôi KHÔNG thu thập, lưu trữ hoặc truyền bất kỳ dữ liệu cá nhân nào của bạn tới máy chủ bên ngoài.**
 
-## 2. Data We Do NOT Collect
+## 2. Dữ liệu chúng tôi KHÔNG thu thập
 
-This app does not collect:
+Ứng dụng này không thu thập:
 
-- Personally Identifiable Information (name, email, phone number)
-- Location data
-- Device identifiers
-- Usage analytics or tracking data
+- Thông tin định danh cá nhân (tên, email, số điện thoại)
+- Dữ liệu vị trí
+- Mã định danh thiết bị
+- Dữ liệu phân tích sử dụng hoặc theo dõi
 
-## 3. Locally Stored Data
+## 3. Dữ liệu lưu cục bộ
 
-The following data is stored strictly on your device and never transmitted externally:
+Các dữ liệu sau chỉ được lưu trên thiết bị của bạn và không bao giờ truyền ra ngoài:
 
-- **Traveler Profile**: The name, personality traits, speech style, background, and optional avatar image you configure in Traveler Mode
-- **Interface Preferences**: Your selected display language (Traditional Chinese / English / Japanese) and chosen offline AI model
-- **Downloaded Content**: Character portraits and scene images cached after you view them in the app
-- **Offline AI Model**: The Qwen 2.5 model file you've chosen to download (stored in an App Group container for in-app use only)
+- **Hồ sơ Traveler**: tên, đặc điểm tính cách, phong cách nói, lý lịch và hình ảnh đại diện tùy chọn bạn cấu hình trong Chế độ Traveler
+- **Tùy chọn Giao diện**: ngôn ngữ hiển thị đã chọn (Tiếng Trung phồn thể / Tiếng Anh / Tiếng Nhật) và mô hình AI ngoại tuyến đã chọn
+- **Nội dung Đã tải**: ảnh chân dung nhân vật và hình ảnh cảnh được lưu cache sau khi bạn xem trong ứng dụng
+- **Mô hình AI Ngoại tuyến**: tệp mô hình Qwen 2.5 bạn đã chọn tải (được lưu trong container App Group chỉ để sử dụng trong ứng dụng)
 
-## 4. Third-Party Services
+## 4. Dịch vụ bên thứ ba
 
-This app does **NOT** use any third-party analytics or advertising frameworks (No Google Analytics, No Facebook SDK, No Ads).
+Ứng dụng này **KHÔNG** sử dụng bất kỳ framework phân tích hay quảng cáo bên thứ ba nào (No Google Analytics, No Facebook SDK, No Ads).
 
-## 5. Network Access
+## 5. Truy cập mạng
 
-Core reading and simulation features work **fully offline** and require no network connection. The following features initiate network requests only when you explicitly trigger them:
+Các tính năng đọc và mô phỏng cốt lõi hoạt động **hoàn toàn ngoại tuyến** và không cần kết nối mạng. Các tính năng sau khởi tạo yêu cầu mạng chỉ khi bạn kích hoạt một cách rõ ràng:
 
-- **Downloading Character Portraits / Scene Images**: The first time you view a character or scene, the app fetches the corresponding image from a public CDN and caches it locally
-- **Downloading the Offline AI Model**: When you choose to download the Qwen2.5 model in Settings, the app fetches the file from the model's public release source
-- **External Links**: Opens the system browser when you tap relevant links
+- **Tải Ảnh chân dung Nhân vật / Hình ảnh Cảnh**: Lần đầu tiên bạn xem một nhân vật hoặc cảnh, ứng dụng tải hình ảnh tương ứng từ CDN công khai và lưu cache cục bộ
+- **Tải Mô hình AI Ngoại tuyến**: Khi bạn chọn tải mô hình Qwen2.5 trong Cài đặt, ứng dụng tải tệp từ nguồn phát hành công khai của mô hình
+- **Liên kết ngoài**: mở trình duyệt hệ thống khi bạn chạm vào các liên kết liên quan
 
-These network requests transmit only the URL of the file you've chosen. No personally identifiable information is attached, and no data is collected in return.
+Các yêu cầu mạng này chỉ truyền URL của tệp bạn đã chọn. Không có thông tin nhận dạng cá nhân nào được đính kèm và không có dữ liệu nào được thu thập để đổi lại.
 
-## 6. Contact Us
+## 6. Liên hệ
 
 📧 **qqder339@gmail.com**  
-Subject: StoneStory Privacy Policy Inquiry
+Tiêu đề: Yêu cầu về Chính Sách Quyền Riêng Tư của StoneStory

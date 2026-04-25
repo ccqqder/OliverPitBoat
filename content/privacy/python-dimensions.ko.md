@@ -1,62 +1,61 @@
 ---
-isStub: true
-title: Python Dimensions — Privacy Policy
+title: Python Dimensions — 개인정보 처리방침
 layout: simple
 showDate: false
 showReadingTime: false
 ---
 
-**Last Updated: 2026-04-15**
+**최종 업데이트: 2026-04-15**
 
 ---
 
-## 1. Overview
+## 1. 개요
 
-Python Dimensions, developed by QQder339, is a Python programming learning app featuring a built-in Python runtime environment and on-device AI tutor.
+QQder339가 개발한 Python Dimensions는 내장 Python 런타임 환경과 기기 내 AI 튜터를 갖춘 Python 프로그래밍 학습 앱입니다.
 
-**In short: We do NOT collect, store, or transmit any of your personal data to external servers.**
+**요약: 당사는 귀하의 개인정보를 외부 서버로 수집, 저장 또는 전송하지 않습니다.**
 
-## 2. Data We Do NOT Collect
+## 2. 당사가 수집하지 않는 데이터
 
-This app does not collect:
+이 앱은 다음을 수집하지 않습니다:
 
-- Personally Identifiable Information (name, email, phone number)
-- Location data
-- Device identifiers
-- Usage analytics or tracking data
+- 개인 식별 정보(이름, 이메일, 전화번호)
+- 위치 데이터
+- 기기 식별자
+- 사용 분석 또는 추적 데이터
 
-## 3. Locally Stored Data
+## 3. 로컬 저장 데이터
 
-The following data is stored strictly on your device and never transmitted externally:
+아래 데이터는 오직 귀하의 기기에만 저장되며 외부로 전송되지 않습니다:
 
-- **Learning Progress**: Answer records and error tracking across all question types (MCQ, fill-in-the-blank, Parsons)
-- **Code**: Programs written in the built-in IDE
-- **AI Conversation Logs**: Conversations with the AI tutor stored locally
-- **User Settings**: Difficulty preferences, interface settings, etc.
+- **학습 진도**: 모든 문제 유형(객관식, 빈칸 채우기, Parsons)에 걸친 답변 기록 및 오류 추적
+- **코드**: 내장 IDE에서 작성된 프로그램
+- **AI 대화 로그**: AI 튜터와의 대화가 로컬에 저장됨
+- **사용자 설정**: 난이도 환경설정, 인터페이스 설정 등
 
-## 4. Offline AI Features
+## 4. 오프라인 AI 기능
 
-All AI features run entirely on-device without network connection:
+모든 AI 기능은 네트워크 연결 없이 전적으로 기기에서 실행됩니다:
 
-- **AI Tutor**: Uses local Large Language Models (LLM) to provide hints and explanations; all inference runs on-device
-- **Python Runtime**: The built-in Python interpreter runs entirely on-device; your code is never sent to any server
+- **AI 튜터**: 로컬 대규모 언어 모델(LLM)을 사용하여 힌트와 설명 제공. 모든 추론은 기기에서 실행됨
+- **Python 런타임**: 내장 Python 인터프리터는 전적으로 기기에서 실행되며, 코드는 어떤 서버에도 전송되지 않음
 
-AI models require a one-time download before first use (user-initiated); all features work offline after download.
+AI 모델은 첫 사용 전 한 번 다운로드가 필요합니다(사용자 직접 시작). 다운로드 후 모든 기능이 오프라인으로 작동합니다.
 
-## 5. Third-Party Services
+## 5. 제3자 서비스
 
-This app does **NOT** use any third-party analytics or advertising frameworks (No Google Analytics, No Facebook SDK, No Ads).
+이 앱은 제3자 분석 또는 광고 프레임워크를 **사용하지 않습니다** (No Google Analytics, No Facebook SDK, No Ads).
 
-## 6. Network Access
+## 6. 네트워크 접근
 
-Network access is restricted to:
+네트워크 접근은 다음으로 제한됩니다:
 
-- **Downloading AI Models** (Optional, one-time): Only connects when you explicitly choose to download LLM model resources
-- **External Links**: Opens browser when tapping relevant links
+- **AI 모델 다운로드** (선택 사항, 1회): 귀하가 LLM 모델 리소스를 명시적으로 다운로드하기로 선택할 때만 연결
+- **외부 링크**: 관련 링크 탭 시 브라우저 열기
 
-Other than the above, the app does not initiate network connections. Code execution runs entirely in the local Python environment.
+위 경우를 제외하고 앱은 네트워크 연결을 시작하지 않습니다. 코드 실행은 전적으로 로컬 Python 환경에서 실행됩니다.
 
-## 7. Contact Us
+## 7. 문의하기
 
 📧 **qqder339@gmail.com**  
-Subject: Python Dimensions Privacy Policy Inquiry
+제목: Python Dimensions 개인정보 처리방침 문의

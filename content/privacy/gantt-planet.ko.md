@@ -1,64 +1,63 @@
 ---
-isStub: true
-title: Gantt Planet — Privacy Policy
+title: Gantt Planet — 개인정보 처리방침
 layout: simple
 showDate: false
 showReadingTime: false
 ---
 
-**Last Updated: 2026-04-15**
+**최종 업데이트: 2026-04-15**
 
 ---
 
-## 1. Overview
+## 1. 개요
 
-Gantt Planet, developed by QQder339, is a life goal management app combining 3D visual habit tracking with an on-device AI companion.
+QQder339가 개발한 Gantt Planet은 3D 시각적 습관 추적과 기기 내 AI 동반자를 결합한 인생 목표 관리 앱입니다.
 
-**In short: We do NOT collect, store, or transmit any of your personal data to external servers. Your habits, journals, and conversations belong only to you.**
+**요약: 당사는 귀하의 개인정보를 외부 서버로 수집, 저장 또는 전송하지 않습니다. 귀하의 습관, 일기, 대화는 오직 귀하에게만 속합니다.**
 
-## 2. Data We Do NOT Collect
+## 2. 당사가 수집하지 않는 데이터
 
-This app does not collect:
+이 앱은 다음을 수집하지 않습니다:
 
-- Personally Identifiable Information (name, email, phone number)
-- Location data
-- Device identifiers
-- Usage analytics or tracking data
+- 개인 식별 정보(이름, 이메일, 전화번호)
+- 위치 데이터
+- 기기 식별자
+- 사용 분석 또는 추적 데이터
 
-## 3. Locally Stored Data
+## 3. 로컬 저장 데이터
 
-The following data is stored strictly on your device and never transmitted externally:
+아래 데이터는 오직 귀하의 기기에만 저장되며 외부로 전송되지 않습니다:
 
-- **Habits & Goals**: All items, completion records, and timeline data
-- **AI Conversation Logs**: All conversations with the built-in AI stored locally
-- **Journals & Mood Records**: All journal content
-- **Art Collection**: Unlocked stickers and illustration records
-- **3D Planet State**: Your planet's terrain and growth data
-- **User Settings**: All preference settings
+- **습관 및 목표**: 모든 항목, 완료 기록 및 타임라인 데이터
+- **AI 대화 로그**: 내장 AI와의 모든 대화가 로컬에 저장됨
+- **일기 및 감정 기록**: 모든 일기 콘텐츠
+- **아트 컬렉션**: 잠금 해제된 스티커 및 일러스트 기록
+- **3D 행성 상태**: 행성의 지형 및 성장 데이터
+- **사용자 설정**: 모든 환경 설정
 
-## 4. Offline AI Features
+## 4. 오프라인 AI 기능
 
-The AI companion feature runs entirely on-device:
+AI 동반자 기능은 전적으로 기기에서 실행됩니다:
 
-- **AI Conversations**: Uses local Large Language Models (LLM); all inference runs on-device; conversation content is never transmitted to any server
-- **Model Download**: AI models require a one-time download before first use (user-initiated); fully offline after download
+- **AI 대화**: 로컬 대규모 언어 모델(LLM) 사용, 모든 추론은 기기에서 실행, 대화 내용은 어떤 서버에도 전송되지 않음
+- **모델 다운로드**: AI 모델은 첫 사용 전 한 번 다운로드가 필요합니다(사용자 직접 시작). 다운로드 후 완전 오프라인으로 작동
 
-## 5. Third-Party Services
+## 5. 제3자 서비스
 
-This app does **NOT** use any third-party analytics or advertising frameworks (No Google Analytics, No Facebook SDK, No Ads).
+이 앱은 제3자 분석 또는 광고 프레임워크를 **사용하지 않습니다** (No Google Analytics, No Facebook SDK, No Ads).
 
-## 6. Network Access
+## 6. 네트워크 접근
 
-Network access is restricted to:
+네트워크 접근은 다음으로 제한됩니다:
 
-- **Downloading AI Models** (Optional, one-time): Only connects when you explicitly choose to download
-- **Downloading Art Collection Stickers** (On-demand): When you unlock art rewards, the app fetches matching images from a public GitHub repository and caches them locally for offline use
-- **Weather Information** (Optional): If you enable real weather, only minimal regional data is sent to retrieve weather
-- **External Links**: Opens browser when tapping relevant links
+- **AI 모델 다운로드** (선택 사항, 1회): 귀하가 명시적으로 다운로드를 선택할 때만 연결
+- **아트 컬렉션 스티커 다운로드** (온디맨드): 아트 보상을 잠금 해제하면 공개 GitHub 저장소에서 이미지를 가져와 오프라인 사용을 위해 로컬에 캐시
+- **날씨 정보** (선택 사항): 실시간 날씨를 활성화한 경우 날씨 조회를 위한 최소한의 지역 데이터만 전송
+- **외부 링크**: 관련 링크 탭 시 브라우저 열기
 
-These requests transmit only the URL of the resource you chose or triggered; no personally identifiable information is attached.
+이 요청들은 귀하가 선택하거나 트리거한 리소스의 URL만 전송하며, 개인 식별 정보는 포함되지 않습니다.
 
-## 7. Contact Us
+## 7. 문의하기
 
 📧 **qqder339@gmail.com**  
-Subject: Gantt Planet Privacy Policy Inquiry
+제목: Gantt Planet 개인정보 처리방침 문의

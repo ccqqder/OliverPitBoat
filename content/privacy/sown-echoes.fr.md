@@ -1,67 +1,66 @@
 ---
-isStub: true
-title: Sown Echoes — Privacy Policy
+title: Sown Echoes — Politique de confidentialité
 layout: simple
 showDate: false
 showReadingTime: false
 ---
 
-**Last Updated: 2026-04-15**
+**Dernière mise à jour : 2026-04-15**
 
 ---
 
-## 1. Overview
+## 1. Vue d'ensemble
 
-Sown Echoes, developed by QQder339, is an app that lets you actively capture your thoughts, values, and life experiences, building a digital legacy through a BIP-39 cryptographic identity.
+Sown Echoes, développé par QQder339, est une application qui vous permet de capturer activement vos pensées, valeurs et expériences de vie, construisant un héritage numérique grâce à une identité cryptographique BIP-39.
 
-**In short: We do NOT collect, store, or transmit any of your personal data to external servers. Your thoughts and records belong only to you.**
+**En bref : nous ne collectons, ne stockons ni ne transmettons AUCUNE de vos données personnelles vers des serveurs externes. Vos pensées et enregistrements n'appartiennent qu'à vous.**
 
-## 2. Data We Do NOT Collect
+## 2. Données que nous ne collectons PAS
 
-This app does not collect:
+Cette application ne collecte pas :
 
-- Personally Identifiable Information (name, email, phone number)
-- Location data
-- Device identifiers
-- Usage analytics or tracking data
+- Données personnellement identifiables (nom, e-mail, numéro de téléphone)
+- Données de localisation
+- Identifiants d'appareil
+- Données d'analyse d'usage ou de suivi
 
-## 3. Locally Stored Data
+## 3. Données stockées localement
 
-The following data is stored strictly on your device and never transmitted externally:
+Les données suivantes sont stockées strictement sur votre appareil et ne sont jamais transmises à l'extérieur :
 
-- **BIP-39 Mnemonic**: Your Meme ID identity key (stored locally only; please back it up yourself)
-- **Voice and Text Records**: All thoughts, values, and stories entered through the questionnaire
-- **Speech-to-Text Results**: Whisper on-device recognition results stored locally
-- **User Settings**: All preference settings
+- **Phrase mnémotechnique BIP-39** : votre clé d'identité Meme ID (stockée localement uniquement ; veuillez la sauvegarder vous-même)
+- **Enregistrements vocaux et textuels** : toutes les pensées, valeurs et histoires saisies via le questionnaire
+- **Résultats de transcription vocale** : résultats de reconnaissance Whisper sur l'appareil stockés localement
+- **Réglages utilisateur** : tous les réglages de préférences
 
-## 4. Offline AI Features
+## 4. Fonctionnalités IA hors ligne
 
-All AI features run entirely on-device without network connection:
+Toutes les fonctionnalités IA s'exécutent entièrement sur l'appareil sans connexion réseau :
 
-- **Speech-to-Text (Whisper)**: Uses local Whisper model; all speech recognition runs on-device; voice data is never transmitted to any server
-- **BIP-39 Identity Generation**: Mnemonics generated locally on-device, without relying on any external service
+- **Transcription vocale (Whisper)** : utilise le modèle Whisper local ; toute la reconnaissance vocale s'exécute sur l'appareil ; les données vocales ne sont jamais transmises à un serveur
+- **Génération d'identité BIP-39** : les phrases mnémotechniques sont générées localement sur l'appareil, sans dépendre d'un service externe
 
-AI models require a one-time download before first use (user-initiated); all features work offline after download.
+Les modèles IA nécessitent un téléchargement unique avant la première utilisation (initié par l'utilisateur) ; toutes les fonctionnalités fonctionnent hors ligne après le téléchargement.
 
-## 5. Data Export
+## 5. Exportation des données
 
-If you choose to export data for AI training contribution, the export action is entirely under your control. The app does not automatically upload or share any content.
+Si vous choisissez d'exporter des données pour une contribution à l'entraînement IA, l'action d'exportation est entièrement sous votre contrôle. L'application ne télécharge ni ne partage automatiquement aucun contenu.
 
-## 6. Third-Party Services
+## 6. Services tiers
 
-This app does **NOT** use any third-party analytics or advertising frameworks (No Google Analytics, No Facebook SDK, No Ads).
+Cette application n'utilise **AUCUN** framework d'analyse ou de publicité tiers (No Google Analytics, No Facebook SDK, No Ads).
 
-## 7. Network Access
+## 7. Accès réseau
 
-Network access is restricted to:
+L'accès réseau est limité à :
 
-- **Downloading AI Models** (Optional, one-time): Only connects when you explicitly choose to download Whisper model resources
-- **User-Initiated Data Export**: Only when you explicitly choose to export
-- **External Links**: Opens browser when tapping relevant links
+- **Téléchargement des modèles IA** (optionnel, unique) : se connecte uniquement lorsque vous choisissez explicitement de télécharger les ressources du modèle Whisper
+- **Exportation de données initiée par l'utilisateur** : uniquement lorsque vous choisissez explicitement d'exporter
+- **Liens externes** : ouvre le navigateur lors de l'appui sur des liens pertinents
 
-Other than the above, the app does not initiate network connections.
+En dehors de ce qui précède, l'application n'initie pas de connexions réseau.
 
-## 8. Contact Us
+## 8. Nous contacter
 
 📧 **qqder339@gmail.com**  
-Subject: Sown Echoes Privacy Policy Inquiry
+Objet : Demande relative à la politique de confidentialité de Sown Echoes

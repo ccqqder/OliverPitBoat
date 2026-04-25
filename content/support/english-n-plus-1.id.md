@@ -1,8 +1,7 @@
 ---
-isStub: true
-title: English N+1 Support
+title: Dukungan English N+1
 layout: simple
-summary: Support and contact for English N+1
+summary: Dukungan dan kontak untuk English N+1
 app_slug: english-n-plus-1
 showDate: false
 showReadingTime: false
@@ -11,39 +10,39 @@ showReadingTime: false
 
 ---
 
-## FAQ
+## Pertanyaan Umum
 
-**Q: After the CEFR level test, the difficulty feels off. What can I do?**  
-A: The initial test is a quick vocabulary-based assessment and may not perfectly match your actual level. You can manually adjust the difficulty in Settings, or retake the test. After using the app for a while, it will automatically adapt based on your answer history.
+**T: Setelah tes level CEFR, tingkat kesulitannya terasa tidak tepat. Apa yang harus dilakukan?**  
+J: Tes awal adalah penilaian cepat berbasis kosakata dan mungkin tidak sepenuhnya mencerminkan level Anda yang sesungguhnya. Anda bisa menyesuaikan tingkat kesulitan secara manual di Pengaturan, atau mengikuti tes ulang. Setelah menggunakan aplikasi beberapa saat, aplikasi akan menyesuaikan diri secara otomatis berdasarkan riwayat jawaban Anda.
 
-**Q: What model does the AI conversation feature need? How large is it?**  
-A: Based on your device's performance, the app recommends an appropriate model (Llama 3.2 or Qwen 2.5). Model size is approximately 1–4 GB. After downloading, conversations work **completely offline** — no internet required.
+**T: Model apa yang dibutuhkan fitur percakapan AI? Seberapa besar ukurannya?**  
+J: Berdasarkan performa perangkat Anda, aplikasi merekomendasikan model yang sesuai (Llama 3.2 atau Qwen 2.5). Ukuran model sekitar 1–4 GB. Setelah diunduh, percakapan berjalan **sepenuhnya offline** — tidak memerlukan koneksi internet.
 
-**Q: AI conversation responses are very slow or frozen?**  
-A: On-device AI inference speed depends on your device's performance. Older iPhones will be noticeably slower. Try selecting a smaller model in Settings.
+**T: Respons percakapan AI sangat lambat atau membeku?**  
+J: Kecepatan inferensi AI di perangkat bergantung pada performa perangkat Anda. iPhone lama akan terasa jauh lebih lambat. Coba pilih model yang lebih kecil di Pengaturan.
 
-**Q: The generated articles are too difficult to understand?**  
-A: Articles are generated based on your CEFR level. If they feel too hard, lower your level setting in Settings, or manually select a lower difficulty when generating articles.
+**T: Artikel yang dihasilkan terlalu sulit untuk dipahami?**  
+J: Artikel dibuat berdasarkan level CEFR Anda. Jika terasa terlalu sulit, turunkan pengaturan level di Pengaturan, atau pilih tingkat kesulitan yang lebih rendah secara manual saat membuat artikel.
 
-**Q: Will my study records and saved vocabulary be backed up?**  
-A: All data is currently stored locally on your device only. iCloud backup is not supported. Uninstalling the app will erase all records.
-
----
-
-## Troubleshooting
-
-1. **AI model fails to load**: Ensure at least 3 GB of free storage, and check that the download wasn't interrupted
-2. **App crashes during AI conversation**: Try switching to a smaller model in Settings
-3. **Force quit and relaunch the app**
-4. **Check iOS version** ≥ 17.0
+**T: Apakah catatan belajar dan kosakata yang disimpan akan dicadangkan?**  
+J: Semua data saat ini hanya disimpan secara lokal di perangkat Anda. Pencadangan iCloud tidak didukung. Menghapus instalasi aplikasi akan menghapus semua catatan.
 
 ---
 
-## Contact Support
+## Pemecahan Masalah
+
+1. **Model AI gagal dimuat**: Pastikan setidaknya 3 GB penyimpanan kosong tersedia, dan periksa apakah unduhan tidak terputus
+2. **Aplikasi crash saat percakapan AI**: Coba beralih ke model yang lebih kecil di Pengaturan
+3. **Paksa tutup lalu buka kembali aplikasi**
+4. **Periksa versi iOS** ≥ 17.0
+
+---
+
+## Hubungi Dukungan
 
 📧 **qqder339@gmail.com**  
-Subject: `[English N+1] Issue Description`
+Subjek: `[English N+1] Issue Description`
 
-Please include: device model, iOS version, app version, steps to reproduce.
+Mohon sertakan: model perangkat, versi iOS, versi aplikasi, langkah reproduksi.
 
-> This app collects no user data. All AI conversations are processed entirely on-device.
+> Aplikasi ini tidak mengumpulkan data pengguna. Semua percakapan AI diproses sepenuhnya di perangkat.

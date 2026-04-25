@@ -1,8 +1,7 @@
 ---
-isStub: true
-title: Python Dimensions Support
+title: Hỗ trợ Python Dimensions
 layout: simple
-summary: Support and contact for Python Dimensions
+summary: Hỗ trợ và liên hệ cho Python Dimensions
 app_slug: python-dimensions
 showDate: false
 showReadingTime: false
@@ -11,39 +10,39 @@ showReadingTime: false
 
 ---
 
-## FAQ
+## Câu hỏi thường gặp
 
-**Q: The built-in Python runtime throws an error or crashes the app?**  
-A: Complex code (infinite loops, excessive memory usage) may cause timeouts or crashes. Make sure your code has no infinite loops and avoids allocating very large amounts of memory. If a specific code snippet causes a crash, please email us with that code.
+**H: Môi trường chạy Python tích hợp báo lỗi hoặc làm crash ứng dụng?**  
+Đ: Mã phức tạp (vòng lặp vô hạn, sử dụng bộ nhớ quá mức) có thể gây timeout hoặc crash. Hãy đảm bảo mã của bạn không có vòng lặp vô hạn và tránh cấp phát lượng bộ nhớ rất lớn. Nếu một đoạn mã cụ thể gây crash, vui lòng gửi email cho chúng tôi kèm đoạn mã đó.
 
-**Q: Does the AI tutor need to download a model? How large?**  
-A: Yes. The first time you use the AI tutor, you'll need to download a local model (~1–4 GB). After downloading, it works **completely offline** — all Q&A and explanations run on-device without internet.
+**H: Gia sư AI có cần tải mô hình không? Kích thước bao nhiêu?**  
+Đ: Có. Lần đầu sử dụng gia sư AI, bạn cần tải mô hình cục bộ (~1–4 GB). Sau khi tải, nó hoạt động **hoàn toàn ngoại tuyến** — tất cả hỏi đáp và giải thích đều chạy trên thiết bị mà không cần internet.
 
-**Q: I think there's an error in the question bank?**  
-A: If you find an incorrect question or answer, please email us with: the question content, your proposed correct answer, and your reasoning. We'll verify and update the question bank as soon as possible.
+**H: Tôi nghĩ có lỗi trong ngân hàng câu hỏi?**  
+Đ: Nếu bạn tìm thấy câu hỏi hoặc câu trả lời không chính xác, vui lòng gửi email cho chúng tôi kèm: nội dung câu hỏi, câu trả lời đúng mà bạn đề xuất, và lý do. Chúng tôi sẽ xác minh và cập nhật ngân hàng câu hỏi sớm nhất có thể.
 
-**Q: The error radar chart isn't showing?**  
-A: The radar chart requires a minimum number of answer records to generate. Please complete at least 20 questions first.
+**H: Biểu đồ radar lỗi không hiển thị?**  
+Đ: Biểu đồ radar cần số lượng tối thiểu các hồ sơ trả lời để tạo. Vui lòng hoàn thành ít nhất 20 câu hỏi trước.
 
-**Q: How do I use the code templates?**  
-A: In the built-in IDE screen, tap the "Templates" button in the upper right, select the category you need (loops, functions, classes, etc.), and the code will be automatically inserted into the editor.
-
----
-
-## Troubleshooting
-
-1. **Python runtime crashes**: Ensure no infinite loops in your code; ensure the device has sufficient available memory
-2. **AI model fails to load**: Ensure 3+ GB free storage; retry downloading on Wi-Fi
-3. **Force quit and relaunch the app**
-4. **Check iOS version** ≥ 17.0
+**H: Làm thế nào để sử dụng các mẫu mã?**  
+Đ: Trong màn hình IDE tích hợp, nhấn nút "Templates" ở góc trên bên phải, chọn danh mục bạn cần (vòng lặp, hàm, lớp, v.v.), và mã sẽ được tự động chèn vào trình soạn thảo.
 
 ---
 
-## Contact Support
+## Khắc phục sự cố
+
+1. **Môi trường chạy Python crash**: Đảm bảo mã không có vòng lặp vô hạn; đảm bảo thiết bị còn đủ bộ nhớ trống
+2. **Mô hình AI không tải được**: Đảm bảo còn 3+ GB dung lượng trống; thử tải lại qua Wi-Fi
+3. **Buộc đóng và mở lại ứng dụng**
+4. **Kiểm tra phiên bản iOS** ≥ 17.0
+
+---
+
+## Liên hệ hỗ trợ
 
 📧 **qqder339@gmail.com**  
-Subject: `[Python Dimensions] Issue Description`
+Tiêu đề: `[Python Dimensions] Issue Description`
 
-Please include: device model, iOS version, app version, steps to reproduce (include code if it's a code-related issue).
+Vui lòng gửi kèm: mẫu thiết bị, phiên bản iOS, phiên bản ứng dụng, các bước tái hiện lỗi (kèm mã nếu là vấn đề liên quan đến mã).
 
-> This app collects no user data. Python execution and AI inference run entirely on-device.
+> Ứng dụng này không thu thập dữ liệu người dùng. Thực thi Python và suy luận AI đều chạy hoàn toàn trên thiết bị.

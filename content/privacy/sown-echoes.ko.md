@@ -1,67 +1,66 @@
 ---
-isStub: true
-title: Sown Echoes — Privacy Policy
+title: Sown Echoes — 개인정보 처리방침
 layout: simple
 showDate: false
 showReadingTime: false
 ---
 
-**Last Updated: 2026-04-15**
+**최종 업데이트: 2026-04-15**
 
 ---
 
-## 1. Overview
+## 1. 개요
 
-Sown Echoes, developed by QQder339, is an app that lets you actively capture your thoughts, values, and life experiences, building a digital legacy through a BIP-39 cryptographic identity.
+QQder339가 개발한 Sown Echoes는 BIP-39 암호 신원을 통해 귀하의 생각, 가치관, 삶의 경험을 능동적으로 기록하여 디지털 유산을 쌓을 수 있는 앱입니다.
 
-**In short: We do NOT collect, store, or transmit any of your personal data to external servers. Your thoughts and records belong only to you.**
+**요약: 당사는 귀하의 개인정보를 외부 서버로 수집, 저장 또는 전송하지 않습니다. 귀하의 생각과 기록은 오직 귀하에게만 속합니다.**
 
-## 2. Data We Do NOT Collect
+## 2. 당사가 수집하지 않는 데이터
 
-This app does not collect:
+이 앱은 다음을 수집하지 않습니다:
 
-- Personally Identifiable Information (name, email, phone number)
-- Location data
-- Device identifiers
-- Usage analytics or tracking data
+- 개인 식별 정보(이름, 이메일, 전화번호)
+- 위치 데이터
+- 기기 식별자
+- 사용 분석 또는 추적 데이터
 
-## 3. Locally Stored Data
+## 3. 로컬 저장 데이터
 
-The following data is stored strictly on your device and never transmitted externally:
+아래 데이터는 오직 귀하의 기기에만 저장되며 외부로 전송되지 않습니다:
 
-- **BIP-39 Mnemonic**: Your Meme ID identity key (stored locally only; please back it up yourself)
-- **Voice and Text Records**: All thoughts, values, and stories entered through the questionnaire
-- **Speech-to-Text Results**: Whisper on-device recognition results stored locally
-- **User Settings**: All preference settings
+- **BIP-39 니모닉**: Meme ID 신원 키(로컬에만 저장. 직접 백업해 주세요)
+- **음성 및 텍스트 기록**: 설문을 통해 입력한 모든 생각, 가치관, 이야기
+- **음성-텍스트 변환 결과**: Whisper 기기 내 인식 결과가 로컬에 저장됨
+- **사용자 설정**: 모든 환경 설정
 
-## 4. Offline AI Features
+## 4. 오프라인 AI 기능
 
-All AI features run entirely on-device without network connection:
+모든 AI 기능은 네트워크 연결 없이 전적으로 기기에서 실행됩니다:
 
-- **Speech-to-Text (Whisper)**: Uses local Whisper model; all speech recognition runs on-device; voice data is never transmitted to any server
-- **BIP-39 Identity Generation**: Mnemonics generated locally on-device, without relying on any external service
+- **음성-텍스트 변환(Whisper)**: 로컬 Whisper 모델 사용, 모든 음성 인식은 기기에서 실행, 음성 데이터는 어떤 서버에도 전송되지 않음
+- **BIP-39 신원 생성**: 니모닉을 어떤 외부 서비스에도 의존하지 않고 기기 로컬에서 생성
 
-AI models require a one-time download before first use (user-initiated); all features work offline after download.
+AI 모델은 첫 사용 전 한 번 다운로드가 필요합니다(사용자 직접 시작). 다운로드 후 모든 기능이 오프라인으로 작동합니다.
 
-## 5. Data Export
+## 5. 데이터 내보내기
 
-If you choose to export data for AI training contribution, the export action is entirely under your control. The app does not automatically upload or share any content.
+AI 학습 기여를 위해 데이터를 내보내기로 선택하는 경우, 내보내기 동작은 전적으로 귀하의 통제 하에 있습니다. 앱은 어떤 콘텐츠도 자동으로 업로드하거나 공유하지 않습니다.
 
-## 6. Third-Party Services
+## 6. 제3자 서비스
 
-This app does **NOT** use any third-party analytics or advertising frameworks (No Google Analytics, No Facebook SDK, No Ads).
+이 앱은 제3자 분석 또는 광고 프레임워크를 **사용하지 않습니다** (No Google Analytics, No Facebook SDK, No Ads).
 
-## 7. Network Access
+## 7. 네트워크 접근
 
-Network access is restricted to:
+네트워크 접근은 다음으로 제한됩니다:
 
-- **Downloading AI Models** (Optional, one-time): Only connects when you explicitly choose to download Whisper model resources
-- **User-Initiated Data Export**: Only when you explicitly choose to export
-- **External Links**: Opens browser when tapping relevant links
+- **AI 모델 다운로드** (선택 사항, 1회): 귀하가 Whisper 모델 리소스를 명시적으로 다운로드하기로 선택할 때만 연결
+- **사용자 직접 데이터 내보내기**: 귀하가 명시적으로 내보내기를 선택할 때만
+- **외부 링크**: 관련 링크 탭 시 브라우저 열기
 
-Other than the above, the app does not initiate network connections.
+위 경우를 제외하고 앱은 네트워크 연결을 시작하지 않습니다.
 
-## 8. Contact Us
+## 8. 문의하기
 
 📧 **qqder339@gmail.com**  
-Subject: Sown Echoes Privacy Policy Inquiry
+제목: Sown Echoes 개인정보 처리방침 문의

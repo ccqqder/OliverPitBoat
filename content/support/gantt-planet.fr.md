@@ -1,8 +1,7 @@
 ---
-isStub: true
-title: Gantt Planet Support
+title: Gantt Planet — Assistance
 layout: simple
-summary: Support and contact for Gantt Planet
+summary: Assistance et contact pour Gantt Planet
 app_slug: gantt-planet
 showDate: false
 showReadingTime: false
@@ -13,37 +12,37 @@ showReadingTime: false
 
 ## FAQ
 
-**Q: Does the AI companion chat require an internet connection?**  
-A: No. The AI companion uses an on-device local model. All conversations are processed completely offline and are never sent to any server. A one-time model download (~1–4 GB) is required on first use, after which everything works offline.
+**Q : La conversation avec le compagnon IA nécessite-t-elle une connexion internet ?**  
+R : Non. Le compagnon IA utilise un modèle local sur l'appareil. Toutes les conversations sont traitées entièrement hors ligne et ne sont jamais envoyées à un serveur. Un téléchargement unique du modèle (~1–4 Go) est requis à la première utilisation, après quoi tout fonctionne hors ligne.
 
-**Q: The 3D planet is laggy?**  
-A: The 3D planet requires some GPU performance. If it's lagging on an older device, try lowering the render quality or disabling particle effects in Settings. Recommended device: iPhone 12 or newer.
+**Q : La planète 3D est saccadée ?**  
+R : La planète 3D nécessite des performances GPU suffisantes. Si elle est saccadée sur un ancien appareil, essayez de réduire la qualité de rendu ou de désactiver les effets de particules dans les Réglages. Appareil recommandé : iPhone 12 ou plus récent.
 
-**Q: Habit items on the timeline have disappeared?**  
-A: All data is stored locally on your device. If data disappears unexpectedly, check if items were accidentally deleted (they may be restorable from the recycle bin). If not, please email us with your app version.
+**Q : Les éléments d'habitude sur la timeline ont disparu ?**  
+R : Toutes les données sont stockées localement sur votre appareil. Si des données disparaissent de manière inattendue, vérifiez si des éléments ont été supprimés accidentellement (ils peuvent être restaurables depuis la corbeille). Sinon, envoyez-nous un e-mail avec votre version d'application.
 
-**Q: The weather feature shows incorrect information?**  
-A: The weather feature requires location permission. Please ensure this app is allowed location access in iOS Settings > Privacy > Location Services. If already allowed but still incorrect, try toggling the weather feature off and on again.
+**Q : La fonctionnalité météo affiche des informations incorrectes ?**  
+R : La fonctionnalité météo nécessite la permission de localisation. Veuillez vous assurer que cette application est autorisée à accéder à votre localisation dans Réglages iOS > Confidentialité > Services de localisation. Si déjà autorisé mais toujours incorrect, essayez de désactiver puis réactiver la fonctionnalité météo.
 
-**Q: Unlocked art stickers have disappeared?**  
-A: Sticker unlock records are stored locally and will be erased if the app is uninstalled. If data disappears without uninstalling, please email us with details.
-
----
-
-## Troubleshooting
-
-1. **Force quit and relaunch the app**
-2. **Check available storage** (AI model + 3D assets need 2+ GB)
-3. **Check iOS version** ≥ 17.0
-4. If 3D rendering is abnormal, try resetting the planet display settings in Settings
+**Q : Les autocollants artistiques débloqués ont disparu ?**  
+R : Les enregistrements de déblocage des autocollants sont stockés localement et seront effacés si l'application est désinstallée. Si des données disparaissent sans désinstallation, envoyez-nous un e-mail avec les détails.
 
 ---
 
-## Contact Support
+## Dépannage
+
+1. **Forcer la fermeture et relancer l'application**
+2. **Vérifiez l'espace de stockage disponible** (modèle IA + ressources 3D nécessitent 2+ Go)
+3. **Vérifiez la version iOS** ≥ 17.0
+4. Si le rendu 3D est anormal, essayez de réinitialiser les paramètres d'affichage de la planète dans les Réglages
+
+---
+
+## Contacter l'assistance
 
 📧 **qqder339@gmail.com**  
-Subject: `[Gantt Planet] Issue Description`
+Objet : `[Gantt Planet] Description du problème`
 
-Please include: device model, iOS version, app version, steps to reproduce (screenshots preferred).
+Veuillez inclure : modèle de l'appareil, version iOS, version de l'application, étapes pour reproduire (captures d'écran de préférence).
 
-> This app collects no user data. All AI conversations and habit records are processed entirely on-device.
+> Cette application ne collecte aucune donnée utilisateur. Toutes les conversations IA et les enregistrements d'habitudes sont traités entièrement sur l'appareil.

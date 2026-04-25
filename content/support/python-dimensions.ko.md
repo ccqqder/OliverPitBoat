@@ -1,49 +1,49 @@
 ---
-isStub: true
-title: Python Dimensions Support
+title: Python Dimensions 지원
 layout: simple
-summary: Support and contact for Python Dimensions
+summary: Python Dimensions 지원 및 문의
 app_slug: python-dimensions
 showDate: false
 showReadingTime: false
 ---
 
+[App Store](https://apps.apple.com/app/id6759192089) · [개인정보 처리방침](/privacy/python-dimensions/)
 
 ---
 
-## FAQ
+## 자주 묻는 질문
 
-**Q: The built-in Python runtime throws an error or crashes the app?**  
-A: Complex code (infinite loops, excessive memory usage) may cause timeouts or crashes. Make sure your code has no infinite loops and avoids allocating very large amounts of memory. If a specific code snippet causes a crash, please email us with that code.
+**Q: 내장 Python 런타임에서 오류가 발생하거나 앱이 크래시되나요?**  
+A: 복잡한 코드(무한 루프, 과도한 메모리 사용)는 타임아웃이나 크래시를 유발할 수 있습니다. 코드에 무한 루프가 없는지 확인하고 매우 많은 양의 메모리를 할당하지 않도록 하세요. 특정 코드가 크래시를 유발한다면 해당 코드와 함께 이메일로 연락해 주세요.
 
-**Q: Does the AI tutor need to download a model? How large?**  
-A: Yes. The first time you use the AI tutor, you'll need to download a local model (~1–4 GB). After downloading, it works **completely offline** — all Q&A and explanations run on-device without internet.
+**Q: AI 튜터에 모델 다운로드가 필요한가요? 크기는 얼마나 되나요?**  
+A: 네. AI 튜터를 처음 사용할 때 로컬 모델(약 1~4GB)을 다운로드해야 합니다. 다운로드 후 **완전 오프라인**으로 작동하며 모든 Q&A와 설명이 인터넷 없이 기기에서 실행됩니다.
 
-**Q: I think there's an error in the question bank?**  
-A: If you find an incorrect question or answer, please email us with: the question content, your proposed correct answer, and your reasoning. We'll verify and update the question bank as soon as possible.
+**Q: 문제 은행에 오류가 있는 것 같습니다.**  
+A: 잘못된 문제나 답을 발견하면 문제 내용, 제안하는 정답, 그 이유를 담아 이메일로 보내 주세요. 가능한 한 빨리 확인하고 문제 은행을 업데이트하겠습니다.
 
-**Q: The error radar chart isn't showing?**  
-A: The radar chart requires a minimum number of answer records to generate. Please complete at least 20 questions first.
+**Q: 오류 레이더 차트가 표시되지 않나요?**  
+A: 레이더 차트는 최소한의 답변 기록이 필요합니다. 먼저 최소 20문제를 완료해 주세요.
 
-**Q: How do I use the code templates?**  
-A: In the built-in IDE screen, tap the "Templates" button in the upper right, select the category you need (loops, functions, classes, etc.), and the code will be automatically inserted into the editor.
-
----
-
-## Troubleshooting
-
-1. **Python runtime crashes**: Ensure no infinite loops in your code; ensure the device has sufficient available memory
-2. **AI model fails to load**: Ensure 3+ GB free storage; retry downloading on Wi-Fi
-3. **Force quit and relaunch the app**
-4. **Check iOS version** ≥ 17.0
+**Q: 코드 템플릿은 어떻게 사용하나요?**  
+A: 내장 IDE 화면에서 오른쪽 상단의 "템플릿" 버튼을 탭하고, 필요한 카테고리(루프, 함수, 클래스 등)를 선택하면 코드가 에디터에 자동으로 삽입됩니다.
 
 ---
 
-## Contact Support
+## 문제 해결
+
+1. **Python 런타임 크래시**: 코드에 무한 루프가 없는지 확인, 기기에 충분한 여유 메모리 확보
+2. **AI 모델 로드 실패**: 3GB 이상의 여유 저장 공간 확보, Wi-Fi에서 다시 다운로드 시도
+3. **앱을 강제 종료 후 다시 실행**
+4. **iOS 버전 확인** ≥ 17.0
+
+---
+
+## 지원 문의
 
 📧 **qqder339@gmail.com**  
-Subject: `[Python Dimensions] Issue Description`
+제목: `[Python Dimensions] Issue Description`
 
-Please include: device model, iOS version, app version, steps to reproduce (include code if it's a code-related issue).
+포함해 주세요: 기기 모델, iOS 버전, 앱 버전, 재현 단계(코드 관련 문제라면 코드 포함).
 
-> This app collects no user data. Python execution and AI inference run entirely on-device.
+> 이 앱은 사용자 데이터를 수집하지 않습니다. Python 실행과 AI 추론은 전적으로 기기 내에서 실행됩니다. [개인정보 처리방침 보기 →](/privacy/python-dimensions/)

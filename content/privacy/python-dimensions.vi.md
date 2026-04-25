@@ -1,62 +1,61 @@
 ---
-isStub: true
-title: Python Dimensions — Privacy Policy
+title: Python Dimensions — Chính sách quyền riêng tư
 layout: simple
 showDate: false
 showReadingTime: false
 ---
 
-**Last Updated: 2026-04-15**
+**Cập nhật lần cuối: 2026-04-15**
 
 ---
 
-## 1. Overview
+## 1. Tổng quan
 
-Python Dimensions, developed by QQder339, is a Python programming learning app featuring a built-in Python runtime environment and on-device AI tutor.
+Python Dimensions, được phát triển bởi QQder339, là ứng dụng học lập trình Python có môi trường chạy Python tích hợp và gia sư AI trên thiết bị.
 
-**In short: We do NOT collect, store, or transmit any of your personal data to external servers.**
+**Tóm tắt: Chúng tôi KHÔNG thu thập, lưu trữ hoặc truyền bất kỳ dữ liệu cá nhân nào của bạn tới máy chủ bên ngoài.**
 
-## 2. Data We Do NOT Collect
+## 2. Dữ liệu chúng tôi KHÔNG thu thập
 
-This app does not collect:
+Ứng dụng này không thu thập:
 
-- Personally Identifiable Information (name, email, phone number)
-- Location data
-- Device identifiers
-- Usage analytics or tracking data
+- Thông tin định danh cá nhân (tên, email, số điện thoại)
+- Dữ liệu vị trí
+- Mã định danh thiết bị
+- Dữ liệu phân tích sử dụng hoặc theo dõi
 
-## 3. Locally Stored Data
+## 3. Dữ liệu lưu cục bộ
 
-The following data is stored strictly on your device and never transmitted externally:
+Các dữ liệu sau chỉ được lưu trên thiết bị của bạn và không bao giờ truyền ra ngoài:
 
-- **Learning Progress**: Answer records and error tracking across all question types (MCQ, fill-in-the-blank, Parsons)
-- **Code**: Programs written in the built-in IDE
-- **AI Conversation Logs**: Conversations with the AI tutor stored locally
-- **User Settings**: Difficulty preferences, interface settings, etc.
+- **Tiến trình Học tập**: hồ sơ trả lời và theo dõi lỗi trên tất cả loại câu hỏi (trắc nghiệm, điền khuyết, Parsons)
+- **Mã**: chương trình được viết trong IDE tích hợp
+- **Nhật ký Hội thoại AI**: cuộc hội thoại với gia sư AI được lưu cục bộ
+- **Cài đặt Người dùng**: tùy chọn độ khó, cài đặt giao diện, v.v.
 
-## 4. Offline AI Features
+## 4. Tính năng AI ngoại tuyến
 
-All AI features run entirely on-device without network connection:
+Tất cả tính năng AI chạy hoàn toàn trên thiết bị mà không cần kết nối mạng:
 
-- **AI Tutor**: Uses local Large Language Models (LLM) to provide hints and explanations; all inference runs on-device
-- **Python Runtime**: The built-in Python interpreter runs entirely on-device; your code is never sent to any server
+- **Gia sư AI**: sử dụng Mô hình Ngôn ngữ Lớn (LLM) cục bộ để cung cấp gợi ý và giải thích; tất cả suy luận chạy trên thiết bị
+- **Môi trường chạy Python**: trình thông dịch Python tích hợp chạy hoàn toàn trên thiết bị; mã của bạn không bao giờ được gửi tới bất kỳ máy chủ nào
 
-AI models require a one-time download before first use (user-initiated); all features work offline after download.
+Mô hình AI cần tải xuống một lần trước khi sử dụng lần đầu (do người dùng khởi tạo); tất cả tính năng hoạt động ngoại tuyến sau khi tải.
 
-## 5. Third-Party Services
+## 5. Dịch vụ bên thứ ba
 
-This app does **NOT** use any third-party analytics or advertising frameworks (No Google Analytics, No Facebook SDK, No Ads).
+Ứng dụng này **KHÔNG** sử dụng bất kỳ framework phân tích hay quảng cáo bên thứ ba nào (No Google Analytics, No Facebook SDK, No Ads).
 
-## 6. Network Access
+## 6. Truy cập mạng
 
-Network access is restricted to:
+Truy cập mạng được giới hạn ở:
 
-- **Downloading AI Models** (Optional, one-time): Only connects when you explicitly choose to download LLM model resources
-- **External Links**: Opens browser when tapping relevant links
+- **Tải Mô hình AI** (Tùy chọn, một lần): Chỉ kết nối khi bạn chọn rõ ràng để tải tài nguyên mô hình LLM
+- **Liên kết ngoài**: mở trình duyệt khi chạm vào các liên kết liên quan
 
-Other than the above, the app does not initiate network connections. Code execution runs entirely in the local Python environment.
+Ngoài những điều trên, ứng dụng không khởi tạo kết nối mạng. Thực thi mã chạy hoàn toàn trong môi trường Python cục bộ.
 
-## 7. Contact Us
+## 7. Liên hệ
 
 📧 **qqder339@gmail.com**  
-Subject: Python Dimensions Privacy Policy Inquiry
+Tiêu đề: Yêu cầu về Chính Sách Quyền Riêng Tư của Python Dimensions

@@ -1,59 +1,58 @@
 ---
-isStub: true
-title: Auditory Companion — Privacy Policy
+title: Auditory Companion — Politique de confidentialité
 layout: simple
 showDate: false
 showReadingTime: false
 ---
 
-**Last Updated: 2026-04-15**
+**Dernière mise à jour : 2026-04-15**
 
 ---
 
-## 1. Overview
+## 1. Vue d'ensemble
 
-Auditory Companion, developed by QQder339, is a sophisticated audio engine combining real-time DSP noise synthesis, 108 ambient sound samples, and AI-powered text-to-speech reading.
+Auditory Companion, développé par QQder339, est un moteur audio sophistiqué combinant la synthèse de bruit DSP en temps réel, 108 échantillons de sons d'ambiance et la lecture par synthèse vocale (TTS) alimentée par l'IA.
 
-**In short: We do NOT collect, store, or transmit any of your personal data to external servers.**
+**En bref : nous ne collectons, ne stockons ni ne transmettons AUCUNE de vos données personnelles vers des serveurs externes.**
 
-## 2. Data We Do NOT Collect
+## 2. Données que nous ne collectons PAS
 
-This app does not collect:
+Cette application ne collecte pas :
 
-- Personally Identifiable Information (name, email, phone number)
-- Location data
-- Device identifiers
-- Usage analytics or tracking data
+- Données personnellement identifiables (nom, e-mail, numéro de téléphone)
+- Données de localisation
+- Identifiants d'appareil
+- Données d'analyse d'usage ou de suivi
 
-## 3. Locally Stored Data
+## 3. Données stockées localement
 
-The following data is stored strictly on your device and never transmitted externally:
+Les données suivantes sont stockées strictement sur votre appareil et ne sont jamais transmises à l'extérieur :
 
-- **Soundscape Settings**: Your saved mixing configurations and favorite scenes
-- **Reading Content**: Articles, clipboard text, and other reading materials (processed locally only)
-- **User Settings**: Volume levels, sound preferences, auto-ducking settings, etc.
+- **Réglages de paysage sonore** : vos configurations de mixage enregistrées et scènes favorites
+- **Contenu de lecture** : articles, texte du presse-papiers et autres matériaux de lecture (traités localement uniquement)
+- **Réglages utilisateur** : niveaux de volume, préférences sonores, réglages d'atténuation automatique, etc.
 
-## 4. On-Device AI Features
+## 4. Fonctionnalités IA sur l'appareil
 
-Text-to-Speech (TTS) and audio processing run on-device:
+La synthèse vocale (TTS) et le traitement audio s'exécutent sur l'appareil :
 
-- **AI Voice Reading**: Uses iOS built-in TTS, or an optional downloadable MeloTTS on-device model; all speech synthesis runs on-device
-- **Auto-Ducking**: DSP signal processing runs entirely locally, analyzing voice and background audio in real-time to automatically adjust volume
+- **Lecture vocale IA** : utilise le TTS intégré d'iOS, ou un modèle MeloTTS téléchargeable en option sur l'appareil ; toute la synthèse vocale s'exécute sur l'appareil
+- **Atténuation automatique** : le traitement du signal DSP s'exécute entièrement localement, analysant la voix et l'audio de fond en temps réel pour ajuster automatiquement le volume
 
-## 5. Third-Party Services
+## 5. Services tiers
 
-This app does **NOT** use any third-party analytics or advertising frameworks (No Google Analytics, No Facebook SDK, No Ads).
+Cette application n'utilise **AUCUN** framework d'analyse ou de publicité tiers (No Google Analytics, No Facebook SDK, No Ads).
 
-## 6. Network Access
+## 6. Accès réseau
 
-Core features (noise synthesis, scene mixing, iOS built-in TTS reading) operate **fully offline**. Network access occurs only when you explicitly trigger it:
+Les fonctions principales (synthèse de bruit, mixage de scènes, lecture TTS intégrée iOS) fonctionnent **entièrement hors ligne**. L'accès réseau ne se produit que lorsque vous le déclenchez explicitement :
 
-- **Downloading the MeloTTS model** (Optional): When you choose to download the on-device TTS model in Settings, the app fetches the model files from a public source and caches them locally
-- **External Links**: Opens the system browser when tapping relevant links
+- **Téléchargement du modèle MeloTTS** (optionnel) : lorsque vous choisissez de télécharger le modèle TTS sur l'appareil dans les Réglages, l'application récupère les fichiers du modèle depuis une source publique et les met en cache localement
+- **Liens externes** : ouvre le navigateur système lors de l'appui sur des liens pertinents
 
-These requests transmit only the URL of the file you chose to download; no personally identifiable information is attached.
+Ces requêtes transmettent uniquement l'URL du fichier que vous avez choisi de télécharger ; aucune information personnellement identifiable n'est attachée.
 
-## 7. Contact Us
+## 7. Nous contacter
 
 📧 **qqder339@gmail.com**  
-Subject: Auditory Companion Privacy Policy Inquiry
+Objet : Demande relative à la politique de confidentialité d'Auditory Companion

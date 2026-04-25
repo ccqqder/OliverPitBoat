@@ -1,63 +1,62 @@
 ---
-isStub: true
-title: English N+1 — Privacy Policy
+title: English N+1 — 개인정보 처리방침
 layout: simple
 showDate: false
 showReadingTime: false
 ---
 
-**Last Updated: 2026-04-15**
+**최종 업데이트: 2026-04-15**
 
 ---
 
-## 1. Overview
+## 1. 개요
 
-English N+1, developed by QQder339, is an English learning app featuring CEFR-level assessment and on-device AI conversation technology.
+QQder339가 개발한 English N+1은 CEFR 레벨 평가와 기기 내 AI 대화 기술을 갖춘 영어 학습 앱입니다.
 
-**In short: We do NOT collect, store, or transmit any of your personal data to external servers.**
+**요약: 당사는 귀하의 개인정보를 외부 서버로 수집, 저장 또는 전송하지 않습니다.**
 
-## 2. Data We Do NOT Collect
+## 2. 당사가 수집하지 않는 데이터
 
-This app does not collect:
+이 앱은 다음을 수집하지 않습니다:
 
-- Personally Identifiable Information (name, email, phone number)
-- Location data
-- Device identifiers
-- Usage analytics or tracking data
+- 개인 식별 정보(이름, 이메일, 전화번호)
+- 위치 데이터
+- 기기 식별자
+- 사용 분석 또는 추적 데이터
 
-## 3. Locally Stored Data
+## 3. 로컬 저장 데이터
 
-The following data is stored strictly on your device and never transmitted externally:
+아래 데이터는 오직 귀하의 기기에만 저장되며 외부로 전송되지 않습니다:
 
-- **Learning Progress & Level**: CEFR assessment results and study records
-- **Conversation History**: AI conversation logs stored locally
-- **Word Collections**: Saved vocabulary and learning notes
-- **User Settings**: Language preferences, difficulty settings, etc.
+- **학습 진도 및 레벨**: CEFR 평가 결과 및 학습 기록
+- **대화 기록**: 로컬에 저장된 AI 대화 로그
+- **단어 컬렉션**: 저장된 어휘 및 학습 노트
+- **사용자 설정**: 언어 환경설정, 난이도 설정 등
 
-## 4. Offline AI Features
+## 4. 오프라인 AI 기능
 
-All AI features run entirely on-device without network connection:
+모든 AI 기능은 네트워크 연결 없이 전적으로 기기에서 실행됩니다:
 
-- **AI Conversation Practice**: Uses local Llama 3.2 or Qwen 2.5 models; all inference runs on-device
-- **Article Generation**: Personalized learning articles generated locally based on your level
-- **Level Assessment**: CEFR level evaluation computed on-device
+- **AI 대화 연습**: 로컬 Llama 3.2 또는 Qwen 2.5 모델 사용, 모든 추론은 기기에서 실행
+- **기사 생성**: 레벨에 맞는 맞춤형 학습 기사를 로컬에서 생성
+- **레벨 평가**: CEFR 레벨 평가를 기기에서 계산
 
-AI models require a one-time download before first use (user-initiated); all features work offline after download.
+AI 모델은 첫 사용 전 한 번 다운로드가 필요합니다(사용자 직접 시작). 다운로드 후 모든 기능이 오프라인으로 작동합니다.
 
-## 5. Third-Party Services
+## 5. 제3자 서비스
 
-This app does **NOT** use any third-party analytics or advertising frameworks (No Google Analytics, No Facebook SDK, No Ads).
+이 앱은 제3자 분석 또는 광고 프레임워크를 **사용하지 않습니다** (No Google Analytics, No Facebook SDK, No Ads).
 
-## 6. Network Access
+## 6. 네트워크 접근
 
-Network access is restricted to:
+네트워크 접근은 다음으로 제한됩니다:
 
-- **Downloading AI Models** (Optional, one-time): Only connects when you explicitly choose to download LLM model resources
-- **External Links**: Opens browser when tapping relevant links
+- **AI 모델 다운로드** (선택 사항, 1회): 귀하가 LLM 모델 리소스를 명시적으로 다운로드하기로 선택할 때만 연결
+- **외부 링크**: 관련 링크 탭 시 브라우저 열기
 
-Other than the above, the app does not initiate network connections.
+위 경우를 제외하고 앱은 네트워크 연결을 시작하지 않습니다.
 
-## 7. Contact Us
+## 7. 문의하기
 
 📧 **qqder339@gmail.com**  
-Subject: English N+1 Privacy Policy Inquiry
+제목: English N+1 개인정보 처리방침 문의

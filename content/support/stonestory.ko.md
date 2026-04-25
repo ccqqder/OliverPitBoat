@@ -1,60 +1,60 @@
 ---
-isStub: true
-title: StoneStory Support
+title: StoneStory 지원
 layout: simple
-summary: Support and contact for StoneStory
+summary: StoneStory 지원 및 문의
 app_slug: stonestory
 showDate: false
 showReadingTime: false
 ---
 
+[App Store](https://apps.apple.com/app/id6759855416) · [개인정보 처리방침](/privacy/stonestory/)
 
 ---
 
-## FAQ
+## 자주 묻는 질문
 
-**Q: The app launches slowly or stalls on the splash screen.**  
-A: If you've downloaded the offline AI model (Standard 1.9 GB or High-Quality 4 GB), the app loads it into memory on launch; this may take several seconds on older devices. The first time you enter a chapter, the bundled database (characters, events, poems) is loaded — this is normal. If launch is unusually slow, please email us with your device model and iOS version.
+**Q: 앱이 느리게 시작되거나 스플래시 화면에서 멈춥니다.**  
+A: 오프라인 AI 모델(일반 1.9GB 또는 고품질 4GB)을 다운로드한 경우, 앱 시작 시 메모리에 로드하므로 구형 기기에서는 수 초가 걸릴 수 있습니다. 챕터에 처음 진입할 때 내장 데이터베이스(인물, 사건, 시)가 로드되는 것은 정상입니다. 시작이 유독 느리다면 기기 모델과 iOS 버전을 함께 이메일로 보내 주세요.
 
-**Q: Poetry or passages show garbled text, missing glyphs, or blank boxes.**  
-A: Three fonts are bundled in the app (LXGW WenKai TC, Noto Serif TC, Iansui) — no download or switching is required. If anomalies persist, please force-quit the app and relaunch, then send us a screenshot so we can fix it in the next release.
+**Q: 시나 문장에 깨진 글자, 누락된 글리프, 빈 박스가 표시됩니다.**  
+A: 앱에는 세 가지 폰트(LXGW WenKai TC, Noto Serif TC, Iansui)가 내장되어 있으며, 다운로드나 전환이 필요하지 않습니다. 이상이 계속되면 앱을 강제 종료 후 다시 실행하고, 스크린샷을 보내 주시면 다음 업데이트에서 수정하겠습니다.
 
-**Q: Is reading progress saved?**  
-A: In the current version (v1.1.1), **chapter playback progress is retained only within the current app session** — you can return to a chapter during the same session. However, if you force-quit the app or restart your device, chapter playback will start from the beginning. Persistent cross-session bookmarks are planned for a future release.
+**Q: 읽기 진도가 저장되나요?**  
+A: 현재 버전(v1.1.1)에서는 **챕터 재생 진도가 현재 앱 세션 내에서만 유지됩니다** — 같은 세션 중에 챕터로 돌아갈 수 있습니다. 그러나 앱을 강제 종료하거나 기기를 재시작하면 챕터 재생이 처음부터 시작됩니다. 세션 간 지속 북마크는 향후 업데이트에서 지원될 예정입니다.
 
-**Q: Character portraits or scene images won't load.**  
-A: Portraits and scene images are downloaded on-demand the first time you view them, and cached locally. If they won't load:
-1. Verify your network connection
-2. Swipe away from the screen and return to trigger a retry
-3. Or go to **Settings → Clear Art Cache** and re-enter with a stable network
+**Q: 인물 초상화 또는 장면 이미지가 로드되지 않습니다.**  
+A: 초상화와 장면 이미지는 처음 볼 때 온디맨드 방식으로 다운로드되어 로컬에 캐시됩니다. 로드되지 않는다면:
+1. 네트워크 연결 확인
+2. 화면을 벗어났다가 다시 돌아와 재시도 트리거
+3. 또는 **설정 → 아트 캐시 지우기**로 이동 후 안정적인 네트워크에서 다시 진입
 
-**Q: The offline AI chat doesn't respond.**  
-A: First-time use requires downloading a Qwen 2.5 model under **Settings → Model Management**. Choose one based on your device:
-- **Small 1.5B** (~0.9 GB) — iPhone 15 / iPad Air
-- **Standard 3B** (~1.9 GB, default) — iPhone 15 Pro / iPad Pro
-- **High-Quality 7B** (~4.0 GB) — iPhone 16 Pro / iPad Pro M-series
+**Q: 오프라인 AI 채팅이 응답하지 않습니다.**  
+A: 처음 사용 시 **설정 → 모델 관리**에서 Qwen 2.5 모델을 다운로드해야 합니다. 기기에 맞는 모델을 선택하세요:
+- **소형 1.5B** (약 0.9GB) — iPhone 15 / iPad Air
+- **일반 3B** (약 1.9GB, 기본값) — iPhone 15 Pro / iPad Pro
+- **고품질 7B** (약 4.0GB) — iPhone 16 Pro / iPad Pro M 시리즈
 
-Ensure sufficient free space on your device. Once downloaded, the chat runs fully offline.
+기기에 충분한 여유 공간이 있는지 확인하세요. 다운로드 후 채팅은 완전 오프라인으로 실행됩니다.
 
-**Q: Can the app be used offline?**  
-A: Yes. Chapter playback, True Endings, personality system, poem/object collections, and on-device AI chat (after model download) all work offline. Only character portraits, scene images, and the AI model file require an internet connection on first retrieval.
-
----
-
-## Troubleshooting
-
-1. **Force-quit and relaunch the app**
-2. **Check iOS version** ≥ 17.0
-3. If a specific chapter misbehaves, note its name and email us
-4. **Uninstall and reinstall** (your Traveler profile and downloaded images will be cleared)
+**Q: 앱을 오프라인으로 사용할 수 있나요?**  
+A: 네. 챕터 재생, 진실의 결말, 성격 시스템, 시/사물 컬렉션, 기기 내 AI 채팅(모델 다운로드 후)은 모두 오프라인으로 작동합니다. 인물 초상화, 장면 이미지, AI 모델 파일만 처음 불러올 때 인터넷 연결이 필요합니다.
 
 ---
 
-## Contact Support
+## 문제 해결
+
+1. **앱을 강제 종료 후 다시 실행**
+2. **iOS 버전 확인** ≥ 17.0
+3. 특정 챕터에서 문제가 발생하면 챕터 이름을 메모하고 이메일로 연락해 주세요
+4. **삭제 후 재설치** (여행자 프로필과 다운로드한 이미지가 지워집니다)
+
+---
+
+## 지원 문의
 
 📧 **qqder339@gmail.com**  
-Subject: `[StoneStory] Issue Description`
+제목: `[StoneStory] Issue Description`
 
-Please include: device model, iOS version, app version, steps to reproduce (screenshots preferred).
+포함해 주세요: 기기 모델, iOS 버전, 앱 버전, 재현 단계(스크린샷 첨부 권장).
 
-> This app collects no user data. All content is stored locally on your device.
+> 이 앱은 사용자 데이터를 수집하지 않습니다. 모든 콘텐츠는 기기 로컬에 저장됩니다. [개인정보 처리방침 보기 →](/privacy/stonestory/)

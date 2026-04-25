@@ -1,8 +1,7 @@
 ---
-isStub: true
-title: Gantt Planet Support
+title: Dukungan Gantt Planet
 layout: simple
-summary: Support and contact for Gantt Planet
+summary: Dukungan dan kontak untuk Gantt Planet
 app_slug: gantt-planet
 showDate: false
 showReadingTime: false
@@ -11,39 +10,39 @@ showReadingTime: false
 
 ---
 
-## FAQ
+## Pertanyaan Umum
 
-**Q: Does the AI companion chat require an internet connection?**  
-A: No. The AI companion uses an on-device local model. All conversations are processed completely offline and are never sent to any server. A one-time model download (~1–4 GB) is required on first use, after which everything works offline.
+**T: Apakah obrolan AI companion memerlukan koneksi internet?**  
+J: Tidak. AI companion menggunakan model lokal di perangkat. Semua percakapan diproses sepenuhnya secara offline dan tidak pernah dikirim ke server mana pun. Unduhan model satu kali (~1–4 GB) diperlukan pada penggunaan pertama, setelah itu semuanya berjalan offline.
 
-**Q: The 3D planet is laggy?**  
-A: The 3D planet requires some GPU performance. If it's lagging on an older device, try lowering the render quality or disabling particle effects in Settings. Recommended device: iPhone 12 or newer.
+**T: Planet 3D terasa lambat?**  
+J: Planet 3D membutuhkan performa GPU tertentu. Jika terasa lambat di perangkat lama, coba turunkan kualitas render atau nonaktifkan efek partikel di Pengaturan. Perangkat yang disarankan: iPhone 12 atau lebih baru.
 
-**Q: Habit items on the timeline have disappeared?**  
-A: All data is stored locally on your device. If data disappears unexpectedly, check if items were accidentally deleted (they may be restorable from the recycle bin). If not, please email us with your app version.
+**T: Item kebiasaan di timeline menghilang?**  
+J: Semua data disimpan secara lokal di perangkat Anda. Jika data menghilang secara tak terduga, periksa apakah item tidak sengaja dihapus (mungkin bisa dipulihkan dari tempat sampah). Jika tidak, hubungi kami melalui email beserta versi aplikasi Anda.
 
-**Q: The weather feature shows incorrect information?**  
-A: The weather feature requires location permission. Please ensure this app is allowed location access in iOS Settings > Privacy > Location Services. If already allowed but still incorrect, try toggling the weather feature off and on again.
+**T: Fitur cuaca menampilkan informasi yang salah?**  
+J: Fitur cuaca memerlukan izin lokasi. Pastikan aplikasi ini diizinkan mengakses lokasi di Pengaturan iOS > Privasi > Layanan Lokasi. Jika sudah diizinkan tetapi masih salah, coba matikan lalu aktifkan kembali fitur cuaca.
 
-**Q: Unlocked art stickers have disappeared?**  
-A: Sticker unlock records are stored locally and will be erased if the app is uninstalled. If data disappears without uninstalling, please email us with details.
-
----
-
-## Troubleshooting
-
-1. **Force quit and relaunch the app**
-2. **Check available storage** (AI model + 3D assets need 2+ GB)
-3. **Check iOS version** ≥ 17.0
-4. If 3D rendering is abnormal, try resetting the planet display settings in Settings
+**T: Stiker seni yang sudah dibuka menghilang?**  
+J: Catatan buka kunci stiker disimpan secara lokal dan akan terhapus jika aplikasi dihapus instalasinya. Jika data menghilang tanpa penghapusan instalasi, silakan hubungi kami melalui email beserta detailnya.
 
 ---
 
-## Contact Support
+## Pemecahan Masalah
+
+1. **Paksa tutup lalu buka kembali aplikasi**
+2. **Periksa penyimpanan yang tersedia** (model AI + aset 3D membutuhkan 2+ GB)
+3. **Periksa versi iOS** ≥ 17.0
+4. Jika rendering 3D tidak normal, coba atur ulang pengaturan tampilan planet di Pengaturan
+
+---
+
+## Hubungi Dukungan
 
 📧 **qqder339@gmail.com**  
-Subject: `[Gantt Planet] Issue Description`
+Subjek: `[Gantt Planet] Issue Description`
 
-Please include: device model, iOS version, app version, steps to reproduce (screenshots preferred).
+Mohon sertakan: model perangkat, versi iOS, versi aplikasi, langkah reproduksi (tangkapan layar lebih baik).
 
-> This app collects no user data. All AI conversations and habit records are processed entirely on-device.
+> Aplikasi ini tidak mengumpulkan data pengguna. Semua percakapan AI dan catatan kebiasaan diproses sepenuhnya di perangkat.

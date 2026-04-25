@@ -1,8 +1,7 @@
 ---
-isStub: true
 title: StoneStory
 layout: simple
-description: "Turn Dream of the Red Chamber into an interactive AI narrative simulation, so literature becomes more than static reading."
+description: "Biến Hồng lâu mộng thành một mô phỏng tường thuật AI tương tác, để văn học trở nên hơn là đọc tĩnh."
 images:
   - images/og/stonestory.png
 app_slug: stonestory
@@ -10,26 +9,26 @@ showDate: false
 showReadingTime: false
 ---
 
-## Turning a classical novel back into a world that runs
+## Biến một cuốn tiểu thuyết cổ điển trở thành một thế giới đang vận hành
 
-Most literary apps put the original text into a prettier reader. StoneStory takes a different path. It disassembles the characters, scenes, relationships, and events of *Dream of the Red Chamber* into a running narrative system. What you see is more than passages. You see how characters pull at each other, how they reveal personality inside situations, and how a classical novel operates like a small society.
+Hầu hết các ứng dụng văn học đặt văn bản gốc vào một trình đọc đẹp hơn. StoneStory đi theo con đường khác. Nó tháo rời các nhân vật, cảnh, mối quan hệ và sự kiện của *Hồng lâu mộng* thành một hệ thống tường thuật đang vận hành. Những gì bạn thấy không chỉ là các đoạn văn. Bạn thấy cách các nhân vật kéo nhau, cách họ bộc lộ tính cách trong các tình huống, và cách một cuốn tiểu thuyết cổ điển vận hành như một xã hội nhỏ.
 
-That's why it's called a simulator rather than a reader. The goal is to take you into the structure beneath the text, not to serve up the same words in a nicer shell.
+Đó là lý do tại sao nó được gọi là trình mô phỏng thay vì trình đọc. Mục tiêu là đưa bạn vào cấu trúc bên dưới văn bản, không phải phục vụ những từ tương tự trong một vỏ đẹp hơn.
 
-## Who actually needs a product like this
+## Ai thực sự cần một sản phẩm như thế này
 
-If you already love *Dream of the Red Chamber*, what you'll get here is a new way in rather than simple nostalgia. Characters become entities you can compare, observe, and reinterpret, rather than reference points to memorise. You'll see more easily who truly made choices in which scenes, how emotions accumulated, and which details were already foreshadowing what came later.
+Nếu bạn đã yêu thích *Hồng lâu mộng*, những gì bạn sẽ nhận được ở đây là một cách vào mới thay vì chỉ là hoài niệm đơn giản. Các nhân vật trở thành những thực thể bạn có thể so sánh, quan sát và diễn giải lại, thay vì là các điểm tham chiếu để ghi nhớ. Bạn sẽ dễ dàng thấy ai thực sự đưa ra lựa chọn trong cảnh nào, cảm xúc tích tụ như thế nào, và chi tiết nào đã báo trước những gì xảy ra sau.
 
-If classical literature has always felt distant, the app may actually be easier to approach. It doesn't demand that you first swallow the thick original to qualify; it breaks a complex work into a system you can approach slowly and understand incrementally.
+Nếu văn học cổ điển luôn cảm thấy xa lạ, ứng dụng thực ra có thể dễ tiếp cận hơn. Nó không đòi hỏi bạn phải nuốt trọn bản gốc dày cộp trước để đủ điều kiện; nó phá vỡ một tác phẩm phức tạp thành một hệ thống bạn có thể tiếp cận chậm rãi và hiểu dần dần.
 
-## AI here opens the door to understanding
+## AI ở đây mở ra cánh cửa hiểu biết
 
-StoneStory uses AI for the work of comprehension, not plot generation: character inner life, emotional tension, modern-perspective interpretation, structural connections between events. For the user, this adds a layer of guided commentary: an interactive interpretation that shifts with each scene, rather than a dogmatic gloss.
+StoneStory sử dụng AI cho công việc hiểu biết, không phải tạo ra cốt truyện: nội tâm nhân vật, căng thẳng cảm xúc, diễn giải từ góc nhìn hiện đại, kết nối cấu trúc giữa các sự kiện. Đối với người dùng, điều này thêm một lớp bình luận có hướng dẫn: một diễn giải tương tác thay đổi theo từng cảnh, thay vì một chú thích giáo điều.
 
-The design suits *Dream of the Red Chamber*'s particular shape: many characters, complex relationships, extremely high detail density. You can let the system open the door, then decide how deep to go, instead of rebuilding the structure from scratch every time.
+Thiết kế phù hợp với hình dạng đặc biệt của *Hồng lâu mộng*: nhiều nhân vật, mối quan hệ phức tạp, mật độ chi tiết cực cao. Bạn có thể để hệ thống mở cửa, sau đó quyết định đi sâu đến đâu, thay vì phải xây dựng lại cấu trúc từ đầu mỗi lần.
 
-## Why on-device AI still matters here
+## Tại sao AI trên thiết bị vẫn quan trọng ở đây
 
-This kind of product is easy to ship as a cloud demo. The moment content comprehension, reading history, and interaction all depend on external services, though, the experience becomes fragile, and it stops feeling like something that can accompany you long-term. StoneStory pushes the core experience back to the device, so immersive reading and exploration can actually exist as everyday tools, not as a technical showcase.
+Loại sản phẩm này dễ phát hành như một bản demo đám mây. Ngay khi hiểu nội dung, lịch sử đọc và tương tác đều phụ thuộc vào các dịch vụ bên ngoài, trải nghiệm trở nên dễ vỡ, và nó ngừng cảm giác như thứ có thể đồng hành với bạn lâu dài. StoneStory đẩy trải nghiệm cốt lõi trở lại thiết bị, để đọc nhập vai và khám phá thực sự có thể tồn tại như các công cụ hàng ngày, không phải như một màn trình diễn kỹ thuật.
 
-If you want the deeper technical and methodological thinking behind this, the related reading below goes there. If you'd rather start with the experience, the App Store is the most direct entry.
+Nếu bạn muốn tư duy kỹ thuật và phương pháp luận sâu hơn đằng sau điều này, phần đọc thêm liên quan sẽ đến đó. Nếu bạn muốn bắt đầu với trải nghiệm, App Store là điểm vào trực tiếp nhất.

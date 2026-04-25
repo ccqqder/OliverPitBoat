@@ -1,59 +1,58 @@
 ---
-isStub: true
-title: Auditory Companion — Privacy Policy
+title: Auditory Companion — 개인정보 처리방침
 layout: simple
 showDate: false
 showReadingTime: false
 ---
 
-**Last Updated: 2026-04-15**
+**최종 업데이트: 2026-04-15**
 
 ---
 
-## 1. Overview
+## 1. 개요
 
-Auditory Companion, developed by QQder339, is a sophisticated audio engine combining real-time DSP noise synthesis, 108 ambient sound samples, and AI-powered text-to-speech reading.
+QQder339가 개발한 Auditory Companion은 실시간 DSP 노이즈 합성, 108가지 주변음 샘플, AI 기반 텍스트 음성 변환(TTS) 읽기 기능을 결합한 정교한 오디오 엔진입니다.
 
-**In short: We do NOT collect, store, or transmit any of your personal data to external servers.**
+**요약: 당사는 귀하의 개인정보를 외부 서버로 수집, 저장 또는 전송하지 않습니다.**
 
-## 2. Data We Do NOT Collect
+## 2. 당사가 수집하지 않는 데이터
 
-This app does not collect:
+이 앱은 다음을 수집하지 않습니다:
 
-- Personally Identifiable Information (name, email, phone number)
-- Location data
-- Device identifiers
-- Usage analytics or tracking data
+- 개인 식별 정보(이름, 이메일, 전화번호)
+- 위치 데이터
+- 기기 식별자
+- 사용 분석 또는 추적 데이터
 
-## 3. Locally Stored Data
+## 3. 로컬 저장 데이터
 
-The following data is stored strictly on your device and never transmitted externally:
+아래 데이터는 오직 귀하의 기기에만 저장되며 외부로 전송되지 않습니다:
 
-- **Soundscape Settings**: Your saved mixing configurations and favorite scenes
-- **Reading Content**: Articles, clipboard text, and other reading materials (processed locally only)
-- **User Settings**: Volume levels, sound preferences, auto-ducking settings, etc.
+- **사운드스케이프 설정**: 저장된 믹싱 구성 및 즐겨찾는 장면
+- **읽기 콘텐츠**: 기사, 클립보드 텍스트 및 기타 읽기 자료(로컬 처리만)
+- **사용자 설정**: 볼륨 수준, 사운드 환경설정, 자동 더킹 설정 등
 
-## 4. On-Device AI Features
+## 4. 기기 내 AI 기능
 
-Text-to-Speech (TTS) and audio processing run on-device:
+텍스트 음성 변환(TTS) 및 오디오 처리는 기기에서 실행됩니다:
 
-- **AI Voice Reading**: Uses iOS built-in TTS, or an optional downloadable MeloTTS on-device model; all speech synthesis runs on-device
-- **Auto-Ducking**: DSP signal processing runs entirely locally, analyzing voice and background audio in real-time to automatically adjust volume
+- **AI 음성 읽기**: iOS 내장 TTS를 사용하거나, 선택적으로 다운로드 가능한 MeloTTS 기기 내 모델을 사용. 모든 음성 합성은 기기에서 실행됨
+- **자동 더킹(Auto-Ducking)**: DSP 신호 처리가 완전히 로컬에서 실행되어 음성과 배경 오디오를 실시간으로 분석하여 자동으로 볼륨 조절
 
-## 5. Third-Party Services
+## 5. 제3자 서비스
 
-This app does **NOT** use any third-party analytics or advertising frameworks (No Google Analytics, No Facebook SDK, No Ads).
+이 앱은 제3자 분석 또는 광고 프레임워크를 **사용하지 않습니다** (No Google Analytics, No Facebook SDK, No Ads).
 
-## 6. Network Access
+## 6. 네트워크 접근
 
-Core features (noise synthesis, scene mixing, iOS built-in TTS reading) operate **fully offline**. Network access occurs only when you explicitly trigger it:
+핵심 기능(노이즈 합성, 장면 믹싱, iOS 내장 TTS 읽기)은 **완전 오프라인**으로 작동합니다. 네트워크 접근은 귀하가 명시적으로 트리거할 때만 발생합니다:
 
-- **Downloading the MeloTTS model** (Optional): When you choose to download the on-device TTS model in Settings, the app fetches the model files from a public source and caches them locally
-- **External Links**: Opens the system browser when tapping relevant links
+- **MeloTTS 모델 다운로드** (선택 사항): 설정에서 기기 내 TTS 모델을 선택하여 다운로드할 때, 앱이 공개 소스에서 모델 파일을 가져와 로컬에 캐시함
+- **외부 링크**: 관련 링크 탭 시 시스템 브라우저 열기
 
-These requests transmit only the URL of the file you chose to download; no personally identifiable information is attached.
+이 요청들은 귀하가 선택한 파일의 URL만 전송하며, 개인 식별 정보는 포함되지 않습니다.
 
-## 7. Contact Us
+## 7. 문의하기
 
 📧 **qqder339@gmail.com**  
-Subject: Auditory Companion Privacy Policy Inquiry
+제목: Auditory Companion 개인정보 처리방침 문의

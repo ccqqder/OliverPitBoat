@@ -1,63 +1,62 @@
 ---
-isStub: true
-title: Kana Juku — Privacy Policy
+title: Kana Juku — 개인정보 처리방침
 layout: simple
 showDate: false
 showReadingTime: false
 ---
 
-**Last Updated: 2026-04-15**
+**최종 업데이트: 2026-04-15**
 
 ---
 
-## 1. Overview
+## 1. 개요
 
-Kana Juku, developed by QQder339, is a Japanese kana learning app designed for native Chinese speakers.
+QQder339가 개발한 Kana Juku는 중국어 원어민을 위해 설계된 일본어 가나 학습 앱입니다.
 
-**In short: We do NOT collect, store, or transmit any of your personal data to external servers.**
+**요약: 당사는 귀하의 개인정보를 외부 서버로 수집, 저장 또는 전송하지 않습니다.**
 
-## 2. Data We Do NOT Collect
+## 2. 당사가 수집하지 않는 데이터
 
-This app does not collect:
+이 앱은 다음을 수집하지 않습니다:
 
-- Personally Identifiable Information (name, email, phone number)
-- Location data
-- Device identifiers
-- Usage analytics or tracking data
+- 개인 식별 정보(이름, 이메일, 전화번호)
+- 위치 데이터
+- 기기 식별자
+- 사용 분석 또는 추적 데이터
 
-## 3. Locally Stored Data
+## 3. 로컬 저장 데이터
 
-The following data is stored strictly on your device and never transmitted externally:
+아래 데이터는 오직 귀하의 기기에만 저장되며 외부로 전송되지 않습니다:
 
-- **Learning Progress**: Tracks your kana learning status
-- **User Settings**: Saves your preferences
-- **Handwriting Input**: Processed in real-time memory and discarded immediately; no files are saved
-- **Widget Data**: Uses iOS shared container mechanism to display kana on home screen widgets (local only)
+- **학습 진도**: 가나 학습 상태 추적
+- **사용자 설정**: 환경설정 저장
+- **필기 입력**: 실시간 메모리에서 처리되고 즉시 폐기됨. 파일이 저장되지 않음
+- **위젯 데이터**: iOS 공유 컨테이너 메커니즘을 사용하여 홈 화면 위젯에 가나 표시(로컬 전용)
 
-## 4. Offline AI Features
+## 4. 오프라인 AI 기능
 
-All AI features operate completely offline:
+모든 AI 기능은 완전 오프라인으로 작동합니다:
 
-- **Handwriting Recognition**: Uses on-device machine learning models; all processing is local
-- **Text-to-Speech**: Uses pre-downloaded audio assets
-- **AI Assistance**: Uses local Large Language Models (LLM); inference is performed on-device without data upload
+- **필기 인식**: 기기 내 머신러닝 모델 사용, 모든 처리는 로컬
+- **텍스트 음성 변환**: 미리 다운로드된 오디오 에셋 사용
+- **AI 지원**: 로컬 대규모 언어 모델(LLM) 사용, 데이터 업로드 없이 기기에서 추론 수행
 
-## 5. Third-Party Services
+## 5. 제3자 서비스
 
-This app does **NOT** use any third-party analytics or advertising frameworks (No Google Analytics, No Facebook SDK, No Ads).
+이 앱은 제3자 분석 또는 광고 프레임워크를 **사용하지 않습니다** (No Google Analytics, No Facebook SDK, No Ads).
 
-## 6. Network Access
+## 6. 네트워크 접근
 
-Network access is restricted to:
+네트워크 접근은 다음으로 제한됩니다:
 
-- **Downloading AI Models** (Optional): Only connects when you explicitly choose to download local model resources
-- **External Links**: Opens the browser when you tap "Rate on App Store" or "Privacy Policy"; opens the browser when you use the "Search Web" function after translation/recognition
+- **AI 모델 다운로드** (선택 사항): 귀하가 명시적으로 로컬 모델 리소스를 다운로드하기로 선택할 때만 연결
+- **외부 링크**: "App Store에서 평가" 또는 "개인정보 처리방침"을 탭할 때 브라우저 열기. 번역/인식 후 "웹 검색" 기능 사용 시 브라우저 열기
 
-Other than the above, the app does not initiate network connections.
+위 경우를 제외하고 앱은 네트워크 연결을 시작하지 않습니다.
 
-## 7. Contact Us
+## 7. 문의하기
 
-If you have questions about this Privacy Policy, please contact:
+이 개인정보 처리방침에 대해 궁금한 점이 있으면 연락해 주세요:
 
 📧 **qqder339@gmail.com**  
-Subject: Kana Juku Privacy Policy Inquiry
+제목: Kana Juku 개인정보 처리방침 문의

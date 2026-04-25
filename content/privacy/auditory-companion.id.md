@@ -1,59 +1,58 @@
 ---
-isStub: true
-title: Auditory Companion — Privacy Policy
+title: Auditory Companion — Kebijakan Privasi
 layout: simple
 showDate: false
 showReadingTime: false
 ---
 
-**Last Updated: 2026-04-15**
+**Terakhir diperbarui: 2026-04-15**
 
 ---
 
-## 1. Overview
+## 1. Ikhtisar
 
-Auditory Companion, developed by QQder339, is a sophisticated audio engine combining real-time DSP noise synthesis, 108 ambient sound samples, and AI-powered text-to-speech reading.
+Auditory Companion, dikembangkan oleh QQder339, adalah mesin audio canggih yang menggabungkan sintesis noise DSP real-time, 108 sampel suara ambient, dan pembacaan teks-ke-suara bertenaga AI.
 
-**In short: We do NOT collect, store, or transmit any of your personal data to external servers.**
+**Singkatnya: Kami TIDAK mengumpulkan, menyimpan, atau mengirimkan data pribadi Anda ke server eksternal.**
 
-## 2. Data We Do NOT Collect
+## 2. Data yang TIDAK kami kumpulkan
 
-This app does not collect:
+Aplikasi ini tidak mengumpulkan:
 
-- Personally Identifiable Information (name, email, phone number)
-- Location data
-- Device identifiers
-- Usage analytics or tracking data
+- Informasi identitas pribadi (nama, email, nomor telepon)
+- Data lokasi
+- Pengenal perangkat
+- Data analitik penggunaan atau pelacakan
 
-## 3. Locally Stored Data
+## 3. Data yang disimpan secara lokal
 
-The following data is stored strictly on your device and never transmitted externally:
+Data berikut disimpan sepenuhnya di perangkat Anda dan tidak pernah ditransmisikan ke luar:
 
-- **Soundscape Settings**: Your saved mixing configurations and favorite scenes
-- **Reading Content**: Articles, clipboard text, and other reading materials (processed locally only)
-- **User Settings**: Volume levels, sound preferences, auto-ducking settings, etc.
+- **Pengaturan Soundscape**: Konfigurasi mixing dan adegan favorit yang tersimpan
+- **Konten Bacaan**: Artikel, teks clipboard, dan materi bacaan lainnya (diproses secara lokal saja)
+- **Pengaturan Pengguna**: Level volume, preferensi suara, pengaturan auto-ducking, dll.
 
-## 4. On-Device AI Features
+## 4. Fitur AI di Perangkat
 
-Text-to-Speech (TTS) and audio processing run on-device:
+Text-to-Speech (TTS) dan pemrosesan audio berjalan di perangkat:
 
-- **AI Voice Reading**: Uses iOS built-in TTS, or an optional downloadable MeloTTS on-device model; all speech synthesis runs on-device
-- **Auto-Ducking**: DSP signal processing runs entirely locally, analyzing voice and background audio in real-time to automatically adjust volume
+- **Pembacaan Suara AI**: Menggunakan TTS bawaan iOS, atau model MeloTTS opsional yang dapat diunduh; semua sintesis ucapan berjalan di perangkat
+- **Auto-Ducking**: Pemrosesan sinyal DSP berjalan sepenuhnya secara lokal, menganalisis suara dan audio latar belakang secara real-time untuk menyesuaikan volume secara otomatis
 
-## 5. Third-Party Services
+## 5. Layanan Pihak Ketiga
 
-This app does **NOT** use any third-party analytics or advertising frameworks (No Google Analytics, No Facebook SDK, No Ads).
+Aplikasi ini **TIDAK** menggunakan framework analitik atau iklan pihak ketiga (No Google Analytics, No Facebook SDK, No Ads).
 
-## 6. Network Access
+## 6. Akses Jaringan
 
-Core features (noise synthesis, scene mixing, iOS built-in TTS reading) operate **fully offline**. Network access occurs only when you explicitly trigger it:
+Fitur inti (sintesis noise, mixing adegan, pembacaan TTS bawaan iOS) beroperasi **sepenuhnya offline**. Akses jaringan hanya terjadi saat Anda secara eksplisit memicunya:
 
-- **Downloading the MeloTTS model** (Optional): When you choose to download the on-device TTS model in Settings, the app fetches the model files from a public source and caches them locally
-- **External Links**: Opens the system browser when tapping relevant links
+- **Mengunduh model MeloTTS** (Opsional): Saat Anda memilih mengunduh model TTS di perangkat di Pengaturan, aplikasi mengambil file model dari sumber publik dan menyimpannya secara lokal
+- **Tautan Eksternal**: Membuka browser sistem saat mengetuk tautan terkait
 
-These requests transmit only the URL of the file you chose to download; no personally identifiable information is attached.
+Permintaan ini hanya mengirimkan URL file yang Anda pilih untuk diunduh; tidak ada informasi identitas pribadi yang dilampirkan.
 
-## 7. Contact Us
+## 7. Hubungi Kami
 
 📧 **qqder339@gmail.com**  
-Subject: Auditory Companion Privacy Policy Inquiry
+Subjek: Pertanyaan Kebijakan Privasi Auditory Companion

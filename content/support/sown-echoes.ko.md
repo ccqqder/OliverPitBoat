@@ -1,51 +1,51 @@
 ---
-isStub: true
-title: Sown Echoes Support
+title: Sown Echoes 지원
 layout: simple
-summary: Support and contact for Sown Echoes
+summary: Sown Echoes 지원 및 문의
 app_slug: sown-echoes
 showDate: false
 showReadingTime: false
 ---
 
+[App Store](https://apps.apple.com/app/id6759969494) · [개인정보 처리방침](/privacy/sown-echoes/)
 
 ---
 
-## FAQ
+## 자주 묻는 질문
 
-**Q: I forgot my BIP-39 mnemonic (Meme ID). Can I recover it?**  
-A: **No.** The mnemonic is only shown once when first generated, and is stored only on your device. We have no backup mechanism and no access to your mnemonic. **Strongly recommended: write it down or screenshot it immediately and keep it in a safe place.** If lost, your identity cannot be restored on another device.
+**Q: BIP-39 니모닉(Meme ID)을 잊어버렸습니다. 복구할 수 있나요?**  
+A: **불가능합니다.** 니모닉은 처음 생성 시 한 번만 표시되며, 기기에만 저장됩니다. 저희는 백업 메커니즘을 갖고 있지 않으며 귀하의 니모닉에 접근할 수 없습니다. **강력히 권장: 즉시 적어두거나 스크린샷을 찍어 안전한 곳에 보관하세요.** 분실 시 다른 기기에서 신원을 복원할 수 없습니다.
 
-**Q: Does voice recognition (Whisper) require internet?**  
-A: No. Voice recognition uses a local on-device Whisper model. All recognition is processed completely offline. A one-time model download (~200 MB–1 GB) is required on first use, after which it works fully offline.
+**Q: 음성 인식(Whisper)에 인터넷이 필요한가요?**  
+A: 아니요. 음성 인식은 기기 내 로컬 Whisper 모델을 사용합니다. 모든 인식은 완전 오프라인으로 처리됩니다. 첫 사용 시 모델을 한 번 다운로드(약 200MB~1GB)해야 하며, 이후에는 완전 오프라인으로 작동합니다.
 
-**Q: Where are my records? Can I export them?**  
-A: All records are stored locally on your device. You can export your records (JSON format) from the Data Management section in the app. Export is a **user-initiated action** — the app never automatically uploads anything.
+**Q: 기록은 어디에 있나요? 내보낼 수 있나요?**  
+A: 모든 기록은 기기 로컬에 저장됩니다. 앱의 데이터 관리 섹션에서 기록을 내보낼 수 있습니다(JSON 형식). 내보내기는 **사용자가 직접 하는 작업**으로, 앱은 자동으로 어떤 것도 업로드하지 않습니다.
 
-**Q: Voice input recognition accuracy is low?**  
-A: Recognition accuracy depends on: background noise, clarity of speech, and language selection. Use in a quiet environment and ensure the app has microphone permission. If accuracy is particularly poor for a specific language, please email us.
+**Q: 음성 입력 인식 정확도가 낮나요?**  
+A: 인식 정확도는 배경 소음, 발음 명확성, 언어 선택에 따라 달라집니다. 조용한 환경에서 사용하고 앱에 마이크 권한이 부여되어 있는지 확인하세요. 특정 언어에서 정확도가 특히 낮다면 이메일로 연락해 주세요.
 
-**Q: Records disappeared after an update?**  
-A: Normal updates should not erase data. If data has disappeared, it may be due to accidental deletion or abnormal storage behavior. Please email us immediately with your app version information so we can help diagnose.
-
----
-
-## Troubleshooting
-
-1. **Voice recognition fails**: Ensure microphone permission is enabled (iOS Settings > Privacy > Microphone)
-2. **Model download fails**: Ensure stable Wi-Fi and sufficient device storage
-3. **Force quit and relaunch the app**
-4. **Check iOS version** ≥ 17.0
+**Q: 업데이트 후 기록이 사라졌나요?**  
+A: 정상적인 업데이트는 데이터를 지워서는 안 됩니다. 데이터가 사라졌다면 실수로 삭제되었거나 비정상적인 저장 동작이 있었을 수 있습니다. 앱 버전 정보와 함께 즉시 이메일로 연락해 주세요. 진단을 도와드리겠습니다.
 
 ---
 
-## Contact Support
+## 문제 해결
+
+1. **음성 인식 실패**: 마이크 권한 활성화 확인 (iOS 설정 > 개인 정보 보호 > 마이크)
+2. **모델 다운로드 실패**: 안정적인 Wi-Fi 연결 및 충분한 기기 저장 공간 확인
+3. **앱을 강제 종료 후 다시 실행**
+4. **iOS 버전 확인** ≥ 17.0
+
+---
+
+## 지원 문의
 
 📧 **qqder339@gmail.com**  
-Subject: `[Sown Echoes] Issue Description`
+제목: `[Sown Echoes] Issue Description`
 
-Please include: device model, iOS version, app version, issue description.
+포함해 주세요: 기기 모델, iOS 버전, 앱 버전, 문제 설명.
 
-> ⚠️ **Important: Please keep your mnemonic (Meme ID) safe. It cannot be recovered if lost.**
+> ⚠️ **중요: 니모닉(Meme ID)을 안전하게 보관하세요. 분실 시 복구할 수 없습니다.**
 
-> This app collects no user data. All content is processed entirely on-device.
+> 이 앱은 사용자 데이터를 수집하지 않습니다. 모든 콘텐츠는 전적으로 기기 내에서 처리됩니다. [개인정보 처리방침 보기 →](/privacy/sown-echoes/)

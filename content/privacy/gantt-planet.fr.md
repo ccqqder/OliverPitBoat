@@ -1,64 +1,63 @@
 ---
-isStub: true
-title: Gantt Planet — Privacy Policy
+title: Gantt Planet — Politique de confidentialité
 layout: simple
 showDate: false
 showReadingTime: false
 ---
 
-**Last Updated: 2026-04-15**
+**Dernière mise à jour : 2026-04-15**
 
 ---
 
-## 1. Overview
+## 1. Vue d'ensemble
 
-Gantt Planet, developed by QQder339, is a life goal management app combining 3D visual habit tracking with an on-device AI companion.
+Gantt Planet, développé par QQder339, est une application de gestion des objectifs de vie combinant un suivi visuel 3D des habitudes avec un compagnon IA sur l'appareil.
 
-**In short: We do NOT collect, store, or transmit any of your personal data to external servers. Your habits, journals, and conversations belong only to you.**
+**En bref : nous ne collectons, ne stockons ni ne transmettons AUCUNE de vos données personnelles vers des serveurs externes. Vos habitudes, journaux et conversations n'appartiennent qu'à vous.**
 
-## 2. Data We Do NOT Collect
+## 2. Données que nous ne collectons PAS
 
-This app does not collect:
+Cette application ne collecte pas :
 
-- Personally Identifiable Information (name, email, phone number)
-- Location data
-- Device identifiers
-- Usage analytics or tracking data
+- Données personnellement identifiables (nom, e-mail, numéro de téléphone)
+- Données de localisation
+- Identifiants d'appareil
+- Données d'analyse d'usage ou de suivi
 
-## 3. Locally Stored Data
+## 3. Données stockées localement
 
-The following data is stored strictly on your device and never transmitted externally:
+Les données suivantes sont stockées strictement sur votre appareil et ne sont jamais transmises à l'extérieur :
 
-- **Habits & Goals**: All items, completion records, and timeline data
-- **AI Conversation Logs**: All conversations with the built-in AI stored locally
-- **Journals & Mood Records**: All journal content
-- **Art Collection**: Unlocked stickers and illustration records
-- **3D Planet State**: Your planet's terrain and growth data
-- **User Settings**: All preference settings
+- **Habitudes et objectifs** : tous les éléments, enregistrements d'accomplissement et données de timeline
+- **Journaux de conversation IA** : toutes les conversations avec l'IA intégrée, stockées localement
+- **Journaux et humeurs** : tout le contenu des journaux
+- **Collection d'art** : autocollants débloqués et enregistrements d'illustrations
+- **État de la planète 3D** : le terrain et les données de croissance de votre planète
+- **Réglages utilisateur** : tous les réglages de préférences
 
-## 4. Offline AI Features
+## 4. Fonctionnalités IA hors ligne
 
-The AI companion feature runs entirely on-device:
+La fonctionnalité de compagnon IA s'exécute entièrement sur l'appareil :
 
-- **AI Conversations**: Uses local Large Language Models (LLM); all inference runs on-device; conversation content is never transmitted to any server
-- **Model Download**: AI models require a one-time download before first use (user-initiated); fully offline after download
+- **Conversations IA** : utilise des modèles de langage large locaux (LLM) ; toute l'inférence s'exécute sur l'appareil ; le contenu des conversations n'est jamais transmis à un serveur
+- **Téléchargement du modèle** : les modèles IA nécessitent un téléchargement unique avant la première utilisation (initié par l'utilisateur) ; entièrement hors ligne après le téléchargement
 
-## 5. Third-Party Services
+## 5. Services tiers
 
-This app does **NOT** use any third-party analytics or advertising frameworks (No Google Analytics, No Facebook SDK, No Ads).
+Cette application n'utilise **AUCUN** framework d'analyse ou de publicité tiers (No Google Analytics, No Facebook SDK, No Ads).
 
-## 6. Network Access
+## 6. Accès réseau
 
-Network access is restricted to:
+L'accès réseau est limité à :
 
-- **Downloading AI Models** (Optional, one-time): Only connects when you explicitly choose to download
-- **Downloading Art Collection Stickers** (On-demand): When you unlock art rewards, the app fetches matching images from a public GitHub repository and caches them locally for offline use
-- **Weather Information** (Optional): If you enable real weather, only minimal regional data is sent to retrieve weather
-- **External Links**: Opens browser when tapping relevant links
+- **Téléchargement des modèles IA** (optionnel, unique) : se connecte uniquement lorsque vous choisissez explicitement de télécharger
+- **Téléchargement des autocollants de collection d'art** (à la demande) : lorsque vous débloquez des récompenses artistiques, l'application récupère les images correspondantes depuis un dépôt GitHub public et les met en cache localement pour une utilisation hors ligne
+- **Informations météo** (optionnel) : si vous activez la météo réelle, seules des données régionales minimales sont envoyées pour récupérer la météo
+- **Liens externes** : ouvre le navigateur lors de l'appui sur des liens pertinents
 
-These requests transmit only the URL of the resource you chose or triggered; no personally identifiable information is attached.
+Ces requêtes transmettent uniquement l'URL de la ressource que vous avez choisie ou déclenchée ; aucune information personnellement identifiable n'est attachée.
 
-## 7. Contact Us
+## 7. Nous contacter
 
 📧 **qqder339@gmail.com**  
-Subject: Gantt Planet Privacy Policy Inquiry
+Objet : Demande relative à la politique de confidentialité de Gantt Planet

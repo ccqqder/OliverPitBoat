@@ -1,63 +1,62 @@
 ---
-isStub: true
-title: English N+1 — Privacy Policy
+title: English N+1 — Chính sách quyền riêng tư
 layout: simple
 showDate: false
 showReadingTime: false
 ---
 
-**Last Updated: 2026-04-15**
+**Cập nhật lần cuối: 2026-04-15**
 
 ---
 
-## 1. Overview
+## 1. Tổng quan
 
-English N+1, developed by QQder339, is an English learning app featuring CEFR-level assessment and on-device AI conversation technology.
+English N+1, được phát triển bởi QQder339, là ứng dụng học tiếng Anh có tính năng đánh giá trình độ CEFR và công nghệ hội thoại AI trên thiết bị.
 
-**In short: We do NOT collect, store, or transmit any of your personal data to external servers.**
+**Tóm tắt: Chúng tôi KHÔNG thu thập, lưu trữ hoặc truyền bất kỳ dữ liệu cá nhân nào của bạn tới máy chủ bên ngoài.**
 
-## 2. Data We Do NOT Collect
+## 2. Dữ liệu chúng tôi KHÔNG thu thập
 
-This app does not collect:
+Ứng dụng này không thu thập:
 
-- Personally Identifiable Information (name, email, phone number)
-- Location data
-- Device identifiers
-- Usage analytics or tracking data
+- Thông tin định danh cá nhân (tên, email, số điện thoại)
+- Dữ liệu vị trí
+- Mã định danh thiết bị
+- Dữ liệu phân tích sử dụng hoặc theo dõi
 
-## 3. Locally Stored Data
+## 3. Dữ liệu lưu cục bộ
 
-The following data is stored strictly on your device and never transmitted externally:
+Các dữ liệu sau chỉ được lưu trên thiết bị của bạn và không bao giờ truyền ra ngoài:
 
-- **Learning Progress & Level**: CEFR assessment results and study records
-- **Conversation History**: AI conversation logs stored locally
-- **Word Collections**: Saved vocabulary and learning notes
-- **User Settings**: Language preferences, difficulty settings, etc.
+- **Tiến trình Học tập & Trình độ**: kết quả đánh giá CEFR và hồ sơ học tập
+- **Lịch sử Hội thoại**: nhật ký hội thoại AI được lưu cục bộ
+- **Bộ sưu tập Từ vựng**: từ vựng đã lưu và ghi chú học tập
+- **Cài đặt Người dùng**: tùy chọn ngôn ngữ, cài đặt độ khó, v.v.
 
-## 4. Offline AI Features
+## 4. Tính năng AI ngoại tuyến
 
-All AI features run entirely on-device without network connection:
+Tất cả tính năng AI chạy hoàn toàn trên thiết bị mà không cần kết nối mạng:
 
-- **AI Conversation Practice**: Uses local Llama 3.2 or Qwen 2.5 models; all inference runs on-device
-- **Article Generation**: Personalized learning articles generated locally based on your level
-- **Level Assessment**: CEFR level evaluation computed on-device
+- **Luyện tập Hội thoại AI**: sử dụng mô hình Llama 3.2 hoặc Qwen 2.5 cục bộ; tất cả suy luận chạy trên thiết bị
+- **Tạo Bài viết**: bài viết học tập cá nhân hóa được tạo cục bộ dựa trên trình độ của bạn
+- **Đánh giá Trình độ**: đánh giá trình độ CEFR được tính toán trên thiết bị
 
-AI models require a one-time download before first use (user-initiated); all features work offline after download.
+Mô hình AI cần tải xuống một lần trước khi sử dụng lần đầu (do người dùng khởi tạo); tất cả tính năng hoạt động ngoại tuyến sau khi tải.
 
-## 5. Third-Party Services
+## 5. Dịch vụ bên thứ ba
 
-This app does **NOT** use any third-party analytics or advertising frameworks (No Google Analytics, No Facebook SDK, No Ads).
+Ứng dụng này **KHÔNG** sử dụng bất kỳ framework phân tích hay quảng cáo bên thứ ba nào (No Google Analytics, No Facebook SDK, No Ads).
 
-## 6. Network Access
+## 6. Truy cập mạng
 
-Network access is restricted to:
+Truy cập mạng được giới hạn ở:
 
-- **Downloading AI Models** (Optional, one-time): Only connects when you explicitly choose to download LLM model resources
-- **External Links**: Opens browser when tapping relevant links
+- **Tải Mô hình AI** (Tùy chọn, một lần): Chỉ kết nối khi bạn chọn rõ ràng để tải tài nguyên mô hình LLM
+- **Liên kết ngoài**: mở trình duyệt khi chạm vào các liên kết liên quan
 
-Other than the above, the app does not initiate network connections.
+Ngoài những điều trên, ứng dụng không khởi tạo kết nối mạng.
 
-## 7. Contact Us
+## 7. Liên hệ
 
 📧 **qqder339@gmail.com**  
-Subject: English N+1 Privacy Policy Inquiry
+Tiêu đề: Yêu cầu về Chính Sách Quyền Riêng Tư của English N+1

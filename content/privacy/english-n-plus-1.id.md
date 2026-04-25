@@ -1,63 +1,62 @@
 ---
-isStub: true
-title: English N+1 — Privacy Policy
+title: English N+1 — Kebijakan Privasi
 layout: simple
 showDate: false
 showReadingTime: false
 ---
 
-**Last Updated: 2026-04-15**
+**Terakhir diperbarui: 2026-04-15**
 
 ---
 
-## 1. Overview
+## 1. Ikhtisar
 
-English N+1, developed by QQder339, is an English learning app featuring CEFR-level assessment and on-device AI conversation technology.
+English N+1, dikembangkan oleh QQder339, adalah aplikasi belajar bahasa Inggris yang dilengkapi penilaian level CEFR dan teknologi percakapan AI di perangkat.
 
-**In short: We do NOT collect, store, or transmit any of your personal data to external servers.**
+**Singkatnya: Kami TIDAK mengumpulkan, menyimpan, atau mengirimkan data pribadi Anda ke server eksternal.**
 
-## 2. Data We Do NOT Collect
+## 2. Data yang TIDAK kami kumpulkan
 
-This app does not collect:
+Aplikasi ini tidak mengumpulkan:
 
-- Personally Identifiable Information (name, email, phone number)
-- Location data
-- Device identifiers
-- Usage analytics or tracking data
+- Informasi identitas pribadi (nama, email, nomor telepon)
+- Data lokasi
+- Pengenal perangkat
+- Data analitik penggunaan atau pelacakan
 
-## 3. Locally Stored Data
+## 3. Data yang disimpan secara lokal
 
-The following data is stored strictly on your device and never transmitted externally:
+Data berikut disimpan sepenuhnya di perangkat Anda dan tidak pernah ditransmisikan ke luar:
 
-- **Learning Progress & Level**: CEFR assessment results and study records
-- **Conversation History**: AI conversation logs stored locally
-- **Word Collections**: Saved vocabulary and learning notes
-- **User Settings**: Language preferences, difficulty settings, etc.
+- **Progres & Level Belajar**: Hasil penilaian CEFR dan catatan studi
+- **Riwayat Percakapan**: Log percakapan AI yang disimpan secara lokal
+- **Koleksi Kosakata**: Kosakata tersimpan dan catatan belajar
+- **Pengaturan Pengguna**: Preferensi bahasa, pengaturan kesulitan, dll.
 
-## 4. Offline AI Features
+## 4. Fitur AI Offline
 
-All AI features run entirely on-device without network connection:
+Semua fitur AI berjalan sepenuhnya di perangkat tanpa koneksi jaringan:
 
-- **AI Conversation Practice**: Uses local Llama 3.2 or Qwen 2.5 models; all inference runs on-device
-- **Article Generation**: Personalized learning articles generated locally based on your level
-- **Level Assessment**: CEFR level evaluation computed on-device
+- **Latihan Percakapan AI**: Menggunakan model Llama 3.2 atau Qwen 2.5 lokal; semua inferensi berjalan di perangkat
+- **Pembuatan Artikel**: Artikel belajar yang dipersonalisasi dibuat secara lokal berdasarkan level Anda
+- **Penilaian Level**: Evaluasi level CEFR dihitung di perangkat
 
-AI models require a one-time download before first use (user-initiated); all features work offline after download.
+Model AI memerlukan unduhan satu kali sebelum penggunaan pertama (diprakarsai pengguna); semua fitur berfungsi offline setelah diunduh.
 
-## 5. Third-Party Services
+## 5. Layanan Pihak Ketiga
 
-This app does **NOT** use any third-party analytics or advertising frameworks (No Google Analytics, No Facebook SDK, No Ads).
+Aplikasi ini **TIDAK** menggunakan framework analitik atau iklan pihak ketiga (No Google Analytics, No Facebook SDK, No Ads).
 
-## 6. Network Access
+## 6. Akses Jaringan
 
-Network access is restricted to:
+Akses jaringan dibatasi untuk:
 
-- **Downloading AI Models** (Optional, one-time): Only connects when you explicitly choose to download LLM model resources
-- **External Links**: Opens browser when tapping relevant links
+- **Mengunduh Model AI** (Opsional, satu kali): Hanya terhubung saat Anda secara eksplisit memilih mengunduh sumber daya model LLM
+- **Tautan Eksternal**: Membuka browser saat mengetuk tautan terkait
 
-Other than the above, the app does not initiate network connections.
+Selain hal di atas, aplikasi tidak menginisiasi koneksi jaringan.
 
-## 7. Contact Us
+## 7. Hubungi Kami
 
 📧 **qqder339@gmail.com**  
-Subject: English N+1 Privacy Policy Inquiry
+Subjek: Pertanyaan Kebijakan Privasi English N+1

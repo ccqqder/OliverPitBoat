@@ -1,67 +1,66 @@
 ---
-isStub: true
-title: Sown Echoes — Privacy Policy
+title: Sown Echoes — Kebijakan Privasi
 layout: simple
 showDate: false
 showReadingTime: false
 ---
 
-**Last Updated: 2026-04-15**
+**Terakhir diperbarui: 2026-04-15**
 
 ---
 
-## 1. Overview
+## 1. Ikhtisar
 
-Sown Echoes, developed by QQder339, is an app that lets you actively capture your thoughts, values, and life experiences, building a digital legacy through a BIP-39 cryptographic identity.
+Sown Echoes, dikembangkan oleh QQder339, adalah aplikasi yang memungkinkan Anda secara aktif menangkap pikiran, nilai, dan pengalaman hidup Anda, membangun warisan digital melalui identitas kriptografis BIP-39.
 
-**In short: We do NOT collect, store, or transmit any of your personal data to external servers. Your thoughts and records belong only to you.**
+**Singkatnya: Kami TIDAK mengumpulkan, menyimpan, atau mengirimkan data pribadi Anda ke server eksternal. Pikiran dan catatan Anda hanya milik Anda.**
 
-## 2. Data We Do NOT Collect
+## 2. Data yang TIDAK kami kumpulkan
 
-This app does not collect:
+Aplikasi ini tidak mengumpulkan:
 
-- Personally Identifiable Information (name, email, phone number)
-- Location data
-- Device identifiers
-- Usage analytics or tracking data
+- Informasi identitas pribadi (nama, email, nomor telepon)
+- Data lokasi
+- Pengenal perangkat
+- Data analitik penggunaan atau pelacakan
 
-## 3. Locally Stored Data
+## 3. Data yang disimpan secara lokal
 
-The following data is stored strictly on your device and never transmitted externally:
+Data berikut disimpan sepenuhnya di perangkat Anda dan tidak pernah ditransmisikan ke luar:
 
-- **BIP-39 Mnemonic**: Your Meme ID identity key (stored locally only; please back it up yourself)
-- **Voice and Text Records**: All thoughts, values, and stories entered through the questionnaire
-- **Speech-to-Text Results**: Whisper on-device recognition results stored locally
-- **User Settings**: All preference settings
+- **Mnemonik BIP-39**: Kunci identitas Meme ID Anda (hanya disimpan secara lokal; harap cadangkan sendiri)
+- **Catatan Suara dan Teks**: Semua pikiran, nilai, dan cerita yang dimasukkan melalui kuesioner
+- **Hasil Speech-to-Text**: Hasil pengenalan Whisper di perangkat yang disimpan secara lokal
+- **Pengaturan Pengguna**: Semua pengaturan preferensi
 
-## 4. Offline AI Features
+## 4. Fitur AI Offline
 
-All AI features run entirely on-device without network connection:
+Semua fitur AI berjalan sepenuhnya di perangkat tanpa koneksi jaringan:
 
-- **Speech-to-Text (Whisper)**: Uses local Whisper model; all speech recognition runs on-device; voice data is never transmitted to any server
-- **BIP-39 Identity Generation**: Mnemonics generated locally on-device, without relying on any external service
+- **Speech-to-Text (Whisper)**: Menggunakan model Whisper lokal; semua pengenalan ucapan berjalan di perangkat; data suara tidak pernah dikirim ke server mana pun
+- **Pembuatan Identitas BIP-39**: Mnemonik dibuat secara lokal di perangkat, tanpa mengandalkan layanan eksternal mana pun
 
-AI models require a one-time download before first use (user-initiated); all features work offline after download.
+Model AI memerlukan unduhan satu kali sebelum penggunaan pertama (diprakarsai pengguna); semua fitur berfungsi offline setelah diunduh.
 
-## 5. Data Export
+## 5. Ekspor Data
 
-If you choose to export data for AI training contribution, the export action is entirely under your control. The app does not automatically upload or share any content.
+Jika Anda memilih mengekspor data untuk kontribusi pelatihan AI, tindakan ekspor sepenuhnya berada di bawah kendali Anda. Aplikasi tidak secara otomatis mengunggah atau berbagi konten apa pun.
 
-## 6. Third-Party Services
+## 6. Layanan Pihak Ketiga
 
-This app does **NOT** use any third-party analytics or advertising frameworks (No Google Analytics, No Facebook SDK, No Ads).
+Aplikasi ini **TIDAK** menggunakan framework analitik atau iklan pihak ketiga (No Google Analytics, No Facebook SDK, No Ads).
 
-## 7. Network Access
+## 7. Akses Jaringan
 
-Network access is restricted to:
+Akses jaringan dibatasi untuk:
 
-- **Downloading AI Models** (Optional, one-time): Only connects when you explicitly choose to download Whisper model resources
-- **User-Initiated Data Export**: Only when you explicitly choose to export
-- **External Links**: Opens browser when tapping relevant links
+- **Mengunduh Model AI** (Opsional, satu kali): Hanya terhubung saat Anda secara eksplisit memilih mengunduh sumber daya model Whisper
+- **Ekspor Data yang Diprakarsai Pengguna**: Hanya saat Anda secara eksplisit memilih untuk mengekspor
+- **Tautan Eksternal**: Membuka browser saat mengetuk tautan terkait
 
-Other than the above, the app does not initiate network connections.
+Selain hal di atas, aplikasi tidak menginisiasi koneksi jaringan.
 
-## 8. Contact Us
+## 8. Hubungi Kami
 
 📧 **qqder339@gmail.com**  
-Subject: Sown Echoes Privacy Policy Inquiry
+Subjek: Pertanyaan Kebijakan Privasi Sown Echoes

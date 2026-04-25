@@ -1,8 +1,7 @@
 ---
-isStub: true
 title: Kana Juku
 layout: simple
-description: "A kana-learning tool built for Chinese native speakers, with a custom keyboard and on-device AI."
+description: "Công cụ học kana được xây dựng cho người nói tiếng Trung bản địa, với bàn phím tùy chỉnh và AI trên thiết bị."
 images:
   - images/og/kana-juku.png
 app_slug: kana-juku
@@ -10,26 +9,26 @@ showDate: false
 showReadingTime: false
 ---
 
-## Learning kana straight into your hands
+## Học kana trực tiếp vào tay bạn
 
-Most beginner Japanese materials quietly assume you're willing to sit through a long "romaji transition period." For native Chinese speakers, that's usually the less natural path. You already have a strong sense of character form and stroke order, and you're used to learning visually and through writing. Kana Juku starts from that premise and designs around it.
+Hầu hết các tài liệu tiếng Nhật cho người mới bắt đầu đều ngầm giả định bạn sẵn sàng ngồi qua một "giai đoạn chuyển đổi romaji" dài. Đối với người nói tiếng Trung bản địa, đó thường là con đường ít tự nhiên hơn. Bạn đã có ý thức mạnh về hình thức ký tự và thứ tự nét bút, và bạn quen học bằng hình ảnh và viết tay. Kana Juku bắt đầu từ tiền đề đó và thiết kế xung quanh nó.
 
-Rather than prettifying the hiragana/katakana chart, it connects "seeing the form, writing the form, typing the form, recognising the form" into a single loop. The payoff: you reach direct kana recognition sooner and rely on romaji as a crutch for less time.
+Thay vì làm đẹp bảng hiragana/katakana, nó kết nối "nhìn hình thức, viết hình thức, gõ hình thức, nhận diện hình thức" thành một vòng lặp duy nhất. Kết quả: bạn đạt được nhận diện kana trực tiếp sớm hơn và dựa vào romaji như nạng ít thời gian hơn.
 
-## Why this approach suits Chinese speakers in particular
+## Tại sao phương pháp này đặc biệt phù hợp với người nói tiếng Trung
 
-A Chinese speaker's real advantage lies in a strong sensitivity to character structure and visual form, less so in pronunciation. Kana Juku amplifies that advantage. You memorise kana through handwriting, image recognition, a custom keyboard, and shape association, which makes learning feel like picking up a new script rather than grinding through rote repetition.
+Lợi thế thực sự của người nói tiếng Trung nằm ở sự nhạy cảm mạnh với cấu trúc ký tự và hình thức hình ảnh, ít hơn là phát âm. Kana Juku khuếch đại lợi thế đó. Bạn ghi nhớ kana qua chữ viết tay, nhận dạng hình ảnh, bàn phím tùy chỉnh và liên kết hình thức, khiến việc học cảm giác như học một chữ viết mới thay vì mài mòn qua lặp lại thuộc lòng.
 
-People who've quit halfway often did so because the tool's angle didn't match them, not because they didn't try hard. Kana Juku's job is to correct that angle.
+Những người bỏ cuộc nửa chừng thường làm vậy vì góc độ của công cụ không phù hợp với họ, không phải vì họ không cố gắng. Công việc của Kana Juku là sửa góc độ đó.
 
-## A real doorway forward, not just a memorisation drill
+## Cửa ngõ thực sự tiến về phía trước, không chỉ là bài tập ghi nhớ
 
-Memorising kana is only the starting line. The real challenge is turning it into input, recognition, and comprehension ability. That's why the app goes beyond static drills and includes handwriting recognition, a custom keyboard, and AI assistance. What you're building is muscle memory closer to how kana actually gets used.
+Ghi nhớ kana chỉ là điểm khởi đầu. Thách thức thực sự là biến nó thành khả năng nhập liệu, nhận diện và hiểu. Đó là lý do tại sao ứng dụng vượt ra ngoài các bài tập tĩnh và bao gồm nhận dạng chữ viết tay, bàn phím tùy chỉnh và hỗ trợ AI. Thứ bạn đang xây dựng là trí nhớ cơ bắp gần hơn với cách kana thực sự được sử dụng.
 
-The design suits two kinds of learners especially: people starting Japanese who want a low-pressure entry point, and people who learned before, forgot, and now want familiarity back. The first group needs to skip detours; the second needs to rebuild recognition. The app works for both.
+Thiết kế phù hợp đặc biệt với hai loại người học: người bắt đầu tiếng Nhật muốn điểm vào ít áp lực, và người đã học trước đây, đã quên và bây giờ muốn lấy lại sự quen thuộc. Nhóm đầu tiên cần bỏ qua các lối đường vòng; nhóm thứ hai cần xây dựng lại khả năng nhận diện. Ứng dụng hoạt động cho cả hai.
 
-## Privacy and offline have practical weight here
+## Quyền riêng tư và ngoại tuyến có trọng lượng thực tế ở đây
 
-Language learning tools tend to drift toward content-platform behaviour over time. You feel like you're learning, but you're really being shuffled between recommendations. Kana Juku stays restrained. The focus sits on real input and recognition training, and both the local AI and data processing run on-device. You don't have to trade your usage habits for a little learning convenience.
+Các công cụ học ngôn ngữ có xu hướng trôi dạt sang hành vi nền tảng nội dung theo thời gian. Bạn cảm thấy như đang học, nhưng thực ra bạn đang bị chuyển hướng giữa các đề xuất. Kana Juku giữ sự kiềm chế. Trọng tâm đặt vào việc luyện nhập liệu và nhận diện thực sự, và cả AI cục bộ lẫn xử lý dữ liệu đều chạy trên thiết bị. Bạn không phải đánh đổi thói quen sử dụng của mình để lấy một chút tiện lợi học tập.
 
-You don't have to let romaji lead you through kana. Kana Juku shows you that entering through the shapes works too — and often gets you there faster.
+Bạn không phải để romaji dẫn bạn qua kana. Kana Juku cho bạn thấy rằng việc vào qua các hình thức cũng hiệu quả — và thường đưa bạn đến đó nhanh hơn.

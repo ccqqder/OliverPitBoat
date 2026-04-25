@@ -1,8 +1,7 @@
 ---
-isStub: true
-title: English N+1 Support
+title: English N+1 — Assistance
 layout: simple
-summary: Support and contact for English N+1
+summary: Assistance et contact pour English N+1
 app_slug: english-n-plus-1
 showDate: false
 showReadingTime: false
@@ -13,37 +12,37 @@ showReadingTime: false
 
 ## FAQ
 
-**Q: After the CEFR level test, the difficulty feels off. What can I do?**  
-A: The initial test is a quick vocabulary-based assessment and may not perfectly match your actual level. You can manually adjust the difficulty in Settings, or retake the test. After using the app for a while, it will automatically adapt based on your answer history.
+**Q : Après le test de niveau CECR, la difficulté ne semble pas adaptée. Que puis-je faire ?**  
+R : Le test initial est une évaluation rapide basée sur le vocabulaire et peut ne pas correspondre parfaitement à votre niveau réel. Vous pouvez ajuster manuellement la difficulté dans les Réglages, ou repasser le test. Après avoir utilisé l'application un moment, elle s'adaptera automatiquement en fonction de votre historique de réponses.
 
-**Q: What model does the AI conversation feature need? How large is it?**  
-A: Based on your device's performance, the app recommends an appropriate model (Llama 3.2 or Qwen 2.5). Model size is approximately 1–4 GB. After downloading, conversations work **completely offline** — no internet required.
+**Q : Quel modèle la fonctionnalité de conversation IA nécessite-t-elle ? Quelle est sa taille ?**  
+R : En fonction des performances de votre appareil, l'application recommande un modèle approprié (Llama 3.2 ou Qwen 2.5). La taille du modèle est d'environ 1–4 Go. Après le téléchargement, les conversations fonctionnent **entièrement hors ligne** — aucune connexion internet n'est requise.
 
-**Q: AI conversation responses are very slow or frozen?**  
-A: On-device AI inference speed depends on your device's performance. Older iPhones will be noticeably slower. Try selecting a smaller model in Settings.
+**Q : Les réponses de la conversation IA sont très lentes ou bloquées ?**  
+R : La vitesse d'inférence de l'IA sur l'appareil dépend des performances de votre appareil. Les iPhones plus anciens seront nettement plus lents. Essayez de sélectionner un modèle plus petit dans les Réglages.
 
-**Q: The generated articles are too difficult to understand?**  
-A: Articles are generated based on your CEFR level. If they feel too hard, lower your level setting in Settings, or manually select a lower difficulty when generating articles.
+**Q : Les articles générés sont trop difficiles à comprendre ?**  
+R : Les articles sont générés en fonction de votre niveau CECR. S'ils semblent trop difficiles, abaissez votre réglage de niveau dans les Réglages, ou sélectionnez manuellement une difficulté inférieure lors de la génération d'articles.
 
-**Q: Will my study records and saved vocabulary be backed up?**  
-A: All data is currently stored locally on your device only. iCloud backup is not supported. Uninstalling the app will erase all records.
-
----
-
-## Troubleshooting
-
-1. **AI model fails to load**: Ensure at least 3 GB of free storage, and check that the download wasn't interrupted
-2. **App crashes during AI conversation**: Try switching to a smaller model in Settings
-3. **Force quit and relaunch the app**
-4. **Check iOS version** ≥ 17.0
+**Q : Mes fiches d'étude et mon vocabulaire enregistré seront-ils sauvegardés ?**  
+R : Toutes les données sont actuellement stockées localement sur votre appareil uniquement. La sauvegarde iCloud n'est pas prise en charge. La désinstallation de l'application effacera tous les enregistrements.
 
 ---
 
-## Contact Support
+## Dépannage
+
+1. **Échec du chargement du modèle IA** : Assurez-vous d'avoir au moins 3 Go d'espace libre, et vérifiez que le téléchargement n'a pas été interrompu
+2. **Plantage de l'application lors d'une conversation IA** : Essayez de passer à un modèle plus petit dans les Réglages
+3. **Forcer la fermeture et relancer l'application**
+4. **Vérifiez la version iOS** ≥ 17.0
+
+---
+
+## Contacter l'assistance
 
 📧 **qqder339@gmail.com**  
-Subject: `[English N+1] Issue Description`
+Objet : `[English N+1] Description du problème`
 
-Please include: device model, iOS version, app version, steps to reproduce.
+Veuillez inclure : modèle de l'appareil, version iOS, version de l'application, étapes pour reproduire.
 
-> This app collects no user data. All AI conversations are processed entirely on-device.
+> Cette application ne collecte aucune donnée utilisateur. Toutes les conversations IA sont traitées entièrement sur l'appareil.

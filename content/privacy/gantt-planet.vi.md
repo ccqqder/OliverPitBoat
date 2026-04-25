@@ -1,64 +1,63 @@
 ---
-isStub: true
-title: Gantt Planet — Privacy Policy
+title: Gantt Planet — Chính sách quyền riêng tư
 layout: simple
 showDate: false
 showReadingTime: false
 ---
 
-**Last Updated: 2026-04-15**
+**Cập nhật lần cuối: 2026-04-15**
 
 ---
 
-## 1. Overview
+## 1. Tổng quan
 
-Gantt Planet, developed by QQder339, is a life goal management app combining 3D visual habit tracking with an on-device AI companion.
+Gantt Planet, được phát triển bởi QQder339, là ứng dụng quản lý mục tiêu cuộc sống kết hợp theo dõi thói quen trực quan 3D với AI đồng hành trên thiết bị.
 
-**In short: We do NOT collect, store, or transmit any of your personal data to external servers. Your habits, journals, and conversations belong only to you.**
+**Tóm tắt: Chúng tôi KHÔNG thu thập, lưu trữ hoặc truyền bất kỳ dữ liệu cá nhân nào của bạn tới máy chủ bên ngoài. Thói quen, nhật ký và cuộc hội thoại của bạn chỉ thuộc về bạn.**
 
-## 2. Data We Do NOT Collect
+## 2. Dữ liệu chúng tôi KHÔNG thu thập
 
-This app does not collect:
+Ứng dụng này không thu thập:
 
-- Personally Identifiable Information (name, email, phone number)
-- Location data
-- Device identifiers
-- Usage analytics or tracking data
+- Thông tin định danh cá nhân (tên, email, số điện thoại)
+- Dữ liệu vị trí
+- Mã định danh thiết bị
+- Dữ liệu phân tích sử dụng hoặc theo dõi
 
-## 3. Locally Stored Data
+## 3. Dữ liệu lưu cục bộ
 
-The following data is stored strictly on your device and never transmitted externally:
+Các dữ liệu sau chỉ được lưu trên thiết bị của bạn và không bao giờ truyền ra ngoài:
 
-- **Habits & Goals**: All items, completion records, and timeline data
-- **AI Conversation Logs**: All conversations with the built-in AI stored locally
-- **Journals & Mood Records**: All journal content
-- **Art Collection**: Unlocked stickers and illustration records
-- **3D Planet State**: Your planet's terrain and growth data
-- **User Settings**: All preference settings
+- **Thói quen & Mục tiêu**: tất cả mục, hồ sơ hoàn thành và dữ liệu dòng thời gian
+- **Nhật ký Hội thoại AI**: tất cả cuộc hội thoại với AI tích hợp được lưu cục bộ
+- **Nhật ký & Hồ sơ Tâm trạng**: toàn bộ nội dung nhật ký
+- **Bộ sưu tập Nghệ thuật**: nhãn dán đã mở khóa và hồ sơ minh họa
+- **Trạng thái Hành tinh 3D**: địa hình và dữ liệu phát triển của hành tinh bạn
+- **Cài đặt Người dùng**: tất cả cài đặt tùy chọn
 
-## 4. Offline AI Features
+## 4. Tính năng AI ngoại tuyến
 
-The AI companion feature runs entirely on-device:
+Tính năng AI đồng hành chạy hoàn toàn trên thiết bị:
 
-- **AI Conversations**: Uses local Large Language Models (LLM); all inference runs on-device; conversation content is never transmitted to any server
-- **Model Download**: AI models require a one-time download before first use (user-initiated); fully offline after download
+- **Hội thoại AI**: sử dụng Mô hình Ngôn ngữ Lớn (LLM) cục bộ; tất cả suy luận chạy trên thiết bị; nội dung hội thoại không bao giờ được truyền tới bất kỳ máy chủ nào
+- **Tải Mô hình**: Mô hình AI cần tải xuống một lần trước khi sử dụng lần đầu (do người dùng khởi tạo); hoàn toàn ngoại tuyến sau khi tải
 
-## 5. Third-Party Services
+## 5. Dịch vụ bên thứ ba
 
-This app does **NOT** use any third-party analytics or advertising frameworks (No Google Analytics, No Facebook SDK, No Ads).
+Ứng dụng này **KHÔNG** sử dụng bất kỳ framework phân tích hay quảng cáo bên thứ ba nào (No Google Analytics, No Facebook SDK, No Ads).
 
-## 6. Network Access
+## 6. Truy cập mạng
 
-Network access is restricted to:
+Truy cập mạng được giới hạn ở:
 
-- **Downloading AI Models** (Optional, one-time): Only connects when you explicitly choose to download
-- **Downloading Art Collection Stickers** (On-demand): When you unlock art rewards, the app fetches matching images from a public GitHub repository and caches them locally for offline use
-- **Weather Information** (Optional): If you enable real weather, only minimal regional data is sent to retrieve weather
-- **External Links**: Opens browser when tapping relevant links
+- **Tải Mô hình AI** (Tùy chọn, một lần): Chỉ kết nối khi bạn chọn rõ ràng để tải
+- **Tải Nhãn dán Bộ sưu tập Nghệ thuật** (Theo yêu cầu): Khi bạn mở khóa phần thưởng nghệ thuật, ứng dụng tải hình ảnh phù hợp từ kho GitHub công khai và lưu cache cục bộ để sử dụng ngoại tuyến
+- **Thông tin Thời tiết** (Tùy chọn): Nếu bạn bật thời tiết thực, chỉ dữ liệu vùng tối thiểu được gửi để lấy thời tiết
+- **Liên kết ngoài**: mở trình duyệt khi chạm vào các liên kết liên quan
 
-These requests transmit only the URL of the resource you chose or triggered; no personally identifiable information is attached.
+Các yêu cầu này chỉ truyền URL của tài nguyên bạn đã chọn hoặc kích hoạt; không có thông tin nhận dạng cá nhân nào được đính kèm.
 
-## 7. Contact Us
+## 7. Liên hệ
 
 📧 **qqder339@gmail.com**  
-Subject: Gantt Planet Privacy Policy Inquiry
+Tiêu đề: Yêu cầu về Chính Sách Quyền Riêng Tư của Gantt Planet

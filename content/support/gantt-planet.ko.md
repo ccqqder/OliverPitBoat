@@ -1,49 +1,49 @@
 ---
-isStub: true
-title: Gantt Planet Support
+title: Gantt Planet 지원
 layout: simple
-summary: Support and contact for Gantt Planet
+summary: Gantt Planet 지원 및 문의
 app_slug: gantt-planet
 showDate: false
 showReadingTime: false
 ---
 
+[App Store](https://apps.apple.com/app/id6757654373) · [개인정보 처리방침](/privacy/gantt-planet/)
 
 ---
 
-## FAQ
+## 자주 묻는 질문
 
-**Q: Does the AI companion chat require an internet connection?**  
-A: No. The AI companion uses an on-device local model. All conversations are processed completely offline and are never sent to any server. A one-time model download (~1–4 GB) is required on first use, after which everything works offline.
+**Q: AI 동반자 채팅에 인터넷 연결이 필요한가요?**  
+A: 아니요. AI 동반자는 기기 내 로컬 모델을 사용합니다. 모든 대화는 완전 오프라인으로 처리되며 어떤 서버에도 전송되지 않습니다. 첫 사용 시 모델을 한 번 다운로드(약 1~4GB)해야 하며, 이후에는 모두 오프라인으로 작동합니다.
 
-**Q: The 3D planet is laggy?**  
-A: The 3D planet requires some GPU performance. If it's lagging on an older device, try lowering the render quality or disabling particle effects in Settings. Recommended device: iPhone 12 or newer.
+**Q: 3D 행성이 버벅이나요?**  
+A: 3D 행성에는 어느 정도의 GPU 성능이 필요합니다. 구형 기기에서 버벅임이 있으면 설정에서 렌더링 품질을 낮추거나 파티클 효과를 비활성화해 보세요. 권장 기기: iPhone 12 이상.
 
-**Q: Habit items on the timeline have disappeared?**  
-A: All data is stored locally on your device. If data disappears unexpectedly, check if items were accidentally deleted (they may be restorable from the recycle bin). If not, please email us with your app version.
+**Q: 타임라인의 습관 항목이 사라졌나요?**  
+A: 모든 데이터는 기기 로컬에 저장됩니다. 데이터가 갑자기 사라지면 항목이 실수로 삭제된 것인지 확인하세요(휴지통에서 복원 가능). 그렇지 않은 경우 앱 버전과 함께 이메일로 연락해 주세요.
 
-**Q: The weather feature shows incorrect information?**  
-A: The weather feature requires location permission. Please ensure this app is allowed location access in iOS Settings > Privacy > Location Services. If already allowed but still incorrect, try toggling the weather feature off and on again.
+**Q: 날씨 기능이 잘못된 정보를 표시하나요?**  
+A: 날씨 기능에는 위치 권한이 필요합니다. iOS 설정 > 개인 정보 보호 > 위치 서비스에서 이 앱의 위치 접근이 허용되었는지 확인하세요. 이미 허용되어 있음에도 부정확하다면 날씨 기능을 껐다가 다시 켜보세요.
 
-**Q: Unlocked art stickers have disappeared?**  
-A: Sticker unlock records are stored locally and will be erased if the app is uninstalled. If data disappears without uninstalling, please email us with details.
-
----
-
-## Troubleshooting
-
-1. **Force quit and relaunch the app**
-2. **Check available storage** (AI model + 3D assets need 2+ GB)
-3. **Check iOS version** ≥ 17.0
-4. If 3D rendering is abnormal, try resetting the planet display settings in Settings
+**Q: 잠금 해제된 아트 스티커가 사라졌나요?**  
+A: 스티커 잠금 해제 기록은 로컬에 저장되며 앱을 삭제하면 지워집니다. 삭제하지 않았는데도 데이터가 사라졌다면 자세한 내용과 함께 이메일로 연락해 주세요.
 
 ---
 
-## Contact Support
+## 문제 해결
+
+1. **앱을 강제 종료 후 다시 실행**
+2. **저장 공간 확인** (AI 모델 + 3D 에셋에 2GB 이상 필요)
+3. **iOS 버전 확인** ≥ 17.0
+4. 3D 렌더링이 비정상적이면 설정에서 행성 디스플레이 설정 초기화 시도
+
+---
+
+## 지원 문의
 
 📧 **qqder339@gmail.com**  
-Subject: `[Gantt Planet] Issue Description`
+제목: `[Gantt Planet] Issue Description`
 
-Please include: device model, iOS version, app version, steps to reproduce (screenshots preferred).
+포함해 주세요: 기기 모델, iOS 버전, 앱 버전, 재현 단계(스크린샷 첨부 권장).
 
-> This app collects no user data. All AI conversations and habit records are processed entirely on-device.
+> 이 앱은 사용자 데이터를 수집하지 않습니다. 모든 AI 대화와 습관 기록은 전적으로 기기 내에서 처리됩니다. [개인정보 처리방침 보기 →](/privacy/gantt-planet/)

@@ -1,8 +1,7 @@
 ---
-isStub: true
-title: English N+1 Support
+title: Hỗ trợ English N+1
 layout: simple
-summary: Support and contact for English N+1
+summary: Hỗ trợ và liên hệ cho English N+1
 app_slug: english-n-plus-1
 showDate: false
 showReadingTime: false
@@ -11,39 +10,39 @@ showReadingTime: false
 
 ---
 
-## FAQ
+## Câu hỏi thường gặp
 
-**Q: After the CEFR level test, the difficulty feels off. What can I do?**  
-A: The initial test is a quick vocabulary-based assessment and may not perfectly match your actual level. You can manually adjust the difficulty in Settings, or retake the test. After using the app for a while, it will automatically adapt based on your answer history.
+**H: Sau bài kiểm tra trình độ CEFR, độ khó có vẻ không phù hợp. Tôi phải làm gì?**  
+Đ: Bài kiểm tra ban đầu là đánh giá nhanh dựa trên từ vựng và có thể không phản ánh chính xác trình độ thực tế của bạn. Bạn có thể điều chỉnh thủ công độ khó trong Cài đặt, hoặc làm lại bài kiểm tra. Sau một thời gian sử dụng, ứng dụng sẽ tự động điều chỉnh dựa trên lịch sử trả lời của bạn.
 
-**Q: What model does the AI conversation feature need? How large is it?**  
-A: Based on your device's performance, the app recommends an appropriate model (Llama 3.2 or Qwen 2.5). Model size is approximately 1–4 GB. After downloading, conversations work **completely offline** — no internet required.
+**H: Tính năng hội thoại AI cần mô hình nào? Kích thước bao nhiêu?**  
+Đ: Dựa trên hiệu năng thiết bị của bạn, ứng dụng đề xuất mô hình phù hợp (Llama 3.2 hoặc Qwen 2.5). Kích thước mô hình khoảng 1–4 GB. Sau khi tải xuống, hội thoại hoạt động **hoàn toàn ngoại tuyến** — không cần internet.
 
-**Q: AI conversation responses are very slow or frozen?**  
-A: On-device AI inference speed depends on your device's performance. Older iPhones will be noticeably slower. Try selecting a smaller model in Settings.
+**H: Phản hồi hội thoại AI rất chậm hoặc bị treo?**  
+Đ: Tốc độ suy luận AI trên thiết bị phụ thuộc vào hiệu năng thiết bị của bạn. iPhone cũ sẽ chậm hơn đáng kể. Hãy thử chọn mô hình nhỏ hơn trong Cài đặt.
 
-**Q: The generated articles are too difficult to understand?**  
-A: Articles are generated based on your CEFR level. If they feel too hard, lower your level setting in Settings, or manually select a lower difficulty when generating articles.
+**H: Các bài viết được tạo ra quá khó hiểu?**  
+Đ: Bài viết được tạo dựa trên trình độ CEFR của bạn. Nếu cảm thấy quá khó, hãy giảm cài đặt trình độ trong Cài đặt, hoặc chọn thủ công độ khó thấp hơn khi tạo bài viết.
 
-**Q: Will my study records and saved vocabulary be backed up?**  
-A: All data is currently stored locally on your device only. iCloud backup is not supported. Uninstalling the app will erase all records.
-
----
-
-## Troubleshooting
-
-1. **AI model fails to load**: Ensure at least 3 GB of free storage, and check that the download wasn't interrupted
-2. **App crashes during AI conversation**: Try switching to a smaller model in Settings
-3. **Force quit and relaunch the app**
-4. **Check iOS version** ≥ 17.0
+**H: Hồ sơ học tập và từ vựng đã lưu có được sao lưu không?**  
+Đ: Tất cả dữ liệu hiện chỉ được lưu cục bộ trên thiết bị của bạn. Không hỗ trợ sao lưu iCloud. Gỡ cài đặt ứng dụng sẽ xóa toàn bộ hồ sơ.
 
 ---
 
-## Contact Support
+## Khắc phục sự cố
+
+1. **Mô hình AI không tải được**: Đảm bảo còn ít nhất 3 GB dung lượng trống, và kiểm tra xem quá trình tải có bị gián đoạn không
+2. **Ứng dụng crash khi hội thoại AI**: Hãy thử chuyển sang mô hình nhỏ hơn trong Cài đặt
+3. **Buộc đóng và mở lại ứng dụng**
+4. **Kiểm tra phiên bản iOS** ≥ 17.0
+
+---
+
+## Liên hệ hỗ trợ
 
 📧 **qqder339@gmail.com**  
-Subject: `[English N+1] Issue Description`
+Tiêu đề: `[English N+1] Issue Description`
 
-Please include: device model, iOS version, app version, steps to reproduce.
+Vui lòng gửi kèm: mẫu thiết bị, phiên bản iOS, phiên bản ứng dụng, các bước tái hiện lỗi.
 
-> This app collects no user data. All AI conversations are processed entirely on-device.
+> Ứng dụng này không thu thập dữ liệu người dùng. Mọi hội thoại AI đều được xử lý hoàn toàn trên thiết bị.

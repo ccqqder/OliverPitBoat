@@ -1,8 +1,7 @@
 ---
-isStub: true
 title: Python Dimensions
 layout: simple
-description: "A three-dimensional Python learning tool with an on-device AI tutor and a built-in Python 3.13 runtime."
+description: "Công cụ học Python ba chiều với gia sư AI trên thiết bị và môi trường chạy Python 3.13 tích hợp."
 images:
   - images/og/python-dimensions.png
 app_slug: python-dimensions
@@ -10,28 +9,28 @@ showDate: false
 showReadingTime: false
 ---
 
-## What matters is getting the learning rhythm right
+## Điều quan trọng là thiết lập đúng nhịp học tập
 
-Most Python learning tools get stuck at two extremes. One side gives you fragmented questions; answering them still leaves you in the dark about where you're actually weak. The other side drops you into a full IDE that tends to scare beginners off. Python Dimensions bridges those extremes, helping you first build reading ability, grammatical sense, and logical sense before pushing toward more complete coding capability.
+Hầu hết các công cụ học Python bị kẹt ở hai thái cực. Một phía cho bạn các câu hỏi rời rạc; trả lời chúng vẫn để bạn mù tịt về điểm yếu thực sự của mình. Phía kia thả bạn vào một IDE đầy đủ có xu hướng làm người mới bắt đầu sợ hãi. Python Dimensions kết nối hai thái cực đó, giúp bạn trước tiên xây dựng khả năng đọc, cảm giác ngữ pháp và cảm giác logic trước khi hướng tới khả năng lập trình hoàn chỉnh hơn.
 
-The core idea is less "do lots of questions" and more "break learning into three layers." Points are vocabulary and concept recognition; Lines are syntax and local structure; Surfaces are complete program flow. This layering works for complete beginners and also for people who already know where they're stuck and want an efficient way to patch gaps.
+Ý tưởng cốt lõi không phải là "làm nhiều câu hỏi" mà là "chia học tập thành ba lớp." Điểm là nhận diện từ vựng và khái niệm; Đường là cú pháp và cấu trúc cục bộ; Bề mặt là luồng chương trình hoàn chỉnh. Cách phân lớp này hoạt động cho người mới hoàn toàn và cả những người đã biết mình bị kẹt ở đâu và muốn cách hiệu quả để vá lỗ hổng.
 
-## What situations it's most useful for
+## Tình huống nào nó hữu ích nhất
 
-If you're preparing for PCEP, TQC+, or CPE, the app is well suited to daily maintenance. You don't need to open a laptop to get started; in 10 to 20 minute windows you can run through multiple-choice questions, fill in a few blanks, or re-sequence a program flow. That low friction matters more over the long run than intense burst study.
+Nếu bạn đang chuẩn bị cho PCEP, TQC+ hay CPE, ứng dụng phù hợp tốt để duy trì hàng ngày. Bạn không cần mở laptop để bắt đầu; trong các khoảng thời gian 10 đến 20 phút bạn có thể chạy qua các câu hỏi trắc nghiệm, điền vài chỗ trống, hoặc sắp xếp lại luồng chương trình. Sự ma sát thấp đó quan trọng hơn về lâu dài so với học tập bùng phát cường độ cao.
 
-For self-taught beginners, the app also doesn't behave like a machine that only reports right and wrong. You can use the question types to sketch the basic outline, then move into the playground to actually run code and understand why one variant works and another doesn't. Knowledge stops living purely in memory and starts becoming your own judgement.
+Đối với người tự học, ứng dụng cũng không hoạt động như một cỗ máy chỉ báo cáo đúng và sai. Bạn có thể dùng các loại câu hỏi để phác thảo đường nét cơ bản, sau đó chuyển sang sân chơi để thực sự chạy mã và hiểu tại sao một biến thể hoạt động và biến thể khác thì không. Kiến thức ngừng sống thuần túy trong bộ nhớ và bắt đầu trở thành phán đoán của riêng bạn.
 
-## On-device AI here isn't a gimmick
+## AI trên thiết bị ở đây không phải là chiêu trò
 
-"AI tutor" often triggers the question, "is this about to upload my content to the cloud?" Python Dimensions places AI in a useful role that doesn't compromise privacy. When you answer incorrectly, it can hint based on the question's context. When you want to confirm a syntax idea, you can just ask, instead of bouncing between search engines and forums.
+"Gia sư AI" thường kích hoạt câu hỏi "liệu cái này có sắp tải nội dung của tôi lên đám mây không?" Python Dimensions đặt AI vào vai trò hữu ích mà không ảnh hưởng đến quyền riêng tư. Khi bạn trả lời sai, nó có thể gợi ý dựa trên ngữ cảnh của câu hỏi. Khi bạn muốn xác nhận một ý tưởng cú pháp, bạn có thể hỏi thẳng, thay vì nhảy giữa các công cụ tìm kiếm và diễn đàn.
 
-Just as importantly, none of this requires handing your learning history to an external server. For students, that lowers the barrier to use. For teachers, parents, or anyone wary of data leakage, it turns the app into something closer to a long-term learning tool rather than a casual demo.
+Quan trọng không kém, không điều nào trong số này đòi hỏi phải chuyển lịch sử học tập của bạn cho máy chủ bên ngoài. Đối với học sinh, điều đó giảm rào cản sử dụng. Đối với giáo viên, phụ huynh, hoặc bất kỳ ai lo ngại về rò rỉ dữ liệu, nó biến ứng dụng thành thứ gần hơn với công cụ học tập dài hạn thay vì một bản demo thử nghiệm.
 
-The AI layer also goes beyond "a chat model stuffed in for show." The question bank, error context, context-aware retrieval, and a directly executable Python playground operate inside the same loop. You answer, ask, then run code to verify; when needed, capability analytics let you see whether you're stuck at syntax, concepts, or program flow.
+Lớp AI cũng vượt ra ngoài "một mô hình chat nhồi vào cho có vẻ." Ngân hàng câu hỏi, ngữ cảnh lỗi, truy xuất nhận biết ngữ cảnh và sân chơi Python có thể thực thi trực tiếp hoạt động trong cùng một vòng lặp. Bạn trả lời, hỏi, sau đó chạy mã để xác minh; khi cần, phân tích năng lực cho bạn thấy liệu bạn bị kẹt ở cú pháp, khái niệm hay luồng chương trình.
 
-## Why this app deserves a permanent place on your phone
+## Tại sao ứng dụng này xứng đáng có một vị trí cố định trên điện thoại của bạn
 
-The learning tools people actually keep opening are the ones that sense when you're about to give up, more than the ones packed with features. Python Dimensions gathers question training, AI hints, and an executable environment onto a single device. The point is to let you push forward a little, even in the moments you'd otherwise scroll away.
+Các công cụ học tập mà mọi người thực sự tiếp tục mở là những công cụ cảm nhận được khi bạn sắp từ bỏ, hơn là những công cụ chứa nhiều tính năng. Python Dimensions tập hợp luyện câu hỏi, gợi ý AI và môi trường có thể thực thi vào một thiết bị duy nhất. Mục đích là để bạn tiến thêm một chút, ngay cả trong những khoảnh khắc bạn sẽ lướt điện thoại thay vào đó.
 
-What actually moves the needle isn't the rush of fifty problems in one sitting. It's the three minutes you're willing to open the app each day. Python Dimensions is built around those three minutes.
+Thứ thực sự tạo ra sự khác biệt không phải là lao vào năm mươi bài toán trong một lần ngồi. Mà là ba phút bạn sẵn sàng mở ứng dụng mỗi ngày. Python Dimensions được xây dựng xung quanh ba phút đó.

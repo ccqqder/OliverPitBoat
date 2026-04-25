@@ -1,54 +1,53 @@
 ---
-isStub: true
-title: StoneStory — Privacy Policy
+title: StoneStory — Politique de confidentialité
 layout: simple
 showDate: false
 showReadingTime: false
 ---
 
-**Last Updated: 2026-04-15**
+**Dernière mise à jour : 2026-04-15**
 
 ---
 
-## 1. Overview
+## 1. Vue d'ensemble
 
-StoneStory, developed by QQder339, is an immersive reading and character simulation app based on the classic novel "Dream of the Red Chamber."
+StoneStory, développé par QQder339, est une application de lecture immersive et de simulation de personnages basée sur le roman classique « Le Rêve dans le pavillon rouge ».
 
-**In short: We do NOT collect, store, or transmit any of your personal data to external servers.**
+**En bref : nous ne collectons, ne stockons ni ne transmettons AUCUNE de vos données personnelles vers des serveurs externes.**
 
-## 2. Data We Do NOT Collect
+## 2. Données que nous ne collectons PAS
 
-This app does not collect:
+Cette application ne collecte pas :
 
-- Personally Identifiable Information (name, email, phone number)
-- Location data
-- Device identifiers
-- Usage analytics or tracking data
+- Données personnellement identifiables (nom, e-mail, numéro de téléphone)
+- Données de localisation
+- Identifiants d'appareil
+- Données d'analyse d'usage ou de suivi
 
-## 3. Locally Stored Data
+## 3. Données stockées localement
 
-The following data is stored strictly on your device and never transmitted externally:
+Les données suivantes sont stockées strictement sur votre appareil et ne sont jamais transmises à l'extérieur :
 
-- **Traveler Profile**: The name, personality traits, speech style, background, and optional avatar image you configure in Traveler Mode
-- **Interface Preferences**: Your selected display language (Traditional Chinese / English / Japanese) and chosen offline AI model
-- **Downloaded Content**: Character portraits and scene images cached after you view them in the app
-- **Offline AI Model**: The Qwen 2.5 model file you've chosen to download (stored in an App Group container for in-app use only)
+- **Profil du Voyageur** : le nom, les traits de personnalité, le style de discours, l'arrière-plan et l'image d'avatar optionnelle que vous configurez en Mode Voyageur
+- **Préférences d'interface** : votre langue d'affichage sélectionnée (chinois traditionnel / anglais / japonais) et le modèle IA hors ligne choisi
+- **Contenu téléchargé** : portraits de personnages et images de scènes mis en cache après les avoir consultés dans l'application
+- **Modèle IA hors ligne** : le fichier de modèle Qwen 2.5 que vous avez choisi de télécharger (stocké dans un conteneur App Group pour une utilisation exclusive dans l'application)
 
-## 4. Third-Party Services
+## 4. Services tiers
 
-This app does **NOT** use any third-party analytics or advertising frameworks (No Google Analytics, No Facebook SDK, No Ads).
+Cette application n'utilise **AUCUN** framework d'analyse ou de publicité tiers (No Google Analytics, No Facebook SDK, No Ads).
 
-## 5. Network Access
+## 5. Accès réseau
 
-Core reading and simulation features work **fully offline** and require no network connection. The following features initiate network requests only when you explicitly trigger them:
+Les fonctions principales de lecture et de simulation fonctionnent **entièrement hors ligne** et ne nécessitent aucune connexion réseau. Les fonctionnalités suivantes initient des requêtes réseau uniquement lorsque vous les déclenchez explicitement :
 
-- **Downloading Character Portraits / Scene Images**: The first time you view a character or scene, the app fetches the corresponding image from a public CDN and caches it locally
-- **Downloading the Offline AI Model**: When you choose to download the Qwen2.5 model in Settings, the app fetches the file from the model's public release source
-- **External Links**: Opens the system browser when you tap relevant links
+- **Téléchargement des portraits de personnages / images de scènes** : la première fois que vous consultez un personnage ou une scène, l'application récupère l'image correspondante depuis un CDN public et la met en cache localement
+- **Téléchargement du modèle IA hors ligne** : lorsque vous choisissez de télécharger le modèle Qwen 2.5 dans les Réglages, l'application récupère le fichier depuis la source de publication publique du modèle
+- **Liens externes** : ouvre le navigateur système lorsque vous appuyez sur des liens pertinents
 
-These network requests transmit only the URL of the file you've chosen. No personally identifiable information is attached, and no data is collected in return.
+Ces requêtes réseau transmettent uniquement l'URL du fichier que vous avez choisi. Aucune information personnellement identifiable n'est attachée, et aucune donnée n'est collectée en retour.
 
-## 6. Contact Us
+## 6. Nous contacter
 
 📧 **qqder339@gmail.com**  
-Subject: StoneStory Privacy Policy Inquiry
+Objet : Demande relative à la politique de confidentialité de StoneStory

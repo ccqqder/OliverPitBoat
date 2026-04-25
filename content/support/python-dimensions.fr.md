@@ -1,8 +1,7 @@
 ---
-isStub: true
-title: Python Dimensions Support
+title: Python Dimensions — Assistance
 layout: simple
-summary: Support and contact for Python Dimensions
+summary: Assistance et contact pour Python Dimensions
 app_slug: python-dimensions
 showDate: false
 showReadingTime: false
@@ -13,37 +12,37 @@ showReadingTime: false
 
 ## FAQ
 
-**Q: The built-in Python runtime throws an error or crashes the app?**  
-A: Complex code (infinite loops, excessive memory usage) may cause timeouts or crashes. Make sure your code has no infinite loops and avoids allocating very large amounts of memory. If a specific code snippet causes a crash, please email us with that code.
+**Q : Le runtime Python intégré génère une erreur ou plante l'application ?**  
+R : Le code complexe (boucles infinies, utilisation excessive de la mémoire) peut provoquer des délais d'attente ou des plantages. Assurez-vous que votre code ne contient pas de boucles infinies et évite d'allouer de très grandes quantités de mémoire. Si un extrait de code spécifique provoque un plantage, envoyez-nous un e-mail avec ce code.
 
-**Q: Does the AI tutor need to download a model? How large?**  
-A: Yes. The first time you use the AI tutor, you'll need to download a local model (~1–4 GB). After downloading, it works **completely offline** — all Q&A and explanations run on-device without internet.
+**Q : Le tuteur IA doit-il télécharger un modèle ? Quelle est sa taille ?**  
+R : Oui. La première fois que vous utilisez le tuteur IA, vous devrez télécharger un modèle local (~1–4 Go). Après le téléchargement, il fonctionne **entièrement hors ligne** — toutes les questions-réponses et explications s'exécutent sur l'appareil sans internet.
 
-**Q: I think there's an error in the question bank?**  
-A: If you find an incorrect question or answer, please email us with: the question content, your proposed correct answer, and your reasoning. We'll verify and update the question bank as soon as possible.
+**Q : Je pense qu'il y a une erreur dans la banque de questions ?**  
+R : Si vous trouvez une question ou une réponse incorrecte, envoyez-nous un e-mail avec : le contenu de la question, votre réponse correcte proposée et votre raisonnement. Nous vérifierons et mettrons à jour la banque de questions dès que possible.
 
-**Q: The error radar chart isn't showing?**  
-A: The radar chart requires a minimum number of answer records to generate. Please complete at least 20 questions first.
+**Q : Le graphique radar des erreurs n'apparaît pas ?**  
+R : Le graphique radar nécessite un nombre minimum d'enregistrements de réponses pour être généré. Veuillez d'abord compléter au moins 20 questions.
 
-**Q: How do I use the code templates?**  
-A: In the built-in IDE screen, tap the "Templates" button in the upper right, select the category you need (loops, functions, classes, etc.), and the code will be automatically inserted into the editor.
-
----
-
-## Troubleshooting
-
-1. **Python runtime crashes**: Ensure no infinite loops in your code; ensure the device has sufficient available memory
-2. **AI model fails to load**: Ensure 3+ GB free storage; retry downloading on Wi-Fi
-3. **Force quit and relaunch the app**
-4. **Check iOS version** ≥ 17.0
+**Q : Comment utiliser les modèles de code ?**  
+R : Dans l'écran IDE intégré, appuyez sur le bouton « Modèles » en haut à droite, sélectionnez la catégorie dont vous avez besoin (boucles, fonctions, classes, etc.), et le code sera automatiquement inséré dans l'éditeur.
 
 ---
 
-## Contact Support
+## Dépannage
+
+1. **Plantage du runtime Python** : Assurez-vous qu'il n'y a pas de boucles infinies dans votre code ; vérifiez que l'appareil dispose de suffisamment de mémoire disponible
+2. **Échec du chargement du modèle IA** : Assurez-vous d'avoir 3+ Go d'espace libre ; réessayez le téléchargement en Wi-Fi
+3. **Forcer la fermeture et relancer l'application**
+4. **Vérifiez la version iOS** ≥ 17.0
+
+---
+
+## Contacter l'assistance
 
 📧 **qqder339@gmail.com**  
-Subject: `[Python Dimensions] Issue Description`
+Objet : `[Python Dimensions] Description du problème`
 
-Please include: device model, iOS version, app version, steps to reproduce (include code if it's a code-related issue).
+Veuillez inclure : modèle de l'appareil, version iOS, version de l'application, étapes pour reproduire (incluez le code s'il s'agit d'un problème lié au code).
 
-> This app collects no user data. Python execution and AI inference run entirely on-device.
+> Cette application ne collecte aucune donnée utilisateur. L'exécution Python et l'inférence IA s'exécutent entièrement sur l'appareil.

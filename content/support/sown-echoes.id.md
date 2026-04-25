@@ -1,8 +1,7 @@
 ---
-isStub: true
-title: Sown Echoes Support
+title: Dukungan Sown Echoes
 layout: simple
-summary: Support and contact for Sown Echoes
+summary: Dukungan dan kontak untuk Sown Echoes
 app_slug: sown-echoes
 showDate: false
 showReadingTime: false
@@ -11,41 +10,41 @@ showReadingTime: false
 
 ---
 
-## FAQ
+## Pertanyaan Umum
 
-**Q: I forgot my BIP-39 mnemonic (Meme ID). Can I recover it?**  
-A: **No.** The mnemonic is only shown once when first generated, and is stored only on your device. We have no backup mechanism and no access to your mnemonic. **Strongly recommended: write it down or screenshot it immediately and keep it in a safe place.** If lost, your identity cannot be restored on another device.
+**T: Saya lupa mnemonik BIP-39 (Meme ID). Bisakah dipulihkan?**  
+J: **Tidak.** Mnemonik hanya ditampilkan sekali saat pertama kali dibuat, dan hanya tersimpan di perangkat Anda. Kami tidak memiliki mekanisme cadangan dan tidak memiliki akses ke mnemonik Anda. **Sangat disarankan: tulis atau ambil tangkapan layar segera dan simpan di tempat yang aman.** Jika hilang, identitas Anda tidak dapat dipulihkan di perangkat lain.
 
-**Q: Does voice recognition (Whisper) require internet?**  
-A: No. Voice recognition uses a local on-device Whisper model. All recognition is processed completely offline. A one-time model download (~200 MB–1 GB) is required on first use, after which it works fully offline.
+**T: Apakah pengenalan suara (Whisper) memerlukan internet?**  
+J: Tidak. Pengenalan suara menggunakan model Whisper lokal di perangkat. Semua pengenalan diproses sepenuhnya secara offline. Unduhan model satu kali (~200 MB–1 GB) diperlukan pada penggunaan pertama, setelah itu berfungsi sepenuhnya offline.
 
-**Q: Where are my records? Can I export them?**  
-A: All records are stored locally on your device. You can export your records (JSON format) from the Data Management section in the app. Export is a **user-initiated action** — the app never automatically uploads anything.
+**T: Di mana catatan saya? Bisakah diekspor?**  
+J: Semua catatan disimpan secara lokal di perangkat Anda. Anda bisa mengekspor catatan (format JSON) dari bagian Manajemen Data di aplikasi. Ekspor adalah **tindakan yang diprakarsai pengguna** — aplikasi tidak pernah mengunggah apa pun secara otomatis.
 
-**Q: Voice input recognition accuracy is low?**  
-A: Recognition accuracy depends on: background noise, clarity of speech, and language selection. Use in a quiet environment and ensure the app has microphone permission. If accuracy is particularly poor for a specific language, please email us.
+**T: Akurasi pengenalan suara rendah?**  
+J: Akurasi pengenalan bergantung pada: kebisingan latar belakang, kejelasan ucapan, dan pilihan bahasa. Gunakan di lingkungan yang tenang dan pastikan aplikasi memiliki izin mikrofon. Jika akurasi sangat buruk untuk bahasa tertentu, silakan kirim email kepada kami.
 
-**Q: Records disappeared after an update?**  
-A: Normal updates should not erase data. If data has disappeared, it may be due to accidental deletion or abnormal storage behavior. Please email us immediately with your app version information so we can help diagnose.
-
----
-
-## Troubleshooting
-
-1. **Voice recognition fails**: Ensure microphone permission is enabled (iOS Settings > Privacy > Microphone)
-2. **Model download fails**: Ensure stable Wi-Fi and sufficient device storage
-3. **Force quit and relaunch the app**
-4. **Check iOS version** ≥ 17.0
+**T: Catatan menghilang setelah pembaruan?**  
+J: Pembaruan normal tidak seharusnya menghapus data. Jika data menghilang, mungkin disebabkan oleh penghapusan tidak sengaja atau perilaku penyimpanan yang tidak normal. Segera kirim email kepada kami beserta informasi versi aplikasi Anda agar kami dapat membantu mendiagnosis.
 
 ---
 
-## Contact Support
+## Pemecahan Masalah
+
+1. **Pengenalan suara gagal**: Pastikan izin mikrofon diaktifkan (Pengaturan iOS > Privasi > Mikrofon)
+2. **Unduhan model gagal**: Pastikan Wi-Fi stabil dan penyimpanan perangkat mencukupi
+3. **Paksa tutup lalu buka kembali aplikasi**
+4. **Periksa versi iOS** ≥ 17.0
+
+---
+
+## Hubungi Dukungan
 
 📧 **qqder339@gmail.com**  
-Subject: `[Sown Echoes] Issue Description`
+Subjek: `[Sown Echoes] Issue Description`
 
-Please include: device model, iOS version, app version, issue description.
+Mohon sertakan: model perangkat, versi iOS, versi aplikasi, deskripsi masalah.
 
-> ⚠️ **Important: Please keep your mnemonic (Meme ID) safe. It cannot be recovered if lost.**
+> ⚠️ **Penting: Harap simpan mnemonik (Meme ID) Anda dengan aman. Tidak dapat dipulihkan jika hilang.**
 
-> This app collects no user data. All content is processed entirely on-device.
+> Aplikasi ini tidak mengumpulkan data pengguna. Semua konten diproses sepenuhnya di perangkat.

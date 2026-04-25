@@ -1,63 +1,62 @@
 ---
-isStub: true
-title: Kana Juku — Privacy Policy
+title: Kana Juku — Kebijakan Privasi
 layout: simple
 showDate: false
 showReadingTime: false
 ---
 
-**Last Updated: 2026-04-15**
+**Terakhir diperbarui: 2026-04-15**
 
 ---
 
-## 1. Overview
+## 1. Ikhtisar
 
-Kana Juku, developed by QQder339, is a Japanese kana learning app designed for native Chinese speakers.
+Kana Juku, dikembangkan oleh QQder339, adalah aplikasi belajar kana Jepang yang dirancang untuk penutur asli bahasa Mandarin.
 
-**In short: We do NOT collect, store, or transmit any of your personal data to external servers.**
+**Singkatnya: Kami TIDAK mengumpulkan, menyimpan, atau mengirimkan data pribadi Anda ke server eksternal.**
 
-## 2. Data We Do NOT Collect
+## 2. Data yang TIDAK kami kumpulkan
 
-This app does not collect:
+Aplikasi ini tidak mengumpulkan:
 
-- Personally Identifiable Information (name, email, phone number)
-- Location data
-- Device identifiers
-- Usage analytics or tracking data
+- Informasi identitas pribadi (nama, email, nomor telepon)
+- Data lokasi
+- Pengenal perangkat
+- Data analitik penggunaan atau pelacakan
 
-## 3. Locally Stored Data
+## 3. Data yang disimpan secara lokal
 
-The following data is stored strictly on your device and never transmitted externally:
+Data berikut disimpan sepenuhnya di perangkat Anda dan tidak pernah ditransmisikan ke luar:
 
-- **Learning Progress**: Tracks your kana learning status
-- **User Settings**: Saves your preferences
-- **Handwriting Input**: Processed in real-time memory and discarded immediately; no files are saved
-- **Widget Data**: Uses iOS shared container mechanism to display kana on home screen widgets (local only)
+- **Progres Belajar**: Melacak status belajar kana Anda
+- **Pengaturan Pengguna**: Menyimpan preferensi Anda
+- **Input Tulisan Tangan**: Diproses di memori real-time dan langsung dibuang; tidak ada file yang disimpan
+- **Data Widget**: Menggunakan mekanisme container bersama iOS untuk menampilkan kana di widget layar beranda (lokal saja)
 
-## 4. Offline AI Features
+## 4. Fitur AI Offline
 
-All AI features operate completely offline:
+Semua fitur AI beroperasi sepenuhnya offline:
 
-- **Handwriting Recognition**: Uses on-device machine learning models; all processing is local
-- **Text-to-Speech**: Uses pre-downloaded audio assets
-- **AI Assistance**: Uses local Large Language Models (LLM); inference is performed on-device without data upload
+- **Pengenalan Tulisan Tangan**: Menggunakan model machine learning di perangkat; semua pemrosesan bersifat lokal
+- **Text-to-Speech**: Menggunakan aset audio yang telah diunduh sebelumnya
+- **Bantuan AI**: Menggunakan Model Bahasa Besar (LLM) lokal; inferensi dilakukan di perangkat tanpa mengunggah data
 
-## 5. Third-Party Services
+## 5. Layanan Pihak Ketiga
 
-This app does **NOT** use any third-party analytics or advertising frameworks (No Google Analytics, No Facebook SDK, No Ads).
+Aplikasi ini **TIDAK** menggunakan framework analitik atau iklan pihak ketiga (No Google Analytics, No Facebook SDK, No Ads).
 
-## 6. Network Access
+## 6. Akses Jaringan
 
-Network access is restricted to:
+Akses jaringan dibatasi untuk:
 
-- **Downloading AI Models** (Optional): Only connects when you explicitly choose to download local model resources
-- **External Links**: Opens the browser when you tap "Rate on App Store" or "Privacy Policy"; opens the browser when you use the "Search Web" function after translation/recognition
+- **Mengunduh Model AI** (Opsional): Hanya terhubung saat Anda secara eksplisit memilih mengunduh sumber daya model lokal
+- **Tautan Eksternal**: Membuka browser saat Anda mengetuk "Rate on App Store" atau "Privacy Policy"; membuka browser saat Anda menggunakan fungsi "Search Web" setelah terjemahan/pengenalan
 
-Other than the above, the app does not initiate network connections.
+Selain hal di atas, aplikasi tidak menginisiasi koneksi jaringan.
 
-## 7. Contact Us
+## 7. Hubungi Kami
 
-If you have questions about this Privacy Policy, please contact:
+Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini, silakan hubungi:
 
 📧 **qqder339@gmail.com**  
-Subject: Kana Juku Privacy Policy Inquiry
+Subjek: Pertanyaan Kebijakan Privasi Kana Juku

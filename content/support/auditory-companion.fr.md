@@ -1,8 +1,7 @@
 ---
-isStub: true
-title: Auditory Companion Support
+title: Auditory Companion — Assistance
 layout: simple
-summary: Support and contact for Auditory Companion
+summary: Assistance et contact pour Auditory Companion
 app_slug: auditory-companion
 showDate: false
 showReadingTime: false
@@ -13,38 +12,38 @@ showReadingTime: false
 
 ## FAQ
 
-**Q: There's static or crackling during audio playback?**  
-A: Some noise may come from Bluetooth headphone connection issues. Try switching to wired headphones to test. If the issue persists with wired headphones, try adjusting the sample rate in Settings or restarting the audio engine.
+**Q : Il y a des grésillements ou des craquements lors de la lecture audio ?**  
+R : Certains bruits peuvent provenir de problèmes de connexion des écouteurs Bluetooth. Essayez de passer à des écouteurs filaires pour tester. Si le problème persiste avec des écouteurs filaires, essayez d'ajuster la fréquence d'échantillonnage dans les Réglages ou de redémarrer le moteur audio.
 
-**Q: The TTS reading sounds very unnatural?**  
-A: The app uses iOS's built-in TTS engine. You can switch between different voice packs and speech rates in Settings. TTS quality for some languages (like Traditional Chinese) depends on your iOS version — updating to the latest iOS typically improves quality.
+**Q : La lecture TTS semble très peu naturelle ?**  
+R : L'application utilise le moteur TTS intégré d'iOS. Vous pouvez basculer entre différents packs vocaux et vitesses de parole dans les Réglages. La qualité TTS pour certaines langues (comme le chinois traditionnel) dépend de votre version iOS — mettre à jour vers la dernière version d'iOS améliore généralement la qualité.
 
-**Q: Auto-Ducking sometimes doesn't work?**  
-A: Auto-Ducking requires both background sound and TTS reading to be playing simultaneously. If only one audio source is active, ducking won't trigger. Make sure both sources are playing and that Auto-Ducking is enabled in Settings.
+**Q : L'atténuation automatique (Auto-Ducking) ne fonctionne parfois pas ?**  
+R : L'atténuation automatique nécessite que le son de fond et la lecture TTS soient tous deux en cours de lecture simultanément. Si une seule source audio est active, l'atténuation ne se déclenchera pas. Assurez-vous que les deux sources sont en lecture et que l'atténuation automatique est activée dans les Réglages.
 
-**Q: Saved soundscape settings disappear on next launch?**  
-A: This may happen if the app was force-closed before settings were saved. After adjusting settings, confirm the save before exiting the app.
+**Q : Les réglages de paysage sonore enregistrés disparaissent au prochain lancement ?**  
+R : Cela peut se produire si l'application a été fermée de force avant que les réglages aient été sauvegardés. Après avoir ajusté les réglages, confirmez la sauvegarde avant de quitter l'application.
 
-**Q: Can playback continue after the screen locks?**  
-A: Yes. The app supports background audio playback and continues after screen lock. If playback stops automatically, check the app's background refresh permission in iOS Settings.
-
----
-
-## Troubleshooting
-
-1. **Check that volume is not muted** (physical mute switch + media volume)
-2. **Try switching the audio output device** (wired vs. Bluetooth)
-3. **Force quit and relaunch the app**
-4. **Restart your device** to clear potential audio routing conflicts
-5. **Check iOS version** ≥ 17.0
+**Q : La lecture peut-elle se poursuivre après le verrouillage de l'écran ?**  
+R : Oui. L'application prend en charge la lecture audio en arrière-plan et continue après le verrouillage de l'écran. Si la lecture s'arrête automatiquement, vérifiez l'autorisation d'actualisation en arrière-plan de l'application dans les Réglages iOS.
 
 ---
 
-## Contact Support
+## Dépannage
+
+1. **Vérifiez que le volume n'est pas coupé** (bouton de sourdine physique + volume multimédia)
+2. **Essayez de changer le périphérique de sortie audio** (filaire vs. Bluetooth)
+3. **Forcer la fermeture et relancer l'application**
+4. **Redémarrez votre appareil** pour effacer les conflits potentiels de routage audio
+5. **Vérifiez la version iOS** ≥ 17.0
+
+---
+
+## Contacter l'assistance
 
 📧 **qqder339@gmail.com**  
-Subject: `[Auditory Companion] Issue Description`
+Objet : `[Auditory Companion] Description du problème`
 
-Please include: device model, iOS version, app version, headphone/speaker model, steps to reproduce.
+Veuillez inclure : modèle de l'appareil, version iOS, version de l'application, modèle d'écouteurs/haut-parleur, étapes pour reproduire.
 
-> This app collects no user data. All audio processing is performed entirely on-device.
+> Cette application ne collecte aucune donnée utilisateur. Tout le traitement audio est effectué entièrement sur l'appareil.

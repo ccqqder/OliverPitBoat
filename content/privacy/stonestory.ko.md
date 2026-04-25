@@ -1,54 +1,53 @@
 ---
-isStub: true
-title: StoneStory — Privacy Policy
+title: StoneStory — 개인정보 처리방침
 layout: simple
 showDate: false
 showReadingTime: false
 ---
 
-**Last Updated: 2026-04-15**
+**최종 업데이트: 2026-04-15**
 
 ---
 
-## 1. Overview
+## 1. 개요
 
-StoneStory, developed by QQder339, is an immersive reading and character simulation app based on the classic novel "Dream of the Red Chamber."
+QQder339가 개발한 StoneStory는 고전 소설 《홍루몽》을 바탕으로 한 몰입형 읽기 및 캐릭터 시뮬레이션 앱입니다.
 
-**In short: We do NOT collect, store, or transmit any of your personal data to external servers.**
+**요약: 당사는 귀하의 개인정보를 외부 서버로 수집, 저장 또는 전송하지 않습니다.**
 
-## 2. Data We Do NOT Collect
+## 2. 당사가 수집하지 않는 데이터
 
-This app does not collect:
+이 앱은 다음을 수집하지 않습니다:
 
-- Personally Identifiable Information (name, email, phone number)
-- Location data
-- Device identifiers
-- Usage analytics or tracking data
+- 개인 식별 정보(이름, 이메일, 전화번호)
+- 위치 데이터
+- 기기 식별자
+- 사용 분석 또는 추적 데이터
 
-## 3. Locally Stored Data
+## 3. 로컬 저장 데이터
 
-The following data is stored strictly on your device and never transmitted externally:
+아래 데이터는 오직 귀하의 기기에만 저장되며 외부로 전송되지 않습니다:
 
-- **Traveler Profile**: The name, personality traits, speech style, background, and optional avatar image you configure in Traveler Mode
-- **Interface Preferences**: Your selected display language (Traditional Chinese / English / Japanese) and chosen offline AI model
-- **Downloaded Content**: Character portraits and scene images cached after you view them in the app
-- **Offline AI Model**: The Qwen 2.5 model file you've chosen to download (stored in an App Group container for in-app use only)
+- **여행자 프로필**: 여행자 모드에서 설정한 이름, 성격 특성, 말투, 배경, 선택적 프로필 이미지
+- **인터페이스 환경설정**: 선택한 표시 언어(번체 중국어 / 영어 / 일본어) 및 선택한 오프라인 AI 모델
+- **다운로드된 콘텐츠**: 앱에서 본 후 캐시된 인물 초상화 및 장면 이미지
+- **오프라인 AI 모델**: 다운로드하기로 선택한 Qwen 2.5 모델 파일(앱 내 전용 App Group 컨테이너에 저장)
 
-## 4. Third-Party Services
+## 4. 제3자 서비스
 
-This app does **NOT** use any third-party analytics or advertising frameworks (No Google Analytics, No Facebook SDK, No Ads).
+이 앱은 제3자 분석 또는 광고 프레임워크를 **사용하지 않습니다** (No Google Analytics, No Facebook SDK, No Ads).
 
-## 5. Network Access
+## 5. 네트워크 접근
 
-Core reading and simulation features work **fully offline** and require no network connection. The following features initiate network requests only when you explicitly trigger them:
+핵심 읽기 및 시뮬레이션 기능은 **완전 오프라인**으로 작동하며 네트워크 연결이 필요하지 않습니다. 다음 기능은 귀하가 명시적으로 트리거할 때만 네트워크 요청을 시작합니다:
 
-- **Downloading Character Portraits / Scene Images**: The first time you view a character or scene, the app fetches the corresponding image from a public CDN and caches it locally
-- **Downloading the Offline AI Model**: When you choose to download the Qwen2.5 model in Settings, the app fetches the file from the model's public release source
-- **External Links**: Opens the system browser when you tap relevant links
+- **인물 초상화 / 장면 이미지 다운로드**: 인물이나 장면을 처음 볼 때 앱이 공개 CDN에서 해당 이미지를 가져와 로컬에 캐시
+- **오프라인 AI 모델 다운로드**: 설정에서 Qwen2.5 모델을 다운로드하기로 선택하면 앱이 모델의 공개 릴리스 소스에서 파일을 가져옴
+- **외부 링크**: 관련 링크 탭 시 시스템 브라우저 열기
 
-These network requests transmit only the URL of the file you've chosen. No personally identifiable information is attached, and no data is collected in return.
+이 네트워크 요청들은 귀하가 선택한 파일의 URL만 전송합니다. 개인 식별 정보는 포함되지 않으며, 그 대가로 어떤 데이터도 수집되지 않습니다.
 
-## 6. Contact Us
+## 6. 문의하기
 
 📧 **qqder339@gmail.com**  
-Subject: StoneStory Privacy Policy Inquiry
+제목: StoneStory 개인정보 처리방침 문의

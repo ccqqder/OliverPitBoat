@@ -1,49 +1,49 @@
 ---
-isStub: true
-title: Kana Juku Support
+title: Kana Juku 지원
 layout: simple
-summary: Support and contact for Kana Juku
+summary: Kana Juku 지원 및 문의
 app_slug: kana-juku
 showDate: false
 showReadingTime: false
 ---
 
+[App Store](https://apps.apple.com/app/id6756785942) · [개인정보 처리방침](/privacy/kana-juku/)
 
 ---
 
-## FAQ
+## 자주 묻는 질문
 
-**Q: Handwriting recognition keeps making mistakes. What should I do?**  
-A: Make sure you're not writing too fast — pause briefly after each stroke before lifting the pen. The recognition model needs complete stroke information. If the problem persists, try resetting the recognition calibration in Settings.
+**Q: 필기 인식이 계속 틀립니다. 어떻게 해야 하나요?**  
+A: 너무 빠르게 쓰지 않도록 주의하세요 — 각 획을 그은 후 펜을 떼기 전에 잠깐 멈춰 주세요. 인식 모델은 완전한 획 정보가 필요합니다. 문제가 계속되면 설정에서 인식 보정을 초기화해 보세요.
 
-**Q: How do I download the local AI model? Do I still need internet after downloading?**  
-A: When you first use an AI feature, the app will prompt you to download the model (a few hundred MB). Once downloaded, all AI features work **fully offline** — no internet connection required.
+**Q: 로컬 AI 모델을 어떻게 다운로드하나요? 다운로드 후에도 인터넷이 필요한가요?**  
+A: AI 기능을 처음 사용할 때 앱이 모델 다운로드를 안내합니다(수백 MB). 다운로드 후 모든 AI 기능은 **완전 오프라인**으로 작동하며 인터넷 연결이 필요하지 않습니다.
 
-**Q: The custom keyboard doesn't appear in other apps?**  
-A: The built-in keyboard in Kana Juku is for in-app use only and is not a system-level keyboard extension. To type Japanese in other apps, please use the iOS system Japanese keyboard.
+**Q: 커스텀 키보드가 다른 앱에서 표시되지 않나요?**  
+A: Kana Juku의 내장 키보드는 앱 내 전용이며 시스템 수준의 키보드 확장이 아닙니다. 다른 앱에서 일본어를 입력하려면 iOS 시스템 일본어 키보드를 사용하세요.
 
-**Q: The home screen widget isn't updating kana?**  
-A: Try long-pressing to remove the widget from the home screen, then re-adding it. If it still doesn't update, force-quit and relaunch the app, or restart your device.
+**Q: 홈 화면 위젯이 가나를 업데이트하지 않나요?**  
+A: 홈 화면에서 위젯을 길게 눌러 제거한 뒤 다시 추가해 보세요. 그래도 업데이트되지 않으면 앱을 강제 종료 후 다시 실행하거나 기기를 재시작하세요.
 
-**Q: My learning progress has disappeared?**  
-A: Progress is stored locally on your device. Uninstalling the app will erase all data. iCloud backup is not currently supported. If progress disappears without uninstalling, please email us with details.
-
----
-
-## Troubleshooting
-
-1. **Force quit and relaunch the app** (swipe up on the app in the app switcher)
-2. **Check iOS version** ≥ 17.0
-3. **Check available storage** (AI models require ~1–2 GB)
-4. If none of the above works, **uninstall and reinstall** (note: progress data will be erased)
+**Q: 학습 진도가 사라졌나요?**  
+A: 진도는 기기 로컬에 저장됩니다. 앱을 삭제하면 모든 데이터가 지워집니다. 현재 iCloud 백업은 지원되지 않습니다. 삭제하지 않았는데도 진도가 사라졌다면 자세한 내용과 함께 이메일로 연락해 주세요.
 
 ---
 
-## Contact Support
+## 문제 해결
+
+1. **앱을 강제 종료 후 다시 실행** (앱 전환기에서 위로 스와이프)
+2. **iOS 버전 확인** ≥ 17.0
+3. **저장 공간 확인** (AI 모델에 약 1~2GB 필요)
+4. 위 방법이 모두 효과 없으면 **삭제 후 재설치** (주의: 진도 데이터가 지워집니다)
+
+---
+
+## 지원 문의
 
 📧 **qqder339@gmail.com**  
-Subject: `[Kana Juku] Issue Description`
+제목: `[Kana Juku] Issue Description`
 
-Please include: device model, iOS version, app version, steps to reproduce (screenshots welcome).
+포함해 주세요: 기기 모델, iOS 버전, 앱 버전, 재현 단계(스크린샷 환영).
 
-> This app collects no user data. All data is stored locally on your device.
+> 이 앱은 사용자 데이터를 수집하지 않습니다. 모든 데이터는 기기 로컬에 저장됩니다. [개인정보 처리방침 보기 →](/privacy/kana-juku/)

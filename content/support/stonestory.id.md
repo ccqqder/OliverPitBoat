@@ -1,8 +1,7 @@
 ---
-isStub: true
-title: StoneStory Support
+title: Dukungan StoneStory
 layout: simple
-summary: Support and contact for StoneStory
+summary: Dukungan dan kontak untuk StoneStory
 app_slug: stonestory
 showDate: false
 showReadingTime: false
@@ -11,50 +10,50 @@ showReadingTime: false
 
 ---
 
-## FAQ
+## Pertanyaan Umum
 
-**Q: The app launches slowly or stalls on the splash screen.**  
-A: If you've downloaded the offline AI model (Standard 1.9 GB or High-Quality 4 GB), the app loads it into memory on launch; this may take several seconds on older devices. The first time you enter a chapter, the bundled database (characters, events, poems) is loaded — this is normal. If launch is unusually slow, please email us with your device model and iOS version.
+**T: Aplikasi membuka dengan lambat atau macet di layar splash.**  
+J: Jika Anda telah mengunduh model AI offline (Standard 1,9 GB atau High-Quality 4 GB), aplikasi akan memuatnya ke memori saat startup; ini mungkin membutuhkan beberapa detik di perangkat lama. Pertama kali memasuki sebuah bab, database bawaan (karakter, peristiwa, puisi) akan dimuat — ini normal. Jika startup sangat lambat, silakan kirim email kepada kami beserta model perangkat dan versi iOS Anda.
 
-**Q: Poetry or passages show garbled text, missing glyphs, or blank boxes.**  
-A: Three fonts are bundled in the app (LXGW WenKai TC, Noto Serif TC, Iansui) — no download or switching is required. If anomalies persist, please force-quit the app and relaunch, then send us a screenshot so we can fix it in the next release.
+**T: Puisi atau kutipan menampilkan teks kacau, glyph yang hilang, atau kotak kosong.**  
+J: Tiga font sudah disertakan dalam aplikasi (LXGW WenKai TC, Noto Serif TC, Iansui) — tidak diperlukan unduhan atau pergantian. Jika anomali berlanjut, paksa tutup aplikasi lalu buka kembali, kemudian kirimkan tangkapan layar kepada kami agar bisa kami perbaiki di rilis berikutnya.
 
-**Q: Is reading progress saved?**  
-A: In the current version (v1.1.1), **chapter playback progress is retained only within the current app session** — you can return to a chapter during the same session. However, if you force-quit the app or restart your device, chapter playback will start from the beginning. Persistent cross-session bookmarks are planned for a future release.
+**T: Apakah progres membaca tersimpan?**  
+J: Pada versi saat ini (v1.1.1), **progres pemutaran bab hanya dipertahankan dalam sesi aplikasi yang sedang berjalan** — Anda bisa kembali ke suatu bab selama sesi yang sama. Namun, jika Anda memaksa menutup aplikasi atau memulai ulang perangkat, pemutaran bab akan mulai dari awal. Bookmark lintas sesi yang persisten direncanakan untuk rilis mendatang.
 
-**Q: Character portraits or scene images won't load.**  
-A: Portraits and scene images are downloaded on-demand the first time you view them, and cached locally. If they won't load:
-1. Verify your network connection
-2. Swipe away from the screen and return to trigger a retry
-3. Or go to **Settings → Clear Art Cache** and re-enter with a stable network
+**T: Potret karakter atau gambar adegan tidak mau dimuat.**  
+J: Potret dan gambar adegan diunduh sesuai kebutuhan pertama kali Anda melihatnya, lalu di-cache secara lokal. Jika tidak mau dimuat:
+1. Verifikasi koneksi jaringan Anda
+2. Geser menjauh dari layar lalu kembali untuk memicu percobaan ulang
+3. Atau buka **Pengaturan → Hapus Cache Seni** dan masuk kembali dengan jaringan yang stabil
 
-**Q: The offline AI chat doesn't respond.**  
-A: First-time use requires downloading a Qwen 2.5 model under **Settings → Model Management**. Choose one based on your device:
-- **Small 1.5B** (~0.9 GB) — iPhone 15 / iPad Air
-- **Standard 3B** (~1.9 GB, default) — iPhone 15 Pro / iPad Pro
-- **High-Quality 7B** (~4.0 GB) — iPhone 16 Pro / iPad Pro M-series
+**T: Obrolan AI offline tidak merespons.**  
+J: Penggunaan pertama kali memerlukan mengunduh model Qwen 2.5 di **Pengaturan → Manajemen Model**. Pilih berdasarkan perangkat Anda:
+- **Small 1.5B** (~0,9 GB) — iPhone 15 / iPad Air
+- **Standard 3B** (~1,9 GB, default) — iPhone 15 Pro / iPad Pro
+- **High-Quality 7B** (~4,0 GB) — iPhone 16 Pro / iPad Pro M-series
 
-Ensure sufficient free space on your device. Once downloaded, the chat runs fully offline.
+Pastikan ruang kosong yang cukup di perangkat Anda. Setelah diunduh, obrolan berjalan sepenuhnya offline.
 
-**Q: Can the app be used offline?**  
-A: Yes. Chapter playback, True Endings, personality system, poem/object collections, and on-device AI chat (after model download) all work offline. Only character portraits, scene images, and the AI model file require an internet connection on first retrieval.
-
----
-
-## Troubleshooting
-
-1. **Force-quit and relaunch the app**
-2. **Check iOS version** ≥ 17.0
-3. If a specific chapter misbehaves, note its name and email us
-4. **Uninstall and reinstall** (your Traveler profile and downloaded images will be cleared)
+**T: Apakah aplikasi bisa digunakan secara offline?**  
+J: Ya. Pemutaran bab, True Endings, sistem kepribadian, koleksi puisi/benda, dan obrolan AI di perangkat (setelah model diunduh) semuanya berjalan offline. Hanya potret karakter, gambar adegan, dan file model AI yang memerlukan koneksi internet pada pengambilan pertama.
 
 ---
 
-## Contact Support
+## Pemecahan Masalah
+
+1. **Paksa tutup lalu buka kembali aplikasi**
+2. **Periksa versi iOS** ≥ 17.0
+3. Jika bab tertentu bermasalah, catat namanya dan kirim email kepada kami
+4. **Hapus dan instal ulang** (profil Traveler dan gambar yang diunduh akan dihapus)
+
+---
+
+## Hubungi Dukungan
 
 📧 **qqder339@gmail.com**  
-Subject: `[StoneStory] Issue Description`
+Subjek: `[StoneStory] Issue Description`
 
-Please include: device model, iOS version, app version, steps to reproduce (screenshots preferred).
+Mohon sertakan: model perangkat, versi iOS, versi aplikasi, langkah reproduksi (tangkapan layar lebih baik).
 
-> This app collects no user data. All content is stored locally on your device.
+> Aplikasi ini tidak mengumpulkan data pengguna. Semua konten disimpan secara lokal di perangkat Anda.

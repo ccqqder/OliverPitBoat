@@ -1,8 +1,7 @@
 ---
-isStub: true
-title: Auditory Companion Support
+title: Dukungan Auditory Companion
 layout: simple
-summary: Support and contact for Auditory Companion
+summary: Dukungan dan kontak untuk Auditory Companion
 app_slug: auditory-companion
 showDate: false
 showReadingTime: false
@@ -11,40 +10,40 @@ showReadingTime: false
 
 ---
 
-## FAQ
+## Pertanyaan Umum
 
-**Q: There's static or crackling during audio playback?**  
-A: Some noise may come from Bluetooth headphone connection issues. Try switching to wired headphones to test. If the issue persists with wired headphones, try adjusting the sample rate in Settings or restarting the audio engine.
+**T: Ada suara statis atau gemerisik saat pemutaran audio?**  
+J: Beberapa gangguan mungkin berasal dari masalah koneksi headphone Bluetooth. Coba beralih ke headphone berkabel untuk menguji. Jika masalah tetap ada dengan headphone berkabel, coba sesuaikan sample rate di Pengaturan atau mulai ulang mesin audio.
 
-**Q: The TTS reading sounds very unnatural?**  
-A: The app uses iOS's built-in TTS engine. You can switch between different voice packs and speech rates in Settings. TTS quality for some languages (like Traditional Chinese) depends on your iOS version — updating to the latest iOS typically improves quality.
+**T: Pembacaan TTS terdengar sangat tidak alami?**  
+J: Aplikasi menggunakan mesin TTS bawaan iOS. Anda bisa beralih antara paket suara dan kecepatan bicara berbeda di Pengaturan. Kualitas TTS untuk beberapa bahasa (seperti Bahasa Mandarin Tradisional) bergantung pada versi iOS Anda — memperbarui ke iOS terbaru biasanya meningkatkan kualitasnya.
 
-**Q: Auto-Ducking sometimes doesn't work?**  
-A: Auto-Ducking requires both background sound and TTS reading to be playing simultaneously. If only one audio source is active, ducking won't trigger. Make sure both sources are playing and that Auto-Ducking is enabled in Settings.
+**T: Auto-Ducking terkadang tidak berfungsi?**  
+J: Auto-Ducking memerlukan suara latar belakang dan pembacaan TTS berjalan secara bersamaan. Jika hanya satu sumber audio yang aktif, ducking tidak akan terpicu. Pastikan kedua sumber sedang diputar dan Auto-Ducking diaktifkan di Pengaturan.
 
-**Q: Saved soundscape settings disappear on next launch?**  
-A: This may happen if the app was force-closed before settings were saved. After adjusting settings, confirm the save before exiting the app.
+**T: Pengaturan soundscape yang tersimpan hilang saat aplikasi dibuka kembali?**  
+J: Hal ini bisa terjadi jika aplikasi ditutup paksa sebelum pengaturan disimpan. Setelah menyesuaikan pengaturan, konfirmasi penyimpanan sebelum keluar dari aplikasi.
 
-**Q: Can playback continue after the screen locks?**  
-A: Yes. The app supports background audio playback and continues after screen lock. If playback stops automatically, check the app's background refresh permission in iOS Settings.
-
----
-
-## Troubleshooting
-
-1. **Check that volume is not muted** (physical mute switch + media volume)
-2. **Try switching the audio output device** (wired vs. Bluetooth)
-3. **Force quit and relaunch the app**
-4. **Restart your device** to clear potential audio routing conflicts
-5. **Check iOS version** ≥ 17.0
+**T: Apakah pemutaran bisa berlanjut setelah layar terkunci?**  
+J: Ya. Aplikasi mendukung pemutaran audio di latar belakang dan berlanjut setelah layar terkunci. Jika pemutaran berhenti otomatis, periksa izin penyegaran latar belakang aplikasi di Pengaturan iOS.
 
 ---
 
-## Contact Support
+## Pemecahan Masalah
+
+1. **Periksa bahwa volume tidak dibisukan** (sakelar bisu fisik + volume media)
+2. **Coba beralih perangkat output audio** (berkabel vs. Bluetooth)
+3. **Paksa tutup lalu buka kembali aplikasi**
+4. **Mulai ulang perangkat** untuk membersihkan konflik perutean audio
+5. **Periksa versi iOS** ≥ 17.0
+
+---
+
+## Hubungi Dukungan
 
 📧 **qqder339@gmail.com**  
-Subject: `[Auditory Companion] Issue Description`
+Subjek: `[Auditory Companion] Issue Description`
 
-Please include: device model, iOS version, app version, headphone/speaker model, steps to reproduce.
+Mohon sertakan: model perangkat, versi iOS, versi aplikasi, model headphone/speaker, langkah reproduksi.
 
-> This app collects no user data. All audio processing is performed entirely on-device.
+> Aplikasi ini tidak mengumpulkan data pengguna. Semua pemrosesan audio dilakukan sepenuhnya di perangkat.

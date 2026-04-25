@@ -1,64 +1,63 @@
 ---
-isStub: true
-title: Gantt Planet — Privacy Policy
+title: Gantt Planet — Kebijakan Privasi
 layout: simple
 showDate: false
 showReadingTime: false
 ---
 
-**Last Updated: 2026-04-15**
+**Terakhir diperbarui: 2026-04-15**
 
 ---
 
-## 1. Overview
+## 1. Ikhtisar
 
-Gantt Planet, developed by QQder339, is a life goal management app combining 3D visual habit tracking with an on-device AI companion.
+Gantt Planet, dikembangkan oleh QQder339, adalah aplikasi manajemen tujuan hidup yang menggabungkan pelacakan kebiasaan visual 3D dengan AI companion di perangkat.
 
-**In short: We do NOT collect, store, or transmit any of your personal data to external servers. Your habits, journals, and conversations belong only to you.**
+**Singkatnya: Kami TIDAK mengumpulkan, menyimpan, atau mengirimkan data pribadi Anda ke server eksternal. Kebiasaan, jurnal, dan percakapan Anda hanya milik Anda.**
 
-## 2. Data We Do NOT Collect
+## 2. Data yang TIDAK kami kumpulkan
 
-This app does not collect:
+Aplikasi ini tidak mengumpulkan:
 
-- Personally Identifiable Information (name, email, phone number)
-- Location data
-- Device identifiers
-- Usage analytics or tracking data
+- Informasi identitas pribadi (nama, email, nomor telepon)
+- Data lokasi
+- Pengenal perangkat
+- Data analitik penggunaan atau pelacakan
 
-## 3. Locally Stored Data
+## 3. Data yang disimpan secara lokal
 
-The following data is stored strictly on your device and never transmitted externally:
+Data berikut disimpan sepenuhnya di perangkat Anda dan tidak pernah ditransmisikan ke luar:
 
-- **Habits & Goals**: All items, completion records, and timeline data
-- **AI Conversation Logs**: All conversations with the built-in AI stored locally
-- **Journals & Mood Records**: All journal content
-- **Art Collection**: Unlocked stickers and illustration records
-- **3D Planet State**: Your planet's terrain and growth data
-- **User Settings**: All preference settings
+- **Kebiasaan & Tujuan**: Semua item, catatan penyelesaian, dan data timeline
+- **Log Percakapan AI**: Semua percakapan dengan AI bawaan yang disimpan secara lokal
+- **Jurnal & Catatan Suasana Hati**: Semua konten jurnal
+- **Koleksi Seni**: Stiker yang dibuka dan catatan ilustrasi
+- **Status Planet 3D**: Data medan dan pertumbuhan planet Anda
+- **Pengaturan Pengguna**: Semua pengaturan preferensi
 
-## 4. Offline AI Features
+## 4. Fitur AI Offline
 
-The AI companion feature runs entirely on-device:
+Fitur AI companion berjalan sepenuhnya di perangkat:
 
-- **AI Conversations**: Uses local Large Language Models (LLM); all inference runs on-device; conversation content is never transmitted to any server
-- **Model Download**: AI models require a one-time download before first use (user-initiated); fully offline after download
+- **Percakapan AI**: Menggunakan Model Bahasa Besar (LLM) lokal; semua inferensi berjalan di perangkat; konten percakapan tidak pernah dikirim ke server mana pun
+- **Unduhan Model**: Model AI memerlukan unduhan satu kali sebelum penggunaan pertama (diprakarsai pengguna); sepenuhnya offline setelah diunduh
 
-## 5. Third-Party Services
+## 5. Layanan Pihak Ketiga
 
-This app does **NOT** use any third-party analytics or advertising frameworks (No Google Analytics, No Facebook SDK, No Ads).
+Aplikasi ini **TIDAK** menggunakan framework analitik atau iklan pihak ketiga (No Google Analytics, No Facebook SDK, No Ads).
 
-## 6. Network Access
+## 6. Akses Jaringan
 
-Network access is restricted to:
+Akses jaringan dibatasi untuk:
 
-- **Downloading AI Models** (Optional, one-time): Only connects when you explicitly choose to download
-- **Downloading Art Collection Stickers** (On-demand): When you unlock art rewards, the app fetches matching images from a public GitHub repository and caches them locally for offline use
-- **Weather Information** (Optional): If you enable real weather, only minimal regional data is sent to retrieve weather
-- **External Links**: Opens browser when tapping relevant links
+- **Mengunduh Model AI** (Opsional, satu kali): Hanya terhubung saat Anda secara eksplisit memilih mengunduh
+- **Mengunduh Stiker Koleksi Seni** (Sesuai kebutuhan): Saat Anda membuka hadiah seni, aplikasi mengambil gambar yang sesuai dari repositori GitHub publik dan menyimpannya secara lokal untuk penggunaan offline
+- **Informasi Cuaca** (Opsional): Jika Anda mengaktifkan cuaca nyata, hanya data regional minimal yang dikirim untuk mengambil informasi cuaca
+- **Tautan Eksternal**: Membuka browser saat mengetuk tautan terkait
 
-These requests transmit only the URL of the resource you chose or triggered; no personally identifiable information is attached.
+Permintaan ini hanya mengirimkan URL sumber daya yang Anda pilih atau picu; tidak ada informasi identitas pribadi yang dilampirkan.
 
-## 7. Contact Us
+## 7. Hubungi Kami
 
 📧 **qqder339@gmail.com**  
-Subject: Gantt Planet Privacy Policy Inquiry
+Subjek: Pertanyaan Kebijakan Privasi Gantt Planet

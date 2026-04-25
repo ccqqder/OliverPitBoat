@@ -1,8 +1,7 @@
 ---
-isStub: true
-title: Kana Juku Support
+title: Kana Juku — Assistance
 layout: simple
-summary: Support and contact for Kana Juku
+summary: Assistance et contact pour Kana Juku
 app_slug: kana-juku
 showDate: false
 showReadingTime: false
@@ -13,37 +12,37 @@ showReadingTime: false
 
 ## FAQ
 
-**Q: Handwriting recognition keeps making mistakes. What should I do?**  
-A: Make sure you're not writing too fast — pause briefly after each stroke before lifting the pen. The recognition model needs complete stroke information. If the problem persists, try resetting the recognition calibration in Settings.
+**Q : La reconnaissance de l'écriture manuscrite continue de faire des erreurs. Que dois-je faire ?**  
+R : Assurez-vous de ne pas écrire trop vite — faites une courte pause après chaque trait avant de lever le stylet. Le modèle de reconnaissance a besoin d'informations complètes sur les traits. Si le problème persiste, essayez de réinitialiser l'étalonnage de la reconnaissance dans les Réglages.
 
-**Q: How do I download the local AI model? Do I still need internet after downloading?**  
-A: When you first use an AI feature, the app will prompt you to download the model (a few hundred MB). Once downloaded, all AI features work **fully offline** — no internet connection required.
+**Q : Comment télécharger le modèle IA local ? Ai-je encore besoin d'internet après le téléchargement ?**  
+R : Lors de la première utilisation d'une fonctionnalité IA, l'application vous invitera à télécharger le modèle (quelques centaines de Mo). Une fois téléchargé, toutes les fonctionnalités IA fonctionnent **entièrement hors ligne** — aucune connexion internet n'est requise.
 
-**Q: The custom keyboard doesn't appear in other apps?**  
-A: The built-in keyboard in Kana Juku is for in-app use only and is not a system-level keyboard extension. To type Japanese in other apps, please use the iOS system Japanese keyboard.
+**Q : Le clavier personnalisé n'apparaît pas dans d'autres applications ?**  
+R : Le clavier intégré de Kana Juku est destiné uniquement à un usage dans l'application et n'est pas une extension de clavier au niveau du système. Pour saisir du japonais dans d'autres applications, veuillez utiliser le clavier japonais système d'iOS.
 
-**Q: The home screen widget isn't updating kana?**  
-A: Try long-pressing to remove the widget from the home screen, then re-adding it. If it still doesn't update, force-quit and relaunch the app, or restart your device.
+**Q : Le widget de l'écran d'accueil ne met pas à jour les kana ?**  
+R : Essayez d'appuyer longuement pour supprimer le widget de l'écran d'accueil, puis rajoutez-le. S'il ne se met toujours pas à jour, forcez la fermeture et relancez l'application, ou redémarrez votre appareil.
 
-**Q: My learning progress has disappeared?**  
-A: Progress is stored locally on your device. Uninstalling the app will erase all data. iCloud backup is not currently supported. If progress disappears without uninstalling, please email us with details.
-
----
-
-## Troubleshooting
-
-1. **Force quit and relaunch the app** (swipe up on the app in the app switcher)
-2. **Check iOS version** ≥ 17.0
-3. **Check available storage** (AI models require ~1–2 GB)
-4. If none of the above works, **uninstall and reinstall** (note: progress data will be erased)
+**Q : Ma progression d'apprentissage a disparu ?**  
+R : La progression est stockée localement sur votre appareil. La désinstallation de l'application effacera toutes les données. La sauvegarde iCloud n'est actuellement pas prise en charge. Si la progression disparaît sans désinstallation, envoyez-nous un e-mail avec les détails.
 
 ---
 
-## Contact Support
+## Dépannage
+
+1. **Forcer la fermeture et relancer l'application** (faire glisser vers le haut dans le sélecteur d'applications)
+2. **Vérifiez la version iOS** ≥ 17.0
+3. **Vérifiez l'espace de stockage disponible** (les modèles IA nécessitent ~1–2 Go)
+4. Si rien de ce qui précède ne fonctionne, **désinstallez et réinstallez** (note : les données de progression seront effacées)
+
+---
+
+## Contacter l'assistance
 
 📧 **qqder339@gmail.com**  
-Subject: `[Kana Juku] Issue Description`
+Objet : `[Kana Juku] Description du problème`
 
-Please include: device model, iOS version, app version, steps to reproduce (screenshots welcome).
+Veuillez inclure : modèle de l'appareil, version iOS, version de l'application, étapes pour reproduire (captures d'écran bienvenues).
 
-> This app collects no user data. All data is stored locally on your device.
+> Cette application ne collecte aucune donnée utilisateur. Toutes les données sont stockées localement sur votre appareil.
