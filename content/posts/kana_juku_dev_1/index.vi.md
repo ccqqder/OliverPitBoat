@@ -1,55 +1,55 @@
 ---
-isStub: true
-title: "Kana Juku Dev Log (Part 1): From Chatbots to AI Agents"
+title: "Kana Juku Dev Log (Phần 1): Từ Chatbots đến AI Agent"
 date: 2026-02-22T13:16:34.278Z
 author: "QQder"
 categories:
-  - The Workshop
+  - Hội thảo
 tags:
-  - iOS App
-  - On-Device AI
-  - Handwriting Recognition
+  - Ứng dụng iOS
+  - AI trên thiết bị
+  - Nhận dạng chữ viết tay
   - udemy
-  - claude
-  - claude code
-  - gemini
-  - gemini cli
+  - Claude
+  - mã Claude
+  - song tử
+  - song tử cli
   - swiftUI
   - UIKit
 keywords:
-  - AI agent
-  - claude code
-  - gemini cli
-  - iOS development
-  - indie developer
+  - đặc vụ AI
+  - mã Claude
+  - song tử cli
+  - phát triển iOS
+  - nhà phát triển độc lập
   - kana juku
-  - Japanese learning
+  - học tiếng nhật
   - swiftUI
-  - On-Device AI
-  - opus
+  - AI trên thiết bị
+  - tác phẩm
   - chatbot
-description: "Sharing my experience developing my first app, Kana Juku — a journey that also traces my shift from chatbots to AI agents"
+description: "Chia sẻ kinh nghiệm phát triển ứng dụng đầu tiên của tôi, Kana Juku - hành trình cũng đánh dấu sự chuyển đổi của tôi từ chatbot sang tác nhân AI"
 ---
 
-# Preface
 
-Kana Juku is the first app I ever built and shipped to the App Store.
+# Lời nói đầu
 
-Since it was my first, there's a full story arc to share.
+Kana Juku là ứng dụng đầu tiên tôi xây dựng và đưa lên App Store.
 
-This series covers the development process, how I used AI assistance and how that evolved, working with public datasets and copyright considerations, and more.
+Vì đây là lần đầu tiên của tôi nên có cả một câu chuyện đầy đủ để chia sẻ.
 
-If other apps have noteworthy stories, I'll publish those separately.
+Loạt bài này bao gồm quá trình phát triển, cách tôi sử dụng hỗ trợ AI và cách nó phát triển, làm việc với các tập dữ liệu công cộng và cân nhắc về bản quyền, v.v.
 
-This post focuses on the transition from chatbots to AI agents starting in **Q4 2025**.
+Nếu các ứng dụng khác có những câu chuyện đáng chú ý, tôi sẽ xuất bản riêng những câu chuyện đó.
 
-Things move fast in this space, so I've bluntly timestamped the key moments.
+Bài đăng này tập trung vào quá trình chuyển đổi từ chatbot sang tác nhân AI bắt đầu từ **Q4 năm 2025**.
 
-## About the App
+Mọi thứ diễn ra rất nhanh trong không gian này nên tôi đã thẳng thắn đánh dấu thời gian cho những khoảnh khắc quan trọng.
 
-If you have an Apple device, feel free to download it and give it a try.
+## Giới thiệu về ứng dụng
 
-Several upcoming posts will also use this app as a running example — topics like cleaning [ETL datasets](https://etlcdb.db.aist.go.jp/), [Apple Create ML](https://developer.apple.com/machine-learning/create-ml/), [PyTorch](https://pytorch.org/), [VOICEVOX](https://voicevox.hiroshiba.jp/), on-device large language models, and more.
+Nếu bạn có thiết bị Apple, vui lòng tải xuống và dùng thử.
+
+Một số bài đăng sắp tới cũng sẽ sử dụng ứng dụng này làm ví dụ đang chạy — các chủ đề như dọn dẹp [bộ dữ liệu ETL](https://etlcdb.db.aist.go.jp/), [Apple Create ML](https://developer.apple.com/machine-learning/create-ml/), [PyTorch](https://pytorch.org/), [VOICEVOX](https://voicevox.hiroshiba.jp/), mô hình ngôn ngữ lớn trên thiết bị, v.v.
 
 Kana Juku: [URL](https://apps.apple.com/us/app/%E5%81%87%E5%90%8D%E7%A7%81%E5%A1%BE/id6756785942)
 
@@ -57,112 +57,112 @@ Kana Juku: [URL](https://apps.apple.com/us/app/%E5%81%87%E5%90%8D%E7%A7%81%E5%A1
 
 ***
 
-# Development Timeline
+# Dòng thời gian phát triển
 
-### Motivation
+### Động lực
 
-My family and I are both interested in learning Japanese, and I've long wanted a Japanese-learning app that perfectly fits our needs.
+Tôi và gia đình đều thích học tiếng Nhật và từ lâu tôi đã mong muốn có một ứng dụng học tiếng Nhật hoàn toàn phù hợp với nhu cầu của mình.
 
-My family's pain point is that they don't read English, so the romaji in most textbooks and apps is meaningless to them.
+Điểm đau đầu của gia đình tôi là họ không đọc được tiếng Anh nên chữ romaji trong hầu hết sách giáo khoa và ứng dụng đều vô nghĩa đối với họ.
 
-For me, I really wanted kana displayed alongside their kanji origins (e.g., "あ" derives from "安").
+Đối với tôi, tôi thực sự muốn kana được hiển thị cùng với nguồn gốc chữ kanji của chúng (ví dụ: "あ" bắt nguồn từ "安").
 
-Another annoyance: I installed the Japanese keyboard for occasional use, but switching input methods every day meant an extra tap to skip past the Japanese keyboard — a small friction that added up.
+Một điều khó chịu khác: Tôi đã cài đặt bàn phím tiếng Nhật để thỉnh thoảng sử dụng, nhưng việc chuyển đổi phương thức nhập hàng ngày đồng nghĩa với việc phải nhấn thêm một lần nữa để bỏ qua bàn phím tiếng Nhật - một chút xích mích đã tăng thêm.
 
-### Early Preparation
+### Chuẩn bị sớm
 
-**[Q4 2024]**
+**[Quý 4 năm 2024]**
 
-I was between jobs at the time, so I had the bandwidth to take [Udemy](https://www.udemy.com/) courses. Since I had some JavaScript experience, I started with [React](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwih6Kzo2O-SAxUl3zQHHZoSL-kQFnoECDYQAQ&url=https%3A%2F%2Fzh-hant.legacy.reactjs.org%2F&usg=AOvVaw3Q6fqYyboB_gQOnPVX_tbN&opi=89978449) & [Expo](https://expo.dev/).
+Vào thời điểm đó, tôi đang nghỉ việc nên tôi có đủ thời gian để tham gia các khóa học [Udemy](https://www.udemy.com/). Vì tôi đã có một số kinh nghiệm về JavaScript nên tôi bắt đầu với [React](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwih6Kzo2O-SAxUl3zQHHZoSL-kQFnoECDYQAQ&url=https%3A%2F%2Fzh-hant.legacy.reactjs.org%2F&usg=AOvVaw3Q6fqYyboB_gQOnPVX_tbN&opi=89978449) & [Expo](https://expo.dev/).
 
-At this stage I was following along with course content — simple web-style pages, plus extras like GPS, camera control, and fetching remote data.
+Ở giai đoạn này, tôi đang theo dõi nội dung khóa học - các trang kiểu web đơn giản cùng với các tính năng bổ sung như GPS, điều khiển máy ảnh và tìm nạp dữ liệu từ xa.
 
-But since it wasn't Apple's native ecosystem, there was a lot of extra tooling to manage.
+Nhưng vì đây không phải là hệ sinh thái gốc của Apple nên có rất nhiều công cụ bổ sung cần quản lý.
 
-**[Q1 2025]**
+**[Quý 1 năm 2025]**
 
-After hesitating for a long time, I bought a Mac Mini and switched entirely to Apple's own SwiftUI. Again, I learned from Udemy courses.
+Sau một thời gian đắn đo, tôi đã mua một chiếc Mac Mini và chuyển hoàn toàn sang SwiftUI của chính Apple. Một lần nữa, tôi đã học được từ các khóa học của Udemy.
 
-Most of my time went into getting comfortable with basic UI components and layouts, plus all the fundamental features — data persistence, fetching data, embedding maps — and their SwiftUI equivalents.
+Phần lớn thời gian của tôi dành cho việc làm quen với các thành phần và bố cục giao diện người dùng cơ bản, cùng với tất cả các tính năng cơ bản - lưu giữ dữ liệu, tìm nạp dữ liệu, nhúng bản đồ - và các tính năng tương đương SwiftUI của chúng.
 
-SwiftUI is more modern and isn't as tightly coupled to Xcode as UIKit, but it's also harder to predict how a SwiftUI layout will actually look. Early on I cared too much about that and burned a lot of time experimenting.
+SwiftUI hiện đại hơn và không được kết hợp chặt chẽ với Xcode như UIKit, nhưng cũng khó dự đoán bố cục SwiftUI thực sự sẽ trông như thế nào. Ngay từ đầu, tôi đã quan tâm quá nhiều đến điều đó và đã dành rất nhiều thời gian để thử nghiệm.
 
-**[Q3 2025]**
+**[Quý 3 năm 2025]**
 
-Since I had a day job and could only code in the evenings — and not every evening at that — progress was slow. I was basically building out the basic skeleton and plugging in the Japanese language data.
+Vì tôi có một công việc ban ngày và chỉ có thể viết mã vào buổi tối - chứ không phải mỗi buổi tối - nên tiến độ rất chậm. Về cơ bản, tôi đang xây dựng bộ khung cơ bản và cắm dữ liệu tiếng Nhật vào.
 
-With a first app, it's hard to foresee the final shape, so I kept revising. Sometimes I'd circle back to rewatch course videos for features I now knew I needed. Essentially, I was paying tuition.
+Với ứng dụng đầu tiên, thật khó để đoán trước hình dạng cuối cùng nên tôi liên tục chỉnh sửa. Đôi khi tôi quay lại để xem lại các video khóa học để biết các tính năng mà giờ đây tôi biết mình cần. Về cơ bản, tôi đã trả học phí.
 
-Up to this point, starting from **Q1 2024**, plain chatbots like ChatGPT were already a big help for coding.
+Tính đến thời điểm này, bắt đầu từ **Q1 2024**, các chatbot đơn giản như ChatGPT đã trợ giúp rất nhiều cho việc viết mã.
 
-But the copy-paste cycle and having to explain mountains of context was incredibly time-consuming. The output often missed the mark on the first try or drifted off course, sending me right back to the copy-paste loop. It never reached a positive feedback cycle — it was only useful as a learning reference.
+Nhưng chu trình sao chép-dán và phải giải thích hàng núi ngữ cảnh tốn rất nhiều thời gian. Kết quả đầu ra thường không đạt yêu cầu trong lần thử đầu tiên hoặc bị sai hướng, khiến tôi phải quay lại vòng lặp sao chép-dán. Nó chưa bao giờ đạt đến chu kỳ phản hồi tích cực — nó chỉ hữu ích như một tài liệu tham khảo học tập.
 
-At the time, the hottest tool was actually the Cursor editor with its tab-autocomplete, but it required a subscription for meaningful usage, so I **didn't try it**.
+Vào thời điểm đó, công cụ phổ biến nhất thực sự là trình chỉnh sửa Con trỏ với tính năng tự động hoàn thành tab, nhưng nó yêu cầu đăng ký để sử dụng có ý nghĩa, vì vậy tôi **không thử**.
 
-Meanwhile, Claude was already gaining popularity as the best model for coding, and Anthropic had released Claude Code — an AI agent that runs on your local machine. But again, it required a subscription, so I didn't try it.
+Trong khi đó, Claude đã trở nên nổi tiếng với tư cách là mô hình viết mã tốt nhất và Anthropic đã phát hành Claude Code - một tác nhân AI chạy trên máy cục bộ của bạn. Nhưng một lần nữa, nó yêu cầu đăng ký nên tôi đã không thử.
 
 ***
 
-### Pivoting to AI Agents
+### Chuyển hướng sang các tác nhân AI
 
-**[Q4 2025]**
+**[Quý 4 năm 2025]**
 
-At this point I expected I'd only ever subscribe to one chatbot at a time, and I had just switched from ChatGPT to Google Gemini.
+Tại thời điểm này, tôi dự kiến ​​mình chỉ đăng ký một chatbot mỗi lần và tôi vừa chuyển từ ChatGPT sang Google Gemini.
 
-Spec-Driven Development (SDD) was trending, and Google had launched Gemini CLI — their answer to Claude Code — so I finally **gave it a shot**.
+Phát triển theo hướng đặc tả (SDD) đang là xu hướng và Google đã tung ra Gemini CLI — câu trả lời của họ cho Claude Code — vì vậy cuối cùng tôi **đã thử**.
 
-I discovered that agents eliminated the copy-paste step entirely, massively boosting efficiency. The step of pasting code back and hunting for which lines to change was also gone.
+Tôi phát hiện ra rằng các đại lý đã loại bỏ hoàn toàn bước sao chép-dán, giúp nâng cao hiệu quả một cách đáng kể. Bước dán lại mã và tìm xem dòng nào cần thay đổi cũng không còn nữa.
 
-By then I was convinced: for coding, you should use an agent, not a chatbot. So I went ahead and subscribed to Claude to use Claude Code (CC from here on).
+Lúc đó tôi đã bị thuyết phục: để viết mã, bạn nên sử dụng một tác nhân chứ không phải chatbot. Vì vậy, tôi đã tiếp tục và đăng ký Claude để sử dụng Mã Claude (CC kể từ đây trở đi).
 
-CC's underlying model was clearly stronger. Its comprehension of conversations and its ability to execute as expected were already remarkably reliable.
+Mô hình cơ bản của CC rõ ràng mạnh hơn. Khả năng hiểu các cuộc hội thoại và khả năng thực hiện như mong đợi của nó vốn đã rất đáng tin cậy.
 
-#### Controlling the Computer, and Opus 4.5
+#### Điều khiển máy tính và Opus 4.5
 
-One time my Mac Mini's disk was completely full and the machine was unusable. I just asked CC what to do — the same way I'd ask a question on a chatbot's web page.
+Một lần, đĩa Mac Mini của tôi đã đầy và máy không thể sử dụng được. Tôi vừa hỏi CC phải làm gì — giống như cách tôi đặt câu hỏi trên trang web của chatbot.
 
-CC came back with a concrete plan: which directories could be cleared, what could be moved to an external drive, and so on.
+CC đã quay lại với một kế hoạch cụ thể: những thư mục nào có thể bị xóa, những gì có thể được chuyển sang ổ đĩa ngoài, v.v.
 
-I was worried it might brick my computer, so I approved each step one at a time. In the end, everything went smoothly.
+Tôi lo lắng nó có thể làm hỏng máy tính của tôi nên tôi chấp thuận từng bước một. Cuối cùng, mọi thứ đều diễn ra suôn sẻ.
 
-I wasn't very familiar with macOS or the Xcode build environment. That's when I realized AI has at least an 80% understanding of *everything* — including things I don't know — and that being able to write code is roughly equivalent to being able to operate a computer.
+Tôi không quen lắm với macOS hoặc môi trường xây dựng Xcode. Đó là khi tôi nhận ra rằng AI có ít nhất 80% hiểu biết về *mọi thứ* — kể cả những điều tôi không biết — và khả năng viết mã gần tương đương với khả năng vận hành máy tính.
 
-Because CC could directly control the machine, it moved freely between directories, wrote code, saw its own errors, and fixed them — a fully self-sustaining positive feedback loop.
+Vì CC có thể trực tiếp điều khiển máy nên nó di chuyển tự do giữa các thư mục, viết mã, nhìn thấy lỗi của chính mình và sửa chúng - một vòng phản hồi tích cực hoàn toàn tự duy trì.
 
-The development speed with an agent was on a completely different level, and the fact that I'd waited three extra months before switching to CC made me feel pretty foolish.
+Tốc độ phát triển với một đại lý ở một cấp độ hoàn toàn khác, và việc tôi phải đợi thêm ba tháng trước khi chuyển sang CC khiến tôi cảm thấy khá ngu ngốc.
 
-The time wasted was staggering, both subjectively and objectively.
+Thời gian lãng phí thật đáng kinh ngạc, cả về mặt chủ quan và khách quan.
 
-Subjectively: if I had adopted the latest tools earlier, the previous three months of work could have been done in two to three weeks.
+Về mặt chủ quan: nếu tôi áp dụng các công cụ mới nhất sớm hơn thì ba tháng làm việc trước đó có thể hoàn thành trong hai đến ba tuần.
 
-Objectively: other people using the latest tools were more productive than me and shipping their products sooner.
+Khách quan mà nói: những người khác sử dụng các công cụ mới nhất làm việc hiệu quả hơn tôi và vận chuyển sản phẩm của họ sớm hơn.
 
-My earlier refusal to try — saving maybe half an hour of setup time and a few hundred dollars in subscription fees — ended up wasting vast stretches of my life.
+Việc tôi từ chối thử trước đây - có thể tiết kiệm nửa giờ thời gian thiết lập và vài trăm đô la phí đăng ký - cuối cùng đã lãng phí rất nhiều thời gian trong cuộc đời tôi.
 
-This might also explain why so many people are obsessed with chasing the latest AI product news.
+Điều này cũng có thể giải thích tại sao rất nhiều người bị ám ảnh bởi việc theo đuổi những tin tức mới nhất về sản phẩm AI.
 
-At least that's how it is for me — I can't afford not to stay on top of the latest releases. It's a form of time-management risk hedging.
+Ít nhất đó là cách đối với tôi - tôi không thể không cập nhật các bản phát hành mới nhất. Đó là một hình thức phòng ngừa rủi ro quản lý thời gian.
 
-**[November 24, 2025]**
+**[Ngày 24 tháng 11 năm 2025]**
 
-Opus 4.5 was released. Opus is Claude's highest-tier flagship model, and version 4.5 had just dropped.
+Opus 4.5 đã được phát hành. Opus là mẫu hàng đầu cao cấp nhất của Claude và phiên bản 4.5 vừa bị loại bỏ.
 
-Beyond significant performance improvements across the board compared to its predecessor, the biggest difference was its understanding of intent.
+Ngoài những cải tiến đáng kể về hiệu suất so với người tiền nhiệm, điểm khác biệt lớn nhất là sự hiểu biết về ý định.
 
-The old version essentially did exactly what you pointed at (which was already quite good, honestly). Starting with 4.5, after receiving your request, it would first summarize and plan to some degree. In human terms: it became sharper, more experienced.
+Phiên bản cũ về cơ bản đã thực hiện chính xác những gì bạn đã chỉ ra (thành thật mà nói thì nó đã khá tốt rồi). Bắt đầu từ phiên bản 4.5, sau khi nhận được yêu cầu của bạn, trước tiên nó sẽ tóm tắt và lập kế hoạch ở một mức độ nào đó. Về mặt con người: nó trở nên sắc bén hơn, giàu kinh nghiệm hơn.
 
-You no longer needed to spell out which file to modify and how. You could describe the end goal like a manager or executive, and it would break it down and plan the next couple of steps on its own.
+Bạn không còn cần phải chỉ ra tập tin nào cần sửa đổi và cách sửa đổi. Bạn có thể mô tả mục tiêu cuối cùng giống như một người quản lý hoặc người điều hành, và nó sẽ chia nhỏ mục tiêu đó ra và tự lên kế hoạch cho một số bước tiếp theo.
 
-This planning capability boosted efficiency even further. As I mentioned, AI already knows at least 80% of everything — now it was proactively doing the next steps of work, and doing them well.
+Khả năng lập kế hoạch này thậm chí còn nâng cao hiệu quả hơn nữa. Như tôi đã đề cập, AI đã biết ít nhất 80% mọi thứ - giờ đây nó đang chủ động thực hiện các bước công việc tiếp theo và thực hiện tốt chúng.
 
-Combined with this, I was able to operate at a much higher level of abstraction. More and more was delegated to CC. Gradually, I stopped needing to read or edit code myself.
+Kết hợp với điều này, tôi có thể vận hành ở mức độ trừu tượng cao hơn nhiều. Ngày càng có nhiều người được giao phó cho CC. Dần dần, tôi không còn cần phải tự đọc hoặc chỉnh sửa mã nữa.
 
-After Opus 4.5 came out, the debate on social media about whether AI can write code essentially ended.
+Sau khi Opus 4.5 ra mắt, cuộc tranh luận trên mạng xã hội về việc liệu AI có thể viết mã về cơ bản đã kết thúc hay không.
 
-For full-time software engineers and seasoned pros, I can't speak to their experience.
+Đối với các kỹ sư phần mềm toàn thời gian và các chuyên gia dày dạn kinh nghiệm, tôi không thể nói về kinh nghiệm của họ.
 
-But compared to myself: things that would have taken me one to two years could now be done in two to three months.
+Nhưng so với bản thân tôi: những việc mà lẽ ra tôi phải mất một đến hai năm thì giờ đây có thể hoàn thành trong hai đến ba tháng.
 
-The output settled at just beyond the edges of my own knowledge — I was actually the biggest bottleneck.
+Kết quả đầu ra nằm ngoài phạm vi hiểu biết của tôi - tôi thực sự là nút thắt lớn nhất.
 
-*End of Part 1*
+*Hết Phần 1*

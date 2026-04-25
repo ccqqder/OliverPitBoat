@@ -1,168 +1,168 @@
 ---
-isStub: true
-title: "Kana Juku Dev Log (Part 1): From Chatbots to AI Agents"
+title: "Kana Juku 개발 로그(1부): 챗봇에서 AI 에이전트까지"
 date: 2026-02-22T13:16:34.278Z
 author: "QQder"
 categories:
-  - The Workshop
+  - 워크숍
 tags:
-  - iOS App
-  - On-Device AI
-  - Handwriting Recognition
-  - udemy
-  - claude
-  - claude code
-  - gemini
-  - gemini cli
-  - swiftUI
+  - iOS 앱
+  - 온디바이스 AI
+  - 필기 인식
+  - 유데미
+  - 클로드
+  - 클로드 코드
+  - 쌍둥이자리
+  - 쌍둥이 자리 cli
+  - 스위프트UI
   - UIKit
 keywords:
-  - AI agent
-  - claude code
-  - gemini cli
-  - iOS development
-  - indie developer
-  - kana juku
-  - Japanese learning
-  - swiftUI
-  - On-Device AI
-  - opus
-  - chatbot
-description: "Sharing my experience developing my first app, Kana Juku — a journey that also traces my shift from chatbots to AI agents"
+  - AI 에이전트
+  - 클로드 코드
+  - 쌍둥이 자리 cli
+  - iOS 개발
+  - 인디 개발자
+  - 가나 주쿠
+  - 일본어 학습
+  - 스위프트UI
+  - 온디바이스 AI
+  - 작
+  - 챗봇
+description: "나의 첫 번째 앱인 Kana Juku 개발 경험을 공유합니다. 이 여정은 챗봇에서 AI 에이전트로의 전환을 추적하는 여정이기도 합니다."
 ---
 
-# Preface
 
-Kana Juku is the first app I ever built and shipped to the App Store.
+# 머리말
 
-Since it was my first, there's a full story arc to share.
+Kana Juku는 제가 처음으로 제작하여 App Store에 출시한 앱입니다.
 
-This series covers the development process, how I used AI assistance and how that evolved, working with public datasets and copyright considerations, and more.
+처음이라서 공유할 전체 스토리가 있습니다.
 
-If other apps have noteworthy stories, I'll publish those separately.
+이 시리즈에서는 개발 프로세스, AI 지원을 사용하는 방법 및 진화 방법, 공개 데이터 세트 작업 및 저작권 고려 사항 등을 다룹니다.
 
-This post focuses on the transition from chatbots to AI agents starting in **Q4 2025**.
+다른 앱에도 주목할 만한 스토리가 있으면 따로 게시하겠습니다.
 
-Things move fast in this space, so I've bluntly timestamped the key moments.
+이 게시물은 **2025년 4분기**부터 시작되는 챗봇에서 AI 에이전트로의 전환에 중점을 둡니다.
 
-## About the App
+이 공간에서는 모든 것이 빠르게 움직이기 때문에 중요한 순간의 타임스탬프를 직설적으로 표시했습니다.
 
-If you have an Apple device, feel free to download it and give it a try.
+## 앱 정보
 
-Several upcoming posts will also use this app as a running example — topics like cleaning [ETL datasets](https://etlcdb.db.aist.go.jp/), [Apple Create ML](https://developer.apple.com/machine-learning/create-ml/), [PyTorch](https://pytorch.org/), [VOICEVOX](https://voicevox.hiroshiba.jp/), on-device large language models, and more.
+Apple 기기를 가지고 계시다면, 자유롭게 다운로드하여 사용해 보세요.
 
-Kana Juku: [URL](https://apps.apple.com/us/app/%E5%81%87%E5%90%8D%E7%A7%81%E5%A1%BE/id6756785942)
+앞으로 나올 여러 게시물에서는 [ETL 데이터세트](https://etlcdb.db.aist.go.jp/), [Apple Create ML](https://developer.apple.com/machine-learning/create-ml/), [PyTorch](https://pytorch.org/), [VOICEVOX](https://voicevox.hiroshiba.jp/) 정리, 기기 내 대규모 언어 모델 등과 같은 주제 등 이 앱을 실행 예제로 사용할 것입니다.
+
+가나 주쿠: [URL](https://apps.apple.com/us/app/%E5%81%87%E5%90%8D%E7%A7%81%E5%A1%BE/id6756785942)
 
 ![](/images/IMG_2433.JPG)
 
 ***
 
-# Development Timeline
+# 개발 타임라인
 
-### Motivation
+### 동기 부여
 
-My family and I are both interested in learning Japanese, and I've long wanted a Japanese-learning app that perfectly fits our needs.
+우리 가족과 나는 둘 다 일본어 학습에 관심이 있고 오랫동안 우리의 요구에 완벽하게 맞는 일본어 학습 앱을 원했습니다.
 
-My family's pain point is that they don't read English, so the romaji in most textbooks and apps is meaningless to them.
+우리 가족의 문제점은 영어를 읽지 못한다는 것입니다. 그래서 대부분의 교과서와 앱에 있는 로마자는 그들에게 의미가 없습니다.
 
-For me, I really wanted kana displayed alongside their kanji origins (e.g., "あ" derives from "安").
+저는 한자 어원과 함께 가나를 표시하고 싶었습니다(예: "あ"는 "安"에서 파생됨).
 
-Another annoyance: I installed the Japanese keyboard for occasional use, but switching input methods every day meant an extra tap to skip past the Japanese keyboard — a small friction that added up.
+또 다른 불편함: 가끔 사용하기 위해 일본어 키보드를 설치했지만 매일 입력 방법을 바꾸면 일본어 키보드를 건너뛰기 위해 추가 탭을 해야 했으며 약간의 마찰이 발생했습니다.
 
-### Early Preparation
+### 조기 준비
 
-**[Q4 2024]**
+**[2024년 4분기]**
 
-I was between jobs at the time, so I had the bandwidth to take [Udemy](https://www.udemy.com/) courses. Since I had some JavaScript experience, I started with [React](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwih6Kzo2O-SAxUl3zQHHZoSL-kQFnoECDYQAQ&url=https%3A%2F%2Fzh-hant.legacy.reactjs.org%2F&usg=AOvVaw3Q6fqYyboB_gQOnPVX_tbN&opi=89978449) & [Expo](https://expo.dev/).
+당시 저는 직장을 쉬고 있었기 때문에 [Udemy](https://www.udemy.com/) 과정을 수강할 여유가 있었습니다. JavaScript 경험이 있어서 [React](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwih6Kzo2O-SAxUl3zQHHZoSL-kQFnoECDYQAQ&url=https%3A%2F%2Fzh-hant.legacy.reactjs.org%2F&usg=AOvVaw3Q6fqYyboB_gQOnPVX_tbN&opi=89978449) & [Expo](https://expo.dev/)로 시작했습니다.
 
-At this stage I was following along with course content — simple web-style pages, plus extras like GPS, camera control, and fetching remote data.
+이 단계에서는 간단한 웹 스타일 페이지와 GPS, 카메라 제어, 원격 데이터 가져오기 등의 추가 기능과 같은 코스 콘텐츠를 따라가고 있었습니다.
 
-But since it wasn't Apple's native ecosystem, there was a lot of extra tooling to manage.
+하지만 Apple의 기본 생태계가 아니었기 때문에 관리해야 할 추가 도구가 많았습니다.
 
-**[Q1 2025]**
+**[2025년 1분기]**
 
-After hesitating for a long time, I bought a Mac Mini and switched entirely to Apple's own SwiftUI. Again, I learned from Udemy courses.
+오랜 망설임 끝에 Mac Mini를 구입하고 Apple 자체 SwiftUI로 완전히 전환했습니다. 이번에도 Udemy 강좌를 통해 배웠습니다.
 
-Most of my time went into getting comfortable with basic UI components and layouts, plus all the fundamental features — data persistence, fetching data, embedding maps — and their SwiftUI equivalents.
+내 시간의 대부분은 기본 UI 구성 요소 및 레이아웃과 더불어 모든 기본 기능(데이터 지속성, 데이터 가져오기, 맵 포함) 및 이에 상응하는 SwiftUI 기능에 익숙해지는 데 사용되었습니다.
 
-SwiftUI is more modern and isn't as tightly coupled to Xcode as UIKit, but it's also harder to predict how a SwiftUI layout will actually look. Early on I cared too much about that and burned a lot of time experimenting.
+SwiftUI는 더 현대적이며 UIKit만큼 Xcode와 긴밀하게 결합되지는 않지만 SwiftUI 레이아웃이 실제로 어떻게 보일지 예측하기도 어렵습니다. 초기에 나는 그것에 대해 너무 많은 관심을 갖고 실험하는 데 많은 시간을 소비했습니다.
 
-**[Q3 2025]**
+**[2025년 3분기]**
 
-Since I had a day job and could only code in the evenings — and not every evening at that — progress was slow. I was basically building out the basic skeleton and plugging in the Japanese language data.
+저는 낮에 일을 하고 매일 저녁이 아니라 저녁에만 코딩을 할 수 있었기 때문에 진행 속도가 느렸습니다. 저는 기본적으로 기본 뼈대를 구축하고 일본어 데이터를 연결하고 있었습니다.
 
-With a first app, it's hard to foresee the final shape, so I kept revising. Sometimes I'd circle back to rewatch course videos for features I now knew I needed. Essentially, I was paying tuition.
+첫 번째 앱에서는 최종 형태를 예측하기 어려워 계속 수정을 했습니다. 때때로 나는 지금 필요하다고 알고 있는 기능에 대한 과정 비디오를 다시 보기 위해 다시 돌아갔습니다. 본질적으로 나는 수업료를 지불하고있었습니다.
 
-Up to this point, starting from **Q1 2024**, plain chatbots like ChatGPT were already a big help for coding.
+**2024년 1분기**부터 지금까지 ChatGPT와 같은 일반 챗봇은 이미 코딩에 큰 도움이 되었습니다.
 
-But the copy-paste cycle and having to explain mountains of context was incredibly time-consuming. The output often missed the mark on the first try or drifted off course, sending me right back to the copy-paste loop. It never reached a positive feedback cycle — it was only useful as a learning reference.
+하지만 복사-붙여넣기 과정과 산더미 같은 맥락을 설명해야 하는 과정은 엄청나게 시간이 많이 걸렸습니다. 출력은 종종 첫 번째 시도에서 표시를 놓치거나 경로를 벗어났기 때문에 바로 복사-붙여넣기 루프로 돌아갔습니다. 긍정적인 피드백 주기에 도달한 적이 없으며 학습 참고용으로만 유용했습니다.
 
-At the time, the hottest tool was actually the Cursor editor with its tab-autocomplete, but it required a subscription for meaningful usage, so I **didn't try it**.
+당시 가장 인기 있는 도구는 실제로 탭 자동 완성 기능이 있는 커서 편집기였지만 의미 있는 사용을 위해서는 구독이 필요했기 때문에 **사용해 보지 않았습니다**.
 
-Meanwhile, Claude was already gaining popularity as the best model for coding, and Anthropic had released Claude Code — an AI agent that runs on your local machine. But again, it required a subscription, so I didn't try it.
+한편 Claude는 이미 최고의 코딩 모델로 인기를 얻고 있었고 Anthropic은 로컬 컴퓨터에서 실행되는 AI 에이전트인 Claude Code를 출시했습니다. 하지만 이번에도 구독이 필요했기 때문에 시도하지 않았습니다.
 
 ***
 
-### Pivoting to AI Agents
+### AI 에이전트로 피벗
 
-**[Q4 2025]**
+**[2025년 4분기]**
 
-At this point I expected I'd only ever subscribe to one chatbot at a time, and I had just switched from ChatGPT to Google Gemini.
+이 시점에서 나는 한 번에 하나의 챗봇만 구독할 것이라고 예상했고 방금 ChatGPT에서 Google Gemini로 전환했습니다.
 
-Spec-Driven Development (SDD) was trending, and Google had launched Gemini CLI — their answer to Claude Code — so I finally **gave it a shot**.
+SDD(사양 중심 개발)가 인기를 얻었고 Google은 Claude Code에 대한 해답인 Gemini CLI를 출시했습니다. 그래서 저는 마침내 **한 번 시도해 보았습니다**.
 
-I discovered that agents eliminated the copy-paste step entirely, massively boosting efficiency. The step of pasting code back and hunting for which lines to change was also gone.
+상담원이 복사-붙여넣기 단계를 완전히 제거하여 효율성이 대폭 향상되었다는 사실을 발견했습니다. 코드를 다시 붙여넣고 변경할 줄을 찾는 단계도 사라졌습니다.
 
-By then I was convinced: for coding, you should use an agent, not a chatbot. So I went ahead and subscribed to Claude to use Claude Code (CC from here on).
+그때쯤 저는 코딩을 하려면 챗봇이 아닌 에이전트를 사용해야 한다고 확신했습니다. 그래서 Claude Code(이하 CC)를 사용하기 위해 Claude에 가입했습니다.
 
-CC's underlying model was clearly stronger. Its comprehension of conversations and its ability to execute as expected were already remarkably reliable.
+CC의 기본 모델은 확실히 더 강력했습니다. 대화에 대한 이해력과 예상대로 실행하는 능력은 이미 놀라울 정도로 믿음직했습니다.
 
-#### Controlling the Computer, and Opus 4.5
+#### 컴퓨터 및 Opus 4.5 제어
 
-One time my Mac Mini's disk was completely full and the machine was unusable. I just asked CC what to do — the same way I'd ask a question on a chatbot's web page.
+한번은 Mac Mini의 디스크가 완전히 가득 차서 컴퓨터를 사용할 수 없게 되었습니다. 방금 CC에 무엇을 해야 하는지 물었습니다. 챗봇 웹페이지에 질문하는 것과 같은 방식이었습니다.
 
-CC came back with a concrete plan: which directories could be cleared, what could be moved to an external drive, and so on.
+CC는 어떤 디렉터리를 지울 수 있는지, 무엇을 외부 드라이브로 이동할 수 있는지 등 구체적인 계획을 가지고 돌아왔습니다.
 
-I was worried it might brick my computer, so I approved each step one at a time. In the end, everything went smoothly.
+컴퓨터에 문제가 생길까봐 걱정되어 한 번에 하나씩 각 단계를 승인했습니다. 결국 모든 것이 순조롭게 진행되었습니다.
 
-I wasn't very familiar with macOS or the Xcode build environment. That's when I realized AI has at least an 80% understanding of *everything* — including things I don't know — and that being able to write code is roughly equivalent to being able to operate a computer.
+저는 macOS나 Xcode 빌드 환경에 익숙하지 않았습니다. 그때 나는 AI가 내가 모르는 것을 포함하여 *모든 것*에 대해 최소한 80%를 이해하고 있으며 코드를 작성할 수 있는 것은 컴퓨터를 작동할 수 있는 것과 거의 동일하다는 것을 깨달았습니다.
 
-Because CC could directly control the machine, it moved freely between directories, wrote code, saw its own errors, and fixed them — a fully self-sustaining positive feedback loop.
+CC는 기계를 직접 제어할 수 있었기 때문에 디렉토리 사이를 자유롭게 이동하고, 코드를 작성하고, 자체 오류를 확인하고 수정했습니다. 이는 완전히 자립적인 긍정적 피드백 루프였습니다.
 
-The development speed with an agent was on a completely different level, and the fact that I'd waited three extra months before switching to CC made me feel pretty foolish.
+에이전트와 함께 개발 속도도 전혀 다른 수준이었고, CC로 전환하기까지 3개월을 더 기다렸다는 사실이 참 어리석다는 생각이 들었습니다.
 
-The time wasted was staggering, both subjectively and objectively.
+낭비된 시간은 주관적으로나 객관적으로나 엄청났습니다.
 
-Subjectively: if I had adopted the latest tools earlier, the previous three months of work could have been done in two to three weeks.
+주관적으로: 최신 도구를 더 일찍 채택했다면 이전 3개월의 작업을 2~3주 안에 완료할 수 있었을 것입니다.
 
-Objectively: other people using the latest tools were more productive than me and shipping their products sooner.
+객관적으로: 최신 도구를 사용하는 다른 사람들은 나보다 더 생산적이었고 제품을 더 빨리 배송했습니다.
 
-My earlier refusal to try — saving maybe half an hour of setup time and a few hundred dollars in subscription fees — ended up wasting vast stretches of my life.
+내가 이전에 시도를 거부한 것은 아마도 30분의 설정 시간과 몇 백 달러의 구독료를 절약하는 것이었지만 결국 내 인생의 상당 부분을 낭비하게 되었습니다.
 
-This might also explain why so many people are obsessed with chasing the latest AI product news.
+이는 왜 그렇게 많은 사람들이 최신 AI 제품 뉴스를 쫓는 데 집착하는지 설명할 수도 있습니다.
 
-At least that's how it is for me — I can't afford not to stay on top of the latest releases. It's a form of time-management risk hedging.
+적어도 저에게는 그렇습니다. 저는 최신 릴리스를 최신 상태로 유지하지 않을 수 없습니다. 이는 시간 관리 위험 헤징의 한 형태입니다.
 
-**[November 24, 2025]**
+**[2025년 11월 24일]**
 
-Opus 4.5 was released. Opus is Claude's highest-tier flagship model, and version 4.5 had just dropped.
+Opus 4.5가 출시되었습니다. Opus는 Claude의 최고 등급 플래그십 모델이며 버전 4.5가 방금 출시되었습니다.
 
-Beyond significant performance improvements across the board compared to its predecessor, the biggest difference was its understanding of intent.
+전작에 비해 전반적으로 상당한 성능 향상을 넘어 가장 큰 차이점은 의도에 대한 이해였습니다.
 
-The old version essentially did exactly what you pointed at (which was already quite good, honestly). Starting with 4.5, after receiving your request, it would first summarize and plan to some degree. In human terms: it became sharper, more experienced.
+이전 버전은 본질적으로 당신이 지적한 것과 정확히 일치했습니다(솔직히 이미 꽤 훌륭했습니다). 4.5부터는 요청을 받은 후 먼저 어느 정도 요약하고 계획을 세웁니다. 인간적으로 말하자면, 그것은 더 날카로워졌고, 더 경험이 많아졌습니다.
 
-You no longer needed to spell out which file to modify and how. You could describe the end goal like a manager or executive, and it would break it down and plan the next couple of steps on its own.
+더 이상 수정할 파일과 수정 방법을 설명할 필요가 없습니다. 관리자나 임원처럼 최종 목표를 설명할 수 있으며, 이를 분석하고 자체적으로 다음 몇 가지 단계를 계획할 수 있습니다.
 
-This planning capability boosted efficiency even further. As I mentioned, AI already knows at least 80% of everything — now it was proactively doing the next steps of work, and doing them well.
+이러한 계획 능력은 효율성을 더욱 향상시켰습니다. 앞서 언급했듯이 AI는 이미 모든 것의 최소 80%를 알고 있습니다. 이제 AI는 다음 작업 단계를 적극적으로 수행하고 있으며 이를 잘 수행하고 있습니다.
 
-Combined with this, I was able to operate at a much higher level of abstraction. More and more was delegated to CC. Gradually, I stopped needing to read or edit code myself.
+이를 결합하여 훨씬 더 높은 수준의 추상화에서 작업할 수 있었습니다. 점점 더 많은 것이 CC에 위임되었습니다. 점차적으로 나는 코드를 직접 읽거나 편집할 필요가 없어졌습니다.
 
-After Opus 4.5 came out, the debate on social media about whether AI can write code essentially ended.
+Opus 4.5가 나온 후 AI가 코드를 작성할 수 있는지에 대한 소셜 미디어의 논쟁은 본질적으로 끝났습니다.
 
-For full-time software engineers and seasoned pros, I can't speak to their experience.
+풀타임 소프트웨어 엔지니어와 노련한 전문가의 경우, 그들의 경험을 말할 수는 없습니다.
 
-But compared to myself: things that would have taken me one to two years could now be done in two to three months.
+그런데 나 자신과 비교하면 1~2년 걸렸던 일이 이제는 2~3개월 만에 끝낼 수 있게 됐다.
 
-The output settled at just beyond the edges of my own knowledge — I was actually the biggest bottleneck.
+출력은 내가 아는 범위를 훨씬 넘어서는 수준에 이르렀습니다. 실제로 가장 큰 병목 현상은 바로 제가었습니다.
 
-*End of Part 1*
+*1부 끝*

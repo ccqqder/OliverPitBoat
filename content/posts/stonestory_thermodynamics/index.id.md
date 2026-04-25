@@ -1,437 +1,436 @@
 ---
-isStub: true
-title: "Dream of the Red Chamber Simulator: Thermodynamics and Artistic Choice"
+title: "Impian Simulator Kamar Merah: Termodinamika dan Pilihan Artistik"
 date: 2026-03-29T15:28:32.157Z
 draft: false
 categories:
-  - The Workshop
+  - Lokakarya
 tags:
-  - Thermodynamics
-  - Dream of the Red Chamber
+  - Termodinamika
+  - Mimpi Kamar Merah
   - LLM
-  - Rule Engine
-  - Literary Simulation
+  - Mesin Aturan
+  - Simulasi Sastra
 keywords:
-  - thermodynamics
-  - Dream of the Red Chamber
+  - termodinamika
+  - Mimpi Kamar Merah
   - 紅樓夢
-  - Red Chamber simulator
+  - Simulator Kamar Merah
   - LLM
-  - large language model
-  - rule engine
+  - model bahasa besar
+  - mesin aturan
   - Cao Xueqin
-  - structured analysis
-  - literary prediction
-  - Twelve Beauties of Jinling
-  - prophetic verse
-  - artistic choice
-  - simulation engine
-description: "What has changed is that productivity has suddenly become much higher. What the Dream of the Red Chamber Simulator aims to do is, with such productivity at hand, use traditional structured methods to rapidly produce and accumulate results with minimal human effort."
+  - analisis terstruktur
+  - prediksi sastra
+  - Dua Belas Keindahan Jinling
+  - ayat nubuatan
+  - pilihan artistik
+  - mesin simulasi
+description: "Yang berubah adalah produktivitas tiba-tiba menjadi jauh lebih tinggi. Apa yang ingin dilakukan oleh Dream of the Red Chamber Simulator adalah, dengan produktivitas yang ada, menggunakan metode terstruktur tradisional untuk menghasilkan dan mengumpulkan hasil dengan cepat dengan sedikit usaha manusia."
 author: "QQder"
 ---
 
-App URL: [LINK](https://apps.apple.com/tw/app/%E7%B4%85%E6%A8%93%E5%A4%A2%E6%A8%A1%E6%93%AC%E5%99%A8/id6759855416)
+URL Aplikasi: [LINK](https://apps.apple.com/tw/app/%E7%B4%85%E6%A8%93%E5%A4%A2%E6%A8%A1%E6%93%AC%E5%99%A8/id6759855416)
 
-## Preface
+## Kata pengantar
 
-The key point from the previous installment
+Poin penting dari angsuran sebelumnya
 
-was to regard text as fundamentally symbolic --
+adalah menganggap teks pada dasarnya bersifat simbolis --
 
-astronomy, hydrology, the humanities... all the "wen" (文, pattern/text) of heaven, earth, and humankind.
+astronomi, hidrologi, humaniora... semua "wen" (文, pola/teks) langit, bumi, dan umat manusia.
 
-Text maps the world and thought in a cost-effective way,
+Teks memetakan dunia dan pemikiran dengan cara yang hemat biaya,
 
-becoming our primary tool for understanding and interfacing with objective reality.
+menjadi alat utama kami untuk memahami dan berinteraksi dengan realitas objektif.
 
-Once you grasp this, you realize that
+Begitu Anda memahaminya, Anda menyadarinya
 
-although LLMs (Large Language Models) are essentially just next-token predictors,
+meskipun LLM (Model Bahasa Besar) pada dasarnya hanyalah prediktor token berikutnya,
 
-once their capability reaches a certain level, they become nuclear-grade instruments of national importance.
+begitu kemampuannya mencapai tingkat tertentu, mereka menjadi instrumen tingkat nuklir yang memiliki kepentingan nasional.
 
-Their significance made me want to verify their capabilities
+Signifikansi mereka membuat saya ingin memverifikasi kemampuan mereka
 
-and to do so repeatedly as they improve over time.
+dan melakukannya berulang kali seiring dengan kemajuannya seiring berjalannya waktu.
 
-A near-perfect benchmark for this is *Dream of the Red Chamber* (紅樓夢, *Hong Lou Meng*).
+Tolok ukur yang hampir sempurna untuk ini adalah *Mimpi Kamar Merah* (紅樓夢, *Hong Lou Meng*).
 
-Suppose there existed an omniscient, omnipotent LLM --
+Misalkan terdapat LLM yang mahatahu dan mahakuasa --
 
-it could take Cao Xueqin's original first 80 chapters of *Dream of the Red Chamber* as input and output the subsequent chapters.
+dibutuhkan 80 bab pertama *Mimpi Kamar Merah* karya Cao Xueqin sebagai masukan dan keluaran bab berikutnya.
 
-But because LLM training data is limited,
+Namun karena data pelatihan LLM terbatas,
 
-it is like a Sudoku puzzle with too few given numbers -- the answer cannot be determined with certainty.
+ini seperti teka-teki Sudoku dengan jumlah angka yang terlalu sedikit -- jawabannya tidak dapat ditentukan dengan pasti.
 
-What current LLMs can do is produce at very high throughput within the scope of what they understand.
+Apa yang dapat dilakukan LLM saat ini adalah menghasilkan keluaran yang sangat tinggi dalam lingkup pemahaman mereka.
 
-What the *Dream of the Red Chamber Simulator* aims to do is, with such productivity at hand,
+Apa yang ingin dilakukan oleh *Mimpi Simulator Kamar Merah* adalah, dengan produktivitas yang ada,
 
-use traditional structured methods to rapidly produce and accumulate results with minimal human effort.
+menggunakan metode terstruktur tradisional untuk menghasilkan dan mengumpulkan hasil dengan cepat dengan sedikit usaha manusia.
 
-## Assumptions
+## Asumsi
 
-We need some assumptions, biases, and theories to make the task of predicting the ending sufficiently feasible and mechanical.
+Kita memerlukan beberapa asumsi, bias, dan teori agar tugas memprediksi akhir cerita cukup layak dan mekanis.
 
-When it comes to accurate prediction, my intuition goes to classical physics -- specifically thermodynamics.
+Kalau soal prediksi akurat, intuisi saya tertuju pada fisika klasik -- khususnya termodinamika.
 
-In a closed system, if we specify the initial conditions and the governing laws,
+Dalam sistem tertutup, jika kita menentukan kondisi awal dan hukum yang berlaku,
 
-the evolution of a thermodynamic system is predictable and deterministic.
+evolusi sistem termodinamika dapat diprediksi dan deterministik.
 
-Another assumption is that LLM capabilities will keep improving,
+Asumsi lainnya adalah kapabilitas LLM akan terus meningkat,
 
-but in the foreseeable future we will not gain additional training data from the Qing Dynasty or from Cao Xueqin himself.
+tapi di masa mendatang kita tidak akan mendapatkan data pelatihan tambahan dari Dinasti Qing atau dari Cao Xueqin sendiri.
 
-Therefore, we can establish a structured workflow that both current and future LLMs can execute.
+Oleh karena itu, kita dapat membangun alur kerja terstruktur yang dapat dijalankan oleh LLM saat ini dan masa depan.
 
-### Initial Conditions
+### Kondisi Awal
 
-The initial conditions are primarily data extracted from the original novel.
+Kondisi awal pada dasarnya adalah data yang diambil dari novel aslinya.
 
-Now we use LLMs to perform what was previously highly labor-intensive work.
+Sekarang kami menggunakan LLM untuk melakukan pekerjaan yang sebelumnya sangat padat karya.
 
-In the past, human labor costs were too high, and throwing more people at the problem could not compress the timeline.
+Di masa lalu, biaya tenaga kerja manusia terlalu tinggi, dan melibatkan lebih banyak orang untuk mengatasi masalah tersebut tidak dapat mempersingkat waktu.
 
-If you got halfway through and wanted to tweak the extraction rules and start over, it was simply impractical.
+Jika Anda sudah setengah jalan dan ingin mengubah aturan ekstraksi dan memulai kembali, itu tidak praktis.
 
-Time and cost are no longer obstacles; extraction quality now depends on model capability.
+Waktu dan biaya bukan lagi kendala; kualitas ekstraksi sekarang bergantung pada kemampuan model.
 
-For example, I extracted:
+Misalnya, saya mengekstrak:
 
-- Key character profiles, personality dossiers, family genealogies;
+- Profil tokoh kunci, berkas kepribadian, silsilah keluarga;
 
-- Per-chapter snapshots of each character's economic, social, emotional, health, and interpersonal states across all 120 chapters;
+- Cuplikan per bab dari keadaan ekonomi, sosial, emosional, kesehatan, dan interpersonal masing-masing karakter di 120 bab;
 
-- A basic spatial map of the Jia (賈) estate with spatial metadata;
+- Peta spasial dasar kawasan Jia (賈) dengan metadata spasial;
 
-- All dialogue records, poetry corpora...
+- Semua rekaman dialog, kumpulan puisi...
 
-The approach was to start with broad, not-yet-rigorous extraction that at least achieves high coverage -- ensuring every piece of text is classified into some category.
+Pendekatannya adalah memulai dengan ekstraksi yang luas dan tidak ketat yang setidaknya mencapai cakupan yang tinggi -- memastikan setiap bagian teks diklasifikasikan ke dalam beberapa kategori.
 
-### Governing Laws
+### Hukum yang Mengatur
 
-I divide the governing laws into two types by my own judgment: fundamental world rules and the author's artistic will.
+Saya membagi hukum yang mengatur menjadi dua jenis berdasarkan penilaian saya sendiri: aturan dasar dunia dan keinginan artistik penulis.
 
-This is admittedly arbitrary, but without making some such judgment the work cannot proceed at all.
+Hal ini memang sewenang-wenang, namun tanpa adanya penilaian seperti itu, pekerjaan tidak dapat dilanjutkan sama sekali.
 
-World rules include but are not limited to:
+Aturan dunia termasuk namun tidak terbatas pada:
 
-- Society: class hierarchy, power dynamics, master-servant relationships, marriage;
+- Masyarakat: hierarki kelas, dinamika kekuasaan, hubungan tuan-pelayan, pernikahan;
 
-- Economy: income and expenditure, debt, risk of property confiscation;
+- Ekonomi: pendapatan dan pengeluaran, utang, risiko penyitaan properti;
 
-- Culture: Confucian propriety, festivals, feudal values;
+- Budaya: Kepatutan Konfusianisme, festival, nilai-nilai feodal;
 
-- Psychology: character emotions, personality-driven behavior, internal conflict;
+- Psikologi: emosi karakter, perilaku yang didorong oleh kepribadian, konflik internal;
 
-- Politics: imperial favor, court dynamics, external forces...
+- Politik: bantuan kekaisaran, dinamika istana, kekuatan eksternal...
 
-The artistic will is precisely what makes *Dream of the Red Chamber* -- apart from the fact that it lacks a definitive ending -- an ideal prediction target.
+Kehendak artistik inilah yang membuat *Mimpi Kamar Merah* -- terlepas dari kenyataan bahwa ia tidak memiliki akhir yang pasti -- menjadi target prediksi yang ideal.
 
-Cao Xueqin embedded hints about the characters' fates throughout the novel, from the very beginning.
+Cao Xueqin menyematkan petunjuk tentang nasib karakter di sepanjang novel, sejak awal.
 
-The most iconic example is the 判詞 (prophetic verses / judgment poems) of the 十二金釵 (Twelve Beauties of Jinling), which explicitly foreshadow the fates of the female lead and deuteragonist:
+Contoh paling ikonik adalah 判詞 (ayat kenabian / puisi penghakiman) dari 十二金釵 (Dua Belas Keindahan Jinling), yang secara eksplisit menggambarkan nasib pemeran utama wanita dan deuteragonist:
 
-> 可嘆停機德，堪憐詠絮才。玉帶林中掛，金簪雪裡埋。
+> 可嘆停機德,堪憐詠絮才。玉帶林中掛,金簪雪裡埋。
 
-*(How lamentable, her virtue of halting the loom; how pitiable, her talent of chanting the willow catkins. A jade belt hangs in the forest; a golden hairpin lies buried in the snow.)*
+*(Betapa menyedihkan, kebajikannya menghentikan alat tenun; betapa menyedihkan, bakatnya melantunkan pohon willow catkins. Sabuk giok tergantung di hutan; jepit rambut emas terkubur di salju.)*
 
-### Rule Engine
+### Mesin Aturan
 
-Given the initial conditions and governing laws, how do we apply them?
+Mengingat kondisi awal dan peraturan perundang-undangan yang berlaku, bagaimana kita menerapkannya?
 
-The more ideal approach would be to build a 3D physics engine similar to a game engine, where each character possesses only the information they would know, and let an AI chatbot role-play each character like an actor performing a part.
+Pendekatan yang lebih ideal adalah dengan membangun mesin fisika 3D yang mirip dengan mesin game, di mana setiap karakter hanya memiliki informasi yang mereka ketahui, dan membiarkan chatbot AI memainkan peran setiap karakter seperti seorang aktor yang memainkan suatu peran.
 
-But first, the cost would be too high and would only increase spectacle -- we would not be introducing new information, and the 3D engine would not produce new results.
+Namun pertama-tama, biayanya akan terlalu tinggi dan hanya akan menambah tontonan -- kami tidak akan memperkenalkan informasi baru, dan mesin 3D tidak akan memberikan hasil baru.
 
-Second, we are not running a wind-tunnel fluid dynamics simulation; we are trying to guess what Cao Xueqin had in mind. Staying at the textual level is sufficient for now.
+Kedua, kami tidak menjalankan simulasi dinamika fluida terowongan angin; kami mencoba menebak apa yang ada dalam pikiran Cao Xueqin. Tetap pada tingkat tekstual saja sudah cukup untuk saat ini.
 
-Based on the previously extracted data, we derive a set of computational subjects and rules.
+Berdasarkan data yang diekstraksi sebelumnya, kami memperoleh seperangkat subjek dan aturan komputasi.
 
-In practice, this is the traditional process of evaluating evidence, confidence, and additive/subtractive adjustments for whether an event occurs --
+Dalam praktiknya, ini adalah proses tradisional dalam mengevaluasi bukti, keyakinan, dan penyesuaian tambahan/subtraktif untuk menentukan apakah suatu peristiwa terjadi --
 
-made systematic, repeatable, modifiable, and exhaustively brute-forced.
+dibuat sistematis, dapat diulang, dimodifikasi, dan dipaksakan secara mendalam.
 
-The simulation steps for each round are:
+Langkah-langkah simulasi pada setiap putarannya adalah:
 
-1. Process delayed effects -- check pending\_effects; apply any that have reached their due chapter.
+1. Proses efek tertunda -- periksa pending\_effects; terapkan apa pun yang telah mencapai bab jatuh tempo.
 
-2. Evaluate all laws -- check each law's premises to see if all are satisfied (skip those with confidence \< 0.3).
+2. Evaluasi semua undang-undang -- periksa setiap premis undang-undang untuk melihat apakah semuanya terpenuhi (lewati premis yang yakin \< 0,3).
 
-3. Conflict resolution -- simultaneously triggered laws may contradict each other; adjudicate which one wins.
+3. Penyelesaian konflik – undang-undang yang dibuat secara bersamaan mungkin saling bertentangan; memutuskan mana yang menang.
 
-4. Apply effects -- those with a delay go into the queue; those without directly modify state.
+4. Terapkan efek -- efek yang tertunda masuk ke antrian; yang tanpa secara langsung mengubah status.
 
-5. Snapshot -- compress the current state into a numerical vector.
+5. Snapshot -- kompres status saat ini menjadi vektor numerik.
 
-6. chapter += 1
+6. bab += 1
 
-A complete example -- the death of Lin Daiyu (林黛玉) in Chapter 98 -- is appended at the end of this article.
+Contoh lengkapnya -- kematian Lin Daiyu (林黛玉) di Bab 98 -- terlampir di akhir artikel ini.
 
-### Workflow Summary
+### Ringkasan Alur Kerja
 
-Among the several components in the above workflow,
+Di antara beberapa komponen dalam alur kerja di atas,
 
-whether the **extracted data** is academically rigorous, whether the **rules** are reasonable and applicable, whether the **simulation steps** are sound --
+apakah **data yang diekstraksi** akurat secara akademis, apakah **aturan** masuk akal dan dapat diterapkan, apakah **langkah simulasi** tepat --
 
-none of this is critically important, because each part can be improved and regenerated independently.
+semua ini tidak terlalu penting, karena setiap bagian dapat ditingkatkan dan dibuat ulang secara mandiri.
 
-From a software engineering perspective, my goal is to make this engine work well at the interface level,
+Dari perspektif rekayasa perangkat lunak, tujuan saya adalah membuat mesin ini bekerja dengan baik pada tingkat antarmuka,
 
-and continuously refine prediction results as more information is incorporated and the methodology improves.
+dan terus menyempurnakan hasil prediksi seiring dengan semakin banyaknya informasi yang dimasukkan dan metodologinya semakin baik.
 
-### Current Results: Objective vs. Subjective Parallel Comparison
+### Hasil Saat Ini: Perbandingan Paralel Objektif vs. Subyektif
 
-Here I must introduce another self-imposed methodology to enable structured comparison:
+Di sini saya harus memperkenalkan metodologi lain yang diterapkan sendiri untuk memungkinkan perbandingan terstruktur:
 
-dividing the inference engine's layers into two main parts -- objective conditions and artistic choice.
+membagi lapisan mesin inferensi menjadi dua bagian utama -- kondisi objektif dan pilihan artistik.
 
 ![](</images/Simulator Screenshot - iPhone 17 - 2026-03-30 at 22.45.27.png>)![](</images/Simulator Screenshot - iPhone 17 - 2026-03-30 at 22.45.20.png>)
 
-#### Objective Conditions
+#### Kondisi Objektif
 
-The historical backdrop of the era in which the novel was written -- its characters, settings, feudal system, economy, and so on -- constitutes the first layer of objective conditions. This can delimit the entire scope of what the story is capable of containing. We have already extracted some objective laws based on period-appropriate historical context and academic literature.
+Latar belakang sejarah era penulisan novel -- tokoh, latar, sistem feodal, perekonomian, dan sebagainya -- merupakan lapisan pertama kondisi obyektif. Hal ini dapat membatasi keseluruhan cakupan isi cerita. Kami telah mengekstraksi beberapa undang-undang obyektif berdasarkan konteks sejarah dan literatur akademis yang sesuai dengan periodenya.
 
-Conversely, anything that actually existed in that era could, in theory, appear and influence the story.
+Sebaliknya, apapun yang benar-benar ada pada era tersebut, secara teori, bisa muncul dan mempengaruhi cerita.
 
-For instance, the novel already features some Western modern objects such as self-striking clocks and pocket watches. What if Western firearms appeared and became a significant plot driver?
+Misalnya, novel ini sudah menampilkan beberapa benda modern Barat seperti jam yang dapat menyala sendiri dan jam saku. Bagaimana jika senjata api Barat muncul dan menjadi pemicu plot yang signifikan?
 
-Exhaustively exploring such first-layer objective possibilities is a direction for future work, and might achieve an effect that is "within reason yet beyond expectation."
+Eksplorasi secara menyeluruh kemungkinan-kemungkinan obyektif tingkat pertama tersebut merupakan arah untuk pekerjaan di masa depan, dan mungkin mencapai efek yang "sesuai alasan namun di luar ekspektasi".
 
-#### Artistic Choice
+#### Pilihan Artistik
 
-The second layer is the author Cao Xueqin's (曹雪芹) cultivation of this fictional world.
+Lapisan kedua adalah pengembangan dunia fiksi ini oleh penulis Cao Xueqin (曹雪芹).
 
-Many characters and the overall trajectory of the family carry a heavy fatalistic coloring.
+Banyak karakter dan keseluruhan lintasan keluarga membawa warna fatalistik yang berat.
 
-The novel's countless poems and metaphors -- as well as marginal annotations by a friend who reportedly read the ending -- hint at this.
+Puisi dan metafora novel yang tak terhitung jumlahnya -- serta penjelasan pinggir dari seorang teman yang dilaporkan membaca bagian akhir -- mengisyaratkan hal ini.
 
-Therefore, we can use the author's background and life experiences
+Oleh karena itu, kita dapat menggunakan latar belakang dan pengalaman hidup penulis
 
-to infer what fates he chose for his characters,
+untuk menyimpulkan nasib apa yang dia pilih untuk karakternya,
 
-and thereby reveal the values he truly wished to express.
+dan dengan demikian mengungkapkan nilai-nilai yang benar-benar ingin diungkapkannya.
 
-#### Cross-Comparison
+#### Perbandingan Silang
 
-From here, we can treat the Gao E (高鶚) continuation as the work of the most advanced "player" to date.
+Dari sini, kita bisa menganggap kelanjutan Gao E (高鶚) sebagai karya "pemain" tercanggih hingga saat ini.
 
-What he did is essentially the same thing I am doing now:
+Apa yang dia lakukan pada dasarnya sama dengan yang saya lakukan sekarang:
 
-based on the characters and setting in the novel, attempting to divine Cao Xueqin's artistic choices as closely as possible.
+berdasarkan karakter dan latar dalam novel, mencoba untuk menggambarkan pilihan artistik Cao Xueqin sedekat mungkin.
 
-Moreover, Gao E completed the existing ending, which greatly increased the novel's circulation, and his version has been widely accepted -- so we place his version in a parallel position for comparison.
+Selain itu, Gao E telah menyelesaikan bagian akhir yang sudah ada, sehingga sirkulasi novelnya meningkat pesat, dan versinya telah diterima secara luas -- jadi kami menempatkan versinya di posisi paralel untuk perbandingan.
 
-#### Realistic Simulation
+#### Simulasi Realistis
 
-What if we stripped away all artistic treatment and retained only objective laws, letting the story evolve naturally?
+Bagaimana jika kita menghilangkan semua perlakuan artistik dan hanya mempertahankan hukum obyektif, dan membiarkan cerita berkembang secara alami?
 
-The result is that most plot events would not occur within the span of 120 chapters. The narrative would be less dramatic and contain fewer tragedies.
+Hasilnya adalah sebagian besar peristiwa plot tidak akan terjadi dalam rentang 120 bab. Narasinya tidak terlalu dramatis dan mengandung lebih sedikit tragedi.
 
-## Methods for Improving Prediction Quality
+## Metode untuk Meningkatkan Kualitas Prediksi
 
-- Re-extract text when LLM capabilities improve
+- Ekstrak ulang teks ketika kemampuan LLM meningkat
 
-- More human intervention for fine-tuning and experimenting with different prompts
+- Lebih banyak campur tangan manusia untuk menyempurnakan dan bereksperimen dengan berbagai perintah
 
-- Enlist scholars of Redology (紅學, the academic study of *Dream of the Red Chamber*) or historians to assist with data cleaning and engine logic adjustments
+- Mintalah pakar Redologi (紅學, studi akademis *Mimpi Kamar Merah*) atau sejarawan untuk membantu pembersihan data dan penyesuaian logika mesin
 
-- Incorporate newly discovered or previously undigitized materials (if any) into training
+- Memasukkan materi yang baru ditemukan atau yang sebelumnya belum terdigitalisasi (jika ada) ke dalam pelatihan
 
-- Experiment with alternative methodologies
+- Bereksperimenlah dengan metodologi alternatif
 
-- Establish a fixed workflow and let AI agents continuously fine-tune and produce many versions; since there is no clear termination criterion, quality can only be judged manually
+- Tetapkan alur kerja yang tetap dan biarkan agen AI terus menyempurnakan dan menghasilkan banyak versi; karena tidak ada kriteria penghentian yang jelas, kualitas hanya dapat dinilai secara manual
 
-## Conclusion
+## Kesimpulan
 
-Due to the constraints of existing and pre-trained data, and the strong internal consistency of *Dream of the Red Chamber* as a work of art,
+Karena keterbatasan data yang ada dan data yang telah dilatih sebelumnya, serta konsistensi internal yang kuat dari *Impian Kamar Merah* sebagai sebuah karya seni,
 
-deus ex machina predictions are unlikely to emerge. What we see instead are internal comparative differences --
+prediksi deus ex machina kemungkinan besar tidak akan muncul. Yang kami lihat adalah perbedaan komparatif internal --
 
-for example, the confiscation and decline of the Jia family is fated to happen regardless; the difference lies only in timing.
+misalnya, penyitaan dan penurunan keluarga Jia sudah ditakdirkan untuk terjadi; perbedaannya hanya terletak pada waktunya.
 
-### A Final Reflection
+### Sebuah Refleksi Terakhir
 
-This kind of work would originally have required at least one to two years and at least one full-time person to complete.
+Pekerjaan semacam ini pada awalnya memerlukan setidaknya satu hingga dua tahun dan setidaknya satu orang penuh waktu untuk menyelesaikannya.
 
-Now I can use my after-work hours to play a different professional role -- which also satisfies a regret from when financial pressure forced me to switch fields years ago.
+Sekarang saya dapat menggunakan jam kerja saya setelah jam kerja untuk memainkan peran profesional yang berbeda -- yang juga memuaskan penyesalan saya ketika tekanan keuangan memaksa saya untuk berpindah bidang beberapa tahun yang lalu.
 
-I hope that sharing the thinking process behind building the *Dream of the Red Chamber Simulator* is helpful to you,
+Saya harap berbagi proses berpikir di balik pembangunan *Mimpi Simulator Kamar Merah* bermanfaat bagi Anda,
 
-and I look forward to the social sciences -- not just computer science and the natural sciences -- benefiting from the rapid advances in AI.
+dan saya menantikan ilmu-ilmu sosial -- bukan hanya ilmu komputer dan ilmu alam -- yang mendapat manfaat dari kemajuan pesat AI.
 
 ***
 
-### Appendix: Full Simulation Process Example
+### Lampiran: Contoh Proses Simulasi Lengkap
 
-Chapters 97-98, "The Death of Lin Daiyu" (黛玉之死) -- a complete walk-through of all six steps (the following content was generated by AI):
-
----
-
-Example: Chapter 97 -- The Switcheroo Plot (掉包計) -> Burning Manuscripts and Severing Ties (焚稿斷情) -> Daiyu's Death
-
-Background State (entering Chapter 97)
-
-After more than a dozen chapters of cumulative decline, Lin Daiyu's state is:
-
-agent.林黛玉:  health=0.12, mood=0.08, isolation=0.72, tragedy\_risk=0.95, alive=True
-
-agent.賈寶玉:  monk\_tendency=0.35, mood=0.20
-
-economy:       debt\_ratio=0.65
-
-politics:      family\_decides\_marriage=True
-
-relation.賈寶玉::林黛玉:    marriage\_probability=0.15
-
-relation.賈寶玉::薛寶釵:    marriage\_probability=0.72
-
-Why did Daiyu's health drop from an initial 0.35 to 0.12? Because this law has been silently triggering every chapter:
-
-▎ PSY\_E1\_DAIYU\_DECAY "Daiyu's health slowly decays"
-
-▎ Premise: health > 0.0 AND isolation > 0.3 AND alive = True -> Effect: health sub 0.017
-
-▎ At -0.017 per chapter, over a dozen chapters this amounts to a lethal chronic drain.
+Bab 97-98, "Kematian Lin Daiyu" (黛玉之死) -- panduan lengkap dari keenam langkah (konten berikut dihasilkan oleh AI):
 
 ---
 
-① Process Delayed Effects
+Contoh: Bab 97 -- Plot Switcheroo (掉包計) -> Naskah yang Terbakar dan Putusnya Ikatan (焚稿斷情) -> Kematian Daiyu
 
-Check the pending\_effects queue. Suppose the following was triggered in Chapter 13:
+Status Latar Belakang (memasuki Bab 97)
 
-▎ FATE\_010 "Qin Keqing's deathbed dream: the peak foretells the fall" delay\_chapters: 20
+Setelah lebih dari selusin bab penurunan kumulatif, kondisi Lin Daiyu adalah:
 
-Its effect, economy.spending\_pressure add 0.1, already came due and was executed in Chapter 33. The queue is now empty. Skip.
+agen.林黛玉: kesehatan=0,12, suasana hati=0,08, isolasi=0,72, tragedi\_risiko=0,95, hidup=True
 
----
+agent.賈寶玉: biksu\_tendency=0,35, suasana hati=0,20
 
-② Evaluate All 369 Laws
+perekonomian: utang\_rasio=0,65
 
-The engine scans each law in sequence. The key laws that trigger this chapter:
+politik: keluarga\_memutuskan\_pernikahan=Benar
 
-Law A -- VAR\_MARRIAGE\_SWAP "The Switcheroo: Secretly marrying Baochai instead" conf=0.95
+relasi.賈寶玉::林黛玉: pernikahan\_probabilitas=0,15
 
-Premise check:
+relasi.賈寶玉::薛寶釵: pernikahan\_probabilitas=0,72
 
-```
-agent.林黛玉.health \< 0.15       -> 0.12 \< 0.15  ✅
+Mengapa kesehatan Daiyu turun dari awal 0,35 menjadi 0,12? Karena undang-undang ini secara diam-diam telah memicu setiap bab:
 
-agent.林黛玉.alive == True        -> True          ✅
+▎ PSY\_E1\_DAIYU\_DECAY "Kesehatan Daiyu perlahan menurun"
 
-politics.family\_decides\_marriage  -> True          ✅
+▎ Premis: kesehatan > 0,0 DAN isolasi > 0,3 DAN hidup = Benar -> Efek: kesehatan sub 0,017
 
-relation.寶玉::黛玉.marriage\_probability \< 0.5  -> 0.15 \< 0.5  ✅
-
-All passed -> 🔥 Triggered!
-```
-
-Law B -- PSY\_E1\_DAIYU\_DECAY "Daiyu's health decay" conf=0.9
-
-```
-health > 0.0  -> 0.12 > 0  ✅
-
-isolation > 0.3 -> 0.72 > 0.3  ✅
-
-alive == True  ✅
-
--> 🔥 Triggered!
-```
-
-Law C -- VAR\_MARRIAGE\_DAIYU "The Stone-and-Wood Bond: Baoyu and Daiyu marry" conf=0.9
-
-```
-relation.寶玉::黛玉.marriage\_probability > 0.7  -> 0.15 > 0.7  ❌
-
--> Not triggered (Baoyu-Daiyu marriage probability too low)
-```
-
-This chapter also simultaneously triggers over a dozen other laws (economic decline, political risk, etc.), but the above are the ones directly relevant to Daiyu.
+▎ Pada -0,017 per bab, lebih dari selusin bab, hal ini merupakan pengurasan kronis yang mematikan.
 
 ---
 
-③ Conflict Resolution
+① Proses Efek Tertunda
 
-VAR\_MARRIAGE\_SWAP, VAR\_MARRIAGE\_NORMAL\_BAOCHAI, and VAR\_MARRIAGE\_DAIYU belong to the same variant\_group (marriage outcomes are mutually exclusive).
+Periksa antrian\_effects yang tertunda. Misalkan hal berikut dipicu pada Bab 13:
 
-Only VAR\_MARRIAGE\_SWAP passed the premise check, so there is no actual conflict. However, if Daiyu were already dead (alive=False), then VAR\_MARRIAGE\_NORMAL\_BAOCHAI would trigger instead of the switcheroo version --
+▎ NASIB\_010 "Mimpi menjelang kematian Qin Keqing: puncaknya meramalkan kejatuhan" penundaan\_bab: 20
 
-that would be a different evolutionary path.
-
-PSY\_E1\_DAIYU\_DECAY's effect is additive (sub), so it does not conflict with other laws. All effects are retained.
+Efeknya, economy.spending\_pressure tambah 0,1, sudah jatuh tempo dan dieksekusi di Bab 33. Antrian sekarang kosong. Melewati.
 
 ---
 
-④ Apply Effects
+② Evaluasi Semua 369 Hukum
 
-Law A's effects execute immediately (delay=0):
+Mesin memindai setiap hukum secara berurutan. Undang-undang utama yang memicu bab ini:
 
-marriage trigger\_event BAOYU\_MARRIED\_BAOCHAI   -> fate\_flags\["BAOYU\_MARRIED\_BAOCHAI"] = True
+Hukum A -- VAR\_MARRIAGE\_SWAP "The Switcheroo: Diam-diam menikahi Baochai" conf=0.95
 
-relation.寶玉::寶釵.marriage\_probability set 1.0  -> 1.0
-
-agent.賈寶玉.mood sub 0.5                        -> 0.20 -> 0.00 (clamp)
-
-agent.賈寶玉.monk\_tendency add 0.3               -> 0.35 -> 0.65
-
-agent.林黛玉.health sub 0.1                       -> 0.12 -> 0.02
-
-Law B's effects:
-
-agent.林黛玉.health sub 0.017                    -> 0.02 -> 0.003
-
-At this point Daiyu's health = 0.003, approaching zero.
-
----
-
-⑤ Snapshot
-
-Compress the current world state into a numerical vector:
-
-snapshot = {
+Pemeriksaan premis:
 
 ```
-economy\_vector: \[0.42, 0.82, 0.65, 0.55, 0.80, 0.35],
+agen.林黛玉.kesehatan \< 0.15 -> 0.12 \< 0.15 ✅
 
-agent\_vectors: {
+agent.林黛玉.alive == Benar -> Benar ✅
 
-  "林黛玉": \[0.003, 0.08, 0.10, 0.00, 0.30, 0.00, 0.72, 0.95],
+politik.keluarga\_memutuskan\_pernikahan -> Benar ✅
 
-  "賈寶玉": \[0.80, 0.00, 0.30, 0.72, 0.80, 0.65, 0.42, 0.92],
+relasi.寶玉::黛玉.marriage\_probability \< 0.5 -> 0.15 \< 0.5 ✅
 
-  ...
+Semua lolos -> 🔥 Dipicu!
+```
+
+Hukum B -- PSY\_E1\_DAIYU\_DECAY "Kerusakan kesehatan Daiyu" conf=0,9
+
+```
+kesehatan > 0,0 -> 0,12 > 0 ✅
+
+isolasi > 0,3 -> 0,72 > 0,3 ✅
+
+hidup == Benar ✅
+
+-> 🔥 Dipicu!
+```
+
+Hukum C -- VAR\_MARRIAGE\_DAIYU "Ikatan Batu dan Kayu: Baoyu dan Daiyu menikah" conf=0.9
+
+```
+relasi.寶玉::黛玉.marriage\_probability > 0,7 -> 0,15 > 0,7 ❌
+
+-> Tidak terpicu (kemungkinan pernikahan Baoyu-Daiyu terlalu rendah)
+```
+
+Bab ini juga secara bersamaan memicu lebih dari selusin undang-undang lainnya (kemerosotan ekonomi, risiko politik, dll.), namun undang-undang di atas adalah undang-undang yang secara langsung relevan dengan Daiyu.
+
+---
+
+③ Resolusi Konflik
+
+VAR\_MARRIAGE\_SWAP, VAR\_MARRIAGE\_NORMAL\_BAOCHAI, dan VAR\_MARRIAGE\_DAIYU termasuk dalam varian\_grup yang sama (hasil pernikahan saling eksklusif).
+
+Hanya VAR\_MARRIAGE\_SWAP yang lulus pemeriksaan premis, sehingga tidak ada konflik sebenarnya. Namun, jika Daiyu sudah mati (hidup=False), maka VAR\_MARRIAGE\_NORMAL\_BAOCHAI akan terpicu dan bukan versi switcheroo --
+
+itu akan menjadi jalur evolusi yang berbeda.
+
+Efek PSY\_E1\_DAIYU\_DECAY bersifat aditif (sub), sehingga tidak bertentangan dengan undang-undang lainnya. Semua efek dipertahankan.
+
+---
+
+④ Terapkan Efek
+
+Efek Hukum A segera dijalankan (delay=0):
+
+pemicu pernikahan\_event BAOYU\_MARRIED\_BAOCHAI -> takdir\_flags\["BAOYU\_MARRIED\_BAOCHAI"] = Benar
+
+relasi.寶玉::寶釵.marriage\_probability set 1.0 -> 1.0
+
+agent.賈寶玉.mood sub 0,5 -> 0,20 -> 0,00 (penjepit)
+
+agent.賈寶玉.monk\_tendency tambahkan 0,3 -> 0,35 -> 0,65
+
+agen.林黛玉.kesehatan sub 0,1 -> 0,12 -> 0,02
+
+Efek Hukum B:
+
+agen.林黛玉.sub kesehatan 0,017 -> 0,02 -> 0,003
+
+Pada titik ini kesehatan Daiyu = 0,003, mendekati nol.
+
+---
+
+⑤ Cuplikan
+
+Kompres keadaan dunia saat ini menjadi vektor numerik:
+
+cuplikan = {
+
+```
+ekonomi\_vektor: \[0,42, 0,82, 0,65, 0,55, 0,80, 0,35],
+
+agen\_vektor: {
+
+"林黛玉": \[0,003, 0,08, 0,10, 0,00, 0,30, 0,00, 0,72, 0,95],
+
+"賈寶玉": \[0,80, 0,00, 0,30, 0,72, 0,80, 0,65, 0,42, 0,92],
+
+...
 
 },
 
-politics\_vector: \[0.0, 0.60, 0.75]
+politik\_vektor: \[0,0, 0,60, 0,75]
 ```
 
 }
 
-This vector will later be compared via Euclidean distance against the actual vector for Chapter 97 in actual\_checkpoints.json.
+Vektor ini nantinya akan dibandingkan melalui jarak Euclidean terhadap vektor sebenarnya untuk Bab 97 di aktual\_checkpoints.json.
 
 ---
 
-⑥ chapter = 98
+⑥ bab = 98
 
-Enter the next chapter. At this point Daiyu's health = 0.003, and BAOYU\_MARRIED\_BAOCHAI = True.
+Masuk ke bab berikutnya. Pada titik ini kesehatan Daiyu = 0,003, dan BAOYU\_MARRIED\_BAOCHAI = Benar.
 
-When Chapter 98 runs step ② again, two lethal laws trigger simultaneously:
+Ketika Bab 98 menjalankan langkah ② lagi, dua hukum mematikan terpicu secara bersamaan:
 
-▎ VAR\_DAIYU\_HEARTBREAK "Burning manuscripts, severing ties: Daiyu dies of heartbreak" conf=0.95
+▎ VAR\_DAIYU\_HEARTBREAK "Membakar naskah, memutuskan hubungan: Daiyu meninggal karena patah hati" conf=0.95
 
-▎ health ≤ 0.05        -> 0.003 ≤ 0.05   ✅
+▎ kesehatan ≤ 0,05 -> 0,003 ≤ 0,05 ✅
 
-▎ BAOYU\_MARRIED\_BAOCHAI -> True           ✅
+▎ BAOYU\_MARRIED\_BAOCHAI -> Benar ✅
 
-▎ -> death trigger\_event FATE\_DAIYU\_DEATH
+▎ -> pemicu kematian\_event FATE\_DAIYU\_DEATH
 
-▎ -> monk\_tendency add 0.4 -> Baoyu 0.65 -> 1.0 (clamp)
+▎ -> biksu\_tendency tambahkan 0,4 -> Baoyu 0,65 -> 1,0 (penjepit)
 
-▎ -> alive set False
+▎ -> hidup disetel Salah
 
-Then SYS\_E19\_ZERO\_DAIYU triggers (checkpoint.FATE\_DAIYU\_DEATH = True), zeroing out all of Daiyu's attributes.
+Kemudian SYS\_E19\_ZERO\_DAIYU memicu (checkpoint.FATE\_DAIYU\_DEATH = True), menghilangkan semua atribut Daiyu.
 
-A few chapters later, Baoyu's monk\_tendency has reached 1.0 and mood ≤ 0.15, triggering VAR\_MONK\_DESPAIR "All hopes extinguished: Baoyu renounces the world" (萬念俱灰：寶玉出家).
+Beberapa bab kemudian, kecenderungan biksu\_ Baoyu telah mencapai 1,0 dan suasana hati ≤ 0,15, memicu VAR\_MONK\_DESPAIR "Semua harapan padam: Baoyu meninggalkan dunia" (萬念俱灰：寶玉出家).

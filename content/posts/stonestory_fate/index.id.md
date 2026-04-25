@@ -1,212 +1,212 @@
 ---
-isStub: true
-title: "Dream of the Red Chamber Simulator: The Holy Grail of Social Science, and LLMs as Prophetic Verse"
+title: "Mimpi Simulator Kamar Merah: Cawan Suci Ilmu Sosial, dan LLM sebagai Ayat Nabi"
 date: 2026-03-22T03:31:45.090Z
 draft: false
 author: "QQder"
 categories:
-  - The Workshop
+  - Lokakarya
 tags:
-  - ontology
-  - ontology
+  - ontologi
+  - ontologi
   - Eileen Chang
   - LLM
-  - Dream of the Red Chamber
-  - prophetic verse
+  - Mimpi Kamar Merah
+  - ayat nubuatan
 keywords:
   - LLM
-  - large language model
-  - Dream of the Red Chamber
-  - Dream of the Red Chamber
+  - model bahasa besar
+  - Mimpi Kamar Merah
+  - Mimpi Kamar Merah
   - Cao Xueqin
-  - social science
-  - prediction
-  - literary analysis
-  - knowledge graph
-  - Word Embedding
-  - Redology
-  - prophetic verse
-  - psychohistory
-  - multi-agent
-description: "Predicting the future — from fortune and misfortune to the fate of humanity — has been a grand challenge since the dawn of civilization. LLMs offer us a glimpse of hope for tackling this problem."
+  - ilmu sosial
+  - ramalan
+  - analisis sastra
+  - grafik pengetahuan
+  - Penyematan Kata
+  - Redologi
+  - ayat nubuatan
+  - psikosejarah
+  - multi-agen
+description: "Memprediksi masa depan – mulai dari keberuntungan dan kemalangan hingga nasib umat manusia – telah menjadi tantangan besar sejak awal peradaban. LLM memberi kita secercah harapan untuk mengatasi masalah ini."
 ---
+
 
 ***
 
-## Preface
+## Kata pengantar
 
-Predicting the future — from fortune and misfortune to the fate of humanity — has been one of the grand challenges of human civilization since antiquity. Large Language Models (LLMs) now offer us a glimpse of hope for tackling this problem.
+Memprediksi masa depan – mulai dari keberuntungan dan kemalangan hingga nasib umat manusia – telah menjadi salah satu tantangan besar peradaban manusia sejak jaman dahulu. Model Bahasa Besar (LLM) kini memberi kita secercah harapan untuk mengatasi masalah ini.
 
-This article explores the use of LLMs as the latest tool, with *Dream of the Red Chamber* (紅樓夢) serving as a sandbox, to find methods for predicting the novel's lost final forty chapters.
+Artikel ini mengeksplorasi penggunaan LLM sebagai alat terbaru, dengan *Dream of the Red Chamber* (紅樓夢) berfungsi sebagai kotak pasir, untuk menemukan metode memprediksi empat puluh bab terakhir novel yang hilang.
 
-Let me state upfront: I have not succeeded. Perhaps one day when someone does, this article will surface in their search results.
+Izinkan saya menyatakan terlebih dahulu: Saya belum berhasil. Mungkin suatu hari nanti ketika seseorang melakukannya, artikel ini akan muncul di hasil pencarian mereka.
 
-This piece is more of a meditation on the nature of text itself. While text lacks the precision of physical formulas,
+Karya ini lebih merupakan meditasi tentang hakikat teks itu sendiri. Meskipun teks kurang presisi dibandingkan rumus fisik,
 
-as a tool for humanity to grasp reality and speculate about the future, it is far more important than we imagine.
+sebagai alat bagi umat manusia untuk memahami realitas dan berspekulasi tentang masa depan, hal ini jauh lebih penting daripada yang kita bayangkan.
 
-Text is not merely an "imagined" reality — it is not inherently subjective. It simply mirrors objective reality in the most cost-effective way possible.
+Teks bukan sekedar realitas yang “dibayangkan” – ia tidak bersifat subyektif. Ini hanya mencerminkan realitas obyektif dengan cara yang paling hemat biaya.
 
-And LLMs, as automated mechanisms for predicting text, will radically compress the cost of extracting, generating, and mirroring objective reality.
+Dan LLM, sebagai mekanisme otomatis untuk memprediksi teks, akan secara radikal menekan biaya penggalian, pembuatan, dan pencerminan realitas objektif.
 
-The latest implementation will be updated in the iOS app: Dream of the Red Chamber Simulator.
+Implementasi terbaru akan diperbarui di aplikasi iOS: Dream of the Red Chamber Simulator.
 
-APP: [Link](https://apps.apple.com/tw/app/%E7%B4%85%E6%A8%93%E5%A4%A2%E6%A8%A1%E6%93%AC%E5%99%A8/id6759855416)
+APLIKASI: [Tautan](https://apps.apple.com/tw/app/%E7%B4%85%E6%A8%93%E5%A4%A2%E6%A8%A1%E6%93%AC%E5%99%A8/id6759855416)
 
 ![紅樓夢模擬器](/images/1024x1024bb.png)
 
-> The three great regrets in life: First, that the shad has too many bones; second, that the crabapple blossom has no fragrance; third, that *Dream of the Red Chamber* was never finished.
+> Tiga penyesalan besar dalam hidup: Pertama, karena shad terlalu banyak tulangnya; kedua, bunga crabapple tidak berbau; ketiga, *Mimpi Kamar Merah* tidak pernah selesai.
 
 — Eileen Chang (張愛玲)
 
 ***
 
-## Celestial Patterns: More Than Just Word Prediction
+## Pola Langit: Lebih Dari Sekadar Prediksi Kata
 
-Predicting the future has always been a matter of great importance in human societies. Every ancient civilization had priests or officials dedicated to observing the stars.
+Memprediksi masa depan selalu menjadi hal yang sangat penting dalam masyarakat manusia. Setiap peradaban kuno memiliki pendeta atau pejabat yang berdedikasi untuk mengamati bintang.
 
-Symbol systems such as astronomy and hydrology textualized natural phenomena and physical laws. The most quintessential example is the coordinate system of latitude and longitude — text became a crucial tool for humanity to understand and influence the objective world.
+Sistem simbol seperti astronomi dan hidrologi mengtekstualisasikan fenomena alam dan hukum fisika. Contoh yang paling penting adalah sistem koordinat lintang dan bujur — teks menjadi alat penting bagi umat manusia untuk memahami dan mempengaruhi dunia objektif.
 
-The practical power of this mapping between text and reality has been validated in these recent years of explosive LLM capability.
+Kekuatan praktis pemetaan antara teks dan kenyataan ini telah divalidasi dalam beberapa tahun terakhir ini dengan kemampuan LLM yang eksplosif.
 
-In the past, language as a tool was not sufficiently deterministic. After the Industrial Revolution, when science became the primary driver of productivity, language was perpetually relegated to the bottom of the prestige hierarchy.
+Di masa lalu, bahasa sebagai alat belum cukup deterministik. Setelah Revolusi Industri, ketika sains menjadi pendorong utama produktivitas, bahasa terus-menerus diturunkan ke peringkat paling bawah dalam hierarki prestise.
 
-The age of LLMs has finally brought the digestion and production of text into the millisecond domain, freeing it from the bottlenecks of human reading speed, typing speed, and typographical errors.
+Era LLM akhirnya membawa pencernaan dan produksi teks ke dalam domain milidetik, membebaskannya dari hambatan kecepatan membaca manusia, kecepatan mengetik, dan kesalahan ketik.
 
-Work that once consumed enormous mental energy and time now has the potential to be assembled and configured like a production line.
+Pekerjaan yang dulunya menghabiskan energi mental dan waktu yang sangat besar kini berpotensi untuk dirakit dan dikonfigurasikan seperti jalur produksi.
 
-But what does this production line produce? The essence of an LLM is "predicting" the next token. Is this actually productive? Does the model "sort of" "understand" what it is saying?
+Tapi apa yang dihasilkan lini produksi ini? Inti dari LLM adalah “memprediksi” token berikutnya. Apakah ini benar-benar produktif? Apakah model tersebut "mengerti" apa yang dikatakannya?
 
-Ilya Sutskever (former co-founder and chief scientist of OpenAI) once gave this example:
+Ilya Sutskever (mantan salah satu pendiri dan kepala ilmuwan OpenAI) pernah memberikan contoh berikut:
 
-> Say you read a detective novel, and on the last page, the detective says "I am going to reveal the identity of the criminal, and that person's name is..."
+> Katakanlah Anda membaca novel detektif, dan di halaman terakhir, detektif tersebut berkata, "Saya akan mengungkapkan identitas penjahatnya, dan nama orang itu adalah..."
 
-If an LLM can consistently and correctly guess the identity of the culprit, then we can tentatively say it "understands" the novel — at least surpassing the many readers who guessed wrong.
+Jika sebuah LLM dapat secara konsisten dan benar menebak identitas pelakunya, maka secara tentatif kita dapat mengatakan bahwa LLM tersebut "memahami" novel tersebut - setidaknya melampaui banyak pembaca yang salah menebak.
 
-And we must properly appreciate what "understanding" means. Understanding is ultimately for predicting the future. Every ancient civilization, without exception, studied astronomy and hydrology
+Dan kita harus benar-benar menghayati apa yang dimaksud dengan “pemahaman”. Pemahaman pada akhirnya untuk memprediksi masa depan. Setiap peradaban kuno, tanpa kecuali, mempelajari astronomi dan hidrologi
 
-precisely to forecast upcoming climate patterns, changes in river courses, droughts and floods — to survive better in the objective environment.
+tepatnya untuk memperkirakan pola iklim yang akan datang, perubahan aliran sungai, kekeringan dan banjir — untuk bertahan hidup lebih baik dalam lingkungan objektif.
 
-One could even argue that predicting correctly matters more than understanding.
-
-***
-
-## The Humanities: Both People and Agents Remain Black Boxes
-
-Predicting the future is the pursuit and prerequisite (reproducibility) of the natural sciences, and the holy grail of the social sciences.
-
-This admittedly sounds like science fiction. In Isaac Asimov's *Foundation* series, such a discipline for predicting the future was fictionalized as "psychohistory" (心理史學).
-
-Economists, historians, psychologists, social scientists — all want to know how individuals and societies will react to specific events.
-
-Finance, in particular, is probably the field outside of software where AI is being applied most aggressively.
-
-Although we cannot yet see the finish line, the feasibility of this endeavor has improved significantly.
-
-The improvement — and its limitation — is that we now have a remarkable black box (the LLM agent).
-
-For tasks at a level comparable to human performance, it is blazingly fast and extremely cheap, making it suitable for replacing human labor.
-
-The limitation is that its current mode of use resembles a slot machine. We can use certain techniques (prompt/context engineering) to improve the hit rate, but that is about it.
-
-We struggle to open the black box. Chaining multiple black boxes together (multi-agent) yields only limited improvement.
-
-Currently, tasks that a single agent can handle are done quickly and well, but more abstract tasks are difficult to improve linearly.
-
-Applied to social science: a single agent cannot adequately simulate even one individual's memory and emotions, let alone having multi-agent systems simulate an entire community.
-
-On the optimistic side, this feels more like a performance problem — and performance within this paradigm will continue to improve.
+Bahkan ada yang berpendapat bahwa memprediksi dengan benar lebih penting daripada memahami.
 
 ***
 
-## The Sandbox: Don't Aim for a One-Hit Kill
+## Humaniora: Manusia dan Agen Tetaplah Kotak Hitam
 
-Since we are dealing with a black box, the intuitive approach is to find a smaller box to attempt to crack.
+Memprediksi masa depan adalah upaya dan prasyarat (reprodusibilitas) ilmu-ilmu alam, dan cawan suci ilmu-ilmu sosial.
 
-Assume the current baseline model capability is what was described earlier: throw any detective novel into the LLM slot machine, and it can directly (one-shot) and correctly output who the culprit is.
+Memang ini terdengar seperti fiksi ilmiah. Dalam seri *Foundation* karya Isaac Asimov, disiplin untuk memprediksi masa depan difiksikan sebagai "psikohistori" (心理史學).
 
-Building on this baseline, if we put in extra effort — erecting scaffolding, going back and forth with the LLM in discussion, finding ways to linearly accumulate results across each exchange — we should theoretically be able to make predictions of higher difficulty.
+Ekonom, sejarawan, psikolog, ilmuwan sosial – semuanya ingin mengetahui bagaimana individu dan masyarakat akan bereaksi terhadap peristiwa tertentu.
 
-*Dream of the Red Chamber* is the perfect target. Based on the content of the first eighty chapters, we ask the model to predict, to some degree, the final forty chapters.
+Keuangan, khususnya, mungkin merupakan bidang di luar perangkat lunak di mana AI diterapkan secara paling agresif.
 
-This prediction is extremely difficult, but it is just right for my working objectives. Theoretically the probability is not zero; practically it is highly unlikely. This makes it an ideal benchmark for observing LLM capability growth over the coming years.
+Meskipun kita belum bisa melihat garis akhirnya, kelayakan upaya ini telah meningkat secara signifikan.
 
-Having written this far, I can finally articulate two working objectives:
+Peningkatannya – dan keterbatasannya – adalah kita sekarang memiliki kotak hitam yang luar biasa (agen LLM).
 
-1. How can we put in additional effort so that answers unattainable through one-shot prompting can be progressively approached?
-2. How should we choose our battleground so that our results are not immediately rendered obsolete by stronger models — and ideally, so that our framework also benefits when future models improve?
+Untuk tugas-tugas pada tingkat yang sebanding dengan kinerja manusia, teknologi ini sangat cepat dan sangat murah, sehingga cocok untuk menggantikan tenaga manusia.
 
-Below, I begin considering research methods based on the characteristics of *Dream of the Red Chamber* and LLMs.
+Batasannya adalah cara penggunaannya saat ini menyerupai mesin slot. Kita dapat menggunakan teknik tertentu (rekayasa cepat/konteks) untuk meningkatkan tingkat keberhasilan, tapi itu saja.
 
-### Assumptions
+Kami berjuang untuk membuka kotak hitam. Merangkai beberapa kotak hitam menjadi satu (multi-agen) hanya menghasilkan perbaikan terbatas.
 
-We assume that the ending of *Dream of the Red Chamber* did once exist, and that the first eighty chapters and the subsequent conclusion were written as an organic, intentional, continuous work — exhibiting the same internal coherence found within the first eighty chapters themselves.
+Saat ini, tugas-tugas yang dapat ditangani oleh satu agen dapat diselesaikan dengan cepat dan baik, namun tugas-tugas yang lebih abstrak sulit untuk ditingkatkan secara linier.
 
-If the ending never actually existed, the prediction difficulty is even higher — approaching the prediction of a parallel universe. The question becomes: if Cao Xueqin had written the ending, what would it *necessarily* have been?
+Diterapkan pada ilmu sosial: satu agen tidak dapat secara memadai menyimulasikan memori dan emosi satu individu, apalagi memiliki sistem multi-agen yang dapat menyimulasikan seluruh komunitas.
 
-This word "necessarily" is the crux. One must reach this level of confidence for generating something from nothing to be meaningful.
+Di sisi optimis, hal ini lebih terasa seperti masalah kinerja — dan kinerja dalam paradigma ini akan terus meningkat.
 
-### The Writing of *Dream of the Red Chamber*
+***
 
-The novel was composed around the 1750s. At that time it circulated mostly among friends and relatives. It was not until 1791, when Cheng Weiyuan published it using movable wooden type, that it became widely known.
+## Kotak Pasir: Jangan Mengincar Pembunuhan Sekali Pukul
 
-### Redology and AI-Assisted Research
+Karena kita berurusan dengan kotak hitam, pendekatan intuitifnya adalah menemukan kotak yang lebih kecil untuk dicoba dipecahkan.
 
-Wang Guowei and Hu Shi were pioneers of Redology (紅學 — the scholarly study of *Dream of the Red Chamber*). The field has continued to develop, and in recent years has trended toward popularization and entertainment. The attention given to textual archaeology (探佚學) and the controversial Guiyou manuscript (癸酉本) reflects the public's curiosity about the ending.
+Asumsikan kemampuan model dasar saat ini adalah apa yang telah dijelaskan sebelumnya: masukkan novel detektif apa pun ke dalam mesin slot LLM, dan novel tersebut dapat secara langsung (satu kali) dan menampilkan dengan benar siapa pelakunya.
 
-Key research achievements incorporating the latest technology include:
+Berdasarkan dasar ini, jika kita melakukan upaya ekstra - mendirikan perancah, berdiskusi dengan LLM, menemukan cara untuk mengumpulkan hasil secara linear di setiap pertukaran - secara teori kita akan mampu membuat prediksi tingkat kesulitan yang lebih tinggi.
 
-* Machine learning once again confirming that the final forty chapters were not written by the original author
-* Using LLMs for more nuanced semantic vectorization of text (Word Embedding)
-* Using LLMs to build domain-specific knowledge graphs
-* Models trained specifically on the first eighty chapters and Qing dynasty historical texts as input data
+*Mimpi Kamar Merah* adalah target yang sempurna. Berdasarkan isi dari delapan puluh bab pertama, kami meminta model untuk memprediksi, sampai tingkat tertentu, empat puluh bab terakhir.
 
-### LLM Characteristics
+Prediksi ini sangat sulit, namun tepat untuk tujuan kerja saya. Secara teoritis kemungkinannya tidak nol; secara praktis hal ini sangat kecil kemungkinannya. Hal ini menjadikannya tolok ukur ideal untuk mengamati pertumbuhan kemampuan LLM di tahun-tahun mendatang.
 
-The LLM characteristic most relevant to this task is: it has been trained on all data available on the internet, plus all valuable materials these frontier AI labs could obtain.
+Setelah menulis sejauh ini, saya akhirnya dapat mengartikulasikan dua tujuan kerja:
 
-For information already in its training data, the model's predictive capability and tendency are very high. For instance, if you input a passage from *Harry Potter*, it can recite the subsequent paragraphs from memory.
+1. Bagaimana kita dapat melakukan upaya tambahan sehingga jawaban yang tidak dapat dicapai melalui one-shot prompt dapat didekati secara progresif?
+2. Bagaimana sebaiknya kita memilih medan pertempuran agar hasil yang kita peroleh tidak langsung menjadi usang karena adanya model yang lebih kuat — dan idealnya, agar kerangka kerja kita juga mendapat manfaat ketika model di masa depan menjadi lebih baik?
 
-But the final forty chapters of *Dream of the Red Chamber* were never transmitted to posterity. They are not in the model's training data. It cannot recite them.
+Di bawah ini, saya mulai mempertimbangkan metode penelitian berdasarkan karakteristik *Mimpi Kamar Merah* dan LLM.
 
-#### Problem 1: Context Window Limitations
+### Asumsi
 
-Can we simply input chapters one through eighty and ask the LLM to output the remaining forty?
+Kami berasumsi bahwa akhir dari *Mimpi Kamar Merah* memang pernah ada, dan delapan puluh bab pertama serta kesimpulan berikutnya ditulis sebagai sebuah karya yang organik, disengaja, dan berkesinambungan — menunjukkan koherensi internal yang sama dengan yang ditemukan dalam delapan puluh bab pertama itu sendiri.
 
-On the input side, the current top-tier models (Gemini 3.1 / GPT-5.4 / Opus 4.6) using API mode can support up to 1M tokens, which is sufficient.
+Jika akhir cerita tidak pernah benar-benar ada, kesulitan prediksinya akan lebih tinggi lagi – mendekati prediksi alam semesta paralel. Pertanyaannya menjadi: jika Cao Xueqin yang menulis bagian akhir, *seharusnya* apa yang akan terjadi?
 
-However, under the current paradigm, the output token window is far smaller than the input. Output is limited to roughly four to eight thousand Chinese characters at most — approximately one chapter's worth of content.
+Kata “harus” inilah yang menjadi inti permasalahannya. Seseorang harus mencapai tingkat keyakinan ini untuk menghasilkan sesuatu dari ketiadaan menjadi bermakna.
 
-#### Problem 2: Listless Prose and Quality Degradation
+### Penulisan *Mimpi Kamar Merah*
 
-What if we modify the prompt to ask the LLM to output only the content of chapter eighty-one?
+Novel ini disusun sekitar tahun 1750-an. Saat itu kebanyakan beredar di kalangan teman dan kerabat. Baru pada tahun 1791, ketika Cheng Weiyuan menerbitkannya dengan menggunakan jenis kayu yang dapat dipindahkan, barulah dikenal secara luas.
 
-The model gets "contaminated" by the massive text input. Its writing style closely resembles Cao Xueqin's, and it can reasonably continue the known plot — but the result reads like a flat chronicle of events.
+### Redologi dan Penelitian Berbantuan AI
 
-Then, repeating the process for chapters eighty-two, eighty-three, and so on, the quality drops precipitously.
+Wang Guowei dan Hu Shi adalah pionir Redologi (紅學 — studi ilmiah tentang *Mimpi Kamar Merah*). Bidang ini terus berkembang, dan dalam beberapa tahun terakhir cenderung ke arah popularisasi dan hiburan. Perhatian yang diberikan terhadap arkeologi tekstual (探佚學) dan naskah Guiyou (癸酉本) yang kontroversial mencerminkan keingintahuan masyarakat terhadap bagian akhir.
 
-#### Problem 3: Prior Contamination in the Model
+Prestasi penelitian utama yang menggabungkan teknologi terkini meliputi:
 
-Another issue is that during training, the model has already seen Gao E's continuation (高鶚續書), various scholarly speculations, and other secondary sources. If these materials diverge from the original ending, the output will be biased.
+* Pembelajaran mesin sekali lagi mengonfirmasi bahwa empat puluh bab terakhir tidak ditulis oleh penulis aslinya
+* Menggunakan LLM untuk vektorisasi semantik teks yang lebih bernuansa (Word Embedding)
+* Menggunakan LLM untuk membuat grafik pengetahuan khusus domain
+* Model dilatih secara khusus pada delapan puluh bab pertama dan teks sejarah Dinasti Qing sebagai data masukan
 
-## To Be Continued
+### Karakteristik LLM
 
-Due to the length of this piece, I will wrap up here with a preview of what comes next.
+Karakteristik LLM yang paling relevan dengan tugas ini adalah: LLM telah dilatih berdasarkan semua data yang tersedia di internet, ditambah semua materi berharga yang dapat diperoleh laboratorium AI terdepan ini.
 
-We cannot simply have the LLM directly produce unknown information.
+Untuk informasi yang sudah ada dalam data pelatihannya, kemampuan dan kecenderungan prediktif model tersebut sangat tinggi. Misalnya, jika Anda memasukkan satu bagian dari *Harry Potter*, paragraf berikutnya dapat dibacakan dari ingatan.
 
-So we still need more traditional, mechanical, or programmatic methods.
+Namun empat puluh bab terakhir dari *Mimpi Kamar Merah* tidak pernah diwariskan kepada anak cucu. Mereka tidak ada dalam data pelatihan model. Ia tidak bisa melafalkannya.
 
-The good news is: for the tireless researchers of literature, history, and philosophy — we now have a tractor for the field!
+#### Masalah 1: Keterbatasan Jendela Konteks
 
-*Dream of the Red Chamber* possesses a highly structured nature. Important characters have their own 判詞 (prophetic verses, known as "pànCí") — poetic passages that cryptically foreshadow each character's fate.
+Bisakah kita memasukkan bab satu sampai delapan puluh dan meminta LLM mengeluarkan empat puluh sisanya?
 
-Moreover, the first eighty chapters can be cross-validated against one another, making the novel more amenable to prediction than many other works of fiction.
+Di sisi masukan, model tingkat atas saat ini (Gemini 3.1 / GPT-5.4 / Opus 4.6) yang menggunakan mode API dapat mendukung hingga 1 juta token, dan itu sudah cukup.
 
-Although the cast of characters is large and their backgrounds complex, what we are ultimately predicting is Cao Xueqin's artistic vision — his creative will permeates the entire work. This is a tremendous aid for predicting the ending.
+Namun, dalam paradigma saat ini, jendela token keluaran jauh lebih kecil daripada jendela masukan. Outputnya dibatasi paling banyak sekitar empat hingga delapan ribu karakter China — kira-kira setara dengan satu bab konten.
 
-## Next: The Thermodynamics of *Dream of the Red Chamber*
+#### Masalah 2: Prosa Lesu dan Penurunan Kualitas
 
-The next article will introduce the experimental approach: structurally extracting content from the text, iteratively experimenting to extract the rules embedded in the novel, and using code to run repeated experiments.
+Bagaimana jika kita memodifikasi perintah untuk meminta LLM mengeluarkan konten bab delapan puluh satu saja?
 
-The idealized scenario is something akin to a thermodynamic system: given initial conditions (premises — e.g., characters, family wealth, socioeconomic status, interpersonal networks...) plus the system's operating mechanisms (human psychology, social hierarchy, economic dynamics, cultural norms, karmic retribution, etc.), one could predict the system's state at any subsequent point in time.
+Model menjadi "terkontaminasi" oleh masukan teks yang sangat besar. Gaya penulisannya sangat mirip dengan gaya Cao Xueqin, dan cukup melanjutkan alur cerita yang telah diketahui — namun hasilnya terlihat seperti kronik peristiwa yang datar.
+
+Kemudian, mengulangi proses untuk bab delapan puluh dua, delapan puluh tiga, dan seterusnya, kualitasnya turun drastis.
+
+#### Masalah 3: Kontaminasi Sebelumnya pada Model
+
+Masalah lainnya adalah selama pelatihan, model tersebut telah melihat kelanjutan Gao E (高鶚續書), berbagai spekulasi ilmiah, dan sumber sekunder lainnya. Jika materi ini menyimpang dari akhir aslinya, keluarannya akan menjadi bias.
+
+## Untuk Dilanjutkan
+
+Karena panjangnya bagian ini, saya akan menutupnya di sini dengan pratinjau tentang apa yang akan terjadi selanjutnya.
+
+Kita tidak bisa membiarkan LLM secara langsung menghasilkan informasi yang tidak diketahui.
+
+Jadi kita masih memerlukan metode yang lebih tradisional, mekanis, atau terprogram.
+
+Kabar baiknya adalah: bagi para peneliti sastra, sejarah, dan filsafat yang tak kenal lelah — kini kita memiliki traktor untuk bidang ini!
+
+*Mimpi Kamar Merah* memiliki sifat yang sangat terstruktur. Karakter penting memiliki 判詞 (ayat kenabian, dikenal sebagai "pànCí") sendiri - bagian puisi yang secara samar memberi pertanda nasib setiap karakter.
+
+Selain itu, delapan puluh bab pertama dapat divalidasi silang satu sama lain, menjadikan novel ini lebih mudah diprediksi dibandingkan banyak karya fiksi lainnya.
+
+Meskipun pemeran karakternya banyak dan latar belakangnya rumit, apa yang pada akhirnya kami prediksi adalah visi artistik Cao Xueqin — kemauan kreatifnya meresap ke dalam keseluruhan karya. Ini adalah bantuan yang luar biasa untuk memprediksi akhir cerita.
+
+## Berikutnya: Termodinamika *Mimpi Kamar Merah*
+
+Artikel berikutnya akan memperkenalkan pendekatan eksperimental: mengekstraksi konten dari teks secara struktural, bereksperimen secara berulang untuk mengekstrak aturan yang tertanam dalam novel, dan menggunakan kode untuk menjalankan eksperimen berulang.
+
+Skenario yang diidealkan adalah sesuatu yang mirip dengan sistem termodinamika: dengan kondisi awal (tempat — misalnya, karakter, kekayaan keluarga, status sosial ekonomi, jaringan antarpribadi...) ditambah mekanisme operasi sistem (psikologi manusia, hierarki sosial, dinamika ekonomi, norma budaya, pembalasan karma, dll.), seseorang dapat memprediksi keadaan sistem pada titik waktu berikutnya.

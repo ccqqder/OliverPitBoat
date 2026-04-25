@@ -1,212 +1,212 @@
 ---
-isStub: true
-title: "Dream of the Red Chamber Simulator: The Holy Grail of Social Science, and LLMs as Prophetic Verse"
+title: "레드 챔버 시뮬레이터의 꿈: 사회 과학의 성배와 예언적 구절로서의 LLM"
 date: 2026-03-22T03:31:45.090Z
 draft: false
 author: "QQder"
 categories:
-  - The Workshop
+  - 워크숍
 tags:
-  - ontology
-  - ontology
-  - Eileen Chang
-  - LLM
-  - Dream of the Red Chamber
-  - prophetic verse
+  - 존재론
+  - 존재론
+  - 에일린 장
+  - 법학대학원
+  - 붉은 방의 꿈
+  - 예언 구절
 keywords:
-  - LLM
-  - large language model
-  - Dream of the Red Chamber
-  - Dream of the Red Chamber
-  - Cao Xueqin
-  - social science
-  - prediction
-  - literary analysis
-  - knowledge graph
-  - Word Embedding
-  - Redology
-  - prophetic verse
-  - psychohistory
-  - multi-agent
-description: "Predicting the future — from fortune and misfortune to the fate of humanity — has been a grand challenge since the dawn of civilization. LLMs offer us a glimpse of hope for tackling this problem."
+  - 법학대학원
+  - 대규모 언어 모델
+  - 붉은 방의 꿈
+  - 붉은 방의 꿈
+  - 카오쉐친
+  - 사회 과학
+  - 예측
+  - 문학적 분석
+  - 지식 그래프
+  - 워드 임베딩
+  - 리돌로지
+  - 예언 구절
+  - 심리사
+  - 다중 에이전트
+description: "행운과 불운부터 인류의 운명까지 미래를 예측하는 것은 문명이 시작된 이래로 큰 도전이었습니다. LLM은 이 문제를 해결할 수 있는 희망을 보여줍니다."
 ---
+
 
 ***
 
-## Preface
+## 머리말
 
-Predicting the future — from fortune and misfortune to the fate of humanity — has been one of the grand challenges of human civilization since antiquity. Large Language Models (LLMs) now offer us a glimpse of hope for tackling this problem.
+행운과 불행에서부터 인류의 운명에 이르기까지 미래를 예측하는 것은 고대부터 인류 문명의 가장 큰 과제 중 하나였습니다. 이제 LLM(대형 언어 모델)은 이 문제를 해결할 수 있는 희망을 보여줍니다.
 
-This article explores the use of LLMs as the latest tool, with *Dream of the Red Chamber* (紅樓夢) serving as a sandbox, to find methods for predicting the novel's lost final forty chapters.
+이 기사에서는 *홍루의 꿈*(紅樓夢)이 샌드박스 역할을 하는 최신 도구인 LLM을 사용하여 소설의 잃어버린 마지막 40개 장을 예측하는 방법을 찾는 방법을 살펴봅니다.
 
-Let me state upfront: I have not succeeded. Perhaps one day when someone does, this article will surface in their search results.
+미리 말씀드리자면 저는 성공하지 못했습니다. 아마도 언젠가 누군가가 그렇게 한다면 이 기사가 검색 결과에 나타날 것입니다.
 
-This piece is more of a meditation on the nature of text itself. While text lacks the precision of physical formulas,
+이 작품은 텍스트 자체의 본질에 대한 명상에 가깝습니다. 텍스트에는 물리적 공식의 정확성이 부족하지만,
 
-as a tool for humanity to grasp reality and speculate about the future, it is far more important than we imagine.
+인류가 현실을 파악하고 미래를 추측하는 도구로서 그것은 우리가 상상하는 것보다 훨씬 더 중요합니다.
 
-Text is not merely an "imagined" reality — it is not inherently subjective. It simply mirrors objective reality in the most cost-effective way possible.
+텍스트는 단순히 "상상된" 현실이 아닙니다. 본질적으로 주관적인 것도 아닙니다. 이는 가능한 가장 비용 효율적인 방법으로 객관적인 현실을 반영합니다.
 
-And LLMs, as automated mechanisms for predicting text, will radically compress the cost of extracting, generating, and mirroring objective reality.
+그리고 텍스트 예측을 위한 자동화된 메커니즘인 LLM은 객관적인 현실을 추출, 생성 및 미러링하는 비용을 근본적으로 줄여줄 것입니다.
 
-The latest implementation will be updated in the iOS app: Dream of the Red Chamber Simulator.
+최신 구현은 iOS 앱인 Dream of the Red Chamber Simulator에서 업데이트됩니다.
 
-APP: [Link](https://apps.apple.com/tw/app/%E7%B4%85%E6%A8%93%E5%A4%A2%E6%A8%A1%E6%93%AC%E5%99%A8/id6759855416)
+앱: [링크](https://apps.apple.com/tw/app/%E7%B4%85%E6%A8%93%E5%A4%A2%E6%A8%A1%E6%93%AC%E5%99%A8/id6759855416)
 
 ![紅樓夢模擬器](/images/1024x1024bb.png)
 
-> The three great regrets in life: First, that the shad has too many bones; second, that the crabapple blossom has no fragrance; third, that *Dream of the Red Chamber* was never finished.
+> 인생에서 가장 후회되는 세 가지: 첫째, 청어에 뼈가 너무 많다는 것, 둘째, 게사과 꽃에는 향기가 없습니다. 셋째, *홍루의 꿈*은 결코 끝나지 않았습니다.
 
-— Eileen Chang (張愛玲)
-
-***
-
-## Celestial Patterns: More Than Just Word Prediction
-
-Predicting the future has always been a matter of great importance in human societies. Every ancient civilization had priests or officials dedicated to observing the stars.
-
-Symbol systems such as astronomy and hydrology textualized natural phenomena and physical laws. The most quintessential example is the coordinate system of latitude and longitude — text became a crucial tool for humanity to understand and influence the objective world.
-
-The practical power of this mapping between text and reality has been validated in these recent years of explosive LLM capability.
-
-In the past, language as a tool was not sufficiently deterministic. After the Industrial Revolution, when science became the primary driver of productivity, language was perpetually relegated to the bottom of the prestige hierarchy.
-
-The age of LLMs has finally brought the digestion and production of text into the millisecond domain, freeing it from the bottlenecks of human reading speed, typing speed, and typographical errors.
-
-Work that once consumed enormous mental energy and time now has the potential to be assembled and configured like a production line.
-
-But what does this production line produce? The essence of an LLM is "predicting" the next token. Is this actually productive? Does the model "sort of" "understand" what it is saying?
-
-Ilya Sutskever (former co-founder and chief scientist of OpenAI) once gave this example:
-
-> Say you read a detective novel, and on the last page, the detective says "I am going to reveal the identity of the criminal, and that person's name is..."
-
-If an LLM can consistently and correctly guess the identity of the culprit, then we can tentatively say it "understands" the novel — at least surpassing the many readers who guessed wrong.
-
-And we must properly appreciate what "understanding" means. Understanding is ultimately for predicting the future. Every ancient civilization, without exception, studied astronomy and hydrology
-
-precisely to forecast upcoming climate patterns, changes in river courses, droughts and floods — to survive better in the objective environment.
-
-One could even argue that predicting correctly matters more than understanding.
+— 에일린 장(張愛玲)
 
 ***
 
-## The Humanities: Both People and Agents Remain Black Boxes
+## 천체 패턴: 단순한 단어 예측 그 이상
 
-Predicting the future is the pursuit and prerequisite (reproducibility) of the natural sciences, and the holy grail of the social sciences.
+미래를 예측하는 것은 항상 인간 사회에서 매우 중요한 문제였습니다. 모든 고대 문명에는 별을 관찰하는 일을 전담하는 성직자나 관리가 있었습니다.
 
-This admittedly sounds like science fiction. In Isaac Asimov's *Foundation* series, such a discipline for predicting the future was fictionalized as "psychohistory" (心理史學).
+천문학, 수문학 등의 상징체계는 자연현상과 물리법칙을 텍스트화했다. 가장 전형적인 예는 위도와 경도의 좌표계입니다. 텍스트는 인류가 객관적인 세계를 이해하고 영향을 미치는 데 중요한 도구가 되었습니다.
 
-Economists, historians, psychologists, social scientists — all want to know how individuals and societies will react to specific events.
+텍스트와 현실 사이의 매핑이 갖는 실질적인 힘은 최근 폭발적인 LLM 역량을 통해 검증되었습니다.
 
-Finance, in particular, is probably the field outside of software where AI is being applied most aggressively.
+과거에는 도구로서의 언어가 충분히 결정적이지 않았습니다. 산업 혁명 이후 과학이 생산성의 주요 동인이 되자 언어는 영원히 명성 계층의 최하위로 밀려났습니다.
 
-Although we cannot yet see the finish line, the feasibility of this endeavor has improved significantly.
+LLM의 시대는 마침내 텍스트의 소화 및 생성을 밀리초 영역으로 가져와 인간의 읽기 속도, 타이핑 속도 및 인쇄 오류의 병목 현상에서 해방되었습니다.
 
-The improvement — and its limitation — is that we now have a remarkable black box (the LLM agent).
+한때 막대한 정신적 에너지와 시간을 소비했던 작업은 이제 생산 라인처럼 조립되고 구성될 가능성이 있습니다.
 
-For tasks at a level comparable to human performance, it is blazingly fast and extremely cheap, making it suitable for replacing human labor.
+그런데 이 생산 라인은 무엇을 생산합니까? LLM의 본질은 다음 토큰을 "예측"하는 것입니다. 이것이 실제로 생산적인가? 모델이 말하는 내용을 "일종" "이해"합니까?
 
-The limitation is that its current mode of use resembles a slot machine. We can use certain techniques (prompt/context engineering) to improve the hit rate, but that is about it.
+Ilya Sutskever(OpenAI의 전 공동 창립자이자 수석 과학자)는 다음과 같은 예를 제시했습니다.
 
-We struggle to open the black box. Chaining multiple black boxes together (multi-agent) yields only limited improvement.
+> 탐정소설을 읽었는데, 마지막 페이지에서 탐정이 "범인의 신원을 밝히겠다. 그 사람의 이름은..."이라고 말한다고 가정해 보자.
 
-Currently, tasks that a single agent can handle are done quickly and well, but more abstract tasks are difficult to improve linearly.
+LLM이 범인의 신원을 일관되고 정확하게 추측할 수 있다면 소설을 "이해"한다고 잠정적으로 말할 수 있습니다. 적어도 잘못 추측한 많은 독자를 능가하는 것입니다.
 
-Applied to social science: a single agent cannot adequately simulate even one individual's memory and emotions, let alone having multi-agent systems simulate an entire community.
+그리고 우리는 '이해'가 무엇을 의미하는지 제대로 인식해야 합니다. 이해는 결국 미래를 예측하기 위한 것이다. 모든 고대 문명은 예외 없이 천문학과 수문학을 연구했습니다.
 
-On the optimistic side, this feels more like a performance problem — and performance within this paradigm will continue to improve.
+다가오는 기후 패턴, 하천 코스의 변화, 가뭄 및 홍수를 정확하게 예측하여 객관적인 환경에서 더 잘 생존합니다.
+
+이해하는 것보다 정확하게 예측하는 것이 더 중요하다고 주장할 수도 있습니다.
 
 ***
 
-## The Sandbox: Don't Aim for a One-Hit Kill
+## 인문학: 사람과 행위자 모두 블랙박스로 남아있습니다
 
-Since we are dealing with a black box, the intuitive approach is to find a smaller box to attempt to crack.
+미래를 예측하는 것은 자연과학의 추구이자 전제(재현성)이며, 사회과학의 성배이다.
 
-Assume the current baseline model capability is what was described earlier: throw any detective novel into the LLM slot machine, and it can directly (one-shot) and correctly output who the culprit is.
+이것은 분명히 공상 과학 소설처럼 들립니다. 아이작 아시모프의 *재단* 시리즈에서는 이러한 미래를 예측하는 학문이 '심리사학'으로 허구화되었다.
 
-Building on this baseline, if we put in extra effort — erecting scaffolding, going back and forth with the LLM in discussion, finding ways to linearly accumulate results across each exchange — we should theoretically be able to make predictions of higher difficulty.
+경제학자, 역사가, 심리학자, 사회과학자 등 모두 개인과 사회가 특정 사건에 어떻게 반응할지 알고 싶어합니다.
 
-*Dream of the Red Chamber* is the perfect target. Based on the content of the first eighty chapters, we ask the model to predict, to some degree, the final forty chapters.
+특히 금융은 아마도 소프트웨어 이외의 분야에서 AI가 가장 적극적으로 적용되고 있는 분야일 것입니다.
 
-This prediction is extremely difficult, but it is just right for my working objectives. Theoretically the probability is not zero; practically it is highly unlikely. This makes it an ideal benchmark for observing LLM capability growth over the coming years.
+아직 결승선을 볼 수는 없지만 이러한 노력의 타당성은 크게 향상되었습니다.
 
-Having written this far, I can finally articulate two working objectives:
+개선점과 한계점은 이제 놀라운 블랙박스(LLM 에이전트)가 있다는 것입니다.
 
-1. How can we put in additional effort so that answers unattainable through one-shot prompting can be progressively approached?
-2. How should we choose our battleground so that our results are not immediately rendered obsolete by stronger models — and ideally, so that our framework also benefits when future models improve?
+인간의 능력과 맞먹는 수준의 작업이라면 엄청나게 빠르고 가격도 저렴해 인간의 노동력을 대체하는 데 적합하다.
 
-Below, I begin considering research methods based on the characteristics of *Dream of the Red Chamber* and LLMs.
+한계는 현재 사용 모드가 슬롯 머신과 유사하다는 것입니다. 적중률을 향상시키기 위해 특정 기술(프롬프트/컨텍스트 엔지니어링)을 사용할 수 있지만 그게 전부입니다.
 
-### Assumptions
+블랙박스를 열기 위해 애쓰고 있습니다. 여러 블랙박스를 함께 연결하면(다중 에이전트) 개선 효과가 제한됩니다.
 
-We assume that the ending of *Dream of the Red Chamber* did once exist, and that the first eighty chapters and the subsequent conclusion were written as an organic, intentional, continuous work — exhibiting the same internal coherence found within the first eighty chapters themselves.
+현재 단일 에이전트가 처리할 수 있는 작업은 빠르고 잘 처리되지만, 추상적인 작업은 선형적으로 개선하기 어렵습니다.
 
-If the ending never actually existed, the prediction difficulty is even higher — approaching the prediction of a parallel universe. The question becomes: if Cao Xueqin had written the ending, what would it *necessarily* have been?
+사회 과학에 적용: 단일 에이전트는 다중 에이전트 시스템이 전체 커뮤니티를 시뮬레이션하는 것은 말할 것도 없고 한 개인의 기억과 감정조차 적절하게 시뮬레이션할 수 없습니다.
 
-This word "necessarily" is the crux. One must reach this level of confidence for generating something from nothing to be meaningful.
+낙관적인 측면에서 이는 성능 문제처럼 느껴지며 이 패러다임 내 성능은 계속해서 향상될 것입니다.
 
-### The Writing of *Dream of the Red Chamber*
+***
 
-The novel was composed around the 1750s. At that time it circulated mostly among friends and relatives. It was not until 1791, when Cheng Weiyuan published it using movable wooden type, that it became widely known.
+## 더 샌드박스: 한방에 죽이는 것을 목표로 삼지 마세요
 
-### Redology and AI-Assisted Research
+우리는 블랙박스를 다루고 있기 때문에 직관적인 접근 방식은 크래킹을 시도할 더 작은 상자를 찾는 것입니다.
 
-Wang Guowei and Hu Shi were pioneers of Redology (紅學 — the scholarly study of *Dream of the Red Chamber*). The field has continued to develop, and in recent years has trended toward popularization and entertainment. The attention given to textual archaeology (探佚學) and the controversial Guiyou manuscript (癸酉本) reflects the public's curiosity about the ending.
+현재 기본 모델 기능이 앞서 설명한 것과 같다고 가정합니다. 탐정 소설을 LLM 슬롯 머신에 넣으면 범인이 누구인지 직접(원샷) 정확하게 출력할 수 있습니다.
 
-Key research achievements incorporating the latest technology include:
+이 기준을 바탕으로 비계를 세우고, 토론 중인 LLM과 앞뒤로 이동하고, 각 교환에서 선형적으로 결과를 축적하는 방법을 찾는 등 추가 노력을 기울인다면 이론적으로 더 높은 난이도를 예측할 수 있어야 합니다.
 
-* Machine learning once again confirming that the final forty chapters were not written by the original author
-* Using LLMs for more nuanced semantic vectorization of text (Word Embedding)
-* Using LLMs to build domain-specific knowledge graphs
-* Models trained specifically on the first eighty chapters and Qing dynasty historical texts as input data
+*붉은 방의 꿈*은 완벽한 표적입니다. 처음 80개 장의 내용을 기반으로 모델에 마지막 40개 장을 어느 정도 예측하도록 요청합니다.
 
-### LLM Characteristics
+이 예측은 매우 어렵지만 내 작업 목표에는 딱 맞습니다. 이론적으로 확률은 0이 아닙니다. 실제로 그럴 가능성은 거의 없습니다. 이는 향후 몇 년 동안 LLM 역량 성장을 관찰하기 위한 이상적인 벤치마크가 됩니다.
 
-The LLM characteristic most relevant to this task is: it has been trained on all data available on the internet, plus all valuable materials these frontier AI labs could obtain.
+여기까지 작성하면서 마침내 두 가지 작업 목표를 명확히 설명할 수 있게 되었습니다.
 
-For information already in its training data, the model's predictive capability and tendency are very high. For instance, if you input a passage from *Harry Potter*, it can recite the subsequent paragraphs from memory.
+1. 일회성 프롬프트로는 얻을 수 없는 답변에 점진적으로 접근할 수 있도록 어떻게 더 노력할 수 있을까요?
+2. 더 강력한 모델로 인해 결과가 즉시 쓸모 없게 되지 않도록, 이상적으로는 미래 모델이 개선될 때 프레임워크도 혜택을 받을 수 있도록 전장을 어떻게 선택해야 할까요?
 
-But the final forty chapters of *Dream of the Red Chamber* were never transmitted to posterity. They are not in the model's training data. It cannot recite them.
+이하에서는 *홍루의 꿈*과 LLM의 특성을 바탕으로 연구 방법을 고찰하기 시작한다.
 
-#### Problem 1: Context Window Limitations
+### 가정
 
-Can we simply input chapters one through eighty and ask the LLM to output the remaining forty?
+우리는 *홍루의 꿈*의 결말이 한때 존재했으며 처음 80개 장과 후속 결론은 유기적이고 의도적이며 지속적인 작업으로 작성되었다고 가정합니다. 이는 처음 80개 장 자체에서 발견되는 동일한 내부 일관성을 보여줍니다.
 
-On the input side, the current top-tier models (Gemini 3.1 / GPT-5.4 / Opus 4.6) using API mode can support up to 1M tokens, which is sufficient.
+만약 엔딩이 실제로 존재하지 않았다면 예측 난이도는 더욱 높아져 평행우주 예측에 가까워진다. 질문은 다음과 같습니다. Cao Xueqin이 결말을 썼다면 *반드시* 무엇이었을까요?
 
-However, under the current paradigm, the output token window is far smaller than the input. Output is limited to roughly four to eight thousand Chinese characters at most — approximately one chapter's worth of content.
+"반드시"라는 말이 핵심이다. 무에서 유를 생성하여 의미를 얻으려면 이러한 수준의 자신감에 도달해야 합니다.
 
-#### Problem 2: Listless Prose and Quality Degradation
+### *홍루의 꿈*의 집필
 
-What if we modify the prompt to ask the LLM to output only the content of chapter eighty-one?
+이 소설은 1750년대쯤에 작곡되었다. 당시에는 주로 친구와 친척들 사이에서 퍼졌습니다. 1791년 정웨이위안(Cheng Weiyuan)이 목활자를 사용하여 출판한 이후에야 널리 알려지게 되었습니다.
 
-The model gets "contaminated" by the massive text input. Its writing style closely resembles Cao Xueqin's, and it can reasonably continue the known plot — but the result reads like a flat chronicle of events.
+### Redology 및 AI 지원 연구
 
-Then, repeating the process for chapters eighty-two, eighty-three, and so on, the quality drops precipitously.
+왕궈웨이(Wang Guowei)와 후시(Hu Shi)는 홍루몽(Dream of the Red Chamber)*에 대한 학문적 연구인 재학(紅학)의 선구자였습니다. 이 분야는 지속적으로 발전해 왔으며 최근 몇 년간 대중화와 엔터테인먼트 방향으로 나아가고 있습니다. 문자고고학(探佚學)과 논란이 되고 있는 귀요우사본(癸酉本)에 대한 관심은 결말에 대한 대중의 궁금증을 반영한다.
 
-#### Problem 3: Prior Contamination in the Model
+최신 기술을 통합한 주요 연구 성과는 다음과 같습니다.
 
-Another issue is that during training, the model has already seen Gao E's continuation (高鶚續書), various scholarly speculations, and other secondary sources. If these materials diverge from the original ending, the output will be biased.
+* 머신러닝을 통해 마지막 40개의 장이 원저자가 쓴 것이 아님을 다시 한 번 확인했습니다.
+* 텍스트의 보다 미묘한 의미론적 벡터화를 위해 LLM 사용(워드 임베딩)
+* LLM을 사용하여 도메인별 지식 그래프 구축
+* 처음 80개 장과 청나라 역사 텍스트를 입력 데이터로 특별히 학습한 모델
 
-## To Be Continued
+### LLM 특성
 
-Due to the length of this piece, I will wrap up here with a preview of what comes next.
+이 작업과 가장 관련된 LLM 특성은 인터넷에서 사용할 수 있는 모든 데이터와 최첨단 AI 연구소에서 얻을 수 있는 모든 귀중한 자료에 대해 교육을 받았다는 것입니다.
 
-We cannot simply have the LLM directly produce unknown information.
+이미 훈련 데이터에 있는 정보에 대해서는 모델의 예측 능력과 경향이 매우 높습니다. 예를 들어, *해리포터*의 한 구절을 입력하면, 기억 속의 다음 문단을 암송할 수 있습니다.
 
-So we still need more traditional, mechanical, or programmatic methods.
+그러나 *홍루의 꿈*의 마지막 40장은 결코 후대에 전해지지 않았습니다. 모델의 학습 데이터에는 없습니다. 암송할 수 없습니다.
 
-The good news is: for the tireless researchers of literature, history, and philosophy — we now have a tractor for the field!
+#### 문제 1: 컨텍스트 창 제한
 
-*Dream of the Red Chamber* possesses a highly structured nature. Important characters have their own 判詞 (prophetic verses, known as "pànCí") — poetic passages that cryptically foreshadow each character's fate.
+1장부터 80장까지 간단히 입력하고 LLM에게 나머지 40장을 출력하도록 요청할 수 있습니까?
 
-Moreover, the first eighty chapters can be cross-validated against one another, making the novel more amenable to prediction than many other works of fiction.
+입력 측에서 API 모드를 사용하는 현재 최상위 모델(Gemini 3.1 / GPT-5.4 / Opus 4.6)은 최대 100만 개의 토큰을 지원할 수 있으며 이는 충분합니다.
 
-Although the cast of characters is large and their backgrounds complex, what we are ultimately predicting is Cao Xueqin's artistic vision — his creative will permeates the entire work. This is a tremendous aid for predicting the ending.
+그러나 현재 패러다임에서는 출력 토큰 창이 입력보다 훨씬 작습니다. 출력은 대략 한자 최대 4,000~8,000자로 제한됩니다. 이는 대략 한 장의 내용에 해당합니다.
 
-## Next: The Thermodynamics of *Dream of the Red Chamber*
+#### 문제 2: 무기력한 문장과 품질 저하
 
-The next article will introduce the experimental approach: structurally extracting content from the text, iteratively experimenting to extract the rules embedded in the novel, and using code to run repeated experiments.
+LLM에게 81장의 내용만 출력하도록 요청하도록 프롬프트를 수정하면 어떻게 될까요?
 
-The idealized scenario is something akin to a thermodynamic system: given initial conditions (premises — e.g., characters, family wealth, socioeconomic status, interpersonal networks...) plus the system's operating mechanisms (human psychology, social hierarchy, economic dynamics, cultural norms, karmic retribution, etc.), one could predict the system's state at any subsequent point in time.
+대량의 텍스트 입력으로 인해 모델이 "오염"됩니다. 글쓰기 스타일은 Cao Xueqin의 것과 매우 유사하며 알려진 줄거리를 합리적으로 이어갈 수 있지만 결과는 사건의 밋밋한 연대기처럼 읽혀집니다.
+
+그런 다음 82장, 83장 등의 과정을 반복하면 품질이 급격히 떨어집니다.
+
+#### 문제 3: 모델의 사전 오염
+
+또 다른 문제는 훈련 중에 모델이 이미 Gao E의 연속(高鶚續書), 다양한 학술적 추측 및 기타 2차 소스를 보았다는 것입니다. 이러한 자료가 원래 결말과 다를 경우 출력이 편향됩니다.
+
+## 계속하려면
+
+이 글이 너무 길어서 다음에 나올 내용에 대한 미리보기로 여기서 마무리하겠습니다.
+
+단순히 LLM이 알려지지 않은 정보를 직접 생성하도록 할 수는 없습니다.
+
+따라서 우리에게는 여전히 더 전통적, 기계적, 프로그램적 방법이 필요합니다.
+
+좋은 소식은 문학, 역사, 철학을 연구하는 지칠줄 모르는 사람들을 위해 이제 현장용 트랙터가 있다는 것입니다!
+
+*홍루의 꿈*은 고도로 구조화된 성격을 가지고 있습니다. 중요한 캐릭터에는 고유한 判詞(예언 구절, "pànCí"로 알려짐)가 있습니다. 이는 각 캐릭터의 운명을 비밀스럽게 암시하는 시적 구절입니다.
+
+더욱이 처음 80개의 장은 서로 교차 검증될 수 있으므로 이 소설은 다른 많은 소설 작품보다 예측하기가 더 쉽습니다.
+
+등장 인물이 많고 배경이 복잡하지만 궁극적으로 우리가 예측하는 것은 Cao Xueqin의 예술적 비전입니다. 그의 창의력은 작품 전체에 스며듭니다. 결말을 예측하는데 큰 도움이 됩니다.
+
+## 다음: *홍루의 꿈*의 열역학
+
+다음 기사에서는 실험적 접근 방식을 소개합니다. 즉, 텍스트에서 구조적으로 내용을 추출하고, 소설에 포함된 규칙을 추출하기 위해 반복적으로 실험하고, 코드를 사용하여 반복 실험을 실행합니다.
+
+이상적인 시나리오는 열역학적 시스템과 유사한 것입니다. 주어진 초기 조건(예: 인물, 가족 부, 사회경제적 지위, 대인 관계 네트워크...)과 시스템의 작동 메커니즘(인간 심리학, 사회 계층, 경제 역학, 문화적 규범, 카르마적 보복 등)을 고려하면 이후 시점의 시스템 상태를 예측할 수 있습니다.

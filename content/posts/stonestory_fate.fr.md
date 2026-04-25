@@ -1,212 +1,212 @@
 ---
-isStub: true
-title: "Dream of the Red Chamber Simulator: The Holy Grail of Social Science, and LLMs as Prophetic Verse"
+title: "Rêve du simulateur de chambre rouge : le Saint Graal des sciences sociales et les LLM comme versets prophétiques"
 date: 2026-03-22T03:31:45.090Z
 draft: false
 author: "QQder"
 categories:
-  - The Workshop
+  - L'Atelier
 tags:
-  - ontology
-  - ontology
+  - ontologie
+  - ontologie
   - Eileen Chang
   - LLM
-  - Dream of the Red Chamber
-  - prophetic verse
+  - Rêve de la Chambre Rouge
+  - verset prophétique
 keywords:
   - LLM
-  - large language model
-  - Dream of the Red Chamber
-  - Dream of the Red Chamber
+  - grand modèle de langage
+  - Rêve de la Chambre Rouge
+  - Rêve de la Chambre Rouge
   - Cao Xueqin
-  - social science
-  - prediction
-  - literary analysis
-  - knowledge graph
-  - Word Embedding
-  - Redology
-  - prophetic verse
-  - psychohistory
+  - sciences sociales
+  - prédiction
+  - analyse littéraire
+  - graphe de connaissances
+  - Incorporation de mots
+  - Rédologie
+  - verset prophétique
+  - psychohistoire
   - multi-agent
-description: "Predicting the future — from fortune and misfortune to the fate of humanity — has been a grand challenge since the dawn of civilization. LLMs offer us a glimpse of hope for tackling this problem."
+description: "Prédire l’avenir – depuis la fortune et le malheur jusqu’au sort de l’humanité – constitue un défi de taille depuis l’aube de la civilisation. Les LLM nous offrent un aperçu d’espoir pour résoudre ce problème."
 ---
+
 
 ***
 
-## Preface
+## Préface
 
-Predicting the future — from fortune and misfortune to the fate of humanity — has been one of the grand challenges of human civilization since antiquity. Large Language Models (LLMs) now offer us a glimpse of hope for tackling this problem.
+Prédire l’avenir – depuis la fortune et le malheur jusqu’au sort de l’humanité – est l’un des grands défis de la civilisation humaine depuis l’Antiquité. Les grands modèles linguistiques (LLM) nous offrent désormais un aperçu d'espoir pour résoudre ce problème.
 
-This article explores the use of LLMs as the latest tool, with *Dream of the Red Chamber* (紅樓夢) serving as a sandbox, to find methods for predicting the novel's lost final forty chapters.
+Cet article explore l'utilisation des LLM comme dernier outil, avec *Dream of the Red Chamber* (紅樓夢) servant de bac à sable, pour trouver des méthodes permettant de prédire les quarante derniers chapitres perdus du roman.
 
-Let me state upfront: I have not succeeded. Perhaps one day when someone does, this article will surface in their search results.
+Permettez-moi de le dire d’emblée : je n’ai pas réussi. Peut-être qu'un jour, lorsque quelqu'un le fera, cet article apparaîtra dans ses résultats de recherche.
 
-This piece is more of a meditation on the nature of text itself. While text lacks the precision of physical formulas,
+Cette pièce est davantage une méditation sur la nature du texte lui-même. Même si le texte n'a pas la précision des formules physiques,
 
-as a tool for humanity to grasp reality and speculate about the future, it is far more important than we imagine.
+en tant qu’outil permettant à l’humanité de saisir la réalité et de spéculer sur l’avenir, il est bien plus important que nous ne l’imaginons.
 
-Text is not merely an "imagined" reality — it is not inherently subjective. It simply mirrors objective reality in the most cost-effective way possible.
+Le texte n’est pas simplement une réalité « imaginée » – il n’est pas intrinsèquement subjectif. Cela reflète simplement la réalité objective de la manière la plus rentable possible.
 
-And LLMs, as automated mechanisms for predicting text, will radically compress the cost of extracting, generating, and mirroring objective reality.
+Et les LLM, en tant que mécanismes automatisés de prédiction de texte, réduiront radicalement le coût d’extraction, de génération et de mise en miroir de la réalité objective.
 
-The latest implementation will be updated in the iOS app: Dream of the Red Chamber Simulator.
+La dernière implémentation sera mise à jour dans l'application iOS : Dream of the Red Chamber Simulator.
 
-APP: [Link](https://apps.apple.com/tw/app/%E7%B4%85%E6%A8%93%E5%A4%A2%E6%A8%A1%E6%93%AC%E5%99%A8/id6759855416)
+APPLICATION : [Lien](https://apps.apple.com/tw/app/%E7%B4%85%E6%A8%93%E5%A4%A2%E6%A8%A1%E6%93%AC%E5%99%A8/id6759855416)
 
 ![紅樓夢模擬器](/images/1024x1024bb.png)
 
-> The three great regrets in life: First, that the shad has too many bones; second, that the crabapple blossom has no fragrance; third, that *Dream of the Red Chamber* was never finished.
+> Les trois grands regrets de la vie : premièrement, que l'alose ait trop d'os ; deuxièmement, que la fleur du pommetier n’a aucun parfum ; troisièmement, ce *Rêve de la Chambre Rouge* n’a jamais été terminé.
 
-— Eileen Chang (張愛玲)
-
-***
-
-## Celestial Patterns: More Than Just Word Prediction
-
-Predicting the future has always been a matter of great importance in human societies. Every ancient civilization had priests or officials dedicated to observing the stars.
-
-Symbol systems such as astronomy and hydrology textualized natural phenomena and physical laws. The most quintessential example is the coordinate system of latitude and longitude — text became a crucial tool for humanity to understand and influence the objective world.
-
-The practical power of this mapping between text and reality has been validated in these recent years of explosive LLM capability.
-
-In the past, language as a tool was not sufficiently deterministic. After the Industrial Revolution, when science became the primary driver of productivity, language was perpetually relegated to the bottom of the prestige hierarchy.
-
-The age of LLMs has finally brought the digestion and production of text into the millisecond domain, freeing it from the bottlenecks of human reading speed, typing speed, and typographical errors.
-
-Work that once consumed enormous mental energy and time now has the potential to be assembled and configured like a production line.
-
-But what does this production line produce? The essence of an LLM is "predicting" the next token. Is this actually productive? Does the model "sort of" "understand" what it is saying?
-
-Ilya Sutskever (former co-founder and chief scientist of OpenAI) once gave this example:
-
-> Say you read a detective novel, and on the last page, the detective says "I am going to reveal the identity of the criminal, and that person's name is..."
-
-If an LLM can consistently and correctly guess the identity of the culprit, then we can tentatively say it "understands" the novel — at least surpassing the many readers who guessed wrong.
-
-And we must properly appreciate what "understanding" means. Understanding is ultimately for predicting the future. Every ancient civilization, without exception, studied astronomy and hydrology
-
-precisely to forecast upcoming climate patterns, changes in river courses, droughts and floods — to survive better in the objective environment.
-
-One could even argue that predicting correctly matters more than understanding.
+—Eileen Chang (張愛玲)
 
 ***
 
-## The Humanities: Both People and Agents Remain Black Boxes
+## Modèles célestes : plus qu’une simple prédiction de mots
 
-Predicting the future is the pursuit and prerequisite (reproducibility) of the natural sciences, and the holy grail of the social sciences.
+Prédire l’avenir a toujours été une question de grande importance dans les sociétés humaines. Chaque civilisation ancienne avait des prêtres ou des fonctionnaires chargés d'observer les étoiles.
 
-This admittedly sounds like science fiction. In Isaac Asimov's *Foundation* series, such a discipline for predicting the future was fictionalized as "psychohistory" (心理史學).
+Les systèmes de symboles tels que l’astronomie et l’hydrologie textualisaient les phénomènes naturels et les lois physiques. L’exemple le plus typique est le système de coordonnées de latitude et de longitude : le texte est devenu un outil crucial permettant à l’humanité de comprendre et d’influencer le monde objectif.
 
-Economists, historians, psychologists, social scientists — all want to know how individuals and societies will react to specific events.
+La puissance pratique de cette cartographie entre texte et réalité a été validée au cours de ces dernières années de capacité explosive du LLM.
 
-Finance, in particular, is probably the field outside of software where AI is being applied most aggressively.
+Dans le passé, le langage en tant qu’outil n’était pas suffisamment déterministe. Après la révolution industrielle, lorsque la science est devenue le principal moteur de productivité, la langue a été perpétuellement reléguée au bas de la hiérarchie du prestige.
 
-Although we cannot yet see the finish line, the feasibility of this endeavor has improved significantly.
+L'ère des LLM a finalement amené la digestion et la production de texte dans le domaine de la milliseconde, le libérant des goulots d'étranglement liés à la vitesse de lecture humaine, à la vitesse de frappe et aux erreurs typographiques.
 
-The improvement — and its limitation — is that we now have a remarkable black box (the LLM agent).
+Un travail qui consommait autrefois énormément d’énergie mentale et de temps a désormais le potentiel d’être assemblé et configuré comme une chaîne de production.
 
-For tasks at a level comparable to human performance, it is blazingly fast and extremely cheap, making it suitable for replacing human labor.
+Mais que produit cette chaîne de production ? L'essence d'un LLM est de « prédire » le prochain jeton. Est-ce réellement productif ? Le modèle « comprend-il » en quelque sorte ce qu’il dit ?
 
-The limitation is that its current mode of use resembles a slot machine. We can use certain techniques (prompt/context engineering) to improve the hit rate, but that is about it.
+Ilya Sutskever (ancien co-fondateur et scientifique en chef d'OpenAI) a donné un jour cet exemple :
 
-We struggle to open the black box. Chaining multiple black boxes together (multi-agent) yields only limited improvement.
+> Supposons que vous lisiez un roman policier et qu'à la dernière page, le détective dit "Je vais révéler l'identité du criminel, et le nom de cette personne est..."
 
-Currently, tasks that a single agent can handle are done quickly and well, but more abstract tasks are difficult to improve linearly.
+Si un LLM peut deviner de manière cohérente et correcte l'identité du coupable, alors nous pouvons provisoirement dire qu'il « comprend » le roman – surpassant au moins les nombreux lecteurs qui se sont trompés.
 
-Applied to social science: a single agent cannot adequately simulate even one individual's memory and emotions, let alone having multi-agent systems simulate an entire community.
+Et nous devons bien apprécier ce que signifie « compréhension ». Comprendre sert en fin de compte à prédire l’avenir. Toutes les civilisations anciennes, sans exception, étudiaient l'astronomie et l'hydrologie.
 
-On the optimistic side, this feels more like a performance problem — and performance within this paradigm will continue to improve.
+précisément pour prévoir les modèles climatiques à venir, les changements du cours des rivières, les sécheresses et les inondations – pour mieux survivre dans l’environnement objectif.
+
+On pourrait même affirmer que prévoir correctement est plus important que comprendre.
 
 ***
 
-## The Sandbox: Don't Aim for a One-Hit Kill
+## Les sciences humaines : les personnes et les agents restent des boîtes noires
 
-Since we are dealing with a black box, the intuitive approach is to find a smaller box to attempt to crack.
+Prédire l’avenir est la quête et la condition préalable (reproductibilité) des sciences naturelles, et le Saint Graal des sciences sociales.
 
-Assume the current baseline model capability is what was described earlier: throw any detective novel into the LLM slot machine, and it can directly (one-shot) and correctly output who the culprit is.
+Certes, cela ressemble à de la science-fiction. Dans la série *Foundation* d'Isaac Asimov, une telle discipline permettant de prédire l'avenir a été romancée sous le nom de « psychohistoire » (心理史學).
 
-Building on this baseline, if we put in extra effort — erecting scaffolding, going back and forth with the LLM in discussion, finding ways to linearly accumulate results across each exchange — we should theoretically be able to make predictions of higher difficulty.
+Économistes, historiens, psychologues, spécialistes des sciences sociales : tous veulent savoir comment les individus et les sociétés réagiront à des événements spécifiques.
 
-*Dream of the Red Chamber* is the perfect target. Based on the content of the first eighty chapters, we ask the model to predict, to some degree, the final forty chapters.
+La finance, en particulier, est probablement le domaine en dehors des logiciels où l’IA est appliquée de la manière la plus agressive.
 
-This prediction is extremely difficult, but it is just right for my working objectives. Theoretically the probability is not zero; practically it is highly unlikely. This makes it an ideal benchmark for observing LLM capability growth over the coming years.
+Même si nous ne pouvons pas encore voir la ligne d'arrivée, la faisabilité de cette entreprise s'est considérablement améliorée.
 
-Having written this far, I can finally articulate two working objectives:
+L’amélioration – et sa limite – est que nous disposons désormais d’une boîte noire remarquable (l’agent LLM).
 
-1. How can we put in additional effort so that answers unattainable through one-shot prompting can be progressively approached?
-2. How should we choose our battleground so that our results are not immediately rendered obsolete by stronger models — and ideally, so that our framework also benefits when future models improve?
+Pour des tâches d’un niveau comparable à la performance humaine, il est incroyablement rapide et extrêmement bon marché, ce qui le rend approprié pour remplacer le travail humain.
 
-Below, I begin considering research methods based on the characteristics of *Dream of the Red Chamber* and LLMs.
+La limitation est que son mode d’utilisation actuel ressemble à une machine à sous. Nous pouvons utiliser certaines techniques (ingénierie d'invite/de contexte) pour améliorer le taux de réussite, mais c'est tout.
 
-### Assumptions
+Nous avons du mal à ouvrir la boîte noire. L’enchaînement de plusieurs boîtes noires (multi-agents) n’apporte qu’une amélioration limitée.
 
-We assume that the ending of *Dream of the Red Chamber* did once exist, and that the first eighty chapters and the subsequent conclusion were written as an organic, intentional, continuous work — exhibiting the same internal coherence found within the first eighty chapters themselves.
+Actuellement, les tâches qu’un seul agent peut gérer sont effectuées rapidement et correctement, mais les tâches plus abstraites sont difficiles à améliorer de manière linéaire.
 
-If the ending never actually existed, the prediction difficulty is even higher — approaching the prediction of a parallel universe. The question becomes: if Cao Xueqin had written the ending, what would it *necessarily* have been?
+Appliqué aux sciences sociales : un seul agent ne peut pas simuler de manière adéquate la mémoire et les émotions d'un individu, et encore moins des systèmes multi-agents simulant une communauté entière.
 
-This word "necessarily" is the crux. One must reach this level of confidence for generating something from nothing to be meaningful.
+Du côté optimiste, cela ressemble davantage à un problème de performances – et les performances dans ce paradigme continueront de s’améliorer.
 
-### The Writing of *Dream of the Red Chamber*
+***
 
-The novel was composed around the 1750s. At that time it circulated mostly among friends and relatives. It was not until 1791, when Cheng Weiyuan published it using movable wooden type, that it became widely known.
+## Le bac à sable : ne visez pas une tuerie en un seul coup
 
-### Redology and AI-Assisted Research
+Puisqu’il s’agit d’une boîte noire, l’approche intuitive consiste à trouver une boîte plus petite pour tenter de la casser.
 
-Wang Guowei and Hu Shi were pioneers of Redology (紅學 — the scholarly study of *Dream of the Red Chamber*). The field has continued to develop, and in recent years has trended toward popularization and entertainment. The attention given to textual archaeology (探佚學) and the controversial Guiyou manuscript (癸酉本) reflects the public's curiosity about the ending.
+Supposons que la capacité actuelle du modèle de base soit celle décrite précédemment : lancez n'importe quel roman policier dans la machine à sous LLM, et il pourra directement (en un seul coup) et correctement indiquer qui est le coupable.
 
-Key research achievements incorporating the latest technology include:
+En nous appuyant sur cette base de référence, si nous déployons des efforts supplémentaires – ériger des échafaudages, faire des allers-retours avec le LLM dans les discussions, trouver des moyens d’accumuler linéairement les résultats à travers chaque échange – nous devrions théoriquement être en mesure de faire des prédictions d’une difficulté plus élevée.
 
-* Machine learning once again confirming that the final forty chapters were not written by the original author
-* Using LLMs for more nuanced semantic vectorization of text (Word Embedding)
-* Using LLMs to build domain-specific knowledge graphs
-* Models trained specifically on the first eighty chapters and Qing dynasty historical texts as input data
+*Dream of the Red Chamber* est la cible idéale. Sur la base du contenu des quatre-vingts premiers chapitres, nous demandons au modèle de prédire, dans une certaine mesure, les quarante derniers chapitres.
 
-### LLM Characteristics
+Cette prédiction est extrêmement difficile, mais elle correspond parfaitement à mes objectifs de travail. Théoriquement, la probabilité n’est pas nulle ; en pratique, c'est hautement improbable. Cela en fait une référence idéale pour observer la croissance des capacités LLM au cours des années à venir.
 
-The LLM characteristic most relevant to this task is: it has been trained on all data available on the internet, plus all valuable materials these frontier AI labs could obtain.
+Ayant écrit jusqu’ici, je peux enfin articuler deux objectifs de travail :
 
-For information already in its training data, the model's predictive capability and tendency are very high. For instance, if you input a passage from *Harry Potter*, it can recite the subsequent paragraphs from memory.
+1. Comment pouvons-nous déployer des efforts supplémentaires pour que les réponses inaccessibles grâce à des incitations ponctuelles puissent être progressivement abordées ?
+2. Comment devrions-nous choisir notre champ de bataille pour que nos résultats ne soient pas immédiatement rendus obsolètes par des modèles plus puissants – et idéalement, pour que notre cadre bénéficie également lorsque les futurs modèles s’améliorent ?
 
-But the final forty chapters of *Dream of the Red Chamber* were never transmitted to posterity. They are not in the model's training data. It cannot recite them.
+Ci-dessous, je commence à considérer les méthodes de recherche basées sur les caractéristiques du *Dream of the Red Chamber* et des LLM.
 
-#### Problem 1: Context Window Limitations
+### Hypothèses
 
-Can we simply input chapters one through eighty and ask the LLM to output the remaining forty?
+Nous supposons que la fin du *Dream of the Red Chamber* a existé autrefois, et que les quatre-vingts premiers chapitres et la conclusion qui a suivi ont été écrits comme un travail organique, intentionnel et continu – présentant la même cohérence interne trouvée dans les quatre-vingts premiers chapitres eux-mêmes.
 
-On the input side, the current top-tier models (Gemini 3.1 / GPT-5.4 / Opus 4.6) using API mode can support up to 1M tokens, which is sufficient.
+Si la fin n’a jamais réellement existé, la difficulté de prédiction est encore plus grande – se rapprochant de la prédiction d’un univers parallèle. La question devient : si Cao Xueqin avait écrit la fin, quelle aurait-elle *nécessairement* été ?
 
-However, under the current paradigm, the output token window is far smaller than the input. Output is limited to roughly four to eight thousand Chinese characters at most — approximately one chapter's worth of content.
+Ce mot « nécessairement » est le point crucial. Il faut atteindre ce niveau de confiance pour générer quelque chose à partir de rien pour avoir du sens.
 
-#### Problem 2: Listless Prose and Quality Degradation
+### L'écriture de *Le Rêve de la Chambre Rouge*
 
-What if we modify the prompt to ask the LLM to output only the content of chapter eighty-one?
+Le roman a été composé vers les années 1750. À cette époque, il circulait principalement entre amis et parents. Ce n'est qu'en 1791, lorsque Cheng Weiyuan le publia à l'aide de caractères mobiles en bois, qu'il devint largement connu.
 
-The model gets "contaminated" by the massive text input. Its writing style closely resembles Cao Xueqin's, and it can reasonably continue the known plot — but the result reads like a flat chronicle of events.
+### Redologie et recherche assistée par l'IA
 
-Then, repeating the process for chapters eighty-two, eighty-three, and so on, the quality drops precipitously.
+Wang Guowei et Hu Shi ont été des pionniers de la Redologie (紅學 — l'étude scientifique du *Rêve de la Chambre Rouge*). Le domaine a continué à se développer et a évolué ces dernières années vers la vulgarisation et le divertissement. L'attention portée à l'archéologie textuelle (探佚學) et au manuscrit controversé de Guiyou (癸酉本) reflète la curiosité du public pour la fin.
 
-#### Problem 3: Prior Contamination in the Model
+Les principales réalisations de recherche intégrant les dernières technologies comprennent :
 
-Another issue is that during training, the model has already seen Gao E's continuation (高鶚續書), various scholarly speculations, and other secondary sources. If these materials diverge from the original ending, the output will be biased.
+* L'apprentissage automatique confirme une fois de plus que les quarante derniers chapitres n'ont pas été écrits par l'auteur original
+* Utiliser des LLM pour une vectorisation sémantique plus nuancée du texte (Word Embedding)
+* Utiliser des LLM pour créer des graphiques de connaissances spécifiques à un domaine
+* Modèles formés spécifiquement sur les quatre-vingts premiers chapitres et les textes historiques de la dynastie Qing comme données d'entrée
 
-## To Be Continued
+### Caractéristiques du LLM
 
-Due to the length of this piece, I will wrap up here with a preview of what comes next.
+La caractéristique LLM la plus pertinente pour cette tâche est la suivante : il a été formé sur toutes les données disponibles sur Internet, ainsi que sur tous les matériaux précieux que ces laboratoires d'IA de pointe ont pu obtenir.
 
-We cannot simply have the LLM directly produce unknown information.
+Pour les informations déjà contenues dans ses données d'entraînement, la capacité prédictive et la tendance du modèle sont très élevées. Par exemple, si vous saisissez un passage de *Harry Potter*, il peut réciter les paragraphes suivants de mémoire.
 
-So we still need more traditional, mechanical, or programmatic methods.
+Mais les quarante derniers chapitres du *Rêve de la Chambre Rouge* ne furent jamais transmis à la postérité. Ils ne figurent pas dans les données d'entraînement du modèle. Il ne peut pas les réciter.
 
-The good news is: for the tireless researchers of literature, history, and philosophy — we now have a tractor for the field!
+#### Problème 1 : limites de la fenêtre contextuelle
 
-*Dream of the Red Chamber* possesses a highly structured nature. Important characters have their own 判詞 (prophetic verses, known as "pànCí") — poetic passages that cryptically foreshadow each character's fate.
+Pouvons-nous simplement saisir les chapitres un à quatre-vingts et demander au LLM de produire les quarante restants ?
 
-Moreover, the first eighty chapters can be cross-validated against one another, making the novel more amenable to prediction than many other works of fiction.
+Côté entrée, les modèles haut de gamme actuels (Gemini 3.1 / GPT-5.4 / Opus 4.6) utilisant le mode API peuvent prendre en charge jusqu'à 1 million de jetons, ce qui est suffisant.
 
-Although the cast of characters is large and their backgrounds complex, what we are ultimately predicting is Cao Xueqin's artistic vision — his creative will permeates the entire work. This is a tremendous aid for predicting the ending.
+Cependant, dans le paradigme actuel, la fenêtre du jeton de sortie est bien plus petite que celle de l’entrée. La sortie est limitée à environ quatre à huit mille caractères chinois au maximum, soit environ l'équivalent d'un chapitre de contenu.
 
-## Next: The Thermodynamics of *Dream of the Red Chamber*
+#### Problème 2 : Prose apathique et dégradation de la qualité
 
-The next article will introduce the experimental approach: structurally extracting content from the text, iteratively experimenting to extract the rules embedded in the novel, and using code to run repeated experiments.
+Et si nous modifiions l'invite pour demander au LLM de produire uniquement le contenu du chapitre quatre-vingt-un ?
 
-The idealized scenario is something akin to a thermodynamic system: given initial conditions (premises — e.g., characters, family wealth, socioeconomic status, interpersonal networks...) plus the system's operating mechanisms (human psychology, social hierarchy, economic dynamics, cultural norms, karmic retribution, etc.), one could predict the system's state at any subsequent point in time.
+Le modèle est « contaminé » par la saisie massive de texte. Son style d'écriture ressemble beaucoup à celui de Cao Xueqin, et il peut raisonnablement continuer l'intrigue connue – mais le résultat se lit comme une chronique plate d'événements.
+
+Puis, en répétant le processus pour les chapitres quatre-vingt-deux, quatre-vingt-trois, etc., la qualité chute précipitamment.
+
+#### Problème 3 : Contamination préalable dans le modèle
+
+Un autre problème est que pendant la formation, le modèle a déjà vu la suite de Gao E (高鶚續書), diverses spéculations scientifiques et d'autres sources secondaires. Si ces matériaux s'écartent de la fin originale, le résultat sera biaisé.
+
+## À suivre
+
+En raison de la longueur de cette pièce, je terminerai ici par un aperçu de ce qui va suivre.
+
+Nous ne pouvons pas simplement laisser le LLM produire directement des informations inconnues.
+
+Nous avons donc encore besoin de méthodes plus traditionnelles, mécaniques ou programmatiques.
+
+La bonne nouvelle est la suivante : pour les chercheurs infatigables en littérature, en histoire et en philosophie, nous avons désormais un tracteur pour le terrain !
+
+*Dream of the Red Chamber* possède une nature très structurée. Les personnages importants ont leur propre 判詞 (versets prophétiques, connus sous le nom de « pànCí ») – des passages poétiques qui préfigurent de manière énigmatique le destin de chaque personnage.
+
+De plus, les quatre-vingts premiers chapitres peuvent être validés les uns par rapport aux autres, ce qui rend le roman plus propice à la prédiction que de nombreuses autres œuvres de fiction.
+
+Bien que la distribution des personnages soit vaste et leurs antécédents complexes, ce que nous prévoyons en fin de compte, c'est la vision artistique de Cao Xueqin : sa volonté créatrice imprègne toute l'œuvre. C’est une aide formidable pour prédire la fin.
+
+## Suivant : La thermodynamique du *Rêve de la Chambre Rouge*
+
+Le prochain article présentera l'approche expérimentale : extraire structurellement le contenu du texte, expérimenter de manière itérative pour extraire les règles intégrées dans le roman et utiliser du code pour exécuter des expériences répétées.
+
+Le scénario idéalisé s'apparente à un système thermodynamique : étant donné les conditions initiales (prémisses - par exemple, les personnages, la richesse familiale, le statut socio-économique, les réseaux interpersonnels...) ainsi que les mécanismes de fonctionnement du système (psychologie humaine, hiérarchie sociale, dynamique économique, normes culturelles, rétribution karmique, etc.), on pourrait prédire l'état du système à tout moment ultérieur.

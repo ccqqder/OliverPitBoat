@@ -1,437 +1,436 @@
 ---
-isStub: true
-title: "Dream of the Red Chamber Simulator: Thermodynamics and Artistic Choice"
+title: "레드 챔버 시뮬레이터의 꿈: 열역학과 예술적 선택"
 date: 2026-03-29T15:28:32.157Z
 draft: false
 categories:
-  - The Workshop
+  - 워크숍
 tags:
-  - Thermodynamics
-  - Dream of the Red Chamber
-  - LLM
-  - Rule Engine
-  - Literary Simulation
+  - 열역학
+  - 붉은 방의 꿈
+  - 법학대학원
+  - 규칙 엔진
+  - 문학 시뮬레이션
 keywords:
-  - thermodynamics
-  - Dream of the Red Chamber
+  - 열역학
+  - 붉은 방의 꿈
   - 紅樓夢
-  - Red Chamber simulator
-  - LLM
-  - large language model
-  - rule engine
-  - Cao Xueqin
-  - structured analysis
-  - literary prediction
-  - Twelve Beauties of Jinling
-  - prophetic verse
-  - artistic choice
-  - simulation engine
-description: "What has changed is that productivity has suddenly become much higher. What the Dream of the Red Chamber Simulator aims to do is, with such productivity at hand, use traditional structured methods to rapidly produce and accumulate results with minimal human effort."
+  - 레드 챔버 시뮬레이터
+  - 법학대학원
+  - 대규모 언어 모델
+  - 규칙 엔진
+  - 카오쉐친
+  - 구조화된 분석
+  - 문학적 예측
+  - 금령십이미인
+  - 예언 구절
+  - 예술적 선택
+  - 시뮬레이션 엔진
+description: "달라진 점은 생산성이 갑자기 훨씬 높아졌다는 것입니다. 레드 챔버 시뮬레이터의 꿈이 목표로 하는 것은 이러한 생산성을 바탕으로 전통적인 구조화된 방법을 사용하여 최소한의 인력으로 신속하게 결과를 생산하고 축적하는 것입니다."
 author: "QQder"
 ---
 
-App URL: [LINK](https://apps.apple.com/tw/app/%E7%B4%85%E6%A8%93%E5%A4%A2%E6%A8%A1%E6%93%AC%E5%99%A8/id6759855416)
+앱 URL: [링크](https://apps.apple.com/tw/app/%E7%B4%85%E6%A8%93%E5%A4%A2%E6%A8%A1%E6%93%AC%E5%99%A8/id6759855416)
 
-## Preface
+## 머리말
 
-The key point from the previous installment
+전편의 핵심 포인트
 
-was to regard text as fundamentally symbolic --
+텍스트를 근본적으로 상징적인 것으로 간주하는 것이었습니다.
 
-astronomy, hydrology, the humanities... all the "wen" (文, pattern/text) of heaven, earth, and humankind.
+천문학, 수문학, 인문학... 하늘, 땅, 인류의 모든 "문"(文, 패턴/텍스트).
 
-Text maps the world and thought in a cost-effective way,
+텍스트는 비용 효율적인 방식으로 세상과 생각을 매핑합니다.
 
-becoming our primary tool for understanding and interfacing with objective reality.
+객관적인 현실을 이해하고 인터페이스하기 위한 주요 도구가 됩니다.
 
-Once you grasp this, you realize that
+이것을 파악하고 나면 깨닫게 됩니다.
 
-although LLMs (Large Language Models) are essentially just next-token predictors,
+LLM(대형 언어 모델)은 본질적으로 다음 토큰 예측 변수일 뿐이지만,
 
-once their capability reaches a certain level, they become nuclear-grade instruments of national importance.
+일단 그 능력이 일정 수준에 도달하면 국가적으로 중요한 핵급 도구가 됩니다.
 
-Their significance made me want to verify their capabilities
+그 중요성 때문에 그들의 능력을 검증하고 싶었습니다.
 
-and to do so repeatedly as they improve over time.
+시간이 지남에 따라 개선됨에 따라 반복적으로 그렇게 합니다.
 
-A near-perfect benchmark for this is *Dream of the Red Chamber* (紅樓夢, *Hong Lou Meng*).
+이에 대한 거의 완벽한 벤치마크는 *Dream of the Red Chamber*(紅樓夢, *Hong Lou Meng*)입니다.
 
-Suppose there existed an omniscient, omnipotent LLM --
+전지전능한 LLM이 존재한다고 가정해 보세요.
 
-it could take Cao Xueqin's original first 80 chapters of *Dream of the Red Chamber* as input and output the subsequent chapters.
+Cao Xueqin의 원래 *홍루의 꿈*의 처음 80개 장을 입력으로 사용하고 후속 장을 출력할 수 있습니다.
 
-But because LLM training data is limited,
+하지만 LLM 교육 데이터가 제한되어 있기 때문에
 
-it is like a Sudoku puzzle with too few given numbers -- the answer cannot be determined with certainty.
+이는 주어진 숫자가 너무 적은 스도쿠 퍼즐과 같습니다. 답을 확실하게 결정할 수 없습니다.
 
-What current LLMs can do is produce at very high throughput within the scope of what they understand.
+현재 LLM이 할 수 있는 일은 그들이 이해하는 범위 내에서 매우 높은 처리량을 생산하는 것입니다.
 
-What the *Dream of the Red Chamber Simulator* aims to do is, with such productivity at hand,
+*Dream of the Red Chamber Simulator*가 목표로 하는 것은 이러한 생산성을 바탕으로
 
-use traditional structured methods to rapidly produce and accumulate results with minimal human effort.
+전통적인 구조화된 방법을 사용하여 최소한의 인력으로 신속하게 결과를 생성하고 축적합니다.
 
-## Assumptions
+## 가정
 
-We need some assumptions, biases, and theories to make the task of predicting the ending sufficiently feasible and mechanical.
+결말을 예측하는 작업을 충분히 실현 가능하고 기계적으로 만들려면 몇 가지 가정, 편견 및 이론이 필요합니다.
 
-When it comes to accurate prediction, my intuition goes to classical physics -- specifically thermodynamics.
+정확한 예측에 관해서 내 직관은 고전 물리학, 특히 열역학으로 향합니다.
 
-In a closed system, if we specify the initial conditions and the governing laws,
+폐쇄형 시스템에서 초기 조건과 준거법을 명시하면,
 
-the evolution of a thermodynamic system is predictable and deterministic.
+열역학 시스템의 진화는 예측 가능하고 결정적입니다.
 
-Another assumption is that LLM capabilities will keep improving,
+또 다른 가정은 LLM 기능이 계속해서 향상될 것이라는 것입니다.
 
-but in the foreseeable future we will not gain additional training data from the Qing Dynasty or from Cao Xueqin himself.
+그러나 가까운 미래에는 청나라나 조설근으로부터 추가 훈련 데이터를 얻지 못할 것입니다.
 
-Therefore, we can establish a structured workflow that both current and future LLMs can execute.
+따라서 우리는 현재와 미래의 LLM이 실행할 수 있는 구조화된 워크플로를 구축할 수 있습니다.
 
-### Initial Conditions
+### 초기 조건
 
-The initial conditions are primarily data extracted from the original novel.
+초기 조건은 주로 원작 소설에서 추출한 데이터입니다.
 
-Now we use LLMs to perform what was previously highly labor-intensive work.
+이제 우리는 LLM을 사용하여 이전에는 노동 집약적이었던 작업을 수행합니다.
 
-In the past, human labor costs were too high, and throwing more people at the problem could not compress the timeline.
+과거에는 인건비가 너무 높아 문제에 더 많은 사람을 투입할 수 없어 일정을 단축할 수 없었습니다.
 
-If you got halfway through and wanted to tweak the extraction rules and start over, it was simply impractical.
+중간에 추출 규칙을 수정하고 다시 시작하고 싶다면 이는 비실용적이었습니다.
 
-Time and cost are no longer obstacles; extraction quality now depends on model capability.
+시간과 비용은 더 이상 장애물이 아닙니다. 이제 추출 품질은 모델 기능에 따라 달라집니다.
 
-For example, I extracted:
+예를 들어 다음을 추출했습니다.
 
-- Key character profiles, personality dossiers, family genealogies;
+- 주요 인물 프로필, 성격 서류, 가족 계보;
 
-- Per-chapter snapshots of each character's economic, social, emotional, health, and interpersonal states across all 120 chapters;
+- 120개 챕터 전체에 걸쳐 각 캐릭터의 경제적, 사회적, 정서적, 건강 및 대인 관계 상태에 대한 챕터별 스냅샷입니다.
 
-- A basic spatial map of the Jia (賈) estate with spatial metadata;
+- 공간 메타데이터가 포함된 Jia(賈) 사유지의 기본 공간 지도입니다.
 
-- All dialogue records, poetry corpora...
+- 모든 대화 기록, 시집...
 
-The approach was to start with broad, not-yet-rigorous extraction that at least achieves high coverage -- ensuring every piece of text is classified into some category.
+접근 방식은 최소한 높은 적용 범위를 달성하는 광범위하고 아직 엄격하지는 않은 추출로 시작하여 모든 텍스트가 특정 범주로 분류되도록 하는 것이었습니다.
 
-### Governing Laws
+### 준거법
 
-I divide the governing laws into two types by my own judgment: fundamental world rules and the author's artistic will.
+나는 내 판단에 따라 준거법을 두 가지 유형, 즉 근본적인 세계 규칙과 작가의 예술적 의지로 나눕니다.
 
-This is admittedly arbitrary, but without making some such judgment the work cannot proceed at all.
+이는 자의적이라는 것은 인정하지만, 그러한 판단을 내리지 않으면 작업이 전혀 진행될 수 없습니다.
 
-World rules include but are not limited to:
+세계 규칙에는 다음이 포함되지만 이에 국한되지는 않습니다.
 
-- Society: class hierarchy, power dynamics, master-servant relationships, marriage;
+- 사회: 계급 위계, 권력 역학, 주종 관계, 결혼;
 
-- Economy: income and expenditure, debt, risk of property confiscation;
+- 경제: 수입과 지출, 부채, 재산 몰수 위험;
 
-- Culture: Confucian propriety, festivals, feudal values;
+- 문화: 유교적 예절, 축제, 봉건적 가치;
 
-- Psychology: character emotions, personality-driven behavior, internal conflict;
+- 심리학: 성격 감정, 성격 중심 행동, 내부 갈등;
 
-- Politics: imperial favor, court dynamics, external forces...
+- 정치: 제국주의적 호의, 법원 역학, 외부 세력...
 
-The artistic will is precisely what makes *Dream of the Red Chamber* -- apart from the fact that it lacks a definitive ending -- an ideal prediction target.
+예술적 의지가 바로 *홍루의 꿈*을 - 확실한 결말이 없다는 사실을 제외하고 - 이상적인 예측 대상으로 만드는 것입니다.
 
-Cao Xueqin embedded hints about the characters' fates throughout the novel, from the very beginning.
+조설근은 소설 전반에 걸쳐 등장인물의 운명에 대한 힌트를 처음부터 삽입했습니다.
 
-The most iconic example is the 判詞 (prophetic verses / judgment poems) of the 十二金釵 (Twelve Beauties of Jinling), which explicitly foreshadow the fates of the female lead and deuteragonist:
+가장 상징적인 예는 十二金釵(금릉십이미)의 判詞(예언 구절/판결 시)로, 여주인공과 중수소자의 운명을 명시적으로 예시합니다.
 
-> 可嘆停機德，堪憐詠絮才。玉帶林中掛，金簪雪裡埋。
+> 可嘆停機德，堪憐詠絮才。玉帶lin中掛，金簪雪裡埋。
 
-*(How lamentable, her virtue of halting the loom; how pitiable, her talent of chanting the willow catkins. A jade belt hangs in the forest; a golden hairpin lies buried in the snow.)*
+*(베틀을 멈추는 덕이 참으로 애처롭고, 버드나무 노래의 재주가 참으로 불쌍하다. 숲에는 옥띠가 걸려 있고, 눈 속에는 금비녀가 묻혀 있다.)*
 
-### Rule Engine
+### 규칙 엔진
 
-Given the initial conditions and governing laws, how do we apply them?
+초기 조건과 준거법이 주어지면 이를 어떻게 적용합니까?
 
-The more ideal approach would be to build a 3D physics engine similar to a game engine, where each character possesses only the information they would know, and let an AI chatbot role-play each character like an actor performing a part.
+보다 이상적인 접근 방식은 각 캐릭터가 자신이 알고 있는 정보만 보유하는 게임 엔진과 유사한 3D 물리 엔진을 구축하고 AI 챗봇이 역할을 수행하는 배우처럼 각 캐릭터의 역할을 연기하도록 하는 것입니다.
 
-But first, the cost would be too high and would only increase spectacle -- we would not be introducing new information, and the 3D engine would not produce new results.
+하지만 먼저 비용이 너무 많이 들고 볼거리만 늘어나게 됩니다. 새로운 정보가 도입되지 않고 3D 엔진이 새로운 결과를 만들어 내지 못할 것입니다.
 
-Second, we are not running a wind-tunnel fluid dynamics simulation; we are trying to guess what Cao Xueqin had in mind. Staying at the textual level is sufficient for now.
+둘째, 우리는 풍동 유체 역학 시뮬레이션을 실행하지 않습니다. 우리는 Cao Xueqin이 무엇을 염두에 두었는지 추측하려고 노력하고 있습니다. 지금은 텍스트 수준에 머무르는 것으로 충분합니다.
 
-Based on the previously extracted data, we derive a set of computational subjects and rules.
+이전에 추출된 데이터를 기반으로 일련의 계산 주제와 규칙을 도출합니다.
 
-In practice, this is the traditional process of evaluating evidence, confidence, and additive/subtractive adjustments for whether an event occurs --
+실제로 이는 사건 발생 여부에 대한 증거, 신뢰도 및 가감 조정을 평가하는 전통적인 프로세스입니다.
 
-made systematic, repeatable, modifiable, and exhaustively brute-forced.
+체계적이고, 반복 가능하고, 수정 가능하며, 철저하게 무차별 대입 방식으로 만들어졌습니다.
 
-The simulation steps for each round are:
+각 라운드의 시뮬레이션 단계는 다음과 같습니다.
 
-1. Process delayed effects -- check pending\_effects; apply any that have reached their due chapter.
+1. 지연된 효과 처리 - 보류 중인\_효과를 확인하세요. 마감일에 도달한 항목을 적용합니다.
 
-2. Evaluate all laws -- check each law's premises to see if all are satisfied (skip those with confidence \< 0.3).
+2. 모든 법칙을 평가하십시오. 각 법칙의 전제를 확인하여 모두 만족하는지 확인하십시오(신뢰도가 있는 항목은 건너뛰십시오 \< 0.3).
 
-3. Conflict resolution -- simultaneously triggered laws may contradict each other; adjudicate which one wins.
+3. 갈등 해결 – 동시에 발동된 법률은 서로 모순될 수 있습니다. 어느 쪽이 이겼는지 판단해 보세요.
 
-4. Apply effects -- those with a delay go into the queue; those without directly modify state.
+4. 효과 적용 - 지연이 있는 효과는 대기열로 들어갑니다. 상태를 직접 수정하지 않는 것입니다.
 
-5. Snapshot -- compress the current state into a numerical vector.
+5. 스냅샷 - 현재 상태를 숫자 벡터로 압축합니다.
 
-6. chapter += 1
+6. 장 += 1
 
-A complete example -- the death of Lin Daiyu (林黛玉) in Chapter 98 -- is appended at the end of this article.
+완전한 예, 즉 98장의 Lin Daiyu(림黛玉)의 죽음이 이 기사 끝에 첨부되어 있습니다.
 
-### Workflow Summary
+### 워크플로 요약
 
-Among the several components in the above workflow,
+위 워크플로우의 여러 구성요소 중
 
-whether the **extracted data** is academically rigorous, whether the **rules** are reasonable and applicable, whether the **simulation steps** are sound --
+**추출된 데이터**가 학술적으로 엄격한지, **규칙**이 합리적이고 적용 가능한지, **시뮬레이션 단계**가 건전한지 --
 
-none of this is critically important, because each part can be improved and regenerated independently.
+각 부분은 독립적으로 개선되고 재생성될 수 있기 때문에 이 중 어느 것도 매우 중요하지 않습니다.
 
-From a software engineering perspective, my goal is to make this engine work well at the interface level,
+소프트웨어 엔지니어링 관점에서 내 목표는 이 엔진이 인터페이스 수준에서 잘 작동하도록 만드는 것입니다.
 
-and continuously refine prediction results as more information is incorporated and the methodology improves.
+더 많은 정보가 통합되고 방법론이 개선됨에 따라 예측 결과를 지속적으로 개선합니다.
 
-### Current Results: Objective vs. Subjective Parallel Comparison
+### 현재 결과: 객관적 대 주관적 병렬 비교
 
-Here I must introduce another self-imposed methodology to enable structured comparison:
+여기서는 구조화된 비교를 가능하게 하기 위해 자체적으로 부과한 또 다른 방법론을 소개해야 합니다.
 
-dividing the inference engine's layers into two main parts -- objective conditions and artistic choice.
+추론 엔진의 레이어를 객관적인 조건과 예술적 선택이라는 두 가지 주요 부분으로 나눕니다.
 
 ![](</images/Simulator Screenshot - iPhone 17 - 2026-03-30 at 22.45.27.png>)![](</images/Simulator Screenshot - iPhone 17 - 2026-03-30 at 22.45.20.png>)
 
-#### Objective Conditions
+#### 객관적인 조건
 
-The historical backdrop of the era in which the novel was written -- its characters, settings, feudal system, economy, and so on -- constitutes the first layer of objective conditions. This can delimit the entire scope of what the story is capable of containing. We have already extracted some objective laws based on period-appropriate historical context and academic literature.
+소설이 쓰여진 시대의 역사적 배경, 즉 인물, 배경, 봉건제도, 경제 등은 객관적인 조건의 첫 번째 층을 구성합니다. 이는 이야기가 담을 수 있는 전체 범위를 제한할 수 있습니다. 우리는 이미 시대에 맞는 역사적 맥락과 학술 문헌을 바탕으로 몇 가지 객관적인 법칙을 추출했습니다.
 
-Conversely, anything that actually existed in that era could, in theory, appear and influence the story.
+반대로, 이론상으로는 그 시대에 실제로 존재했던 모든 것이 등장하여 이야기에 영향을 미칠 수 있습니다.
 
-For instance, the novel already features some Western modern objects such as self-striking clocks and pocket watches. What if Western firearms appeared and became a significant plot driver?
+예를 들어, 소설에는 자동 충격 시계나 회중시계와 같은 서양의 현대적인 물건이 이미 등장하고 있습니다. 서양의 총기가 등장하여 중요한 줄거리 동인이 된다면 어떨까요?
 
-Exhaustively exploring such first-layer objective possibilities is a direction for future work, and might achieve an effect that is "within reason yet beyond expectation."
+이러한 1층의 객관적 가능성을 철저하게 탐구하는 것이 향후 작업의 방향이며, "이성 내에서 기대 이상의" 효과를 얻을 수도 있습니다.
 
-#### Artistic Choice
+#### 예술적 선택
 
-The second layer is the author Cao Xueqin's (曹雪芹) cultivation of this fictional world.
+두 번째 층은 작가 조설근(曹雪芹)이 이 허구의 세계를 경작한 것이다.
 
-Many characters and the overall trajectory of the family carry a heavy fatalistic coloring.
+많은 캐릭터와 가족의 전반적인 궤적은 무거운 운명론적 색채를 띠고 있습니다.
 
-The novel's countless poems and metaphors -- as well as marginal annotations by a friend who reportedly read the ending -- hint at this.
+소설의 수많은 시와 은유는 물론 결말을 읽었다고 전해지는 친구의 여백 주석도 이를 암시합니다.
 
-Therefore, we can use the author's background and life experiences
+따라서 저자의 배경과 삶의 경험을 활용할 수 있습니다.
 
-to infer what fates he chose for his characters,
+그가 자신의 캐릭터에 대해 어떤 운명을 선택했는지 추론하기 위해,
 
-and thereby reveal the values he truly wished to express.
+이를 통해 그가 진정으로 표현하고 싶었던 가치를 드러낸다.
 
-#### Cross-Comparison
+#### 교차 비교
 
-From here, we can treat the Gao E (高鶚) continuation as the work of the most advanced "player" to date.
+여기에서 우리는 고아(高鶚) 연속을 지금까지 가장 발전된 '연주자'의 작품으로 취급할 수 있다.
 
-What he did is essentially the same thing I am doing now:
+그가 한 일은 본질적으로 내가 지금 하고 있는 것과 똑같습니다.
 
-based on the characters and setting in the novel, attempting to divine Cao Xueqin's artistic choices as closely as possible.
+소설 속 인물과 설정을 바탕으로 조설친의 예술적 선택을 최대한 가깝게 신성하게 하려고 시도했습니다.
 
-Moreover, Gao E completed the existing ending, which greatly increased the novel's circulation, and his version has been widely accepted -- so we place his version in a parallel position for comparison.
+더욱이 가오이는 기존 결말을 완성해 소설의 유통 부수를 크게 늘렸으며 그의 버전이 널리 받아들여졌기 때문에 비교를 위해 그의 버전을 평행 위치에 두었습니다.
 
-#### Realistic Simulation
+#### 현실적인 시뮬레이션
 
-What if we stripped away all artistic treatment and retained only objective laws, letting the story evolve naturally?
+모든 예술적 처리를 없애고 객관적인 법칙만 남겨두고 이야기가 자연스럽게 전개되도록 놔두면 어떨까요?
 
-The result is that most plot events would not occur within the span of 120 chapters. The narrative would be less dramatic and contain fewer tragedies.
+결과적으로 대부분의 플롯 이벤트는 120개 챕터 범위 내에서 발생하지 않습니다. 내러티브는 덜 극적이고 비극도 더 적게 포함됩니다.
 
-## Methods for Improving Prediction Quality
+## 예측 품질을 향상시키는 방법
 
-- Re-extract text when LLM capabilities improve
+- LLM 기능이 향상되면 텍스트 다시 추출
 
-- More human intervention for fine-tuning and experimenting with different prompts
+- 다양한 프롬프트를 미세 조정하고 실험하기 위해 더 많은 사람의 개입이 필요합니다.
 
-- Enlist scholars of Redology (紅學, the academic study of *Dream of the Red Chamber*) or historians to assist with data cleaning and engine logic adjustments
+- 데이터 정리 및 엔진 논리 조정을 지원하기 위해 Redology(紅학과, *홍루의 꿈*에 대한 학술 연구) 학자 또는 역사가를 모집합니다.
 
-- Incorporate newly discovered or previously undigitized materials (if any) into training
+- 새로 발견되었거나 이전에 디지털화되지 않은 자료(있는 경우)를 교육에 통합합니다.
 
-- Experiment with alternative methodologies
+- 대체 방법론 실험
 
-- Establish a fixed workflow and let AI agents continuously fine-tune and produce many versions; since there is no clear termination criterion, quality can only be judged manually
+- 고정된 워크플로를 설정하고 AI 에이전트가 지속적으로 많은 버전을 미세 조정하고 생성하도록 합니다. 명확한 종료 기준이 없기 때문에 품질은 수동으로만 판단할 수 있습니다.
 
-## Conclusion
+## 결론
 
-Due to the constraints of existing and pre-trained data, and the strong internal consistency of *Dream of the Red Chamber* as a work of art,
+기존 데이터와 사전 학습된 데이터의 제약과 예술 작품으로서의 *홍루의 꿈*의 강력한 내부 일관성으로 인해
 
-deus ex machina predictions are unlikely to emerge. What we see instead are internal comparative differences --
+데우스 엑스 마키나(deus ex machina) 예측은 나오지 않을 것 같습니다. 대신 우리가 보는 것은 내부 비교 차이입니다.
 
-for example, the confiscation and decline of the Jia family is fated to happen regardless; the difference lies only in timing.
+예를 들어, Jia 가문의 몰수와 쇠퇴는 상관없이 일어날 운명입니다. 차이점은 타이밍에만 있습니다.
 
-### A Final Reflection
+### 최종 반성
 
-This kind of work would originally have required at least one to two years and at least one full-time person to complete.
+이런 종류의 작업을 완료하려면 원래 최소 1~2년과 최소 한 명의 정규 직원이 필요했습니다.
 
-Now I can use my after-work hours to play a different professional role -- which also satisfies a regret from when financial pressure forced me to switch fields years ago.
+이제 저는 퇴근 후 시간을 활용하여 다른 전문적인 역할을 수행할 수 있습니다. 이는 몇 년 전 재정적 압박으로 인해 분야를 바꾸게 되었을 때의 후회도 만족시켜 줍니다.
 
-I hope that sharing the thinking process behind building the *Dream of the Red Chamber Simulator* is helpful to you,
+*Dream of the Red Chamber Simulator*를 제작하기 위한 사고 과정을 공유하는 것이 도움이 되기를 바랍니다.
 
-and I look forward to the social sciences -- not just computer science and the natural sciences -- benefiting from the rapid advances in AI.
+컴퓨터 과학이나 자연 과학뿐만 아니라 사회 과학도 AI의 급속한 발전으로 혜택을 받을 수 있기를 기대합니다.
 
 ***
 
-### Appendix: Full Simulation Process Example
+### 부록: 전체 시뮬레이션 프로세스 예
 
-Chapters 97-98, "The Death of Lin Daiyu" (黛玉之死) -- a complete walk-through of all six steps (the following content was generated by AI):
-
----
-
-Example: Chapter 97 -- The Switcheroo Plot (掉包計) -> Burning Manuscripts and Severing Ties (焚稿斷情) -> Daiyu's Death
-
-Background State (entering Chapter 97)
-
-After more than a dozen chapters of cumulative decline, Lin Daiyu's state is:
-
-agent.林黛玉:  health=0.12, mood=0.08, isolation=0.72, tragedy\_risk=0.95, alive=True
-
-agent.賈寶玉:  monk\_tendency=0.35, mood=0.20
-
-economy:       debt\_ratio=0.65
-
-politics:      family\_decides\_marriage=True
-
-relation.賈寶玉::林黛玉:    marriage\_probability=0.15
-
-relation.賈寶玉::薛寶釵:    marriage\_probability=0.72
-
-Why did Daiyu's health drop from an initial 0.35 to 0.12? Because this law has been silently triggering every chapter:
-
-▎ PSY\_E1\_DAIYU\_DECAY "Daiyu's health slowly decays"
-
-▎ Premise: health > 0.0 AND isolation > 0.3 AND alive = True -> Effect: health sub 0.017
-
-▎ At -0.017 per chapter, over a dozen chapters this amounts to a lethal chronic drain.
+97-98장, "임대옥의 죽음"(黛玉之死) - 6단계 전체를 완벽하게 안내합니다(다음 콘텐츠는 AI에 의해 생성됨).
 
 ---
 
-① Process Delayed Effects
+예: 97장 - 전환기 음모(掉包計) -> 원고를 불태우고 인연을 끊음(焚稿斷情) -> 다이우의 죽음
 
-Check the pending\_effects queue. Suppose the following was triggered in Chapter 13:
+배경 상태(97장 시작)
 
-▎ FATE\_010 "Qin Keqing's deathbed dream: the peak foretells the fall" delay\_chapters: 20
+12개 이상의 챕터가 누적된 후 Lin Daiyu의 상태는 다음과 같습니다.
 
-Its effect, economy.spending\_pressure add 0.1, already came due and was executed in Chapter 33. The queue is now empty. Skip.
+Agent.LIN黛玉: 건강=0.12, 기분=0.08, 고립=0.72, 비극\_위험=0.95, 살아있음=True
 
----
+Agent.賈寶玉: 수도사\_tendency=0.35, 기분=0.20
 
-② Evaluate All 369 Laws
+경제: 부채\_비율=0.65
 
-The engine scans each law in sequence. The key laws that trigger this chapter:
+정치: 가족\_결정\_결혼=참
 
-Law A -- VAR\_MARRIAGE\_SWAP "The Switcheroo: Secretly marrying Baochai instead" conf=0.95
+관계.賈寶玉::숲黛玉: 결혼\_확률=0.15
 
-Premise check:
+관계.賈寶玉::薛寶釵: 결혼\_확률=0.72
 
-```
-agent.林黛玉.health \< 0.15       -> 0.12 \< 0.15  ✅
+다이유의 체력이 초기 0.35에서 0.12로 떨어진 이유는 무엇입니까? 이 법은 모든 장을 조용히 촉발시켰기 때문에:
 
-agent.林黛玉.alive == True        -> True          ✅
+▎ PSY\_E1\_DAIYU\_DECAY "다이유의 체력이 서서히 쇠퇴하고 있습니다"
 
-politics.family\_decides\_marriage  -> True          ✅
+▎ 전제: 건강 > 0.0 AND 고립 > 0.3 AND 살아 있음 = True -> 효과: 건강 하위 0.017
 
-relation.寶玉::黛玉.marriage\_probability \< 0.5  -> 0.15 \< 0.5  ✅
-
-All passed -> 🔥 Triggered!
-```
-
-Law B -- PSY\_E1\_DAIYU\_DECAY "Daiyu's health decay" conf=0.9
-
-```
-health > 0.0  -> 0.12 > 0  ✅
-
-isolation > 0.3 -> 0.72 > 0.3  ✅
-
-alive == True  ✅
-
--> 🔥 Triggered!
-```
-
-Law C -- VAR\_MARRIAGE\_DAIYU "The Stone-and-Wood Bond: Baoyu and Daiyu marry" conf=0.9
-
-```
-relation.寶玉::黛玉.marriage\_probability > 0.7  -> 0.15 > 0.7  ❌
-
--> Not triggered (Baoyu-Daiyu marriage probability too low)
-```
-
-This chapter also simultaneously triggers over a dozen other laws (economic decline, political risk, etc.), but the above are the ones directly relevant to Daiyu.
+▎ 장당 -0.017로, 12개가 넘는 장은 치명적인 만성 유출에 해당합니다.
 
 ---
 
-③ Conflict Resolution
+① 지연효과 처리
 
-VAR\_MARRIAGE\_SWAP, VAR\_MARRIAGE\_NORMAL\_BAOCHAI, and VAR\_MARRIAGE\_DAIYU belong to the same variant\_group (marriage outcomes are mutually exclusive).
+보류 중인\_효과 대기열을 확인하세요. 13장에서 다음이 트리거되었다고 가정합니다.
 
-Only VAR\_MARRIAGE\_SWAP passed the premise check, so there is no actual conflict. However, if Daiyu were already dead (alive=False), then VAR\_MARRIAGE\_NORMAL\_BAOCHAI would trigger instead of the switcheroo version --
+▎ FATE\_010 "진극경의 임종 꿈: 정점은 추락을 예고합니다" 지연\_장: 20
 
-that would be a different evolutionary path.
-
-PSY\_E1\_DAIYU\_DECAY's effect is additive (sub), so it does not conflict with other laws. All effects are retained.
+그 효과인 경제.지출\_압력 추가 0.1은 이미 만료되었으며 33장에서 실행되었습니다. 이제 대기열은 비어 있습니다. 건너뛰다.
 
 ---
 
-④ Apply Effects
+② 369개 법률 모두 평가
 
-Law A's effects execute immediately (delay=0):
+엔진은 각 법칙을 순서대로 스캔합니다. 이 장을 촉발하는 주요 법칙은 다음과 같습니다.
 
-marriage trigger\_event BAOYU\_MARRIED\_BAOCHAI   -> fate\_flags\["BAOYU\_MARRIED\_BAOCHAI"] = True
+법칙 A -- VAR\_MARRIAGE\_SWAP "전환기: 대신 비밀리에 Baochai와 결혼" conf=0.95
 
-relation.寶玉::寶釵.marriage\_probability set 1.0  -> 1.0
+전제 확인:
 
-agent.賈寶玉.mood sub 0.5                        -> 0.20 -> 0.00 (clamp)
+````
+Agent.LIN黛玉.health \< 0.15 -> 0.12 \< 0.15 ✅
 
-agent.賈寶玉.monk\_tendency add 0.3               -> 0.35 -> 0.65
+Agent.LIN黛玉.alive == 참 -> 참 ✅
 
-agent.林黛玉.health sub 0.1                       -> 0.12 -> 0.02
+politics.family\_decides\_marriage -> 참 ✅
 
-Law B's effects:
+관계.寶玉::黛玉.marriage\_probability \< 0.5 -> 0.15 \< 0.5 ✅
 
-agent.林黛玉.health sub 0.017                    -> 0.02 -> 0.003
+모두 통과 -> 🔥 발동!
+````
 
-At this point Daiyu's health = 0.003, approaching zero.
+법칙 B -- PSY\_E1\_DAIYU\_DECAY "다이유의 건강 붕괴" conf=0.9
+
+````
+체력 > 0.0 -> 0.12 > 0 ✅
+
+격리 > 0.3 -> 0.72 > 0.3 ✅
+
+살아있다 == 사실 ✅
+
+-> 🔥 발동!
+````
+
+법칙 C -- VAR\_MARRIAGE\_DAIYU "돌과 나무의 유대: Baoyu와 Daiyu의 결혼" conf=0.9
+
+````
+관계.寶玉::黛玉.marriage\_probability > 0.7 -> 0.15 > 0.7 ❌
+
+-> 발동되지 않음(보옥-대우 결혼 확률이 너무 낮음)
+````
+
+이 장은 또한 12개 이상의 다른 법률(경제적 쇠퇴, 정치적 위험 등)을 동시에 유발하지만 위의 법률은 Daiyu와 직접적으로 관련된 법률입니다.
 
 ---
 
-⑤ Snapshot
+③ 갈등해결
 
-Compress the current world state into a numerical vector:
+VAR\_MARRIAGE\_SWAP, VAR\_MARRIAGE\_NORMAL\_BAOCHAI 및 VAR\_MARRIAGE\_DAIYU는 동일한 변형\_그룹에 속합니다(결혼 결과는 상호 배타적임).
 
-snapshot = {
+VAR\_MARRIAGE\_SWAP만 전제 검사를 통과했으므로 실제 충돌은 없습니다. 그러나 Daiyu가 이미 죽은 경우(alive=False), switcheroo 버전 대신 VAR\_MARRIAGE\_NORMAL\_BAOCHAI가 실행됩니다.
 
-```
-economy\_vector: \[0.42, 0.82, 0.65, 0.55, 0.80, 0.35],
+그것은 다른 진화 경로가 될 것입니다.
 
-agent\_vectors: {
+PSY\_E1\_DAIYU\_DECAY의 효과는 덧셈(하위)이므로 다른 법칙에 저촉되지 않습니다. 모든 효과가 유지됩니다.
 
-  "林黛玉": \[0.003, 0.08, 0.10, 0.00, 0.30, 0.00, 0.72, 0.95],
+---
 
-  "賈寶玉": \[0.80, 0.00, 0.30, 0.72, 0.80, 0.65, 0.42, 0.92],
+④ 효과 적용
 
-  ...
+법칙 A의 효과는 즉시 실행됩니다(지연=0):
+
+결혼 트리거\_event BAOYU\_MARRIED\_BAOCHAI -> 운명\_flags\["BAOYU\_MARRIED\_BAOCHAI"] = True
+
+관계.寶玉::寶釵.marriage\_probability 세트 1.0 -> 1.0
+
+Agent.賈寶玉.mood sub 0.5 -> 0.20 -> 0.00 (클램프)
+
+Agent.賈寶玉.monk\_tendency 추가 0.3 -> 0.35 -> 0.65
+
+에이전트.림黛玉.health 하위 0.1 -> 0.12 -> 0.02
+
+법칙 B의 효과:
+
+에이전트.림黛玉.health 하위 0.017 -> 0.02 -> 0.003
+
+이 시점에서 Daiyu의 체력은 0.003으로 0에 가까워졌습니다.
+
+---
+
+⑤ 스냅샷
+
+현재 세계 상태를 숫자 벡터로 압축합니다.
+
+스냅샷 = {
+
+````
+경제\_벡터: \[0.42, 0.82, 0.65, 0.55, 0.80, 0.35],
+
+에이전트\_벡터: {
+
+"림黛玉": \[0.003, 0.08, 0.10, 0.00, 0.30, 0.00, 0.72, 0.95],
+
+"賈寶玉": \[0.80, 0.00, 0.30, 0.72, 0.80, 0.65, 0.42, 0.92],
+
+...
 
 },
 
-politics\_vector: \[0.0, 0.60, 0.75]
-```
+정치\_벡터: \[0.0, 0.60, 0.75]
+````
 
 }
 
-This vector will later be compared via Euclidean distance against the actual vector for Chapter 97 in actual\_checkpoints.json.
+이 벡터는 나중에 Actual\_checkpoints.json에 있는 97장의 실제 벡터와 유클리드 거리를 통해 비교됩니다.
 
 ---
 
-⑥ chapter = 98
+⑥ 장 = 98
 
-Enter the next chapter. At this point Daiyu's health = 0.003, and BAOYU\_MARRIED\_BAOCHAI = True.
+다음 장을 입력하세요. 이 시점에서 Daiyu의 체력은 0.003이고 BAOYU\_MARRIED\_BAOCHAI = True입니다.
 
-When Chapter 98 runs step ② again, two lethal laws trigger simultaneously:
+98장이 ②단계를 다시 실행하면 두 가지 치명적인 법칙이 동시에 실행됩니다.
 
-▎ VAR\_DAIYU\_HEARTBREAK "Burning manuscripts, severing ties: Daiyu dies of heartbreak" conf=0.95
+▎ VAR\_DAIYU\_HEARTbreak "원고를 불태우고 인연을 끊다: 다이유는 상심으로 사망" conf=0.95
 
-▎ health ≤ 0.05        -> 0.003 ≤ 0.05   ✅
+▎ 체력 ≤ 0.05 -> 0.003 ≤ 0.05 ✅
 
-▎ BAOYU\_MARRIED\_BAOCHAI -> True           ✅
+▎ BAOYU\_MARRIED\_BAOCHAI -> 사실 ✅
 
-▎ -> death trigger\_event FATE\_DAIYU\_DEATH
+▎ -> 사망 유발\_event FATE\_DAIYU\_DEATH
 
-▎ -> monk\_tendency add 0.4 -> Baoyu 0.65 -> 1.0 (clamp)
+▎ -> 수도승\_경향 0.4 추가 -> 보옥 0.65 -> 1.0(클램프)
 
-▎ -> alive set False
+▎ -> 살아있는 세트 거짓
 
-Then SYS\_E19\_ZERO\_DAIYU triggers (checkpoint.FATE\_DAIYU\_DEATH = True), zeroing out all of Daiyu's attributes.
+그런 다음 SYS\_E19\_ZERO\_DAIYU가 트리거되어(checkpoint.FATE\_DAIYU\_DEATH = True) Daiyu의 모든 속성이 0으로 설정됩니다.
 
-A few chapters later, Baoyu's monk\_tendency has reached 1.0 and mood ≤ 0.15, triggering VAR\_MONK\_DESPAIR "All hopes extinguished: Baoyu renounces the world" (萬念俱灰：寶玉出家).
+몇 장 후에 Baoyu의 수도승 경향은 1.0에 도달하고 기분은 0.15 이하가 되어 VAR\_MONK\_DESPAIR "모든 희망이 사라졌습니다. Baoyu는 세상을 포기합니다"(萬念俱灰:寶玉출가)가 발동되었습니다.

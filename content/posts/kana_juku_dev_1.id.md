@@ -1,55 +1,55 @@
 ---
-isStub: true
-title: "Kana Juku Dev Log (Part 1): From Chatbots to AI Agents"
+title: "Log Pengembang Kana Juku (Bagian 1): Dari Chatbots hingga Agen AI"
 date: 2026-02-22T13:16:34.278Z
 author: "QQder"
 categories:
-  - The Workshop
+  - Lokakarya
 tags:
-  - iOS App
-  - On-Device AI
-  - Handwriting Recognition
+  - Aplikasi iOS
+  - AI di Perangkat
+  - Pengenalan Tulisan Tangan
   - udemy
   - claude
-  - claude code
-  - gemini
+  - kode claude
+  - Gemini
   - gemini cli
-  - swiftUI
+  - UI cepat
   - UIKit
 keywords:
-  - AI agent
-  - claude code
+  - Agen AI
+  - kode claude
   - gemini cli
-  - iOS development
-  - indie developer
+  - pengembangan iOS
+  - pengembang indie
   - kana juku
-  - Japanese learning
-  - swiftUI
-  - On-Device AI
-  - opus
+  - pembelajaran bahasa Jepang
+  - UI cepat
+  - AI di Perangkat
+  - karya
   - chatbot
-description: "Sharing my experience developing my first app, Kana Juku — a journey that also traces my shift from chatbots to AI agents"
+description: "Berbagi pengalaman saya mengembangkan aplikasi pertama saya, Kana Juku — sebuah perjalanan yang juga menelusuri peralihan saya dari chatbots ke agen AI"
 ---
 
-# Preface
 
-Kana Juku is the first app I ever built and shipped to the App Store.
+# Kata pengantar
 
-Since it was my first, there's a full story arc to share.
+Kana Juku adalah aplikasi pertama yang saya buat dan kirimkan ke App Store.
 
-This series covers the development process, how I used AI assistance and how that evolved, working with public datasets and copyright considerations, and more.
+Karena ini adalah cerita pertama saya, ada cerita lengkap yang bisa dibagikan.
 
-If other apps have noteworthy stories, I'll publish those separately.
+Seri ini mencakup proses pengembangan, cara saya menggunakan bantuan AI dan perkembangannya, bekerja dengan kumpulan data publik dan pertimbangan hak cipta, dan banyak lagi.
 
-This post focuses on the transition from chatbots to AI agents starting in **Q4 2025**.
+Jika aplikasi lain memiliki cerita penting, saya akan mempublikasikannya secara terpisah.
 
-Things move fast in this space, so I've bluntly timestamped the key moments.
+Postingan ini berfokus pada transisi dari chatbots ke agen AI yang dimulai pada **Q4 2025**.
 
-## About the App
+Segalanya bergerak cepat di ruang ini, jadi saya secara blak-blakan mencatat waktu pada momen-momen penting.
 
-If you have an Apple device, feel free to download it and give it a try.
+## Tentang Aplikasi
 
-Several upcoming posts will also use this app as a running example — topics like cleaning [ETL datasets](https://etlcdb.db.aist.go.jp/), [Apple Create ML](https://developer.apple.com/machine-learning/create-ml/), [PyTorch](https://pytorch.org/), [VOICEVOX](https://voicevox.hiroshiba.jp/), on-device large language models, and more.
+Jika Anda memiliki perangkat Apple, silakan unduh dan cobalah.
+
+Beberapa postingan mendatang juga akan menggunakan aplikasi ini sebagai contoh berjalan — topik seperti membersihkan [kumpulan data ETL](https://etlcdb.db.aist.go.jp/), [Apple Create ML](https://developer.apple.com/machine-learning/create-ml/), [PyTorch](https://pytorch.org/), [VOICEVOX](https://voicevox.hiroshiba.jp/), model bahasa besar di perangkat, dan banyak lagi.
 
 Kana Juku: [URL](https://apps.apple.com/us/app/%E5%81%87%E5%90%8D%E7%A7%81%E5%A1%BE/id6756785942)
 
@@ -57,112 +57,112 @@ Kana Juku: [URL](https://apps.apple.com/us/app/%E5%81%87%E5%90%8D%E7%A7%81%E5%A1
 
 ***
 
-# Development Timeline
+# Garis Waktu Pengembangan
 
-### Motivation
+### Motivasi
 
-My family and I are both interested in learning Japanese, and I've long wanted a Japanese-learning app that perfectly fits our needs.
+Saya dan keluarga sama-sama tertarik untuk belajar bahasa Jepang, dan saya sudah lama menginginkan aplikasi pembelajaran bahasa Jepang yang sesuai dengan kebutuhan kami.
 
-My family's pain point is that they don't read English, so the romaji in most textbooks and apps is meaningless to them.
+Masalah keluarga saya adalah mereka tidak bisa membaca bahasa Inggris, jadi romaji di sebagian besar buku teks dan aplikasi tidak ada artinya bagi mereka.
 
-For me, I really wanted kana displayed alongside their kanji origins (e.g., "あ" derives from "安").
+Bagi saya, saya sangat ingin kana ditampilkan di samping asal kanjinya (misalnya, "あ" berasal dari "安").
 
-Another annoyance: I installed the Japanese keyboard for occasional use, but switching input methods every day meant an extra tap to skip past the Japanese keyboard — a small friction that added up.
+Gangguan lainnya: Saya memasang keyboard Jepang untuk penggunaan sesekali, namun mengganti metode input setiap hari berarti ketukan ekstra untuk melewati keyboard Jepang — sedikit gesekan yang bertambah.
 
-### Early Preparation
+### Persiapan Awal
 
 **[Q4 2024]**
 
-I was between jobs at the time, so I had the bandwidth to take [Udemy](https://www.udemy.com/) courses. Since I had some JavaScript experience, I started with [React](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwih6Kzo2O-SAxUl3zQHHZoSL-kQFnoECDYQAQ&url=https%3A%2F%2Fzh-hant.legacy.reactjs.org%2F&usg=AOvVaw3Q6fqYyboB_gQOnPVX_tbN&opi=89978449) & [Expo](https://expo.dev/).
+Saya sedang berada di antara pekerjaan pada saat itu, jadi saya memiliki bandwidth untuk mengambil kursus [Udemy](https://www.udemy.com/). Karena saya memiliki pengalaman JavaScript, saya mulai dengan [React](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwih6Kzo2O-SAxUl3zQHHZoSL-kQFnoECDYQAQ&url=https%3A%2F%2Fzh-hant.legacy.reactjs.org%2F&usg=AOvVaw3Q6fqYyboB_gQOnPVX_tbN&opi=89978449) & [Expo](https://expo.dev/).
 
-At this stage I was following along with course content — simple web-style pages, plus extras like GPS, camera control, and fetching remote data.
+Pada tahap ini saya mengikuti konten kursus — halaman bergaya web sederhana, ditambah tambahan seperti GPS, kontrol kamera, dan pengambilan data jarak jauh.
 
-But since it wasn't Apple's native ecosystem, there was a lot of extra tooling to manage.
+Namun karena ini bukan ekosistem asli Apple, ada banyak alat tambahan yang harus dikelola.
 
 **[Q1 2025]**
 
-After hesitating for a long time, I bought a Mac Mini and switched entirely to Apple's own SwiftUI. Again, I learned from Udemy courses.
+Setelah ragu-ragu untuk waktu yang lama, saya membeli Mac Mini dan beralih sepenuhnya ke SwiftUI milik Apple. Sekali lagi, saya belajar dari kursus Udemy.
 
-Most of my time went into getting comfortable with basic UI components and layouts, plus all the fundamental features — data persistence, fetching data, embedding maps — and their SwiftUI equivalents.
+Sebagian besar waktu saya digunakan untuk membiasakan diri dengan komponen dan tata letak UI dasar, ditambah semua fitur dasar — ​​persistensi data, pengambilan data, penyematan peta — dan yang setara dengan SwiftUI.
 
-SwiftUI is more modern and isn't as tightly coupled to Xcode as UIKit, but it's also harder to predict how a SwiftUI layout will actually look. Early on I cared too much about that and burned a lot of time experimenting.
+SwiftUI lebih modern dan tidak digabungkan dengan Xcode seperti UIKit, tetapi juga lebih sulit untuk memprediksi bagaimana sebenarnya tampilan tata letak SwiftUI. Awalnya saya terlalu memedulikan hal itu dan menghabiskan banyak waktu untuk bereksperimen.
 
 **[Q3 2025]**
 
-Since I had a day job and could only code in the evenings — and not every evening at that — progress was slow. I was basically building out the basic skeleton and plugging in the Japanese language data.
+Karena saya memiliki pekerjaan harian dan hanya dapat membuat kode di malam hari — dan tidak setiap malam — kemajuannya lambat. Saya pada dasarnya membangun kerangka dasar dan memasukkan data bahasa Jepang.
 
-With a first app, it's hard to foresee the final shape, so I kept revising. Sometimes I'd circle back to rewatch course videos for features I now knew I needed. Essentially, I was paying tuition.
+Dengan aplikasi pertama, sulit memperkirakan bentuk akhirnya, jadi saya terus merevisinya. Kadang-kadang saya kembali untuk menonton ulang video kursus untuk mengetahui fitur-fitur yang sekarang saya tahu saya perlukan. Intinya, saya membayar uang sekolah.
 
-Up to this point, starting from **Q1 2024**, plain chatbots like ChatGPT were already a big help for coding.
+Hingga saat ini, mulai **Q1 2024**, chatbot biasa seperti ChatGPT sudah sangat membantu dalam coding.
 
-But the copy-paste cycle and having to explain mountains of context was incredibly time-consuming. The output often missed the mark on the first try or drifted off course, sending me right back to the copy-paste loop. It never reached a positive feedback cycle — it was only useful as a learning reference.
+Namun siklus salin-tempel dan penjelasan konteks yang sangat banyak sangat memakan waktu. Outputnya sering kali meleset pada percobaan pertama atau keluar jalur, membuat saya kembali ke loop salin-tempel. Ini tidak pernah mencapai siklus umpan balik positif – hanya berguna sebagai referensi pembelajaran.
 
-At the time, the hottest tool was actually the Cursor editor with its tab-autocomplete, but it required a subscription for meaningful usage, so I **didn't try it**.
+Pada saat itu, alat paling populer sebenarnya adalah editor Kursor dengan pelengkapan otomatis tabnya, tetapi memerlukan langganan untuk penggunaan yang berarti, jadi saya **tidak mencobanya**.
 
-Meanwhile, Claude was already gaining popularity as the best model for coding, and Anthropic had released Claude Code — an AI agent that runs on your local machine. But again, it required a subscription, so I didn't try it.
+Sementara itu, Claude sudah mendapatkan popularitas sebagai model pengkodean terbaik, dan Anthropic telah merilis Claude Code — agen AI yang berjalan di mesin lokal Anda. Tapi sekali lagi, ini memerlukan langganan, jadi saya tidak mencobanya.
 
 ***
 
-### Pivoting to AI Agents
+### Beralih ke Agen AI
 
 **[Q4 2025]**
 
-At this point I expected I'd only ever subscribe to one chatbot at a time, and I had just switched from ChatGPT to Google Gemini.
+Pada titik ini saya berharap saya hanya akan berlangganan satu chatbot dalam satu waktu, dan saya baru saja beralih dari ChatGPT ke Google Gemini.
 
-Spec-Driven Development (SDD) was trending, and Google had launched Gemini CLI — their answer to Claude Code — so I finally **gave it a shot**.
+Spec-Driven Development (SDD) sedang menjadi tren, dan Google telah meluncurkan Gemini CLI — jawaban mereka terhadap Claude Code — jadi saya akhirnya **mencobanya**.
 
-I discovered that agents eliminated the copy-paste step entirely, massively boosting efficiency. The step of pasting code back and hunting for which lines to change was also gone.
+Saya menemukan bahwa agen menghilangkan langkah salin-tempel sepenuhnya, sehingga meningkatkan efisiensi secara besar-besaran. Langkah menempelkan kembali kode dan mencari baris mana yang akan diubah juga hilang.
 
-By then I was convinced: for coding, you should use an agent, not a chatbot. So I went ahead and subscribed to Claude to use Claude Code (CC from here on).
+Saat itu saya yakin: untuk coding, Anda harus menggunakan agen, bukan chatbot. Jadi saya langsung berlangganan Claude untuk menggunakan Kode Claude (CC mulai sekarang).
 
-CC's underlying model was clearly stronger. Its comprehension of conversations and its ability to execute as expected were already remarkably reliable.
+Model yang mendasari CC jelas lebih kuat. Pemahamannya terhadap percakapan dan kemampuannya untuk melaksanakan seperti yang diharapkan sudah sangat dapat diandalkan.
 
-#### Controlling the Computer, and Opus 4.5
+#### Mengontrol Komputer, dan Opus 4.5
 
-One time my Mac Mini's disk was completely full and the machine was unusable. I just asked CC what to do — the same way I'd ask a question on a chatbot's web page.
+Suatu saat disk Mac Mini saya penuh dan mesin tidak dapat digunakan. Saya baru saja bertanya kepada CC apa yang harus dilakukan — sama seperti saya mengajukan pertanyaan di halaman web chatbot.
 
-CC came back with a concrete plan: which directories could be cleared, what could be moved to an external drive, and so on.
+CC kembali dengan rencana konkrit: direktori mana yang dapat dibersihkan, direktori mana yang dapat dipindahkan ke drive eksternal, dan seterusnya.
 
-I was worried it might brick my computer, so I approved each step one at a time. In the end, everything went smoothly.
+Saya khawatir hal ini akan merusak komputer saya, jadi saya menyetujui setiap langkah satu per satu. Pada akhirnya, semuanya berjalan lancar.
 
-I wasn't very familiar with macOS or the Xcode build environment. That's when I realized AI has at least an 80% understanding of *everything* — including things I don't know — and that being able to write code is roughly equivalent to being able to operate a computer.
+Saya tidak terlalu paham dengan macOS atau lingkungan build Xcode. Saat itulah saya menyadari bahwa AI memiliki setidaknya 80% pemahaman tentang *segala sesuatu* — termasuk hal-hal yang tidak saya ketahui — dan bahwa kemampuan menulis kode kira-kira setara dengan kemampuan mengoperasikan komputer.
 
-Because CC could directly control the machine, it moved freely between directories, wrote code, saw its own errors, and fixed them — a fully self-sustaining positive feedback loop.
+Karena CC dapat mengontrol mesin secara langsung, CC dapat berpindah dengan bebas antar direktori, menulis kode, melihat kesalahannya sendiri, dan memperbaikinya — sebuah putaran umpan balik positif yang sepenuhnya mandiri.
 
-The development speed with an agent was on a completely different level, and the fact that I'd waited three extra months before switching to CC made me feel pretty foolish.
+Kecepatan pengembangan agen berada pada level yang sangat berbeda, dan fakta bahwa saya telah menunggu tiga bulan ekstra sebelum beralih ke CC membuat saya merasa sangat bodoh.
 
-The time wasted was staggering, both subjectively and objectively.
+Waktu yang terbuang sangatlah mengejutkan, baik secara subyektif maupun obyektif.
 
-Subjectively: if I had adopted the latest tools earlier, the previous three months of work could have been done in two to three weeks.
+Secara subyektif: jika saya mengadopsi alat-alat terbaru lebih awal, pekerjaan tiga bulan sebelumnya dapat diselesaikan dalam dua hingga tiga minggu.
 
-Objectively: other people using the latest tools were more productive than me and shipping their products sooner.
+Secara obyektif: orang lain yang menggunakan alat terbaru lebih produktif daripada saya dan mengirimkan produknya lebih cepat.
 
-My earlier refusal to try — saving maybe half an hour of setup time and a few hundred dollars in subscription fees — ended up wasting vast stretches of my life.
+Penolakan saya sebelumnya untuk mencoba — mungkin menghemat waktu penyiapan setengah jam dan biaya berlangganan beberapa ratus dolar — akhirnya menyia-nyiakan sebagian besar hidup saya.
 
-This might also explain why so many people are obsessed with chasing the latest AI product news.
+Ini mungkin juga menjelaskan mengapa begitu banyak orang terobsesi mengejar berita produk AI terkini.
 
-At least that's how it is for me — I can't afford not to stay on top of the latest releases. It's a form of time-management risk hedging.
+Setidaknya begitulah yang terjadi pada saya — saya tidak bisa tidak mengikuti perkembangan rilisan terbaru. Ini adalah bentuk lindung nilai risiko manajemen waktu.
 
-**[November 24, 2025]**
+**[24 November 2025]**
 
-Opus 4.5 was released. Opus is Claude's highest-tier flagship model, and version 4.5 had just dropped.
+Opus 4.5 dirilis. Opus adalah model andalan tingkat tertinggi Claude, dan versi 4.5 baru saja dirilis.
 
-Beyond significant performance improvements across the board compared to its predecessor, the biggest difference was its understanding of intent.
+Selain peningkatan kinerja yang signifikan dibandingkan pendahulunya, perbedaan terbesarnya adalah pemahaman tentang maksudnya.
 
-The old version essentially did exactly what you pointed at (which was already quite good, honestly). Starting with 4.5, after receiving your request, it would first summarize and plan to some degree. In human terms: it became sharper, more experienced.
+Versi lama pada dasarnya melakukan persis seperti yang Anda tunjukkan (yang sejujurnya sudah cukup bagus). Dimulai dengan 4.5, setelah menerima permintaan Anda, pertama-tama akan diringkas dan direncanakan sampai tingkat tertentu. Dalam istilah manusia: ia menjadi lebih tajam, lebih berpengalaman.
 
-You no longer needed to spell out which file to modify and how. You could describe the end goal like a manager or executive, and it would break it down and plan the next couple of steps on its own.
+Anda tidak perlu lagi menjelaskan file mana yang akan diubah dan bagaimana caranya. Anda dapat mendeskripsikan tujuan akhir seperti seorang manajer atau eksekutif, dan tujuan tersebut akan diuraikan dan merencanakan beberapa langkah berikutnya sendiri.
 
-This planning capability boosted efficiency even further. As I mentioned, AI already knows at least 80% of everything — now it was proactively doing the next steps of work, and doing them well.
+Kemampuan perencanaan ini semakin meningkatkan efisiensi. Seperti yang saya sebutkan, AI sudah mengetahui setidaknya 80% dari segalanya — sekarang AI secara proaktif melakukan langkah kerja selanjutnya, dan melakukannya dengan baik.
 
-Combined with this, I was able to operate at a much higher level of abstraction. More and more was delegated to CC. Gradually, I stopped needing to read or edit code myself.
+Dikombinasikan dengan ini, saya dapat beroperasi pada tingkat abstraksi yang jauh lebih tinggi. Semakin banyak yang didelegasikan ke CC. Lambat laun, saya tidak lagi perlu membaca atau mengedit kode sendiri.
 
-After Opus 4.5 came out, the debate on social media about whether AI can write code essentially ended.
+Setelah Opus 4.5 keluar, perdebatan di media sosial tentang apakah AI dapat menulis kode pada dasarnya berakhir.
 
-For full-time software engineers and seasoned pros, I can't speak to their experience.
+Untuk insinyur perangkat lunak penuh waktu dan profesional berpengalaman, saya tidak dapat menceritakan pengalaman mereka.
 
-But compared to myself: things that would have taken me one to two years could now be done in two to three months.
+Namun dibandingkan dengan diri saya sendiri: hal-hal yang memakan waktu satu hingga dua tahun kini dapat diselesaikan dalam dua hingga tiga bulan.
 
-The output settled at just beyond the edges of my own knowledge — I was actually the biggest bottleneck.
+Outputnya berada di luar batas pengetahuan saya - saya sebenarnya adalah hambatan terbesar.
 
-*End of Part 1*
+*Akhir Bagian 1*

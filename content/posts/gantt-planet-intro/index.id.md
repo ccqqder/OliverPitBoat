@@ -1,172 +1,172 @@
 ---
-isStub: true
-title: "Gantt Planet: An Indie Developer's Niche and Considerations"
+title: "Gantt Planet: Ceruk dan Pertimbangan Pengembang Indie"
 date: 2026-02-25T06:55:21.349Z
 draft: false
 categories:
-  - The Observatory
+  - Observatorium
 tags:
-  - Indie Developer
-  - App Store
-  - Gantt Chart
-  - Product Development
-  - AI-Assisted Development
-  - side project
+  - Pengembang Indie
+  - Toko Aplikasi
+  - Bagan Gantt
+  - Pengembangan Produk
+  - Pengembangan dengan Bantuan AI
+  - proyek sampingan
 keywords:
-  - indie developer
-  - App Store
-  - Gantt chart
-  - Gantt Planet
-  - product development
-  - side project
-  - AI-assisted development
-  - life Gantt chart
-  - 3D visualization
-  - iOS App
-description: "The App Store as the new-era personal homepage, using Gantt Planet as a case study"
+  - pengembang indie
+  - Toko Aplikasi
+  - Bagan Gantt
+  - Planet Gantt
+  - pengembangan produk
+  - proyek sampingan
+  - Pengembangan yang dibantu AI
+  - bagan Gantt kehidupan
+  - visualisasi 3D
+  - Aplikasi iOS
+description: "App Store sebagai beranda pribadi era baru, menggunakan Gantt Planet sebagai studi kasus"
 author: "QQder"
 ---
 
+
 ![](/images/gantt-planet-cover.jpg)
 
-# Preface
+# Kata pengantar
 
-In this post, I'll talk about the market, resources, ecosystem, and development process from the perspective of an indie developer.
-As a shameless plug, I'm using Gantt Planet as my running example: [URL](https://apps.apple.com/us/app/%E7%94%98%E7%89%B9%E6%98%9F%E7%90%83/id6757654373).
-I'll admit upfront that these are just my side projects — the pressure is very different from someone who makes a living off this — so I'm only discussing the research approach here.
+Dalam postingan kali ini, saya akan membahas tentang pasar, sumber daya, ekosistem, dan proses pengembangan dari sudut pandang pengembang indie.
+Sebagai plug-in yang tidak tahu malu, saya menggunakan Gantt Planet sebagai contoh saya: [URL](https://apps.apple.com/us/app/%E7%94%98%E7%89%B9%E6%98%9F%E7%90%83/id6757654373).
+Saya akui sebelumnya bahwa ini hanyalah proyek sampingan saya – tekanannya sangat berbeda dengan seseorang yang mencari nafkah dari ini – jadi saya hanya membahas pendekatan penelitian di sini.
 
-## The Spark and the Stall
+## Percikan dan Kios
 
-The idea behind Gantt Planet was simple: free Gantt chart tools — whether desktop software, mobile apps, or web apps — are all pretty terrible to use.
-The ones that actually seem decent all charge money, so I figured I'd just build my own Gantt chart app.
+Ide di balik Gantt Planet sederhana saja: alat bagan Gantt gratis — baik perangkat lunak desktop, aplikasi seluler, atau aplikasi web — semuanya sangat buruk untuk digunakan.
+Yang tampaknya layak semuanya memerlukan biaya, jadi saya pikir saya akan membuat aplikasi bagan Gantt saya sendiri.
 
-It didn't take long before I realized things weren't that simple:
+Tidak butuh waktu lama sebelum saya menyadari bahwa segala sesuatunya tidak sesederhana itu:
 
-1. Viewing a spreadsheet-style Gantt chart on a phone screen is way too cramped
-2. A proper Gantt chart needs to connect to a ton of resources — email, contacts, meeting rooms, and so on
+1. Melihat bagan Gantt bergaya spreadsheet di layar ponsel terlalu sempit
+2. Bagan Gantt yang tepat perlu terhubung ke banyak sumber daya — email, kontak, ruang pertemuan, dan sebagainya
 
-Solving either of these problems is expensive. You'd need to spend a huge amount of time fine-tuning the UI and designing ideal usage flows, while accepting that some workflows simply can't be integrated and have to be dropped.
+Menyelesaikan salah satu masalah ini memerlukan biaya yang mahal. Anda harus menghabiskan banyak waktu untuk menyempurnakan UI dan merancang alur penggunaan yang ideal, sambil menerima bahwa beberapa alur kerja tidak dapat diintegrasikan dan harus dihapus.
 
-As for resource integration, you'd need to handle sign-ins for all major platforms, deal with countless APIs and authentication protocols, and maintain all of it going forward.
+Mengenai integrasi sumber daya, Anda harus menangani proses masuk untuk semua platform utama, menangani API dan protokol autentikasi yang tak terhitung jumlahnya, dan mempertahankan semuanya di masa mendatang.
 
-At this point, I hit a wall — and when you're working at a scale that doesn't benefit from economies of scale, that's pretty much inevitable.
+Pada titik ini, saya mengalami hambatan – dan ketika Anda bekerja pada skala yang tidak mendapatkan keuntungan dari skala ekonomi, hal tersebut tidak bisa dihindari.
 
-## Pivot After Pivot
+## Putaran Setelah Putaran
 
-In moments like this, I like to take each factor and extend it a step or two outward, looking for a viable intersection where things might actually work.
+Di momen seperti ini, saya suka mengambil masing-masing faktor dan memperluasnya satu atau dua langkah ke luar, mencari titik temu yang memungkinkan segala sesuatunya benar-benar berhasil.
 
-As a developer driven by personal interest, "viable" means extremely low cost, plus a value proposition that's small but clearly defined.
+Sebagai pengembang yang didorong oleh kepentingan pribadi, "layak" berarti biaya yang sangat rendah, ditambah proposisi nilai yang kecil namun jelas.
 
-AI helped me achieve the first part — extremely low cost.
+AI membantu saya mencapai bagian pertama — biaya yang sangat rendah.
 
-As for the value part, it's mostly self-defined, though bouncing ideas off AI can help crystallize things too.
+Mengenai nilai, sebagian besar ditentukan sendiri, meskipun memantulkan ide dari AI juga dapat membantu mengkristalkan berbagai hal.
 
-For me, it mainly comes down to building something I'd actually want to use — something I'd enjoy looking at, at the very least. Beyond that, if nobody else has done it, there's no free version, or there's a clear differentiator, that counts as value too.
+Bagi saya, hal ini terutama bertujuan untuk membangun sesuatu yang benar-benar ingin saya gunakan — setidaknya sesuatu yang ingin saya lihat. Selain itu, jika tidak ada orang lain yang melakukannya, tidak ada versi gratisnya, atau tidak ada pembeda yang jelas, itu juga dianggap sebagai nilai.
 
-At this point, I started wondering: is there something that's like a Gantt chart, but not really a Gantt chart?
+Pada titik ini, saya mulai bertanya-tanya: apakah ada sesuatu yang seperti bagan Gantt, tetapi sebenarnya bukan bagan Gantt?
 
-And then a picture formed in my mind.
+Dan kemudian sebuah gambaran terbentuk di benak saya.
 
-I remembered that when I use Gantt charts, I tend to put the more important items further down.
+Saya ingat ketika saya menggunakan bagan Gantt, saya cenderung meletakkan hal-hal yang lebih penting jauh di bawah.
 
-The bottommost item is usually the big-picture condition for completing the entire project — or it represents the project itself.
+Item paling bawah biasanya merupakan gambaran besar kondisi untuk menyelesaikan keseluruhan proyek — atau mewakili proyek itu sendiri.
 
-But what if there were items even below that bottom row — items even more important? What would those be?
+Namun bagaimana jika ada item yang bahkan berada di bawah baris terbawah tersebut — item yang bahkan lebih penting? Apa itu?
 
-Well, there are plenty of things more important — they just have nothing to do with work. They're about me. About life.
+Ya, masih banyak hal yang lebih penting - semuanya tidak ada hubungannya dengan pekerjaan. Itu tentang aku. Tentang kehidupan.
 
-And so it clicked: I wasn't going to build a regular business Gantt chart. I was going to build a **life Gantt chart**.
+Dan ternyata berhasil: Saya tidak akan membuat diagram Gantt bisnis biasa. Saya akan membuat **bagan Gantt kehidupan**.
 
 ![](/images/gantt-planet-chart-en.png)
 
-## The Next Step
+## Langkah Selanjutnya
 
-So I decided to build a Gantt chart that departs from the typical business use case.
+Jadi saya memutuskan untuk membuat diagram Gantt yang berangkat dari kasus penggunaan bisnis pada umumnya.
 
-This conveniently meant I no longer needed to integrate with online services,
+Artinya, saya tidak perlu lagi berintegrasi dengan layanan online,
 
-because now it was all about the user — just them, and nothing else.
+karena sekarang semuanya tentang pengguna — hanya mereka, dan tidak ada yang lain.
 
-With that, I'd taken one more step forward and kept the project alive for the time being. But could it lead to enough substance to be complete?
+Dengan itu, saya telah mengambil satu langkah maju dan mempertahankan proyek ini tetap berjalan untuk saat ini. Tapi bisakah hal itu menghasilkan substansi yang cukup untuk menjadi lengkap?
 
-I thought about self-management and the important-but-not-urgent things in life — they all have rhythms and frequencies.
+Saya memikirkan tentang manajemen diri dan hal-hal penting namun tidak mendesak dalam hidup - semuanya memiliki ritme dan frekuensi.
 
-Health matters, so companies do annual check-ups. Family matters, so you make sure to see your loved ones before too much time passes.
+Kesehatan penting, sehingga perusahaan melakukan pemeriksaan tahunan. Keluarga penting, jadi pastikan untuk bertemu dengan orang yang Anda cintai sebelum terlalu banyak waktu berlalu.
 
-Combined with the nature of Gantt charts, within any given time window, items overlap on the current day.
+Dikombinasikan dengan sifat bagan Gantt, dalam jangka waktu tertentu, item tumpang tindih pada hari ini.
 
-And if you consider the span of an entire lifetime, every item is potentially relevant today. That meant I could collapse everything onto the center line of the UI.
+Dan jika Anda mempertimbangkan rentang seumur hidup, setiap item berpotensi relevan saat ini. Itu berarti saya bisa menciutkan semuanya ke garis tengah UI.
 
-This solved the cramped UI problem while expressing a set of values I found genuinely meaningful.
+Ini memecahkan masalah UI yang sempit sambil mengekspresikan serangkaian nilai yang menurut saya sangat berarti.
 
-![Timeline main view](/images/screenshots/gantt-planet/timeline-en.png)
-*The actual timeline view: all life items converge on the calendar centerline — see everything that matters today at a glance*
+![Tampilan utama garis waktu](/images/screenshots/gantt-planet/timeline-en.png)
+*Tampilan garis waktu sebenarnya: semua item kehidupan berkumpul di garis tengah kalender — lihat sekilas semua hal penting hari ini*
 
-## Completeness
+## Kelengkapan
 
-One of the App Store review guidelines is that your app can't just replicate what a plain text webpage could do.
+Salah satu pedoman peninjauan App Store adalah aplikasi Anda tidak bisa hanya meniru apa yang bisa dilakukan halaman web teks biasa.
 
-For example, a simple to-do list might not pass muster. So I had to make sure this app was more than just a spreadsheet — otherwise, Google Sheets could do the same thing.
+Misalnya, daftar tugas yang sederhana mungkin tidak bisa diterima. Jadi saya harus memastikan aplikasi ini lebih dari sekadar spreadsheet — jika tidak, Google Spreadsheet dapat melakukan hal yang sama.
 
-The top-to-bottom visual flow of the spreadsheet reminded me of digging downward — like each day you only do the bare minimum surface-level tasks. There's a Chinese idiom, "people floating above their work," that captures this state perfectly.
+Alur visual dari atas ke bawah pada spreadsheet mengingatkan saya untuk menggali ke bawah — seperti setiap hari Anda hanya melakukan tugas minimum di tingkat permukaan. Ada ungkapan Tiongkok, “orang-orang melayang di atas pekerjaannya,” yang menggambarkan keadaan ini dengan sempurna.
 
-The metaphor of more important items sitting at deeper layers made me want to make it more visual, more tangible. The immediate association was excavation — digging through geological strata, mining.
+Metafora item yang lebih penting yang berada di lapisan yang lebih dalam membuat saya ingin membuatnya lebih visual, lebih nyata. Hubungan langsungnya adalah penggalian - penggalian melalui strata geologi, penambangan.
 
-Then came the question of implementation. Should I slightly curve each row of the spreadsheet? Add some perspective distortion?
+Lalu muncul pertanyaan tentang implementasi. Haruskah saya sedikit membengkokkan setiap baris spreadsheet? Tambahkan beberapa distorsi perspektif?
 
-I thought about the context of this life Gantt chart — solitary and introspective.
+Saya memikirkan tentang konteks kehidupan Gantt chart ini - menyendiri dan introspektif.
 
-The image that came to mind was: on the surface of a planet's crust, one person digging alone. And then it hit me — isn't that the golden-haired boy who waters his rose and tames a fox?
+Gambaran yang terlintas di benak saya adalah: di permukaan kerak planet, ada satu orang yang menggali sendirian. Dan kemudian aku tersadar — bukankah itu anak laki-laki berambut emas yang menyirami mawarnya dan menjinakkan rubah?
 
-So I built a 3D version of the Gantt chart, using a mine shaft and gemstones as the visual representation of to-do items.
+Jadi saya membuat bagan Gantt versi 3D, menggunakan poros tambang dan batu permata sebagai representasi visual dari tugas yang harus dilakukan.
 
-An even more radical approach would have been to keep only the planet version, but considering usability, review difficulty, and how intuitive it would be to understand, I decided to keep both views.
+Pendekatan yang lebih radikal adalah dengan hanya mempertahankan versi planetnya, namun mengingat kegunaannya, kesulitan peninjauannya, dan seberapa intuitifnya untuk memahaminya, saya memutuskan untuk mempertahankan kedua pandangan tersebut.
 
 ![](/images/gantt-planet-3d-en.png)
 
-![3D Planet View](/images/screenshots/gantt-planet/geo-view-en.png)
-*The 3D planet Gantt chart — mine shafts and gemstones as visual representations of life goals*
+![Tampilan Planet 3D](/images/screenshots/gantt-planet/geo-view-en.png)
+*Bagan Gantt planet 3D — poros tambang dan batu permata sebagai representasi visual dari tujuan hidup*
 
-## Still Missing a Desk
+## Masih Hilang Meja
 
-Back when I was still in school, I spent a lot of time sitting properly at my desk, alone — either studying or writing.
+Dulu ketika saya masih di sekolah, saya menghabiskan banyak waktu untuk duduk dengan nyaman di meja kerja, sendirian — baik untuk belajar atau menulis.
 
-Using and thinking about this life Gantt chart felt like it was bringing me back to that desk — the one that's long been thrown away.
+Menggunakan dan memikirkan kehidupan ini Gantt chart terasa seperti membawa saya kembali ke meja itu - meja yang sudah lama dibuang.
 
-If I completed something I only do once every three months or once a year — or even a long-term goal —
+Jika saya menyelesaikan sesuatu, saya hanya melakukannya setiap tiga bulan sekali atau setahun sekali — atau bahkan tujuan jangka panjang —
 
-I think I'd really want to write in a journal, or maybe write a letter to a close friend.
+Saya rasa saya sangat ingin menulis di jurnal, atau mungkin menulis surat untuk teman dekat.
 
-I realized this Gantt chart was still missing a final emotional outlet. But if I added social media sharing, users wouldn't be able to be fully honest.
+Saya menyadari bahwa bagan Gantt ini masih belum memiliki penyaluran emosi terakhir. Namun jika saya menambahkan berbagi media sosial, pengguna tidak akan bisa jujur ​​sepenuhnya.
 
-Another option was in-app messaging between users, but there would never — now or in the future — be enough installs to support that, or at least an Android version would need to be available too. Either way, it wasn't necessary for the first version.
+Opsi lainnya adalah perpesanan dalam aplikasi antar pengguna, namun — saat ini atau di masa depan — jumlah instalasi yang cukup untuk mendukung hal tersebut, atau setidaknya versi Android juga harus tersedia. Bagaimanapun, itu tidak diperlukan untuk versi pertama.
 
-The most self-consistent solution I landed on was the most versatile one: a chatbot.
+Solusi paling konsisten yang saya dapatkan adalah solusi paling serbaguna: chatbot.
 
-Feed the chatbot a bunch of literary classics and let it play the role of a "tree hollow" — a confidant — offering users some thoughtful feedback.
+Beri chatbot banyak karya sastra klasik dan biarkan ia memainkan peran sebagai "lubang pohon" — orang kepercayaan — yang menawarkan masukan yang bijaksana kepada pengguna.
 
-## Final Thoughts
+## Pikiran Terakhir
 
-So that's the product development and decision-making behind this app.
+Itulah pengembangan produk dan pengambilan keputusan di balik aplikasi ini.
 
-It might look like I just kept changing direction until it was done, but in reality, there were tons of scrapped ideas and rejected features that I haven't even mentioned.
+Sepertinya saya terus mengubah arah hingga selesai, namun kenyataannya, ada banyak sekali ide yang terbuang dan fitur yang ditolak yang bahkan belum saya sebutkan.
 
-Beyond giving curious friends a window into the kinds of considerations that go into product development,
+Selain memberikan gambaran kepada teman-teman yang penasaran tentang jenis-jenis pertimbangan yang digunakan dalam pengembangan produk,
 
-the last thing I want to emphasize — and the answer to the title — is that the indie developer's niche and consideration is: **doing whatever the hell makes you happy!**
+Hal terakhir yang ingin saya tekankan — dan jawaban dari judulnya — adalah bahwa niche dan pertimbangan pengembang indie adalah: **melakukan apa pun yang membuat Anda bahagia!**
 
-I'm sure plenty of people will think this is too niche, or that it doesn't match their taste or values.
+Saya yakin banyak orang akan menganggap ini terlalu khusus, atau tidak sesuai dengan selera atau nilai mereka.
 
-But even so, with a bit of time and the help of AI, you can build the thing you want that doesn't exist yet.
+Namun demikian, dengan sedikit waktu dan bantuan AI, Anda dapat membangun hal yang Anda inginkan yang belum ada.
 
-You get to be the boss — deciding what's valuable and what's worth building.
+Anda harus menjadi bos — memutuskan apa yang berharga dan apa yang layak untuk dibangun.
 
-You get to be the designer — choosing your favorite layouts, colors, fonts, and images.
+Anda bisa menjadi desainer — memilih tata letak, warna, font, dan gambar favorit Anda.
 
-You get to be the PM — deciding how to write it and how complete the features need to be.
+Anda harus menjadi PM — memutuskan bagaimana menulisnya dan seberapa lengkap fitur-fiturnya.
 
-AI will only get stronger. Even if it can't do everything today, in the foreseeable future, you'll be able to enjoy all of this too.
+AI hanya akan menjadi lebih kuat. Meski saat ini tidak bisa melakukan semuanya, di masa mendatang, Anda juga akan bisa menikmati semua ini.
 
-The App Store is now the new-era personal homepage — everyone can publish their own story.
+App Store kini menjadi beranda pribadi era baru — setiap orang dapat mempublikasikan kisah mereka sendiri.
 
-If you're interested, follow this blog. I'll keep sharing real experiences and reflections from publishing on the App Store.
+Jika Anda tertarik, ikuti blog ini. Saya akan terus berbagi pengalaman dan refleksi nyata dari publikasi di App Store.

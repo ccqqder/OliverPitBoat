@@ -1,172 +1,172 @@
 ---
-isStub: true
-title: "Gantt Planet: An Indie Developer's Niche and Considerations"
+title: "Hành tinh Gantt: Vị trí thích hợp và những điều cần cân nhắc của nhà phát triển độc lập"
 date: 2026-02-25T06:55:21.349Z
 draft: false
 categories:
-  - The Observatory
+  - Đài thiên văn
 tags:
-  - Indie Developer
-  - App Store
-  - Gantt Chart
-  - Product Development
-  - AI-Assisted Development
-  - side project
+  - Nhà phát triển độc lập
+  - Cửa hàng ứng dụng
+  - Biểu đồ Gantt
+  - Phát triển sản phẩm
+  - Phát triển được hỗ trợ bởi AI
+  - dự án phụ
 keywords:
-  - indie developer
-  - App Store
-  - Gantt chart
-  - Gantt Planet
-  - product development
-  - side project
-  - AI-assisted development
-  - life Gantt chart
-  - 3D visualization
-  - iOS App
-description: "The App Store as the new-era personal homepage, using Gantt Planet as a case study"
+  - nhà phát triển độc lập
+  - Cửa hàng ứng dụng
+  - biểu đồ Gantt
+  - Hành tinh Gantt
+  - phát triển sản phẩm
+  - dự án phụ
+  - Phát triển được hỗ trợ bởi AI
+  - biểu đồ Gantt cuộc sống
+  - Trực quan hóa 3D
+  - Ứng dụng iOS
+description: "App Store là trang chủ cá nhân thời đại mới, sử dụng Gantt Planet làm nghiên cứu điển hình"
 author: "QQder"
 ---
 
+
 ![](/images/gantt-planet-cover.jpg)
 
-# Preface
+# Lời nói đầu
 
-In this post, I'll talk about the market, resources, ecosystem, and development process from the perspective of an indie developer.
-As a shameless plug, I'm using Gantt Planet as my running example: [URL](https://apps.apple.com/us/app/%E7%94%98%E7%89%B9%E6%98%9F%E7%90%83/id6757654373).
-I'll admit upfront that these are just my side projects — the pressure is very different from someone who makes a living off this — so I'm only discussing the research approach here.
+Trong bài đăng này, tôi sẽ nói về thị trường, tài nguyên, hệ sinh thái và quá trình phát triển dưới góc nhìn của một nhà phát triển độc lập.
+Là một trình cắm không biết xấu hổ, tôi đang sử dụng Gantt Planet làm ví dụ đang chạy của mình: [URL](https://apps.apple.com/us/app/%E7%94%98%E7%89%B9%E6%98%9F%E7%90%83/id6757654373).
+Tôi sẽ thừa nhận trước rằng đây chỉ là những dự án phụ của tôi - áp lực rất khác so với những người kiếm sống từ việc này - vì vậy tôi chỉ thảo luận về phương pháp nghiên cứu ở đây.
 
-## The Spark and the Stall
+## Tia lửa và gian hàng
 
-The idea behind Gantt Planet was simple: free Gantt chart tools — whether desktop software, mobile apps, or web apps — are all pretty terrible to use.
-The ones that actually seem decent all charge money, so I figured I'd just build my own Gantt chart app.
+Ý tưởng đằng sau Gantt Planet rất đơn giản: các công cụ biểu đồ Gantt miễn phí — cho dù là phần mềm máy tính để bàn, ứng dụng di động hay ứng dụng web — đều khá tệ khi sử dụng.
+Những ứng dụng thực sự có vẻ hợp lý đều tính phí, vì vậy tôi nghĩ mình sẽ xây dựng ứng dụng biểu đồ Gantt của riêng mình.
 
-It didn't take long before I realized things weren't that simple:
+Không mất nhiều thời gian trước khi tôi nhận ra mọi chuyện không đơn giản như vậy:
 
-1. Viewing a spreadsheet-style Gantt chart on a phone screen is way too cramped
-2. A proper Gantt chart needs to connect to a ton of resources — email, contacts, meeting rooms, and so on
+1. Xem biểu đồ Gantt kiểu bảng tính trên màn hình điện thoại quá chật chội
+2. Biểu đồ Gantt phù hợp cần kết nối với nhiều tài nguyên - email, địa chỉ liên hệ, phòng họp, v.v.
 
-Solving either of these problems is expensive. You'd need to spend a huge amount of time fine-tuning the UI and designing ideal usage flows, while accepting that some workflows simply can't be integrated and have to be dropped.
+Giải quyết một trong những vấn đề này là tốn kém. Bạn sẽ cần phải dành rất nhiều thời gian để tinh chỉnh giao diện người dùng và thiết kế các luồng sử dụng lý tưởng, đồng thời chấp nhận rằng một số quy trình công việc không thể tích hợp được và phải loại bỏ.
 
-As for resource integration, you'd need to handle sign-ins for all major platforms, deal with countless APIs and authentication protocols, and maintain all of it going forward.
+Đối với việc tích hợp tài nguyên, bạn cần xử lý các hoạt động đăng nhập cho tất cả các nền tảng chính, xử lý vô số API và giao thức xác thực, đồng thời duy trì tất cả những hoạt động đó trong tương lai.
 
-At this point, I hit a wall — and when you're working at a scale that doesn't benefit from economies of scale, that's pretty much inevitable.
+Tại thời điểm này, tôi đã gặp phải một bức tường - và khi bạn đang làm việc ở quy mô không được hưởng lợi từ tính kinh tế nhờ quy mô, điều đó là không thể tránh khỏi.
 
-## Pivot After Pivot
+## Xoay vòng sau xoay vòng
 
-In moments like this, I like to take each factor and extend it a step or two outward, looking for a viable intersection where things might actually work.
+Trong những khoảnh khắc như thế này, tôi muốn tận dụng từng yếu tố và mở rộng nó ra bên ngoài một hoặc hai bước, tìm kiếm một giao điểm khả thi nơi mọi thứ có thể thực sự hoạt động.
 
-As a developer driven by personal interest, "viable" means extremely low cost, plus a value proposition that's small but clearly defined.
+Là một nhà phát triển được thúc đẩy bởi lợi ích cá nhân, "khả thi" có nghĩa là chi phí cực thấp, cộng với một đề xuất giá trị tuy nhỏ nhưng được xác định rõ ràng.
 
-AI helped me achieve the first part — extremely low cost.
+AI đã giúp tôi đạt được phần đầu tiên – chi phí cực thấp.
 
-As for the value part, it's mostly self-defined, though bouncing ideas off AI can help crystallize things too.
+Về phần giá trị, nó chủ yếu do người dùng tự xác định, mặc dù việc đưa ra các ý tưởng từ AI cũng có thể giúp kết tinh mọi thứ.
 
-For me, it mainly comes down to building something I'd actually want to use — something I'd enjoy looking at, at the very least. Beyond that, if nobody else has done it, there's no free version, or there's a clear differentiator, that counts as value too.
+Đối với tôi, vấn đề chủ yếu là xây dựng thứ gì đó mà tôi thực sự muốn sử dụng - ít nhất là thứ mà tôi thích nhìn vào. Ngoài ra, nếu chưa có ai khác làm điều đó thì không có phiên bản miễn phí hoặc có sự khác biệt rõ ràng, điều đó cũng được tính là giá trị.
 
-At this point, I started wondering: is there something that's like a Gantt chart, but not really a Gantt chart?
+Tại thời điểm này, tôi bắt đầu tự hỏi: có cái gì giống biểu đồ Gantt nhưng thực sự không phải là biểu đồ Gantt không?
 
-And then a picture formed in my mind.
+Và rồi một hình ảnh hình thành trong tâm trí tôi.
 
-I remembered that when I use Gantt charts, I tend to put the more important items further down.
+Tôi nhớ rằng khi sử dụng biểu đồ Gantt, tôi có xu hướng đặt những mục quan trọng hơn xuống dưới.
 
-The bottommost item is usually the big-picture condition for completing the entire project — or it represents the project itself.
+Mục dưới cùng thường là điều kiện tổng thể để hoàn thành toàn bộ dự án - hoặc nó thể hiện chính dự án đó.
 
-But what if there were items even below that bottom row — items even more important? What would those be?
+Nhưng điều gì sẽ xảy ra nếu có những món đồ thậm chí còn ở dưới hàng dưới cùng đó - những món đồ thậm chí còn quan trọng hơn? Đó sẽ là gì?
 
-Well, there are plenty of things more important — they just have nothing to do with work. They're about me. About life.
+Chà, có rất nhiều thứ quan trọng hơn - chúng không liên quan gì đến công việc. Họ nói về tôi. Về cuộc sống.
 
-And so it clicked: I wasn't going to build a regular business Gantt chart. I was going to build a **life Gantt chart**.
+Và thế là nó quyết định: Tôi sẽ không xây dựng biểu đồ Gantt cho doanh nghiệp thông thường. Tôi định xây dựng **biểu đồ Gantt cuộc sống**.
 
 ![](/images/gantt-planet-chart-en.png)
 
-## The Next Step
+## Bước tiếp theo
 
-So I decided to build a Gantt chart that departs from the typical business use case.
+Vì vậy, tôi quyết định xây dựng biểu đồ Gantt phù hợp với trường hợp sử dụng kinh doanh thông thường.
 
-This conveniently meant I no longer needed to integrate with online services,
+Điều này thuận tiện có nghĩa là tôi không còn cần phải tích hợp với các dịch vụ trực tuyến nữa,
 
-because now it was all about the user — just them, and nothing else.
+bởi vì bây giờ tất cả là về người dùng - chỉ họ, và không có gì khác.
 
-With that, I'd taken one more step forward and kept the project alive for the time being. But could it lead to enough substance to be complete?
+Với điều đó, tôi đã tiến thêm một bước nữa và duy trì dự án cho đến thời điểm hiện tại. Nhưng liệu nó có thể dẫn đến đủ chất để hoàn thiện không?
 
-I thought about self-management and the important-but-not-urgent things in life — they all have rhythms and frequencies.
+Tôi nghĩ về khả năng tự quản lý và những điều quan trọng nhưng không cấp bách trong cuộc sống - tất cả đều có nhịp điệu và tần số.
 
-Health matters, so companies do annual check-ups. Family matters, so you make sure to see your loved ones before too much time passes.
+Vấn đề sức khỏe là vấn đề nên các công ty phải kiểm tra sức khỏe hàng năm. Gia đình rất quan trọng nên bạn hãy nhớ gặp lại những người thân yêu của mình trước khi thời gian trôi qua quá lâu.
 
-Combined with the nature of Gantt charts, within any given time window, items overlap on the current day.
+Kết hợp với tính chất của biểu đồ Gantt, trong bất kỳ khoảng thời gian nhất định nào, các mục sẽ trùng lặp với ngày hiện tại.
 
-And if you consider the span of an entire lifetime, every item is potentially relevant today. That meant I could collapse everything onto the center line of the UI.
+Và nếu bạn xem xét khoảng thời gian của cả cuộc đời, mọi món đồ đều có khả năng phù hợp với ngày hôm nay. Điều đó có nghĩa là tôi có thể thu gọn mọi thứ vào đường trung tâm của giao diện người dùng.
 
-This solved the cramped UI problem while expressing a set of values I found genuinely meaningful.
+Điều này đã giải quyết vấn đề giao diện người dùng chật chội trong khi thể hiện một tập hợp các giá trị mà tôi thấy thực sự có ý nghĩa.
 
-![Timeline main view](/images/screenshots/gantt-planet/timeline-en.png)
-*The actual timeline view: all life items converge on the calendar centerline — see everything that matters today at a glance*
+![Chế độ xem chính của dòng thời gian](/images/screenshots/gantt-planet/timeline-en.png)
+*Chế độ xem dòng thời gian thực tế: tất cả các mục trong cuộc sống đều hội tụ trên đường trung tâm của lịch - xem nhanh mọi thứ quan trọng hôm nay*
 
-## Completeness
+## Tính đầy đủ
 
-One of the App Store review guidelines is that your app can't just replicate what a plain text webpage could do.
+Một trong những nguyên tắc đánh giá của App Store là ứng dụng của bạn không thể sao chép những gì một trang web văn bản thuần túy có thể làm được.
 
-For example, a simple to-do list might not pass muster. So I had to make sure this app was more than just a spreadsheet — otherwise, Google Sheets could do the same thing.
+Ví dụ: một danh sách việc cần làm đơn giản có thể không đạt yêu cầu. Vì vậy, tôi phải đảm bảo rằng ứng dụng này không chỉ là một bảng tính — nếu không, Google Trang tính cũng có thể làm được điều tương tự.
 
-The top-to-bottom visual flow of the spreadsheet reminded me of digging downward — like each day you only do the bare minimum surface-level tasks. There's a Chinese idiom, "people floating above their work," that captures this state perfectly.
+Luồng hình ảnh từ trên xuống dưới của bảng tính khiến tôi nhớ đến việc đào sâu xuống - giống như mỗi ngày bạn chỉ thực hiện các nhiệm vụ ở mức độ bề mặt tối thiểu. Có một thành ngữ Trung Quốc, “mọi người lơ lửng trên công việc của mình”, thể hiện trạng thái này một cách hoàn hảo.
 
-The metaphor of more important items sitting at deeper layers made me want to make it more visual, more tangible. The immediate association was excavation — digging through geological strata, mining.
+Phép ẩn dụ về những món đồ quan trọng hơn nằm ở các lớp sâu hơn khiến tôi muốn làm cho nó trở nên trực quan hơn, hữu hình hơn. Mối liên hệ trước mắt là việc khai quật - đào qua các tầng địa chất, khai thác mỏ.
 
-Then came the question of implementation. Should I slightly curve each row of the spreadsheet? Add some perspective distortion?
+Sau đó đến vấn đề thực hiện. Tôi có nên uốn cong từng hàng của bảng tính một chút không? Thêm một số biến dạng phối cảnh?
 
-I thought about the context of this life Gantt chart — solitary and introspective.
+Tôi nghĩ về bối cảnh của biểu đồ Gantt cuộc sống này - đơn độc và nội tâm.
 
-The image that came to mind was: on the surface of a planet's crust, one person digging alone. And then it hit me — isn't that the golden-haired boy who waters his rose and tames a fox?
+Hình ảnh hiện lên trong đầu tôi là: trên bề mặt lớp vỏ của một hành tinh, một người đang đào một mình. Và rồi tôi chợt nhận ra - đó không phải là cậu bé tóc vàng tưới hoa hồng và thuần hóa một con cáo sao?
 
-So I built a 3D version of the Gantt chart, using a mine shaft and gemstones as the visual representation of to-do items.
+Vì vậy, tôi đã xây dựng phiên bản 3D của biểu đồ Gantt, sử dụng trục mỏ và đá quý làm hình ảnh thể hiện các hạng mục việc cần làm.
 
-An even more radical approach would have been to keep only the planet version, but considering usability, review difficulty, and how intuitive it would be to understand, I decided to keep both views.
+Một cách tiếp cận triệt để hơn nữa có lẽ là chỉ giữ lại phiên bản hành tinh, nhưng xem xét khả năng sử dụng, độ khó khi xem xét và mức độ hiểu trực quan của nó, tôi quyết định giữ cả hai quan điểm.
 
 ![](/images/gantt-planet-3d-en.png)
 
-![3D Planet View](/images/screenshots/gantt-planet/geo-view-en.png)
-*The 3D planet Gantt chart — mine shafts and gemstones as visual representations of life goals*
+![Chế độ xem hành tinh 3D](/images/screenshots/gantt-planet/geo-view-en.png)
+*Biểu đồ Gantt hành tinh 3D — hầm mỏ và đá quý là sự thể hiện trực quan cho các mục tiêu cuộc sống*
 
-## Still Missing a Desk
+## Vẫn thiếu bàn làm việc
 
-Back when I was still in school, I spent a lot of time sitting properly at my desk, alone — either studying or writing.
+Hồi còn đi học, tôi đã dành rất nhiều thời gian ngồi yên ở bàn làm việc một mình - học hoặc viết.
 
-Using and thinking about this life Gantt chart felt like it was bringing me back to that desk — the one that's long been thrown away.
+Sử dụng và suy nghĩ về cuộc sống này, biểu đồ Gantt như đưa tôi trở lại chiếc bàn đó - chiếc bàn đã bị vứt đi từ lâu.
 
-If I completed something I only do once every three months or once a year — or even a long-term goal —
+Nếu tôi hoàn thành một việc gì đó, tôi chỉ làm ba tháng một lần hoặc mỗi năm một lần - hoặc thậm chí là một mục tiêu dài hạn -
 
-I think I'd really want to write in a journal, or maybe write a letter to a close friend.
+Tôi nghĩ tôi thực sự muốn viết nhật ký, hoặc có thể viết một lá thư cho một người bạn thân.
 
-I realized this Gantt chart was still missing a final emotional outlet. But if I added social media sharing, users wouldn't be able to be fully honest.
+Tôi nhận ra biểu đồ Gantt này vẫn còn thiếu một lối thoát cảm xúc cuối cùng. Nhưng nếu tôi thêm tính năng chia sẻ trên mạng xã hội, người dùng sẽ không thể hoàn toàn trung thực.
 
-Another option was in-app messaging between users, but there would never — now or in the future — be enough installs to support that, or at least an Android version would need to be available too. Either way, it wasn't necessary for the first version.
+Một tùy chọn khác là nhắn tin trong ứng dụng giữa những người dùng, nhưng sẽ không bao giờ - hiện tại hoặc trong tương lai - có đủ lượt cài đặt để hỗ trợ điều đó hoặc ít nhất cũng cần phải có phiên bản Android. Dù sao đi nữa, nó không cần thiết đối với phiên bản đầu tiên.
 
-The most self-consistent solution I landed on was the most versatile one: a chatbot.
+Giải pháp phù hợp nhất mà tôi nghĩ đến là giải pháp linh hoạt nhất: chatbot.
 
-Feed the chatbot a bunch of literary classics and let it play the role of a "tree hollow" — a confidant — offering users some thoughtful feedback.
+Cung cấp cho chatbot một loạt tác phẩm văn học kinh điển và để nó đóng vai trò là một "cái rỗng trên cây" - một người bạn tâm giao - cung cấp cho người dùng một số phản hồi chu đáo.
 
-## Final Thoughts
+## suy nghĩ cuối cùng
 
-So that's the product development and decision-making behind this app.
+Đó là quá trình phát triển sản phẩm và ra quyết định đằng sau ứng dụng này.
 
-It might look like I just kept changing direction until it was done, but in reality, there were tons of scrapped ideas and rejected features that I haven't even mentioned.
+Có vẻ như tôi cứ liên tục thay đổi hướng đi cho đến khi hoàn thành, nhưng trên thực tế, có rất nhiều ý tưởng bị loại bỏ và các tính năng bị từ chối mà tôi thậm chí còn chưa đề cập đến.
 
-Beyond giving curious friends a window into the kinds of considerations that go into product development,
+Ngoài việc cung cấp cho những người bạn tò mò một cái nhìn sâu hơn về các loại cân nhắc trong quá trình phát triển sản phẩm,
 
-the last thing I want to emphasize — and the answer to the title — is that the indie developer's niche and consideration is: **doing whatever the hell makes you happy!**
+điều cuối cùng tôi muốn nhấn mạnh — và câu trả lời cho tiêu đề — là thị trường ngách và sự cân nhắc của nhà phát triển độc lập là: **làm bất cứ điều gì khiến bạn hạnh phúc!**
 
-I'm sure plenty of people will think this is too niche, or that it doesn't match their taste or values.
+Tôi chắc chắn nhiều người sẽ cho rằng điều này quá phù hợp hoặc không phù hợp với sở thích hoặc giá trị của họ.
 
-But even so, with a bit of time and the help of AI, you can build the thing you want that doesn't exist yet.
+Nhưng dù vậy, với một chút thời gian và sự trợ giúp của AI, bạn có thể xây dựng thứ bạn muốn nhưng vẫn chưa tồn tại.
 
-You get to be the boss — deciding what's valuable and what's worth building.
+Bạn trở thành ông chủ - quyết định điều gì có giá trị và điều gì đáng xây dựng.
 
-You get to be the designer — choosing your favorite layouts, colors, fonts, and images.
+Bạn trở thành nhà thiết kế - chọn bố cục, màu sắc, phông chữ và hình ảnh yêu thích của bạn.
 
-You get to be the PM — deciding how to write it and how complete the features need to be.
+Bạn sẽ trở thành Thủ tướng - quyết định cách viết nó và mức độ hoàn thiện của các tính năng.
 
-AI will only get stronger. Even if it can't do everything today, in the foreseeable future, you'll be able to enjoy all of this too.
+AI sẽ chỉ mạnh hơn. Ngay cả khi nó không thể làm được mọi thứ ngày hôm nay thì trong tương lai gần, bạn cũng sẽ có thể tận hưởng tất cả những điều này.
 
-The App Store is now the new-era personal homepage — everyone can publish their own story.
+App Store hiện là trang chủ cá nhân thời đại mới — mọi người đều có thể xuất bản câu chuyện của riêng mình.
 
-If you're interested, follow this blog. I'll keep sharing real experiences and reflections from publishing on the App Store.
+Nếu bạn quan tâm, hãy theo dõi blog này. Tôi sẽ tiếp tục chia sẻ những trải nghiệm và suy ngẫm thực tế khi xuất bản trên App Store.

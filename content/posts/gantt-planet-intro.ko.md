@@ -1,172 +1,172 @@
 ---
-isStub: true
-title: "Gantt Planet: An Indie Developer's Niche and Considerations"
+title: "Gantt Planet: 인디 개발자의 틈새 시장 및 고려 사항"
 date: 2026-02-25T06:55:21.349Z
 draft: false
 categories:
-  - The Observatory
+  - 천문대
 tags:
-  - Indie Developer
-  - App Store
-  - Gantt Chart
-  - Product Development
-  - AI-Assisted Development
-  - side project
+  - 인디 개발자
+  - 앱스토어
+  - 간트 차트
+  - 제품 개발
+  - AI 지원 개발
+  - 사이드 프로젝트
 keywords:
-  - indie developer
-  - App Store
-  - Gantt chart
-  - Gantt Planet
-  - product development
-  - side project
-  - AI-assisted development
-  - life Gantt chart
-  - 3D visualization
-  - iOS App
-description: "The App Store as the new-era personal homepage, using Gantt Planet as a case study"
+  - 인디 개발자
+  - 앱스토어
+  - 간트 차트
+  - 간트플래닛
+  - 제품 개발
+  - 사이드 프로젝트
+  - AI 지원 개발
+  - 라이프 간트 차트
+  - 3D 시각화
+  - iOS 앱
+description: "Gantt Planet을 사례 연구로 활용한 새로운 시대의 개인 홈페이지인 App Store"
 author: "QQder"
 ---
 
+
 ![](/images/gantt-planet-cover.jpg)
 
-# Preface
+# 머리말
 
-In this post, I'll talk about the market, resources, ecosystem, and development process from the perspective of an indie developer.
-As a shameless plug, I'm using Gantt Planet as my running example: [URL](https://apps.apple.com/us/app/%E7%94%98%E7%89%B9%E6%98%9F%E7%90%83/id6757654373).
-I'll admit upfront that these are just my side projects — the pressure is very different from someone who makes a living off this — so I'm only discussing the research approach here.
+이번 포스팅에서는 인디 개발자의 관점에서 시장, 리소스, 생태계, 개발 프로세스에 대해 이야기해보겠습니다.
+뻔뻔한 플러그로서 저는 Gantt Planet을 실행 예제로 사용하고 있습니다: [URL](https://apps.apple.com/us/app/%E7%94%98%E7%89%B9%E6%98%9F%E7%90%83/id6757654373).
+나는 이것들이 단지 나의 부업일 뿐이라는 것을 미리 인정할 것입니다. 이 일로 생계를 유지하는 사람과는 압력이 매우 다르기 때문에 여기서는 연구 접근 방식에 대해서만 논의하고 있습니다.
 
-## The Spark and the Stall
+## 스파크 앤 더 스톨
 
-The idea behind Gantt Planet was simple: free Gantt chart tools — whether desktop software, mobile apps, or web apps — are all pretty terrible to use.
-The ones that actually seem decent all charge money, so I figured I'd just build my own Gantt chart app.
+Gantt Planet의 아이디어는 간단했습니다. 무료 Gantt 차트 도구(데스크톱 소프트웨어, 모바일 앱, 웹 앱 등)는 모두 사용하기 매우 좋지 않습니다.
+실제로 괜찮아 보이는 것들은 모두 돈을 청구하므로 나만의 간트 차트 앱을 구축하기로 결정했습니다.
 
-It didn't take long before I realized things weren't that simple:
+일이 그렇게 간단하지 않다는 것을 깨닫는 데는 그리 오랜 시간이 걸리지 않았습니다.
 
-1. Viewing a spreadsheet-style Gantt chart on a phone screen is way too cramped
-2. A proper Gantt chart needs to connect to a ton of resources — email, contacts, meeting rooms, and so on
+1. 스프레드시트 스타일의 간트 차트를 전화기 화면에서 보는 것은 너무 비좁습니다.
+2. 적절한 간트 차트는 이메일, 연락처, 회의실 등 수많은 리소스에 연결되어야 합니다.
 
-Solving either of these problems is expensive. You'd need to spend a huge amount of time fine-tuning the UI and designing ideal usage flows, while accepting that some workflows simply can't be integrated and have to be dropped.
+이러한 문제 중 하나를 해결하려면 비용이 많이 듭니다. UI를 미세 조정하고 이상적인 사용 흐름을 설계하는 데 엄청난 시간을 투자하는 동시에 일부 워크플로는 단순히 통합할 수 없어 삭제해야 한다는 점을 인정해야 합니다.
 
-As for resource integration, you'd need to handle sign-ins for all major platforms, deal with countless APIs and authentication protocols, and maintain all of it going forward.
+리소스 통합의 경우 모든 주요 플랫폼에 대한 로그인을 처리하고 수많은 API 및 인증 프로토콜을 처리하며 앞으로 모든 것을 유지 관리해야 합니다.
 
-At this point, I hit a wall — and when you're working at a scale that doesn't benefit from economies of scale, that's pretty much inevitable.
+이 시점에서 저는 벽에 부딪혔습니다. 규모의 경제로 인한 혜택을 누리지 못하는 규모로 작업을 한다면 이는 거의 불가피한 일입니다.
 
-## Pivot After Pivot
+## 피벗 후 피벗
 
-In moments like this, I like to take each factor and extend it a step or two outward, looking for a viable intersection where things might actually work.
+이런 순간에 나는 각 요소를 취하여 한두 단계 바깥쪽으로 확장하여 실제로 작동할 수 있는 실행 가능한 교차점을 찾는 것을 좋아합니다.
 
-As a developer driven by personal interest, "viable" means extremely low cost, plus a value proposition that's small but clearly defined.
+개인적인 관심에 따라 움직이는 개발자로서 "실행 가능"이란 극도로 낮은 비용과 작지만 명확하게 정의된 가치 제안을 의미합니다.
 
-AI helped me achieve the first part — extremely low cost.
+AI는 제가 첫 번째 부분, 즉 매우 낮은 비용을 달성하는 데 도움을 주었습니다.
 
-As for the value part, it's mostly self-defined, though bouncing ideas off AI can help crystallize things too.
+가치 부분은 대부분 자체 정의되지만 AI에서 아이디어를 튕겨내는 것도 사물을 구체화하는 데 도움이 될 수 있습니다.
 
-For me, it mainly comes down to building something I'd actually want to use — something I'd enjoy looking at, at the very least. Beyond that, if nobody else has done it, there's no free version, or there's a clear differentiator, that counts as value too.
+나에게 그것은 실제로 사용하고 싶은 것, 적어도 내가 보고 싶어하는 것을 만드는 일로 귀결됩니다. 그 외에도, 누구도 해본 적이 없다면 무료 버전도 없고, 가치로 간주되는 명확한 차별화 요소도 있습니다.
 
-At this point, I started wondering: is there something that's like a Gantt chart, but not really a Gantt chart?
+이 시점에서 나는 궁금해지기 시작했습니다. 간트 차트와 비슷하지만 실제로는 간트 차트가 아닌 것이 있습니까?
 
-And then a picture formed in my mind.
+그리고 내 마음 속에 그림이 생겼습니다.
 
-I remembered that when I use Gantt charts, I tend to put the more important items further down.
+간트 차트를 사용할 때 더 중요한 항목을 더 아래에 배치하는 경향이 있었던 것을 기억했습니다.
 
-The bottommost item is usually the big-picture condition for completing the entire project — or it represents the project itself.
+맨 아래 항목은 일반적으로 전체 프로젝트를 완료하기 위한 큰 그림 조건이거나 프로젝트 자체를 나타냅니다.
 
-But what if there were items even below that bottom row — items even more important? What would those be?
+하지만 맨 아래 행 아래에도 항목(더 중요한 항목)이 있으면 어떻게 될까요? 그것은 무엇입니까?
 
-Well, there are plenty of things more important — they just have nothing to do with work. They're about me. About life.
+글쎄요, 더 중요한 것들이 많이 있습니다. 그것들은 단지 업무와 관련이 없습니다. 그들은 나에 관한 것입니다. 인생에 대해.
 
-And so it clicked: I wasn't going to build a regular business Gantt chart. I was going to build a **life Gantt chart**.
+그래서 저는 일반적인 비즈니스 간트 차트를 만들 생각이 없었습니다. **인생 간트 차트**를 작성하려고 했습니다.
 
 ![](/images/gantt-planet-chart-en.png)
 
-## The Next Step
+## 다음 단계
 
-So I decided to build a Gantt chart that departs from the typical business use case.
+그래서 일반적인 비즈니스 사용 사례에서 벗어나 간트 차트를 작성하기로 결정했습니다.
 
-This conveniently meant I no longer needed to integrate with online services,
+이는 편리하게도 더 이상 온라인 서비스와 통합할 필요가 없다는 것을 의미했습니다.
 
-because now it was all about the user — just them, and nothing else.
+이제는 모든 것이 사용자에 관한 것이기 때문입니다. 다른 것은 아무것도 아닌 사용자에 관한 것입니다.
 
-With that, I'd taken one more step forward and kept the project alive for the time being. But could it lead to enough substance to be complete?
+이를 통해 나는 한 단계 더 나아갈 수 있었고 당분간 프로젝트를 계속 유지할 수 있었습니다. 하지만 그것이 완성되기에 충분한 내용으로 이어질 수 있을까요?
 
-I thought about self-management and the important-but-not-urgent things in life — they all have rhythms and frequencies.
+나는 자기 관리와 인생에서 중요하지만 긴급하지 않은 일들에 대해 생각했습니다. 모두 리듬과 빈도가 있습니다.
 
-Health matters, so companies do annual check-ups. Family matters, so you make sure to see your loved ones before too much time passes.
+건강은 중요하므로 회사에서는 매년 검진을 실시합니다. 가족은 중요하므로 시간이 너무 많이 지나기 전에 사랑하는 사람을 꼭 만나십시오.
 
-Combined with the nature of Gantt charts, within any given time window, items overlap on the current day.
+Gantt 차트의 특성과 결합하여 특정 시간 창 내에서 항목이 현재 날짜에 겹칩니다.
 
-And if you consider the span of an entire lifetime, every item is potentially relevant today. That meant I could collapse everything onto the center line of the UI.
+그리고 전체 생애 기간을 고려한다면 모든 항목은 오늘날 잠재적으로 관련이 있을 수 있습니다. 이는 모든 것을 UI의 중앙선으로 축소할 수 있다는 것을 의미했습니다.
 
-This solved the cramped UI problem while expressing a set of values I found genuinely meaningful.
+이는 내가 정말로 의미 있다고 생각하는 일련의 값을 표현하면서 비좁은 UI 문제를 해결했습니다.
 
-![Timeline main view](/images/screenshots/gantt-planet/timeline-en.png)
-*The actual timeline view: all life items converge on the calendar centerline — see everything that matters today at a glance*
+![타임라인 메인뷰](/images/screenshots/gantt-planet/timeline-en.png)
+*실제 타임라인 보기: 모든 생활 항목이 달력 중앙선에 수렴됩니다. 오늘 중요한 모든 것을 한 눈에 볼 수 있습니다*
 
-## Completeness
+## 완전성
 
-One of the App Store review guidelines is that your app can't just replicate what a plain text webpage could do.
+App Store 검토 지침 중 하나는 앱이 일반 텍스트 웹페이지의 기능을 단순히 복제할 수 없다는 것입니다.
 
-For example, a simple to-do list might not pass muster. So I had to make sure this app was more than just a spreadsheet — otherwise, Google Sheets could do the same thing.
+예를 들어 간단한 할 일 목록은 소집을 통과하지 못할 수 있습니다. 그래서 저는 이 앱이 단순한 스프레드시트 그 이상인지 확인해야 했습니다. 그렇지 않으면 Google 스프레드시트도 동일한 작업을 수행할 수 있습니다.
 
-The top-to-bottom visual flow of the spreadsheet reminded me of digging downward — like each day you only do the bare minimum surface-level tasks. There's a Chinese idiom, "people floating above their work," that captures this state perfectly.
+스프레드시트의 위에서 아래로의 시각적 흐름은 매일 최소한의 표면 수준 작업만 수행하는 것처럼 아래로 파고드는 것을 상기시켜주었습니다. 이 상태를 완벽하게 표현하는 중국 관용어 '사람이 일 위에 떠 있다'가 있습니다.
 
-The metaphor of more important items sitting at deeper layers made me want to make it more visual, more tangible. The immediate association was excavation — digging through geological strata, mining.
+더 깊은 층에 있는 더 중요한 항목에 대한 은유는 그것을 더 시각적이고 더 실감나게 만들고 싶게 만들었습니다. 즉각적인 연관성은 발굴, 즉 지층을 파고 채굴하는 것이었습니다.
 
-Then came the question of implementation. Should I slightly curve each row of the spreadsheet? Add some perspective distortion?
+그런 다음 구현 문제가 발생했습니다. 스프레드시트의 각 행을 약간 구부려야 합니까? 원근 왜곡을 추가하시겠습니까?
 
-I thought about the context of this life Gantt chart — solitary and introspective.
+나는 고독하고 성찰적인 삶의 간트 차트의 맥락에 대해 생각해 보았습니다.
 
-The image that came to mind was: on the surface of a planet's crust, one person digging alone. And then it hit me — isn't that the golden-haired boy who waters his rose and tames a fox?
+떠오른 이미지는 행성의 지각 표면을 혼자 파고 있는 한 사람의 모습이었습니다. 그러다가 문득 생각났어요. 저 사람은 장미에 물을 주고 여우를 길들이는 황금 머리 소년이 아닌가요?
 
-So I built a 3D version of the Gantt chart, using a mine shaft and gemstones as the visual representation of to-do items.
+그래서 나는 할 일 항목의 시각적 표현으로 광산과 보석을 사용하여 간트 차트의 3D 버전을 만들었습니다.
 
-An even more radical approach would have been to keep only the planet version, but considering usability, review difficulty, and how intuitive it would be to understand, I decided to keep both views.
+더 급진적인 접근 방식은 플래닛 버전만 유지하는 것이었지만, 사용성, 리뷰 난이도, 이해하는 것이 얼마나 직관적인지 등을 고려하여 두 가지 관점을 모두 유지하기로 결정했습니다.
 
 ![](/images/gantt-planet-3d-en.png)
 
-![3D Planet View](/images/screenshots/gantt-planet/geo-view-en.png)
-*The 3D planet Gantt chart — mine shafts and gemstones as visual representations of life goals*
+![3D 플래닛뷰](/images/screenshots/gantt-planet/geo-view-en.png)
+*3D 행성 간트 차트 — 삶의 목표를 시각적으로 표현한 광산 샤프트와 원석*
 
-## Still Missing a Desk
+## 아직도 책상이 부족해요
 
-Back when I was still in school, I spent a lot of time sitting properly at my desk, alone — either studying or writing.
+저는 학창시절 혼자 책상에 바르게 앉아 공부를 하거나 글을 쓰거나 하는 시간을 많이 보냈습니다.
 
-Using and thinking about this life Gantt chart felt like it was bringing me back to that desk — the one that's long been thrown away.
+이 삶의 간트 차트를 사용하고 생각하면 오랫동안 버려졌던 그 책상으로 다시 돌아오는 것 같은 느낌이 들었습니다.
 
-If I completed something I only do once every three months or once a year — or even a long-term goal —
+내가 어떤 일을 완수했다면 나는 3개월에 한 번, 아니면 1년에 한 번, 심지어 장기적인 목표라도 수행합니다.
 
-I think I'd really want to write in a journal, or maybe write a letter to a close friend.
+나는 정말로 일기를 쓰고 싶거나 가까운 친구에게 편지를 쓰고 싶다고 생각합니다.
 
-I realized this Gantt chart was still missing a final emotional outlet. But if I added social media sharing, users wouldn't be able to be fully honest.
+나는 이 간트 차트가 여전히 최종적인 감정 배출구를 놓치고 있다는 것을 깨달았습니다. 하지만 소셜 미디어 공유를 추가하면 사용자는 완전히 솔직해질 수 없습니다.
 
-Another option was in-app messaging between users, but there would never — now or in the future — be enough installs to support that, or at least an Android version would need to be available too. Either way, it wasn't necessary for the first version.
+또 다른 옵션은 사용자 간 인앱 메시징이었지만 현재나 미래에는 이를 지원할 만큼 설치가 충분하지 않거나 최소한 Android 버전도 사용할 수 있어야 합니다. 어느 쪽이든, 첫 번째 버전에서는 필요하지 않았습니다.
 
-The most self-consistent solution I landed on was the most versatile one: a chatbot.
+제가 착안한 가장 일관된 솔루션은 가장 다재다능한 솔루션인 챗봇이었습니다.
 
-Feed the chatbot a bunch of literary classics and let it play the role of a "tree hollow" — a confidant — offering users some thoughtful feedback.
+챗봇에 여러 고전 문학 작품을 제공하고 사용자에게 사려 깊은 피드백을 제공하는 "속이 빈 나무"(신뢰할 수 있는 친구) 역할을 하게 하세요.
 
-## Final Thoughts
+## 최종 생각
 
-So that's the product development and decision-making behind this app.
+이것이 바로 이 앱의 제품 개발과 의사결정입니다.
 
-It might look like I just kept changing direction until it was done, but in reality, there were tons of scrapped ideas and rejected features that I haven't even mentioned.
+완성될 때까지 계속 방향을 바꾸는 것처럼 보일 수도 있지만 실제로는 언급조차 하지 않은 폐기된 아이디어와 거부된 기능이 엄청나게 많았습니다.
 
-Beyond giving curious friends a window into the kinds of considerations that go into product development,
+호기심이 많은 친구들에게 제품 개발 시 고려해야 할 사항을 살펴볼 수 있는 창구를 제공하는 것 외에도
 
-the last thing I want to emphasize — and the answer to the title — is that the indie developer's niche and consideration is: **doing whatever the hell makes you happy!**
+마지막으로 강조하고 싶은 점과 제목에 대한 대답은 인디 개발자의 틈새와 배려가 바로 **당신을 행복하게 만드는 것은 무엇이든 하는 것입니다!**입니다.
 
-I'm sure plenty of people will think this is too niche, or that it doesn't match their taste or values.
+많은 사람들이 이것이 너무 틈새적이거나 자신의 취향이나 가치관과 맞지 않는다고 생각할 것이라고 확신합니다.
 
-But even so, with a bit of time and the help of AI, you can build the thing you want that doesn't exist yet.
+하지만 그럼에도 불구하고 약간의 시간과 AI의 도움으로 아직 존재하지 않는 원하는 것을 만들 수 있습니다.
 
-You get to be the boss — deciding what's valuable and what's worth building.
+당신은 보스가 되어 무엇이 가치 있고 무엇을 구축할 가치가 있는지 결정합니다.
 
-You get to be the designer — choosing your favorite layouts, colors, fonts, and images.
+좋아하는 레이아웃, 색상, 글꼴, 이미지를 선택하여 디자이너가 되어 보세요.
 
-You get to be the PM — deciding how to write it and how complete the features need to be.
+당신은 PM이 되어 작성 방법과 기능이 얼마나 완성되어야 하는지 결정합니다.
 
-AI will only get stronger. Even if it can't do everything today, in the foreseeable future, you'll be able to enjoy all of this too.
+AI는 더욱 강해질 것입니다. 비록 오늘은 모든 것을 할 수 없더라도 가까운 미래에는 이 모든 것을 즐길 수 있을 것입니다.
 
-The App Store is now the new-era personal homepage — everyone can publish their own story.
+이제 App Store는 새로운 시대의 개인 홈페이지가 되었습니다. 누구나 자신의 이야기를 게시할 수 있습니다.
 
-If you're interested, follow this blog. I'll keep sharing real experiences and reflections from publishing on the App Store.
+관심이 있으시면 이 블로그를 팔로우하세요. App Store에 게시하면서 실제 경험과 반성을 계속 공유하겠습니다.

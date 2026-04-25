@@ -1,437 +1,436 @@
 ---
-isStub: true
-title: "Dream of the Red Chamber Simulator: Thermodynamics and Artistic Choice"
+title: "Rêve du simulateur de chambre rouge : thermodynamique et choix artistique"
 date: 2026-03-29T15:28:32.157Z
 draft: false
 categories:
-  - The Workshop
+  - L'Atelier
 tags:
-  - Thermodynamics
-  - Dream of the Red Chamber
+  - Thermodynamique
+  - Rêve de la Chambre Rouge
   - LLM
-  - Rule Engine
-  - Literary Simulation
+  - Moteur de règles
+  - Simulation littéraire
 keywords:
-  - thermodynamics
-  - Dream of the Red Chamber
+  - thermodynamique
+  - Rêve de la Chambre Rouge
   - 紅樓夢
-  - Red Chamber simulator
+  - Simulateur de la Chambre Rouge
   - LLM
-  - large language model
-  - rule engine
+  - grand modèle de langage
+  - moteur de règles
   - Cao Xueqin
-  - structured analysis
-  - literary prediction
-  - Twelve Beauties of Jinling
-  - prophetic verse
-  - artistic choice
-  - simulation engine
-description: "What has changed is that productivity has suddenly become much higher. What the Dream of the Red Chamber Simulator aims to do is, with such productivity at hand, use traditional structured methods to rapidly produce and accumulate results with minimal human effort."
+  - analyse structurée
+  - prédiction littéraire
+  - Douze beautés de Jinling
+  - verset prophétique
+  - choix artistique
+  - moteur de simulation
+description: "Ce qui a changé, c’est que la productivité est soudainement devenue beaucoup plus élevée. Ce que le rêve du simulateur de chambre rouge vise à faire, c'est, avec une telle productivité à portée de main, d'utiliser des méthodes structurées traditionnelles pour produire et accumuler rapidement des résultats avec un minimum d'effort humain."
 author: "QQder"
 ---
 
-App URL: [LINK](https://apps.apple.com/tw/app/%E7%B4%85%E6%A8%93%E5%A4%A2%E6%A8%A1%E6%93%AC%E5%99%A8/id6759855416)
+URL de l'application : [LIEN](https://apps.apple.com/tw/app/%E7%B4%85%E6%A8%93%E5%A4%A2%E6%A8%A1%E6%93%AC%E5%99%A8/id6759855416)
 
-## Preface
+## Préface
 
-The key point from the previous installment
+Le point clé du volet précédent
 
-was to regard text as fundamentally symbolic --
+était de considérer le texte comme fondamentalement symbolique --
 
-astronomy, hydrology, the humanities... all the "wen" (文, pattern/text) of heaven, earth, and humankind.
+l'astronomie, l'hydrologie, les sciences humaines... tous les « wen » (文, modèle/texte) du ciel, de la terre et de l'humanité.
 
-Text maps the world and thought in a cost-effective way,
+Le texte cartographie le monde et la pensée de manière rentable,
 
-becoming our primary tool for understanding and interfacing with objective reality.
+devenant notre principal outil pour comprendre et interagir avec la réalité objective.
 
-Once you grasp this, you realize that
+Une fois que vous avez compris cela, vous réalisez que
 
-although LLMs (Large Language Models) are essentially just next-token predictors,
+bien que les LLM (Large Language Models) ne soient essentiellement que des prédicteurs de prochain jeton,
 
-once their capability reaches a certain level, they become nuclear-grade instruments of national importance.
+une fois que leur capacité atteint un certain niveau, ils deviennent des instruments de qualité nucléaire d’importance nationale.
 
-Their significance made me want to verify their capabilities
+Leur importance m'a donné envie de vérifier leurs capacités
 
-and to do so repeatedly as they improve over time.
+et de le faire à plusieurs reprises à mesure qu’ils s’améliorent avec le temps.
 
-A near-perfect benchmark for this is *Dream of the Red Chamber* (紅樓夢, *Hong Lou Meng*).
+Une référence presque parfaite pour cela est *Dream of the Red Chamber* (紅樓夢, *Hong Lou Meng*).
 
-Suppose there existed an omniscient, omnipotent LLM --
+Supposons qu'il existe un LLM omniscient et omnipotent --
 
-it could take Cao Xueqin's original first 80 chapters of *Dream of the Red Chamber* as input and output the subsequent chapters.
+il pourrait prendre les 80 premiers chapitres originaux de Cao Xueqin du *Rêve de la Chambre Rouge* comme entrée et sortie des chapitres suivants.
 
-But because LLM training data is limited,
+Mais comme les données de formation LLM sont limitées,
 
-it is like a Sudoku puzzle with too few given numbers -- the answer cannot be determined with certainty.
+c'est comme un puzzle de Sudoku avec trop peu de nombres donnés – la réponse ne peut pas être déterminée avec certitude.
 
-What current LLMs can do is produce at very high throughput within the scope of what they understand.
+Ce que les LLM actuels peuvent faire, c'est produire à très haut débit dans le cadre de ce qu'ils comprennent.
 
-What the *Dream of the Red Chamber Simulator* aims to do is, with such productivity at hand,
+Ce que le *Dream of the Red Chamber Simulator* vise à faire, c'est, avec une telle productivité à portée de main,
 
-use traditional structured methods to rapidly produce and accumulate results with minimal human effort.
+utiliser des méthodes structurées traditionnelles pour produire et accumuler rapidement des résultats avec un minimum d’effort humain.
 
-## Assumptions
+## Hypothèses
 
-We need some assumptions, biases, and theories to make the task of predicting the ending sufficiently feasible and mechanical.
+Nous avons besoin de quelques hypothèses, préjugés et théories pour rendre la tâche de prédire la fin suffisamment réalisable et mécanique.
 
-When it comes to accurate prediction, my intuition goes to classical physics -- specifically thermodynamics.
+Lorsqu’il s’agit de prédiction précise, mon intuition se tourne vers la physique classique, en particulier la thermodynamique.
 
-In a closed system, if we specify the initial conditions and the governing laws,
+Dans un système fermé, si l'on précise les conditions initiales et les lois régissant,
 
-the evolution of a thermodynamic system is predictable and deterministic.
+l'évolution d'un système thermodynamique est prévisible et déterministe.
 
-Another assumption is that LLM capabilities will keep improving,
+Une autre hypothèse est que les capacités LLM continueront de s'améliorer,
 
-but in the foreseeable future we will not gain additional training data from the Qing Dynasty or from Cao Xueqin himself.
+mais dans un avenir prévisible, nous n'obtiendrons pas de données d'entraînement supplémentaires de la dynastie Qing ou de Cao Xueqin lui-même.
 
-Therefore, we can establish a structured workflow that both current and future LLMs can execute.
+Par conséquent, nous pouvons établir un flux de travail structuré que les LLM actuels et futurs peuvent exécuter.
 
-### Initial Conditions
+### Conditions initiales
 
-The initial conditions are primarily data extracted from the original novel.
+Les conditions initiales sont principalement des données extraites du roman original.
 
-Now we use LLMs to perform what was previously highly labor-intensive work.
+Nous utilisons désormais les LLM pour effectuer ce qui était auparavant un travail à forte intensité de main-d'œuvre.
 
-In the past, human labor costs were too high, and throwing more people at the problem could not compress the timeline.
+Dans le passé, les coûts du travail humain étaient trop élevés et impliquer davantage de personnes sur le problème ne pouvait pas réduire les délais.
 
-If you got halfway through and wanted to tweak the extraction rules and start over, it was simply impractical.
+Si vous êtes arrivé à mi-chemin et que vous souhaitez modifier les règles d’extraction et recommencer, ce n’est tout simplement pas pratique.
 
-Time and cost are no longer obstacles; extraction quality now depends on model capability.
+Le temps et le coût ne sont plus des obstacles ; la qualité de l'extraction dépend désormais de la capacité du modèle.
 
-For example, I extracted:
+Par exemple, j'ai extrait :
 
-- Key character profiles, personality dossiers, family genealogies;
+- Profils de personnages clés, dossiers de personnalité, généalogies familiales ;
 
-- Per-chapter snapshots of each character's economic, social, emotional, health, and interpersonal states across all 120 chapters;
+- Des instantanés par chapitre de l'état économique, social, émotionnel, de santé et interpersonnel de chaque personnage dans les 120 chapitres ;
 
-- A basic spatial map of the Jia (賈) estate with spatial metadata;
+- Une carte spatiale de base du domaine Jia (賈) avec des métadonnées spatiales ;
 
-- All dialogue records, poetry corpora...
+- Tous les enregistrements de dialogues, corpus de poésie...
 
-The approach was to start with broad, not-yet-rigorous extraction that at least achieves high coverage -- ensuring every piece of text is classified into some category.
+L’approche consistait à commencer par une extraction large, pas encore rigoureuse, qui permet au moins d’atteindre une couverture élevée – en garantissant que chaque morceau de texte est classé dans une catégorie.
 
-### Governing Laws
+### Lois applicables
 
-I divide the governing laws into two types by my own judgment: fundamental world rules and the author's artistic will.
+Je divise les lois régissantes en deux types selon mon propre jugement : les règles mondiales fondamentales et la volonté artistique de l'auteur.
 
-This is admittedly arbitrary, but without making some such judgment the work cannot proceed at all.
+C'est certes arbitraire, mais sans un tel jugement, le travail ne peut pas avancer du tout.
 
-World rules include but are not limited to:
+Les règles mondiales incluent, sans s'y limiter :
 
-- Society: class hierarchy, power dynamics, master-servant relationships, marriage;
+- Société : hiérarchie de classes, dynamiques de pouvoir, relations maître-serviteur, mariage ;
 
-- Economy: income and expenditure, debt, risk of property confiscation;
+- Économie : revenus et dépenses, dette, risque de confiscation des biens ;
 
-- Culture: Confucian propriety, festivals, feudal values;
+- Culture : convenance confucéenne, fêtes, valeurs féodales ;
 
-- Psychology: character emotions, personality-driven behavior, internal conflict;
+- Psychologie : émotions des personnages, comportement axé sur la personnalité, conflits internes ;
 
-- Politics: imperial favor, court dynamics, external forces...
+- Politique : faveur impériale, dynamique de cour, forces extérieures…
 
-The artistic will is precisely what makes *Dream of the Red Chamber* -- apart from the fact that it lacks a definitive ending -- an ideal prediction target.
+La volonté artistique est précisément ce qui fait du *Rêve de la Chambre Rouge* -- outre le fait qu'il lui manque une fin définitive -- une cible de prédiction idéale.
 
-Cao Xueqin embedded hints about the characters' fates throughout the novel, from the very beginning.
+Cao Xueqin a intégré des indices sur le destin des personnages tout au long du roman, dès le début.
 
-The most iconic example is the 判詞 (prophetic verses / judgment poems) of the 十二金釵 (Twelve Beauties of Jinling), which explicitly foreshadow the fates of the female lead and deuteragonist:
+L'exemple le plus emblématique est le 判詞 (versets prophétiques/poèmes de jugement) des 十二金釵 (Douze beautés de Jinling), qui préfigurent explicitement le destin de la protagoniste féminine et deutéragoniste :
 
 > 可嘆停機德，堪憐詠絮才。玉帶林中掛，金簪雪裡埋。
 
-*(How lamentable, her virtue of halting the loom; how pitiable, her talent of chanting the willow catkins. A jade belt hangs in the forest; a golden hairpin lies buried in the snow.)*
+*(Comme c'est lamentable, sa vertu d'arrêter le métier à tisser ; comme c'est pitoyable, son talent à chanter les chatons de saule. Une ceinture de jade pend dans la forêt ; une épingle à cheveux dorée est enfouie dans la neige.)*
 
-### Rule Engine
+### Moteur de règles
 
-Given the initial conditions and governing laws, how do we apply them?
+Compte tenu des conditions initiales et des lois applicables, comment les appliquer ?
 
-The more ideal approach would be to build a 3D physics engine similar to a game engine, where each character possesses only the information they would know, and let an AI chatbot role-play each character like an actor performing a part.
+L’approche la plus idéale serait de créer un moteur physique 3D similaire à un moteur de jeu, dans lequel chaque personnage possède uniquement les informations qu’il connaît, et de laisser un chatbot IA jouer le rôle de chaque personnage comme un acteur jouant un rôle.
 
-But first, the cost would be too high and would only increase spectacle -- we would not be introducing new information, and the 3D engine would not produce new results.
+Mais d’abord, le coût serait trop élevé et ne ferait qu’augmenter le spectacle : nous n’introduireions pas de nouvelles informations et le moteur 3D ne produirait pas de nouveaux résultats.
 
-Second, we are not running a wind-tunnel fluid dynamics simulation; we are trying to guess what Cao Xueqin had in mind. Staying at the textual level is sufficient for now.
+Deuxièmement, nous n’exécutons pas de simulation de dynamique des fluides en soufflerie ; nous essayons de deviner ce que Cao Xueqin avait en tête. S’en tenir au niveau textuel est suffisant pour l’instant.
 
-Based on the previously extracted data, we derive a set of computational subjects and rules.
+Sur la base des données extraites précédemment, nous dérivons un ensemble de sujets et de règles informatiques.
 
-In practice, this is the traditional process of evaluating evidence, confidence, and additive/subtractive adjustments for whether an event occurs --
+En pratique, il s'agit du processus traditionnel d'évaluation des preuves, de la confiance et des ajustements additifs/soustractifs pour déterminer si un événement se produit --
 
-made systematic, repeatable, modifiable, and exhaustively brute-forced.
+rendu systématique, reproductible, modifiable et exhaustif par force brute.
 
-The simulation steps for each round are:
+Les étapes de simulation pour chaque tour sont :
 
-1. Process delayed effects -- check pending\_effects; apply any that have reached their due chapter.
+1. Traiter les effets retardés -- vérifier les effets en attente ; appliquez ceux qui ont atteint leur chapitre dû.
 
-2. Evaluate all laws -- check each law's premises to see if all are satisfied (skip those with confidence \< 0.3).
+2. Évaluez toutes les lois - vérifiez les prémisses de chaque loi pour voir si toutes sont satisfaites (ignorez celles avec confiance \ < 0,3).
 
-3. Conflict resolution -- simultaneously triggered laws may contradict each other; adjudicate which one wins.
+3. Résolution des conflits : les lois déclenchées simultanément peuvent se contredire ; décider lequel gagne.
 
-4. Apply effects -- those with a delay go into the queue; those without directly modify state.
+4. Appliquer des effets : ceux qui ont un retard vont dans la file d'attente ; ceux sans modifier directement l’état.
 
-5. Snapshot -- compress the current state into a numerical vector.
+5. Instantané - compresse l'état actuel dans un vecteur numérique.
 
-6. chapter += 1
+6. chapitre += 1
 
-A complete example -- the death of Lin Daiyu (林黛玉) in Chapter 98 -- is appended at the end of this article.
+Un exemple complet – la mort de Lin Daiyu (林黛玉) au chapitre 98 – est annexé à la fin de cet article.
 
-### Workflow Summary
+### Résumé du flux de travail
 
-Among the several components in the above workflow,
+Parmi les nombreux composants du flux de travail ci-dessus,
 
-whether the **extracted data** is academically rigorous, whether the **rules** are reasonable and applicable, whether the **simulation steps** are sound --
+si les **données extraites** sont académiquement rigoureuses, si les **règles** sont raisonnables et applicables, si les **étapes de simulation** sont solides --
 
-none of this is critically important, because each part can be improved and regenerated independently.
+rien de tout cela n’est d’une importance cruciale, car chaque pièce peut être améliorée et régénérée indépendamment.
 
-From a software engineering perspective, my goal is to make this engine work well at the interface level,
+D'un point de vue génie logiciel, mon objectif est de faire en sorte que ce moteur fonctionne bien au niveau de l'interface,
 
-and continuously refine prediction results as more information is incorporated and the methodology improves.
+et affiner continuellement les résultats de prévision à mesure que davantage d’informations sont incorporées et que la méthodologie s’améliore.
 
-### Current Results: Objective vs. Subjective Parallel Comparison
+### Résultats actuels : comparaison parallèle objective et subjective
 
-Here I must introduce another self-imposed methodology to enable structured comparison:
+Ici, je dois introduire une autre méthodologie que je m'impose pour permettre une comparaison structurée :
 
-dividing the inference engine's layers into two main parts -- objective conditions and artistic choice.
+divisant les couches du moteur d'inférence en deux parties principales : les conditions objectives et le choix artistique.
 
 ![](</images/Simulator Screenshot - iPhone 17 - 2026-03-30 at 22.45.27.png>)![](</images/Simulator Screenshot - iPhone 17 - 2026-03-30 at 22.45.20.png>)
 
-#### Objective Conditions
+#### Conditions objectives
 
-The historical backdrop of the era in which the novel was written -- its characters, settings, feudal system, economy, and so on -- constitutes the first layer of objective conditions. This can delimit the entire scope of what the story is capable of containing. We have already extracted some objective laws based on period-appropriate historical context and academic literature.
+Le contexte historique de l’époque à laquelle le roman a été écrit – ses personnages, ses décors, son système féodal, son économie, etc. – constitue la première couche de conditions objectives. Cela peut délimiter toute la portée de ce que l’histoire est capable de contenir. Nous avons déjà extrait quelques lois objectives basées sur le contexte historique et la littérature académique adaptés à la période.
 
-Conversely, anything that actually existed in that era could, in theory, appear and influence the story.
+À l’inverse, tout ce qui existait réellement à cette époque pourrait, en théorie, apparaître et influencer l’histoire.
 
-For instance, the novel already features some Western modern objects such as self-striking clocks and pocket watches. What if Western firearms appeared and became a significant plot driver?
+Par exemple, le roman présente déjà certains objets modernes occidentaux tels que des horloges à sonnerie automatique et des montres de poche. Et si les armes à feu occidentales apparaissaient et devenaient un moteur important du complot ?
 
-Exhaustively exploring such first-layer objective possibilities is a direction for future work, and might achieve an effect that is "within reason yet beyond expectation."
+L’exploration exhaustive de ces possibilités objectives de premier niveau constitue une direction pour les travaux futurs et pourrait produire un effet « raisonnable mais au-delà des attentes ».
 
-#### Artistic Choice
+#### Choix artistique
 
-The second layer is the author Cao Xueqin's (曹雪芹) cultivation of this fictional world.
+La deuxième couche est la culture de ce monde fictif par l'auteur Cao Xueqin (曹雪芹).
 
-Many characters and the overall trajectory of the family carry a heavy fatalistic coloring.
+De nombreux personnages et la trajectoire globale de la famille portent une lourde coloration fataliste.
 
-The novel's countless poems and metaphors -- as well as marginal annotations by a friend who reportedly read the ending -- hint at this.
+Les innombrables poèmes et métaphores du roman – ainsi que les annotations marginales d’un ami qui aurait lu la fin – le suggèrent.
 
-Therefore, we can use the author's background and life experiences
+Par conséquent, nous pouvons utiliser le parcours et les expériences de vie de l'auteur
 
-to infer what fates he chose for his characters,
+pour déduire quel sort il a choisi pour ses personnages,
 
-and thereby reveal the values he truly wished to express.
+et révéler ainsi les valeurs qu'il souhaitait réellement exprimer.
 
-#### Cross-Comparison
+#### Comparaison croisée
 
-From here, we can treat the Gao E (高鶚) continuation as the work of the most advanced "player" to date.
+À partir de là, nous pouvons considérer la suite de Gao E (高鶚) comme l'œuvre du « joueur » le plus avancé à ce jour.
 
-What he did is essentially the same thing I am doing now:
+Ce qu'il a fait est essentiellement la même chose que je fais maintenant :
 
-based on the characters and setting in the novel, attempting to divine Cao Xueqin's artistic choices as closely as possible.
+basé sur les personnages et le décor du roman, essayant de deviner au plus près les choix artistiques de Cao Xueqin.
 
-Moreover, Gao E completed the existing ending, which greatly increased the novel's circulation, and his version has been widely accepted -- so we place his version in a parallel position for comparison.
+De plus, Gao E a complété la fin existante, ce qui a considérablement augmenté la diffusion du roman, et sa version a été largement acceptée – nous plaçons donc sa version dans une position parallèle à des fins de comparaison.
 
-#### Realistic Simulation
+#### Simulation réaliste
 
-What if we stripped away all artistic treatment and retained only objective laws, letting the story evolve naturally?
+Et si on supprimait tout traitement artistique et ne conservait que des lois objectives, laissant l'histoire évoluer naturellement ?
 
-The result is that most plot events would not occur within the span of 120 chapters. The narrative would be less dramatic and contain fewer tragedies.
+Le résultat est que la plupart des événements de l’intrigue ne se produiraient pas en l’espace de 120 chapitres. Le récit serait moins dramatique et contiendrait moins de tragédies.
 
-## Methods for Improving Prediction Quality
+## Méthodes pour améliorer la qualité des prévisions
 
-- Re-extract text when LLM capabilities improve
+- Réextraire le texte lorsque les capacités LLM s'améliorent
 
-- More human intervention for fine-tuning and experimenting with different prompts
+- Plus d'intervention humaine pour affiner et expérimenter différentes invites
 
-- Enlist scholars of Redology (紅學, the academic study of *Dream of the Red Chamber*) or historians to assist with data cleaning and engine logic adjustments
+- Faites appel à des spécialistes de la redologie (紅學, l'étude académique du *Rêve de la Chambre Rouge*) ou à des historiens pour vous aider à nettoyer les données et à ajuster la logique du moteur.
 
-- Incorporate newly discovered or previously undigitized materials (if any) into training
+- Incorporer du matériel nouvellement découvert ou non numérisé (le cas échéant) dans la formation
 
-- Experiment with alternative methodologies
+- Expérimenter des méthodologies alternatives
 
-- Establish a fixed workflow and let AI agents continuously fine-tune and produce many versions; since there is no clear termination criterion, quality can only be judged manually
+- Établissez un flux de travail fixe et laissez les agents IA affiner et produire en permanence de nombreuses versions ; puisqu'il n'y a pas de critère de terminaison clair, la qualité ne peut être jugée que manuellement
 
 ## Conclusion
 
-Due to the constraints of existing and pre-trained data, and the strong internal consistency of *Dream of the Red Chamber* as a work of art,
+En raison des contraintes des données existantes et pré-entraînées, et de la forte cohérence interne de *Dream of the Red Chamber* en tant qu'œuvre d'art,
 
-deus ex machina predictions are unlikely to emerge. What we see instead are internal comparative differences --
+Il est peu probable que les prédictions de Deus Ex Machina se réalisent. Ce que nous voyons à la place, ce sont des différences comparatives internes :
 
-for example, the confiscation and decline of the Jia family is fated to happen regardless; the difference lies only in timing.
+par exemple, la confiscation et le déclin de la famille Jia sont voués à se produire de toute façon ; la différence réside uniquement dans le timing.
 
-### A Final Reflection
+### Une réflexion finale
 
-This kind of work would originally have required at least one to two years and at least one full-time person to complete.
+Ce type de travail aurait initialement nécessité au moins un à deux ans et au moins une personne à temps plein.
 
-Now I can use my after-work hours to play a different professional role -- which also satisfies a regret from when financial pressure forced me to switch fields years ago.
+Je peux désormais utiliser mes heures après le travail pour jouer un rôle professionnel différent – ​​ce qui satisfait également un regret du moment où la pression financière m'a obligé à changer de domaine il y a des années.
 
-I hope that sharing the thinking process behind building the *Dream of the Red Chamber Simulator* is helpful to you,
+J'espère que partager le processus de réflexion derrière la construction du *Dream of the Red Chamber Simulator* vous sera utile,
 
-and I look forward to the social sciences -- not just computer science and the natural sciences -- benefiting from the rapid advances in AI.
+et j’espère que les sciences sociales – et pas seulement l’informatique et les sciences naturelles – bénéficieront des progrès rapides de l’IA.
 
 ***
 
-### Appendix: Full Simulation Process Example
+### Annexe : Exemple de processus de simulation complet
 
-Chapters 97-98, "The Death of Lin Daiyu" (黛玉之死) -- a complete walk-through of all six steps (the following content was generated by AI):
-
----
-
-Example: Chapter 97 -- The Switcheroo Plot (掉包計) -> Burning Manuscripts and Severing Ties (焚稿斷情) -> Daiyu's Death
-
-Background State (entering Chapter 97)
-
-After more than a dozen chapters of cumulative decline, Lin Daiyu's state is:
-
-agent.林黛玉:  health=0.12, mood=0.08, isolation=0.72, tragedy\_risk=0.95, alive=True
-
-agent.賈寶玉:  monk\_tendency=0.35, mood=0.20
-
-economy:       debt\_ratio=0.65
-
-politics:      family\_decides\_marriage=True
-
-relation.賈寶玉::林黛玉:    marriage\_probability=0.15
-
-relation.賈寶玉::薛寶釵:    marriage\_probability=0.72
-
-Why did Daiyu's health drop from an initial 0.35 to 0.12? Because this law has been silently triggering every chapter:
-
-▎ PSY\_E1\_DAIYU\_DECAY "Daiyu's health slowly decays"
-
-▎ Premise: health > 0.0 AND isolation > 0.3 AND alive = True -> Effect: health sub 0.017
-
-▎ At -0.017 per chapter, over a dozen chapters this amounts to a lethal chronic drain.
+Chapitres 97-98, « La mort de Lin Daiyu » (黛玉之死) – une présentation complète des six étapes (le contenu suivant a été généré par l'IA) :
 
 ---
 
-① Process Delayed Effects
+Exemple : Chapitre 97 -- Le complot Switcheroo (掉包計) -> Brûler des manuscrits et rompre les liens (焚稿斷情) -> La mort de Daiyu
 
-Check the pending\_effects queue. Suppose the following was triggered in Chapter 13:
+État de fond (entrée dans le chapitre 97)
 
-▎ FATE\_010 "Qin Keqing's deathbed dream: the peak foretells the fall" delay\_chapters: 20
+Après plus d'une douzaine de chapitres de déclin cumulé, l'état de Lin Daiyu est le suivant :
 
-Its effect, economy.spending\_pressure add 0.1, already came due and was executed in Chapter 33. The queue is now empty. Skip.
+agent.林黛玉 : santé=0,12, humeur=0,08, isolement=0,72, tragédie\_risque=0,95, vivant=Vrai
 
----
+agent.賈寶玉 : moine\_tendency=0,35, humeur=0,20
 
-② Evaluate All 369 Laws
+économie : dette\_ratio=0,65
 
-The engine scans each law in sequence. The key laws that trigger this chapter:
+politique : famille\_decides\_marriage=True
 
-Law A -- VAR\_MARRIAGE\_SWAP "The Switcheroo: Secretly marrying Baochai instead" conf=0.95
+relation.賈寶玉::林黛玉: mariage\_probabilité=0,15
 
-Premise check:
+relation.賈寶玉::薛寶釵: mariage\_probabilité=0,72
 
-```
-agent.林黛玉.health \< 0.15       -> 0.12 \< 0.15  ✅
+Pourquoi la santé de Daiyu est-elle passée d'un niveau initial de 0,35 à 0,12 ? Parce que cette loi a déclenché silencieusement chaque chapitre :
 
-agent.林黛玉.alive == True        -> True          ✅
+▎ PSY\_E1\_DAIYU\_DECAY "La santé de Daiyu se dégrade lentement"
 
-politics.family\_decides\_marriage  -> True          ✅
+▎ Prémisse : santé > 0,0 ET isolement > 0,3 ET vivant = Vrai -> Effet : santé inférieure à 0,017
 
-relation.寶玉::黛玉.marriage\_probability \< 0.5  -> 0.15 \< 0.5  ✅
-
-All passed -> 🔥 Triggered!
-```
-
-Law B -- PSY\_E1\_DAIYU\_DECAY "Daiyu's health decay" conf=0.9
-
-```
-health > 0.0  -> 0.12 > 0  ✅
-
-isolation > 0.3 -> 0.72 > 0.3  ✅
-
-alive == True  ✅
-
--> 🔥 Triggered!
-```
-
-Law C -- VAR\_MARRIAGE\_DAIYU "The Stone-and-Wood Bond: Baoyu and Daiyu marry" conf=0.9
-
-```
-relation.寶玉::黛玉.marriage\_probability > 0.7  -> 0.15 > 0.7  ❌
-
--> Not triggered (Baoyu-Daiyu marriage probability too low)
-```
-
-This chapter also simultaneously triggers over a dozen other laws (economic decline, political risk, etc.), but the above are the ones directly relevant to Daiyu.
+▎ À -0,017 par chapitre, sur une douzaine de chapitres, cela équivaut à une fuite chronique mortelle.
 
 ---
 
-③ Conflict Resolution
+① Effets retardés du processus
 
-VAR\_MARRIAGE\_SWAP, VAR\_MARRIAGE\_NORMAL\_BAOCHAI, and VAR\_MARRIAGE\_DAIYU belong to the same variant\_group (marriage outcomes are mutually exclusive).
+Vérifiez la file d'attente en attente\_effects. Supposons que ce qui suit ait été déclenché au chapitre 13 :
 
-Only VAR\_MARRIAGE\_SWAP passed the premise check, so there is no actual conflict. However, if Daiyu were already dead (alive=False), then VAR\_MARRIAGE\_NORMAL\_BAOCHAI would trigger instead of the switcheroo version --
+▎ FATE\_010 "Le rêve sur le lit de mort de Qin Keqing : le pic prédit la chute" delay\_chapitres : 20
 
-that would be a different evolutionary path.
-
-PSY\_E1\_DAIYU\_DECAY's effect is additive (sub), so it does not conflict with other laws. All effects are retained.
+Son effet, economy.sending\_pression add 0.1, est déjà arrivé à échéance et a été exécuté au chapitre 33. La file d'attente est maintenant vide. Sauter.
 
 ---
 
-④ Apply Effects
+② Évaluez les 369 lois
 
-Law A's effects execute immediately (delay=0):
+Le moteur analyse chaque loi dans l'ordre. Les lois clés qui déclenchent ce chapitre :
 
-marriage trigger\_event BAOYU\_MARRIED\_BAOCHAI   -> fate\_flags\["BAOYU\_MARRIED\_BAOCHAI"] = True
+Loi A -- VAR\_MARRIAGE\_SWAP "Le Switcheroo : épouser secrètement Baochai à la place" conf=0.95
 
-relation.寶玉::寶釵.marriage\_probability set 1.0  -> 1.0
-
-agent.賈寶玉.mood sub 0.5                        -> 0.20 -> 0.00 (clamp)
-
-agent.賈寶玉.monk\_tendency add 0.3               -> 0.35 -> 0.65
-
-agent.林黛玉.health sub 0.1                       -> 0.12 -> 0.02
-
-Law B's effects:
-
-agent.林黛玉.health sub 0.017                    -> 0.02 -> 0.003
-
-At this point Daiyu's health = 0.003, approaching zero.
-
----
-
-⑤ Snapshot
-
-Compress the current world state into a numerical vector:
-
-snapshot = {
+Vérification des locaux :
 
 ```
-economy\_vector: \[0.42, 0.82, 0.65, 0.55, 0.80, 0.35],
+agent.林黛玉.health \< 0,15 -> 0,12 \< 0,15 ✅
 
-agent\_vectors: {
+agent.林黛玉.alive == Vrai -> Vrai ✅
 
-  "林黛玉": \[0.003, 0.08, 0.10, 0.00, 0.30, 0.00, 0.72, 0.95],
+Politics.family\_decides\_marriage -> Vrai ✅
 
-  "賈寶玉": \[0.80, 0.00, 0.30, 0.72, 0.80, 0.65, 0.42, 0.92],
+relation.寶玉::黛玉.marriage\_probability \< 0,5 -> 0,15 \< 0,5 ✅
 
-  ...
+Tout est passé -> 🔥 Déclenché !
+```
+
+Loi B -- PSY\_E1\_DAIYU\_DECAY "Dégradation de la santé de Daiyu" conf=0.9
+
+```
+santé > 0,0 -> 0,12 > 0 ✅
+
+isolement > 0,3 -> 0,72 > 0,3 ✅
+
+vivant == Vrai ✅
+
+-> 🔥 Déclenché !
+```
+
+Loi C -- VAR\_MARRIAGE\_DAIYU "Le lien de pierre et de bois : Baoyu et Daiyu se marient" conf=0.9
+
+```
+relation.寶玉::黛玉.marriage\_probability > 0.7 -> 0.15 > 0.7 ❌
+
+-> Non déclenché (probabilité de mariage Baoyu-Daiyu trop faible)
+```
+
+Ce chapitre déclenche également simultanément plus d’une douzaine d’autres lois (déclin économique, risque politique, etc.), mais celles ci-dessus sont celles qui concernent directement Daiyu.
+
+---
+
+③ Résolution des conflits
+
+VAR\_MARRIAGE\_SWAP, VAR\_MARRIAGE\_NORMAL\_BAOCHAI et VAR\_MARRIAGE\_DAIYU appartiennent au même groupe de variantes\_(les résultats du mariage s'excluent mutuellement).
+
+Seul VAR\_MARRIAGE\_SWAP a réussi la vérification des prémisses, il n'y a donc pas de conflit réel. Cependant, si Daiyu était déjà mort (alive=False), alors VAR\_MARRIAGE\_NORMAL\_BAOCHAI se déclencherait à la place de la version switcheroo --
+
+ce serait un chemin évolutif différent.
+
+L'effet de PSY\_E1\_DAIYU\_DECAY est additif (sub), il n'entre donc pas en conflit avec d'autres lois. Tous les effets sont conservés.
+
+---
+
+④ Appliquer des effets
+
+Les effets de la loi A s'exécutent immédiatement (délai=0) :
+
+déclencheur de mariage\_event BAOYU\_MARRIED\_BAOCHAI -> fate\_flags\["BAOYU\_MARRIED\_BAOCHAI"] = True
+
+relation.寶玉::寶釵.marriage\_probability set 1.0 -> 1.0
+
+agent.賈寶玉.mood sub 0,5 -> 0,20 -> 0,00 (pince)
+
+agent.賈寶玉.monk\_tendency ajouter 0,3 -> 0,35 -> 0,65
+
+agent.林黛玉.health sub 0.1 -> 0.12 -> 0.02
+
+Effets de la loi B :
+
+agent.林黛玉.health sub 0,017 -> 0,02 -> 0,003
+
+À ce stade, la santé de Daiyu = 0,003, proche de zéro.
+
+---
+
+⑤ Instantané
+
+Compressez l'état actuel du monde en un vecteur numérique :
+
+instantané = {
+
+```
+économie\_vecteur : \[0,42, 0,82, 0,65, 0,55, 0,80, 0,35],
+
+agent\_vecteurs : {
+
+"林黛玉": \[0,003, 0,08, 0,10, 0,00, 0,30, 0,00, 0,72, 0,95],
+
+"賈寶玉": \[0,80, 0,00, 0,30, 0,72, 0,80, 0,65, 0,42, 0,92],
+
+...
 
 },
 
-politics\_vector: \[0.0, 0.60, 0.75]
+politique\_vecteur : \[0.0, 0.60, 0.75]
 ```
 
 }
 
-This vector will later be compared via Euclidean distance against the actual vector for Chapter 97 in actual\_checkpoints.json.
+Ce vecteur sera ensuite comparé via la distance euclidienne au vecteur réel du chapitre 97 dans actual\_checkpoints.json.
 
 ---
 
-⑥ chapter = 98
+⑥ chapitre = 98
 
-Enter the next chapter. At this point Daiyu's health = 0.003, and BAOYU\_MARRIED\_BAOCHAI = True.
+Entrez dans le chapitre suivant. À ce stade, la santé de Daiyu = 0,003 et BAOYU\_MARRIED\_BAOCHAI = True.
 
-When Chapter 98 runs step ② again, two lethal laws trigger simultaneously:
+Lorsque le chapitre 98 exécute à nouveau l'étape ②, deux lois mortelles se déclenchent simultanément :
 
-▎ VAR\_DAIYU\_HEARTBREAK "Burning manuscripts, severing ties: Daiyu dies of heartbreak" conf=0.95
+▎ VAR\_DAIYU\_HEARTBREAK "Brûler des manuscrits, couper les liens : Daiyu meurt de chagrin" conf=0.95
 
-▎ health ≤ 0.05        -> 0.003 ≤ 0.05   ✅
+▎ santé ≤ 0,05 -> 0,003 ≤ 0,05 ✅
 
-▎ BAOYU\_MARRIED\_BAOCHAI -> True           ✅
+▎ BAOYU\_MARRIED\_BAOCHAI -> Vrai ✅
 
-▎ -> death trigger\_event FATE\_DAIYU\_DEATH
+▎ -> déclencheur de mort\_event FATE\_DAIYU\_DEATH
 
-▎ -> monk\_tendency add 0.4 -> Baoyu 0.65 -> 1.0 (clamp)
+▎ -> moine\_tendency ajouter 0,4 -> Baoyu 0,65 -> 1,0 (pince)
 
-▎ -> alive set False
+▎ -> ensemble vivant Faux
 
-Then SYS\_E19\_ZERO\_DAIYU triggers (checkpoint.FATE\_DAIYU\_DEATH = True), zeroing out all of Daiyu's attributes.
+Ensuite, SYS\_E19\_ZERO\_DAIYU se déclenche (checkpoint.FATE\_DAIYU\_DEATH = True), mettant à zéro tous les attributs de Daiyu.
 
-A few chapters later, Baoyu's monk\_tendency has reached 1.0 and mood ≤ 0.15, triggering VAR\_MONK\_DESPAIR "All hopes extinguished: Baoyu renounces the world" (萬念俱灰：寶玉出家).
+Quelques chapitres plus tard, la tendance moine\_de Baoyu a atteint 1,0 et son humeur ≤ 0,15, déclenchant VAR\_MONK\_DESPAIR "Tous les espoirs éteints : Baoyu renonce au monde" (萬念俱灰：寶玉出家).

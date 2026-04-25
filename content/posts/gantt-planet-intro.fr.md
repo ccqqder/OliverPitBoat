@@ -1,172 +1,172 @@
 ---
-isStub: true
-title: "Gantt Planet: An Indie Developer's Niche and Considerations"
+title: "Gantt Planet : niche et considérations pour un développeur indépendant"
 date: 2026-02-25T06:55:21.349Z
 draft: false
 categories:
-  - The Observatory
+  - L'Observatoire
 tags:
-  - Indie Developer
-  - App Store
-  - Gantt Chart
-  - Product Development
-  - AI-Assisted Development
-  - side project
+  - Développeur indépendant
+  - Magasin d'applications
+  - Diagramme de Gantt
+  - Développement de produits
+  - Développement assisté par l'IA
+  - projet parallèle
 keywords:
-  - indie developer
-  - App Store
-  - Gantt chart
-  - Gantt Planet
-  - product development
-  - side project
-  - AI-assisted development
-  - life Gantt chart
-  - 3D visualization
-  - iOS App
-description: "The App Store as the new-era personal homepage, using Gantt Planet as a case study"
+  - développeur indépendant
+  - Magasin d'applications
+  - Diagramme de Gantt
+  - Planète de Gantt
+  - développement de produits
+  - projet parallèle
+  - Développement assisté par l'IA
+  - Diagramme de Gantt de la vie
+  - Visualisation 3D
+  - Application iOS
+description: "L'App Store comme page d'accueil personnelle d'une nouvelle ère, en utilisant Gantt Planet comme étude de cas"
 author: "QQder"
 ---
 
+
 ![](/images/gantt-planet-cover.jpg)
 
-# Preface
+# Préface
 
-In this post, I'll talk about the market, resources, ecosystem, and development process from the perspective of an indie developer.
-As a shameless plug, I'm using Gantt Planet as my running example: [URL](https://apps.apple.com/us/app/%E7%94%98%E7%89%B9%E6%98%9F%E7%90%83/id6757654373).
-I'll admit upfront that these are just my side projects — the pressure is very different from someone who makes a living off this — so I'm only discussing the research approach here.
+Dans cet article, je parlerai du marché, des ressources, de l'écosystème et du processus de développement du point de vue d'un développeur indépendant.
+En guise de plug-in sans vergogne, j'utilise Gantt Planet comme exemple courant : [URL](https://apps.apple.com/us/app/%E7%94%98%E7%89%B9%E6%98%9F%E7%90%83/id6757654373).
+J'admets d'emblée qu'il ne s'agit que de mes projets parallèles – la pression est très différente de celle de quelqu'un qui en vit – donc je ne parle ici que de l'approche de recherche.
 
-## The Spark and the Stall
+## L'étincelle et le décrochage
 
-The idea behind Gantt Planet was simple: free Gantt chart tools — whether desktop software, mobile apps, or web apps — are all pretty terrible to use.
-The ones that actually seem decent all charge money, so I figured I'd just build my own Gantt chart app.
+L'idée derrière Gantt Planet était simple : les outils gratuits de diagramme de Gantt, qu'il s'agisse de logiciels de bureau, d'applications mobiles ou d'applications Web, sont tous assez difficiles à utiliser.
+Ceux qui semblent en fait décents facturent tous de l'argent, alors j'ai pensé que je créerais simplement ma propre application de diagramme de Gantt.
 
-It didn't take long before I realized things weren't that simple:
+Il ne m’a pas fallu longtemps avant de réaliser que les choses n’étaient pas si simples :
 
-1. Viewing a spreadsheet-style Gantt chart on a phone screen is way too cramped
-2. A proper Gantt chart needs to connect to a ton of resources — email, contacts, meeting rooms, and so on
+1. L'affichage d'un diagramme de Gantt de type feuille de calcul sur l'écran d'un téléphone est bien trop étroit
+2. Un diagramme de Gantt approprié doit se connecter à une tonne de ressources : courrier électronique, contacts, salles de réunion, etc.
 
-Solving either of these problems is expensive. You'd need to spend a huge amount of time fine-tuning the UI and designing ideal usage flows, while accepting that some workflows simply can't be integrated and have to be dropped.
+Résoudre l’un ou l’autre de ces problèmes coûte cher. Vous auriez besoin de passer énormément de temps à peaufiner l'interface utilisateur et à concevoir des flux d'utilisation idéaux, tout en acceptant que certains flux de travail ne peuvent tout simplement pas être intégrés et doivent être abandonnés.
 
-As for resource integration, you'd need to handle sign-ins for all major platforms, deal with countless APIs and authentication protocols, and maintain all of it going forward.
+En ce qui concerne l'intégration des ressources, vous devrez gérer les connexions pour toutes les principales plates-formes, gérer d'innombrables API et protocoles d'authentification, et tout maintenir à l'avenir.
 
-At this point, I hit a wall — and when you're working at a scale that doesn't benefit from economies of scale, that's pretty much inevitable.
+À ce stade, je me heurte à un mur – et lorsque vous travaillez à une échelle qui ne bénéficie pas d’économies d’échelle, c’est quasiment inévitable.
 
-## Pivot After Pivot
+## Pivot après pivot
 
-In moments like this, I like to take each factor and extend it a step or two outward, looking for a viable intersection where things might actually work.
+Dans des moments comme celui-ci, j’aime prendre chaque facteur et l’étendre d’un pas ou deux vers l’extérieur, à la recherche d’une intersection viable où les choses pourraient réellement fonctionner.
 
-As a developer driven by personal interest, "viable" means extremely low cost, plus a value proposition that's small but clearly defined.
+En tant que développeur motivé par un intérêt personnel, « viable » signifie un coût extrêmement faible, ainsi qu'une proposition de valeur petite mais clairement définie.
 
-AI helped me achieve the first part — extremely low cost.
+L’IA m’a aidé à réaliser la première partie – à un coût extrêmement faible.
 
-As for the value part, it's mostly self-defined, though bouncing ideas off AI can help crystallize things too.
+Quant à la partie valeur, elle est en grande partie auto-définie, bien que faire rebondir les idées sur l’IA puisse également aider à cristalliser les choses.
 
-For me, it mainly comes down to building something I'd actually want to use — something I'd enjoy looking at, at the very least. Beyond that, if nobody else has done it, there's no free version, or there's a clear differentiator, that counts as value too.
+Pour moi, il s'agit principalement de construire quelque chose que je voudrais réellement utiliser – quelque chose que j'aimerais au moins regarder. Au-delà de cela, si personne d’autre ne l’a fait, il n’existe pas de version gratuite, ou il existe un différenciateur clair, qui compte également comme valeur.
 
-At this point, I started wondering: is there something that's like a Gantt chart, but not really a Gantt chart?
+À ce stade, j'ai commencé à me demander : existe-t-il quelque chose qui ressemble à un diagramme de Gantt, mais pas vraiment à un diagramme de Gantt ?
 
-And then a picture formed in my mind.
+Et puis une image s’est formée dans mon esprit.
 
-I remembered that when I use Gantt charts, I tend to put the more important items further down.
+Je me suis souvenu que lorsque j'utilise des diagrammes de Gantt, j'ai tendance à placer les éléments les plus importants plus bas.
 
-The bottommost item is usually the big-picture condition for completing the entire project — or it represents the project itself.
+L’élément le plus bas est généralement la condition globale pour terminer l’ensemble du projet – ou il représente le projet lui-même.
 
-But what if there were items even below that bottom row — items even more important? What would those be?
+Mais que se passerait-il s’il y avait des éléments même en dessous de cette rangée du bas – des éléments encore plus importants ? Quels seraient-ils ?
 
-Well, there are plenty of things more important — they just have nothing to do with work. They're about me. About life.
+Eh bien, il y a beaucoup de choses plus importantes – elles n’ont tout simplement rien à voir avec le travail. Ils parlent de moi. À propos de la vie.
 
-And so it clicked: I wasn't going to build a regular business Gantt chart. I was going to build a **life Gantt chart**.
+Et c'est ainsi que le déclic s'est produit : je n'allais pas créer un diagramme de Gantt professionnel classique. J'allais créer un **diagramme de Gantt de vie**.
 
 ![](/images/gantt-planet-chart-en.png)
 
-## The Next Step
+## La prochaine étape
 
-So I decided to build a Gantt chart that departs from the typical business use case.
+J'ai donc décidé de créer un diagramme de Gantt qui s'écarte du cas d'utilisation typique en entreprise.
 
-This conveniently meant I no longer needed to integrate with online services,
+Cela signifiait commodément que je n'avais plus besoin d'intégrer les services en ligne,
 
-because now it was all about the user — just them, and nothing else.
+parce que désormais, tout dépendait de l’utilisateur – juste d’eux, et rien d’autre.
 
-With that, I'd taken one more step forward and kept the project alive for the time being. But could it lead to enough substance to be complete?
+Avec cela, j'avais fait un pas de plus et j'avais maintenu le projet en vie pour le moment. Mais cela pourrait-il conduire à suffisamment de substance pour être complet ?
 
-I thought about self-management and the important-but-not-urgent things in life — they all have rhythms and frequencies.
+J'ai pensé à l'autogestion et aux choses importantes mais pas urgentes de la vie : elles ont toutes des rythmes et des fréquences.
 
-Health matters, so companies do annual check-ups. Family matters, so you make sure to see your loved ones before too much time passes.
+La santé est importante, c'est pourquoi les entreprises effectuent des contrôles annuels. La famille compte, alors assurez-vous de voir vos proches avant que trop de temps ne passe.
 
-Combined with the nature of Gantt charts, within any given time window, items overlap on the current day.
+En combinaison avec la nature des diagrammes de Gantt, dans une fenêtre de temps donnée, les éléments se chevauchent le jour en cours.
 
-And if you consider the span of an entire lifetime, every item is potentially relevant today. That meant I could collapse everything onto the center line of the UI.
+Et si l’on considère la durée d’une vie entière, chaque élément est potentiellement pertinent aujourd’hui. Cela signifiait que je pouvais tout réduire sur la ligne centrale de l'interface utilisateur.
 
-This solved the cramped UI problem while expressing a set of values I found genuinely meaningful.
+Cela a résolu le problème de l'interface utilisateur exiguë tout en exprimant un ensemble de valeurs que je trouvais véritablement significatives.
 
-![Timeline main view](/images/screenshots/gantt-planet/timeline-en.png)
-*The actual timeline view: all life items converge on the calendar centerline — see everything that matters today at a glance*
+![Vue principale de la chronologie](/images/screenshots/gantt-planet/timeline-en.png)
+*La vue chronologique réelle : tous les éléments de la vie convergent vers la ligne centrale du calendrier – voyez tout ce qui compte aujourd'hui en un coup d'œil*
 
-## Completeness
+## exhaustivité
 
-One of the App Store review guidelines is that your app can't just replicate what a plain text webpage could do.
+L'une des directives d'évaluation de l'App Store est que votre application ne peut pas simplement reproduire ce qu'une page Web en texte brut pourrait faire.
 
-For example, a simple to-do list might not pass muster. So I had to make sure this app was more than just a spreadsheet — otherwise, Google Sheets could do the same thing.
+Par exemple, une simple liste de choses à faire peut ne pas réussir. Je devais donc m'assurer que cette application était plus qu'une simple feuille de calcul, sinon Google Sheets pourrait faire la même chose.
 
-The top-to-bottom visual flow of the spreadsheet reminded me of digging downward — like each day you only do the bare minimum surface-level tasks. There's a Chinese idiom, "people floating above their work," that captures this state perfectly.
+Le flux visuel de haut en bas de la feuille de calcul m'a rappelé de creuser vers le bas - comme si chaque jour vous n'effectuiez que le strict minimum de tâches au niveau de la surface. Il existe un idiome chinois, « les gens flottant au-dessus de leur travail », qui reflète parfaitement cet état.
 
-The metaphor of more important items sitting at deeper layers made me want to make it more visual, more tangible. The immediate association was excavation — digging through geological strata, mining.
+La métaphore d’éléments plus importants situés à des couches plus profondes m’a donné envie de la rendre plus visuelle, plus tangible. L’association immédiate était l’excavation – creuser dans des strates géologiques, l’exploitation minière.
 
-Then came the question of implementation. Should I slightly curve each row of the spreadsheet? Add some perspective distortion?
+Vint ensuite la question de la mise en œuvre. Dois-je courber légèrement chaque ligne de la feuille de calcul ? Ajouter une distorsion de perspective ?
 
-I thought about the context of this life Gantt chart — solitary and introspective.
+J'ai réfléchi au contexte de ce diagramme de Gantt de vie – solitaire et introspectif.
 
-The image that came to mind was: on the surface of a planet's crust, one person digging alone. And then it hit me — isn't that the golden-haired boy who waters his rose and tames a fox?
+L'image qui m'est venue à l'esprit était la suivante : à la surface de la croûte d'une planète, une personne creusant seule. Et puis ça m'a frappé : n'est-ce pas le garçon aux cheveux d'or qui arrose sa rose et apprivoise un renard ?
 
-So I built a 3D version of the Gantt chart, using a mine shaft and gemstones as the visual representation of to-do items.
+J'ai donc construit une version 3D du diagramme de Gantt, en utilisant un puits de mine et des pierres précieuses comme représentation visuelle des tâches à accomplir.
 
-An even more radical approach would have been to keep only the planet version, but considering usability, review difficulty, and how intuitive it would be to understand, I decided to keep both views.
+Une approche encore plus radicale aurait été de conserver uniquement la version planète, mais compte tenu de la facilité d'utilisation, de la difficulté de révision et du caractère intuitif de la compréhension, j'ai décidé de conserver les deux points de vue.
 
 ![](/images/gantt-planet-3d-en.png)
 
-![3D Planet View](/images/screenshots/gantt-planet/geo-view-en.png)
-*The 3D planet Gantt chart — mine shafts and gemstones as visual representations of life goals*
+![Vue de la planète 3D](/images/screenshots/gantt-planet/geo-view-en.png)
+*Le diagramme de Gantt de la planète 3D — puits de mine et pierres précieuses comme représentations visuelles des objectifs de vie*
 
-## Still Missing a Desk
+## Il manque toujours un bureau
 
-Back when I was still in school, I spent a lot of time sitting properly at my desk, alone — either studying or writing.
+À l'époque où j'étais encore à l'école, je passais beaucoup de temps assis à mon bureau, seul, à étudier ou à écrire.
 
-Using and thinking about this life Gantt chart felt like it was bringing me back to that desk — the one that's long been thrown away.
+Utiliser et réfléchir à ce diagramme de Gantt de vie me donnait l'impression que cela me ramenait à ce bureau – celui qui avait longtemps été jeté.
 
-If I completed something I only do once every three months or once a year — or even a long-term goal —
+Si j'ai terminé quelque chose que je ne fais qu'une fois tous les trois mois ou une fois par an - ou même un objectif à long terme -
 
-I think I'd really want to write in a journal, or maybe write a letter to a close friend.
+Je pense que j'aimerais vraiment écrire dans un journal, ou peut-être écrire une lettre à un ami proche.
 
-I realized this Gantt chart was still missing a final emotional outlet. But if I added social media sharing, users wouldn't be able to be fully honest.
+J'ai réalisé qu'il manquait encore à ce diagramme de Gantt un dernier exutoire émotionnel. Mais si j’ajoutais le partage sur les réseaux sociaux, les utilisateurs ne pourraient pas être totalement honnêtes.
 
-Another option was in-app messaging between users, but there would never — now or in the future — be enough installs to support that, or at least an Android version would need to be available too. Either way, it wasn't necessary for the first version.
+Une autre option était la messagerie intégrée à l'application entre les utilisateurs, mais il n'y aurait jamais - maintenant ou dans le futur - suffisamment d'installations pour prendre en charge cela, ou au moins une version Android devrait également être disponible. Quoi qu’il en soit, ce n’était pas nécessaire pour la première version.
 
-The most self-consistent solution I landed on was the most versatile one: a chatbot.
+La solution la plus cohérente sur laquelle j’ai atterri était la plus polyvalente : un chatbot.
 
-Feed the chatbot a bunch of literary classics and let it play the role of a "tree hollow" — a confidant — offering users some thoughtful feedback.
+Nourrissez le chatbot avec un tas de classiques littéraires et laissez-le jouer le rôle d'un « arbre creux » – un confident – ​​offrant aux utilisateurs des commentaires réfléchis.
 
-## Final Thoughts
+## Pensées finales
 
-So that's the product development and decision-making behind this app.
+Voilà donc le développement du produit et la prise de décision derrière cette application.
 
-It might look like I just kept changing direction until it was done, but in reality, there were tons of scrapped ideas and rejected features that I haven't even mentioned.
+On pourrait croire que j'ai continué à changer de direction jusqu'à ce que ce soit terminé, mais en réalité, il y a eu des tonnes d'idées abandonnées et de fonctionnalités rejetées que je n'ai même pas mentionnées.
 
-Beyond giving curious friends a window into the kinds of considerations that go into product development,
+Au-delà de donner aux amis curieux une fenêtre sur les types de considérations qui entrent en jeu dans le développement de produits,
 
-the last thing I want to emphasize — and the answer to the title — is that the indie developer's niche and consideration is: **doing whatever the hell makes you happy!**
+la dernière chose que je veux souligner - et la réponse au titre - est que le créneau et la considération du développeur indépendant sont les suivants : **faire tout ce qui vous rend heureux !**
 
-I'm sure plenty of people will think this is too niche, or that it doesn't match their taste or values.
+Je suis sûr que beaucoup de gens penseront que c'est trop spécialisé ou que cela ne correspond pas à leurs goûts ou à leurs valeurs.
 
-But even so, with a bit of time and the help of AI, you can build the thing you want that doesn't exist yet.
+Mais même ainsi, avec un peu de temps et l’aide de l’IA, vous pouvez créer ce que vous voulez et qui n’existe pas encore.
 
-You get to be the boss — deciding what's valuable and what's worth building.
+Vous devenez le patron, en décidant de ce qui a de la valeur et de ce qui mérite d'être construit.
 
-You get to be the designer — choosing your favorite layouts, colors, fonts, and images.
+Vous devenez le concepteur en choisissant vos mises en page, couleurs, polices et images préférées.
 
-You get to be the PM — deciding how to write it and how complete the features need to be.
+Vous devenez le PM – en décidant comment l’écrire et dans quelle mesure les fonctionnalités doivent être complètes.
 
-AI will only get stronger. Even if it can't do everything today, in the foreseeable future, you'll be able to enjoy all of this too.
+L’IA n’en sera que plus forte. Même s'il ne peut pas tout faire aujourd'hui, dans un avenir proche, vous pourrez également profiter de tout cela.
 
-The App Store is now the new-era personal homepage — everyone can publish their own story.
+L'App Store est désormais la page d'accueil personnelle d'une nouvelle ère : chacun peut publier sa propre histoire.
 
-If you're interested, follow this blog. I'll keep sharing real experiences and reflections from publishing on the App Store.
+Si vous êtes intéressé, suivez ce blog. Je continuerai à partager de vraies expériences et réflexions issues de la publication sur l'App Store.

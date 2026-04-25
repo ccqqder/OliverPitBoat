@@ -1,212 +1,212 @@
 ---
-isStub: true
-title: "Dream of the Red Chamber Simulator: The Holy Grail of Social Science, and LLMs as Prophetic Verse"
+title: "Giấc mơ về căn phòng đỏ giả lập: Chén thánh của khoa học xã hội và LLM như một câu thơ tiên tri"
 date: 2026-03-22T03:31:45.090Z
 draft: false
 author: "QQder"
 categories:
-  - The Workshop
+  - Hội thảo
 tags:
-  - ontology
-  - ontology
+  - bản thể học
+  - bản thể học
   - Eileen Chang
   - LLM
-  - Dream of the Red Chamber
-  - prophetic verse
+  - Giấc mơ về căn phòng đỏ
+  - câu thơ tiên tri
 keywords:
   - LLM
-  - large language model
-  - Dream of the Red Chamber
-  - Dream of the Red Chamber
-  - Cao Xueqin
-  - social science
-  - prediction
-  - literary analysis
-  - knowledge graph
-  - Word Embedding
+  - mô hình ngôn ngữ lớn
+  - Giấc mơ về căn phòng đỏ
+  - Giấc mơ về căn phòng đỏ
+  - Tào Tuyết Cần
+  - khoa học xã hội
+  - dự đoán
+  - phân tích văn học
+  - đồ thị kiến ​​thức
+  - Nhúng từ
   - Redology
-  - prophetic verse
-  - psychohistory
-  - multi-agent
-description: "Predicting the future — from fortune and misfortune to the fate of humanity — has been a grand challenge since the dawn of civilization. LLMs offer us a glimpse of hope for tackling this problem."
+  - câu thơ tiên tri
+  - lịch sử tâm lý
+  - đa tác nhân
+description: "Dự đoán tương lai - từ vận may và bất hạnh đến số phận của nhân loại - đã là một thách thức lớn kể từ buổi bình minh của nền văn minh. LLM mang đến cho chúng ta một tia hy vọng để giải quyết vấn đề này."
 ---
+
 
 ***
 
-## Preface
+## Lời nói đầu
 
-Predicting the future — from fortune and misfortune to the fate of humanity — has been one of the grand challenges of human civilization since antiquity. Large Language Models (LLMs) now offer us a glimpse of hope for tackling this problem.
+Dự đoán tương lai - từ vận may và bất hạnh đến số phận của nhân loại - là một trong những thách thức lớn của nền văn minh nhân loại kể từ thời cổ đại. Mô hình ngôn ngữ lớn (LLM) hiện mang đến cho chúng ta một tia hy vọng để giải quyết vấn đề này.
 
-This article explores the use of LLMs as the latest tool, with *Dream of the Red Chamber* (紅樓夢) serving as a sandbox, to find methods for predicting the novel's lost final forty chapters.
+Bài viết này khám phá việc sử dụng LLM làm công cụ mới nhất, với *Hồng Lâu Mộng* (紅樓夢) đóng vai trò như một hộp cát, để tìm ra phương pháp dự đoán bốn mươi chương cuối cùng của cuốn tiểu thuyết bị thất lạc.
 
-Let me state upfront: I have not succeeded. Perhaps one day when someone does, this article will surface in their search results.
+Hãy để tôi nói trước: Tôi đã không thành công. Có lẽ một ngày nào đó khi có ai đó làm vậy, bài viết này sẽ xuất hiện trong kết quả tìm kiếm của họ.
 
-This piece is more of a meditation on the nature of text itself. While text lacks the precision of physical formulas,
+Phần này giống như một sự thiền định về bản chất của văn bản. Trong khi văn bản thiếu độ chính xác của các công thức vật lý,
 
-as a tool for humanity to grasp reality and speculate about the future, it is far more important than we imagine.
+như một công cụ để nhân loại nắm bắt thực tế và suy đoán về tương lai, nó quan trọng hơn nhiều so với những gì chúng ta tưởng tượng.
 
-Text is not merely an "imagined" reality — it is not inherently subjective. It simply mirrors objective reality in the most cost-effective way possible.
+Văn bản không chỉ đơn thuần là một thực tế được “tưởng tượng” - nó vốn không mang tính chủ quan. Nó chỉ đơn giản phản ánh thực tế khách quan theo cách tiết kiệm chi phí nhất có thể.
 
-And LLMs, as automated mechanisms for predicting text, will radically compress the cost of extracting, generating, and mirroring objective reality.
+Và LLM, với tư cách là cơ chế tự động để dự đoán văn bản, sẽ giảm đáng kể chi phí trích xuất, tạo và phản ánh thực tế khách quan.
 
-The latest implementation will be updated in the iOS app: Dream of the Red Chamber Simulator.
+Việc triển khai mới nhất sẽ được cập nhật trong ứng dụng iOS: Dream of the Red Chamber Simulator.
 
-APP: [Link](https://apps.apple.com/tw/app/%E7%B4%85%E6%A8%93%E5%A4%A2%E6%A8%A1%E6%93%AC%E5%99%A8/id6759855416)
+ỨNG DỤNG: [Liên kết](https://apps.apple.com/tw/app/%E7%B4%85%E6%A8%93%E5%A4%A2%E6%A8%A1%E6%93%AC%E5%99%A8/id6759855416)
 
 ![紅樓夢模擬器](/images/1024x1024bb.png)
 
-> The three great regrets in life: First, that the shad has too many bones; second, that the crabapple blossom has no fragrance; third, that *Dream of the Red Chamber* was never finished.
+> Ba điều hối tiếc lớn nhất của cuộc đời: Thứ nhất, con cá có quá nhiều xương; thứ hai, hoa mai không có mùi thơm; thứ ba, *Giấc mơ Hồng Lâu* đó chưa bao giờ kết thúc.
 
-— Eileen Chang (張愛玲)
-
-***
-
-## Celestial Patterns: More Than Just Word Prediction
-
-Predicting the future has always been a matter of great importance in human societies. Every ancient civilization had priests or officials dedicated to observing the stars.
-
-Symbol systems such as astronomy and hydrology textualized natural phenomena and physical laws. The most quintessential example is the coordinate system of latitude and longitude — text became a crucial tool for humanity to understand and influence the objective world.
-
-The practical power of this mapping between text and reality has been validated in these recent years of explosive LLM capability.
-
-In the past, language as a tool was not sufficiently deterministic. After the Industrial Revolution, when science became the primary driver of productivity, language was perpetually relegated to the bottom of the prestige hierarchy.
-
-The age of LLMs has finally brought the digestion and production of text into the millisecond domain, freeing it from the bottlenecks of human reading speed, typing speed, and typographical errors.
-
-Work that once consumed enormous mental energy and time now has the potential to be assembled and configured like a production line.
-
-But what does this production line produce? The essence of an LLM is "predicting" the next token. Is this actually productive? Does the model "sort of" "understand" what it is saying?
-
-Ilya Sutskever (former co-founder and chief scientist of OpenAI) once gave this example:
-
-> Say you read a detective novel, and on the last page, the detective says "I am going to reveal the identity of the criminal, and that person's name is..."
-
-If an LLM can consistently and correctly guess the identity of the culprit, then we can tentatively say it "understands" the novel — at least surpassing the many readers who guessed wrong.
-
-And we must properly appreciate what "understanding" means. Understanding is ultimately for predicting the future. Every ancient civilization, without exception, studied astronomy and hydrology
-
-precisely to forecast upcoming climate patterns, changes in river courses, droughts and floods — to survive better in the objective environment.
-
-One could even argue that predicting correctly matters more than understanding.
+— Trương Ái Linh (張愛玲)
 
 ***
 
-## The Humanities: Both People and Agents Remain Black Boxes
+## Các mô hình thiên thể: Không chỉ là dự đoán từ ngữ
 
-Predicting the future is the pursuit and prerequisite (reproducibility) of the natural sciences, and the holy grail of the social sciences.
+Dự đoán tương lai luôn là vấn đề có tầm quan trọng lớn trong xã hội loài người. Mọi nền văn minh cổ đại đều có các linh mục hoặc quan chức chuyên quan sát các vì sao.
 
-This admittedly sounds like science fiction. In Isaac Asimov's *Foundation* series, such a discipline for predicting the future was fictionalized as "psychohistory" (心理史學).
+Các hệ thống biểu tượng như thiên văn học và thủy văn đã văn bản hóa các hiện tượng tự nhiên và các quy luật vật lý. Ví dụ tinh túy nhất là hệ tọa độ vĩ độ và kinh độ - văn bản đã trở thành một công cụ quan trọng để nhân loại hiểu và tác động đến thế giới khách quan.
 
-Economists, historians, psychologists, social scientists — all want to know how individuals and societies will react to specific events.
+Sức mạnh thực tế của việc ánh xạ giữa văn bản và thực tế này đã được xác nhận trong những năm gần đây về khả năng LLM bùng nổ.
 
-Finance, in particular, is probably the field outside of software where AI is being applied most aggressively.
+Trong quá khứ, ngôn ngữ như một công cụ không có tính quyết định đủ cao. Sau Cách mạng Công nghiệp, khi khoa học trở thành động lực chính cho năng suất, ngôn ngữ vĩnh viễn bị xếp xuống đáy của hệ thống phân cấp uy tín.
 
-Although we cannot yet see the finish line, the feasibility of this endeavor has improved significantly.
+Thời đại LLM cuối cùng đã đưa quá trình tiêu hóa và sản xuất văn bản vào phạm vi mili giây, giải phóng nó khỏi những hạn chế về tốc độ đọc, tốc độ đánh máy và lỗi đánh máy của con người.
 
-The improvement — and its limitation — is that we now have a remarkable black box (the LLM agent).
+Công việc từng tiêu tốn rất nhiều năng lượng tinh thần và thời gian giờ đây có khả năng được lắp ráp và cấu hình giống như một dây chuyền sản xuất.
 
-For tasks at a level comparable to human performance, it is blazingly fast and extremely cheap, making it suitable for replacing human labor.
+Nhưng dây chuyền sản xuất này sản xuất ra những gì? Bản chất của LLM là "dự đoán" mã thông báo tiếp theo. Điều này có thực sự hiệu quả? Mô hình có "đại loại" "hiểu" những gì nó đang nói không?
 
-The limitation is that its current mode of use resembles a slot machine. We can use certain techniques (prompt/context engineering) to improve the hit rate, but that is about it.
+Ilya Sutskever (cựu đồng sáng lập và nhà khoa học trưởng của OpenAI) từng đưa ra ví dụ này:
 
-We struggle to open the black box. Chaining multiple black boxes together (multi-agent) yields only limited improvement.
+> Giả sử bạn đọc một cuốn tiểu thuyết trinh thám và ở trang cuối cùng, thám tử nói "Tôi sẽ tiết lộ danh tính của tên tội phạm, và tên của người đó là..."
 
-Currently, tasks that a single agent can handle are done quickly and well, but more abstract tasks are difficult to improve linearly.
+Nếu một LLM có thể đoán chính xác và nhất quán danh tính của thủ phạm, thì chúng ta có thể tạm nói rằng nó "hiểu" cuốn tiểu thuyết - ít nhất là vượt qua số lượng độc giả đoán sai.
 
-Applied to social science: a single agent cannot adequately simulate even one individual's memory and emotions, let alone having multi-agent systems simulate an entire community.
+Và chúng ta phải đánh giá đúng ý nghĩa của “hiểu biết”. Sự hiểu biết cuối cùng là để dự đoán tương lai. Mọi nền văn minh cổ đại, không có ngoại lệ, đều nghiên cứu thiên văn học và thủy văn
 
-On the optimistic side, this feels more like a performance problem — and performance within this paradigm will continue to improve.
+chính xác để dự báo các kiểu khí hậu sắp tới, những thay đổi của dòng sông, hạn hán và lũ lụt - để tồn tại tốt hơn trong môi trường khách quan.
+
+Người ta thậm chí có thể lập luận rằng việc dự đoán chính xác quan trọng hơn sự hiểu biết.
 
 ***
 
-## The Sandbox: Don't Aim for a One-Hit Kill
+## Nhân văn: Cả con người và đặc vụ vẫn là hộp đen
 
-Since we are dealing with a black box, the intuitive approach is to find a smaller box to attempt to crack.
+Dự đoán tương lai là sự theo đuổi và điều kiện tiên quyết (khả năng tái tạo) của khoa học tự nhiên và là chén thánh của khoa học xã hội.
 
-Assume the current baseline model capability is what was described earlier: throw any detective novel into the LLM slot machine, and it can directly (one-shot) and correctly output who the culprit is.
+Phải thừa nhận rằng điều này nghe có vẻ giống khoa học viễn tưởng. Trong loạt phim *Foundation* của Isaac Asimov, một nguyên tắc dự đoán tương lai như vậy đã được hư cấu thành "lịch sử tâm lý" (心理史學).
 
-Building on this baseline, if we put in extra effort — erecting scaffolding, going back and forth with the LLM in discussion, finding ways to linearly accumulate results across each exchange — we should theoretically be able to make predictions of higher difficulty.
+Các nhà kinh tế, nhà sử học, nhà tâm lý học, nhà khoa học xã hội - tất cả đều muốn biết các cá nhân và xã hội sẽ phản ứng như thế nào trước các sự kiện cụ thể.
 
-*Dream of the Red Chamber* is the perfect target. Based on the content of the first eighty chapters, we ask the model to predict, to some degree, the final forty chapters.
+Đặc biệt, tài chính có lẽ là lĩnh vực ngoài phần mềm mà AI đang được ứng dụng mạnh mẽ nhất.
 
-This prediction is extremely difficult, but it is just right for my working objectives. Theoretically the probability is not zero; practically it is highly unlikely. This makes it an ideal benchmark for observing LLM capability growth over the coming years.
+Mặc dù chúng ta chưa thể nhìn thấy vạch đích nhưng tính khả thi của nỗ lực này đã được cải thiện đáng kể.
 
-Having written this far, I can finally articulate two working objectives:
+Cải tiến - và hạn chế của nó - là giờ đây chúng ta có một hộp đen đáng chú ý (tác nhân LLM).
 
-1. How can we put in additional effort so that answers unattainable through one-shot prompting can be progressively approached?
-2. How should we choose our battleground so that our results are not immediately rendered obsolete by stronger models — and ideally, so that our framework also benefits when future models improve?
+Đối với các nhiệm vụ ở mức tương đương với hiệu suất của con người, nó cực kỳ nhanh và cực kỳ rẻ, khiến nó phù hợp để thay thế sức lao động của con người.
 
-Below, I begin considering research methods based on the characteristics of *Dream of the Red Chamber* and LLMs.
+Hạn chế là chế độ sử dụng hiện tại của nó giống với một máy đánh bạc. Chúng tôi có thể sử dụng một số kỹ thuật nhất định (kỹ thuật nhắc nhở/ngữ cảnh) để cải thiện tỷ lệ trúng, nhưng chỉ có vậy thôi.
 
-### Assumptions
+Chúng tôi đấu tranh để mở hộp đen. Việc kết hợp nhiều hộp đen lại với nhau (đa tác nhân) chỉ mang lại sự cải thiện hạn chế.
 
-We assume that the ending of *Dream of the Red Chamber* did once exist, and that the first eighty chapters and the subsequent conclusion were written as an organic, intentional, continuous work — exhibiting the same internal coherence found within the first eighty chapters themselves.
+Hiện tại, các tác vụ mà một tác nhân duy nhất có thể xử lý được thực hiện nhanh chóng và tốt, nhưng các tác vụ trừu tượng hơn khó có thể cải thiện tuyến tính.
 
-If the ending never actually existed, the prediction difficulty is even higher — approaching the prediction of a parallel universe. The question becomes: if Cao Xueqin had written the ending, what would it *necessarily* have been?
+Áp dụng vào khoa học xã hội: một tác nhân đơn lẻ không thể mô phỏng đầy đủ ngay cả trí nhớ và cảm xúc của một cá nhân, chứ đừng nói đến việc có hệ thống đa tác nhân mô phỏng toàn bộ cộng đồng.
 
-This word "necessarily" is the crux. One must reach this level of confidence for generating something from nothing to be meaningful.
+Về mặt lạc quan, điều này giống như một vấn đề về hiệu suất hơn - và hiệu suất trong mô hình này sẽ tiếp tục được cải thiện.
 
-### The Writing of *Dream of the Red Chamber*
+***
 
-The novel was composed around the 1750s. At that time it circulated mostly among friends and relatives. It was not until 1791, when Cheng Weiyuan published it using movable wooden type, that it became widely known.
+## The Sandbox: Đừng nhằm mục đích giết một đòn
 
-### Redology and AI-Assisted Research
+Vì chúng ta đang xử lý một hộp đen nên cách tiếp cận trực quan là tìm một hộp nhỏ hơn để cố gắng bẻ khóa.
 
-Wang Guowei and Hu Shi were pioneers of Redology (紅學 — the scholarly study of *Dream of the Red Chamber*). The field has continued to develop, and in recent years has trended toward popularization and entertainment. The attention given to textual archaeology (探佚學) and the controversial Guiyou manuscript (癸酉本) reflects the public's curiosity about the ending.
+Giả sử khả năng của mô hình cơ sở hiện tại là những gì đã được mô tả trước đó: ném bất kỳ cuốn tiểu thuyết trinh thám nào vào máy đánh bạc LLM và nó có thể trực tiếp (một lần) và đưa ra chính xác thủ phạm là ai.
 
-Key research achievements incorporating the latest technology include:
+Dựa trên cơ sở này, nếu chúng ta nỗ lực nhiều hơn - dựng giàn giáo, trao đổi qua lại với LLM trong cuộc thảo luận, tìm cách tích lũy kết quả một cách tuyến tính trên mỗi sàn giao dịch - về mặt lý thuyết, chúng ta sẽ có thể đưa ra dự đoán về độ khó cao hơn.
 
-* Machine learning once again confirming that the final forty chapters were not written by the original author
-* Using LLMs for more nuanced semantic vectorization of text (Word Embedding)
-* Using LLMs to build domain-specific knowledge graphs
-* Models trained specifically on the first eighty chapters and Qing dynasty historical texts as input data
+*Giấc mơ Hồng Lâu* là mục tiêu hoàn hảo. Dựa trên nội dung của 80 chương đầu tiên, chúng tôi yêu cầu mô hình dự đoán ở một mức độ nào đó về 40 chương cuối.
 
-### LLM Characteristics
+Dự đoán này cực kỳ khó khăn nhưng lại phù hợp với mục tiêu công việc của tôi. Về mặt lý thuyết, xác suất không bằng 0; thực tế thì điều đó rất khó xảy ra. Điều này làm cho nó trở thành một chuẩn mực lý tưởng để quan sát sự tăng trưởng năng lực của LLM trong những năm tới.
 
-The LLM characteristic most relevant to this task is: it has been trained on all data available on the internet, plus all valuable materials these frontier AI labs could obtain.
+Đã viết đến đây, cuối cùng tôi cũng có thể nói rõ hai mục tiêu làm việc:
 
-For information already in its training data, the model's predictive capability and tendency are very high. For instance, if you input a passage from *Harry Potter*, it can recite the subsequent paragraphs from memory.
+1. Làm thế nào chúng ta có thể nỗ lực hơn nữa để có thể tiếp cận dần dần những câu trả lời không thể đạt được thông qua nhắc nhở một lần?
+2. Chúng ta nên chọn chiến trường của mình như thế nào để kết quả của chúng tôi không bị các mô hình mạnh hơn trở nên lỗi thời ngay lập tức - và lý tưởng nhất là khuôn khổ của chúng tôi cũng được hưởng lợi khi các mô hình trong tương lai được cải thiện?
 
-But the final forty chapters of *Dream of the Red Chamber* were never transmitted to posterity. They are not in the model's training data. It cannot recite them.
+Dưới đây, tôi bắt đầu xem xét các phương pháp nghiên cứu dựa trên đặc điểm của *Giấc mộng hồng lâu* và LLM.
 
-#### Problem 1: Context Window Limitations
+### Giả định
 
-Can we simply input chapters one through eighty and ask the LLM to output the remaining forty?
+Chúng tôi giả định rằng phần kết của *Hồng Lâu Mộng* đã từng tồn tại, và 80 chương đầu tiên cũng như phần kết tiếp theo được viết như một tác phẩm có hệ thống, có chủ ý, liên tục - thể hiện sự mạch lạc nội tại tương tự như chính 80 chương đầu tiên.
 
-On the input side, the current top-tier models (Gemini 3.1 / GPT-5.4 / Opus 4.6) using API mode can support up to 1M tokens, which is sufficient.
+Nếu cái kết chưa bao giờ thực sự tồn tại thì độ khó dự đoán thậm chí còn cao hơn - tiệm cận với dự đoán về một vũ trụ song song. Câu hỏi trở thành: nếu Cao Xueqin viết phần kết thì nó *nhất thiết* sẽ như thế nào?
 
-However, under the current paradigm, the output token window is far smaller than the input. Output is limited to roughly four to eight thousand Chinese characters at most — approximately one chapter's worth of content.
+Từ "nhất thiết" này là mấu chốt. Người ta phải đạt đến mức độ tự tin này để tạo ra thứ gì đó có ý nghĩa từ con số không.
 
-#### Problem 2: Listless Prose and Quality Degradation
+### Nội dung của *Giấc mơ hồng lâu*
 
-What if we modify the prompt to ask the LLM to output only the content of chapter eighty-one?
+Cuốn tiểu thuyết được sáng tác vào khoảng những năm 1750. Vào thời điểm đó nó chủ yếu được lưu truyền giữa bạn bè và người thân. Mãi đến năm 1791, khi Cheng Weiyuan xuất bản nó bằng loại gỗ di động, nó mới được biết đến rộng rãi.
 
-The model gets "contaminated" by the massive text input. Its writing style closely resembles Cao Xueqin's, and it can reasonably continue the known plot — but the result reads like a flat chronicle of events.
+### Nghiên cứu có sự hỗ trợ của AI và Redology
 
-Then, repeating the process for chapters eighty-two, eighty-three, and so on, the quality drops precipitously.
+Wang Guowei và Hu Shi là những người tiên phong của Redology (紅學 — nghiên cứu học thuật về *Giấc mơ của Hồng lâu*). Lĩnh vực này tiếp tục phát triển và trong những năm gần đây có xu hướng phổ biến và giải trí. Sự chú ý dành cho khảo cổ học văn bản (探佚學) và bản thảo Guiyou (癸酉本) gây tranh cãi phản ánh sự tò mò của công chúng về cái kết.
 
-#### Problem 3: Prior Contamination in the Model
+Những thành tựu nghiên cứu chính kết hợp công nghệ mới nhất bao gồm:
 
-Another issue is that during training, the model has already seen Gao E's continuation (高鶚續書), various scholarly speculations, and other secondary sources. If these materials diverge from the original ending, the output will be biased.
+* Học máy một lần nữa xác nhận bốn mươi chương cuối không phải do tác giả gốc viết
+* Sử dụng LLM để vector hóa văn bản ngữ nghĩa nhiều sắc thái hơn (Nhúng từ)
+* Sử dụng LLM để xây dựng biểu đồ tri thức theo miền cụ thể
+* Các mô hình được đào tạo cụ thể về tám mươi chương đầu tiên và văn bản lịch sử triều đại nhà Thanh làm dữ liệu đầu vào
 
-## To Be Continued
+### Đặc điểm LLM
 
-Due to the length of this piece, I will wrap up here with a preview of what comes next.
+Đặc điểm LLM phù hợp nhất với nhiệm vụ này là: nó đã được đào tạo trên tất cả dữ liệu có sẵn trên internet, cộng với tất cả các tài liệu có giá trị mà các phòng thí nghiệm AI tiên phong này có thể thu được.
 
-We cannot simply have the LLM directly produce unknown information.
+Đối với thông tin đã có trong dữ liệu huấn luyện của nó, khả năng và xu hướng dự đoán của mô hình là rất cao. Ví dụ: nếu bạn nhập một đoạn trong *Harry Potter*, nó có thể đọc thuộc lòng các đoạn tiếp theo theo trí nhớ.
 
-So we still need more traditional, mechanical, or programmatic methods.
+Nhưng bốn mươi chương cuối cùng của *Hồng Lâu Mộng* không bao giờ được truyền lại cho hậu thế. Chúng không có trong dữ liệu huấn luyện của mô hình. Nó không thể đọc thuộc lòng chúng.
 
-The good news is: for the tireless researchers of literature, history, and philosophy — we now have a tractor for the field!
+#### Vấn đề 1: Hạn chế của cửa sổ ngữ cảnh
 
-*Dream of the Red Chamber* possesses a highly structured nature. Important characters have their own 判詞 (prophetic verses, known as "pànCí") — poetic passages that cryptically foreshadow each character's fate.
+Chúng ta có thể chỉ cần nhập các chương từ một đến tám mươi và yêu cầu LLM xuất bốn mươi chương còn lại không?
 
-Moreover, the first eighty chapters can be cross-validated against one another, making the novel more amenable to prediction than many other works of fiction.
+Về mặt đầu vào, các mô hình hàng đầu hiện tại (Gemini 3.1 / GPT-5.4 / Opus 4.6) sử dụng chế độ API có thể hỗ trợ tới 1 triệu mã thông báo, là đủ.
 
-Although the cast of characters is large and their backgrounds complex, what we are ultimately predicting is Cao Xueqin's artistic vision — his creative will permeates the entire work. This is a tremendous aid for predicting the ending.
+Tuy nhiên, theo mô hình hiện tại, cửa sổ mã thông báo đầu ra nhỏ hơn nhiều so với đầu vào. Đầu ra được giới hạn tối đa khoảng bốn đến tám nghìn ký tự Trung Quốc - nội dung có giá trị xấp xỉ một chương.
 
-## Next: The Thermodynamics of *Dream of the Red Chamber*
+#### Vấn đề 2: Văn xuôi bơ phờ và sự suy thoái chất lượng
 
-The next article will introduce the experimental approach: structurally extracting content from the text, iteratively experimenting to extract the rules embedded in the novel, and using code to run repeated experiments.
+Điều gì sẽ xảy ra nếu chúng ta sửa đổi lời nhắc yêu cầu LLM chỉ xuất ra nội dung của chương 81?
 
-The idealized scenario is something akin to a thermodynamic system: given initial conditions (premises — e.g., characters, family wealth, socioeconomic status, interpersonal networks...) plus the system's operating mechanisms (human psychology, social hierarchy, economic dynamics, cultural norms, karmic retribution, etc.), one could predict the system's state at any subsequent point in time.
+Mô hình bị "nhiễm" bởi lượng văn bản nhập lớn. Phong cách viết của nó gần giống với Cao Xueqin, và nó có thể tiếp tục cốt truyện đã biết một cách hợp lý - nhưng kết quả đọc giống như một biên niên sử phẳng lặng về các sự kiện.
+
+Sau đó, lặp lại quá trình này cho các chương 82, 83, v.v., chất lượng giảm sút nhanh chóng.
+
+#### Vấn đề 3: Nhiễm bẩn trước đó trong mô hình
+
+Một vấn đề khác là trong quá trình đào tạo, mô hình đã thấy phần tiếp theo của Gao E (高鶚續書), nhiều suy đoán học thuật khác nhau và các nguồn thứ cấp khác. Nếu những vật liệu này khác với phần cuối ban đầu, đầu ra sẽ bị sai lệch.
+
+## Sẽ được tiếp tục
+
+Do phần này quá dài nên tôi sẽ kết thúc ở đây bằng phần xem trước nội dung tiếp theo.
+
+Chúng tôi không thể đơn giản yêu cầu LLM trực tiếp tạo ra thông tin không xác định.
+
+Vì vậy, chúng ta vẫn cần các phương pháp truyền thống, máy móc hoặc lập trình hơn.
+
+Tin tốt là: đối với những nhà nghiên cứu không mệt mỏi về văn học, lịch sử và triết học - giờ đây chúng ta đã có một chiếc máy kéo để làm việc trên thực địa!
+
+*Hồng Lâu Mộng* sở hữu tính chất có cấu trúc cao. Các nhân vật quan trọng đều có 判詞 (những câu thơ tiên tri, được gọi là "pànCí") - những đoạn thơ báo trước một cách khó hiểu số phận của mỗi nhân vật.
+
+Hơn nữa, tám mươi chương đầu tiên có thể được xác nhận chéo với nhau, khiến cuốn tiểu thuyết dễ dự đoán hơn nhiều tác phẩm hư cấu khác.
+
+Mặc dù dàn nhân vật đông đảo và xuất thân phức tạp, điều cuối cùng chúng ta dự đoán là tầm nhìn nghệ thuật của Cao Xueqin — ý chí sáng tạo của anh ấy thấm nhuần toàn bộ tác phẩm. Đây là một trợ giúp to lớn để dự đoán kết thúc.
+
+## Tiếp theo: Nhiệt động lực học của *Giấc mộng Hồng lâu*
+
+Bài viết tiếp theo sẽ giới thiệu cách tiếp cận thử nghiệm: trích xuất cấu trúc nội dung từ văn bản, thử nghiệm lặp đi lặp lại để trích xuất các quy tắc có trong tiểu thuyết và sử dụng mã để chạy các thử nghiệm lặp đi lặp lại.
+
+Kịch bản lý tưởng hóa giống như một hệ thống nhiệt động lực học: với các điều kiện ban đầu (tiền đề - ví dụ: tính cách, sự giàu có của gia đình, tình trạng kinh tế xã hội, mạng lưới giữa các cá nhân...) cộng với các cơ chế vận hành của hệ thống (tâm lý con người, thứ bậc xã hội, động lực kinh tế, chuẩn mực văn hóa, quả báo, v.v.), người ta có thể dự đoán trạng thái của hệ thống tại bất kỳ thời điểm nào tiếp theo.
