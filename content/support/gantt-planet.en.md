@@ -7,7 +7,6 @@ showDate: false
 showReadingTime: false
 ---
 
-[App Store](https://apps.apple.com/app/id6757654373) · [Privacy Policy](/en/privacy/gantt-planet/)
 
 ---
 
@@ -46,4 +45,4 @@ Subject: `[Gantt Planet] Issue Description`
 
 Please include: device model, iOS version, app version, steps to reproduce (screenshots preferred).
 
-> This app collects no user data. All AI conversations and habit records are processed entirely on-device. [View Privacy Policy →](/en/privacy/gantt-planet/)
+> This app collects no user data. All AI conversations and habit records are processed entirely on-device.

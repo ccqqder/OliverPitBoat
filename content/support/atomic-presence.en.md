@@ -7,7 +7,6 @@ showDate: false
 showReadingTime: false
 ---
 
-[App Store](https://apps.apple.com/app/id6759192866) · [Privacy Policy](/en/privacy/atomic-presence/)
 
 ---
 
@@ -47,4 +46,4 @@ Subject: `[Atomic Presence] Issue Description`
 
 Please include: device model, iOS version, app version, recording mode (video/audio), steps to reproduce.
 
-> This app collects no user data. All cryptographic operations run entirely on-device. We have no access to your recordings. [View Privacy Policy →](/en/privacy/atomic-presence/)
+> This app collects no user data. All cryptographic operations run entirely on-device. We have no access to your recordings.

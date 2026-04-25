@@ -8,7 +8,6 @@ showDate: false
 showReadingTime: false
 ---
 
-[App Store](https://apps.apple.com/app/id6756785942) · [Privacy Policy](/en/privacy/kana-juku/)
 
 ---
 
@@ -47,4 +46,4 @@ Subject: `[Kana Juku] Issue Description`
 
 Please include: device model, iOS version, app version, steps to reproduce (screenshots welcome).
 
-> This app collects no user data. All data is stored locally on your device. [View Privacy Policy →](/en/privacy/kana-juku/)
+> This app collects no user data. All data is stored locally on your device.

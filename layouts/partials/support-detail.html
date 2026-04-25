@@ -56,6 +56,11 @@
       <p class="pp-header__summary">{{ $introText }}</p>
     </header>
 
+    <div class="pp-actions">
+      <a href="{{ $app.store_url }}" class="pp-btn pp-btn--ghost">App Store</a>
+      <a href="{{ strings.TrimPrefix "/" $app.privacy_url | relLangURL }}" class="pp-btn pp-btn--ghost">{{ i18n "app_privacy_label" | default "Privacy" }}</a>
+    </div>
+
     <section class="pp-intro prose dark:prose-invert">
       {{ .Content }}
     </section>

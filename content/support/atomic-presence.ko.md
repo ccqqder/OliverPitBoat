@@ -7,7 +7,7 @@ showDate: false
 showReadingTime: false
 ---
 
-[App Store](https://apps.apple.com/app/id6759192866) · [개인정보 처리방침](/en/privacy/atomic-presence/)
+[App Store](https://apps.apple.com/app/id6759192866) · [개인정보 처리방침](/privacy/atomic-presence/)
 
 ---
 
@@ -47,4 +47,4 @@ A: 가능한 원인으로는 녹화 중 시스템 인터럽트, 배터리 부족
 
 포함해 주세요: 기기 모델, iOS 버전, 앱 버전, 녹화 모드(영상/오디오), 재현 단계.
 
-> 이 앱은 사용자 데이터를 수집하지 않습니다. 모든 암호 연산은 전적으로 기기 내에서 실행됩니다. 당사는 귀하의 녹화물에 접근할 수 없습니다. [개인정보 처리방침 보기 →](/en/privacy/atomic-presence/)
+> 이 앱은 사용자 데이터를 수집하지 않습니다. 모든 암호 연산은 전적으로 기기 내에서 실행됩니다. 당사는 귀하의 녹화물에 접근할 수 없습니다. [개인정보 처리방침 보기 →](/privacy/atomic-presence/)

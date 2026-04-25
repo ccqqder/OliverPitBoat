@@ -7,7 +7,7 @@ showDate: false
 showReadingTime: false
 ---
 
-[App Store](https://apps.apple.com/app/id6759192866) · [Chính Sách Quyền Riêng Tư](/en/privacy/atomic-presence/)
+[App Store](https://apps.apple.com/app/id6759192866) · [Chính Sách Quyền Riêng Tư](/privacy/atomic-presence/)
 
 ---
 
@@ -47,4 +47,4 @@ Tiêu đề: `[Atomic Presence] Issue Description`
 
 Vui lòng gửi kèm: mẫu thiết bị, phiên bản iOS, phiên bản ứng dụng, chế độ ghi (video/audio), các bước tái hiện lỗi.
 
-> Ứng dụng này không thu thập dữ liệu người dùng. Mọi thao tác mật mã đều chạy hoàn toàn trên thiết bị. Chúng tôi không có quyền truy cập bản ghi của bạn. [Xem Chính Sách Quyền Riêng Tư →](/en/privacy/atomic-presence/)
+> Ứng dụng này không thu thập dữ liệu người dùng. Mọi thao tác mật mã đều chạy hoàn toàn trên thiết bị. Chúng tôi không có quyền truy cập bản ghi của bạn. [Xem Chính Sách Quyền Riêng Tư →](/privacy/atomic-presence/)

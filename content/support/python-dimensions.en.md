@@ -7,7 +7,6 @@ showDate: false
 showReadingTime: false
 ---
 
-[App Store](https://apps.apple.com/app/id6759192089) · [Privacy Policy](/en/privacy/python-dimensions/)
 
 ---
 
@@ -46,4 +45,4 @@ Subject: `[Python Dimensions] Issue Description`
 
 Please include: device model, iOS version, app version, steps to reproduce (include code if it's a code-related issue).
 
-> This app collects no user data. Python execution and AI inference run entirely on-device. [View Privacy Policy →](/en/privacy/python-dimensions/)
+> This app collects no user data. Python execution and AI inference run entirely on-device.

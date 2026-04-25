@@ -8,7 +8,6 @@ showDate: false
 showReadingTime: false
 ---
 
-[App Store](https://apps.apple.com/app/id6759969494) · [Privacy Policy](/en/privacy/sown-echoes/)
 
 ---
 
@@ -49,4 +48,4 @@ Please include: device model, iOS version, app version, issue description.
 
 > ⚠️ **Important: Please keep your mnemonic (Meme ID) safe. It cannot be recovered if lost.**
 
-> This app collects no user data. All content is processed entirely on-device. [View Privacy Policy →](/en/privacy/sown-echoes/)
+> This app collects no user data. All content is processed entirely on-device.

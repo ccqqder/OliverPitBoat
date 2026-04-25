@@ -7,7 +7,6 @@ showDate: false
 showReadingTime: false
 ---
 
-[App Store](https://apps.apple.com/app/id6759191303) · [Privacy Policy](/en/privacy/auditory-companion/)
 
 ---
 
@@ -47,4 +46,4 @@ Subject: `[Auditory Companion] Issue Description`
 
 Please include: device model, iOS version, app version, headphone/speaker model, steps to reproduce.
 
-> This app collects no user data. All audio processing is performed entirely on-device. [View Privacy Policy →](/en/privacy/auditory-companion/)
+> This app collects no user data. All audio processing is performed entirely on-device.

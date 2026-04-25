@@ -7,7 +7,7 @@ showDate: false
 showReadingTime: false
 ---
 
-[App Store](https://apps.apple.com/app/id6759192866) · [Kebijakan Privasi](/en/privacy/atomic-presence/)
+[App Store](https://apps.apple.com/app/id6759192866) · [Kebijakan Privasi](/privacy/atomic-presence/)
 
 ---
 
@@ -47,4 +47,4 @@ Subjek: `[Atomic Presence] Issue Description`
 
 Mohon sertakan: model perangkat, versi iOS, versi aplikasi, mode perekaman (video/audio), langkah reproduksi.
 
-> Aplikasi ini tidak mengumpulkan data pengguna. Semua operasi kriptografis berjalan sepenuhnya di perangkat. Kami tidak memiliki akses ke rekaman Anda. [Lihat Kebijakan Privasi →](/en/privacy/atomic-presence/)
+> Aplikasi ini tidak mengumpulkan data pengguna. Semua operasi kriptografis berjalan sepenuhnya di perangkat. Kami tidak memiliki akses ke rekaman Anda. [Lihat Kebijakan Privasi →](/privacy/atomic-presence/)

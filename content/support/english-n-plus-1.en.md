@@ -7,7 +7,6 @@ showDate: false
 showReadingTime: false
 ---
 
-[App Store](https://apps.apple.com/app/id6757358263) · [Privacy Policy](/en/privacy/english-n-plus-1/)
 
 ---
 
@@ -46,4 +45,4 @@ Subject: `[English N+1] Issue Description`
 
 Please include: device model, iOS version, app version, steps to reproduce.
 
-> This app collects no user data. All AI conversations are processed entirely on-device. [View Privacy Policy →](/en/privacy/english-n-plus-1/)
+> This app collects no user data. All AI conversations are processed entirely on-device.

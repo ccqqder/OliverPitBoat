@@ -7,7 +7,6 @@ showDate: false
 showReadingTime: false
 ---
 
-[App Store](https://apps.apple.com/app/id6759855416) · [Privacy Policy](/en/privacy/stonestory/)
 
 ---
 
@@ -57,4 +56,4 @@ Subject: `[StoneStory] Issue Description`
 
 Please include: device model, iOS version, app version, steps to reproduce (screenshots preferred).
 
-> This app collects no user data. All content is stored locally on your device. [View Privacy Policy →](/en/privacy/stonestory/)
+> This app collects no user data. All content is stored locally on your device.

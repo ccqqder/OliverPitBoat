@@ -7,7 +7,7 @@ showDate: false
 showReadingTime: false
 ---
 
-[App Store](https://apps.apple.com/app/id6759192866) · [Politique de confidentialité](/en/privacy/atomic-presence/)
+[App Store](https://apps.apple.com/app/id6759192866) · [Politique de confidentialité](/privacy/atomic-presence/)
 
 ---
 
@@ -47,4 +47,4 @@ Objet : `[Atomic Presence] Issue Description`
 
 Veuillez inclure : modèle d’appareil, version iOS, version de l’app, mode d’enregistrement (vidéo/audio), étapes de reproduction.
 
-> Cette app ne collecte aucune donnée utilisateur. Toutes les opérations cryptographiques s’exécutent entièrement sur l’appareil. Nous n’avons aucun accès à vos enregistrements. [Voir la Politique de confidentialité →](/en/privacy/atomic-presence/)
+> Cette app ne collecte aucune donnée utilisateur. Toutes les opérations cryptographiques s’exécutent entièrement sur l’appareil. Nous n’avons aucun accès à vos enregistrements. [Voir la Politique de confidentialité →](/privacy/atomic-presence/)
