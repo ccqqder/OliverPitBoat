@@ -1,8 +1,7 @@
 ---
-isStub: true
 title: Gantt Planet
 layout: simple
-description: "3D habit visualisation paired with an AI tree hole — turning self-discipline into a quiet interstellar journey."
+description: "3D 습관 시각화와 AI 트리홀을 결합해, 자기 규율을 조용한 성간 여정으로 바꿉니다."
 images:
   - images/og/gantt-planet.png
 app_slug: gantt-planet
@@ -10,28 +9,28 @@ showDate: false
 showReadingTime: false
 ---
 
-## A place to anchor long-term life projects
+## 장기적인 인생 프로젝트를 붙잡아 둘 자리
 
-Most task management tools handle today, this week, and this month well enough. They struggle with the important-but-not-urgent projects: reading, exercise, language learning, processing emotions, keeping up certain relationships. These aren't unimportant. They just get crowded out by noisier, more immediate demands. Gantt Planet is designed for exactly those projects.
+대부분의 할 일 관리 도구는 오늘, 이번 주, 이번 달을 다루는 데는 충분히 익숙합니다. 하지만 중요하지만 급하지 않은 프로젝트에서는 자주 약해집니다. 독서, 운동, 언어 학습, 감정 정리, 특정 관계를 꾸준히 돌보는 일 같은 것들입니다. 중요하지 않아서가 아니라, 더 시끄럽고 즉각적인 요구들에 밀려나기 쉽기 때문입니다. Gantt Planet은 바로 그런 프로젝트를 위해 설계되었습니다.
 
-The goal isn't to make you busier. It's to help you see what was already worth your time. Timeline, 3D planet, AI tree hole, art collection: these surface as different modules, but all serve the same outcome. Self-discipline becomes a rhythm you can visualise, sense, and return to, rather than a willpower grind.
+목표는 당신을 더 바쁘게 만드는 것이 아닙니다. 원래 시간을 써야 할 가치가 있었던 일을 보이게 만드는 것입니다. 타임라인, 3D 행성, AI 트리홀, 아트 컬렉션은 서로 다른 모듈처럼 보이지만, 향하는 결과는 같습니다. 자기 규율이 의지력 소모전이 아니라, 눈으로 확인하고 감각적으로 되찾을 수 있는 리듬이 되도록 돕습니다.
 
-## Why it tends to stay on your phone longer than a typical productivity tool
+## 일반적인 생산성 도구보다 오래 남는 이유
 
-Traditional to-do tools think in list logic: done means check off, undone means accumulating pressure. Gantt Planet is closer to tending a small universe. You're letting a planet grow its own terrain and memories, not wiping items off a list. That visual language makes long-term goals harder to abandon, because they're no longer just cold rows of text.
+전통적인 투두 앱은 목록의 논리로 움직입니다. 완료는 체크, 미완료는 압박의 누적입니다. Gantt Planet은 작은 우주를 돌보는 쪽에 가깝습니다. 항목을 지우는 대신, 행성이 지형과 기억을 자라게 합니다. 이 시각 언어 덕분에 장기 목표는 더 쉽게 포기되지 않습니다. 더 이상 차가운 텍스트 줄이 아니기 때문입니다.
 
-The timeline view shows what today deserves attention; the 3D planet view shows the shape of overall progress. The former pulls you back to reality; the latter reminds you why you started. Together they keep "today" and "a lifetime" in the same frame.
+타임라인 뷰는 오늘 무엇에 주의를 둬야 하는지 보여주고, 3D 행성 뷰는 전체 진척의 형태를 보여줍니다. 전자는 현실로 다시 데려오고, 후자는 왜 시작했는지 떠올리게 합니다. 두 화면이 "오늘"과 "평생"을 같은 프레임 안에 놓아 줍니다.
 
-Its starting point is the personal "important but not urgent," not an enterprise project manager shrunk down. You can track daily, weekly, monthly, or longer cadences on the same timeline, then turn completion into 3D planet terrain and collection entries. That's where it diverges most from productivity software that mostly helps you pack tasks in more tightly.
+출발점도 다릅니다. 기업용 프로젝트 관리자를 축소한 것이 아니라, 개인의 "중요하지만 급하지 않은 것"을 중심에 둡니다. 같은 타임라인에서 일간, 주간, 월간, 그보다 긴 주기까지 추적하고, 완료 결과를 3D 행성 지형과 컬렉션 항목으로 바꿀 수 있습니다. 이 지점에서, 일을 더 촘촘히 채우는 데 집중하는 생산성 소프트웨어와 가장 크게 갈라집니다.
 
-## The tree hole and the art collection: the reason to come back
+## 트리홀과 아트 컬렉션, 다시 돌아오게 만드는 이유
 
-Long-term habit building isn't just a planning problem; a lot of it is emotional. The issue is often not that you don't know what to do. You're tired, annoyed, distracted, or simply sick of productivity tools that never respond. Gantt Planet's AI tree hole exists to sit with that layer. When you just want to talk something out and reorient yourself, it doesn't demand productivity from you.
+장기 습관 형성은 계획만의 문제가 아닙니다. 큰 부분이 감정과 연결됩니다. 무엇을 해야 하는지 몰라서가 아니라, 지치고 짜증 나고 산만해지거나 반응하지 않는 생산성 도구에 질리는 경우가 많습니다. Gantt Planet의 AI 트리홀은 바로 그 층위를 받아줍니다. 마음을 정리하고 방향만 다시 잡고 싶을 때, 생산성을 강요하지 않습니다.
 
-The collection system turns "finishing things" from obligation into something that accumulates. Not everyone needs this, but for people who get worn down by monotony, it's exactly how patience gets rebuilt. Completing tasks gradually unlocks illustrations and collectibles, closer to leaving marks on a long-running life project than to KPI pressure.
+컬렉션 시스템은 "해내는 일"을 의무가 아니라 축적으로 바꿉니다. 모두에게 필요한 요소는 아니지만, 단조로움에 쉽게 소진되는 사람에게는 인내를 다시 세우는 방식이 됩니다. 과제를 완료할수록 일러스트와 수집 요소가 점차 열리고, KPI 압박보다 장기적인 인생 프로젝트에 흔적을 남기는 감각에 가깝습니다.
 
-## Privacy and offline matter more here than usual
+## 이 앱에서는 프라이버시와 오프라인이 더 중요합니다
 
-Goals, journal entries, emotions, conversations: this content is more personal than what goes into a typical productivity app. Part of Gantt Planet's value is that you don't have to hand this data to an external service to get the companionship and visualisation. For many people, inner content only gets written down when the data really stays on their own device.
+목표, 기록, 감정, 대화는 일반 생산성 앱보다 훨씬 개인적인 내용입니다. Gantt Planet의 가치 중 하나는, 동행과 시각화를 얻기 위해 이 데이터를 외부 서비스에 넘기지 않아도 된다는 점입니다. 많은 사람에게 내면의 내용은 정말 내 기기에 남는다는 신뢰가 있을 때만 기록됩니다.
 
-Gantt Planet won't fill your calendar for you, and it won't flash red when you fall behind. What it's good at is letting the things you don't want to abandon accumulate, quietly, into a planet you can actually see.
+Gantt Planet은 당신의 캘린더를 대신 채워주지 않고, 뒤처졌다고 빨간 경고를 띄우지도 않습니다. 대신 놓치고 싶지 않은 것들이 조용히 쌓여, 눈으로 볼 수 있는 하나의 행성이 되도록 돕습니다.

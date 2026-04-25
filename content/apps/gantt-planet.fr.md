@@ -1,8 +1,7 @@
 ---
-isStub: true
-title: Gantt Planet
+title: Planète Gantt
 layout: simple
-description: "3D habit visualisation paired with an AI tree hole — turning self-discipline into a quiet interstellar journey."
+description: "Visualisation 3D des habitudes associée à un arbre-creux IA — transformer l’autodiscipline en un voyage interstellaire paisible."
 images:
   - images/og/gantt-planet.png
 app_slug: gantt-planet
@@ -10,28 +9,28 @@ showDate: false
 showReadingTime: false
 ---
 
-## A place to anchor long-term life projects
+## Un point d’ancrage pour les projets de vie au long cours
 
-Most task management tools handle today, this week, and this month well enough. They struggle with the important-but-not-urgent projects: reading, exercise, language learning, processing emotions, keeping up certain relationships. These aren't unimportant. They just get crowded out by noisier, more immediate demands. Gantt Planet is designed for exactly those projects.
+La plupart des outils de gestion des tâches gèrent assez bien aujourd’hui, cette semaine et ce mois-ci. Ils peinent avec les projets importants mais non urgents : lire, faire de l’exercice, apprendre une langue, digérer ses émotions, entretenir certaines relations. Ce n’est pas que ces choses comptent moins. Elles sont simplement évincées par des demandes plus bruyantes et plus immédiates. Gantt Planet est conçu précisément pour ce type de projets.
 
-The goal isn't to make you busier. It's to help you see what was already worth your time. Timeline, 3D planet, AI tree hole, art collection: these surface as different modules, but all serve the same outcome. Self-discipline becomes a rhythm you can visualise, sense, and return to, rather than a willpower grind.
+Le but n’est pas de vous occuper davantage. Il est de vous aider à voir ce qui méritait déjà votre temps. Frise chronologique, planète 3D, arbre-creux IA, collection artistique : ces modules paraissent différents, mais servent la même finalité. L’autodiscipline devient un rythme que l’on peut visualiser, ressentir et retrouver, plutôt qu’une lutte d’endurance à la seule force de volonté.
 
-## Why it tends to stay on your phone longer than a typical productivity tool
+## Pourquoi elle reste souvent plus longtemps sur votre téléphone qu’un outil de productivité classique
 
-Traditional to-do tools think in list logic: done means check off, undone means accumulating pressure. Gantt Planet is closer to tending a small universe. You're letting a planet grow its own terrain and memories, not wiping items off a list. That visual language makes long-term goals harder to abandon, because they're no longer just cold rows of text.
+Les to-do lists traditionnelles pensent en logique de liste : fait = case cochée, non fait = pression qui s’accumule. Gantt Planet ressemble davantage à l’entretien d’un petit univers. Vous laissez une planète développer son propre relief et ses propres souvenirs, au lieu d’effacer des lignes dans une liste. Ce langage visuel rend les objectifs de long terme plus difficiles à abandonner, parce qu’ils ne sont plus de simples rangées de texte froides.
 
-The timeline view shows what today deserves attention; the 3D planet view shows the shape of overall progress. The former pulls you back to reality; the latter reminds you why you started. Together they keep "today" and "a lifetime" in the same frame.
+La vue timeline montre ce qui mérite votre attention aujourd’hui ; la vue planète 3D montre la forme du progrès global. La première vous ramène au réel ; la seconde vous rappelle pourquoi vous avez commencé. Ensemble, elles maintiennent « aujourd’hui » et « toute une vie » dans le même cadre.
 
-Its starting point is the personal "important but not urgent," not an enterprise project manager shrunk down. You can track daily, weekly, monthly, or longer cadences on the same timeline, then turn completion into 3D planet terrain and collection entries. That's where it diverges most from productivity software that mostly helps you pack tasks in more tightly.
+Son point de départ est votre « important mais non urgent » personnel, pas un gestionnaire de projet d’entreprise miniaturisé. Vous pouvez suivre des rythmes quotidiens, hebdomadaires, mensuels ou plus longs sur une même ligne temporelle, puis transformer l’accomplissement en relief de planète 3D et en éléments de collection. C’est là qu’elle s’éloigne le plus des logiciels de productivité qui servent surtout à tasser davantage de tâches.
 
-## The tree hole and the art collection: the reason to come back
+## L’arbre-creux et la collection artistique : la vraie raison de revenir
 
-Long-term habit building isn't just a planning problem; a lot of it is emotional. The issue is often not that you don't know what to do. You're tired, annoyed, distracted, or simply sick of productivity tools that never respond. Gantt Planet's AI tree hole exists to sit with that layer. When you just want to talk something out and reorient yourself, it doesn't demand productivity from you.
+Construire une habitude sur la durée n’est pas qu’un problème de planification ; une grande partie est émotionnelle. Le souci n’est souvent pas de ne pas savoir quoi faire. Vous êtes fatigué, agacé, distrait, ou simplement lassé d’outils de productivité qui ne répondent jamais. L’arbre-creux IA de Gantt Planet existe pour accompagner cette couche-là. Quand vous avez juste besoin de poser ce que vous avez sur le cœur et de vous réorienter, il n’exige pas de productivité de votre part.
 
-The collection system turns "finishing things" from obligation into something that accumulates. Not everyone needs this, but for people who get worn down by monotony, it's exactly how patience gets rebuilt. Completing tasks gradually unlocks illustrations and collectibles, closer to leaving marks on a long-running life project than to KPI pressure.
+Le système de collection transforme le fait de « terminer des choses » d’une obligation en quelque chose qui s’accumule. Tout le monde n’en a pas besoin, mais pour les personnes usées par la monotonie, c’est souvent ce qui reconstruit la patience. L’accomplissement débloque progressivement illustrations et objets à collectionner, davantage comme des traces laissées sur un projet de vie au long cours que comme une pression KPI.
 
-## Privacy and offline matter more here than usual
+## Ici, confidentialité et hors ligne comptent encore plus que d’habitude
 
-Goals, journal entries, emotions, conversations: this content is more personal than what goes into a typical productivity app. Part of Gantt Planet's value is that you don't have to hand this data to an external service to get the companionship and visualisation. For many people, inner content only gets written down when the data really stays on their own device.
+Objectifs, notes, émotions, conversations : ce contenu est plus personnel que celui d’une application de productivité ordinaire. Une partie de la valeur de Gantt Planet est de ne pas vous obliger à confier ces données à un service externe pour obtenir accompagnement et visualisation. Pour beaucoup, le contenu intérieur ne s’écrit que lorsqu’il reste vraiment sur leur propre appareil.
 
-Gantt Planet won't fill your calendar for you, and it won't flash red when you fall behind. What it's good at is letting the things you don't want to abandon accumulate, quietly, into a planet you can actually see.
+Gantt Planet ne remplira pas votre agenda à votre place, et n’affichera pas de rouge clignotant lorsque vous prenez du retard. Ce qu’elle fait bien, c’est laisser s’accumuler, en silence, ce que vous ne voulez pas abandonner, jusqu’à former une planète que vous pouvez réellement voir.

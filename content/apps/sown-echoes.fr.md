@@ -1,8 +1,7 @@
 ---
-isStub: true
-title: Sown Echoes
+title: Échos semés
 layout: simple
-description: "Preserve your thoughts, values, and life experiences as a digital legacy that future AI can understand."
+description: "Préservez vos pensées, vos valeurs et vos expériences de vie comme un héritage numérique compréhensible par l’IA du futur."
 images:
   - images/og/sown-echoes.png
 app_slug: sown-echoes
@@ -10,26 +9,26 @@ showDate: false
 showReadingTime: false
 ---
 
-## Leaving a person behind, not just a diary
+## Laisser une personne derrière soi, pas seulement un journal
 
-Most recording tools deal with what happened today. Sown Echoes addresses a different scale of question. If a person's values, experiences, preferences, tone, and ways of making judgments are worth preserving, how do you keep them? And how do you keep them as a structure that can be understood and conversed with again in the future, rather than as a pile of scattered notes?
+La plupart des outils d’enregistrement s’occupent de ce qui s’est passé aujourd’hui. Sown Echoes se place à une autre échelle. Si les valeurs, expériences, préférences, ton et manières de juger d’une personne méritent d’être conservés, comment les garder ? Et comment les garder sous une structure que l’on pourra comprendre et avec laquelle on pourra de nouveau dialoguer plus tard, plutôt qu’en un tas de notes éparses ?
 
-So the app is part journal, part personal knowledge base, and carries a trace of digital legacy system. What you leave here goes beyond events: it includes how you see events, how you explain yourself, what you care about, and what you don't. That's the material Sown Echoes is really collecting.
+L’application tient ainsi à la fois du journal, de la base de connaissances personnelle et, en filigrane, d’un système d’héritage numérique. Ce que vous y laissez va au-delà des événements : cela inclut votre manière de voir ces événements, de vous expliquer, ce qui vous importe et ce qui ne vous importe pas. C’est cette matière que Sown Echoes recueille réellement.
 
-## Why it deserves to exist separately from notes or voice journals
+## Pourquoi cela mérite d’exister séparément des notes ou des journaux vocaux
 
-The reason it warrants its own category: it helps you progressively organise content into an analysable structure, rather than only storing it. Text, voice, questionnaires, persona summaries, values radar charts, digital-twin conversation. These modules form a complete chain. First record, then organise, then understand, then eventually converse.
+Si cela justifie une catégorie à part, c’est parce que l’application vous aide à organiser progressivement le contenu en structure analysable, au lieu de seulement le stocker. Texte, voix, questionnaires, résumés de persona, radar de valeurs, conversation avec jumeau numérique. Ces modules forment une chaîne complète. D’abord enregistrer, puis organiser, puis comprendre, puis finalement converser.
 
-This suits people who feel a strong urge to record, but also know pure notes tend to pile up into chaos. It's a container designed for organising life material, not just another blank page that only handles input.
+Cela convient aux personnes qui ressentent un fort besoin de consigner, mais savent aussi que de simples notes finissent souvent en chaos. C’est un contenant conçu pour organiser la matière de la vie, pas une page blanche de plus qui ne gère que la saisie.
 
-## Keeping both private and public tracks matters
+## Maintenir des voies privées et publiques est important
 
-Many products force you to choose between "fully private" and "fully social." Sown Echoes takes the more mature position that both needs are legitimate. You can keep everything entirely on your own device and iCloud, or contribute selected content under an open licence as part of the broader Human Wisdom Library.
+Beaucoup de produits forcent un choix entre « totalement privé » et « totalement social ». Sown Echoes adopte une position plus mûre : les deux besoins sont légitimes. Vous pouvez tout garder entièrement sur votre appareil et iCloud, ou publier certains contenus sous licence ouverte dans la bibliothèque élargie Human Wisdom Library.
 
-This dual-track choice is the product's philosophy, not an add-on. Some parts of your life belong only to you; others might be worth entering public knowledge. Whether to share should be yours to decide.
+Ce double circuit est une philosophie de produit, pas un ajout. Certaines parties de votre vie n’appartiennent qu’à vous ; d’autres peuvent valoir la peine d’entrer dans le savoir commun. Le choix de partager doit rester le vôtre.
 
-## On-device AI makes this feel less like surrendering yourself
+## L’IA sur l’appareil rend l’ensemble moins proche d’un abandon de soi
 
-When a product's core is your thoughts, values, and life experience, privacy stops being a feature and becomes the precondition for the product to work at all. Sown Echoes keeps analysis and conversation as on-device as it can, so you don't have to hand yourself over wholesale just to get a tool that understands you.
+Quand le cœur d’un produit, ce sont vos pensées, vos valeurs et votre expérience de vie, la confidentialité n’est plus une fonctionnalité : c’est la condition préalable pour que le produit fonctionne. Sown Echoes garde autant que possible l’analyse et la conversation sur l’appareil, pour que vous n’ayez pas à vous livrer entièrement juste pour obtenir un outil qui vous comprend.
 
-One day you'll try to recall a chapter of your life and find you can't quite put it into words anymore. Sown Echoes exists to push that day as far into the future as you can.
+Un jour, vous tenterez de vous rappeler un chapitre de votre vie et vous n’arriverez plus tout à fait à le mettre en mots. Sown Echoes existe pour repousser ce jour aussi loin que possible.

@@ -1,8 +1,7 @@
 ---
-isStub: true
-title: StoneStory
+title: Récit de pierre
 layout: simple
-description: "Turn Dream of the Red Chamber into an interactive AI narrative simulation, so literature becomes more than static reading."
+description: "Transformer Le Rêve dans le pavillon rouge en simulation narrative IA interactive, pour que la littérature dépasse la lecture statique."
 images:
   - images/og/stonestory.png
 app_slug: stonestory
@@ -10,26 +9,26 @@ showDate: false
 showReadingTime: false
 ---
 
-## Turning a classical novel back into a world that runs
+## Redonner à un roman classique la forme d’un monde vivant
 
-Most literary apps put the original text into a prettier reader. StoneStory takes a different path. It disassembles the characters, scenes, relationships, and events of *Dream of the Red Chamber* into a running narrative system. What you see is more than passages. You see how characters pull at each other, how they reveal personality inside situations, and how a classical novel operates like a small society.
+La plupart des applications littéraires se contentent de placer le texte original dans un lecteur plus élégant. StoneStory prend une autre direction. Elle démonte personnages, scènes, relations et événements du *Rêve dans le pavillon rouge* pour en faire un système narratif en mouvement. On y voit plus que des extraits : on voit comment les personnages se tirent mutuellement, comment ils révèlent leur personnalité dans les situations, et comment un roman classique fonctionne comme une petite société.
 
-That's why it's called a simulator rather than a reader. The goal is to take you into the structure beneath the text, not to serve up the same words in a nicer shell.
+C’est pour cela qu’il s’agit d’un simulateur plutôt que d’un simple lecteur. Le but est de vous faire entrer dans la structure sous le texte, pas de servir les mêmes phrases dans un emballage plus joli.
 
-## Who actually needs a product like this
+## Qui a réellement besoin d’un produit comme celui-ci
 
-If you already love *Dream of the Red Chamber*, what you'll get here is a new way in rather than simple nostalgia. Characters become entities you can compare, observe, and reinterpret, rather than reference points to memorise. You'll see more easily who truly made choices in which scenes, how emotions accumulated, and which details were already foreshadowing what came later.
+Si vous aimez déjà le *Rêve dans le pavillon rouge*, vous y trouverez une nouvelle porte d’entrée plutôt qu’une simple nostalgie. Les personnages deviennent des entités que vous pouvez comparer, observer et réinterpréter, plutôt que des repères à mémoriser. Vous voyez plus facilement qui a réellement fait quels choix dans quelles scènes, comment les émotions se sont accumulées, et quels détails annonçaient déjà ce qui allait suivre.
 
-If classical literature has always felt distant, the app may actually be easier to approach. It doesn't demand that you first swallow the thick original to qualify; it breaks a complex work into a system you can approach slowly and understand incrementally.
+Si la littérature classique vous a toujours semblé lointaine, l’application peut paradoxalement être plus abordable. Elle n’exige pas d’avaler d’abord l’épais original pour « mériter » d’entrer ; elle découpe une œuvre complexe en système que l’on peut approcher progressivement et comprendre étape par étape.
 
-## AI here opens the door to understanding
+## Ici, l’IA ouvre la porte à la compréhension
 
-StoneStory uses AI for the work of comprehension, not plot generation: character inner life, emotional tension, modern-perspective interpretation, structural connections between events. For the user, this adds a layer of guided commentary: an interactive interpretation that shifts with each scene, rather than a dogmatic gloss.
+StoneStory utilise l’IA pour le travail de compréhension, pas pour générer l’intrigue : intériorité des personnages, tension émotionnelle, interprétation depuis un regard moderne, liens structurels entre les événements. Pour l’utilisateur, cela ajoute une couche de commentaire guidé : une interprétation interactive qui évolue selon la scène, plutôt qu’une glose figée.
 
-The design suits *Dream of the Red Chamber*'s particular shape: many characters, complex relationships, extremely high detail density. You can let the system open the door, then decide how deep to go, instead of rebuilding the structure from scratch every time.
+La conception convient à la forme particulière du *Rêve dans le pavillon rouge* : beaucoup de personnages, relations complexes, densité de détail extrêmement élevée. Vous pouvez laisser le système ouvrir la porte, puis décider vous-même jusqu’où aller, au lieu de reconstruire la structure depuis zéro à chaque fois.
 
-## Why on-device AI still matters here
+## Pourquoi l’IA sur l’appareil compte encore ici
 
-This kind of product is easy to ship as a cloud demo. The moment content comprehension, reading history, and interaction all depend on external services, though, the experience becomes fragile, and it stops feeling like something that can accompany you long-term. StoneStory pushes the core experience back to the device, so immersive reading and exploration can actually exist as everyday tools, not as a technical showcase.
+Ce type de produit peut facilement être publié comme démonstration cloud. Mais dès que la compréhension du contenu, l’historique de lecture et l’interaction dépendent tous de services externes, l’expérience devient fragile et cesse de ressembler à un outil qui peut vous accompagner durablement. StoneStory ramène l’expérience centrale sur l’appareil, afin que lecture immersive et exploration existent réellement comme outils du quotidien, pas comme simple vitrine technique.
 
-If you want the deeper technical and methodological thinking behind this, the related reading below goes there. If you'd rather start with the experience, the App Store is the most direct entry.
+Si vous voulez approfondir la réflexion technique et méthodologique derrière cela, la lecture associée ci-dessous y est consacrée. Si vous préférez commencer par l’expérience, l’App Store reste l’entrée la plus directe.

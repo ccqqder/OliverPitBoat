@@ -1,8 +1,7 @@
 ---
-isStub: true
-title: Kana Juku
+title: Juku des kana
 layout: simple
-description: "A kana-learning tool built for Chinese native speakers, with a custom keyboard and on-device AI."
+description: "Un outil d’apprentissage des kana conçu pour les locuteurs natifs chinois, avec clavier personnalisé et IA sur l’appareil."
 images:
   - images/og/kana-juku.png
 app_slug: kana-juku
@@ -10,26 +9,26 @@ showDate: false
 showReadingTime: false
 ---
 
-## Learning kana straight into your hands
+## Apprendre les kana directement par la main
 
-Most beginner Japanese materials quietly assume you're willing to sit through a long "romaji transition period." For native Chinese speakers, that's usually the less natural path. You already have a strong sense of character form and stroke order, and you're used to learning visually and through writing. Kana Juku starts from that premise and designs around it.
+La plupart des ressources de japonais débutant supposent discrètement que vous accepterez une longue « phase de transition en romaji ». Pour les locuteurs natifs chinois, c’est souvent la voie la moins naturelle. Vous avez déjà une forte sensibilité à la forme des caractères et à l’ordre des traits, et vous êtes habitué à apprendre visuellement et par l’écriture. Kana Juku part de ce constat et construit son approche autour de lui.
 
-Rather than prettifying the hiragana/katakana chart, it connects "seeing the form, writing the form, typing the form, recognising the form" into a single loop. The payoff: you reach direct kana recognition sooner and rely on romaji as a crutch for less time.
+Plutôt que d’embellir simplement un tableau hiragana/katakana, l’application relie « voir la forme, écrire la forme, taper la forme, reconnaître la forme » dans une seule boucle. Résultat : vous atteignez plus vite la reconnaissance directe des kana et vous dépendez moins longtemps du romaji comme béquille.
 
-## Why this approach suits Chinese speakers in particular
+## Pourquoi cette approche convient particulièrement aux sinophones
 
-A Chinese speaker's real advantage lies in a strong sensitivity to character structure and visual form, less so in pronunciation. Kana Juku amplifies that advantage. You memorise kana through handwriting, image recognition, a custom keyboard, and shape association, which makes learning feel like picking up a new script rather than grinding through rote repetition.
+Le véritable avantage d’un locuteur chinois tient surtout à sa sensibilité à la structure des caractères et à la forme visuelle, davantage qu’à la prononciation. Kana Juku amplifie cet avantage. Vous mémorisez les kana via l’écriture manuscrite, la reconnaissance d’images, un clavier personnalisé et l’association de formes ; l’apprentissage ressemble alors à l’acquisition d’un nouveau système d’écriture plutôt qu’à une répétition mécanique.
 
-People who've quit halfway often did so because the tool's angle didn't match them, not because they didn't try hard. Kana Juku's job is to correct that angle.
+Beaucoup de personnes qui ont abandonné en cours de route l’ont fait parce que l’angle de l’outil ne leur correspondait pas, pas parce qu’elles manquaient d’efforts. Le rôle de Kana Juku est de corriger cet angle.
 
-## A real doorway forward, not just a memorisation drill
+## Une vraie porte d’entrée vers la suite, pas seulement un exercice de mémorisation
 
-Memorising kana is only the starting line. The real challenge is turning it into input, recognition, and comprehension ability. That's why the app goes beyond static drills and includes handwriting recognition, a custom keyboard, and AI assistance. What you're building is muscle memory closer to how kana actually gets used.
+Mémoriser les kana n’est que la ligne de départ. Le vrai défi consiste à transformer cela en capacité d’entrée, de reconnaissance et de compréhension. C’est pourquoi l’application va au-delà des exercices statiques et inclut reconnaissance manuscrite, clavier personnalisé et assistance IA. Ce que vous construisez, c’est une mémoire musculaire plus proche de l’usage réel des kana.
 
-The design suits two kinds of learners especially: people starting Japanese who want a low-pressure entry point, and people who learned before, forgot, and now want familiarity back. The first group needs to skip detours; the second needs to rebuild recognition. The app works for both.
+Le design convient particulièrement à deux profils : les personnes qui commencent le japonais et veulent une entrée sans pression, et celles qui ont déjà appris puis oublié et veulent retrouver leurs repères. Les premières ont besoin d’éviter les détours ; les secondes de reconstruire la reconnaissance. L’application sert les deux.
 
-## Privacy and offline have practical weight here
+## Ici, confidentialité et hors ligne ont un poids concret
 
-Language learning tools tend to drift toward content-platform behaviour over time. You feel like you're learning, but you're really being shuffled between recommendations. Kana Juku stays restrained. The focus sits on real input and recognition training, and both the local AI and data processing run on-device. You don't have to trade your usage habits for a little learning convenience.
+Les outils d’apprentissage des langues dérivent souvent avec le temps vers un comportement de plateforme de contenu. On a l’impression d’apprendre, mais on est surtout déplacé d’une recommandation à l’autre. Kana Juku reste sobre. Le centre de gravité reste l’entraînement réel à l’entrée et à la reconnaissance, et l’IA locale comme le traitement des données tournent sur l’appareil. Vous n’avez pas à échanger vos habitudes d’usage contre un peu de confort d’apprentissage.
 
-You don't have to let romaji lead you through kana. Kana Juku shows you that entering through the shapes works too — and often gets you there faster.
+Vous n’êtes pas obligé de laisser le romaji vous guider dans les kana. Kana Juku montre qu’entrer par les formes fonctionne aussi — et, souvent, plus vite.

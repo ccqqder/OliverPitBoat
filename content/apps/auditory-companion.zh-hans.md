@@ -1,8 +1,6 @@
 ---
 title: 听觉旅伴
 layout: simple
-aliases:
-  - /zh-hans/posts/auditory-companion/
 description: "DSP 即时合成噪音、108 种环境音，外加沉浸式 TTS 朗读，全部设备端运算。"
 images:
   - images/og/auditory-companion.png

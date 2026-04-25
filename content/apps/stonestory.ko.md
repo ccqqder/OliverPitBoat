@@ -1,8 +1,7 @@
 ---
-isStub: true
 title: StoneStory
 layout: simple
-description: "Turn Dream of the Red Chamber into an interactive AI narrative simulation, so literature becomes more than static reading."
+description: "『홍루몽』을 상호작용형 AI 서사 시뮬레이션으로 전환해, 문학을 정적인 독서 이상으로 확장합니다."
 images:
   - images/og/stonestory.png
 app_slug: stonestory
@@ -10,26 +9,26 @@ showDate: false
 showReadingTime: false
 ---
 
-## Turning a classical novel back into a world that runs
+## 고전소설을 다시 "작동하는 세계"로 돌려놓기
 
-Most literary apps put the original text into a prettier reader. StoneStory takes a different path. It disassembles the characters, scenes, relationships, and events of *Dream of the Red Chamber* into a running narrative system. What you see is more than passages. You see how characters pull at each other, how they reveal personality inside situations, and how a classical novel operates like a small society.
+대부분의 문학 앱은 원문을 더 보기 좋은 리더에 담는 데서 멈춥니다. StoneStory는 다른 길을 택합니다. *Dream of the Red Chamber*의 인물, 장면, 관계, 사건을 분해해 작동하는 서사 시스템으로 재구성합니다. 여기서 보게 되는 것은 문장 조각 이상입니다. 인물들이 서로를 어떻게 끌어당기고 밀어내는지, 상황 속에서 성격이 어떻게 드러나는지, 고전소설이 어떻게 하나의 작은 사회처럼 움직이는지를 보게 됩니다.
 
-That's why it's called a simulator rather than a reader. The goal is to take you into the structure beneath the text, not to serve up the same words in a nicer shell.
+그래서 이름도 리더가 아니라 시뮬레이터입니다. 목표는 같은 문장을 더 예쁜 껍질로 전달하는 것이 아니라, 텍스트 아래의 구조로 들어가게 하는 데 있습니다.
 
-## Who actually needs a product like this
+## 이 제품이 실제로 필요한 사람
 
-If you already love *Dream of the Red Chamber*, what you'll get here is a new way in rather than simple nostalgia. Characters become entities you can compare, observe, and reinterpret, rather than reference points to memorise. You'll see more easily who truly made choices in which scenes, how emotions accumulated, and which details were already foreshadowing what came later.
+이미 *Dream of the Red Chamber*를 좋아하는 사람에게 이것은 단순한 향수가 아니라 새로운 진입 방식이 됩니다. 인물은 암기할 기준점이 아니라 비교하고 관찰하고 다시 해석할 수 있는 존재로 바뀝니다. 어떤 장면에서 누가 실제로 선택했는지, 감정이 어떻게 누적됐는지, 뒤를 예고하던 디테일이 어디였는지를 더 쉽게 볼 수 있습니다.
 
-If classical literature has always felt distant, the app may actually be easier to approach. It doesn't demand that you first swallow the thick original to qualify; it breaks a complex work into a system you can approach slowly and understand incrementally.
+고전문학이 늘 멀게 느껴졌던 사람에게도 오히려 접근이 쉬울 수 있습니다. 두꺼운 원전을 먼저 다 읽어야 자격이 생기는 방식이 아니라, 복잡한 작품을 천천히 다가가며 단계적으로 이해할 수 있는 시스템으로 풀어내기 때문입니다.
 
-## AI here opens the door to understanding
+## 여기서 AI는 이해의 문을 여는 역할
 
-StoneStory uses AI for the work of comprehension, not plot generation: character inner life, emotional tension, modern-perspective interpretation, structural connections between events. For the user, this adds a layer of guided commentary: an interactive interpretation that shifts with each scene, rather than a dogmatic gloss.
+StoneStory는 AI를 줄거리 생성이 아니라 이해를 위한 작업에 씁니다. 인물의 내면, 감정의 긴장, 현대적 관점에서의 해석, 사건 사이의 구조적 연결 같은 것들입니다. 사용자에게는 장면마다 달라지는 상호작용형 해설 레이어가 추가됩니다. 정답을 고정해 놓은 주석보다, 함께 움직이는 해석에 가깝습니다.
 
-The design suits *Dream of the Red Chamber*'s particular shape: many characters, complex relationships, extremely high detail density. You can let the system open the door, then decide how deep to go, instead of rebuilding the structure from scratch every time.
+이 설계는 *Dream of the Red Chamber*의 형식과 특히 잘 맞습니다. 인물 수가 많고 관계가 복잡하며, 디테일 밀도가 매우 높기 때문입니다. 매번 처음부터 구조를 다시 세우는 대신, 시스템이 문을 열어주면 사용자가 원하는 깊이만큼 들어가면 됩니다.
 
-## Why on-device AI still matters here
+## 여기서도 온디바이스 AI가 중요한 이유
 
-This kind of product is easy to ship as a cloud demo. The moment content comprehension, reading history, and interaction all depend on external services, though, the experience becomes fragile, and it stops feeling like something that can accompany you long-term. StoneStory pushes the core experience back to the device, so immersive reading and exploration can actually exist as everyday tools, not as a technical showcase.
+이런 제품은 클라우드 데모로 만드는 것이 쉽습니다. 하지만 내용 이해, 독서 이력, 상호작용이 모두 외부 서비스에 기대는 순간 경험은 쉽게 흔들리고, 장기적으로 곁에 둘 수 있는 도구라는 감각도 약해집니다. StoneStory는 핵심 경험을 다시 기기로 가져와, 몰입 독서와 탐색이 기술 시연이 아니라 일상 도구로 존재할 수 있게 합니다.
 
-If you want the deeper technical and methodological thinking behind this, the related reading below goes there. If you'd rather start with the experience, the App Store is the most direct entry.
+기술적 방법론까지 더 깊게 보고 싶다면 아래 관련 읽을거리가 그 지점으로 이어집니다. 먼저 경험부터 시작하고 싶다면 App Store가 가장 빠른 입구입니다.

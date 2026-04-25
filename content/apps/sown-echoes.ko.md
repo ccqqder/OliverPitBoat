@@ -1,8 +1,7 @@
 ---
-isStub: true
 title: Sown Echoes
 layout: simple
-description: "Preserve your thoughts, values, and life experiences as a digital legacy that future AI can understand."
+description: "생각과 가치관, 삶의 경험을 미래의 AI가 이해할 수 있는 디지털 유산으로 보존합니다."
 images:
   - images/og/sown-echoes.png
 app_slug: sown-echoes
@@ -10,26 +9,26 @@ showDate: false
 showReadingTime: false
 ---
 
-## Leaving a person behind, not just a diary
+## 일기장이 아니라 한 사람을 남기는 일
 
-Most recording tools deal with what happened today. Sown Echoes addresses a different scale of question. If a person's values, experiences, preferences, tone, and ways of making judgments are worth preserving, how do you keep them? And how do you keep them as a structure that can be understood and conversed with again in the future, rather than as a pile of scattered notes?
+대부분의 기록 도구는 오늘 무슨 일이 있었는지를 다룹니다. Sown Echoes가 다루는 질문의 스케일은 다릅니다. 한 사람의 가치관, 경험, 선호, 말투, 판단 방식이 보존할 만한 것이라면, 그것을 어떻게 남길 것인가. 그리고 흩어진 메모 더미가 아니라, 훗날 다시 이해되고 대화될 수 있는 구조로 어떻게 남길 것인가를 묻습니다.
 
-So the app is part journal, part personal knowledge base, and carries a trace of digital legacy system. What you leave here goes beyond events: it includes how you see events, how you explain yourself, what you care about, and what you don't. That's the material Sown Echoes is really collecting.
+그래서 이 앱은 저널이면서 개인 지식 베이스이고, 동시에 디지털 유산 시스템의 성격을 가집니다. 여기 남는 것은 사건 자체를 넘어, 사건을 바라보는 방식, 자신을 설명하는 언어, 중요하게 여기는 것과 그렇지 않은 것까지 포함합니다. Sown Echoes가 실제로 수집하는 재료는 바로 이 층위입니다.
 
-## Why it deserves to exist separately from notes or voice journals
+## 노트나 음성 일지와 별도 카테고리로 존재할 이유
 
-The reason it warrants its own category: it helps you progressively organise content into an analysable structure, rather than only storing it. Text, voice, questionnaires, persona summaries, values radar charts, digital-twin conversation. These modules form a complete chain. First record, then organise, then understand, then eventually converse.
+이 제품이 별도 범주를 가져야 하는 이유는 단순 저장이 아니라, 분석 가능한 구조로 점진적으로 정리해 준다는 데 있습니다. 텍스트, 음성, 설문, 페르소나 요약, 가치 레이더 차트, 디지털 트윈 대화가 하나의 사슬을 이룹니다. 먼저 기록하고, 다음에 정리하고, 그다음 이해하고, 결국 대화로 이어집니다.
 
-This suits people who feel a strong urge to record, but also know pure notes tend to pile up into chaos. It's a container designed for organising life material, not just another blank page that only handles input.
+기록 욕구는 강하지만 순수 노트만으로는 결국 혼란이 쌓인다는 걸 아는 사람에게 특히 맞습니다. 이것은 입력만 받는 또 하나의 빈 페이지가 아니라, 삶의 재료를 정리하기 위한 컨테이너입니다.
 
-## Keeping both private and public tracks matters
+## 비공개와 공개 트랙을 함께 두는 일의 중요성
 
-Many products force you to choose between "fully private" and "fully social." Sown Echoes takes the more mature position that both needs are legitimate. You can keep everything entirely on your own device and iCloud, or contribute selected content under an open licence as part of the broader Human Wisdom Library.
+많은 제품은 "완전 비공개"와 "완전 소셜" 사이에서 하나만 고르라고 합니다. Sown Echoes는 두 필요가 모두 정당하다는, 더 성숙한 입장을 택합니다. 모든 내용을 자신의 기기와 iCloud에만 보관할 수도 있고, 선택한 일부를 공개 라이선스로 기여해 Human Wisdom Library의 일부로 남길 수도 있습니다.
 
-This dual-track choice is the product's philosophy, not an add-on. Some parts of your life belong only to you; others might be worth entering public knowledge. Whether to share should be yours to decide.
+이 이중 트랙 선택은 부가 기능이 아니라 제품 철학입니다. 삶의 어떤 부분은 오직 나에게만 속하고, 어떤 부분은 공적 지식으로 남길 가치가 있습니다. 공유 여부는 사용자가 결정해야 합니다.
 
-## On-device AI makes this feel less like surrendering yourself
+## 온디바이스 AI가 있어야 덜 "내어주는" 경험이 됩니다
 
-When a product's core is your thoughts, values, and life experience, privacy stops being a feature and becomes the precondition for the product to work at all. Sown Echoes keeps analysis and conversation as on-device as it can, so you don't have to hand yourself over wholesale just to get a tool that understands you.
+생각, 가치관, 삶의 경험이 제품의 중심이라면, 프라이버시는 기능이 아니라 작동 조건입니다. Sown Echoes는 분석과 대화를 가능한 한 기기 내에서 처리해, 나를 이해해 주는 도구를 쓰기 위해 나 자신 전체를 외부에 넘기지 않도록 합니다.
 
-One day you'll try to recall a chapter of your life and find you can't quite put it into words anymore. Sown Echoes exists to push that day as far into the future as you can.
+언젠가 삶의 한 장면을 떠올리려 해도, 더는 말로 붙잡기 어려운 날이 옵니다. Sown Echoes는 그날을 가능한 한 멀리 미루기 위해 존재합니다.

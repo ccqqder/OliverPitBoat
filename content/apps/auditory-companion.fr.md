@@ -1,8 +1,7 @@
 ---
-isStub: true
-title: Auditory Companion
+title: Compagnon auditif
 layout: simple
-description: "Real-time DSP-synthesized noise, 108 ambient sounds, and immersive TTS reading — all computed on-device."
+description: "Bruit synthétisé en DSP en temps réel, 108 sons d’ambiance et lecture TTS immersive — le tout calculé sur l’appareil."
 images:
   - images/og/auditory-companion.png
 app_slug: auditory-companion
@@ -10,28 +9,28 @@ showDate: false
 showReadingTime: false
 ---
 
-## Sound as something you design, not just play in the background
+## Le son comme espace à façonner, pas seulement un fond sonore
 
-Most white noise apps eventually converge on the same conclusion: play rain, waves, or wind, and hope it helps you focus or sleep. Auditory Companion aims further. Instead of bundling a handful of ambient samples, it treats "how sound forms an inhabitable space" as the product's core.
+La plupart des applications de bruit blanc finissent par la même conclusion : lancer de la pluie, des vagues ou du vent, et espérer que cela aide à se concentrer ou à dormir. Auditory Companion va plus loin. Au lieu d’empiler quelques échantillons d’ambiance, elle traite la façon dont le son crée un espace habitable comme le cœur du produit.
 
-So what you see is three distinct systems rather than a playlist: a noise synthesizer, a scene mixer, and a reader. You can shape your acoustic environment from several directions: a stable, emotionally flat spectrum when you need it; the layered spatial feel of a rainy night, a fireplace, or a café at other times; a frame that lets reading voice and background sound coexist when the task calls for it.
+Ce que l’on trouve n’est donc pas une playlist, mais trois systèmes distincts : un synthétiseur de bruit, un mixeur de scènes et un lecteur. Vous pouvez modeler votre environnement acoustique sous plusieurs angles : un spectre stable et émotionnellement neutre quand il le faut ; à d’autres moments, la spatialité superposée d’une nuit de pluie, d’un feu de cheminée ou d’un café ; et, lorsque la tâche l’exige, un cadre où voix de lecture et son d’ambiance coexistent.
 
-## When it's most valuable
+## Quand il est le plus utile
 
-For long stretches of reading, writing, or deep work, "play some nature sounds" usually falls short; what's actually useful is an adjustable soundscape. Auditory Companion fits here. Lay down a noise floor with the synthesizer, layer in event sounds and loops in the scene mixer, then let the reader speak the text aloud. The fit to your current state is much closer than simply opening a Spotify playlist.
+Pour de longues sessions de lecture, d’écriture ou de travail profond, « lancer des sons de nature » suffit rarement ; ce qui aide vraiment, c’est un paysage sonore réglable. Auditory Companion est fait pour cela. Posez une base avec le synthétiseur, ajoutez des sons événementiels et des boucles dans le mixeur de scènes, puis laissez le lecteur lire le texte à voix haute. L’ajustement à votre état du moment est bien plus précis qu’avec une playlist Spotify ouverte à la hâte.
 
-Relaxation and pre-sleep are another common scenario. Many people want silence that isn't actually silent: a sound that masks the outside world without demanding attention. That's where adjustable noise and scene mixing earn their place: you're not forced to pick between a handful of canned presets.
+La relaxation et la préparation au sommeil sont un autre scénario fréquent. Beaucoup de gens veulent un silence qui n’en est pas tout à fait un : un son qui masque l’extérieur sans exiger d’attention. C’est là que le bruit ajustable et le mixage de scènes prennent tout leur sens : vous n’êtes pas limité à une poignée de préréglages figés.
 
-## The real story is sound-control granularity
+## Le vrai sujet, c’est la finesse du contrôle sonore
 
-Think of it as a small personal sound workstation. The synthesizer handles spectrum and texture; the scene mixer handles atmosphere and spatial feel; the reader handles content input. Each module stands on its own; together they form a complete focus system.
+Voyez-le comme une petite station sonore personnelle. Le synthétiseur gère le spectre et la texture ; le mixeur de scènes, l’atmosphère et la sensation spatiale ; le lecteur, l’entrée de contenu. Chaque module tient seul ; ensemble, ils forment un système complet pour se concentrer.
 
-That's also why it resonates with "people who need background sound." You get to find the configuration you can actually sit with for hours, rather than accepting whatever soundfield someone else prepared.
+C’est aussi pour cela que l’application parle aux personnes qui ont besoin de son en arrière-plan. Vous pouvez trouver la configuration avec laquelle vous pouvez réellement rester des heures, au lieu d’accepter un champ sonore préparé par quelqu’un d’autre.
 
-The detail work shows up clearly: the synthesizer puts four noise colors (white, pink, brown, green) and multiple parameters directly in your hands, going well past an on/off switch. The scene mixer lets you layer hundreds of audio samples into stackable scenes instead of playing one file. The reader wraps on-device TTS, automatic background-audio ducking, and a full-screen player into a single flow.
+Le soin apporté au détail est net : le synthétiseur met quatre couleurs de bruit (blanc, rose, brun, vert) et plusieurs paramètres directement entre vos mains, bien au-delà d’un simple interrupteur marche/arrêt. Le mixeur de scènes vous permet d’empiler des centaines d’échantillons audio dans des scènes superposables au lieu de lire un seul fichier. Le lecteur réunit TTS sur l’appareil, atténuation automatique du fond sonore et lecteur plein écran dans un flux unique.
 
-## Keeping sound and reading data on-device is practically significant
+## Garder le son et la lecture sur l’appareil a un vrai poids pratique
 
-What you read, listen to, and paste in tends to be private, especially when an app supports clipboard reading or local TTS. If that content travels to a server, the experience sours immediately. Auditory Companion keeps synthesis, mixing, and reading on-device, and that shapes whether you'll comfortably use it as a daily tool, not just whether you'll try it once.
+Ce que vous lisez, écoutez et collez est souvent privé, surtout quand une application prend en charge la lecture du presse-papiers ou la TTS locale. Si ce contenu part sur un serveur, l’expérience se dégrade immédiatement. Auditory Companion garde la synthèse, le mixage et la lecture sur l’appareil, et cela détermine si vous l’utiliserez sereinement au quotidien, pas seulement si vous l’essayerez une fois.
 
-If you're looking for a sound engine that can keep you company through work, reading, downtime, and immersive listening, rather than an app measured by "how many ambient tracks," it's worth trying this one firsthand.
+Si vous cherchez un moteur sonore capable de vous accompagner pendant le travail, la lecture, les temps calmes et l’écoute immersive, plutôt qu’une application mesurée au « nombre de pistes d’ambiance », celle-ci mérite un essai direct.

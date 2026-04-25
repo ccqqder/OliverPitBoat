@@ -1,8 +1,7 @@
 ---
-isStub: true
 title: Python Dimensions
 layout: simple
-description: "A three-dimensional Python learning tool with an on-device AI tutor and a built-in Python 3.13 runtime."
+description: "온디바이스 AI 튜터와 내장 Python 3.13 런타임을 갖춘 입체형 Python 학습 도구."
 images:
   - images/og/python-dimensions.png
 app_slug: python-dimensions
@@ -10,28 +9,28 @@ showDate: false
 showReadingTime: false
 ---
 
-## What matters is getting the learning rhythm right
+## 중요한 건 학습 리듬을 제대로 잡는 일
 
-Most Python learning tools get stuck at two extremes. One side gives you fragmented questions; answering them still leaves you in the dark about where you're actually weak. The other side drops you into a full IDE that tends to scare beginners off. Python Dimensions bridges those extremes, helping you first build reading ability, grammatical sense, and logical sense before pushing toward more complete coding capability.
+대부분의 Python 학습 도구는 두 극단 사이에서 멈춥니다. 한쪽은 파편적인 문제 풀이를 주지만, 풀고 나도 어디가 약한지 여전히 흐립니다. 다른 한쪽은 완전한 IDE를 바로 열어 초심자를 겁먹게 만듭니다. Python Dimensions는 이 사이를 잇습니다. 본격 코딩으로 밀어붙이기 전에 읽기 능력, 문법 감각, 논리 감각을 먼저 세우도록 돕습니다.
 
-The core idea is less "do lots of questions" and more "break learning into three layers." Points are vocabulary and concept recognition; Lines are syntax and local structure; Surfaces are complete program flow. This layering works for complete beginners and also for people who already know where they're stuck and want an efficient way to patch gaps.
+핵심 아이디어는 "문제를 많이 푼다"보다 "학습을 세 층으로 나눈다"에 가깝습니다. Points는 어휘와 개념 인식, Lines는 문법과 국소 구조, Surfaces는 전체 프로그램 흐름입니다. 이 계층 구조는 완전 초보에게도 맞고, 막히는 지점을 이미 아는 학습자가 빈틈을 빠르게 메우는 데도 효율적입니다.
 
-## What situations it's most useful for
+## 특히 유용한 상황
 
-If you're preparing for PCEP, TQC+, or CPE, the app is well suited to daily maintenance. You don't need to open a laptop to get started; in 10 to 20 minute windows you can run through multiple-choice questions, fill in a few blanks, or re-sequence a program flow. That low friction matters more over the long run than intense burst study.
+PCEP, TQC+, CPE를 준비한다면 이 앱은 일상 유지 학습에 잘 맞습니다. 시작하기 위해 노트북을 열 필요가 없고, 10~20분 단위의 짧은 시간에도 객관식을 풀고 빈칸을 채우고 흐름 순서를 다시 맞출 수 있습니다. 장기적으로 보면 이런 낮은 마찰이 집중 폭발형 공부보다 더 큰 차이를 만듭니다.
 
-For self-taught beginners, the app also doesn't behave like a machine that only reports right and wrong. You can use the question types to sketch the basic outline, then move into the playground to actually run code and understand why one variant works and another doesn't. Knowledge stops living purely in memory and starts becoming your own judgement.
+독학 초보에게도 이 앱은 정오답만 통보하는 기계처럼 굴지 않습니다. 문제 유형으로 기본 윤곽을 잡은 뒤 플레이그라운드에서 코드를 직접 실행해, 어떤 변형이 왜 동작하고 왜 깨지는지 확인할 수 있습니다. 지식이 기억에만 머무르지 않고, 스스로의 판단으로 옮겨 갑니다.
 
-## On-device AI here isn't a gimmick
+## 여기서 온디바이스 AI는 장식이 아닙니다
 
-"AI tutor" often triggers the question, "is this about to upload my content to the cloud?" Python Dimensions places AI in a useful role that doesn't compromise privacy. When you answer incorrectly, it can hint based on the question's context. When you want to confirm a syntax idea, you can just ask, instead of bouncing between search engines and forums.
+"AI 튜터"라는 말을 들으면 보통 "내 내용이 클라우드로 올라가나?"라는 질문이 먼저 나옵니다. Python Dimensions는 프라이버시를 해치지 않는 범위에서 AI를 실용적으로 배치합니다. 틀렸을 때는 문제 맥락에 맞춘 힌트를 주고, 문법 아이디어를 확인하고 싶을 때는 검색 엔진과 포럼 사이를 오가지 않고 바로 물을 수 있습니다.
 
-Just as importantly, none of this requires handing your learning history to an external server. For students, that lowers the barrier to use. For teachers, parents, or anyone wary of data leakage, it turns the app into something closer to a long-term learning tool rather than a casual demo.
+중요한 점은 이 과정 전체가 학습 이력을 외부 서버에 넘기는 전제를 요구하지 않는다는 것입니다. 학생에게는 사용 장벽을 낮추고, 교사나 부모, 데이터 유출에 민감한 사람에게는 앱을 단발성 데모가 아니라 장기 학습 도구에 가깝게 만듭니다.
 
-The AI layer also goes beyond "a chat model stuffed in for show." The question bank, error context, context-aware retrieval, and a directly executable Python playground operate inside the same loop. You answer, ask, then run code to verify; when needed, capability analytics let you see whether you're stuck at syntax, concepts, or program flow.
+AI 레이어도 "대화 모델을 그냥 넣은" 수준을 넘어섭니다. 문제은행, 오답 맥락, 문맥 인식 검색, 직접 실행 가능한 Python 플레이그라운드가 하나의 루프 안에서 작동합니다. 답하고, 묻고, 실행해 검증하는 흐름 속에서 필요하면 역량 분석으로 막힘이 문법인지 개념인지 프로그램 흐름인지도 확인할 수 있습니다.
 
-## Why this app deserves a permanent place on your phone
+## 이 앱이 휴대폰에 계속 남을 만한 이유
 
-The learning tools people actually keep opening are the ones that sense when you're about to give up, more than the ones packed with features. Python Dimensions gathers question training, AI hints, and an executable environment onto a single device. The point is to let you push forward a little, even in the moments you'd otherwise scroll away.
+사람들이 실제로 계속 여는 학습 도구는 기능이 많은 도구보다, 포기 직전의 순간을 알아차리는 도구입니다. Python Dimensions는 문제 훈련, AI 힌트, 실행 환경을 한 기기에 모아 둡니다. 다른 날 같으면 스크롤로 흘려보낼 순간에도, 조금만 앞으로 나아가게 하려는 설계입니다.
 
-What actually moves the needle isn't the rush of fifty problems in one sitting. It's the three minutes you're willing to open the app each day. Python Dimensions is built around those three minutes.
+실제로 변화를 만드는 것은 한 번에 50문제를 푼 날의 흥분이 아닙니다. 매일 3분이라도 앱을 여는 의지입니다. Python Dimensions는 그 3분을 중심에 두고 만들어졌습니다.

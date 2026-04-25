@@ -1,8 +1,7 @@
 ---
-isStub: true
 title: Kana Juku
 layout: simple
-description: "A kana-learning tool built for Chinese native speakers, with a custom keyboard and on-device AI."
+description: "중국어 모국어 화자를 위해 설계된 가나 학습 도구로, 전용 키보드와 온디바이스 AI를 제공합니다."
 images:
   - images/og/kana-juku.png
 app_slug: kana-juku
@@ -10,26 +9,26 @@ showDate: false
 showReadingTime: false
 ---
 
-## Learning kana straight into your hands
+## 가나를 손으로 바로 익히는 학습
 
-Most beginner Japanese materials quietly assume you're willing to sit through a long "romaji transition period." For native Chinese speakers, that's usually the less natural path. You already have a strong sense of character form and stroke order, and you're used to learning visually and through writing. Kana Juku starts from that premise and designs around it.
+대부분의 일본어 입문 자료는 꽤 긴 "로마자 경유 구간"을 당연하게 전제합니다. 중국어 모국어 화자에게는 대체로 더 부자연스러운 경로입니다. 이미 문자 형태와 필순에 대한 감각이 강하고, 시각과 쓰기를 통해 배우는 데 익숙하기 때문입니다. Kana Juku는 이 전제를 출발점으로 삼아 설계되었습니다.
 
-Rather than prettifying the hiragana/katakana chart, it connects "seeing the form, writing the form, typing the form, recognising the form" into a single loop. The payoff: you reach direct kana recognition sooner and rely on romaji as a crutch for less time.
+히라가나·가타카나 표를 보기 좋게 꾸미는 데 그치지 않고, "형태를 보고, 쓰고, 입력하고, 인식하는" 과정을 하나의 루프로 연결합니다. 그 결과 가나를 직접 인식하는 단계에 더 빨리 도달하고, 로마자를 버팀목처럼 오래 붙들지 않게 됩니다.
 
-## Why this approach suits Chinese speakers in particular
+## 특히 중국어 화자에게 잘 맞는 이유
 
-A Chinese speaker's real advantage lies in a strong sensitivity to character structure and visual form, less so in pronunciation. Kana Juku amplifies that advantage. You memorise kana through handwriting, image recognition, a custom keyboard, and shape association, which makes learning feel like picking up a new script rather than grinding through rote repetition.
+중국어 화자의 실제 강점은 발음보다 문자 구조와 시각 형태에 대한 민감성에 있습니다. Kana Juku는 그 강점을 확대합니다. 손글씨, 이미지 인식, 전용 키보드, 형태 연상을 통해 가나를 익히게 하여, 단순 반복 암기보다 새로운 문자를 익히는 감각에 가깝게 만듭니다.
 
-People who've quit halfway often did so because the tool's angle didn't match them, not because they didn't try hard. Kana Juku's job is to correct that angle.
+중도에 포기한 사람들 중 많은 경우는 노력이 부족해서가 아니라 도구의 접근 각도가 맞지 않았기 때문입니다. Kana Juku의 역할은 그 각도를 바로잡는 데 있습니다.
 
-## A real doorway forward, not just a memorisation drill
+## 암기 훈련이 아니라, 다음 단계로 가는 실제 입구
 
-Memorising kana is only the starting line. The real challenge is turning it into input, recognition, and comprehension ability. That's why the app goes beyond static drills and includes handwriting recognition, a custom keyboard, and AI assistance. What you're building is muscle memory closer to how kana actually gets used.
+가나 암기는 출발선일 뿐입니다. 진짜 과제는 입력, 인식, 이해 능력으로 연결하는 일입니다. 그래서 앱은 정적인 드릴을 넘어서 손글씨 인식, 전용 키보드, AI 보조를 함께 제공합니다. 여기서 쌓는 것은 가나의 실제 사용 방식에 더 가까운 근육 기억입니다.
 
-The design suits two kinds of learners especially: people starting Japanese who want a low-pressure entry point, and people who learned before, forgot, and now want familiarity back. The first group needs to skip detours; the second needs to rebuild recognition. The app works for both.
+설계는 특히 두 부류에 잘 맞습니다. 일본어를 처음 시작하며 부담이 적은 진입로를 원하는 사람, 그리고 한 번 배웠다가 잊어 다시 친숙함을 회복하려는 사람입니다. 전자는 우회를 줄여야 하고, 후자는 인식을 복구해야 합니다. 앱은 두 경우 모두를 커버합니다.
 
-## Privacy and offline have practical weight here
+## 프라이버시와 오프라인이 실제로 중요한 이유
 
-Language learning tools tend to drift toward content-platform behaviour over time. You feel like you're learning, but you're really being shuffled between recommendations. Kana Juku stays restrained. The focus sits on real input and recognition training, and both the local AI and data processing run on-device. You don't have to trade your usage habits for a little learning convenience.
+언어 학습 도구는 시간이 갈수록 콘텐츠 플랫폼처럼 변하기 쉽습니다. 배우는 것 같지만, 사실은 추천 사이를 떠도는 경험이 되기 쉽습니다. Kana Juku는 그 흐름을 경계합니다. 중심은 실제 입력과 인식 훈련에 두고, 로컬 AI와 데이터 처리도 기기 내에서 진행합니다. 작은 학습 편의를 위해 사용 습관 전체를 맞바꿀 필요가 없습니다.
 
-You don't have to let romaji lead you through kana. Kana Juku shows you that entering through the shapes works too — and often gets you there faster.
+로마자를 앞세워 가나를 배울 필요는 없습니다. Kana Juku는 형태로 들어가는 길도 충분히 가능하고, 종종 더 빠르다는 점을 보여줍니다.

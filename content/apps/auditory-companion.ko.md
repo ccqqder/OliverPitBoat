@@ -1,8 +1,7 @@
 ---
-isStub: true
 title: Auditory Companion
 layout: simple
-description: "Real-time DSP-synthesized noise, 108 ambient sounds, and immersive TTS reading — all computed on-device."
+description: "실시간 DSP 합성 노이즈, 108가지 앰비언트 사운드, 몰입형 TTS 읽기까지 모두 기기 내에서 처리합니다."
 images:
   - images/og/auditory-companion.png
 app_slug: auditory-companion
@@ -10,28 +9,28 @@ showDate: false
 showReadingTime: false
 ---
 
-## Sound as something you design, not just play in the background
+## 배경으로 틀어두는 소리가 아니라, 직접 설계하는 사운드
 
-Most white noise apps eventually converge on the same conclusion: play rain, waves, or wind, and hope it helps you focus or sleep. Auditory Companion aims further. Instead of bundling a handful of ambient samples, it treats "how sound forms an inhabitable space" as the product's core.
+대부분의 화이트 노이즈 앱은 결국 비슷한 결론으로 모입니다. 비, 파도, 바람을 재생해 두고 집중이나 수면에 도움이 되길 기대하는 방식입니다. Auditory Companion은 여기서 더 멀리 갑니다. 몇 개의 앰비언트 샘플을 묶어두는 대신, "소리가 어떻게 사람이 머물 수 있는 공간을 만드는가"를 제품의 중심으로 둡니다.
 
-So what you see is three distinct systems rather than a playlist: a noise synthesizer, a scene mixer, and a reader. You can shape your acoustic environment from several directions: a stable, emotionally flat spectrum when you need it; the layered spatial feel of a rainy night, a fireplace, or a café at other times; a frame that lets reading voice and background sound coexist when the task calls for it.
+그래서 화면에는 재생 목록이 아니라 서로 다른 세 가지 시스템이 놓여 있습니다. 노이즈 신디사이저, 씬 믹서, 리더입니다. 지금 상태에 맞춰 여러 방향에서 음향 환경을 조절할 수 있습니다. 안정적이고 감정 기복이 적은 스펙트럼이 필요할 때도 있고, 비 오는 밤이나 벽난로, 카페 같은 층위감이 필요할 때도 있습니다. 읽는 음성과 배경 사운드를 함께 두어야 할 때를 위한 프레임도 있습니다.
 
-## When it's most valuable
+## 가장 가치가 커지는 순간
 
-For long stretches of reading, writing, or deep work, "play some nature sounds" usually falls short; what's actually useful is an adjustable soundscape. Auditory Companion fits here. Lay down a noise floor with the synthesizer, layer in event sounds and loops in the scene mixer, then let the reader speak the text aloud. The fit to your current state is much closer than simply opening a Spotify playlist.
+긴 시간 읽고 쓰고 깊게 몰입해야 할 때는 "자연 소리 틀기"만으로는 보통 부족합니다. 실제로 도움이 되는 것은 조절 가능한 사운드스케이프입니다. Auditory Companion은 바로 이 지점에 맞춰져 있습니다. 신디사이저로 노이즈 바닥을 깔고, 씬 믹서로 이벤트 사운드와 루프를 겹친 뒤, 리더로 텍스트를 읽어주게 하면 됩니다. Spotify 재생목록을 여는 것보다 지금 컨디션에 훨씬 가깝게 맞출 수 있습니다.
 
-Relaxation and pre-sleep are another common scenario. Many people want silence that isn't actually silent: a sound that masks the outside world without demanding attention. That's where adjustable noise and scene mixing earn their place: you're not forced to pick between a handful of canned presets.
+휴식이나 취침 전에도 자주 쓰입니다. 많은 사람에게 필요한 건 완전한 무음이 아니라, 바깥 소리를 가려주되 주의를 빼앗지 않는 소리입니다. 이때 조절 가능한 노이즈와 씬 믹싱의 가치가 드러납니다. 몇 가지 고정 프리셋 중에서 억지로 고를 필요가 없습니다.
 
-## The real story is sound-control granularity
+## 핵심은 사운드 제어의 촘촘함
 
-Think of it as a small personal sound workstation. The synthesizer handles spectrum and texture; the scene mixer handles atmosphere and spatial feel; the reader handles content input. Each module stands on its own; together they form a complete focus system.
+작은 개인용 사운드 워크스테이션이라고 생각하면 쉽습니다. 신디사이저는 스펙트럼과 질감을 담당하고, 씬 믹서는 분위기와 공간감을 담당하며, 리더는 콘텐츠 입력을 맡습니다. 각 모듈은 따로 써도 의미가 있고, 함께 쓰면 완성된 집중 시스템이 됩니다.
 
-That's also why it resonates with "people who need background sound." You get to find the configuration you can actually sit with for hours, rather than accepting whatever soundfield someone else prepared.
+그래서 이 앱은 단순히 "배경 소리가 필요한 사람"에게서 한 발 더 깊게 반응을 얻습니다. 누군가가 미리 만들어 둔 사운드 필드를 받아들이는 대신, 내가 몇 시간이고 버틸 수 있는 구성을 직접 찾을 수 있기 때문입니다.
 
-The detail work shows up clearly: the synthesizer puts four noise colors (white, pink, brown, green) and multiple parameters directly in your hands, going well past an on/off switch. The scene mixer lets you layer hundreds of audio samples into stackable scenes instead of playing one file. The reader wraps on-device TTS, automatic background-audio ducking, and a full-screen player into a single flow.
+세부 설계도 분명합니다. 신디사이저는 화이트, 핑크, 브라운, 그린 네 가지 노이즈 컬러와 여러 파라미터를 직접 만지게 하며, 단순 온오프를 훨씬 넘어섭니다. 씬 믹서는 단일 파일 재생이 아니라 수백 개 오디오 샘플을 겹쳐 장면을 쌓게 합니다. 리더는 기기 내 TTS, 자동 배경음 ducking, 전체 화면 플레이어를 하나의 흐름으로 묶습니다.
 
-## Keeping sound and reading data on-device is practically significant
+## 사운드와 읽기 데이터를 기기 내에 두는 것의 현실적 의미
 
-What you read, listen to, and paste in tends to be private, especially when an app supports clipboard reading or local TTS. If that content travels to a server, the experience sours immediately. Auditory Companion keeps synthesis, mixing, and reading on-device, and that shapes whether you'll comfortably use it as a daily tool, not just whether you'll try it once.
+읽고 듣고 붙여 넣는 내용은 생각보다 사적인 경우가 많습니다. 특히 클립보드 읽기나 로컬 TTS를 지원할 때는 더 그렇습니다. 그 내용이 서버로 이동하는 순간 경험은 바로 불편해집니다. Auditory Companion은 합성, 믹싱, 읽기를 기기 내에서 처리하며, 이 점이 이 앱을 한 번 써보는 앱이 아니라 매일 쓰는 도구로 만들 수 있는지에 직접 영향을 줍니다.
 
-If you're looking for a sound engine that can keep you company through work, reading, downtime, and immersive listening, rather than an app measured by "how many ambient tracks," it's worth trying this one firsthand.
+"앰비언트 트랙이 몇 개냐"가 아니라, 일할 때와 읽을 때, 쉬는 시간과 몰입 청취까지 함께 갈 수 있는 사운드 엔진을 찾고 있다면 이 앱을 직접 써볼 만합니다.
