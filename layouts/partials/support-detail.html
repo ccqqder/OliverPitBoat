@@ -33,7 +33,8 @@
               {{ $app := index $appData 0 }}
               {{ if $app.shipped }}
                 {{ $appName := $app.name }}
-                {{ if or $isJa $isZh }}{{ $appName = $app.name_zh }}{{ end }}
+                {{ if or $isJa (eq $lang "zh-tw") }}{{ $appName = $app.name_zh }}{{ end }}
+                {{ if eq $lang "zh-hans" }}{{ $appName = or $app.name_zh_hans $app.name_zh }}{{ end }}
                 <li><a href="{{ .RelPermalink }}">{{ $appName }}</a></li>
               {{ end }}
             {{ end }}
