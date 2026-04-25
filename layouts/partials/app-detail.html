@@ -102,7 +102,7 @@
         <a href="{{ strings.TrimPrefix "/" $app.support_url | relLangURL }}" class="pp-btn pp-btn--ghost">{{ $supportLabel }}</a>
         <a href="{{ strings.TrimPrefix "/" $app.privacy_url | relLangURL }}" class="pp-btn pp-btn--ghost">{{ $privacyLabel }}</a>
         {{ with $app.terms_url }}
-          <a href="{{ strings.TrimPrefix "/" . | relLangURL }}" class="pp-btn pp-btn--ghost">{{ $termsLabel }}</a>
+          <a href="{{ strings.TrimPrefix "/" . | relURL }}" class="pp-btn pp-btn--ghost">{{ $termsLabel }}</a>
         {{ end }}
       </div>
     </header>
@@ -120,7 +120,7 @@
         <a href="{{ strings.TrimPrefix "/" $app.support_url | relLangURL }}" class="pp-btn pp-btn--ghost">{{ $supportLabel }}</a>
         <a href="{{ strings.TrimPrefix "/" $app.privacy_url | relLangURL }}" class="pp-btn pp-btn--ghost">{{ $privacyLabel }}</a>
         {{ with $app.terms_url }}
-          <a href="{{ strings.TrimPrefix "/" . | relLangURL }}" class="pp-btn pp-btn--ghost">{{ $termsLabel }}</a>
+          <a href="{{ strings.TrimPrefix "/" . | relURL }}" class="pp-btn pp-btn--ghost">{{ $termsLabel }}</a>
         {{ end }}
       </div>
     </section>
