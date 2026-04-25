@@ -1,32 +1,31 @@
 ---
-isStub: true
-title: About
+title: Giới thiệu
 layout: simple
-summary: The Miniature Boat
+summary: Chiếc thuyền hạt
 ---
 
-## About This Site
+## Về trang này
 
-* The title refers to "The Miniature Boat" (核舟記) — a classical Chinese text about an impossibly detailed carving on a tiny boat. It means this site can't carry much, just small crafts and the joy of making things, leaving behind a trace of information.
-* Here I share real examples of using AI to help build apps, make small tools, and improve everyday efficiency — along with ideas, reflections, and setbacks.
-* I won't rehash the hot takes everyone's already discussing. In short, the focus is on the process of mining, not repeatedly introducing the shovel.
-
----
-
-## About Me
-
-* Legal name: ChengChe Lee · qqder339@gmail.com
-* Until age 24, I identified as a humanities person. After that, I became a system administrator (the "admin" that error messages tell you to contact).
-* I use AI in a punk rock way — simple chords, rough technique, but genuine expression.
-* All text on this site is written by me personally, without AI ghostwriting or polishing, because the fun parts should be enjoyed firsthand.
+* Tiêu đề nhắc đến "Chiếc thuyền hạt" (核舟記), một văn bản cổ Trung Hoa kể về tác phẩm chạm khắc tinh vi đến khó tin trên một chiếc thuyền rất nhỏ. Với trang này, điều đó có nghĩa là nó không chở được nhiều: chỉ có vài món thủ công nhỏ, niềm vui khi làm ra thứ gì đó, và một chút dấu vết thông tin.
+* Ở đây tôi chia sẻ các ví dụ thực tế về việc dùng AI để hỗ trợ viết app, làm công cụ nhỏ và cải thiện hiệu suất đời thường, cùng với ý tưởng, suy ngẫm và những lần vấp ngã.
+* Tôi sẽ không lặp lại những chủ đề nóng mà mọi người đã bàn quá nhiều. Nói ngắn gọn, trọng tâm là quá trình đào mỏ, không phải giới thiệu lại chiếc xẻng.
 
 ---
 
-## Philosophy
+## Về tôi
 
-* Experience is ownership — experiencing something new takes priority over whether it can make money.
-* Success doesn't have to be mine — if someone else is willing to do the same thing and does it better, I'll find something else to work on.
+* Tên pháp lý: ChengChe Lee · qqder339@gmail.com
+* Trước năm 24 tuổi, tôi vẫn tự xem mình là người thuộc khối nhân văn. Sau đó, tôi trở thành quản trị viên hệ thống, tức "admin" mà các thông báo lỗi bảo bạn liên hệ.
+* Tôi dùng AI theo kiểu punk rock: hợp âm đơn giản, kỹ thuật thô ráp, nhưng biểu đạt chân thật.
+* Tất cả văn bản trên trang này đều do tôi tự viết, không nhờ AI viết hộ hay trau chuốt, vì những phần thú vị nên được tự mình trải nghiệm.
 
-> After the invention of cinema, human life has been extended by at least three times. — *Yi Yi: A One and a Two*
+---
 
-* AI is this era's new medium for extending human life.
+## Triết lý
+
+* Trải nghiệm chính là sở hữu: được trải nghiệm điều mới quan trọng hơn việc nó có kiếm ra tiền hay không.
+* Thành công không nhất thiết phải thuộc về tôi: nếu ai đó sẵn sàng làm cùng một việc và làm tốt hơn, tôi sẽ đi tìm việc khác để làm.
+
+> Sau khi điện ảnh được phát minh, đời người đã được kéo dài ít nhất ba lần. — *Yi Yi: A One and a Two*
+
+* AI là phương tiện mới của thời đại này để kéo dài đời sống con người.

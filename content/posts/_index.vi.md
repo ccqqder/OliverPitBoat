@@ -1,5 +1,4 @@
 ---
-isStub: true
 title: Blog
-description: All articles from The Miniature Boat
+description: Tất cả bài viết từ Chiếc thuyền hạt
 ---

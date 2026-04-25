@@ -1,32 +1,31 @@
 ---
-isStub: true
-title: About
+title: 소개
 layout: simple
-summary: The Miniature Boat
+summary: 핵주기
 ---
 
-## About This Site
+## 이 사이트에 대하여
 
-* The title refers to "The Miniature Boat" (核舟記) — a classical Chinese text about an impossibly detailed carving on a tiny boat. It means this site can't carry much, just small crafts and the joy of making things, leaving behind a trace of information.
-* Here I share real examples of using AI to help build apps, make small tools, and improve everyday efficiency — along with ideas, reflections, and setbacks.
-* I won't rehash the hot takes everyone's already discussing. In short, the focus is on the process of mining, not repeatedly introducing the shovel.
-
----
-
-## About Me
-
-* Legal name: ChengChe Lee · qqder339@gmail.com
-* Until age 24, I identified as a humanities person. After that, I became a system administrator (the "admin" that error messages tell you to contact).
-* I use AI in a punk rock way — simple chords, rough technique, but genuine expression.
-* All text on this site is written by me personally, without AI ghostwriting or polishing, because the fun parts should be enjoyed firsthand.
+* 제목은 작은 배 위에 믿기 어려울 만큼 정교한 조각을 묘사한 중국 고전 「핵주기」(核舟記)에서 왔습니다. 이 사이트도 많은 것을 싣지는 못합니다. 작은 작업물과 만드는 즐거움, 그리고 약간의 기록을 남기는 곳입니다.
+* 여기서는 AI를 활용해 앱을 만들고, 작은 도구를 제작하고, 일상의 효율을 개선한 실제 사례를 공유합니다. 아이디어, 성찰, 시행착오도 함께 기록합니다.
+* 모두가 이미 이야기하는 뜨거운 주제를 반복하지는 않겠습니다. 요컨대 삽을 계속 소개하기보다, 직접 광맥을 캐는 과정에 초점을 둡니다.
 
 ---
 
-## Philosophy
+## 저에 대하여
 
-* Experience is ownership — experiencing something new takes priority over whether it can make money.
-* Success doesn't have to be mine — if someone else is willing to do the same thing and does it better, I'll find something else to work on.
+* 법적 이름: ChengChe Lee · qqder339@gmail.com
+* 스물네 살까지는 스스로를 인문계 사람이라고 생각했습니다. 그 뒤에는 시스템 관리자가 되었습니다. 오류 메시지가 문의하라고 말하는 바로 그 "관리자"입니다.
+* 저는 AI를 펑크 록처럼 사용합니다. 단순한 코드, 거친 기술, 하지만 진심 어린 표현으로요.
+* 이 사이트의 모든 글은 제가 직접 씁니다. AI 대필이나 윤문을 거치지 않습니다. 재미있는 부분은 직접 즐겨야 하니까요.
 
-> After the invention of cinema, human life has been extended by at least three times. — *Yi Yi: A One and a Two*
+---
 
-* AI is this era's new medium for extending human life.
+## 철학
+
+* 경험은 곧 소유입니다. 새로운 것을 경험하는 일은 그것이 돈이 되는지보다 우선합니다.
+* 성공이 반드시 제 것이어야 할 필요는 없습니다. 누군가 같은 일을 더 잘 해내겠다면, 저는 다른 일을 찾으러 갈 것입니다.
+
+> 영화가 발명된 뒤 인간의 삶은 적어도 세 배는 연장되었다. — *Yi Yi: A One and a Two*
+
+* AI는 이 시대에 인간의 삶을 연장하는 새로운 매체입니다.

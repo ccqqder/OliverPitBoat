@@ -1,32 +1,31 @@
 ---
-isStub: true
-title: About
+title: À propos
 layout: simple
-summary: The Miniature Boat
+summary: La Barque miniature
 ---
 
-## About This Site
+## À propos de ce site
 
-* The title refers to "The Miniature Boat" (核舟記) — a classical Chinese text about an impossibly detailed carving on a tiny boat. It means this site can't carry much, just small crafts and the joy of making things, leaving behind a trace of information.
-* Here I share real examples of using AI to help build apps, make small tools, and improve everyday efficiency — along with ideas, reflections, and setbacks.
-* I won't rehash the hot takes everyone's already discussing. In short, the focus is on the process of mining, not repeatedly introducing the shovel.
-
----
-
-## About Me
-
-* Legal name: ChengChe Lee · qqder339@gmail.com
-* Until age 24, I identified as a humanities person. After that, I became a system administrator (the "admin" that error messages tell you to contact).
-* I use AI in a punk rock way — simple chords, rough technique, but genuine expression.
-* All text on this site is written by me personally, without AI ghostwriting or polishing, because the fun parts should be enjoyed firsthand.
+* Le titre renvoie à « La Barque miniature » (核舟記), un texte classique chinois décrivant une sculpture incroyablement détaillée sur une toute petite barque. Pour ce site, cela signifie qu'il ne transporte pas grand-chose : seulement de petits ouvrages, le plaisir de fabriquer, et quelques traces laissées derrière soi.
+* J'y partage des exemples concrets d'utilisation de l'IA pour créer des apps, fabriquer de petits outils et améliorer l'efficacité du quotidien, avec les idées, réflexions et échecs qui les accompagnent.
+* Je ne vais pas répéter les sujets brûlants dont tout le monde parle déjà. En bref, je m'intéresse au processus d'extraction, pas à la présentation répétée de la pelle.
 
 ---
 
-## Philosophy
+## À propos de moi
 
-* Experience is ownership — experiencing something new takes priority over whether it can make money.
-* Success doesn't have to be mine — if someone else is willing to do the same thing and does it better, I'll find something else to work on.
+* Nom légal : ChengChe Lee · qqder339@gmail.com
+* Jusqu'à 24 ans, je me voyais comme quelqu'un issu des lettres et sciences humaines. Ensuite, je suis devenu administrateur système, le fameux « admin » que les messages d'erreur vous invitent à contacter.
+* J'utilise l'IA comme du punk rock : accords simples, technique brute, mais expression sincère.
+* Tous les textes de ce site sont écrits par moi-même, sans rédaction fantôme ni polissage par IA, parce que les parties amusantes méritent d'être vécues directement.
 
-> After the invention of cinema, human life has been extended by at least three times. — *Yi Yi: A One and a Two*
+---
 
-* AI is this era's new medium for extending human life.
+## Philosophie
+
+* L'expérience est une forme de possession : vivre quelque chose de nouveau passe avant la question de savoir si cela peut rapporter de l'argent.
+* Le succès n'a pas besoin d'être le mien : si quelqu'un d'autre veut faire la même chose et le fait mieux, je chercherai autre chose à explorer.
+
+> Après l'invention du cinéma, la vie humaine a été prolongée d'au moins trois fois. — *Yi Yi: A One and a Two*
+
+* L'IA est le nouveau médium de notre époque pour prolonger la vie humaine.
