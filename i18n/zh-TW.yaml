@@ -34,3 +34,43 @@ app_quick_links_desc:
   other: 你可以直接進 App Store，也可以先看支援頁與隱私政策。
 app_download_label:
   other: 到 App Store 下載
+support_page_title_suffix:
+  other: 支援
+support_page_intro:
+  other: 問題回報、使用疑問與隱私相關詢問都可以從這裡開始。
+support_index_intro:
+  other: 如果你在使用任何一款 App 時遇到問題、有使用上的疑問，或希望提出隱私相關詢問，都可以從下列連結找到對應的支援頁。每一頁都會提供聯絡信箱、產品頁與隱私權政策。
+privacy_index_intro:
+  other: 所有 App 的隱私權政策。我們的應用程式均不蒐集任何個人使用者資料。所有 AI 運算完全在裝置上執行。
+index_view_label:
+  other: 前往
+apps_line_offline_growth_title:
+  other: 離線成長
+apps_line_offline_growth_desc:
+  other: 面向語言學習、自省沉澱與長期成長的產品。
+apps_line_digital_citizen_title:
+  other: 數位公民
+apps_line_digital_citizen_desc:
+  other: 聚焦真實性、記憶與個人數位主體性的產品。
+apps_category_language_learning:
+  other: 語言學習
+apps_category_self_reflection:
+  other: 自省沉澱
+apps_category_democracy_edc:
+  other: 民主EDC
+apps_view_label:
+  other: 查看產品頁
+apps_support_index_label:
+  other: 支援總覽
+apps_privacy_index_label:
+  other: 隱私總覽
+apps_in_dev_title:
+  other: 製作中
+apps_in_dev_desc:
+  other: 目前還在開發階段的產品，下方進度對應內部建置狀態。
+apps_progress_label:
+  other: 進度
+apps_further_nav_title:
+  other: 延伸導覽
+apps_further_nav_desc:
+  other: 想看跨 App 的支援總覽與隱私總覽，可以從下面進入。

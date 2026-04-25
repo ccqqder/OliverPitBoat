@@ -34,3 +34,43 @@ app_quick_links_desc:
   other: 您可以直接前往 App Store，或先查看支持页面和隐私政策。
 app_download_label:
   other: 在 App Store 下载
+support_page_title_suffix:
+  other: 支持
+support_page_intro:
+  other: 问题反馈、使用疑问与隐私相关咨询都可以从这里开始。
+support_index_intro:
+  other: 所有已上线应用的支持页面。每页提供联系方式、App Store 链接和隐私政策链接。
+privacy_index_intro:
+  other: 所有应用的隐私政策。我们的应用不收集任何用户个人数据。所有 AI 处理完全在设备上进行。
+index_view_label:
+  other: 前往
+apps_line_offline_growth_title:
+  other: 离线成长
+apps_line_offline_growth_desc:
+  other: 面向语言学习、内省沉淀与长期成长的产品。
+apps_line_digital_citizen_title:
+  other: 数字公民
+apps_line_digital_citizen_desc:
+  other: 专注于真实性、记忆与个人数字主体性的产品。
+apps_category_language_learning:
+  other: 语言学习
+apps_category_self_reflection:
+  other: 内省沉淀
+apps_category_democracy_edc:
+  other: 民主EDC
+apps_view_label:
+  other: 查看产品页
+apps_support_index_label:
+  other: 支持总览
+apps_privacy_index_label:
+  other: 隐私总览
+apps_in_dev_title:
+  other: 开发中
+apps_in_dev_desc:
+  other: 目前处于开发阶段的产品，进度数字对应内部构建状态。
+apps_progress_label:
+  other: 进度
+apps_further_nav_title:
+  other: 延伸导航
+apps_further_nav_desc:
+  other: 可通过以下链接查看跨应用的支持总览与隐私总览。

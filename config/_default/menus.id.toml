@@ -1,0 +1,29 @@
+[[main]]
+  name = "Beranda"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "Aplikasi"
+  pageRef = "apps"
+  weight = 20
+
+[[main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 30
+
+[[main]]
+  name = "Tentang"
+  pageRef = "about"
+  weight = 40
+
+[[footer]]
+  name = "Dukungan"
+  pageRef = "support"
+  weight = 10
+
+[[footer]]
+  name = "Privasi"
+  pageRef = "privacy"
+  weight = 20

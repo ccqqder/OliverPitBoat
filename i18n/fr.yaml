@@ -34,3 +34,43 @@ app_quick_links_desc:
   other: Rendez-vous directement sur le store, ou consultez d'abord les pages d'assistance et de confidentialité.
 app_download_label:
   other: Télécharger sur l'App Store
+support_page_title_suffix:
+  other: Assistance
+support_page_intro:
+  other: Signalement de bugs, questions d'utilisation et demandes liées à la confidentialité — tout commence par cette page.
+support_index_intro:
+  other: Pages d'assistance pour toutes les applications publiées. Chaque page fournit les coordonnées, le lien App Store et le lien vers la politique de confidentialité.
+privacy_index_intro:
+  other: Politiques de confidentialité pour toutes les applications. Aucune de nos applications ne collecte de données personnelles. Tout le traitement IA s'effectue entièrement sur votre appareil.
+index_view_label:
+  other: Voir
+apps_line_offline_growth_title:
+  other: Croissance hors ligne
+apps_line_offline_growth_desc:
+  other: Outils pour l'apprentissage des langues, la réflexion et la croissance personnelle à long terme.
+apps_line_digital_citizen_title:
+  other: Citoyen numérique
+apps_line_digital_citizen_desc:
+  other: Applications axées sur l'authenticité, la mémoire et l'autonomie numérique personnelle.
+apps_category_language_learning:
+  other: Apprentissage des langues
+apps_category_self_reflection:
+  other: Auto-réflexion
+apps_category_democracy_edc:
+  other: Démocratie EDC
+apps_view_label:
+  other: Voir l'app
+apps_support_index_label:
+  other: Index d'assistance
+apps_privacy_index_label:
+  other: Index de confidentialité
+apps_in_dev_title:
+  other: En développement
+apps_in_dev_desc:
+  other: Produits actuellement en développement actif. Les pourcentages reflètent l'état de construction interne.
+apps_progress_label:
+  other: Progression
+apps_further_nav_title:
+  other: Navigation complémentaire
+apps_further_nav_desc:
+  other: Utilisez les liens ci-dessous pour accéder aux index d'assistance et de confidentialité de toutes les applications.

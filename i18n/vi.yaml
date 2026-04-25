@@ -34,3 +34,43 @@ app_quick_links_desc:
   other: Đến thẳng cửa hàng, hoặc đọc trang hỗ trợ và quyền riêng tư trước.
 app_download_label:
   other: Tải trên App Store
+support_page_title_suffix:
+  other: Hỗ trợ
+support_page_intro:
+  other: Báo lỗi, câu hỏi sử dụng và yêu cầu liên quan đến quyền riêng tư — tất cả bắt đầu từ trang này.
+support_index_intro:
+  other: Trang hỗ trợ cho tất cả ứng dụng đã phát hành. Mỗi trang cung cấp thông tin liên hệ, liên kết App Store và liên kết chính sách quyền riêng tư.
+privacy_index_intro:
+  other: Chính sách quyền riêng tư cho tất cả ứng dụng. Không có ứng dụng nào của chúng tôi thu thập dữ liệu cá nhân. Toàn bộ xử lý AI diễn ra hoàn toàn trên thiết bị của bạn.
+index_view_label:
+  other: Xem
+apps_line_offline_growth_title:
+  other: Phát triển ngoại tuyến
+apps_line_offline_growth_desc:
+  other: Công cụ học ngôn ngữ, tự phản chiếu và phát triển bản thân lâu dài.
+apps_line_digital_citizen_title:
+  other: Công dân số
+apps_line_digital_citizen_desc:
+  other: Ứng dụng tập trung vào tính xác thực, ký ức và chủ quyền kỹ thuật số cá nhân.
+apps_category_language_learning:
+  other: Học ngôn ngữ
+apps_category_self_reflection:
+  other: Tự phản chiếu
+apps_category_democracy_edc:
+  other: Dân chủ EDC
+apps_view_label:
+  other: Xem ứng dụng
+apps_support_index_label:
+  other: Danh mục hỗ trợ
+apps_privacy_index_label:
+  other: Danh mục quyền riêng tư
+apps_in_dev_title:
+  other: Đang phát triển
+apps_in_dev_desc:
+  other: Sản phẩm đang trong quá trình phát triển tích cực. Tỷ lệ phần trăm phản ánh trạng thái xây dựng nội bộ.
+apps_progress_label:
+  other: Tiến độ
+apps_further_nav_title:
+  other: Điều hướng thêm
+apps_further_nav_desc:
+  other: Sử dụng các liên kết bên dưới để xem danh mục hỗ trợ và quyền riêng tư của tất cả ứng dụng.

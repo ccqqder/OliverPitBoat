@@ -1,0 +1,29 @@
+[[main]]
+  name = "Trang chủ"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "Ứng dụng"
+  pageRef = "apps"
+  weight = 20
+
+[[main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 30
+
+[[main]]
+  name = "Giới thiệu"
+  pageRef = "about"
+  weight = 40
+
+[[footer]]
+  name = "Hỗ trợ"
+  pageRef = "support"
+  weight = 10
+
+[[footer]]
+  name = "Quyền riêng tư"
+  pageRef = "privacy"
+  weight = 20

@@ -1,0 +1,45 @@
+{{ $lang := site.Language.Lang }}
+{{ $isJa := eq $lang "ja" }}
+{{ $isZh := or (eq $lang "zh-tw") (eq $lang "zh-hans") }}
+
+<article class="pp-container pp-container--narrow">
+  {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
+    {{ partial "breadcrumbs.html" . }}
+  {{ end }}
+
+  {{ if or (eq .Kind "section") (eq .Kind "home") }}
+    <header class="pp-header">
+      <h1 class="pp-header__title">{{ .Title | emojify }}</h1>
+      {{ with .Params.summary }}<p class="pp-header__summary">{{ . }}</p>{{ end }}
+    </header>
+    {{ $indexIntro := i18n "privacy_index_intro" | default "Privacy policies for all apps." }}
+    {{ $privacyPages := where site.RegularPages "Section" "privacy" }}
+    <section class="pp-intro prose dark:prose-invert">
+      <p>{{ $indexIntro }}</p>
+    </section>
+    <section class="pp-section">
+      <ul class="pp-panel__list">
+        {{ range $privacyPages.ByTitle }}
+          {{ $appSlug := .File.ContentBaseName }}
+          {{ $appData := where site.Data.app_url_matrix "slug" $appSlug }}
+          {{ if gt (len $appData) 0 }}
+            {{ $app := index $appData 0 }}
+            {{ if $app.shipped }}
+              {{ $appName := $app.name }}
+              {{ if or $isJa $isZh }}{{ $appName = $app.name_zh }}{{ end }}
+              <li><a href="{{ .RelPermalink }}">{{ $appName }}</a></li>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </ul>
+    </section>
+  {{ else }}
+    <header class="pp-header">
+      <h1 class="pp-header__title">{{ .Title | emojify }}</h1>
+      {{ with .Params.summary }}<p class="pp-header__summary">{{ . }}</p>{{ end }}
+    </header>
+    <section class="pp-intro prose dark:prose-invert">
+      {{ .Content }}
+    </section>
+  {{ end }}
+</article>

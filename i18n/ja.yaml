@@ -34,3 +34,43 @@ app_quick_links_desc:
   other: ストアに直接進むか、先にサポートとプライバシーを確認してから始められます。
 app_download_label:
   other: App Store でダウンロード
+support_page_title_suffix:
+  other: サポート
+support_page_intro:
+  other: 不具合報告・利用上の質問・プライバシー関連のお問い合わせは、このページから始められます。
+support_index_intro:
+  other: リリース済みすべてのアプリのサポートページです。各ページにはお問い合わせ先、App Storeリンク、プライバシーポリシーリンクが記載されています。
+privacy_index_intro:
+  other: 各アプリのプライバシーポリシーです。ユーザーの個人データは一切収集していません。すべてのAI処理はデバイス上で完結します。
+index_view_label:
+  other: 確認
+apps_line_offline_growth_title:
+  other: オフライン成長
+apps_line_offline_growth_desc:
+  other: 語学学習・内省・長期的な自己成長のための道具群。
+apps_line_digital_citizen_title:
+  other: デジタル市民
+apps_line_digital_citizen_desc:
+  other: 真正性、記憶、そして個人のデジタル主体性に焦点を置くアプリ群。
+apps_category_language_learning:
+  other: 語学学習
+apps_category_self_reflection:
+  other: 内省・沈思
+apps_category_democracy_edc:
+  other: 民主EDC
+apps_view_label:
+  other: 詳細を見る
+apps_support_index_label:
+  other: サポート一覧
+apps_privacy_index_label:
+  other: プライバシー一覧
+apps_in_dev_title:
+  other: 開発中
+apps_in_dev_desc:
+  other: 現在開発中のプロダクト。進捗は社内のビルド状況に基づきます。
+apps_progress_label:
+  other: 進捗
+apps_further_nav_title:
+  other: 補助ナビゲーション
+apps_further_nav_desc:
+  other: 全アプリ横断のサポート・プライバシー一覧は以下から辿れます。

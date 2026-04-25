@@ -163,7 +163,7 @@
         <h2 class="pp-section__title">{{ $linksTitle }}</h2>
         <ul class="pp-panel__list">
           {{ range . }}
-            <li><a href="{{ strings.TrimPrefix "/" .url | relURL }}">{{ .title }}</a></li>
+            <li><a href="{{ strings.TrimPrefix "/" .url | relLangURL }}">{{ .title }}</a></li>
           {{ end }}
         </ul>
       </section>

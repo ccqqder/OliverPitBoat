@@ -34,3 +34,43 @@ app_quick_links_desc:
   other: 스토어로 바로 이동하거나, 먼저 지원 및 개인정보 보호 페이지를 확인하세요.
 app_download_label:
   other: App Store에서 다운로드
+support_page_title_suffix:
+  other: 지원
+support_page_intro:
+  other: 버그 신고, 사용 문의, 개인정보 관련 문의는 이 페이지에서 시작하세요.
+support_index_intro:
+  other: 출시된 모든 앱의 지원 페이지입니다. 각 페이지에는 연락처, App Store 링크, 개인정보 처리방침 링크가 있습니다.
+privacy_index_intro:
+  other: 모든 앱의 개인정보 처리방침입니다. 어떤 앱도 개인 사용자 데이터를 수집하지 않습니다. 모든 AI 처리는 기기에서 완전히 실행됩니다.
+index_view_label:
+  other: 보기
+apps_line_offline_growth_title:
+  other: 오프라인 성장
+apps_line_offline_growth_desc:
+  other: 언어 학습, 자기 성찰, 장기적인 개인 성장을 위한 도구들.
+apps_line_digital_citizen_title:
+  other: 디지털 시민
+apps_line_digital_citizen_desc:
+  other: 진정성, 기억, 개인 디지털 주체성에 집중한 앱들.
+apps_category_language_learning:
+  other: 언어 학습
+apps_category_self_reflection:
+  other: 자기 성찰
+apps_category_democracy_edc:
+  other: 민주주의 EDC
+apps_view_label:
+  other: 앱 보기
+apps_support_index_label:
+  other: 지원 목록
+apps_privacy_index_label:
+  other: 개인정보 목록
+apps_in_dev_title:
+  other: 개발 중
+apps_in_dev_desc:
+  other: 현재 활발히 개발 중인 제품입니다. 진행률은 내부 빌드 상태를 반영합니다.
+apps_progress_label:
+  other: 진행률
+apps_further_nav_title:
+  other: 추가 탐색
+apps_further_nav_desc:
+  other: 아래 링크를 사용하여 모든 앱의 지원 및 개인정보 보호 목록을 확인하세요.

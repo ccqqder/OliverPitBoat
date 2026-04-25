@@ -1,0 +1,29 @@
+[[main]]
+  name = "Accueil"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "Apps"
+  pageRef = "apps"
+  weight = 20
+
+[[main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 30
+
+[[main]]
+  name = "À propos"
+  pageRef = "about"
+  weight = 40
+
+[[footer]]
+  name = "Assistance"
+  pageRef = "support"
+  weight = 10
+
+[[footer]]
+  name = "Confidentialité"
+  pageRef = "privacy"
+  weight = 20

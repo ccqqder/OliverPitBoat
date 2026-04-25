@@ -34,3 +34,43 @@ app_quick_links_desc:
   other: Langsung ke toko, atau baca halaman dukungan dan privasi terlebih dahulu.
 app_download_label:
   other: Unduh di App Store
+support_page_title_suffix:
+  other: Dukungan
+support_page_intro:
+  other: Laporan bug, pertanyaan penggunaan, dan permintaan terkait privasi — semuanya dimulai dari halaman ini.
+support_index_intro:
+  other: Halaman dukungan untuk semua aplikasi yang telah dirilis. Setiap halaman menyediakan informasi kontak, tautan App Store, dan tautan kebijakan privasi.
+privacy_index_intro:
+  other: Kebijakan privasi untuk semua aplikasi. Tidak ada aplikasi kami yang mengumpulkan data pribadi pengguna. Semua pemrosesan AI berjalan sepenuhnya di perangkat Anda.
+index_view_label:
+  other: Lihat
+apps_line_offline_growth_title:
+  other: Pertumbuhan offline
+apps_line_offline_growth_desc:
+  other: Alat untuk pembelajaran bahasa, refleksi, dan pertumbuhan pribadi jangka panjang.
+apps_line_digital_citizen_title:
+  other: Warga digital
+apps_line_digital_citizen_desc:
+  other: Aplikasi yang berfokus pada keaslian, memori, dan kemandirian digital pribadi.
+apps_category_language_learning:
+  other: Pembelajaran bahasa
+apps_category_self_reflection:
+  other: Refleksi diri
+apps_category_democracy_edc:
+  other: Demokrasi EDC
+apps_view_label:
+  other: Lihat aplikasi
+apps_support_index_label:
+  other: Indeks dukungan
+apps_privacy_index_label:
+  other: Indeks privasi
+apps_in_dev_title:
+  other: Dalam pengembangan
+apps_in_dev_desc:
+  other: Produk yang sedang dalam pengembangan aktif. Angka kemajuan mencerminkan status build internal.
+apps_progress_label:
+  other: Kemajuan
+apps_further_nav_title:
+  other: Navigasi lanjutan
+apps_further_nav_desc:
+  other: Gunakan tautan di bawah ini untuk indeks dukungan dan privasi di semua aplikasi.

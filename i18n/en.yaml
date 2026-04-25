@@ -34,3 +34,43 @@ app_quick_links_desc:
   other: Head straight to the store, or read the support and privacy pages first.
 app_download_label:
   other: Download on the App Store
+support_page_title_suffix:
+  other: Support
+support_page_intro:
+  other: Bug reports, usage questions, and privacy requests all start from this page.
+support_index_intro:
+  other: Support pages for all released apps. Each page provides contact information, App Store link, and privacy policy link.
+privacy_index_intro:
+  other: Privacy policies for all apps. None of our applications collect any personal user data. All AI processing runs entirely on your device.
+index_view_label:
+  other: View
+apps_line_offline_growth_title:
+  other: Offline Growth
+apps_line_offline_growth_desc:
+  other: Tools for language learning, reflection, and long-term personal growth.
+apps_line_digital_citizen_title:
+  other: Digital Citizen
+apps_line_digital_citizen_desc:
+  other: Apps focused on authenticity, memory, and personal digital agency.
+apps_category_language_learning:
+  other: Language Learning
+apps_category_self_reflection:
+  other: Self-Reflection
+apps_category_democracy_edc:
+  other: Democracy EDC
+apps_view_label:
+  other: View App
+apps_support_index_label:
+  other: Support Index
+apps_privacy_index_label:
+  other: Privacy Index
+apps_in_dev_title:
+  other: In Development
+apps_in_dev_desc:
+  other: Products currently under active development. Progress numbers reflect internal build status.
+apps_progress_label:
+  other: Progress
+apps_further_nav_title:
+  other: Further Navigation
+apps_further_nav_desc:
+  other: Use the links below for the support and privacy indexes across all apps.

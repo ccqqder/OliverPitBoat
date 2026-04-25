@@ -1,13 +1,11 @@
 {{ $lang := site.Language.Lang }}
-{{ $isEn := eq $lang "en" }}
 {{ $isJa := eq $lang "ja" }}
 {{ $isZh := or (eq $lang "zh-tw") (eq $lang "zh-hans") }}
 {{ $slug := .Params.app_slug | default .File.ContentBaseName }}
 {{ $matches := where site.Data.app_url_matrix "slug" $slug }}
 
-{{/* English default for stub locales (fr/ko/de/etc.); explicit ja/zh override. */}}
-{{ $supportTitleSuffix := cond $isJa "サポート" (cond $isZh "支援" "Support") }}
-{{ $introText := cond $isJa "不具合報告・利用上の質問・プライバシー関連のお問い合わせは、このページから始められます。" (cond $isZh "問題回報、使用疑問與隱私相關詢問都可以從這裡開始。" "Bug reports, usage questions, and privacy requests all start from this page.") }}
+{{ $supportTitleSuffix := i18n "support_page_title_suffix" | default "Support" }}
+{{ $introText := i18n "support_page_intro" | default "Bug reports, usage questions, and privacy requests all start from this page." }}
 
 <article class="pp-container pp-container--narrow">
   {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
@@ -19,12 +17,36 @@
       <h1 class="pp-header__title">{{ .Title | emojify }}</h1>
       {{ with .Params.summary }}<p class="pp-header__summary">{{ . }}</p>{{ end }}
     </header>
-    <section class="pp-intro prose dark:prose-invert">
-      {{ .Content }}
-    </section>
+    {{ if or (eq .Kind "section") (eq .Kind "home") }}
+      {{ $indexIntro := i18n "support_index_intro" | default "Support pages for all released apps." }}
+      {{ $viewLabel := i18n "index_view_label" | default "View" }}
+      {{ $supportPages := where site.RegularPages "Section" "support" }}
+      <section class="pp-intro prose dark:prose-invert">
+        <p>{{ $indexIntro }}</p>
+      </section>
+      <section class="pp-section">
+        <ul class="pp-panel__list">
+          {{ range $supportPages.ByTitle }}
+            {{ $appSlug := .File.ContentBaseName }}
+            {{ $appData := where site.Data.app_url_matrix "slug" $appSlug }}
+            {{ if gt (len $appData) 0 }}
+              {{ $app := index $appData 0 }}
+              {{ if $app.shipped }}
+                {{ $appName := $app.name }}
+                {{ if or $isJa $isZh }}{{ $appName = $app.name_zh }}{{ end }}
+                <li><a href="{{ .RelPermalink }}">{{ $appName }}</a></li>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        </ul>
+      </section>
+    {{ else }}
+      <section class="pp-intro prose dark:prose-invert">
+        {{ .Content }}
+      </section>
+    {{ end }}
   {{ else }}
     {{ $app := index $matches 0 }}
-    {{/* English default; ja/zh-tw/zh-hans use the Chinese-script name. */}}
     {{ $displayName := $app.name }}
     {{ if or $isJa $isZh }}{{ $displayName = $app.name_zh }}{{ end }}
 
