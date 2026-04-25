@@ -1,6 +1,6 @@
 baseURL = "https://ccqqder.github.io/PeachPitBoat/"
 theme = "blowfish"
-defaultContentLanguage = "zh-tw"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 hasCJKLanguage = true
