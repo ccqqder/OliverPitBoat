@@ -5,6 +5,10 @@ defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
+# Fallback OG/Twitter image used when a page has no featured/cover/thumbnail
+# resource. Square 1024×1024 site icon — replace with a 1200×630 branded OG
+# image when one is produced.
+defaultSocialImage = "https://ccqqder.github.io/PeachPitBoat/images/1024x1024bb.png"
 
 [header]
   layout = "basic"

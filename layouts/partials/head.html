@@ -5,7 +5,8 @@
   {{ end }}
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="theme-color">
+  <meta name="theme-color" content="#fafaf9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#262626" media="(prefers-color-scheme: dark)">
 
   {{/* Title */}}
   {{ if .IsHome }}
@@ -35,12 +36,41 @@
        Prevents Google duplicate-content penalty for the 272 stub pages while
        letting individually-translated pages (e.g. atomic-presence.fr.md) keep
        a self-canonical once their isStub flag is removed. */}}
-  {{ if .Params.isStub }}
+  {{/* Canonical: page-level `isStub: true` (per-page stub markdown) and
+       language-level `isStub = true` (whole locale is stub chrome) both
+       collapse to the EN equivalent. The language-level branch is needed
+       because stub-locale homepages have no _index.{lang}.md to set the
+       per-page flag — without it, /fr/ canonicaled to /fr/ instead of /. */}}
+  {{ $isStubLang := .Site.Language.Params.isStub }}
+  {{ if or .Params.isStub (and .IsHome $isStubLang) }}
     {{ $en := replaceRE (printf "/%s/" .Lang) "/" .Permalink }}
     <link rel="canonical" href="{{ $en }}">
   {{ else }}
     <link rel="canonical" href="{{ .Permalink }}">
   {{ end }}
+
+  {{/* Hreflang alternates for multilingual SEO. Sitemap also emits these,
+       but in-HTML hreflang is the primary signal Google uses. For stub pages
+       we point hreflang at the EN equivalent (the canonical target) so the
+       hreflang and canonical agree — Google then consolidates stub URLs into
+       the EN page rather than treating them as duplicate content. */}}
+  {{ if .IsTranslated }}
+    {{ range .AllTranslations }}
+      {{ $href := .Permalink }}
+      {{/* Stub detection mirrors the canonical logic above: page-level
+           isStub OR (homepage in a stub-only locale). Keeps hreflang and
+           canonical aligned so Google doesn't see contradictory signals. */}}
+      {{ $isStub := or .Params.isStub (and .IsHome .Language.Params.isStub) }}
+      {{ if $isStub }}
+        {{ $href = replaceRE (printf "/%s/" .Lang) "/" .Permalink }}
+      {{ end }}
+      <link rel="alternate" hreflang="{{ .Language.Params.isoCode | default .Lang }}" href="{{ $href }}">
+    {{ end }}
+    {{ with index (where .AllTranslations "Lang" "en") 0 }}
+      <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+    {{ end }}
+  {{ end }}
+
   {{ range .AlternativeOutputFormats }}
     {{ printf `
       <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink ($.Site.Title | emojify) |
@@ -63,6 +93,15 @@
   {{ end }}
 
   {{/* Social */}}
+  {{/* Custom og:locale emitted BEFORE Hugo's _internal/opengraph.html so
+       consumers reading the first match get the canonical xx_YY form
+       (en_US/ja_JP/zh_TW/zh_CN, or en_US for stub locales whose chrome
+       falls back to English). The internal template emits a second
+       og:locale with the bare language key — Open Graph spec says first
+       tag wins for duplicate properties. */}}
+  {{ with .Site.Language.Params.locale }}
+    <meta property="og:locale" content="{{ . }}">
+  {{ end }}
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
   {{/* Use defaultSocialImage if feature image does not exist */}}
@@ -75,15 +114,16 @@
   {{ end }}
   {{ if not $featureImage }}
     {{ with .Site.Params.defaultSocialImage }}
-      {{ $socialImage := "" }}
       {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
-        {{ $socialImage = resources.GetRemote . }}
+        {{/* Absolute URL — emit directly. Avoids resources.GetRemote network
+             fetch at build time (which can fail in CI without internet). */}}
+        <meta name="twitter:image" content="{{ . }}">
+        <meta property="og:image" content="{{ . }}">
       {{ else }}
-        {{ $socialImage = resources.Get . }}
-      {{ end }}
-      {{ with $socialImage }}
-        <meta name="twitter:image" content="{{ .RelPermalink | absURL }}">
-        <meta property="og:image" content="{{ .RelPermalink | absURL }}">
+        {{ with resources.Get . }}
+          <meta name="twitter:image" content="{{ .RelPermalink | absURL }}">
+          <meta property="og:image" content="{{ .RelPermalink | absURL }}">
+        {{ end }}
       {{ end }}
     {{ end }}
   {{ end }}

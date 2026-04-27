@@ -7,6 +7,7 @@ title = "QQder 核舟記部落格"
 [params]
   displayName = "JA"
   isoCode = "ja"
+  locale = "ja_JP"
   dateFormat = "2006年1月2日"
   description = "無料・広告なし iOS アプリ＋AI 補助による開発日誌 · 核舟"
 

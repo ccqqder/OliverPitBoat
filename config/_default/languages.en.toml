@@ -7,6 +7,7 @@ title = "QQder 核舟記部落格"
 [params]
   displayName = "EN"
   isoCode = "en"
+  locale = "en_US"
   dateFormat = "2 January 2006"
   description = "Free, ad-free iOS Apps + AI-assisted dev journal · The Miniature Boat"
 
