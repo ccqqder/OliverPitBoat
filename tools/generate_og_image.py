@@ -9,11 +9,14 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parent.parent
-ICON_PATH = ROOT / "static" / "images" / "1024x1024bb.png"
+# Brand mark: the junk-boat icon from assets/img/author.png — same source
+# Hugo serves at /img/author_hu_<hash>.png on the live site. Wide aspect
+# (1024×558) with dark background already matching our OG canvas.
+ICON_PATH = ROOT / "assets" / "img" / "author.png"
 OUT_PATH = ROOT / "static" / "images" / "og-default.png"
 
 W, H = 1200, 630
-BG = (28, 25, 23)            # stone-900 — matches theme-color dark
+BG = (54, 62, 68)            # exact match for author.png background (#363e44)
 TITLE_COLOR = (250, 250, 249)
 TAGLINE_COLOR = (214, 211, 209)
 URL_COLOR = (168, 162, 158)
@@ -28,14 +31,18 @@ draw = ImageDraw.Draw(img)
 # Subtle accent stripe along the left edge
 draw.rectangle((0, 0, 8, H), fill=ACCENT)
 
-# Icon: 420x420 on the left, vertically centered
+# Boat icon: scale to fit a 480-wide area, keep aspect (1024×558 → ~480×262).
+# Vertically centered. Background colors blend so no rectangle border shows.
 icon = Image.open(ICON_PATH).convert("RGBA")
-icon = icon.resize((420, 420), Image.LANCZOS)
-icon_x, icon_y = 80, (H - 420) // 2
+target_w = 500
+ratio = target_w / icon.width
+target_h = int(icon.height * ratio)
+icon = icon.resize((target_w, target_h), Image.LANCZOS)
+icon_x, icon_y = 60, (H - target_h) // 2
 img.paste(icon, (icon_x, icon_y), icon)
 
 # Right column text area
-text_x = 560
+text_x = 600
 
 # Title
 font_title = ImageFont.truetype(FONT_BOLD, 76)

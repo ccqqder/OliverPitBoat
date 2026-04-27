@@ -62,7 +62,7 @@
     <header class="pp-detail-header">
       <div class="pp-detail-header__main">
         {{ with $app.icon }}
-          <img src="{{ strings.TrimPrefix "/" . | relURL }}" alt="{{ $displayName }} icon" class="pp-detail-header__icon" />
+          {{ partial "optimized-img.html" (dict "src" . "alt" (printf "%s icon" $displayName) "class" "pp-detail-header__icon" "eager" true) }}
         {{ end }}
         <div>
           <h1 class="pp-detail-header__title">{{ $displayName }}</h1>
@@ -140,17 +140,19 @@
       <section class="pp-section">
         <h2 class="pp-section__title">{{ $shotsTitle }}</h2>
         <div class="pp-shots">
-          {{ range . }}
-            {{ $src := replace .src "-zh." $shotSuffix }}
-            {{ $caption := .caption }}
-            {{ $caption = .caption_en | default .caption }}
-            {{ if and $isJa .caption_ja }}{{ $caption = .caption_ja }}{{ end }}
-            {{ if and $isZh .caption }}{{ $caption = .caption }}{{ end }}
-            {{ $alt := .alt_en | default .alt }}
-            {{ if and $isJa .alt_ja }}{{ $alt = .alt_ja }}{{ end }}
-            {{ if and $isZh .alt }}{{ $alt = .alt }}{{ end }}
+          {{ range $i, $shot := . }}
+            {{ $src := replace $shot.src "-zh." $shotSuffix }}
+            {{ $caption := $shot.caption }}
+            {{ $caption = $shot.caption_en | default $shot.caption }}
+            {{ if and $isJa $shot.caption_ja }}{{ $caption = $shot.caption_ja }}{{ end }}
+            {{ if and $isZh $shot.caption }}{{ $caption = $shot.caption }}{{ end }}
+            {{ $alt := $shot.alt_en | default $shot.alt }}
+            {{ if and $isJa $shot.alt_ja }}{{ $alt = $shot.alt_ja }}{{ end }}
+            {{ if and $isZh $shot.alt }}{{ $alt = $shot.alt }}{{ end }}
             <figure class="pp-shot">
-              <img src="{{ strings.TrimPrefix "/" $src | relURL }}" alt="{{ $alt }}" />
+              {{/* First screenshot is the LCP candidate on app pages —
+                   eager-load it; lazy-load the rest. */}}
+              {{ partial "optimized-img.html" (dict "src" $src "alt" $alt "eager" (eq $i 0)) }}
               <figcaption>{{ $caption }}</figcaption>
             </figure>
           {{ end }}
