@@ -2,7 +2,7 @@ disabled = false
 languageCode = "ja"
 languageName = "日本語"
 weight = 3
-title = "QQder 核舟記部落格"
+title = "QQder · 核舟記"
 
 [params]
   displayName = "JA"

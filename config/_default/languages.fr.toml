@@ -2,7 +2,8 @@ disabled = false
 languageCode = "fr"
 languageName = "Français"
 weight = 50
-title = "QQder 核舟記部落格"
+# Stub locale — English chrome, English title.
+title = "QQder · The Miniature Boat"
 
 [params]
   displayName = "FR"

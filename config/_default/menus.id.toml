@@ -1,0 +1,32 @@
+# Stub locale — chrome falls back to English. Mirrors menus.en.toml so
+# Support/Privacy entries appear in /id/. Replace with Indonesian labels
+# once real translations land.
+[[main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "Apps"
+  pageRef = "apps"
+  weight = 20
+
+[[main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 30
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 40
+
+[[footer]]
+  name = "Support"
+  pageRef = "support"
+  weight = 10
+
+[[footer]]
+  name = "Privacy"
+  pageRef = "privacy"
+  weight = 20
