@@ -1,0 +1,46 @@
+{{- /*
+  Render an <img> as a <picture> with a WebP source and explicit
+  width/height attrs, for files under static/images/{screenshots,apps}/.
+  Pre-conversion + dimension capture is run by tools/optimize_screenshots.py
+  which writes data/screenshot_dims.json + sibling .webp files.
+
+  Falls back to a plain <img> when the source isn't in the dims data file
+  (e.g. remote URLs, files outside the optimized roots, or new images that
+  haven't been run through the script yet).
+
+  Args (dict):
+    src   string  required  — original URL, e.g. "/images/screenshots/foo.png"
+    alt   string  optional  — alt text
+    class string  optional  — CSS classes to apply on the <img>
+    eager bool    optional  — if true, loading="eager" + fetchpriority=high
+                              (use for the LCP candidate, e.g. first
+                              screenshot or above-the-fold icon)
+*/ -}}
+{{- $src := .src -}}
+{{- $alt := .alt | default "" -}}
+{{- $class := .class | default "" -}}
+{{- $eager := .eager | default false -}}
+
+{{- $loading := cond $eager "eager" "lazy" -}}
+{{- $fp := cond $eager "high" "auto" -}}
+
+{{- $key := strings.TrimPrefix "/" $src -}}
+{{- $dims := index site.Data.screenshot_dims $key -}}
+
+{{- $ext := "" -}}
+{{- range $e := slice ".png" ".jpg" ".jpeg" -}}
+  {{- if strings.HasSuffix $src $e -}}{{- $ext = $e -}}{{- end -}}
+{{- end -}}
+
+{{- $srcURL := strings.TrimPrefix "/" $src | relURL -}}
+
+{{- if and $dims $ext -}}
+  {{- $webp := printf "%s.webp" (strings.TrimSuffix $ext $src) -}}
+  {{- $webpURL := strings.TrimPrefix "/" $webp | relURL -}}
+  <picture>
+    <source srcset="{{ $webpURL }}" type="image/webp">
+    <img src="{{ $srcURL }}" alt="{{ $alt }}" width="{{ $dims.w }}" height="{{ $dims.h }}" loading="{{ $loading }}" decoding="async" fetchpriority="{{ $fp }}"{{ with $class }} class="{{ . }}"{{ end }}>
+  </picture>
+{{- else -}}
+  <img src="{{ $srcURL }}" alt="{{ $alt }}" loading="{{ $loading }}" decoding="async" fetchpriority="{{ $fp }}"{{ with $class }} class="{{ . }}"{{ end }}>
+{{- end -}}

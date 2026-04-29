@@ -4,7 +4,13 @@
   `apps` section so App Store rich results can surface. Everything else
   delegates to Blowfish's original WebSite / Article schemas verbatim.
 */ -}}
-{{- $isAppPage := and (eq .Section "apps") .File (not (hasPrefix .File.ContentBaseName "_")) -}}
+{{- /* MobileApplication schema only fires on a single app's content page
+       (Kind=page). Section index pages auto-generated without an _index.md
+       still have a virtual .File whose ContentBaseName is "" — the previous
+       check (`not (hasPrefix .File.ContentBaseName "_")`) wrongly evaluated
+       to true and emitted an empty MobileApplication block, which then
+       short-circuited the CollectionPage branch below. */ -}}
+{{- $isAppPage := and (eq .Section "apps") (eq .Kind "page") -}}
 {{- if $isAppPage -}}
   {{- $slug := .Params.app_slug | default .File.ContentBaseName -}}
   {{- $matches := where site.Data.app_url_matrix "slug" $slug -}}
@@ -68,6 +74,15 @@
     </script>
   {{- end -}}
 {{- else if .IsHome -}}
+  {{- /* Build sameAs[] from author.links (skip mailto:). */ -}}
+  {{- $sameAs := slice -}}
+  {{- range .Site.Params.Author.links -}}
+    {{- range $name, $url := . -}}
+      {{- if not (strings.HasPrefix $url "mailto:") -}}
+        {{- $sameAs = $sameAs | append $url -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -80,6 +95,26 @@
     {{ with .Site.Params.keywords }}"keywords": {{ . }},{{ end }}
     "publisher" : {
       "@type": "Person",
+      "name": "{{ .Site.Params.Author.name | safeJS }}"{{ with $sameAs }},
+      "sameAs": {{ . | jsonify | safeJS }}{{ end }}
+    }
+  }
+  </script>
+{{- else if (or .IsSection (eq .Kind "taxonomy") (eq .Kind "term")) -}}
+  {{/* Listing pages (sections like /posts/, /apps/, plus taxonomy/term pages
+       like /tags/foo/) get CollectionPage, not Article. The previous branch
+       emitted Article with a fake datePublished = build time, which is wrong
+       and dilutes the freshness signal of real articles. */}}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "{{ .Title | safeJS }}",
+    {{ with .Description }}"description": "{{ . | safeJS }}",{{ end }}
+    {{ with .Site.LanguageCode }}"inLanguage": "{{ . }}",{{ end }}
+    "url": {{ .Permalink }},
+    "publisher": {
+      "@type": "Person",
       "name": "{{ .Site.Params.Author.name | safeJS }}"
     }
   }
@@ -87,7 +122,7 @@
 {{- else -}}
   {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
   <script type="application/ld+json">
-  [{
+  {
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "{{ (site.GetPage .Section).Title | safeJS }}",
@@ -112,31 +147,41 @@
     {{ end }}
     "mainEntityOfPage": "true",
     "wordCount": "{{ .WordCount }}"
-  }{{ if site.Params.enableStructuredBreadcrumbs | default false }},
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {{- $position := 0 -}}
-      {{- range .Ancestors -}}
-        {{- if not .IsHome -}}
-          {{- $position = add $position 1 -}}
-          {
-            "@type": "ListItem",
-            "position": {{ $position }},
-            "name": "{{ .Title }}",
-            "item": {{ .Permalink }}
-          },
-        {{- end -}}
-      {{- end -}}
-      {{- $position = add $position 1 -}}
-      {
-        "@type": "ListItem",
-        "position": {{ $position }},
-        "name": "{{ .Title }}",
-        "item": {{ .Permalink }}
-      }
-    ]
-  }{{ end }}]
+  }
   </script>
+{{- end -}}
+
+{{/* Standalone BreadcrumbList — emitted as its own ld+json block so it
+     applies uniformly to Article + MobileApplication + CollectionPage
+     (anything that's not the home page). Previously this lived inside the
+     Article branch only, which meant /apps/<slug>/ and /posts/ list pages
+     never got breadcrumbs even with the flag enabled. */}}
+{{- if and (site.Params.enableStructuredBreadcrumbs | default false) (not .IsHome) -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {{- $position := 0 -}}
+    {{- range .Ancestors -}}
+      {{- if not .IsHome -}}
+        {{- $position = add $position 1 -}}
+        {
+          "@type": "ListItem",
+          "position": {{ $position }},
+          "name": "{{ .Title | safeJS }}",
+          "item": {{ .Permalink }}
+        },
+      {{- end -}}
+    {{- end -}}
+    {{- $position = add $position 1 -}}
+    {
+      "@type": "ListItem",
+      "position": {{ $position }},
+      "name": "{{ .Title | safeJS }}",
+      "item": {{ .Permalink }}
+    }
+  ]
+}
+</script>
 {{- end -}}

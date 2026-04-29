@@ -2,11 +2,16 @@ disabled = false
 languageCode = "ko"
 languageName = "한국어"
 weight = 51
-title = "QQder 核舟記部落格"
+# Stub locale — English chrome, English title.
+title = "QQder · The Miniature Boat"
 
 [params]
   displayName = "KO"
   isoCode = "ko"
+  # Stub locale — chrome falls back to English. Update when real Korean
+  # translations land.
+  locale = "en_US"
+  isStub = true
   dateFormat = "2 January 2006"
   description = "Free, ad-free iOS Apps + AI-assisted dev journal · The Miniature Boat"
 

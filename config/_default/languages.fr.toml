@@ -2,11 +2,21 @@ disabled = false
 languageCode = "fr"
 languageName = "Français"
 weight = 50
-title = "QQder 核舟記部落格"
+# Stub locale — English chrome, English title.
+title = "QQder · The Miniature Boat"
 
 [params]
   displayName = "FR"
   isoCode = "fr"
+  # Stub locale — chrome falls back to English content, so og:locale reflects
+  # the actual content language (en_US) rather than fr_FR. Update once real
+  # French translations land.
+  locale = "en_US"
+  # isStub at language level forces stub-locale homepages to canonical-to-EN
+  # (since they have no _index.fr.md to set the per-page isStub flag). The
+  # head.html canonical logic only applies this on .IsHome — translated
+  # sub-pages still self-canonical via their own page-level frontmatter.
+  isStub = true
   dateFormat = "2 January 2006"
   description = "Free, ad-free iOS Apps + AI-assisted dev journal · The Miniature Boat"
 

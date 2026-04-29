@@ -1,0 +1,642 @@
+{
+  "images/apps/atomic-presence.jpg": {
+    "h": 1024,
+    "w": 1024
+  },
+  "images/apps/auditory-companion.jpg": {
+    "h": 1024,
+    "w": 1024
+  },
+  "images/apps/english-n-plus-1.jpg": {
+    "h": 1024,
+    "w": 1024
+  },
+  "images/apps/english-plus-one.jpg": {
+    "h": 1024,
+    "w": 1024
+  },
+  "images/apps/gantt-planet.jpg": {
+    "h": 1024,
+    "w": 1024
+  },
+  "images/apps/kana-juku.jpg": {
+    "h": 1024,
+    "w": 1024
+  },
+  "images/apps/meme-lives.jpg": {
+    "h": 1024,
+    "w": 1024
+  },
+  "images/apps/python-dimensions.jpg": {
+    "h": 1024,
+    "w": 1024
+  },
+  "images/apps/sown-echoes.jpg": {
+    "h": 1024,
+    "w": 1024
+  },
+  "images/apps/stone-story.jpg": {
+    "h": 1024,
+    "w": 1024
+  },
+  "images/apps/stonestory.jpg": {
+    "h": 1024,
+    "w": 1024
+  },
+  "images/screenshots/atomic-presence/info-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/atomic-presence/info-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/atomic-presence/info-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/atomic-presence/level-selector-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/atomic-presence/level-selector-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/atomic-presence/level-selector-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/atomic-presence/level1-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/atomic-presence/level1-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/atomic-presence/level1-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/atomic-presence/running-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/atomic-presence/running-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/atomic-presence/running-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/atomic-presence/settings-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/atomic-presence/settings-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/atomic-presence/settings-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/atomic-presence/verification-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/atomic-presence/verification-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/atomic-presence/verification-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/auditory-companion/clipboard-editor-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/auditory-companion/clipboard-editor-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/auditory-companion/clipboard-editor-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/auditory-companion/focus-player-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/auditory-companion/focus-player-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/auditory-companion/focus-player-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/auditory-companion/focus-player.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/auditory-companion/reader-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/auditory-companion/reader-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/auditory-companion/reader-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/auditory-companion/reader.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/auditory-companion/scenes-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/auditory-companion/scenes-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/auditory-companion/scenes-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/auditory-companion/scenes.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/auditory-companion/synthesis-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/auditory-companion/synthesis-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/auditory-companion/synthesis-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/auditory-companion/synthesis.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/english-plus-one/favorites-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/english-plus-one/favorites-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/english-plus-one/favorites-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/english-plus-one/flashcard-review-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/english-plus-one/flashcard-review-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/english-plus-one/flashcard-review-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/english-plus-one/home-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/english-plus-one/home-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/english-plus-one/home-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/english-plus-one/model-load-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/english-plus-one/model-load-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/english-plus-one/model-load-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/english-plus-one/placement-test-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/english-plus-one/placement-test-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/english-plus-one/placement-test-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/gantt-planet/add-item-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/gantt-planet/add-item-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/gantt-planet/add-item-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/gantt-planet/art-collection-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/gantt-planet/art-collection-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/gantt-planet/art-collection-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/gantt-planet/diary-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/gantt-planet/diary-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/gantt-planet/geo-view-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/gantt-planet/geo-view-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/gantt-planet/geo-view-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/gantt-planet/settings-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/gantt-planet/settings-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/gantt-planet/settings-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/gantt-planet/timeline-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/gantt-planet/timeline-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/gantt-planet/timeline-scrolled-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/gantt-planet/timeline-scrolled-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/gantt-planet/timeline-scrolled-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/gantt-planet/timeline-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/gantt-planet/tree-hole-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/gantt-planet/tree-hole-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/gantt-planet/tree-hole-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/kana-juku/about-en.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/kana-juku/about-ja.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/kana-juku/about-zh.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/kana-juku/detail-en.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/kana-juku/detail-ja.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/kana-juku/detail-zh.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/kana-juku/quiz-en.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/kana-juku/quiz-ja.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/kana-juku/quiz-zh.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/kana-juku/reference-en.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/kana-juku/reference-ja.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/kana-juku/reference-zh.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/python-dimensions/ai-chat-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/ai-chat-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/ai-chat-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/ai-chat.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/cloze-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/cloze-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/cloze-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/cloze.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/mcq-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/mcq-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/mcq-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/parsons-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/parsons-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/parsons-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/parsons.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/playground-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/playground-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/playground-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/playground.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/practice-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/practice-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/practice-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/practice.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/review-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/review-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/review-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/settings-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/settings-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/python-dimensions/settings-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/sown-echoes/echo-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/sown-echoes/echo-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/sown-echoes/echo-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/sown-echoes/guided-questionnaire-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/sown-echoes/guided-questionnaire-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/sown-echoes/guided-questionnaire-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/sown-echoes/record-thoughts-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/sown-echoes/record-thoughts-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/sown-echoes/record-thoughts-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/sown-echoes/settings-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/sown-echoes/settings-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/sown-echoes/settings-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/sown-echoes/write-home-en.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/sown-echoes/write-home-ja.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/sown-echoes/write-home-zh.png": {
+    "h": 2622,
+    "w": 1206
+  },
+  "images/screenshots/stonestory/01_chapter_list-en.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/stonestory/01_chapter_list-ja.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/stonestory/01_chapter_list-zh.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/stonestory/02_entity_characters-en.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/stonestory/02_entity_characters-ja.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/stonestory/02_entity_characters-zh.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/stonestory/04_entity_relationships-en.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/stonestory/04_entity_relationships-ja.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/stonestory/04_entity_relationships-zh.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/stonestory/09_true_ending-en.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/stonestory/09_true_ending-ja.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/stonestory/09_true_ending-zh.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/stonestory/11_agent_detail-en.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/stonestory/11_agent_detail-ja.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/stonestory/11_agent_detail-zh.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/stonestory/20_place_detail-en.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/stonestory/20_place_detail-ja.png": {
+    "h": 2868,
+    "w": 1320
+  },
+  "images/screenshots/stonestory/20_place_detail-zh.png": {
+    "h": 2868,
+    "w": 1320
+  }
+}
