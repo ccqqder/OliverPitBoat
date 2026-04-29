@@ -2,24 +2,20 @@ disabled = false
 languageCode = "id"
 languageName = "Bahasa Indonesia"
 weight = 56
-# Stub locale — English chrome, English title.
-title = "QQder · The Miniature Boat"
+title = "QQder · Perahu Miniatur"
 
 [params]
-  displayName = "ID"
+  displayName = "Bahasa Indonesia"
   isoCode = "id"
-  # Stub locale — chrome falls back to English. Update when real Indonesian
-  # translations land.
-  locale = "en_US"
-  isStub = true
+  locale = "id_ID"
   dateFormat = "2 January 2006"
-  description = "Free, ad-free iOS Apps + AI-assisted dev journal · The Miniature Boat"
+  description = "Aplikasi iOS gratis tanpa iklan + jurnal pengembangan dengan bantuan AI · Perahu Miniatur"
 
 [params.author]
-  name = "QQder 核舟記部落格"
+  name = "QQder · Perahu Miniatur"
   image = "img/author.png"
-  headline = "Indie Dev · Free & Ad-free · AI Coding Journal"
-  bio = "Eight iOS apps — all free, no ads, no tracking. Pick one and try it. Also a running log of how a humanities-background sysadmin builds apps from scratch with AI vibe coding."
+  headline = "Dev Indie · Gratis & Tanpa Iklan · Jurnal Coding AI"
+  bio = "Delapan aplikasi iOS — semuanya gratis, tanpa iklan, tanpa pelacakan. Pilih satu dan cobalah. Sekaligus catatan harian seorang sysadmin berlatar humaniora yang membangun aplikasi dari nol dengan AI vibe coding."
   links = [
     { github = "https://github.com/ccqqder" },
     { email = "mailto:qqder339@gmail.com" },

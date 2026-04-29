@@ -2,24 +2,20 @@ disabled = false
 languageCode = "vi"
 languageName = "Tiếng Việt"
 weight = 55
-# Stub locale — English chrome, English title.
-title = "QQder · The Miniature Boat"
+title = "QQder · Chiếc thuyền hạt"
 
 [params]
-  displayName = "VI"
+  displayName = "Tiếng Việt"
   isoCode = "vi"
-  # Stub locale — chrome falls back to English. Update when real Vietnamese
-  # translations land.
-  locale = "en_US"
-  isStub = true
+  locale = "vi_VN"
   dateFormat = "2 January 2006"
-  description = "Free, ad-free iOS Apps + AI-assisted dev journal · The Miniature Boat"
+  description = "Ứng dụng iOS miễn phí, không quảng cáo + nhật ký phát triển có sự hỗ trợ của AI · Chiếc thuyền hạt"
 
 [params.author]
-  name = "QQder 核舟記部落格"
+  name = "QQder · Chiếc thuyền hạt"
   image = "img/author.png"
-  headline = "Indie Dev · Free & Ad-free · AI Coding Journal"
-  bio = "Eight iOS apps — all free, no ads, no tracking. Pick one and try it. Also a running log of how a humanities-background sysadmin builds apps from scratch with AI vibe coding."
+  headline = "Dev độc lập · Miễn phí & không quảng cáo · Nhật ký code cùng AI"
+  bio = "Tám ứng dụng iOS — tất cả đều miễn phí, không quảng cáo, không theo dõi. Hãy chọn một và dùng thử. Đồng thời là nhật ký ghi lại quá trình một sysadmin xuất thân nhân văn xây ứng dụng từ con số 0 với AI vibe coding."
   links = [
     { github = "https://github.com/ccqqder" },
     { email = "mailto:qqder339@gmail.com" },

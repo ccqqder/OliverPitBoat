@@ -2,29 +2,20 @@ disabled = false
 languageCode = "fr"
 languageName = "Français"
 weight = 50
-# Stub locale — English chrome, English title.
-title = "QQder · The Miniature Boat"
+title = "QQder · La Barque miniature"
 
 [params]
-  displayName = "FR"
+  displayName = "Français"
   isoCode = "fr"
-  # Stub locale — chrome falls back to English content, so og:locale reflects
-  # the actual content language (en_US) rather than fr_FR. Update once real
-  # French translations land.
-  locale = "en_US"
-  # isStub at language level forces stub-locale homepages to canonical-to-EN
-  # (since they have no _index.fr.md to set the per-page isStub flag). The
-  # head.html canonical logic only applies this on .IsHome — translated
-  # sub-pages still self-canonical via their own page-level frontmatter.
-  isStub = true
-  dateFormat = "2 January 2006"
-  description = "Free, ad-free iOS Apps + AI-assisted dev journal · The Miniature Boat"
+  locale = "fr_FR"
+  dateFormat = "2 janvier 2006"
+  description = "Apps iOS gratuites, sans pub + journal de dev assisté par IA · La Barque miniature"
 
 [params.author]
-  name = "QQder 核舟記部落格"
+  name = "QQder · La Barque miniature"
   image = "img/author.png"
-  headline = "Indie Dev · Free & Ad-free · AI Coding Journal"
-  bio = "Eight iOS apps — all free, no ads, no tracking. Pick one and try it. Also a running log of how a humanities-background sysadmin builds apps from scratch with AI vibe coding."
+  headline = "Dev indé · Gratuit & sans pub · Journal de codage IA"
+  bio = "Huit applis iOS — toutes gratuites, sans publicité, sans pistage. Choisissez-en une et essayez. C'est aussi un carnet de bord d'un sysadmin de formation littéraire qui construit ses applis depuis zéro avec l'AI vibe coding."
   links = [
     { github = "https://github.com/ccqqder" },
     { email = "mailto:qqder339@gmail.com" },

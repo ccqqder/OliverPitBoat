@@ -2,24 +2,20 @@ disabled = false
 languageCode = "ko"
 languageName = "한국어"
 weight = 51
-# Stub locale — English chrome, English title.
-title = "QQder · The Miniature Boat"
+title = "QQder 핵주기 블로그"
 
 [params]
-  displayName = "KO"
+  displayName = "한국어"
   isoCode = "ko"
-  # Stub locale — chrome falls back to English. Update when real Korean
-  # translations land.
-  locale = "en_US"
-  isStub = true
-  dateFormat = "2 January 2006"
-  description = "Free, ad-free iOS Apps + AI-assisted dev journal · The Miniature Boat"
+  locale = "ko_KR"
+  dateFormat = "2006년 1월 2일"
+  description = "무료·광고 없는 iOS 앱과 AI 보조 개발 일지 · 핵주기"
 
 [params.author]
-  name = "QQder 核舟記部落格"
+  name = "QQder 핵주기 블로그"
   image = "img/author.png"
-  headline = "Indie Dev · Free & Ad-free · AI Coding Journal"
-  bio = "Eight iOS apps — all free, no ads, no tracking. Pick one and try it. Also a running log of how a humanities-background sysadmin builds apps from scratch with AI vibe coding."
+  headline = "인디 개발 · 무료·광고 없음 · AI 코딩 일지"
+  bio = "iOS 앱 8개를 공개 중입니다. 모두 무료, 광고 없음, 추적 없음 — 마음에 드는 것을 하나 골라 사용해 보세요. 인문학 배경의 시스템 관리자가 AI vibe coding으로 아이디어를 App Store까지 올리는 과정도 함께 기록하고 있습니다."
   links = [
     { github = "https://github.com/ccqqder" },
     { email = "mailto:qqder339@gmail.com" },
