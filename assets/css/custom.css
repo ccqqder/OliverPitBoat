@@ -1257,6 +1257,95 @@ html:not(.dark) .app-card {
   opacity: 0.8;
 }
 
+/* Homepage app showcase */
+.pp-home-apps {
+  margin-top: 3rem;
+}
+.pp-home-apps__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+.pp-home-apps__title {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+.pp-home-apps__more {
+  flex-shrink: 0;
+  color: rgba(var(--color-primary-600), 1);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+html.dark .pp-home-apps__more {
+  color: rgba(var(--color-primary-400), 1);
+}
+.pp-home-apps__more:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+.pp-home-apps__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(9.5rem, 100%), 1fr));
+  gap: 1rem;
+}
+@media (min-width: 768px) {
+  .pp-home-apps__grid {
+    grid-template-columns: repeat(auto-fit, minmax(10.5rem, 1fr));
+  }
+}
+.pp-home-apps__item {
+  display: flex;
+  min-height: 10.5rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1.125rem 0.875rem;
+  border: 1px solid rgba(var(--color-neutral-200), 0.8);
+  border-radius: 0.5rem;
+  background: rgba(var(--color-neutral-50), 0.55);
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
+}
+html.dark .pp-home-apps__item {
+  border-color: rgba(var(--color-neutral-700), 0.72);
+  background: rgba(var(--color-neutral-900), 0.38);
+}
+.pp-home-apps__item:hover {
+  border-color: rgba(var(--color-primary-500), 0.48);
+  background: rgba(var(--color-neutral-100), 0.85);
+  transform: translateY(-2px);
+}
+html.dark .pp-home-apps__item:hover {
+  background: rgba(var(--color-neutral-800), 0.72);
+}
+.pp-home-apps__icon {
+  width: clamp(76px, 12vw, 104px);
+  height: clamp(76px, 12vw, 104px);
+  border-radius: 23%;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
+  object-fit: cover;
+}
+html.dark .pp-home-apps__icon {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.34);
+}
+.pp-home-apps__name {
+  color: rgba(var(--color-neutral-800), 1);
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+html.dark .pp-home-apps__name {
+  color: rgba(var(--color-neutral), 1);
+}
+
 .pp-apps-grid {
   display: grid;
   gap: 1.25rem;

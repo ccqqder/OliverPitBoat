@@ -12,7 +12,7 @@ title = "QQder · 核舟記"
   description = "無料・広告なし iOS アプリ＋AI 補助による開発日誌 · 核舟"
 
 [params.author]
-  name = "QQder 核舟記部落格"
+  name = "QQder · 核舟記"
   image = "img/author.png"
   headline = "インディー開発 · 無料・広告なし · AI コーディング日誌"
   bio = "8本の iOS アプリを公開中。すべて無料、広告なし、トラッキングなし——気になるものをぜひ試してみてください。同時に、文系出身の Sysadmin が AI vibe coding でゼロから App Store に届けるまでの記録も綴っています。"

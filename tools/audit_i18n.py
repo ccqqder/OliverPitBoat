@@ -77,6 +77,7 @@ class Audit:
     html: str = ""
     title: str = ""
     description: str = ""
+    first_h1: str = ""
     html_lang: str = ""
     canonical: str = ""
     og_locale: str = ""
@@ -164,6 +165,7 @@ def collect(audit: Audit) -> Audit:
     h = audit.html
     audit.title = _first(r"<title[^>]*>([^<]+)</title>", h)
     audit.description = _first(r'<meta\s+name=["\']?description["\']?\s+content=["\']([^"\']+)["\']', h)
+    audit.first_h1 = re.sub(r"<[^>]+>", "", _first(r"<h1[^>]*>(.*?)</h1>", h)).strip()
     audit.html_lang = _first(r"<html[^>]*\blang=([\"']?[a-zA-Z\-]+[\"']?)", h).strip("\"'")
     audit.canonical = _first(r'<link\s+rel=["\']?canonical["\']?\s+href=["\']?([^"\'\s>]+)', h)
     # First og:locale wins — that's our explicit xx_YY override
@@ -195,6 +197,12 @@ def evaluate(audits: list[Audit]) -> None:
         # 2. Description language matches locale style
         if a.style == "en" and CJK_RE.search(a.description or ""):
             a.issues.append(f"description contains CJK: {a.description[:60]!r}")
+
+        # 2b. Visible page heading language matches locale style. This catches
+        # cases where SEO metadata is localized but the actual hero/profile
+        # heading still uses a localized config value from another language.
+        if a.style == "en" and CJK_RE.search(a.first_h1 or ""):
+            a.issues.append(f"h1 contains CJK in en-style locale: {a.first_h1!r}")
 
         # 3. Nav parity vs the richest locale
         if base_nav and len(a.nav_anchors) < base_nav:

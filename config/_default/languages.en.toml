@@ -12,7 +12,7 @@ title = "QQder · The Miniature Boat"
   description = "Free, ad-free iOS Apps + AI-assisted dev journal · The Miniature Boat"
 
 [params.author]
-  name = "QQder 核舟記部落格"
+  name = "QQder · The Miniature Boat"
   image = "img/author.png"
   headline = "Indie Dev · Free & Ad-free · AI Coding Journal"
   bio = "Eight iOS apps — all free, no ads, no tracking. Pick one and try it. Also a running log of how a humanities-background sysadmin builds apps from scratch with AI vibe coding."
