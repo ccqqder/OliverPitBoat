@@ -10,13 +10,17 @@
   </div>
   <div class="pp-home-apps__grid">
     {{ range . }}
+      {{ $appPage := . }}
       {{ $icon := resources.Get (printf "images/apps/%s.jpg" .Params.app_slug) }}
       <a href="{{ .RelPermalink }}"
          class="pp-home-apps__item">
         {{ with $icon }}
         <img src="{{ .RelPermalink }}"
-             alt="{{ $.Title }}"
+             alt="{{ $appPage.Title }} icon"
+             width="104"
+             height="104"
              loading="lazy"
+             decoding="async"
              class="pp-home-apps__icon">
         {{ end }}
         <span class="pp-home-apps__name">

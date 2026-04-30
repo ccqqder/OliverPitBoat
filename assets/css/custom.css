@@ -112,6 +112,29 @@ a, button, summary, input,
   transition: all 0.15s ease;
 }
 
+/* Keep header controls finger-friendly without relying on visual icon size. */
+header nav a,
+header nav button,
+#search-button,
+#search-button-mobile,
+#appearance-switcher,
+#appearance-switcher-mobile,
+label[for="mobile-menu-toggle"] {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+
+#search-button,
+#search-button-mobile,
+#appearance-switcher,
+#appearance-switcher-mobile,
+label[for="mobile-menu-toggle"] {
+  min-width: 44px;
+  justify-content: center;
+  touch-action: manipulation;
+}
+
 /* ============================================================
    LIGHT MODE — Off-White Braun Chassis
    RAL 9002 injection-molded plastic housing,

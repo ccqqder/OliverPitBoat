@@ -67,7 +67,14 @@
                 <article class="pp-app-item">
                   <div class="pp-app-item__media">
                     {{ with $app.icon }}
-                      <img src="{{ strings.TrimPrefix "/" . | relURL }}" alt="{{ $marketingPage.Title }} icon" class="pp-app-icon" />
+                      <img
+                        src="{{ strings.TrimPrefix "/" . | relURL }}"
+                        alt="{{ $marketingPage.Title }} icon"
+                        width="80"
+                        height="80"
+                        loading="lazy"
+                        decoding="async"
+                        class="pp-app-icon" />
                     {{ end }}
                     <div class="pp-app-item__body">
                       <div class="pp-app-item__head">
