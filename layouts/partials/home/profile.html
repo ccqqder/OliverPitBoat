@@ -1,9 +1,13 @@
 {{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
+{{ $profilePaper := resources.Get "images/backgrounds/02_letterpress_paper.webp" }}
+{{ $profilePaperURL := "" }}
+{{ with $profilePaper }}
+  {{ $profilePaperURL = (.Resize "1200x").RelPermalink }}
+{{ end }}
 <article
-  class="{{ if not .Site.Params.homepage.showRecent }}
-    h-full
-  {{ end }} flex flex-col items-center justify-center text-center">
-  <header class="relative px-1 py-1 flex flex-col items-center mb-3">
+  class="pp-profile-hero{{ if not .Site.Params.homepage.showRecent }} pp-profile-hero--full{{ end }}"
+  {{ with $profilePaperURL }}style="--pp-profile-paper: url('{{ . }}');"{{ end }}>
+  <header class="pp-profile-hero__content">
     {{ with .Site.Params.Author.image }}
       {{ $authorImage := "" }}
       {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
@@ -13,34 +17,84 @@
       {{ end }}
       {{ if $authorImage }}
         {{ $final := $authorImage }}
-        {{ $squareImage := $authorImage }}
+        {{ $zoomImage := $authorImage }}
         {{ if not (or $disableImageOptimization (eq $authorImage.MediaType.SubType "svg")) }}
-          {{ $final = $authorImage.Fill (print "288x288 q" ( $.Site.Params.Author.imagequality | default "96" )) }}
-          {{ $shortSide := int (math.Min $authorImage.Width $authorImage.Height) }}
-          {{ $squareImage = $authorImage.Crop (printf "%dx%d" $shortSide $shortSide ) }}
+          {{ $final = $authorImage.Fill (print "448x448 q" ( $.Site.Params.Author.imagequality | default "96" )) }}
+          {{ $zoomImage = $authorImage.Fill (print "896x896 q" ( $.Site.Params.Author.imagequality | default "96" )) }}
         {{ end }}
-        <img
-          class="mb-2 h-36 w-36 rounded-full"
-          width="144"
-          height="144"
-          alt="{{ $.Site.Params.Author.name | default `Author` }}"
-          src="{{ $final.RelPermalink }}"
-          data-zoom-src="{{ $squareImage.RelPermalink }}">
+        <button
+          class="pp-profile-avatar-button"
+          type="button"
+          aria-haspopup="dialog"
+          aria-controls="pp-profile-avatar-zoom">
+          <img
+            class="pp-profile-hero__avatar nozoom"
+            width="224"
+            height="224"
+            alt="{{ $.Site.Params.Author.name | default `Author` }}"
+            src="{{ $final.RelPermalink }}">
+        </button>
+        <div
+          id="pp-profile-avatar-zoom"
+          class="pp-profile-avatar-zoom"
+          role="dialog"
+          aria-modal="true"
+          aria-label="{{ $.Site.Params.Author.name | default `Author` }}"
+          hidden>
+          <button class="pp-profile-avatar-zoom__scrim" type="button" aria-label="{{ i18n `close_button_title` }}"></button>
+          <img
+            class="pp-profile-avatar-zoom__image nozoom"
+            width="896"
+            height="896"
+            alt="{{ $.Site.Params.Author.name | default `Author` }}"
+            src="{{ $zoomImage.RelPermalink }}">
+          <button class="pp-profile-avatar-zoom__close" type="button" aria-label="{{ i18n `close_button_title` }}">&times;</button>
+        </div>
+        <script>
+          (() => {
+            const root = document.currentScript.closest(".pp-profile-hero__content");
+            const openButton = root?.querySelector(".pp-profile-avatar-button");
+            const zoom = root?.querySelector("#pp-profile-avatar-zoom");
+            if (!openButton || !zoom) return;
+
+            const closeButtons = zoom.querySelectorAll("button");
+            let previouslyFocused = null;
+
+            const open = () => {
+              previouslyFocused = document.activeElement;
+              zoom.hidden = false;
+              document.documentElement.classList.add("pp-profile-avatar-zoom-open");
+              zoom.querySelector(".pp-profile-avatar-zoom__close")?.focus({ preventScroll: true });
+            };
+
+            const close = () => {
+              zoom.hidden = true;
+              document.documentElement.classList.remove("pp-profile-avatar-zoom-open");
+              previouslyFocused?.focus?.({ preventScroll: true });
+            };
+
+            openButton.addEventListener("click", open);
+            closeButtons.forEach((button) => button.addEventListener("click", close));
+            document.addEventListener("keydown", (event) => {
+              if (!zoom.hidden && event.key === "Escape") close();
+            });
+          })();
+        </script>
       {{ end }}
     {{ end }}
-    <h1 class="text-4xl font-extrabold">
+    <h1 class="pp-profile-hero__title">
       {{ .Site.Params.Author.name | default .Site.Title }}
     </h1>
     {{ with .Site.Params.Author.headline }}
-      <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
+      <h2 class="pp-profile-hero__headline">
         {{ . | markdownify }}
       </h2>
     {{ end }}
-    <div class="mt-1 text-2xl">
+    <div class="pp-profile-hero__links">
       {{ partialCached "author-links.html" . }}
     </div>
   </header>
-  <section class="prose dark:prose-invert w-full">{{ .Content }}</section>
+  <section class="pp-profile-hero__body prose dark:prose-invert">{{ .Content }}</section>
 </article>
 
 {{ partial "home/featured-articles.html" . }}
