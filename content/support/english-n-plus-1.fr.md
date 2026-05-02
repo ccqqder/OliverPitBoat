@@ -34,7 +34,7 @@ R : Toutes les données sont actuellement stockées localement sur votre apparei
 1. **Échec du chargement du modèle IA** : Assurez-vous d'avoir au moins 3 Go d'espace libre, et vérifiez que le téléchargement n'a pas été interrompu
 2. **Plantage de l'application lors d'une conversation IA** : Essayez de passer à un modèle plus petit dans les Réglages
 3. **Forcer la fermeture et relancer l'application**
-4. **Vérifiez la version iOS** ≥ 17.0
+4. **Vérifiez la version iOS** ≥ 17.6
 
 ---
 

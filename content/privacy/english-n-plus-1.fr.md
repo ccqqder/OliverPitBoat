@@ -29,7 +29,7 @@ Cette application ne collecte pas :
 Les données suivantes sont stockées strictement sur votre appareil et ne sont jamais transmises à l'extérieur :
 
 - **Progression et niveau d'apprentissage** : résultats d'évaluation CECR et dossiers d'étude
-- **Historique des conversations** : journaux de conversation IA stockés localement
+- **Historique des articles de lecture** : les 10 derniers articles générés par l'IA, conservés uniquement dans un fichier local
 - **Collections de mots** : vocabulaire enregistré et notes d'apprentissage
 - **Réglages utilisateur** : préférences de langue, réglages de difficulté, etc.
 

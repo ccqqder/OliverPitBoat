@@ -34,7 +34,7 @@ A: All data is currently stored locally on your device only. iCloud backup is no
 1. **AI model fails to load**: Ensure at least 3 GB of free storage, and check that the download wasn't interrupted
 2. **App crashes during AI conversation**: Try switching to a smaller model in Settings
 3. **Force quit and relaunch the app**
-4. **Check iOS version** ≥ 17.0
+4. **Check iOS version** ≥ 17.6
 
 ---
 

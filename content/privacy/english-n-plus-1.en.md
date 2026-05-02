@@ -29,7 +29,7 @@ This app does not collect:
 The following data is stored strictly on your device and never transmitted externally:
 
 - **Learning Progress & Level**: CEFR assessment results and study records
-- **Conversation History**: AI conversation logs stored locally
+- **Reading Article History**: The last 10 AI-generated reading articles, kept only in a local file
 - **Word Collections**: Saved vocabulary and learning notes
 - **User Settings**: Language preferences, difficulty settings, etc.
 

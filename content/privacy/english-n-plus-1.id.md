@@ -29,7 +29,7 @@ Aplikasi ini tidak mengumpulkan:
 Data berikut disimpan sepenuhnya di perangkat Anda dan tidak pernah ditransmisikan ke luar:
 
 - **Progres & Level Belajar**: Hasil penilaian CEFR dan catatan studi
-- **Riwayat Percakapan**: Log percakapan AI yang disimpan secara lokal
+- **Riwayat Artikel Bacaan**: 10 artikel bacaan terbaru yang dibuat AI, hanya disimpan dalam berkas lokal
 - **Koleksi Kosakata**: Kosakata tersimpan dan catatan belajar
 - **Pengaturan Pengguna**: Preferensi bahasa, pengaturan kesulitan, dll.
 

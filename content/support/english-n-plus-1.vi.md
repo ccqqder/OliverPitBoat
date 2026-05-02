@@ -34,7 +34,7 @@ showReadingTime: false
 1. **Mô hình AI không tải được**: Đảm bảo còn ít nhất 3 GB dung lượng trống, và kiểm tra xem quá trình tải có bị gián đoạn không
 2. **Ứng dụng crash khi hội thoại AI**: Hãy thử chuyển sang mô hình nhỏ hơn trong Cài đặt
 3. **Buộc đóng và mở lại ứng dụng**
-4. **Kiểm tra phiên bản iOS** ≥ 17.0
+4. **Kiểm tra phiên bản iOS** ≥ 17.6
 
 ---
 

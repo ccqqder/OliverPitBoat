@@ -34,7 +34,7 @@ J: Semua data saat ini hanya disimpan secara lokal di perangkat Anda. Pencadanga
 1. **Model AI gagal dimuat**: Pastikan setidaknya 3 GB penyimpanan kosong tersedia, dan periksa apakah unduhan tidak terputus
 2. **Aplikasi crash saat percakapan AI**: Coba beralih ke model yang lebih kecil di Pengaturan
 3. **Paksa tutup lalu buka kembali aplikasi**
-4. **Periksa versi iOS** ≥ 17.0
+4. **Periksa versi iOS** ≥ 17.6
 
 ---
 

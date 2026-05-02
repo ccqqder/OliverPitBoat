@@ -29,7 +29,7 @@ English N+1, được phát triển bởi QQder339, là ứng dụng học tiế
 Các dữ liệu sau chỉ được lưu trên thiết bị của bạn và không bao giờ truyền ra ngoài:
 
 - **Tiến trình Học tập & Trình độ**: kết quả đánh giá CEFR và hồ sơ học tập
-- **Lịch sử Hội thoại**: nhật ký hội thoại AI được lưu cục bộ
+- **Lịch sử Bài đọc**: 10 bài đọc gần nhất do AI tạo, chỉ lưu trong tệp cục bộ
 - **Bộ sưu tập Từ vựng**: từ vựng đã lưu và ghi chú học tập
 - **Cài đặt Người dùng**: tùy chọn ngôn ngữ, cài đặt độ khó, v.v.
 
