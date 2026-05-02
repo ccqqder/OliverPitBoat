@@ -193,6 +193,46 @@
     - 単語コレクション・レベル別語彙・フラッシュカード復習：新しい語を自動的に復習リズムへ。
     - ハードウェア適応型モデル選択：端末性能に応じて最適なローカルモデルを提案。
     - 完全オフライン学習：ネットワーク不要で読解・生成・復習が完結。
+  tagline_fr: "Tuteur d'anglais IA hors ligne qui génère, selon votre niveau CEFR, un contenu juste un peu plus exigeant que vous."
+  tagline_ko: "오프라인 AI 영어 튜터가 CEFR 레벨에 맞춰 지금보다 살짝 더 도전적인 학습 자료를 생성합니다."
+  description_fr: "Bâti sur la théorie i+1 de Krashen, English N+1 combine une IA sur l'appareil avec un classement CEFR pour proposer des lectures et révisions vraiment adaptées à votre niveau actuel."
+  description_ko: "Krashen의 i+1 이론을 핵심으로 삼아, 온디바이스 AI와 CEFR 레벨 판정을 결합해 현재 수준에 꼭 맞는 읽기·복습 자료를 제공합니다."
+  features_fr:
+    - "Test de positionnement CEFR — 10 questions pour situer rapidement votre niveau, de A1 à C2."
+    - "Articles générés par IA — du contenu de lecture produit à la demande selon le sujet et la difficulté."
+    - "Collection de vocabulaire, lexique gradué et révisions par cartes — chaque nouveau mot rejoint automatiquement votre cycle de révision."
+    - "Sélection de modèles adaptée au matériel — recommande le meilleur modèle local pour votre appareil."
+    - "Apprentissage entièrement hors ligne — lisez, générez et révisez sans connexion réseau."
+  features_ko:
+    - "CEFR 배치 테스트 — 10문항으로 A1부터 C2까지의 수준을 빠르게 파악합니다."
+    - "AI 생성 기사 — 주제와 난이도에 맞춰 읽을거리를 즉시 생성합니다."
+    - "단어 수집, 레벨별 어휘 사전, 플래시카드 복습 — 새 단어가 자동으로 복습 리듬에 편입됩니다."
+    - "하드웨어 적응형 모델 선택 — 기기 성능에 가장 알맞은 로컬 모델을 추천합니다."
+    - "완전 오프라인 학습 — 네트워크 없이도 읽기·생성·복습이 가능합니다."
+  tagline_de: "Offline-KI-Englischtutor, der Inhalte erzeugt, die genau ein wenig über Ihrem CEFR-Niveau liegen."
+  tagline_es: "Tutor de inglés con IA sin conexión que genera contenido justo un poco por encima de tu nivel CEFR."
+  tagline_pt_br: "Tutor de inglês com IA offline que gera conteúdos um pouco acima do seu nível CEFR."
+  description_de: "English N+1 basiert auf Krashens i+1-Theorie und kombiniert On-Device-KI mit CEFR-Einstufung, um Lese- und Wiederholungsmaterial zu liefern, das wirklich zu Ihrem aktuellen Niveau passt."
+  description_es: "Basado en la teoría i+1 de Krashen, English N+1 combina IA en el dispositivo con clasificación CEFR para ofrecer material de lectura y repaso que se ajusta de verdad a tu nivel actual."
+  description_pt_br: "Construído sobre a teoria i+1 de Krashen, o English N+1 combina IA no dispositivo com classificação CEFR para entregar material de leitura e revisão que se encaixa de verdade no seu nível atual."
+  features_de:
+    - "CEFR-Einstufungstest — 10 Fragen, um Ihr Niveau von A1 bis C2 schnell zu bestimmen."
+    - "KI-generierte Artikel — Lesematerial wird auf Wunsch nach Thema und Schwierigkeit erzeugt."
+    - "Vokabelsammlung, gestuftes Lexikon und Karteikarten-Wiederholung — neue Wörter fügen sich automatisch in den Wiederholungsrhythmus ein."
+    - "Hardware-adaptive Modellauswahl — empfiehlt das beste lokale Modell für Ihr Gerät."
+    - "Vollständig offline lernen — lesen, generieren und wiederholen ohne Netzwerkverbindung."
+  features_es:
+    - "Prueba de nivel CEFR — 10 preguntas para situar tu nivel de A1 a C2 rápidamente."
+    - "Artículos generados por IA — material de lectura producido bajo demanda según tema y dificultad."
+    - "Colección de vocabulario, léxico graduado y repaso con tarjetas — las palabras nuevas entran automáticamente en tu ciclo de repaso."
+    - "Selección de modelo adaptada al hardware — recomienda el mejor modelo local para tu dispositivo."
+    - "Aprendizaje totalmente sin conexión — lee, genera y repasa sin conexión a Internet."
+  features_pt_br:
+    - "Teste de posicionamento CEFR — 10 questões para localizar seu nível de A1 a C2 rapidamente."
+    - "Artigos gerados por IA — material de leitura produzido sob demanda por tema e dificuldade."
+    - "Coleção de vocabulário, léxico graduado e revisão por flashcards — palavras novas entram automaticamente no seu ciclo de revisão."
+    - "Seleção de modelo adaptada ao hardware — recomenda o melhor modelo local para o seu aparelho."
+    - "Aprendizado totalmente offline — leia, gere e revise sem conexão de rede."
   screenshots:
     - src: /images/screenshots/english-plus-one/home-zh.png
       alt: 英語N+1 首頁

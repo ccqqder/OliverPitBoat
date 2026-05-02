@@ -1,0 +1,22 @@
+disabled = false
+languageCode = "es"
+languageName = "Español"
+weight = 70
+title = "QQder · La Barca pequeña"
+
+[params]
+  displayName = "Español"
+  isoCode = "es"
+  locale = "es_ES"
+  dateFormat = "2 de enero de 2006"
+  description = "Apps iOS gratis, sin anuncios + diario de desarrollo asistido por IA · La Barca pequeña"
+
+[params.author]
+  name = "QQder · La Barca pequeña"
+  image = "img/author.png"
+  headline = "Dev indie · Gratis y sin anuncios · Diario de coding con IA"
+  bio = "Ocho apps de iOS — todas gratis, sin publicidad y sin rastreo. Elige una y pruébala. También es el cuaderno de bitácora de un sysadmin con formación literaria que construye sus apps desde cero con AI vibe coding."
+  links = [
+    { github = "https://github.com/ccqqder" },
+    { email = "mailto:qqder339@gmail.com" },
+  ]

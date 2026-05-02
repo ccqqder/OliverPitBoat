@@ -1,0 +1,76 @@
+homepage_featured:
+  other: Hervorgehoben
+homepage_apps:
+  other: Apps
+homepage_apps_more:
+  other: Alle anzeigen
+offline_badge_fully:
+  other: Funktioniert offline
+offline_badge_after_setup:
+  other: Offline nach Einrichtung
+offline_badge_needs_network:
+  other: Internet erforderlich
+offline_badge_aria_fully:
+  other: Vollständig offline ab der Installation — ohne WLAN, ohne mobile Daten, ohne Server
+offline_badge_aria_after_setup:
+  other: Vollständig offline nach dem einmaligen Download des Modells oder der Daten auf das Gerät
+offline_badge_aria_needs_network:
+  other: Diese App benötigt eine durchgehende Internetverbindung
+app_support_label:
+  other: Support
+app_privacy_label:
+  other: Datenschutz
+app_terms_label:
+  other: Nutzungsbedingungen
+app_features_title:
+  other: Funktionen
+app_screenshots_title:
+  other: Screenshots
+app_further_reading_title:
+  other: Weiterführende Lektüre
+app_quick_links_title:
+  other: Schnellzugriffe
+app_quick_links_desc:
+  other: Gehen Sie direkt zum Store oder sehen Sie sich zuerst die Support- und Datenschutzseiten an.
+app_download_label:
+  other: Im App Store laden
+support_page_title_suffix:
+  other: Support
+support_page_intro:
+  other: Fehlermeldungen, Fragen zur Nutzung und Anliegen zum Datenschutz — alles beginnt auf dieser Seite.
+support_index_intro:
+  other: Supportseiten für alle veröffentlichten Apps. Jede Seite enthält die Kontaktdaten, den App-Store-Link und den Link zur Datenschutzrichtlinie.
+privacy_index_intro:
+  other: Datenschutzrichtlinien für alle Apps. Keine unserer Apps sammelt personenbezogene Daten. Die gesamte KI-Verarbeitung findet vollständig auf Ihrem Gerät statt.
+index_view_label:
+  other: Anzeigen
+apps_line_offline_growth_title:
+  other: Offline-Wachstum
+apps_line_offline_growth_desc:
+  other: Werkzeuge für Sprachlernen, Reflexion und langfristiges persönliches Wachstum.
+apps_line_digital_citizen_title:
+  other: Digitaler Bürger
+apps_line_digital_citizen_desc:
+  other: Apps mit Fokus auf Authentizität, Erinnerung und persönliche digitale Autonomie.
+apps_category_language_learning:
+  other: Sprachlernen
+apps_category_self_reflection:
+  other: Selbstreflexion
+apps_category_democracy_edc:
+  other: Demokratie EDC
+apps_view_label:
+  other: App ansehen
+apps_support_index_label:
+  other: Support-Index
+apps_privacy_index_label:
+  other: Datenschutz-Index
+apps_in_dev_title:
+  other: In Entwicklung
+apps_in_dev_desc:
+  other: Produkte, die derzeit aktiv entwickelt werden. Die Prozentwerte spiegeln den internen Entwicklungsstand wider.
+apps_progress_label:
+  other: Fortschritt
+apps_further_nav_title:
+  other: Weiterführende Navigation
+apps_further_nav_desc:
+  other: Nutzen Sie die folgenden Links, um zu den Support- und Datenschutz-Indizes aller Apps zu gelangen.

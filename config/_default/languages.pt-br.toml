@@ -1,0 +1,22 @@
+disabled = false
+languageCode = "pt-br"
+languageName = "Português (Brasil)"
+weight = 80
+title = "QQder · O Barquinho"
+
+[params]
+  displayName = "Português"
+  isoCode = "pt-BR"
+  locale = "pt_BR"
+  dateFormat = "2 de janeiro de 2006"
+  description = "Apps iOS grátis, sem anúncios + diário de desenvolvimento assistido por IA · O Barquinho"
+
+[params.author]
+  name = "QQder · O Barquinho"
+  image = "img/author.png"
+  headline = "Dev indie · Grátis e sem anúncios · Diário de coding com IA"
+  bio = "Oito apps iOS — todos grátis, sem anúncios e sem rastreamento. Escolha um e experimente. Este também é o diário de bordo de um sysadmin com formação em letras que constrói seus apps do zero com AI vibe coding."
+  links = [
+    { github = "https://github.com/ccqqder" },
+    { email = "mailto:qqder339@gmail.com" },
+  ]

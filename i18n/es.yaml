@@ -1,0 +1,76 @@
+homepage_featured:
+  other: Destacado
+homepage_apps:
+  other: Apps
+homepage_apps_more:
+  other: Ver todo
+offline_badge_fully:
+  other: Funciona sin conexión
+offline_badge_after_setup:
+  other: Sin conexión después de la configuración
+offline_badge_needs_network:
+  other: Requiere internet
+offline_badge_aria_fully:
+  other: Totalmente sin conexión desde la instalación — sin Wi-Fi, sin datos móviles, sin servidores
+offline_badge_aria_after_setup:
+  other: Totalmente sin conexión después de descargar una sola vez el modelo o los datos en el dispositivo
+offline_badge_aria_needs_network:
+  other: Esta app requiere conexión a internet continua
+app_support_label:
+  other: Soporte
+app_privacy_label:
+  other: Privacidad
+app_terms_label:
+  other: Términos de uso
+app_features_title:
+  other: Funcionalidades
+app_screenshots_title:
+  other: Capturas de pantalla
+app_further_reading_title:
+  other: Lectura complementaria
+app_quick_links_title:
+  other: Enlaces rápidos
+app_quick_links_desc:
+  other: Ve directamente a la tienda o revisa primero las páginas de soporte y privacidad.
+app_download_label:
+  other: Descargar en App Store
+support_page_title_suffix:
+  other: Soporte
+support_page_intro:
+  other: Reportes de errores, preguntas de uso y solicitudes relacionadas con la privacidad — todo empieza en esta página.
+support_index_intro:
+  other: Páginas de soporte para todas las apps publicadas. Cada página incluye los datos de contacto, el enlace de App Store y el enlace a la política de privacidad.
+privacy_index_intro:
+  other: Políticas de privacidad para todas las apps. Ninguna de nuestras apps recopila datos personales. Todo el procesamiento de IA ocurre completamente en tu dispositivo.
+index_view_label:
+  other: Ver
+apps_line_offline_growth_title:
+  other: Crecimiento sin conexión
+apps_line_offline_growth_desc:
+  other: Herramientas para aprendizaje de idiomas, reflexión y crecimiento personal a largo plazo.
+apps_line_digital_citizen_title:
+  other: Ciudadano digital
+apps_line_digital_citizen_desc:
+  other: Apps enfocadas en autenticidad, memoria y autonomía digital personal.
+apps_category_language_learning:
+  other: Aprendizaje de idiomas
+apps_category_self_reflection:
+  other: Autorreflexión
+apps_category_democracy_edc:
+  other: Democracia EDC
+apps_view_label:
+  other: Ver app
+apps_support_index_label:
+  other: Índice de soporte
+apps_privacy_index_label:
+  other: Índice de privacidad
+apps_in_dev_title:
+  other: En desarrollo
+apps_in_dev_desc:
+  other: Productos en desarrollo activo actualmente. Los porcentajes reflejan el estado de construcción interna.
+apps_progress_label:
+  other: Progreso
+apps_further_nav_title:
+  other: Navegación complementaria
+apps_further_nav_desc:
+  other: Usa los enlaces de abajo para ir a los índices de soporte y privacidad de todas las apps.

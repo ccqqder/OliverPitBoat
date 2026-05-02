@@ -1,0 +1,76 @@
+homepage_featured:
+  other: Destaque
+homepage_apps:
+  other: Apps
+homepage_apps_more:
+  other: Ver tudo
+offline_badge_fully:
+  other: Funciona offline
+offline_badge_after_setup:
+  other: Offline após a configuração
+offline_badge_needs_network:
+  other: Requer internet
+offline_badge_aria_fully:
+  other: Totalmente offline desde a instalação — sem Wi-Fi, sem dados móveis, sem servidores
+offline_badge_aria_after_setup:
+  other: Totalmente offline após o download único do modelo ou dos dados no dispositivo
+offline_badge_aria_needs_network:
+  other: Este app requer conexão contínua com a internet
+app_support_label:
+  other: Suporte
+app_privacy_label:
+  other: Privacidade
+app_terms_label:
+  other: Termos de uso
+app_features_title:
+  other: Funcionalidades
+app_screenshots_title:
+  other: Capturas de tela
+app_further_reading_title:
+  other: Leitura complementar
+app_quick_links_title:
+  other: Links rápidos
+app_quick_links_desc:
+  other: Vá direto para a loja ou consulte antes as páginas de suporte e privacidade.
+app_download_label:
+  other: Baixar na App Store
+support_page_title_suffix:
+  other: Suporte
+support_page_intro:
+  other: Relato de bugs, dúvidas de uso e solicitações relacionadas à privacidade — tudo começa por esta página.
+support_index_intro:
+  other: Páginas de suporte para todos os apps publicados. Cada página traz os dados de contato, o link da App Store e o link para a política de privacidade.
+privacy_index_intro:
+  other: Políticas de privacidade para todos os apps. Nenhum dos nossos apps coleta dados pessoais. Todo o processamento de IA acontece inteiramente no seu dispositivo.
+index_view_label:
+  other: Ver
+apps_line_offline_growth_title:
+  other: Crescimento offline
+apps_line_offline_growth_desc:
+  other: Ferramentas para aprendizagem de idiomas, reflexão e crescimento pessoal de longo prazo.
+apps_line_digital_citizen_title:
+  other: Cidadão digital
+apps_line_digital_citizen_desc:
+  other: Apps focados em autenticidade, memória e autonomia digital pessoal.
+apps_category_language_learning:
+  other: Aprendizagem de idiomas
+apps_category_self_reflection:
+  other: Autorreflexão
+apps_category_democracy_edc:
+  other: Democracia EDC
+apps_view_label:
+  other: Ver app
+apps_support_index_label:
+  other: Índice de suporte
+apps_privacy_index_label:
+  other: Índice de privacidade
+apps_in_dev_title:
+  other: Em desenvolvimento
+apps_in_dev_desc:
+  other: Produtos atualmente em desenvolvimento ativo. As porcentagens refletem o estado interno de construção.
+apps_progress_label:
+  other: Progresso
+apps_further_nav_title:
+  other: Navegação complementar
+apps_further_nav_desc:
+  other: Use os links abaixo para acessar os índices de suporte e privacidade de todos os apps.

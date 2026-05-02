@@ -1,0 +1,22 @@
+disabled = false
+languageCode = "de"
+languageName = "Deutsch"
+weight = 60
+title = "QQder · Das kleine Boot"
+
+[params]
+  displayName = "Deutsch"
+  isoCode = "de"
+  locale = "de_DE"
+  dateFormat = "2. January 2006"
+  description = "Kostenlose iOS-Apps ohne Werbung + KI-gestütztes Dev-Tagebuch · Das kleine Boot"
+
+[params.author]
+  name = "QQder · Das kleine Boot"
+  image = "img/author.png"
+  headline = "Indie-Entwickler · Kostenlos & ohne Werbung · KI-Coding-Tagebuch"
+  bio = "Acht iOS-Apps — alle kostenlos, ohne Werbung und ohne Tracking. Wählen Sie eine aus und probieren Sie sie aus. Dies ist auch das Logbuch eines Sysadmins mit literarischem Hintergrund, der seine Apps mit AI Vibe Coding von Grund auf baut."
+  links = [
+    { github = "https://github.com/ccqqder" },
+    { email = "mailto:qqder339@gmail.com" },
+  ]
