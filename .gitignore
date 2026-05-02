@@ -4,3 +4,7 @@ resources/_gen/
 node_modules/
 tina/__generated__/
 .worktrees/
+
+# Local Claude config + orphan theme clone (not part of repo)
+.claude/
+themes/PaperMod/
