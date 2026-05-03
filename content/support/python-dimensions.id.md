@@ -16,7 +16,7 @@ showReadingTime: false
 J: Kode yang kompleks (loop tak terbatas, penggunaan memori berlebihan) dapat menyebabkan timeout atau crash. Pastikan kode Anda tidak memiliki loop tak terbatas dan menghindari alokasi memori yang sangat besar. Jika potongan kode tertentu menyebabkan crash, silakan kirimkan kode tersebut melalui email kepada kami.
 
 **T: Apakah tutor AI perlu mengunduh model? Seberapa besar?**  
-J: Ya. Pertama kali menggunakan tutor AI, Anda perlu mengunduh model lokal (~1–4 GB). Setelah diunduh, berfungsi **sepenuhnya offline** — semua tanya jawab dan penjelasan berjalan di perangkat tanpa internet.
+J: Ya. Pertama kali menggunakan tutor AI, Anda memilih dan mengunduh model lokal. Ukurannya berkisar dari sekitar 370 MB (terkecil, Qwen2.5-0.5B) hingga sekitar 4,5 GB (terbesar, kelas 7B) — pilih sesuai penyimpanan dan memori perangkat. Setelah diunduh, berfungsi **sepenuhnya offline** — semua tanya jawab dan penjelasan berjalan di perangkat tanpa internet.
 
 **T: Saya rasa ada kesalahan di bank soal?**  
 J: Jika Anda menemukan pertanyaan atau jawaban yang salah, silakan kirim email kepada kami dengan: isi pertanyaan, jawaban yang benar menurut Anda, dan alasannya. Kami akan memverifikasi dan memperbarui bank soal sesegera mungkin.
@@ -25,7 +25,7 @@ J: Jika Anda menemukan pertanyaan atau jawaban yang salah, silakan kirim email k
 J: Diagram radar memerlukan jumlah minimum catatan jawaban untuk dibuat. Harap selesaikan setidaknya 20 pertanyaan terlebih dahulu.
 
 **T: Bagaimana cara menggunakan template kode?**  
-J: Di layar IDE bawaan, ketuk tombol "Templates" di pojok kanan atas, pilih kategori yang Anda butuhkan (loop, fungsi, kelas, dll.), dan kode akan otomatis disisipkan ke editor.
+J: Buka tab "Playground". Pada iPad, Anda akan melihat sidebar kiri dengan bagian **Template** di bagian atas (Hello World, loop for, If-Else, definisi fungsi, operasi list…) — ketuk salah satu untuk memuatnya ke editor. Pada iPhone, gulir tampilan Playground dan ketuk kartu **Template** untuk membuka dan memilih.
 
 ---
 

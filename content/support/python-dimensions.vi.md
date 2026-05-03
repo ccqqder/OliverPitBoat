@@ -16,7 +16,7 @@ showReadingTime: false
 Đ: Mã phức tạp (vòng lặp vô hạn, sử dụng bộ nhớ quá mức) có thể gây timeout hoặc crash. Hãy đảm bảo mã của bạn không có vòng lặp vô hạn và tránh cấp phát lượng bộ nhớ rất lớn. Nếu một đoạn mã cụ thể gây crash, vui lòng gửi email cho chúng tôi kèm đoạn mã đó.
 
 **H: Gia sư AI có cần tải mô hình không? Kích thước bao nhiêu?**  
-Đ: Có. Lần đầu sử dụng gia sư AI, bạn cần tải mô hình cục bộ (~1–4 GB). Sau khi tải, nó hoạt động **hoàn toàn ngoại tuyến** — tất cả hỏi đáp và giải thích đều chạy trên thiết bị mà không cần internet.
+Đ: Có. Lần đầu sử dụng gia sư AI, bạn chọn và tải một mô hình cục bộ. Kích thước từ khoảng 370 MB (nhỏ nhất, Qwen2.5-0.5B) đến khoảng 4,5 GB (lớn nhất, lớp 7B) — chọn theo dung lượng và bộ nhớ thiết bị. Sau khi tải, nó hoạt động **hoàn toàn ngoại tuyến** — tất cả hỏi đáp và giải thích đều chạy trên thiết bị mà không cần internet.
 
 **H: Tôi nghĩ có lỗi trong ngân hàng câu hỏi?**  
 Đ: Nếu bạn tìm thấy câu hỏi hoặc câu trả lời không chính xác, vui lòng gửi email cho chúng tôi kèm: nội dung câu hỏi, câu trả lời đúng mà bạn đề xuất, và lý do. Chúng tôi sẽ xác minh và cập nhật ngân hàng câu hỏi sớm nhất có thể.
@@ -25,7 +25,7 @@ showReadingTime: false
 Đ: Biểu đồ radar cần số lượng tối thiểu các hồ sơ trả lời để tạo. Vui lòng hoàn thành ít nhất 20 câu hỏi trước.
 
 **H: Làm thế nào để sử dụng các mẫu mã?**  
-Đ: Trong màn hình IDE tích hợp, nhấn nút "Templates" ở góc trên bên phải, chọn danh mục bạn cần (vòng lặp, hàm, lớp, v.v.), và mã sẽ được tự động chèn vào trình soạn thảo.
+Đ: Mở tab "Playground". Trên iPad, bạn sẽ thấy thanh bên trái có mục **Mẫu** ở trên cùng (Hello World, vòng for, If-Else, định nghĩa hàm, thao tác list…) — nhấn vào một mục để nạp vào trình soạn thảo. Trên iPhone, cuộn màn hình Playground và nhấn thẻ **Mẫu** để mở rộng và chọn.
 
 ---
 

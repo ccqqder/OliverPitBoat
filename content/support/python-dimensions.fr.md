@@ -16,7 +16,7 @@ showReadingTime: false
 R : Le code complexe (boucles infinies, utilisation excessive de la mémoire) peut provoquer des délais d'attente ou des plantages. Assurez-vous que votre code ne contient pas de boucles infinies et évite d'allouer de très grandes quantités de mémoire. Si un extrait de code spécifique provoque un plantage, envoyez-nous un e-mail avec ce code.
 
 **Q : Le tuteur IA doit-il télécharger un modèle ? Quelle est sa taille ?**  
-R : Oui. La première fois que vous utilisez le tuteur IA, vous devrez télécharger un modèle local (~1–4 Go). Après le téléchargement, il fonctionne **entièrement hors ligne** — toutes les questions-réponses et explications s'exécutent sur l'appareil sans internet.
+R : Oui. La première fois que vous utilisez le tuteur IA, vous choisissez et téléchargez un modèle local. Les tailles vont d'environ 370 Mo (le plus petit, Qwen2.5-0.5B) jusqu'à environ 4,5 Go (le plus grand, classe 7B) — choisissez selon le stockage et la mémoire de votre appareil. Après le téléchargement, il fonctionne **entièrement hors ligne** — toutes les questions-réponses et explications s'exécutent sur l'appareil sans internet.
 
 **Q : Je pense qu'il y a une erreur dans la banque de questions ?**  
 R : Si vous trouvez une question ou une réponse incorrecte, envoyez-nous un e-mail avec : le contenu de la question, votre réponse correcte proposée et votre raisonnement. Nous vérifierons et mettrons à jour la banque de questions dès que possible.
@@ -25,7 +25,7 @@ R : Si vous trouvez une question ou une réponse incorrecte, envoyez-nous un e-m
 R : Le graphique radar nécessite un nombre minimum d'enregistrements de réponses pour être généré. Veuillez d'abord compléter au moins 20 questions.
 
 **Q : Comment utiliser les modèles de code ?**  
-R : Dans l'écran IDE intégré, appuyez sur le bouton « Modèles » en haut à droite, sélectionnez la catégorie dont vous avez besoin (boucles, fonctions, classes, etc.), et le code sera automatiquement inséré dans l'éditeur.
+R : Ouvrez l'onglet « Aire de jeu ». Sur iPad, vous verrez une barre latérale gauche dont la section **Modèles** se trouve en haut (Hello World, boucle for, If-Else, définition de fonction, opérations sur listes…) — appuyez sur un élément pour le charger dans l'éditeur. Sur iPhone, faites défiler la vue Aire de jeu et tapez sur la carte **Modèles** pour la déplier et choisir un élément.
 
 ---
 
