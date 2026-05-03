@@ -5,7 +5,7 @@ showDate: false
 showReadingTime: false
 ---
 
-**Zuletzt aktualisiert: 2026-04-15**
+**Zuletzt aktualisiert: 2026-05-03**
 
 ---
 
@@ -29,7 +29,7 @@ Diese App erfasst nicht:
 Die folgenden Daten werden ausschließlich auf Ihrem Gerät gespeichert und niemals extern übertragen:
 
 - **Lernfortschritt und Niveau**: CEFR-Bewertungsergebnisse und Lernverlauf
-- **Lesetext-Verlauf**: Die letzten 10 von der KI generierten Lesetexte, ausschließlich in einer lokalen Datei gespeichert
+- **Lesetext-Verlauf**: Kürzlich von der KI generierte Lesetexte, ausschließlich in einer lokalen Datei gespeichert
 - **Wortsammlungen**: Gespeicherter Wortschatz und Lernnotizen
 - **Benutzereinstellungen**: Sprachpräferenzen, Schwierigkeitsstufen usw.
 

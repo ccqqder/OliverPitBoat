@@ -5,7 +5,7 @@ showDate: false
 showReadingTime: false
 ---
 
-**Última atualização: 2026-04-15**
+**Última atualização: 2026-05-03**
 
 ---
 
@@ -29,7 +29,7 @@ Este app não coleta:
 Os dados a seguir ficam estritamente armazenados no seu dispositivo e nunca são transmitidos externamente:
 
 - **Progresso e nível de aprendizagem**: resultados da avaliação CEFR e registros de estudo
-- **Histórico de artigos de leitura**: os últimos 10 artigos gerados pela IA, armazenados somente em um arquivo local
+- **Histórico de artigos de leitura**: artigos de leitura recentes gerados pela IA, armazenados somente em um arquivo local
 - **Coleções de palavras**: vocabulário salvo e notas de estudo
 - **Configurações do usuário**: preferências de idioma, ajustes de dificuldade etc.
 

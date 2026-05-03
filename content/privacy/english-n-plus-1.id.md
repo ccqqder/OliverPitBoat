@@ -5,7 +5,7 @@ showDate: false
 showReadingTime: false
 ---
 
-**Terakhir diperbarui: 2026-04-15**
+**Terakhir diperbarui: 2026-05-03**
 
 ---
 
@@ -29,7 +29,7 @@ Aplikasi ini tidak mengumpulkan:
 Data berikut disimpan sepenuhnya di perangkat Anda dan tidak pernah ditransmisikan ke luar:
 
 - **Progres & Level Belajar**: Hasil penilaian CEFR dan catatan studi
-- **Riwayat Artikel Bacaan**: 10 artikel bacaan terbaru yang dibuat AI, hanya disimpan dalam berkas lokal
+- **Riwayat Artikel Bacaan**: Artikel bacaan terbaru yang dibuat AI, hanya disimpan dalam berkas lokal
 - **Koleksi Kosakata**: Kosakata tersimpan dan catatan belajar
 - **Pengaturan Pengguna**: Preferensi bahasa, pengaturan kesulitan, dll.
 
